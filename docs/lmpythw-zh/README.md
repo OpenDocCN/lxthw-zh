@@ -1,4 +1,4 @@
-# 笨办法学 Python · 续 中文版
+# 笨办法学 Python · 续中文版
 
 原书：[Learn More Python 3 The Hard Way](https://learncodethehardway.org/more-python-book/)
 

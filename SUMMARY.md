@@ -1,1 +1,1 @@
-+   [](docs/lmpythw-zh/README.md)
++   [笨办法学 Python · 续中文版](docs/lmpythw-zh/README.md)
