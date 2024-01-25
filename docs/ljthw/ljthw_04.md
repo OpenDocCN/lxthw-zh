@@ -6,53 +6,30 @@ Java 有两个常用的命令用于在屏幕上显示东西。到目前为止，
 
 ```java
 
-1 public class PrintingChoices 2 {
-```
-
-```java
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
+ 1 public class PrintingChoices
+ 2 {
+ 3     public static void main( String[] args )
+ 4     {
+ 5         System.out.println( "Alpha" );
+ 6         System.out.println( "Bravo" );
+ 7 
+ 8         System.out.println( "Charlie" );
+ 9         System.out.println( "Delta" );
+10         System.out.println();
+11 
+12         System.out.print( "Echo" );
+13         System.out.print( "Foxtrot" );
+14 
+15         System.out.println( "Golf" );
+16         System.out.print( "Hotel" );
+17         System.out.println();
+18         System.out.println( "India" );
+19 
+20         System.out.println();
+21         System.out.println( "This" + " " + "is" + " " + "a" + " test." );
+22 
+23     }
 24 }
-```
-
-```java
-public static void main( String[] args )
-{
-System.out.println( "Alpha" ); System.out.println( "Bravo" );
-```
-
-```java
-System.out.println( "Charlie" ); System.out.println( "Delta" ); System.out.println();
-
-System.out.print( "Echo" ); System.out.print( "Foxtrot" );
-
-System.out.println( "Golf" ); System.out.print( "Hotel" ); System.out.println(); System.out.println( "India" );
-
-System.out.println();
-System.out.println( "This" + " " + "is" + " " + "a" + " test." );
-```
-
-```java
-}
 ```
 
 将以下代码输入到一个文件中。通过阅读代码，你能猜到文件必须叫`PrintingChoices.java`吗？在未来的作业中，我可能不会告诉你如何命名 Java 文件。

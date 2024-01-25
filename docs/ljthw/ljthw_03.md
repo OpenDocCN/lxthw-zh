@@ -4,6 +4,26 @@
 
 将以下文本键入单个文件中，文件名为`LetterToYourself.java`。确保与我写的内容完全匹配，包括间距、标点和大写。
 
+```java
+ 1 public class LetterToYourself
+ 2 {
+ 3     public static void main( String[] args )
+ 4     {
+ 5         System.out.println( "+­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­+" );
+ 6         System.out.println( "|                                                    #### |" );
+ 7         System.out.println( "|                                                    #### |" );
+ 8         System.out.println( "|                                                    #### |" );
+ 9         System.out.println( "|                                                         |" );
+10         System.out.println( "|                                                         |" );
+11         System.out.println( "|                              Bill Gates                 |" );
+12         System.out.println( "|                              1 Microsoft Way            |" );
+13         System.out.println( "|                              Redmond, WA 98104          |" );
+14         System.out.println( "|                                                         |" );
+15         System.out.println( "+­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­+" );
+16     }
+17 }
+```
+
 请注意，第一行与上一个任务相同，只是类的名称现在是`LetterToYourself`而不是`FirstProg`。还要注意，您要放置内容的文件名是`LetterToYourself.java`而不是`FirstProg.java`。这不是巧合。
 
 在 Java 中，每个文件只能包含一个 public 类，而公共类的名称必须与文件名（包括大小写）匹配，除了文件名以`.java`结尾，而公共类名不是。
@@ -30,31 +50,15 @@ $ javac LetterToYourself.java
 $ javac LetterToYourself.java
 $ java LetterToYourself
 +­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­+
-|
-
-#### |
-|
-
-#### |
-|
-
-#### |
-|
-
-|
-|
-
-|
-|
-Bill Gates
-|
-|
-1 Microsoft Way
-|
-|
-Redmond, WA 98104
-|
-|                          |
+|                                                    #### |
+|                                                    #### |
+|                                                    #### |
+|                                                         |
+|                                                         |
+|                              Bill Gates                 |
+|                              1 Microsoft Way            |
+|                              Redmond, WA 98104          |
+|                                                         |
 +­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­+
 ```
 
