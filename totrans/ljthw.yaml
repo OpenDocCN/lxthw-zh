@@ -13198,12 +13198,14 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 第19行我们调用了名为digest的MessageDigest对象的`digest()`方法。这给了我们一个原始的字节列表，不适合在屏幕上打印，所以我们直接将这个原始的字节列表作为参数传递给DatatypeConverter类的`printHexBinary()`方法。这将返回一个字符串，我们将其存储到变量hash中。
 - en: We then display the hash value on the screen. Whew!
   id: totrans-1948
   prefs:
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 然后我们在屏幕上显示哈希值。哇！
 - en: If this exercise freaked you out a little bit, don’t worry. If you can make
     it through the first 39 exercises in the book, then you could learn to do this
     sort of thing, too. You have to learn how to read javadoc documentation to learn
@@ -13216,6 +13218,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 如果这个练习让你有点紧张，别担心。如果你能完成本书的前39个练习，那么你也可以学会做这种事情。你必须学会阅读javadoc文档，了解其他人已经为你写好了什么样的工具，以及如何将它们连接在一起以获得你想要的东西。这只是需要大量的练习！记住，第一次写这个练习花了我半个多小时，而我从上世纪80年代开始编程，1996年开始编写Java代码！
 - en: Study Drills
   id: totrans-1950
   prefs:
@@ -13223,6 +13226,7 @@
   - PREF_IND
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习 Drill
 - en: 'Look at the javadoc documentation for all the methods used in this exercise:
     getInstance, getBytes, update, digest, and printHexBinary. Look at what arguments
     they expect and look at the types of values they will return.'
@@ -13232,6 +13236,7 @@
   - PREF_IND
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 查看本练习中使用的所有方法的javadoc文档：getInstance、getBytes、update、digest和printHexBinary。查看它们期望的参数和它们将返回的值的类型。
 - en: Remove the `throws Exception`  from the end of line 7\. Try to compile it. (Then
     put it back.) You will learn a tiny bit about exceptions in the next exercise.
   id: totrans-1952
@@ -13240,6 +13245,7 @@
   - PREF_IND
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 从第7行的末尾删除`throws Exception`。尝试编译它。（然后再放回去。）你将在下一个练习中学到一点关于异常。
 - en: 'Exercise 41: Programs that Write to Files'
   id: totrans-1953
   prefs:
@@ -13247,6 +13253,7 @@
   - PREF_IND
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习41：写入文件的程序
 - en: We are going to take a break from focusing on functions now for a bit and learn
     something easy. We are going to create a program that can put information into
     a text file instead of only being able to print things on the screen.
@@ -13255,6 +13262,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 我们现在要暂时停下来专注于函数，学习一些简单的东西。我们要创建一个程序，可以将信息放入文本文件，而不仅仅是在屏幕上打印东西。
 - en: When you are typing in this code, don’t miss the `throws Exception`  at the
     end of line 6\. (And in this exercise, I’ll actually explain what that means.)
   id: totrans-1955
@@ -13262,6 +13270,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 当你在输入这段代码时，不要错过第6行末尾的`throws Exception`。（在这个练习中，我会解释这意味着什么。）
 - en: What You Should See
   id: totrans-2009
   prefs:
@@ -13269,12 +13278,14 @@
   - PREF_IND
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的
 - en: '![image](Learn%20Java%20the%20Hard%20Way_files/Image_055.png)'
   id: totrans-2010
   prefs:
   - PREF_IND
   - PREF_IND
   type: TYPE_IMG
+  zh: '![image](Learn%20Java%20the%20Hard%20Way_files/Image_055.png)'
 - en: That’s right. When you run your program, it will appear to do nothing. But if
     you wrote it correctly, it should have created a file called `letter.txt`  in
     the same folder your code is in. You can view this file using the same text editor
@@ -13284,6 +13295,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 没错。当你运行你的程序时，它似乎什么都没做。但如果你写得正确，它应该在与你的代码相同的文件夹中创建一个名为`letter.txt`的文件。你可以使用与写代码相同的文本编辑器查看这个文件。
 - en: 'If for some reason you are using the version of Notepad that came with Windows
     95, it will look a little something like this:'
   id: totrans-2012
@@ -13291,12 +13303,14 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 如果由于某种原因你正在使用随Windows 95一起提供的版本的记事本，它看起来可能会像这样：
 - en: '![image](Learn%20Java%20the%20Hard%20Way_files/Image_056.gif)'
   id: totrans-2013
   prefs:
   - PREF_IND
   - PREF_IND
   type: TYPE_IMG
+  zh: '![image](Learn%20Java%20the%20Hard%20Way_files/Image_056.gif)'
 - en: (I made that screenshot a long time ago, okay? I’ve been doing this a long time,
     remember. When I first
   id: totrans-2014
@@ -13304,6 +13318,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: （那个截图是很久以前做的，好吧？记住我做这个已经很长时间了。当我第一次
 - en: gave this assignment to students, Windows 95 was the newest version of Windows….
     In fact, I guess the zip code changed at some point.)
   id: totrans-2015
@@ -13311,6 +13326,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 当我把这个作业给学生时，Windows 95是最新版本的Windows……实际上，我猜邮政编码在某个时候改变了。）
 - en: On lines 1 and 2 there are two new `import`  statements, one for each of the
     Java classes that will make this easy.
   id: totrans-2016
@@ -13318,6 +13334,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 在第1行和第2行有两个新的`import`语句，分别是用于这两个Java类的。
 - en: On line 8 we declare a variable. The variable is of type `PrintWriter`  and
     I have chosen to name it
   id: totrans-2017
@@ -13325,12 +13342,14 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 在第8行，我们声明了一个变量。这个变量的类型是`PrintWriter`，我选择将它命名为fileout（尽管变量的名称并不重要）。
 - en: fileout (although the variable’s name doesn’t matter).
   id: totrans-2018
   prefs:
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: fileout（尽管变量的名称并不重要）。
 - en: 'On line 10 we give the PrintWriter variable a value: the reference to a new
     PrintWriter object. Creating the PrintWriter object requires an argument, though.
     The argument we give it is a new `FileWriter`  object, which itself is created
@@ -13340,6 +13359,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 在第10行，我们给PrintWriter变量赋了一个值：一个新的PrintWriter对象的引用。创建PrintWriter对象需要一个参数。我们给它的参数是一个新的`FileWriter`对象，它本身是用文件名作为参数创建的。
 - en: It is possible to write to a text file using only a `FileWriter`  object and
     without using any PrintWriter at all. However, PrintWriters are much easier to
     work with, as you can tell by looking at the rest of the code. So instead of working
@@ -13350,6 +13370,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 可以只使用`FileWriter`对象而不使用任何PrintWriter来写入文本文件。然而，PrintWriters更容易使用，你可以通过查看代码的其余部分来看出来。所以我们不直接使用FileWriter对象，而是用PrintWriter对象“包装”FileWriter对象，然后通过PrintWriter对象进行操作。
 - en: (It is okay if you didn’t understand the last two paragraphs. You don’t need
     to understand them to write to files.)
   id: totrans-2021
@@ -13357,6 +13378,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: （如果你不理解最后两段，没关系。你不需要理解它们来写文件。）
 - en: The good news is that once the PrintWriter object is set up, everything else
     is easy. Because you have secretly been working with PrintWriters since the very
     beginning! This is because `System.out`  is a PrintWriter!
@@ -13365,6 +13387,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 好消息是，一旦PrintWriter对象设置好了，其他的事情就很容易了。因为你从一开始就在秘密地使用PrintWriters！这是因为`System.out`是一个PrintWriter！
 - en: So on line 12 you can see that writing to the file looks very similar to printing
     on the screen. But the String (`+­­­­­`) will not be printed on the screen. It
     will be stored as the first line of the file `letter.txt`!
@@ -13373,6 +13396,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 因此，在第12行，您可以看到写入文件看起来与在屏幕上打印非常相似。但是字符串（`+­­­­­`）不会被打印在屏幕上。它将被存储为文件`letter.txt`的第一行！
 - en: If a file named `letter.txt`  already exists in that folder, its contents will
     be overwritten without warning. If the file does not exist, it will be created.
   id: totrans-2024
@@ -13380,6 +13404,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 如果该文件夹中已经存在名为`letter.txt`的文件，则其内容将被覆盖而不会有警告。如果文件不存在，则将创建该文件。
 - en: The only other important line in the exercise is line 23\. This actually saves
     the contents of the file and closes it so your program can’t write to it anymore.
     If you remove this line, your program will most likely create a file called `letter.txt`,
@@ -13389,6 +13414,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 练习中的另一个重要行是第23行。这实际上保存了文件的内容并关闭了它，因此您的程序无法再对其进行写入。如果删除此行，您的程序很可能会创建一个名为`letter.txt`的文件，但该文件将为空。
 - en: Okay, before I end the exercise, I want to briefly discuss `throws Exception`.
     This is not something we do much in Real Programming, and explaining it properly
     is beyond the scope of this book, but I do want to touch on it.
@@ -13397,6 +13423,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 好的，在结束练习之前，我想简要讨论一下`throws Exception`。这在真正的编程中并不常见，并且适当地解释它超出了本书的范围，但我确实想谈一下。
 - en: In the original version of the exercise, when you put `throws Exception`  after
     the first line of a function, it means “I have written code in this function that
     might not work, and if it fails it will blow up (by throwing an exception).”
@@ -13405,6 +13432,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 在练习的原始版本中，当您在函数的第一行之后放置`throws Exception`时，它的意思是“我已经在这个函数中编写了可能不起作用的代码，如果失败，它将会失败（通过抛出异常）。”
 - en: In this case the thing that might not work is the line `new FileWriter( "letter.txt"
     )`  because it tries to open a file for writing in the current folder. This could
     fail if there is already a file called “letter.txt” and the file is read­only.
@@ -13415,6 +13443,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 在这种情况下，可能不起作用的是`new FileWriter（“letter.txt”）`这一行，因为它试图在当前文件夹中打开一个文件进行写入。如果已经有一个名为“letter.txt”的文件并且该文件是只读的，这可能会失败。或者整个文件夹是只读的。或者有其他原因导致程序无法获得对文件的写入权限。
 - en: 'So instead of just blowing up the program we are supposed to detect the exception
     and handle it. Like so:'
   id: totrans-2091
@@ -13422,6 +13451,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 因此，我们不是简单地使程序崩溃，而是应该检测异常并处理它。就像这样：
 - en: The `try`  block means “this code may throw an exception, but attempt it.” If
     everything goes well (if there is no exception thrown) then the `catch`  block
     is skipped. If there is an exception thrown, the `catch`  block gets executed,
@@ -13432,6 +13462,7 @@
   - PREF_IND
   - PREF_IND
   type: TYPE_NORMAL
+  zh: '`try`块的意思是“这段代码可能会抛出异常，但尝试执行它。”如果一切顺利（如果没有抛出异常），那么`catch`块将被跳过。如果抛出异常，则会执行`catch`块，并将抛出的异常作为参数传递进去。（我已经将异常参数命名为err，尽管它可以被命名为任何东西。）'
 - en: Inside the `catch`  block I print out a suitable error message and then end
     the program by calling the built­in function `System.exit()`. If you pass an argument
     of `0`  to `System.exit()`, the program will end, but the zero means “everything
