@@ -10,358 +10,174 @@
 
 ```java
 
-1
-import java.util.Scanner;
-
-3
-class Room
-4
-{
-5
-int roomNumber;
-6
-String roomName;
-7
-String description;
-8
-int numExits;
-9
-String[] exits = new String[10];
-10
-int[] destinations = new int[10];
-11
-}
-12
-
-13
-public class TextAdventureFinal
-14
-{
-15
-public static void main( String[] args )
-16
-{
-17
-Scanner keyboard = new Scanner(System.in);
-18
-
-19
-// initialize rooms from file
-20
-Room[] rooms = loadRoomsFromFile("text­adventure­rooms.txt");
-21
-
-22
-// showAllRooms(rooms); // for debugging
-23
-
-24
-// Okay, so let's play the game!
-25
-int currentRoom = 0;
-26
-String ans;
-27
-while ( currentRoom >= 0 )
-28
-{
-29
-Room cur = rooms[currentRoom];
-30
-System.out.print( cur.description );
-31
-System.out.print("> ");
-32
-ans = keyboard.nextLine();
-33
-
-34
-// See if what they typed matches any of our exit names
-35
-boolean found = false;
-36
-for ( int i=0; i<cur.numExits; i++ )
-37
-{
-38
-if ( cur.exits[i].equals(ans) )
-39
-{
-40
-found = true;
-41
-// if so, change our next room to that exit's room
-number
-42
-currentRoom = cur.destinations[i];
-
-43
-}
-
-44
-}
-
-45
-if ( ! found )
-
-46
-System.out.println("Sorry, I don't understand.");
-
-```
-
-然后，最好开始打字。这是一个很长的练习，但我认为它会很值得。
-
-```java
-
-2
-47
-
-}
-48
-
-49
-}
-
-50
-
-51  public static Room[] loadRoomsFromFile( String filename ) 52  {
-```
-
-1.  ```java
-    Scanner file = null;
-    ```
-
-1.  ```java
-    try
-    ```
-
-```java
-55    {
-56      file = new Scanner(new java.io.File(filename)); 57    }
-58    catch ( java.io.IOException e )
-59    {
-```
-
-1.  ```java
-    System.err.println("Sorry, I can't read from the file '" + filename + "'.");
-    ```
-
-1.  ```java
-    System.exit(1); 62    }
-    ```
-
-```java
-63
-```
-
-1.  ```java
-    int numRooms = file.nextInt();
-    ```
-
-1.  ```java
-    Room[] rooms = new Room[numRooms]; 66
-    ```
-
-1.  ```java
-    // initialize rooms from file
-    ```
-
-1.  ```java
-    int roomNum = 0;
-    ```
-
-1.  ```java
-    while ( file.hasNext() )
-    ```
-
-```java
-70    {
-```
-
-1.  ```java
-    Room r = getRoom(file);
-    ```
-
-1.  ```java
-    if ( r.roomNumber != roomNum )
-    ```
-
-```java
-73      {
-```
-
-1.  ```java
-    System.err.println("Reading room # " + r.roomNumber + ", but " + roomNum + " was expected.");
-    ```
-
-1.  ```java
-    System.exit(2);
-    ```
-
-```java
-76      }
-```
-
-1.  ```java
-    rooms[roomNum] = r;
-    ```
-
-1.  ```java
-    roomNum++;
-    ```
-
-```java
-79    }
-80 file.close(); 81
-82   return rooms; 83  }
-84
-85  public static void showAllRooms( Room[] rooms ) 86  {
-87    for ( Room r : rooms )
-88    {
-```
-
-1.  ```java
-    String exitString = "";
-    ```
-
-1.  ```java
-    for ( int i=0; i<r.numExits; i++ )
-    ```
-
-1.  ```java
-    exitString += "\t" + r.exits[i] + " (" + r.destinations[i] + ")";
-    ```
-
-1.  ```java
-    System.out.println( r.roomNumber + ") " + r.roomName + "\n" + exitString );
-    ```
-
-```java
-93    }
-94  }
-95
-96  public static Room getRoom( Scanner f ) 97  {
-```
-
-1.  ```java
-    // any rooms left in the file?
-    ```
-
-1.  ```java
-    if ( ! f.hasNextInt() )
-    ```
-
-1.  ```java
-    return null;
-    ```
-
-```java
-102
-Room r = new Room();
-103
-String line;
-104
-
-105
-// read in the room # for error­checking later
-106
-r.roomNumber = f.nextInt();
-107
-f.nextLine();  // skip "\n" after room #
-
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
+  1 import java.util.Scanner;
+  2 
+  3 class Room
+  4 {
+  5     int roomNumber;
+  6     String roomName;
+  7     String description;
+  8     int numExits;
+  9     String[] exits = new String[10];
+ 10     int[] destinations = new int[10];
+ 11 }
+ 12 
+ 13 public class TextAdventureFinal
+ 14 {
+ 15     public static void main( String[] args )
+ 16     {
+ 17         Scanner keyboard = new Scanner(System.in);
+ 18 
+ 19         // initialize rooms from file
+ 20         Room[] rooms = loadRoomsFromFile("text­adventure­rooms.txt");
+ 21 
+ 22         // showAllRooms(rooms); // for debugging
+ 23 
+ 24         // Okay, so let's play the game!
+ 25         int currentRoom = 0;
+ 26         String ans;
+ 27         while ( currentRoom >= 0 )
+ 28         {
+ 29             Room cur = rooms[currentRoom];
+ 30             System.out.print( cur.description );
+ 31             System.out.print("> ");
+ 32             ans = keyboard.nextLine();
+ 33 
+ 34             // See if what they typed matches any of our exit names
+ 35             boolean found = false;
+ 36             for ( int i=0; i<cur.numExits; i++ )
+ 37             {
+ 38                 if ( cur.exits[i].equals(ans) )
+ 39                 {
+ 40                     found = true;
+ 41                     // if so, change our next room to that exit's room number
+ 42                     currentRoom = cur.destinations[i];
+ 43                 }
+ 44             }
+ 45             if ( ! found )
+ 46                 System.out.println("Sorry, I don't understand.");
+ 47         }
+ 48 
+ 49     }
+ 50 
+ 51     public static Room[] loadRoomsFromFile( String filename )
+ 52     {
+ 53         Scanner file = null;
+ 54         try
+ 55         {
+ 56             file = new Scanner(new java.io.File(filename));
+ 57         }
+ 58         catch ( java.io.IOException e )
+ 59         {
+ 60             System.err.println("Sorry, I can't read from the file '" + 
+filename + "'.");
+ 61             System.exit(1);
+ 62         }
+ 63 
+ 64         int numRooms = file.nextInt();
+ 65         Room[] rooms = new Room[numRooms];
+ 66 
+ 67         // initialize rooms from file
+ 68         int roomNum = 0;
+ 69         while ( file.hasNext() )
+ 70         {
+ 71             Room r = getRoom(file);
+ 72             if ( r.roomNumber != roomNum )
+ 73             {
+ 74                 System.err.println("Reading room # " + r.roomNumber + ", but 
+" + roomNum + " was expected.");
+ 75                 System.exit(2);
+ 76             }
+ 77             rooms[roomNum] = r;
+ 78             roomNum++;
+ 79         }
+ 80         file.close();
+ 81 
+ 82         return rooms;
+ 83     }
+ 84 
+ 85     public static void showAllRooms( Room[] rooms )
+ 86     {
+ 87         for ( Room r : rooms )
+ 88         {
+ 89             String exitString = "";
+ 90             for ( int i=0; i<r.numExits; i++ )
+ 91                 exitString += "\t" + r.exits[i] + " (" + r.destinations[i] + 
+")";
+ 92             System.out.println( r.roomNumber + ") " + r.roomName + "\n" + 
+exitString );
+ 93         }
+ 94     }
+ 95 
+ 96     public static Room getRoom( Scanner f )
+ 97     {
+ 98         // any rooms left in the file?
+ 99         if ( ! f.hasNextInt() )
+100             return null;
+101 
+102         Room r = new Room();
+103         String line;
+104 
+105         // read in the room # for error­checking later
+106         r.roomNumber = f.nextInt();
+107         f.nextLine();   // skip "\n" after room #
+108 
+109         r.roomName = f.nextLine();
+110 
+111         // read in the room's description
+112         r.description = "";
+113         while ( true )
+114         {
+115             line = f.nextLine();
+116             if ( line.equals("%%") )
+117                 break;
+118             r.description += line + "\n";
+119         }
+120 
+121         // finally, we'll read in the exits
+122         int i = 0;
+123         while ( true )
+124         {
+125             line = f.nextLine();
+126             if ( line.equals("%%") )
+127                 break;
+128             String[] parts = line.split(":");
+129             r.exits[i] = parts[0];
+130             r.destinations[i] = Integer.parseInt(parts[1]);
+131             i++;
+132         }
+133         r.numExits = i;
+134 
+135         // should be done; return the Room
+136         return r;
+137     }
+138 
 139 }
-```
-
-```java
-r.roomName = f.nextLine();
-
-// read in the room's description r.description = "";
-while ( true )
-{
-line = f.nextLine();
-if ( line.equals("%%") ) break;
-r.description += line + "\n";
-}
-
-// finally, we'll read in the exits int i = 0;
-while ( true )
-{
-line = f.nextLine();
-if ( line.equals("%%") ) break;
-String[] parts = line.split(":"); r.exits[i] = parts[0];
-r.destinations[i] = Integer.parseInt(parts[1]); i++;
-}
-r.numExits = i;
-
-// should be done; return the Room return r;
-```
-
-```java
-}
 ```
 
 ### 您应该看到的内容
 
 ```java
-
-This is the parlor. It's a beautiful room.
-
-There looks to be a kitchen to the "north". And there's a shadowy corridor to the "east".
+This is the parlor.
+It's a beautiful room.
+There looks to be a kitchen to the "north".
+And there's a shadowy corridor to the "east".
+> north
+There is a long countertop with dirty dishes everywhere. Off to one side
+there is, as you'd expect, a refrigerator. You may open the "refrigerator"
+or "go back".
+> go back
+This is the parlor.
+It's a beautiful room.
+There looks to be a kitchen to the "north".
+And there's a shadowy corridor to the "east".
+> east
+The corridor has led to a dark room. The moment you step inside, the door
+slams shut behind you. There is no handle on the interior of the door.
+There is no escaping. Type "quit" to die.
+> quit
 ```
 
-+   ```java
-    north
-    There is a long countertop with dirty dishes everywhere. Off to one side there is, as you'd expect, a refrigerator. You may open the "refrigerator" or "go back".
-    ```
-
-+   ```java
-    go back
-    This is the parlor. It's a beautiful room.
-
-    There looks to be a kitchen to the "north". And there's a shadowy corridor to the "east".
-    ```
-
-+   ```java
-    east
-    The corridor has led to a dark room. The moment you step inside, the door slams shut behind you. There is no handle on the interior of the door.
-
-    There is no escaping. Type "quit" to die.
-    ```
-
-+   ```java
-    quit
-    ```
 
 在我开始讨论代码之前，让我花点时间谈谈冒险游戏的“文件格式”。
 

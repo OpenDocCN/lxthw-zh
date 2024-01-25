@@ -2,183 +2,71 @@
 
 在这本书结束之前，我需要向你展示如何使用记录数组来模拟一副扑克牌。
 
-1 类卡片 2 {
-
-1.  int value;
-
-1.  String suit;
-
-1.  String name;
-
-6
-
-7 public String toString() 8 {
-
-9 返回名称+ "of"+ suit; 10 }
-
+```java
+ 1 class Card
+ 2 {
+ 3     int value;
+ 4     String suit;
+ 5     String name;
+ 6 
+ 7     public String toString()
+ 8     {
+ 9         return name + " of " + suit;
+10     }
 11 }
-
-12
-
-13 public class PickACard 14 {
-
-15 public static void main（String[] args）16 {
-
-1.  Card[] deck = buildDeck();
-
-1.  // displayDeck(deck); 19
-
-1.  int chosen =（int）（Math.random（）* deck.length）;
-
-1.  Card picked = deck[chosen]; 22
-
-1.  System.out.println("你从牌组中挑选了" + picked + "。");
-
-1.  System.out.println("在二十一点中，你的牌值为" + picked.value + "
-
-点。");
-
-25
-
-}
-
-26
-
-27
-
-public static Card[] buildDeck（）
-
-28
-
-{
-
-29
-
-String[] suits = { "clubs", "diamonds", "hearts", "spades" };
-
-30
-
-String[] names = { "ZERO", "ONE", "two", "three", "four", "five", "six",
-
-31
-
-"seven", "eight", "nine", "ten", "Jack", "Queen", "King", "Ace" };
-
-32
-
-33
-
-int i = 0;
-
-34
-
-Card[] deck = new Card[52];
-
-35
-
-36
-
-对于（String s：suits）
-
-37
-
-{
-
-38
-
-对于（int v = 2; v <= 14; v ++）
-
-39
-
-{
-
-40
-
-Card c = new Card();
-
-41
-
-c.suit = s;
-
-42
-
-c.name = names[v];
-
-43
-
-如果（v == 14）
-
-44
-
-c.value = 11;
-
-45
-
-否则，如果（v > 10）
-
-46
-
-c.value = 10;
-
-47
-
-否则
-
-48
-
-c.value = v;
-
-49
-
-50
-
-deck[i] = c;
-
-51
-
-i++;
-
-52
-
-}
-
-53
-
-}
-
-54
-
-返回牌组;
-
-55
-
-}
-
-56
-
-57
-
-public static void displayDeck（Card[] deck）
-
-58
-
-{
-
-59
-
-对于（Card c：deck）
-
-60
-
-System.out.println(c.value + "\t" + c);
-
-61
-
-}
-
-62
-
-}
+12 
+13 public class PickACard
+14 {
+15     public static void main( String[] args )
+16     {
+17         Card[] deck = buildDeck();
+18         // displayDeck(deck);
+19 
+20         int chosen = (int)(Math.random()*deck.length);
+21         Card picked = deck[chosen];
+22 
+23         System.out.println("You picked a " + picked + " out of the deck.");
+24         System.out.println("In Blackjack your card is worth " + picked.value + " 
+points.");
+25     }
+26 
+27     public static Card[] buildDeck()
+28     {
+29         String[] suits = { "clubs", "diamonds", "hearts", "spades" };
+30         String[] names = { "ZERO", "ONE", "two", "three", "four", "five", "six",
+31             "seven", "eight", "nine", "ten", "Jack", "Queen", "King", "Ace" };
+32 
+33         int i = 0;
+34         Card[] deck = new Card[52];
+35 
+36         for ( String s: suits )
+37         {
+38             for ( int v = 2; v <= 14 ; v++ )
+39             {
+40                 Card c = new Card();
+41                 c.suit = s;
+42                 c.name = names[v];
+43                 if ( v == 14 )
+44                     c.value = 11;
+45                 else if ( v > 10 )
+46                     c.value = 10;
+47                 else
+48                     c.value = v;
+49 
+50                 deck[i] = c;
+51                 i++;
+52             }
+53         }
+54         return deck;
+55     }
+56 
+57     public static void displayDeck( Card[] deck )
+58     {
+59         for ( Card c : deck )
+60             System.out.println(c.value + "\t" + c);
+61     }
+62 }
+```
 
 ### 你应该看到的
 

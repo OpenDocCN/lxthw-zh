@@ -1,121 +1,63 @@
-        ## 练习 53：邮寄地址（记录）
+## 练习 53：邮寄地址（记录）
 
-        今天的练习是关于我所谓的“记录”。在 C 和 C++编程语言中，它们被称为“结构”。数组是一个变量中的许多不同值，其中值都是*相同类型*的，并且它们由*索引*（槽号）区分。记录是一个变量中的几个不同值，但值可以是不同类型的，并且它们由*名称*（通常称为“字段”）区分。
+今天的练习是关于我所谓的“记录”。在 C 和 C++编程语言中，它们被称为“结构”。数组是一个变量中的许多不同值，其中值都是*相同类型*的，并且它们由*索引*（槽号）区分。记录是一个变量中的几个不同值，但值可以是不同类型的，并且它们由*名称*（通常称为“字段”）区分。
 
-        将以下代码输入到一个名为`MailingAddresses.java`的单个文件中。（第一行说
+将以下代码输入到一个名为`MailingAddresses.java`的单个文件中。（第一行说
 
-        ```java
+`class Address`是正确的，但你不能把你的文件命名为`Address.java`，否则它就不会工作。
 
-        1 class Address 2 {
-        ```
+```java
+ 1 class Address
+ 2 {
+ 3     String street;
+ 4     String city;
+ 5     String state;
+ 6     int zip;
+ 7 }
+ 8 
+ 9 public class MailingAddresses
+10 {
+11     public static void main(String[] args)
+12     {
+13         Address uno, dos, tres;
+14 
+15         uno = new Address();
+16         uno.street = "191 Marigold Lane";
+17         uno.city   = "Miami";
+18         uno.state  = "FL";
+19         uno.zip    = 33179;
+20 
+21         dos = new Address();
+22         dos.street = "3029 Losh Lane";
+23         dos.city   = "Crafton";
+24         dos.state  = "PA";
+25         dos.zip    = 15205;
+26 
+27         tres = new Address();
+28         tres.street = "2693 Hannah Street";
+29         tres.city   = "Hickory";
+30         tres.state  = "NC";
+31         tres.zip    = 28601;
+32 
+33         System.out.println(uno.street + "\n" + uno.city + ", " + uno.state + "
+" + uno.zip + "\n");
+34         System.out.println(dos.street + "\n" + dos.city + ", " + dos.state + "
+" + dos.zip + "\n");
+35         System.out.println(tres.street + "\n" + tres.city + ", " + tres.state 
++ "  " + tres.zip + "\n");
+36     }
+37 }
+```
 
-        1.  ```java
-            String street;
-            ```
 
-        1.  ```java
-            String city;
-            ```
+### 你应该看到的是
 
-        1.  ```java
-            String state;
-            ```
+```java
 
-        1.  ```java
-            int zip; 7 }
-            ```
+191 Marigold Lane
+```
 
-        ```java
-        8
-        9 public class MailingAddresses 10 {
-        ```
-
-        ```java
-        11
-        12
-        13
-        14
-        15
-        16
-        17
-        18
-        19
-        20
-        21
-        22
-        23
-        24
-        25
-        26
-        27
-        28
-        29
-        30
-        31
-        32
-        33
-        ```
-
-        ```java
-        public static void main(String[] args)
-        {
-        Address uno, dos, tres;
-        ```
-
-        ```java
-        uno = new Address();
-        uno.street = "191 Marigold Lane"; uno.city = "Miami";
-        uno.state = "FL"; uno.zip  = 33179;
-
-        dos = new Address(); dos.street = "3029 Losh Lane"; dos.city = "Crafton"; dos.state = "PA";
-        dos.zip  = 15205;
-
-        tres = new Address();
-        tres.street = "2693 Hannah Street"; tres.city = "Hickory";
-        tres.state = "NC"; tres.zip  = 28601;
-
-        System.out.println(uno.street + "\n" + uno.city + ", " + uno.state + "
-        ```
-
-        ```java
-        " + uno.zip + "\n");
-        ```
-
-        ```java
-        34
-        ```
-
-        ```java
-        System.out.println(dos.street + "\n" + dos.city + ", " + dos.state + "
-        ```
-
-        ```java
-        " + dos.zip + "\n");
-        ```
-
-        ```java
-        35
-        ```
-
-        ```java
-        System.out.println(tres.street + "\n" + tres.city + ", " + tres.state
-        ```
-
-        ```java
-        + " " + tres.zip + "\n"); 36 }
-        37 }
-        ```
-
-        `class Address`是正确的，但你不能把你的文件命名为`Address.java`，否则它就不会工作。
-
-        ### 你应该看到的是
-
-        ```java
-
-        191 Marigold Lane
-        ```
-
-        ![image](img/Image_069.png)
+![image](img/Image_069.png)
 
 1.  这一切只有一个问题：Java 实际上并没有记录。事实证明，如果你创建一个没有方法，只有公共变量的嵌套类，它就像一个结构一样工作，即使它不是 Java 的方式。
 
@@ -161,9 +103,9 @@ Address 记录名为 uno 的 street 字段，这正是我们在第 16 行所做�
 
 1.  在第 13 行创建第四个 Address 变量，并更改代码以将*您的*邮寄地址放入其中。不要忘记在底部打印出来。
 
-    ### 常见问题
+### 常见问题
 
-    +   你从哪里得到这些地址的？
++   你从哪里得到这些地址的？
 
-        我编造了它们。 我相当肯定这些街道在这些城市中并不存在。 如果我奇迹般地编造了一个真实地址，请告诉我，我会更改它。
+我编造了它们。 我相当肯定这些街道在这些城市中并不存在。 如果我奇迹般地编造了一个真实地址，请告诉我，我会更改它。
 
