@@ -2,121 +2,48 @@
 
 Pig 是一个简单的骰子游戏，适用于两个或更多玩家。（如果您想了解更多信息，可以阅读维基百科关于 Pig 的条目。）基本思想是成为第一个“存入”100 分的人。当您掷出 1 时，您的回合结束，这一回合您不会获得任何分数。任何其他掷骰都会增加您这一回合的分数，但只有在您决定“保留”时才能保留这些分数。如果在保留之前掷出 1，那么您这一回合的所有分数都将丢失。
 
-1 导入 java.util.Scanner; 2
-
-3 public class PigDiceComputer 4 {
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-public static void main(String[] args)
-
-{
-
-Scanner keyboard = new Scanner(System.in);
-
-int roll, total;
-
-total = 0;
-
-做
-
-{
-
-roll = 1 + (int)(Math.random()*6);
-
-System.out.println("计算机掷出了" + roll + "。"); if (roll == 1)
-
-{
-
-System.out.println("\t 这结束了它的回合。"); total = 0;
-
-}
-
-else
-
-{
-
-total += roll;
-
-System.out.println("\t 计算机到目前为止获得了" + total + "分。");
-
-回合。"); 26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-32
-
-33
-
-34
-
-如果（总数<20）
-
-{
-
-System.out.println("\t 计算机选择再次掷骰。");
-
-}
-
-}
-
-} while (roll != 1 && total < 20);
-
-System.out.println("计算机以" + total + "分结束本轮。");
-
-35 }
-
-36 }
 
 您已经掌握了整个 Pig 游戏的代码，但与您之前看到的较小程序相比，这是一次性的*很多*，所以我将把它分成两节课。今天我们只会为计算机玩家编写人工智能（A.I.）代码。这个计算机玩家将使用“在 20 时保留”策略，这意味着计算机会继续掷骰，直到他们这一回合的分数达到 20 或更多，然后无论如何都会保留。这实际上并不是一个糟糕的策略，而且编码起来也很容易。
+
+```java
+ 1 import java.util.Scanner;
+ 2 
+ 3 public class PigDiceComputer
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8 
+ 9         int roll, total;
+10 
+11         total = 0;
+12 
+13         do
+14         {
+15             roll = 1 + (int)(Math.random()*6);
+16             System.out.println( "Computer rolled a " + roll + "." );
+17             if ( roll == 1 )
+18             {
+19                 System.out.println( "\tThat ends its turn." );
+20                 total = 0;
+21             }
+22             else
+23             {
+24                 total += roll;
+25                 System.out.println( "\tComputer has " + total + " points so far this 
+round." );
+26                 if ( total < 20 )
+27                 {
+28                     System.out.println( "\tComputer chooses to roll again." );
+29                 }
+30             }
+31         } while ( roll != 1 && total < 20 );
+32 
+33         System.out.println( "Computer ends the round with " + total + " points." );
+34 
+35     }
+36 }
+```
 
 ### 预期输出
 
@@ -149,21 +76,13 @@ Computer ends the round with 0 points.
 
 继续进行，直到程序结束。以下是程序“预期输出”部分所示程序示例运行的表格样式示例。
 
-掷骰
-
-总数
-
-0 (11)
-
-2 (15)
-
-2 (24)
-
-3 (15)
-
-5 (24)
-
-1 (15)
-
-0 (20)
+| 掷骰 | 总数 |
+| --- | --- |
+| 0 (11) | |
+| | 2 (15) |
+| 2 (24) | |
+| | 3 (15) |
+| 5 (24) | |
+| | 1 (15) |
+| 0 (20) | |
 

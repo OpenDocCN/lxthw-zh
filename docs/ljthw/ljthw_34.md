@@ -4,173 +4,93 @@
 
 你上次写的整个程序大致对应于这个程序中的第 43 到 67 行。唯一的主要区别是，我们将有一个*turnTotal*变量来保存一个回合的点数，而*total2*变量则保存计算机从一轮到另一轮的总点数。
 
-1 import java.util.Scanner; 2
 
-3 public class PigDice 4 {
-
-5 public static void main( String[] args ) 6 {
-
-7 Scanner keyboard = new Scanner(System.in); 8
-
-1.  int roll, total1, total2, turnTotal;
-
-1.  String choice = ""; 11
-
-1.  total1 = 0;
-
-1.  total2 = 0; 14
-
-15 do
-
-16 {
-
-1.  turnTotal = 0;
-
-1.  System.out.println( "你有 " + total1 + " 点。" ); 19
-
-20 do
-
-21 {
-
-1.  roll = 1 + (int)(Math.random()*6);
-
-1.  System.out.println( "\t 你掷出了 " + roll + "。" );
-
-1.  if ( roll == 1 )
-
-25 {
-
-1.  System.out.println( "\t 这结束了你的回合。" );
-
-1.  turnTotal = 0;
-
-28 }
-
-29 else
-
-30 {
-
-1.  turnTotal += roll;
-
-1.  System.out.println( "\t 你这一轮到目前为止有 " + turnTotal + " 点。" );
-
-1.  System.out.print( "\t 你想再“roll”一次还是“hold”？ " );
-
-1.  choice = keyboard.next(); 35 }
-
-36 } while ( roll != 1 && choice.equals("roll") ); 37
-
-1.  total1 += turnTotal;
-
-1.  System.out.println( "\t 你以 " + total1 + " 点结束这一轮。" ); 40
-
-41 if ( total1 < 100 )
-
-42 {
-
-1.  turnTotal = 0;
-
-1.  System.out.println( "计算机有 " + total2 + " 点。" ); 45
-
-46 do
-
-47 {
-
-1.  roll = 1 + (int)(Math.random()*6);
-
-1.  System.out.println( "\t 计算机掷出了 " + roll + "。" );
-
-1.  if ( roll == 1 )
-
-51 {
-
-1.  System.out.println( "\t 这结束了它的回合。" );
-
-1.  turnTotal = 0;
-
-54 }
-
-55 else
-
-56 {
-
-1.  turnTotal += roll;
-
-1.  System.out.println( "\t 计算机到目前为止这一轮有 " + turnTotal + " 点。" );
-
-1.  if ( turnTotal < 20 )
-
-60 {
-
-61 System.out.println( "\t 计算机选择再次掷骰子。" ); 62 }
-
-63 }
-
-64
-
-65
-
-66
-
-67
-
-68
-
-69
-
-70
-
-71
-
-72
-
-73
-
-74
-
-75
-
-76
-
-77
-
-78
-
-79
-
-80
-
-81
-
+```java
+ 1 import java.util.Scanner;
+ 2 
+ 3 public class PigDice
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8 
+ 9         int roll, total1, total2, turnTotal;
+10         String choice = "";
+11 
+12         total1 = 0;
+13         total2 = 0;
+14 
+15         do
+16         {
+17             turnTotal = 0;
+18             System.out.println( "You have " + total1 + " points." );
+19 
+20             do
+21             {
+22                 roll = 1 + (int)(Math.random()*6);
+23                 System.out.println( "\tYou rolled a " + roll + "." );
+24                 if ( roll == 1 )
+25                 {
+26                     System.out.println( "\tThat ends your turn." );
+27                     turnTotal = 0;
+28                 }
+29                 else
+30                 {
+31                     turnTotal += roll;
+32                     System.out.println( "\tYou have " + turnTotal + " points so far this 
+round." );
+33                     System.out.print( "\tWould you like to \"roll\" again or \"hold\"? " );
+34                     choice = keyboard.next();
+35                 }
+36             } while ( roll != 1 && choice.equals("roll") );
+37 
+38             total1 += turnTotal;
+39             System.out.println( "\tYou end the round with " + total1 + " points." );
+40 
+41             if ( total1 < 100 )
+42             {
+43                 turnTotal = 0;
+44                 System.out.println( "Computer has " + total2 + " points." );
+45 
+46                 do
+47                 {
+48                     roll = 1 + (int)(Math.random()*6);
+49                     System.out.println( "\tComputer rolled a " + roll + "." );
+50                     if ( roll == 1 )
+51                     {
+52                         System.out.println( "\tThat ends its turn." );
+53                         turnTotal = 0;
+54                     }
+55                     else
+56                     {
+57                         turnTotal += roll;
+58                         System.out.println( "\tComputer has " + turnTotal + " points so far this 
+round." );
+59                         if ( turnTotal < 20 )
+60                         {
+61                             System.out.println( "\tComputer chooses to roll again." );
+62                         }
+63                     }
+64                 } while ( roll != 1 && turnTotal < 20 );
+65 
+66                 total2 += turnTotal;
+67                 System.out.println( "\tComputer ends the round with " + total2 + " points." );
+68             }
+69 
+70         } while ( total1 < 100 && total2 < 100 );
+71 
+72         if ( total1 > total2 )
+73         {
+74             System.out.println( "Humanity wins!" );
+75         }
+76         else
+77         {
+78             System.out.println( "The computer wins." );
+79         }
+80 
+81     }
 82 }
-
-} while ( roll != 1 && turnTotal < 20 );
-
-total2 += turnTotal;
-
-System.out.println( "\t 计算机以 " + total2 + " 点结束这一轮。" );
-
-}
-
-} while ( total1 < 100 && total2 < 100 );
-
-if ( total1 > total2 )
-
-{
-
-System.out.println( "人类获胜！" );
-
-}
-
-else
-
-{
-
-System.out.println( "计算机获胜。" );
-
-}
-
-}
+```
 
 ### 你应该看到的是
 
@@ -210,9 +130,6 @@ Computer rolled a 3.
 Computer has 16 points so far this round. Computer chooses to roll again.
 Computer rolled a 5.
 Computer has 21 points so far this round.
-```
-
-```java
 Computer ends the round with 21 points.
 You have 12 points.
 You rolled a 2.
@@ -221,7 +138,8 @@ Would you like to "roll" again or "hold"? roll
 
 ...etc
 
-Computer has 20 points so far this round. Computer ends the round with 102 points.
+Computer has 20 points so far this round. 
+Computer ends the round with 102 points.
 The computer wins.
 ```
 

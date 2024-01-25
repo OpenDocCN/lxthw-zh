@@ -3,49 +3,22 @@
 上一个练习相当复杂。所以我们今天的练习会放松一下。我们将学习如何在 Java 中编写“函数”，以及如何通过“调用”来执行它。10
 
 ```java
-
-1 public class ThereAndBackAgain 2 {
-3
-
-public static void main( String[] args )
-4
-
-{
-5
-
-System.out.println( "Here." );
-6
-
-erebor();
-7
-
-System.out.println( "Back first time." );
-8
-
-erebor();
-9
-
-System.out.println( "Back second time." );
-10
-
-}
-11
-
-12
-
-public static void erebor()
-13
-
-{
-14
-
-System.out.println( "There." );
-15
-
-}
-16
-}
-
+ 1 public class ThereAndBackAgain
+ 2 {
+ 3     public static void main( String[] args )
+ 4     {
+ 5         System.out.println( "Here." );
+ 6         erebor();
+ 7         System.out.println( "Back first time." );
+ 8         erebor();
+ 9         System.out.println( "Back second time." );
+10     }
+11 
+12     public static void erebor()
+13     {
+14         System.out.println( "There." );
+15     }
+16 }
 ```
 
 ### 你应该看到什么

@@ -5,222 +5,104 @@
 这个程序中没有零（`0`）。所有看起来像`O`的东西都是大写字母 O。还要注意，第 45 行和第 50 行使用的是`print()`而不是`println()`。
 
 ```java
-
-1 import static java.lang.System.*; 2
-3 public class OverlyComplexFlag
-4 {
-5
-public static void main( String[] args )
-
-6
-{
-
-7
-printTopHalf();
-
-8
-
-9
-print48Colons();
-
-10
-print48Ohs();
-
-11
-print48Colons();
-
-12
-print48Ohs();
-
-13
-print48Colons();
-
-14
-print48Ohs();
-
-15
-}
-
-16
-
-17
-public static void print48Colons()
-
-18
-{
-
-19
-out.println( "|::::::::::::::::::::::::::::::::::::::::::::::::|"
-);
-20
-}
-
-21
-
-22
-public static void print48Ohs()
-
-23
-{
-
-24
-out.println( "|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|"
-);
-25
-}
-
-26
-
-27
-public static void print29Colons()
-
-28
-{
-
-29
-out.println( "|:::::::::::::::::::::::::::::|" );
-
-30
-}
-
-31
-
-32
-public static void printPledge()
-
-33
-{
-
-34
-out.println( "I pledge allegiance to the flag." );
-
-35
-}
-
-36
-
-37
-public static void print29Ohs()
-
-38
-{
-
-39
-out.println( "|OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|" );
-
-40
-}
-
-41
-
-42
-public static void print6Stars()
-
-43
-{
-
-44
-out.print( "| * * * * * * " );
-
-45
-}
-
-46
-
-47
-public static void print5Stars()
-
-48
-{
-
-49
-out.print( "|  * * * * * " );
-
-50
-}
-
-51
-
-52
-public static void printSixStarLine()
-
-53
-{
-
-54
-print6Stars();
-
-55
-print29Ohs();
-
-56
-}
-
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-```
-
-```java
-public static void printFiveStarLine()
-{
-print5Stars(); print29Colons();
-}
-```
-
-```java
-public static void printTopHalf()
-{
-out.println( "  " ); //
+ 1 import static java.lang.System.*;
+ 2 
+ 3 public class OverlyComplexFlag
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         printTopHalf();
+ 8 
+ 9         print48Colons();
+10         print48Ohs();
+11         print48Colons();
+12         print48Ohs();
+13         print48Colons();
+14         print48Ohs();
+15     }
+16 
+17     public static void print48Colons()
+18     {
+19         out.println( "|::::::::::::::::::::::::::::::::::::::::::::::::|" );
+20     }
+21 
+22     public static void print48Ohs()
+23     {
+24         out.println( "|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|" );
+25     }
+26 
+27     public static void print29Colons()
+28     {
+29         out.println( "|:::::::::::::::::::::::::::::|" );
+30     }
+31 
+32     public static void printPledge()
+33     {
+34         out.println( "I pledge allegiance to the flag." );
+35     }
+36 
+37     public static void print29Ohs()
+38     {
+39         out.println( "|OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|" );
+40     }
+41 
+42     public static void print6Stars()
+43     {
+44         out.print( "| *  *  *  *  *  * " );
+45     }
+46 
+47     public static void print5Stars()
+48     {
+49         out.print( "|   *  *  *  *  *  " );
+50     }
+51 
+52     public static void printSixStarLine()
+53     {
+54         print6Stars();
+55         print29Ohs();
+56     }
+57 
+58     public static void printFiveStarLine()
+59     {
+60         print5Stars();
+61         print29Colons();
+62     }
+63 
+64     public static void printTopHalf()
+65     {
+66         out.println( " ________________________________________________" ); //
 1 space then 48 underscores
-```
-
-```java
-67
-68
-69
-70
-71
-72
-73
-74
-75
+67         printSixStarLine();
+68         printFiveStarLine();
+69         printSixStarLine();
+70         printFiveStarLine();
+71         printSixStarLine();
+72         printFiveStarLine();
+73         printSixStarLine();
+74     }
+75 
 76 }
 ```
 
-```java
-printSixStarLine(); printFiveStarLine(); printSixStarLine(); printFiveStarLine(); printSixStarLine(); printFiveStarLine(); printSixStarLine();
-```
-
-```java
-}
-```
-
-```java
-
-| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|  * * * * * |:::::::::::::::::::::::::::::|
-| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|  * * * * * |:::::::::::::::::::::::::::::|
-| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|  * * * * * |:::::::::::::::::::::::::::::|
-| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|::::::::::::::::::::::::::::::::::::::::::::::::|
-|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|::::::::::::::::::::::::::::::::::::::::::::::::|
-|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-|::::::::::::::::::::::::::::::::::::::::::::::::|
-|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
-```
 
 ### 你应该看到的
+
+```java
+
+| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|  * * * * * |:::::::::::::::::::::::::::::|
+| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|  * * * * * |:::::::::::::::::::::::::::::|
+| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|  * * * * * |:::::::::::::::::::::::::::::|
+| * * * * * * |OOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|::::::::::::::::::::::::::::::::::::::::::::::::|
+|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|::::::::::::::::::::::::::::::::::::::::::::::::|
+|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+|::::::::::::::::::::::::::::::::::::::::::::::::|
+|OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+```
 
 这个练习很荒谬。没有任何值得尊重的程序员会以这种方式在屏幕上绘制旗帜。如果编写这个程序感觉有点傻，那没关系。但是函数很重要，我更喜欢从你实际能理解的愚蠢例子开始，而不是从太难跟随的现实例子开始。
 
@@ -233,326 +115,170 @@ printSixStarLine(); printFiveStarLine(); printSixStarLine(); printFiveStarLine()
 在这一点上，我认为解释所有的函数调用会比跟随执行路径更加混乱，所以在这里我将按顺序打印所有执行的行号。调用一个函数会增加缩进级别，从该函数返回会减少缩进级别。
 
 ```java
-5 ­ begin main 6
+5 ­ begin main
+6
 7 ­ call printTopHalf
-64 ­ begin printTopHalf 65
-66
-67 ­ call printSixStarLine
-52 ­ begin printSixStarLine 53
-54 ­ call print6Stars
-42 ­ begin print6Stars 43
-44
-45 ­ end print6Stars
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ call print29Ohs
-    ```
-
-```java
-37 ­ begin print29Ohs 38
-39
-40 ­ end print29Ohs
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ end printSixStarLine
-    ```
-
-```java
-67 ­ resume printTopHalf
-68 ­ call printFiveStarLine
-58 ­ begin printFiveStarLine 59
-60 ­ call print5Stars
-47 ­ begin print5Stars 48
-49
-50 ­ end print5Stars
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ call print29Colons
-    ```
-
-```java
-27 ­ begin print29Colons 28
-29
-30 ­ end print29Colons
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ end printFiveStarLine
-    ```
-
-1.  ```java
-    ­ resume printTopHalf
-    ```
-
-1.  ```java
-    ­ call printSixStarLine
-    ```
-
-```java
-52 ­ begin printSixStarLine 53
-54 ­ call print6Stars
-42 ­ begin print6Stars 43
-44
-45 ­ end print6Stars
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ call print29Ohs
-    ```
-
-```java
-37 ­ begin print29Ohs 38
-39
-40 ­ end print29Ohs
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ end printSixStarLine
-    ```
-
-```java
-69 ­ resume printTopHalf
-70 ­ call printFiveStarLine
-58 ­ begin printFiveStarLine
-
-59
-60 ­ call print5Stars
-47 ­ begin print5Stars 48
-49
-50 ­ end print5Stars
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ call print29Colons
-    ```
-
-```java
-27 ­ begin print29Colons 28
-29
-30 ­ end print29Colons
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ end printFiveStarLine
-    ```
-
-1.  ```java
-    ­ resume printTopHalf
-    71 ­ call printSixStarLine
-    52 ­ begin printSixStarLine 53
-    54 ­ call print6Stars
-    42 ­ begin print6Stars 43
-    44
-    45 ­ end print6Stars
-    ```
-
-    1.  ```java
-        ­ resume printSixStarLine
-        ```
-
-    1.  ```java
-        ­ call print29Ohs
-        ```
-
-    ```java
-    37 ­ begin print29Ohs 38
-    39
-    40 ­ end print29Ohs
-    ```
-
-    1.  ```java
-        ­ resume printSixStarLine
-        ```
-
-    1.  ```java
-        ­ end printSixStarLine
-        ```
-
-1.  ```java
-    ­ resume printTopHalf
-    ```
-
-1.  ```java
-    ­ call printFiveStarLine
-    ```
-
-```java
-58 ­ begin printFiveStarLine 59
-60 ­ call print5Stars
-47 ­ begin print5Stars 48
-49
-50 ­ end print5Stars
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ call print29Colons
-    ```
-
-```java
-27 ­ begin print29Colons 28
-29
-30 ­ end print29Colons
-```
-
-1.  ```java
-    ­ resume printFiveStarLine
-    ```
-
-1.  ```java
-    ­ end printFiveStarLine
-    ```
-
-```java
-72 ­ resume printTopHalf
-73 ­ call printSixStarLine
-52 ­ begin printSixStarLine 53
-54 ­ call print6Stars
-42 ­ begin print6Stars 43
-44
-45 ­ end print6Stars
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ call print29Ohs
-    ```
-
-```java
-37 ­ begin print29Ohs 38
-39
-40 ­ end print29Ohs
-```
-
-1.  ```java
-    ­ resume printSixStarLine
-    ```
-
-1.  ```java
-    ­ end printSixStarLine
-    ```
-
-```java
-
-73 ­ resume printTopHalf
-74 ­ end printTopHalf
-7 ­ resume main 8
-9 ­ call print48Colons
-17 ­ begin print48Colons 18
-19
-20 ­ end print48Colons
-```
-
-1.  ```java
-    ­ resume main
-    ```
-
-1.  ```java
-    ­ call print48Ohs
-    ```
-
-```java
-22 ­ begin print48Ohs 23
-24
-25 ­ end print48Ohs
-```
-
-1.  ```java
-    ­ resume main
-    ```
-
-1.  ```java
-    ­ call print48Colons
-    ```
-
-```java
-17 ­ begin print48Colons 18
-19
-20 ­ end print48Colons
-```
-
-1.  ```java
-    ­ resume main
-    ```
-
-1.  ```java
-    ­ call print48Ohs
-    ```
-
-```java
-22 ­ begin print48Ohs 23
-24
-25 ­ end print48Ohs
-```
-
-1.  ```java
-    ­ resume main
-    ```
-
-1.  ```java
-    ­ call print48Colons
-    ```
-
-```java
-17 ­ begin print48Colons 18
-19
-20 ­ end print48Colons
-```
-
-1.  ```java
-    ­ resume main
-    ```
-
-1.  ```java
-    ­ call print48Ohs
-    ```
-
-```java
-22 ­ begin print48Ohs 23
-24
-25 ­ end print48Ohs
-14 ­ resume main
+    64 ­ begin printTopHalf
+        65
+        66
+        67 ­ call printSixStarLine
+            52 ­ begin printSixStarLine
+                53
+                54 ­ call print6Stars
+                    42 ­ begin print6Stars
+                        43
+                        44
+                        45 ­ end print6Stars
+                54 ­ resume printSixStarLine
+                55 ­ call print29Ohs
+                    37 ­ begin print29Ohs
+                        38
+                        39
+                        40 ­ end print29Ohs
+                55 ­ resume printSixStarLine
+                56 ­ end printSixStarLine
+         67 ­ resume printTopHalf
+             68 ­ call printFiveStarLine
+                 58 ­ begin printFiveStarLine
+                     59
+                     60 ­ call print5Stars
+                         47 ­ begin print5Stars
+                             48
+                             49
+                             50 ­ end print5Stars
+                     60 ­ resume printFiveStarLine
+                     61 ­ call print29Colons
+                         27 ­ begin print29Colons
+                             28
+                             29
+                             30 ­ end print29Colons
+                     61 ­ resume printFiveStarLine
+                     62 ­ end printFiveStarLine
+             68 ­ resume printTopHalf
+             69 ­ call printSixStarLine
+            52 ­ begin printSixStarLine
+                53
+                54 ­ call print6Stars
+                    42 ­ begin print6Stars
+                        43
+                        44
+                        45 ­ end print6Stars
+                54 ­ resume printSixStarLine
+                55 ­ call print29Ohs
+                    37 ­ begin print29Ohs
+                        38
+                        39
+                        40 ­ end print29Ohs
+                55 ­ resume printSixStarLine
+                56 ­ end printSixStarLine
+         69 ­ resume printTopHalf
+             70 ­ call printFiveStarLine
+                 58 ­ begin printFiveStarLine
+                     59
+                     60 ­ call print5Stars
+                         47 ­ begin print5Stars
+                             48
+                             49
+                             50 ­ end print5Stars
+                     60 ­ resume printFiveStarLine
+                     61 ­ call print29Colons
+                         27 ­ begin print29Colons
+                             28
+                             29
+                             30 ­ end print29Colons
+                     61 ­ resume printFiveStarLine
+                     62 ­ end printFiveStarLine
+         70 ­ resume printTopHalf
+             71 ­ call printSixStarLine
+            52 ­ begin printSixStarLine
+                53
+                54 ­ call print6Stars
+                    42 ­ begin print6Stars
+                        43
+                        44
+                        45 ­ end print6Stars
+                54 ­ resume printSixStarLine
+                55 ­ call print29Ohs
+                    37 ­ begin print29Ohs
+                        38
+                        39
+                        40 ­ end print29Ohs
+                55 ­ resume printSixStarLine
+                56 ­ end printSixStarLine
+         71 ­ resume printTopHalf
+             72 ­ call printFiveStarLine
+                 58 ­ begin printFiveStarLine
+                     59
+                     60 ­ call print5Stars
+                         47 ­ begin print5Stars
+                             48
+                             49
+                             50 ­ end print5Stars
+                     60 ­ resume printFiveStarLine
+                     61 ­ call print29Colons
+                         27 ­ begin print29Colons
+                             28
+                             29
+                             30 ­ end print29Colons
+                     61 ­ resume printFiveStarLine
+                     62 ­ end printFiveStarLine
+         72 ­ resume printTopHalf
+             73 ­ call printSixStarLine
+            52 ­ begin printSixStarLine
+                53
+                54 ­ call print6Stars
+                    42 ­ begin print6Stars
+                        43
+                        44
+                        45 ­ end print6Stars
+                54 ­ resume printSixStarLine
+                55 ­ call print29Ohs
+                    37 ­ begin print29Ohs
+                        38
+                        39
+                        40 ­ end print29Ohs
+                55 ­ resume printSixStarLine
+                56 ­ end printSixStarLine
+         73 ­ resume printTopHalf
+             74 ­ end printTopHalf
+     7 ­ resume main
+     8
+     9 ­ call print48Colons
+         17 ­ begin print48Colons
+             18
+             19
+             20 ­ end print48Colons
+     9 ­ resume main
+     10 ­ call print48Ohs
+         22 ­ begin print48Ohs
+             23
+             24
+             25 ­ end print48Ohs
+     10 ­ resume main
+     11 ­ call print48Colons
+         17 ­ begin print48Colons
+             18
+             19
+             20 ­ end print48Colons
+     11 ­ resume main
+     12 ­ call print48Ohs
+         22 ­ begin print48Ohs
+             23
+             24
+             25 ­ end print48Ohs
+     12 ­ resume main
+     13 ­ call print48Colons
+         17 ­ begin print48Colons
+             18
+             19
+             20 ­ end print48Colons
+     13 ­ resume main
+     14 ­ call print48Ohs
+         22 ­ begin print48Ohs
+             23
+             24
+             25 ­ end print48Ohs
+     14 ­ resume main
 ```
 
 天哪！如果你能成功地追踪到这一点，那么你就已经在成为一个称职的程序员的路上了。
