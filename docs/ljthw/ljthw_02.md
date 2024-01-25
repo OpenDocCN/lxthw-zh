@@ -7,20 +7,13 @@
 打开你在练习 0 中安装的文本编辑器，并将以下文本输入到一个名为`FirstProg.java`的单个文件中。确保与我写的完全匹配，包括间距、标点和大写。
 
 ```java
-
-1 public class FirstProg 2 {
-3  public static void main( String[] args ) 4 {
-```
-
-1.  ```java
-    System.out.println( "I am determined to learn how to code." );
-    ```
-
-1.  ```java
-    System.out.println( "Today's date is" ); 7 }
-    ```
-
-```java
+1 public class FirstProg
+2 {
+3 public static void main( String[] args )
+4 {
+5 System.out.println( "I am determined to learn how to code." );
+6 System.out.println( "Today's date is" );
+7 }
 8 }
 ```
 
@@ -94,7 +87,10 @@
 
 ```java
 
-mitchell@graham­desktop:~$ cd javacode/ mitchell@graham­desktop:~/javacode$ ls FirstProg.java test.txt mitchell@graham­desktop:~/javacode$
+mitchell@graham­desktop:~$ cd javacode/ 
+mitchell@graham­desktop:~/javacode$ ls 
+FirstProg.java test.txt 
+mitchell@graham­desktop:~/javacode$
 ```
 
 将来，因为你的终端可能看起来不像我的，我会这样缩写提示：
@@ -136,7 +132,8 @@ $
 
 ```java
 
-$ javac FirstProg.java FirstProg.java:5: error: ';' expected
+$ javac FirstProg.java 
+FirstProg.java:5: error: ';' expected
 System.out.println( "I am determined to learn how to code." ):
 ^
 1 error

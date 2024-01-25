@@ -43,23 +43,15 @@
 ```java
 
 Last login: Fri Jul 19 00:56:54 on ttys001
-```
-
-+   ```java
-    $ javac ­version javac 1.6.22
-    ```
-
-+   ```java
-    $ mkdir javacode
-    ```
-
-+   ```java
-    $ cd javacode javacode $ ls
-    ```
-
-```java
+~ $ javac version
+javac 1.6.22
+~ $ mkdir javacode
+~ $ cd javacode
+javacode $ ls
 # ... Use TextWrangler here to edit test.txt....
-javacode $ ls test.txt javacode $
+javacode $ ls
+test.txt
+javacode $
 ```
 
 ### Windows
@@ -86,9 +78,10 @@ javacode $ ls test.txt javacode $
 
 1.  安装 JDK 并知道其位置后，打开您的终端窗口（PowerShell）。在 PowerShell 中，键入以下内容：
 
+```java
 [Environment]::SetEnvironmentVariable("Path",
-
 "$env:Path;C:\Program Files (x86)\Java\jdk1.7.0_25\bin", "User")
+```
 
 将所有内容放在一行上。
 
@@ -115,52 +108,24 @@ javacode $ ls test.txt javacode $
 1.  回到终端，看看你是否可以列出目录的内容，以查看你新创建的文件。
 
 ```java
-
 Windows PowerShell
 Copyright (C) 2009 Microsoft Corporation. All rights reserved.
-
-PS C:\Users\Graham_Mitchell> javac ­version javac 1.7.0_25
+PS C:\Users\Graham_Mitchell> javac version
+javac 1.7.0_25
 PS C:\Users\Graham_Mitchell> mkdir javacode
-```
-
-```java
 Directory: C:\Users\Graham_Mitchell\javacode
-```
-
-```java
-PS C:\Users\Graham_Mitchell> cd javacode PS C:\Users\Graham_Mitchell\javacode> ls PS C:\Users\Graham_Mitchell\javacode>
-... Here you would use Notepad++ to make test.txt in javacode ... PS C:\Users\Graham_Mitchell\javacode> ls
-```
-
-```java
+Mode LastWriteTime Length Name
+d7/
+19/2013 7:39 PM javacode
+PS C:\Users\Graham_Mitchell> cd javacode
+PS C:\Users\Graham_Mitchell\javacode> ls
+PS C:\Users\Graham_Mitchell\javacode>
+... Here you would use Notepad++ to make test.txt in javacode ...
+PS C:\Users\Graham_Mitchell\javacode> ls
 Directory: C:\Users\Graham_Mitchell\javacode
-```
-
-### Windows：你应该看到的内容
-
-```java
-
-Mode
-LastWriteTime
-Length Name
-­­­­
-­­­­­­­­­­­­­
-­­­­­­ ­­­­
-d­­­­
-7/19/2013 7:39 PM
-javacode
-
-Mode
-LastWriteTime
-Length Name
-­­­­
-­­­­­­­­­­­­­
-­­­­­­ ­­­­
-­a­­­
-7/19/2013
-7:45 PM
-4 test.txt
-
+Mode LastWriteTime Length Name
+a7/
+19/2013 7:45 PM 4 test.txt
 PS C:\Users\Graham_Mitchell\javacode>
 ```
 
