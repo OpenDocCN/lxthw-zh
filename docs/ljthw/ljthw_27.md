@@ -3,66 +3,32 @@
 这是我最喜欢的练习之一，因为你将学会如何使代码块*重复*。如果你能做到这一点，你就能写出各种有趣的东西。
 
 ```java
-
-1 import java.util.Scanner; 2
-3 public class EnterPIN
-4 {
-5
-public static void main( String[] args )
-
-6
-{
-
-7
-Scanner keyboard = new Scanner(System.in);
-
-8
-int pin, entry;
-
-9
-
-10
-pin = 12345;
-
-11
-
-12
-System.out.println("WELCOME TO THE BANK OF JAVA.");
-
-13
-System.out.print("ENTER YOUR PIN: ");
-
-14
-entry = keyboard.nextInt();
-
-15
-
-16
-while ( entry != pin )
-
-17
-{
-
-18
-System.out.println("\nINCORRECT PIN. TRY AGAIN.");
-
-19
-System.out.print("ENTER YOUR PIN: ");
-
-20
-entry = keyboard.nextInt();
-
-21
-}
-
-22
-
-23
-System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS
-TO YOUR
-ACCOUNT."); 24  }
+ 1 import java.util.Scanner;
+ 2 
+ 3 public class EnterPIN
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8         int pin, entry;
+ 9 
+10         pin = 12345;
+11 
+12         System.out.println("WELCOME TO THE BANK OF JAVA.");
+13         System.out.print("ENTER YOUR PIN: ");
+14         entry = keyboard.nextInt();
+15 
+16         while ( entry != pin )
+17         {
+18             System.out.println("\nINCORRECT PIN. TRY AGAIN.");
+19             System.out.print("ENTER YOUR PIN: ");
+20             entry = keyboard.nextInt();
+21         }
+22 
+23         System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR 
+ACCOUNT.");
+24     }
 25 }
-
 ```
 
 ### 你应该看到的是

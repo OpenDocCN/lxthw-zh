@@ -4,80 +4,37 @@
 
 当你只是在学习时，这是完全可以的。错误检查很难，这就是为什么大多数大型程序都有错误，并且需要一整群人非常努力地工作，以确保软件尽可能少地出现错误。
 
-```java
-
-1 import java.util.Scanner; 2
-3 public class SafeSquareRoot 4 {
-```
+但是你终于到了能够编写一点错误检查的程度。
 
 ```java
-5
-6
-7
-8
-9
-10
-```
-
-```java
-public static void main( String[] args )
-{
-Scanner keyboard = new Scanner(System.in); double x, y;
-```
-
-```java
-System.out.print("Give me a number, and I shall find the square root
-```
-
-```java
-of it. "); 11
-12
-13
-14
-15
-16
-```
-
-```java
-System.out.print("(No negatives, please.) "); x = keyboard.nextDouble();
-```
-
-```java
-while ( x < 0 )
-{
-System.out.print("Sorry, I won't take the square root of a negative.\nNew number: ");
-```
-
-```java
-17
-18
-19
-20
-21
-22
-23
+ 1 import java.util.Scanner;
+ 2 
+ 3 public class SafeSquareRoot
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8         double x, y;
+ 9 
+10         System.out.print("Give me a number, and I shall find the square root 
+of it. ");
+11         System.out.print("(No negatives, please.) ");
+12         x = keyboard.nextDouble();
+13 
+14         while ( x < 0 )
+15         {
+16             System.out.print("Sorry, I won't take the square root of a 
+negative.\nNew number: ");
+17             x = keyboard.nextDouble();
+18         }
+19 
+20         y = Math.sqrt(x);
+21 
+22         System.out.println("The square root of "+x+" is "+y);
+23     }
 24 }
 ```
 
-```java
-x = keyboard.nextDouble();
-```
-
-```java
-}
-```
-
-```java
-y = Math.sqrt(x);
-
-System.out.println("The square root of "+x+" is "+y);
-```
-
-```java
-}
-```
-
-但是你终于到了能够编写一点错误检查的程度。
 
 ### 你应该看到的
 
@@ -123,7 +80,8 @@ System.out.println("This is a test.");
 
 ```java
 
-if ( age < 16 ) { allowed = false;
+if ( age < 16 ) { 
+    allowed = false;
 }
 ```
 

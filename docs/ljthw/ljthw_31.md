@@ -9,109 +9,45 @@
 那么有什么区别呢？输入代码，然后我们再谈论它。
 
 ```java
-
-1 import java.util.Scanner; 2
-3 public class CoinFlip
-4 {
-5
-
-public static void main( String[] args )
-6
-
-{
-7
-
-Scanner keyboard = new Scanner(System.in);
-8
-
-9
-
-String coin, again;
-10
-
-int flip, streak = 0;
-11
-
-12
-
-do
-13
-
-{
-14
-
-flip = 1 + (int)(Math.random()*2);
-15
-
-16
-
-if ( flip == 1 )
-17
-
-coin = "HEADS";
-18
-
-else
-19
-
-coin = "TAILS";
-20
-
-21
-
-System.out.println( "You flip a coin and it is... " + coin );
-22
-
-23
-
-if ( flip == 1 )
-24
-
-{
-25
-
-streak++;
-26
-
-System.out.println( "\tThat's " + streak + " in a row...." );
-27
-
-System.out.print( "\tWould you like to flip again (y/n)? " );
-28
-
-again = keyboard.next();
-29
-
-}
-30
-
-else
-31
-
-{
-32
-
-streak = 0;
-33
-
-again = "n";
-34
-
-}
-35
-
-} while ( again.equals("y") );
-36
-
-37
-
-System.out.println( "Final score: " + streak );
-38
-
-}
-39
-}
-
+ 1 import java.util.Scanner;
+ 2 
+ 3 public class CoinFlip
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8 
+ 9         String coin, again;
+10         int flip, streak = 0;
+11 
+12         do
+13         {
+14             flip = 1 + (int)(Math.random()*2);
+15 
+16             if ( flip == 1 )
+17                 coin = "HEADS";
+18             else
+19                 coin = "TAILS";
+20 
+21             System.out.println( "You flip a coin and it is... " + coin );
+22 
+23             if ( flip == 1 )
+24             {
+25                 streak++;
+26                 System.out.println( "\tThat's " + streak + " in a row...." );
+27                 System.out.print( "\tWould you like to flip again (y/n)? " );
+28                 again = keyboard.next();
+29             }
+30             else
+31             {
+32                 streak = 0;
+33                 again = "n";
+34             }
+35         } while ( again.equals("y") );
+36 
+37         System.out.println( "Final score: " + streak );
+38     }
+39 }
 ```
 
 ### 你应该看到什么
