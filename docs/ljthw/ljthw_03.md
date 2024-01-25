@@ -66,7 +66,7 @@ $ java LetterToYourself
 
 每天多做一点，这样*会*变得更容易。
 
-### 学习演习
+### 学习演练
 
 1. 这个文件叫`LetterToYourself.java`而不是`LetterToBillGates.java`！回到你的文本编辑器，把名字和地址从比尔盖茨在微软的地址改成你自己的名字和地址。然后保存，编译，再次运行。
 

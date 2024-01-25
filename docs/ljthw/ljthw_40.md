@@ -99,7 +99,7 @@ month, or "error" if month out of range
 88 }
 ```
 
-### 您应该看到的内容
+### 你应该看到什么
 
 ```java
 
@@ -146,7 +146,7 @@ $
 
 有关参数和返回类型的详细信息在名为“Method Detail”的部分下面。
 
-### 学习练习
+### 学习演练
 
 1. 查看内置 Java 类 java.util.Scanner 的 javadoc 文档。注意它看起来与 javadoc 工具生成的文档有多相似？所有官方的 Java 文档都是使用 javadoc 工具创建的，因此学习如何阅读它将成为成为专业 Java 程序员的重要部分。不过现在不要太担心细节，只是试着感受一下它的外观。
 

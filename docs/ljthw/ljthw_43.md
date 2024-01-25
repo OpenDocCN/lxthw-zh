@@ -56,7 +56,7 @@ Getting name and three numbers from file...done. Your name is Samantha Showalter
 
 在第 18 行，文件被关闭，这意味着你的 Scanner 对象不再与它连接。这比你预期的要容易吗？希望是这样。
 
-### 学习训练
+### 学习演练
 
 1.  打开文本文件并更改名称或数字。保存它。然后再次运行程序（您不必重新编译它；代码没有更改，直到运行程序时它才会打开文件）。
 

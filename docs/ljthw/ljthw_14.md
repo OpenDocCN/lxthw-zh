@@ -47,7 +47,7 @@ animal = keyboard.next(); // the user types in "horse" b = ( animal == "horse" )
 21 }
 ```
 
-### 你应该看到的内容
+### 你应该看到什么
 
 ```java
 
@@ -57,7 +57,7 @@ You typed what was requested: false You ignored polite instructions: true
 
 因此，字符串有一个名为`.equals()`的内置方法（“点等于”），它将自己与另一个字符串进行比较，如果它们相等，则简化为值`true`，如果它们不相等，则简化为值`false`。你必须使用非运算符（`!`）与`.equals()`方法一起来判断两个字符串是否不同。
 
-### 学习技巧
+### 学习演练
 
 1.  尝试在第 15 行改变比较，使得`"weasel"`在点的前面，变量 word 在括号内。确保`"weasel"`仍然被引号括起来，而 word 则没有。它有效吗？
 

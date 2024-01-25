@@ -83,7 +83,7 @@ computeRectangleArea(length, width) );
 75 }
 ```
 
-### 你应该看到的内容
+### 你应该看到什么
 
 ```java
 Shape Area Calculator version 0.1 (c) 2013 Mitchell Sample Output, Inc.
@@ -130,7 +130,7 @@ The area is 28.274333882308138
 
 P.S.这些函数有点傻。如果我*真的*需要一个形状面积计算器，我不确定是否值得为一个只有一行代码的方程创建一个完整的函数。但是这个例子用来解释是很好的。
 
-### 学习练习
+### 学习演练
 
 1. 添加一个计算正方形面积的函数。也将其添加到菜单中。
 

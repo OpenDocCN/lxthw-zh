@@ -36,7 +36,7 @@ negative.\nNew number: ");
 ```
 
 
-### 你应该看到的
+### 你应该看到什么
 
 ```java
 

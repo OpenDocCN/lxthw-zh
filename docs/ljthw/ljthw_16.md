@@ -69,7 +69,7 @@ You are too young to run for President of the United States. How sad!
 
 最后的 if 语句包含两行代码在它的主体中，只是为了向你展示它会是什么样子。
 
-### 学习演习
+### 学习演练
 
 1.  如果你输入一个大于 35 的年龄，会打印出什么？为什么？
 

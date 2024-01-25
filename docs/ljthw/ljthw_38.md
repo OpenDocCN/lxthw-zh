@@ -43,7 +43,7 @@ lengths a, b, and c
 32 }
 ```
 
-### 你应该看到的
+### 你应该看到什么
 
 ```java
 
@@ -182,7 +182,7 @@ A );
 
 1.  （变量 A 本身并没有被返回，只有它的值。事实上，要记住变量的“作用域”仅限于它所定义的代码块内吗？（你在练习 21 中学到了这一点。）变量 a 只在函数 main 内部的作用域内，变量 s、A 和参数变量 a、b 和 c 只在函数 triangleArea 内部的作用域内。）
 
-### 你应该看到的
+### 你应该看到什么
 
 ```java
 
@@ -191,7 +191,7 @@ A triangle with sides 7,8,9 has an area of 26.832815729997478 A triangle with si
 A triangle with sides 10,9,11 has an area of 42.42640687119285 A triangle with sides 8,15,17 has an area of 60.0
 ```
 
-### 学习训练
+### 学习演练
 
 1.  哪一个更长，有函数的还是没有函数的？
 
@@ -199,7 +199,7 @@ A triangle with sides 10,9,11 has an area of 42.42640687119285 A triangle with s
 
 1.  再添加一个测试：找到一个边长为 9、9 和 9 的三角形的面积。添加起来难吗？如果在不使用函数的版本中添加测试会更难吗？
 
-### 在完成了学习练习后，你应该看到的内容
+### 在完成了学习演练后，你应该看到的内容
 
 ```java
 

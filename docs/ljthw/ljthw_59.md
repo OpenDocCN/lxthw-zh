@@ -155,7 +155,7 @@ exitString );
 139 }
 ```
 
-### 您应该看到的内容
+### 你应该看到什么
 
 ```java
 This is the parlor.
