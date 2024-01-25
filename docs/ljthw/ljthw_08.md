@@ -60,8 +60,6 @@ What is your favorite number between 0.0 and 1.0? 2.3
 Is there anything else you would like to tell me? No, there is not.
 ```
 
-![image](img/Image_011.png)
-
 1.  库或“模块”——添加额外功能到程序中的一段代码，可能包含或不包含。
 
 让我们来谈谈代码。在第 1 行，我们有一个`import`语句。我们导入的库是 scanner 库`java.util.Scanner`（“java 点 util 点 Scanner”）。这个库包含的功能允许我们从键盘或其他地方（如文件或互联网）读取信息。
