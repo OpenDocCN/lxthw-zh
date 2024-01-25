@@ -9,11 +9,11 @@
 ```java
 1 public class FirstProg
 2 {
-3 public static void main( String[] args )
-4 {
-5 System.out.println( "I am determined to learn how to code." );
-6 System.out.println( "Today's date is" );
-7 }
+3     public static void main( String[] args )
+4     {
+5         System.out.println( "I am determined to learn how to code." );
+6         System.out.println( "Today's date is" );
+7     }
 8 }
 ```
 
