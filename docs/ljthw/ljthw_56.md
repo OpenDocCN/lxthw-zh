@@ -76,7 +76,7 @@ Dave has the highest GPA.
 public static void main( String[] args )
 ```
 
-这一行声明了一个名为 main 的函数。该函数需要一个参数：名为 args 的字符串数组（缩写为“arguments”）。该函数不返回任何值；它是`void`。
+这一行声明了一个名为`main`的函数。该函数需要一个参数：名为`args`的字符串数组（缩写为“arguments”）。该函数不返回任何值；它是`void`。
 
 无论如何。
 

@@ -66,25 +66,25 @@ SHA­256 是一个非常好的加密哈希函数，它始终产生一个给定�
 
 这是一个聪明的方案。这也比直接在数据库中存储密码要好得多。然而，现在计算机速度太快，存储空间太大，这已经不足以提供足够的安全性。由于机器可以非常快速地计算密码的 SHA­256，一个决心的黑客不需要很长时间就能够弄清楚您的密码是什么。
 
-（如果您真的想要在数据库中安全存储密码，您应该使用`bcrypt`，它专门用于此类事情。不幸的是，bcrypt 并没有内置到 Java 中，因此您需要下载其他人制作的 bcrypt 库。）
+（如果您真的想要在数据库中安全存储密码，您应该使用`bcrypt`，它专门用于此类事情。不幸的是，bcrypt 并没有内置到 Java 中，因此您需要下载其他人制作的 `bcrypt` 库。）
 
 好了，关于安全密码就说这么多，让我们走一遍这段代码。您可能希望打开这两个库的 javadoc 文档。
 
-+   java.security.MessageDigest
++   `java.security.MessageDigest`
 
-+   javax.xml.bind.DatatypeConverter
++   `javax.xml.bind.DatatypeConverter`
 
 在第 2 和 3 行，我们导入了两个库，这两个库将用于执行此练习的难点。
 
-在第 13 行，我们创建了一个`MessageDigest`类型的变量（现在存在，因为我们导入了`java.security.MessageDigest`）。我们的变量名为 digest，尽管我也可以叫它其他名字。变量的值来自于`MessageDigest.getInstance()`方法的返回值。我们将一个字符串作为该方法的参数传递，这是我们想要的摘要。在这种情况下，我们使用了`"SHA­256"`，但`"SHA­1"`和`"MD5"`也可以工作。您可以在 javadoc 文档中阅读有关此内容的信息。
+在第 13 行，我们创建了一个`MessageDigest`类型的变量（现在存在，因为我们导入了`java.security.MessageDigest`）。我们的变量名为`digest`，尽管我也可以叫它其他名字。变量的值来自于`MessageDigest.getInstance()`方法的返回值。我们将一个字符串作为该方法的参数传递，这是我们想要的摘要。在这种情况下，我们使用了`"SHA­256"`，但`"SHA­1"`和`"MD5"`也可以工作。您可以在 javadoc 文档中阅读有关此内容的信息。
 
 第 15 和 16 行希望是无聊的。请注意，我使用`nextLine()`而不是`next()`来读取密码，这允许用户输入多个单词。
 
-在第 18 行，我们调用了 String 类的`getBytes()`方法，参数为`"UTF­8"`。这将把字符串值转换为 UTF­8 格式的原始字节列表，然后将其直接作为参数传递给名为 digest 的 MessageDigest 对象的`update()`方法。我通过阅读 String 类的 javadoc 文档了解了`getBytes()`方法！
+在第 18 行，我们调用了`String`类的`getBytes()`方法，参数为`"UTF­8"`。这将把字符串值转换为 UTF­8 格式的原始字节列表，然后将其直接作为参数传递给名为`digest`的 `Messagedigest`对象的`update()`方法。我通过阅读`String`类的 javadoc 文档了解了`getBytes()`方法！
 
-+   java.lang.String
++   `java.lang.String`
 
-第 19 行我们调用了名为 digest 的 MessageDigest 对象的`digest()`方法。这给了我们一个原始的字节列表，不适合在屏幕上打印，所以我们直接将这个原始的字节列表作为参数传递给 DatatypeConverter 类的`printHexBinary()`方法。这将返回一个字符串，我们将其存储到变量 hash 中。
+第 19 行我们调用了名为`digest`的 `Messagedigest`对象的`digest()`方法。这给了我们一个原始的字节列表，不适合在屏幕上打印，所以我们直接将这个原始的字节列表作为参数传递给 `DatatypeConverter` 类的`printHexBinary()`方法。这将返回一个字符串，我们将其存储到变量 `hash` 中。
 
 然后我们在屏幕上显示哈希值。哇！
 
@@ -92,7 +92,7 @@ SHA­256 是一个非常好的加密哈希函数，它始终产生一个给定�
 
 ### 学习演练
 
-1.  查看本练习中使用的所有方法的 javadoc 文档：getInstance、getBytes、update、digest 和 printHexBinary。查看它们期望的参数和它们将返回的值的类型。
+1.  查看本练习中使用的所有方法的 javadoc 文档：`getInstance`、`getBytes`、`update`、`digest`和 `printHexBinary`。查看它们期望的参数和它们将返回的值的类型。
 
 1.  从第 7 行的末尾删除`throws Exception`。尝试编译它。（然后再放回去。）你将在下一个练习中学到一点关于异常。
 
