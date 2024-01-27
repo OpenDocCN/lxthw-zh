@@ -81,9 +81,9 @@ juniper comes AFTER go juniper comes AFTER java juniper comes BEFORE lisp junipe
 juniper comes BEFORE visualbasic
 ```
 
-（当然，我忍不住在第 12 行插入了一些东西。而不是使用 Scanner 对象的
+（当然，我忍不住在第 12 行插入了一些东西。而不是使用`Scanner`对象的
 
-`.next()`方法读取一个字符串，我使用 Scanner 对象的`.nextLine()`方法读取一个字符串。不同之处在于`.next()`会在你输入空格时停止读取，所以如果你输入`"visual` `basic"`，它只会读取`"visual"`，并留下其余的部分。当你使用`.nextLine()`时，它会读取你输入的所有内容，包括空格和制表符，直到你按下回车键，然后将所有内容放入一个长字符串中并将其存储到变量中。
+`.next()`方法读取一个字符串，我使用`Scanner`对象的`.nextLine()`方法读取一个字符串。不同之处在于`.next()`会在你输入空格时停止读取，所以如果你输入`"visual` `basic"`，它只会读取`"visual"`，并留下其余的部分。当你使用`.nextLine()`时，它会读取你输入的所有内容，包括空格和制表符，直到你按下回车键，然后将所有内容放入一个长字符串中并将其存储到变量中。
 
 你可以使用 String 对象的`.compareTo()`方法将字符串相互比较。这个
 
@@ -100,7 +100,7 @@ int n = self.compareTo(other);
 
 天才的部分在于：因为`.compareTo()`给我们的是一个整数，而不仅仅是一个布尔值 true 或 false，我们只需要这一个方法来进行所有的比较：小于、大于、小于或等于，等等。
 
-因为如果*self*等于*other*，我们会得到零，如果*self*小于*other*，我们会得到一个小于零的数字，所以我们可以写：
+因为如果`self`等于`other`，我们会得到零，如果`self`小于`other`，我们会得到一个小于零的数字，所以我们可以写：
 
 ```java
 
