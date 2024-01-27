@@ -9,7 +9,7 @@ a = ("cat" < "dog");
 b = ("horse" == "horse" );
 ```
 
-第二行甚至无法编译！你不能在 Java 中使用`<`来查看一个单词是否在另一个单词之前。在第三行中，b 确实在这里设置为值`true`，但如果你将值读入变量，就不会这样：
+第二行甚至无法编译！你不能在 Java 中使用`<`来查看一个单词是否在另一个单词之前。在第三行中，`b`确实在这里设置为值`true`，但如果你将值读入变量，就不会这样：
 
 ```java
 
@@ -17,7 +17,7 @@ String animal;
 animal = keyboard.next(); // the user types in "horse" b = ( animal == "horse" );
 ```
 
-无论人类是否输入`"horse"`，b 都将始终被设置为值`false`！
+无论人类是否输入`"horse"`，`b`都将始终被设置为值`false`！
 
 我不想试图解释为什么会这样。Java 的创建者对此显然有充分的理由，但对初学者来说并不友好，解释可能只会让你更加困惑。
 
@@ -59,5 +59,5 @@ You typed what was requested: false You ignored polite instructions: true
 
 ### 学习演练
 
-1.  尝试在第 15 行改变比较，使得`"weasel"`在点的前面，变量 word 在括号内。确保`"weasel"`仍然被引号括起来，而 word 则没有。它有效吗？
+1.  尝试在第 15 行改变比较，使得`"weasel"`在点的前面，变量`word`在括号内。确保`"weasel"`仍然被引号括起来，而`word`则没有。它有效吗？
 
