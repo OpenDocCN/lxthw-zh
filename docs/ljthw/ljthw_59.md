@@ -285,7 +285,7 @@ fridge:3 refrigerator:3 go back:0 back:0
 
 line.split(":")在字符串 line 中搜索并在每次看到`:`（冒号）时将其分割开。然后它返回一个字符串数组。例如，如果 line 包含 thisXisXaXtest，那么 line.split("X")将返回一个包含{"this"，"is"，"a"，"test"}的数组。在我们的情况下，line 中只有一个冒号，所以它返回类似于{"refrigerator"，"3"}的内容。
 
-因此，在第 128 行之后，parts[0]包含出口词（如“refrigerator”），parts[1]包含目的地房间号的字符串（如`"3"`）。这对我们来说不太适用，因为我们需要房间号是整数，而不是字符串。
+因此，在第 128 行之后，parts[0]包含出口词（如`refrigerator`），parts[1]包含目的地房间号的字符串（如`"3"`）。这对我们来说不太适用，因为我们需要房间号是整数，而不是字符串。
 
 对我们来说（再次），Java 的标准库来拯救我们。有一个内置函数可以将字符串转换为整数：Integer.parseInt()。我们在第 130 行使用了这个函数。
 
