@@ -46,7 +46,7 @@ Getting name and three numbers from file...done. Your name is Samantha Showalter
 
 你知道`Scanner`对象不一定要从键盘上的人那里获取输入吗？它也可以从文本文件中读取数据！
 
-我们只是稍微不同地创建了`Scanner`对象：不再使用`System.in`作为参数，而是使用`new File("blah.txt")`。这将以只读方式打开文本文件。我选择称之为 `fileIn`的`Scanner`对象将附加到文件上，就像吸管插入果汁盒一样。（果汁盒就是文本文件，`Scanner`对象就是吸管。）
+我们只是稍微不同地创建了`Scanner`对象：不再使用`System.in`作为参数，而是使用`new File("blah.txt")`。这将以只读方式打开文本文件。我选择称之为`fileIn`的`Scanner`对象将附加到文件上，就像吸管插入果汁盒一样。（果汁盒就是文本文件，`Scanner`对象就是吸管。）
 
 第 14 行看起来相当无聊。它“暂停”程序并从`Scanner`对象中读取一个字符串，这个字符串来自文件。这个来自文件的字符串被存储到变量中。
 

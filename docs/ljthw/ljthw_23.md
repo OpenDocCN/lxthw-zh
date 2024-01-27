@@ -98,5 +98,5 @@ Which month? (1­12) 4
 
 ### 学习演练
 
-1.  在第一个`switch`中删除一些`break`语句，并添加一些`println()`语句来确认它会将 `monthName`设置为一个值，然后又一个值，直到最后被`break`停止。
+1.  在第一个`switch`中删除一些`break`语句，并添加一些`println()`语句来确认它会将`monthName`设置为一个值，然后又一个值，直到最后被`break`停止。
 

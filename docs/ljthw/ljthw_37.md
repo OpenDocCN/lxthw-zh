@@ -205,9 +205,9 @@ showDice("two");                // NO  (argument must be an integer, not a Strin
 showDice(false);                // NO  (argument must be an integer, not a Boolean)
 ```
 
-在所有情况下，参数的值的副本都存储在参数中。因此，如果你这样调用函数 `showDice(3);`，那么函数被调用，值`3`被存储到参数`roll`中。所以到第 29 行，参数变量`roll`已经被声明并初始化为值`3`。
+在所有情况下，参数的值的副本都存储在参数中。因此，如果你这样调用函数`showDice(3);`，那么函数被调用，值`3`被存储到参数`roll`中。所以到第 29 行，参数变量`roll`已经被声明并初始化为值`3`。
 
-如果我们使用变量调用函数，比如 `showDice(roll2);`那么在函数体执行之前，函数被调用并且当前在`roll2`中的任何值的副本将被存储到参数变量`roll`中。
+如果我们使用变量调用函数，比如`showDice(roll2);`那么在函数体执行之前，函数被调用并且当前在`roll2`中的任何值的副本将被存储到参数变量`roll`中。
 
 因此，在第 16 行，`showDice`函数被执行，`roll`将被设置为`roll1`中的任何值。
 
