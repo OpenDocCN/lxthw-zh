@@ -1,3 +1,5 @@
+# 下一步
+
 現在還不能說你是一個程式員。這本書的目的相當於給你一個「程式設計師棕帶」。你已經了解了足夠的寫程式基礎，並且有能力閱讀別的寫程式書籍了。讀完這本書，你應該已經掌握了一些學習的方法，並且具備了該有的學習態度，這樣你在閱讀其他 Ruby 書籍時也許會更順利，而且能學到更多東西。
 
 > **Rob says:** 為了更有趣，我推薦你閱讀 Why’s (Poignant) Guide to Ruby: [`mislav.uniqpath.com/poignant-guide`](http://mislav.uniqpath.com/poignant-guide) 大部份的程式內容現在都正在被 review。但是 Why 的心智無比聰明，而且他的書就像是一件藝術品。去看看它的一些 opensource 專案，你可以從他的程式碼裡學到許多東西。
