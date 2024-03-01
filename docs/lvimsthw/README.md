@@ -1,4 +1,4 @@
-# Introduction
+# 笨方法学 Vimscript
 
 [笨方法学 Vimscript](http://learnvimscriptthehardway.stevelosh.com/)面向那些想学会如何自定义[Vim](http://www.vim.org/)编辑器的用户。
 

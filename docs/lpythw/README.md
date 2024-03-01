@@ -1,5 +1,3 @@
-# 笨办法学 Python
-
 # 笨办法学 python
 
 > 译者：[gastlygem](https://bitbucket.org/gastlygem)
