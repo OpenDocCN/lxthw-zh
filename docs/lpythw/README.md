@@ -1,4 +1,4 @@
-# 笨办法学 python
+# 笨办法学 Python
 
 > 译者：[gastlygem](https://bitbucket.org/gastlygem)
 > 
