@@ -1,3 +1,5 @@
+# 习题 9: 印出，印出，印出
+
 ```rb
       # Here's some new strange stuff, remember type it exactly.
 
