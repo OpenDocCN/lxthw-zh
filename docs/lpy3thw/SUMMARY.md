@@ -1,5 +1,4 @@
 +   [笨办法学 Python3](README.md)
-+   [目录](lpy3thw_02.md)
 +   [前言](lpy3thw_03.md)
 +   [练习 0 配置环境](lpy3thw_04.md)
 +   [练习 1\. 第一个程序](lpy3thw_05.md)

@@ -4,6 +4,7 @@
 +   [笨办法学 Java](docs/ljthw/README.md)
 +   [笨办法学 Linux 中文版](docs/llthw/README.md)
 +   [笨办法学 Python · 续中文版](docs/lmpythw/README.md)
++   [笨办法学 Python3](docs/lpy3thw/README.md)
 +   [笨办法学 Python3 第五版（预览）](docs/lpy3thw-5e/README.md)
 +   [笨办法学 Python](docs/lpythw/README.md)
 +   [笨方法学 Ruby](docs/lrthw/README.md)
