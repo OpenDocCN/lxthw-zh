@@ -2,11 +2,15 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/bq5a1v`](https://www.yuque.com/hardwaylab/book/bq5a1v)
 
-<ne-h1 id="MaK2H" data-lake-id="MaK2H">计划介绍</ne-h1> 
+
+
+# 计划介绍 
 
 笨方法实验室会员计划是[《笨方法文化手册》](https://www.yuque.com/hardwaylab/book)升级践行版。如果你想用笨方法来改变现有的生活状态，我鼓励你开始一场人生笨方法实验，启动在现实世界成为珍贵普通人的努力尝试。 
 
-如果你还没有阅读过[《笨方法文化手册》](https://www.yuque.com/hardwaylab/book)，建议先搜索阅读再做决定。 <ne-h1 id="q0Mwz" data-lake-id="q0Mwz">你将获得</ne-h1> 
+如果你还没有阅读过[《笨方法文化手册》](https://www.yuque.com/hardwaylab/book)，建议先搜索阅读再做决定。 
+
+# 你将获得 
 
 加入[笨方法实验室会员计划](https://cie.h5.xeknow.com/s/1BX0Ea)后，你将可参与获得以下权益，权益将通过「课程+咨询+notion 资料库」等形式服务。 
 
@@ -66,7 +70,9 @@
 
  
 
-如果你在学习过程中遇到问题，你可以通过这份[说明书](https://www.yuque.com/hardwaylab/hbcnfeat/fpu2rg)，来更好的联系我与使用我，我可以在会员期内为你提供相关个性化答疑服务。 <ne-h1 id="aIIcR" data-lake-id="aIIcR">会员资源清单</ne-h1> 
+如果你在学习过程中遇到问题，你可以通过这份[说明书](https://www.yuque.com/hardwaylab/hbcnfeat/fpu2rg)，来更好的联系我与使用我，我可以在会员期内为你提供相关个性化答疑服务。 
+
+# 会员资源清单 
 
 目前已更新原创《发展写作学 1.0》（54 篇）、 8 本独家电子书、9 篇会员权益、16 篇精选。 
 
@@ -100,7 +106,9 @@
 
 卡片创作电子书（更新中） 
 
-✦非虚构写作指南 <ne-h1 id="Q0cbA" data-lake-id="Q0cbA">推荐学习资源</ne-h1> 
+✦非虚构写作指南 
+
+# 推荐学习资源 
 
 如何不靠运气致富 
 
