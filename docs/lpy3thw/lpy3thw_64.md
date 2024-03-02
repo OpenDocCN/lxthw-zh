@@ -26,7 +26,26 @@ $ cd ~
 > pwd
 > cd ~
 > mkdir temp
-6.  ```Directory: C:\Users\zed```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  ----```py11.  ```d----  12/17/2011  9:02 AM      temp```py14.  ````> mkdir temp/stuff```py`17.  ````Directory: C:\Users\zed\temp```py`20.  ````Mode  LastWriteTime  Length  Name```py`21.  ```----  -------------  ------  ----```py22.  ```d----  12/17/2011  9:02 AM      stuff```py25.  ````> mkdir temp/stuff/things```py`28.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:03 AM      things```py35.  ````> mkdir temp/stuff/things/orange/apple/pear/grape```py`39.  ````Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear```py`42.  ````Mode  LastWriteTime  Length  Name```py`43.  ```----  -------------  ------  ----```py44.  ```d----  12/17/2011  9:03 AM      grape```py47.  ````>```py`
+6.  ```Directory: C:\Users\zed
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:02 AM      temp
+> mkdir temp/stuff
+Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:02 AM      stuff
+> mkdir temp/stuff/things
+Directory: C:\Users\zed\temp\stuff
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:03 AM      things
+> mkdir temp/stuff/things/orange/apple/pear/grape
+Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:03 AM      grape
+>
 ```
 
  ```pypwd` 和 `cd ~` 命令我只列这一次，但是记住，做每个练习之前你都要做这个操作。
@@ -46,4 +65,4 @@ $ cd ~
 *   “路径”的概念可能一开始会让你感到困惑。别担心，我们之后会多次用到这个概念，你会慢慢明白的。
 *   在 temp 目录中再创建 20 个不同层级的目录。在图形界面的文件查看器中查看这些文件夹。
 *   创建一个名称用 `“ ”` 括起来的目录：`mkdir "I Have Fun"`
-*   如果临时文件夹已经存在了你的电脑就会报错。用 `cd` 切换到一个你能控制的工作目录下，然后再试。Windows 桌面是一个很好的选择。```
+*   如果临时文件夹已经存在了你的电脑就会报错。用 `cd` 切换到一个你能控制的工作目录下，然后再试。Windows 桌面是一个很好的选择。

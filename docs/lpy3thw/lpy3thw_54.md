@@ -16,10 +16,11 @@
 $ sudo pip install flask
 [ sudo ] password for zedshaw:  Downloading/unpacking flask
 Running setup.py egg_info for  package flask
-5.  ``Installing collected packages : flask Running setup.py install for flask``7.  ```Successfully installed flask Cleaning up...```py
+Installing collected packages : flask Running setup.py install for flask
+Successfully installed flask Cleaning up...
 ```
 
- ``这是 Linux 和 macOS 电脑上的操作，如果是 windows，把 `sudo` 去掉，直接输入 `pip install flask` 即可。如果不行的话，回到练习 46，确保你把之前的步骤都做好了。
+这是 Linux 和 macOS 电脑上的操作，如果是 windows，把 `sudo` 去掉，直接输入 `pip install flask` 即可。如果不行的话，回到练习 46，确保你把之前的步骤都做好了。
 
 ## 创建一个简单的 “Hello World” 项目
 
@@ -149,7 +150,7 @@ index.html
     15.  ```</html>```py
 ```
 
- ``如果你知道 HTML 是什么，那这些代码你应该看起来很熟悉。如果不知道的话，搜一下 HTML，试着亲手写一些网页，这样你就能知道它是如何运行的。这个 HTML 文件只是一个模板，这意味着 flask 会将你给传给它的变量放进模板中的这些“洞”（holes）里。每个 `$greeting` 所在的地方都代表一个变量，你可以传给这个模板来改变它的内容。
+如果你知道 HTML 是什么，那这些代码你应该看起来很熟悉。如果不知道的话，搜一下 HTML，试着亲手写一些网页，这样你就能知道它是如何运行的。这个 HTML 文件只是一个模板，这意味着 flask 会将你给传给它的变量放进模板中的这些“洞”（holes）里。每个 `$greeting` 所在的地方都代表一个变量，你可以传给这个模板来改变它的内容。
 
 要让你的 app.py 做到这些，你需要添加一些代码来告诉 flask 从哪里加载这个模板以及如何渲染它。把 `app.py` 拿过来，做如下改动：
 
@@ -207,4 +208,4 @@ app.py
 
 **我无法使用 5000 端口。** 可能是哪个杀毒软件占用了这个端口，那就换一个端口。
 
-**安装 flask 时出现 ImportError "No module named web"。** 很有可能是你在系统中安装了多个版本的 Python，而在这里你用了错误的一个。或者由于 pip 版本太旧导致安装没有正确完成。试着卸载并重装 flask 。如果还不行，那就再仔细检查确认自己用了正确版本的 Python。````
+**安装 flask 时出现 ImportError "No module named web"。** 很有可能是你在系统中安装了多个版本的 Python，而在这里你用了错误的一个。或者由于 pip 版本太旧导致安装没有正确完成。试着卸载并重装 flask 。如果还不行，那就再仔细检查确认自己用了正确版本的 Python。

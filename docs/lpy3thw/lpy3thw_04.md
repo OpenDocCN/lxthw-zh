@@ -74,10 +74,16 @@ test.txt lpthw $
 > dir
 Volume  in drive C is
 Volume  Serial  Number  is  085C—7E02
-11.  ``Directory of C:\Documents and  Settings\you\lpthw``13.  ```04.05.2010  23:32  <DIR>  .```py14.  ```04.05.2010  23:32  <DIR>  ..```py 15.  ```04.05.201  0  23:32  6 test.txt```py16.  ```1  File(s)  6 bytes```py17.  ```2  Dir(s)  14  804  623  360 bytes free```py19.  ````>```py`
+Directory of C:\Documents and  Settings\you\lpthw
+04.05.2010  23:32  <DIR>  . 
+04.05.2010  23:32  <DIR>  ..
+04.05.201  0  23:32  6 test.txt
+1  File(s)  6 bytes
+2  Dir(s)  14  804  623  360 bytes free
+>
 ```
 
- ``如果你的显示跟我的略有不同也是正确的，但是大体上应该是一样的。
+如果你的显示跟我的略有不同也是正确的，但是大体上应该是一样的。
 
 ## Linux
 

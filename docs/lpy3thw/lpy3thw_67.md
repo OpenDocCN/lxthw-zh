@@ -46,10 +46,42 @@ $
 ```py
 > cd temp
 > ls
-5.  ```Directory: C:\Users\zed\temp```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/17/2011  9:03 AM      stuff```py13.  ````> cd stuff/things/orange/apple/pear/grape/```py`14.  ```> cd ..```py15.  ```> rmdir grape```py16.  ```> cd ..```py18.  ````> rmdir pear```py`19.  ```> cd ..```py20.  ```> rmdir apple```py21.  ```> cd ..```py22.  ```> rmdir orange```py23.  ```> cd ..```py24.  ```> ls```py27.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:14 AM      things```py35.  ````> rmdir things```py`36.  ```> cd ..```py37.  ```> ls```py40.  ````Directory: C:\Users\zed\temp```py`43.  ````Mode  LastWriteTime  Length  Name```py`44.  ```----  -------------  ------  ----```py45.  ```d----  12/17/2011  9:14 AM      stuff```py48.  ````> rmdir stuff```py`49.  ```> pwd```py51.  ````Path```py`52.  ```----```py53.  ```C:\Users\zed\temp```py56.  ````> cd ..```py`57.  ```>```py
+Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:03 AM      stuff
+> cd stuff/things/orange/apple/pear/grape/
+> cd ..
+> rmdir grape
+> cd ..
+> rmdir pear
+> cd ..
+> rmdir apple
+> cd ..
+> rmdir orange
+> cd ..
+> ls
+Directory: C:\Users\zed\temp\stuff
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:14 AM      things
+> rmdir things
+> cd ..
+> ls
+Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/17/2011  9:14 AM      stuff
+> rmdir stuff
+> pwd
+Path
+----
+C:\Users\zed\temp
+> cd ..
+>
 ```
 
- ``### 55.8.2 你学到的
+### 55.8.2 你学到的
 
 我现在开始把这些目录混在一起用了，所以你一定要专心，确保自己都输对了。如果你犯错了，只能说明你不专心。如果你发现自己犯了很多错，休息一下，或者干脆今天就不学了，明天再继续。
 

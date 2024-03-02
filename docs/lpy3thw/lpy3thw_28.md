@@ -59,10 +59,23 @@ ex24.py
 $ python3.6 ex24.py
 Let's practice everything.
 You'd need to know 'bout escapes with \ that do:
-5.  ``newlines and   tabs.``6.  ``--------------``8.  ```The lovely world```py9.  ```with logic so firmly planted cannot discern```py10.  ```the needs of love```py11.  ```nor comprehend passion from intuition```py12.  ```and requires an explanation```py14.  ````where there is none.```py`15.  ```--------------```py16.  ```This should be five: 5```py17.  ```With a starting point of: 10000```py18.  ```We'd have 5000000 beans,  5000.0 jars,  and  50.0 crates.```py19.  ```We can also do that this way:```py20.  ```We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.```py
+newlines and   tabs.
+--------------
+The lovely world
+with logic so firmly planted cannot discern
+the needs of love
+nor comprehend passion from intuition
+and requires an explanation
+where there is none.
+--------------
+This should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans,  5000.0 jars,  and  50.0 crates.
+We can also do that this way:
+We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.
 ```
 
- ``## 附加练习
+## 附加练习
 
 *   确保你做了检查：从后往前读代码，大声读出来，然后在不明白的地方加上注释。
 *   有意打乱这个文件，然后运行，看看你会收到什么样的错误信息，确保你能把它修复好。

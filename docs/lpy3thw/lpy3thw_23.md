@@ -52,10 +52,24 @@ You have 20 cheeses!
 You have 30 boxes of crackers!
 Man that's enough for a party!
 Get a blanket.
-8.  ``OR, we can use variables from our script:``9.  ``You have 10 cheeses!``10.  ``You have 50 boxes of crackers!``11.  ``Man that's enough for a party!``12.  ``Get a blanket.``14.  ```We can even do math inside too:```py15.  ```You have 30 cheeses!```py16.  ```You have 11 boxes of crackers!```py17.  ```Man that's enough for a party!```py18.  ```Get a blanket.```py20.  ````And we can combine the two, variables and math:```py`21.  ```You have 110 cheeses!```py22.  ```You have 1050 boxes of crackers!```py23.  ```Man that's enough for a party!```py24.  ```Get a blanket.```py
+OR, we can use variables from our script:
+You have 10 cheeses!
+You have 50 boxes of crackers!
+Man that's enough for a party!
+Get a blanket.
+We can even do math inside too:
+You have 30 cheeses!
+You have 11 boxes of crackers!
+Man that's enough for a party!
+Get a blanket.
+And we can combine the two, variables and math:
+You have 110 cheeses!
+You have 1050 boxes of crackers!
+Man that's enough for a party!
+Get a blanket.
 ```
 
- ``## 附加练习
+## 附加练习
 
 *   回顾一遍这个脚本，然后在每一行上方加上注释，解释它的作用。
 *   从下到上阅读每一行，说出所有重要的字符。

@@ -25,10 +25,14 @@ $
 > cd temp
 >  New-Item iamcool.txt -type file
 > ls
-6.  ```Directory: C:\Users\zed\temp```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  -----```py11.  ```a---  12/17/2011  9:03 AM      iamcool.txt```py14.  ````>```py`
+6.  ```Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  -----
+a---  12/17/2011  9:03 AM      iamcool.txt
+>
 ```
 
- ``### 55.10.2 你学到的
+### 55.10.2 你学到的
 
 你学习了如何创建空文件。在 Unix 系统下用 `touch` ，在 Windows 系统下用 `New-Item` 。
 

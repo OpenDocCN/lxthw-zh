@@ -30,10 +30,36 @@ $ pushd i/like
 ```py
 > cd temp
 > mkdir i/like/icecream
-5.  ```Directory: C:\Users\zed\temp\i\like```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/20/2011  11:05 AM     icecream```py13.  ````> pushd i/like/icecream```py`14.  ```> popd```py15.  ```> pwd```py17.  ````Path```py`18.  ```----```py19.  ```C:\Users\zed\temp```py22.  ````> pushd i/like```py`23.  ```> pwd```py25.  ````Path```py`26.  ```----```py27.  ```C:\Users\zed\temp\i\like```py30.  ````> pushd icecream```py`31.  ```> pwd```py33.  ````Path```py`34.  ```----```py35.  ```C:\Users\zed\temp\i\like\icecream```py38.  ````> popd```py`39.  ```> pwd```py41.  ````Path```py`42.  ```----```py43.  ```C:\Users\zed\temp\i\like```py46.  ````> popd```py`47.  ```>```py
+Directory: C:\Users\zed\temp\i\like
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/20/2011  11:05 AM     icecream
+> pushd i/like/icecream
+> popd
+> pwd
+Path
+----
+C:\Users\zed\temp
+> pushd i/like
+> pwd
+Path
+----
+C:\Users\zed\temp\i\like
+> pushd icecream
+> pwd
+Path
+----
+C:\Users\zed\temp\i\like\icecream
+> popd
+> pwd
+Path
+----
+C:\Users\zed\temp\i\like
+> popd
+>
 ```
 
- ``| 警告！ |
+| 警告！ |
 | --- |
 | 在 Windows 系统下，你一般不用像 Linux 系统那样用 `-p` ，但是我想这应该是最近的更新，如果你用老的 Windows 系统的 Powershell，应该还是需要 `-p` 的，所以每个人的情况可能不太一样，你可以试试看。 |
 
@@ -53,4 +79,4 @@ $ pushd i/like
 *   移除 i/like/icecream 目录，然后自己创建一些，并在它们中间来回切换。
 *   跟自己解释 `pushd` 和 `popd` 的输入结果，注意它和堆栈的概念很类似。
 *   虽然你已经知道了，但是要记住 `mkdir -p` （在 Linux/MacOS 下）会创建一个完整的路径，即使所有的目录都不存在。这也就是我在本练习开头所做的。
-*   记住 Window 也会创建一个完整的路径，并且不需要 `-p` 。```
+*   记住 Window 也会创建一个完整的路径，并且不需要 `-p` 。

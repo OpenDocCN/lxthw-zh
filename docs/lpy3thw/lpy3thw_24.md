@@ -51,10 +51,17 @@ ex20.py
 ```py
 $ python3.6 ex20.py test.txt
 First  let's print the whole file:
-4.  ``This is line 1``5.  ``This is line 2``6.  ``This is line 3``8.  ```Now let's rewind, kind of like a tape.```py 9.  ```Let's print three lines:```py10.  ```1   This is line 1```py12.  ````2   This is line 2```py`14.  ````3   This is line 3```py`
+This is line 1
+This is line 2
+This is line 3
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1   This is line 1
+2   This is line 2
+3   This is line 3
 ```
 
- ``## 附加练习
+## 附加练习
 
 *   在每一行上方添加注释解释它的作用。
 *   每次 `print_a_line` 运行的时候，你都在传入一个 `current_line` 变量。写出每一次调用函数的时候 `current_line` 等于什么，然后找出它是如何变成 `print_a_line` 里面的 `line_count` 的。

@@ -66,7 +66,60 @@ $
 ```py
 > cd temp
 > pwd
-4.  ``Path``5.  ``----``6.  ``C:\Users\zed\temp``9.  ````> cd stuff```py`10.  ```> pwd```py12.  ````Path```py`13.  ```----```py14.  ```C:\Users\zed\temp\stuff```py17.  ````> cd things```py`18.  ```> pwd```py20.  ````Path```py`21.  ```----```py22.  ```C:\Users\zed\temp\stuff\things```py25.  ````> cd orange```py`26.  ```> pwd```py28.  ````Path```py`29.  ```----```py30.  ```C:\Users\zed\temp\stuff\things\orange```py33.  ````> cd apple```py`34.  ```> pwd```py36.  ````Path```py`37.  ```----```py38.  ```C:\Users\zed\temp\stuff\things\orange\apple```py41.  ````> cd pear```py`42.  ```> pwd```py44.  ````Path```py`45.  ```----```py46.  ```C:\Users\zed\temp\stuff\things\orange\apple\pear```py48.  ````> cd grape```py`49.  ```> pwd```py51.  ````Path```py`52.  ```----```py53.  ```C:\Users\zed\temp\stuff\things\orange\apple\pear\grape```py56.  ````> cd ..```py`57.  ```> cd ..```py58.  ```> cd ..```py59.  ```> pwd```py61.  ````Path```py`62.  ```----```py63.  ```C:\Users\zed\temp\stuff\things\orange```py66.  ````> cd ../..```py`67.  ```> pwd```py69.  ````Path```py`70.  ```----```py71.  ```C:\Users\zed\temp\stuff```py74.  ````> cd ..```py`75.  ```> cd ..```py76.  ```> cd temp/stuff/things/orange/apple/pear/grape```py77.  ```> cd ../../../../../../../```py78.  ```> pwd```py80.  ````Path```py`81.  ```----```py82.  ```C:\Users\zed```py85.  ````>```py`
+Path
+----
+C:\Users\zed\temp
+> cd stuff
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff
+> cd things
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things
+> cd orange
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things\orange
+> cd apple
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things\orange\apple
+> cd pear
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things\orange\apple\pear
+> cd grape
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things\orange\apple\pear\grape
+> cd ..
+> cd ..
+> cd ..
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff\things\orange
+> cd ../..
+> pwd
+Path
+----
+C:\Users\zed\temp\stuff
+> cd ..
+> cd ..
+> cd temp/stuff/things/orange/apple/pear/grape
+> cd ../../../../../../../
+> pwd
+Path
+----
+C:\Users\zed
+>
 ```
 
  ``### 55.6.2 你学到的

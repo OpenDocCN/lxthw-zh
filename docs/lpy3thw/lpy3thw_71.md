@@ -32,7 +32,43 @@ $
 > cd temp
 > mv awesome.txt uncool.txt
 > ls
-6.  ```Directory: C:\Users\zed\temp```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  ----```py11.  ```d----  12/22/2011  4:52 PM      newplace```py12.  ```d----  12/22/2011  4:52 PM      something```py13.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py16.  ````-a---  12/22/2011  4:49 PM 0 neat.txt```py`17.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py18.  ```-a---  12/22/2011  4:49 PM 0 uncool.txt```py21.  ````> mv newplace oldplace```py`22.  ```> ls```py25.  ````Directory: C:\Users\zed\temp```py`28.  ````Mode  LastWriteTime  Length  Name```py`29.  ```----  -------------  ------  ----```py30.  ```d----  12/22/2011  4:52 PM      oldplace```py31.  ```d----  12/22/2011  4:52 PM      something```py32.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py33.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py34.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py35.  ```-a---  12/22/2011  4:49 PM 0 uncool.txt```py38.  ````> mv oldplace newplace```py`39.  ```> ls newplace```py42.  ````Directory: C:\Users\zed\temp\newplace```py`45.  ````Mode  LastWriteTime  Length  Name```py`46.  ```----  -------------  ------  ----```py47.  ```-a---  12/22/2011  4:49 PM 0 awesome.txt```py50.  ````> ls```py` 53.  ````Directory: C:\Users\zed\temp```py`56.  ````Mode  LastWriteTime  Length  Name```py`57.  ```----  -------------  ------  ----```py58.  ```d----  12/22/2011  4:52 PM      newplace```py59.  ```d----  12/22/2011  4:52 PM      something```py60.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py61.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py62.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py63.  ```-a---  12/22/2011  4:49 PM 0 uncool.txt```py67.  ````>```py`
+Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/22/2011  4:52 PM      newplace
+d----  12/22/2011  4:52 PM      something
+-a---  12/22/2011  4:49 PM 0 iamcool.txt
+-a---  12/22/2011  4:49 PM 0 neat.txt
+-a---  12/22/2011  4:49 PM 0 thefourthfile.txt
+-a---  12/22/2011  4:49 PM 0 uncool.txt
+> mv newplace oldplace
+> ls
+Directory: C:\Users\zed\temp
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/22/2011  4:52 PM      oldplace
+d----  12/22/2011  4:52 PM      something
+-a---  12/22/2011  4:49 PM 0 iamcool.txt
+-a---  12/22/2011  4:49 PM 0 neat.txt
+-a---  12/22/2011  4:49 PM 0 thefourthfile.txt
+-a---  12/22/2011  4:49 PM 0 uncool.txt
+> mv oldplace newplace
+> ls newplace
+Directory: C:\Users\zed\temp\newplace
+Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+-a---  12/22/2011  4:49 PM 0 awesome.txt
+> ls
+Directory: C:\Users\zed\temp
+`Mode  LastWriteTime  Length  Name
+----  -------------  ------  ----
+d----  12/22/2011  4:52 PM      newplace
+d----  12/22/2011  4:52 PM      something
+-a---  12/22/2011  4:49 PM 0 iamcool.txt
+-a---  12/22/2011  4:49 PM 0 neat.txt
+-a---  12/22/2011  4:49 PM 0 thefourthfile.txt
+-a---  12/22/2011  4:49 PM 0 uncool.txt
+>
 ```
 
  ``### 55.12.2 你学到的

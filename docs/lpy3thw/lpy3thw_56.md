@@ -364,4 +364,4 @@ you_died.html
 
 **我在游戏中用了 session，但不能用 nosetests 测试。** 阅读 Flask 测试文档（Flask Testing Documentation）中的“其他测试技巧”（Other Testing Tricks），了解关于在游戏中创建“假会话”（fake sessions）的信息。
 
-**我收到了一个 `ImportError`。** 可能是以下情况中的一种或几种： 错误的目录，错误的 Python 版本，没有设置 PYTHON-PATH，没有 **init**.py 文件，以及（或者）import 中存在拼写错误。```
+**我收到了一个 `ImportError`。** 可能是以下情况中的一种或几种： 错误的目录，错误的 Python 版本，没有设置 PYTHON-PATH，没有 **init**.py 文件，以及（或者）import 中存在拼写错误。
