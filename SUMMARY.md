@@ -1,5 +1,6 @@
 +   [笨方法文化手册 3.0](docs/culture/README.md)
 +   [笨办法学 C 中文版](docs/lcthw/README.md)
++   [笨办法学 Git](docs/lgitthw/README.md)
 +   [笨办法学 Java](docs/ljthw/README.md)
 +   [笨办法学 Linux 中文版](docs/llthw/README.md)
 +   [笨办法学 Python · 续中文版](docs/lmpythw/README.md)
