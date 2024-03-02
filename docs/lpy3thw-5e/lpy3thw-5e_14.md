@@ -1,4 +1,4 @@
-## 练习 12. 更简单的提示方式
+## 练习 12：更简单的提示方式
 
 当你输入`input()`时，你实际上输入了`(`和`)`字符，这些是`括号`字符。对于`input`，你也可以输入一个提示，让人知道该输入什么。在`()`内放入你想要的提示字符串，看起来像这样：
 
@@ -31,11 +31,11 @@ y = **input**("Name? ")
 
 ### 学习练习
 
-1\. 在你的 Jupyter 单元格中右键点击任何`print`，然后选择`显示上下文帮助`。这将为`print`提供快速文档。
+1.  在你的 Jupyter 单元格中右键点击任何`print`，然后选择`显示上下文帮助`。这将为`print`提供快速文档。
 
-2\. 如果你这样做，面板上会显示“点击函数查看文档。”，那么你需要用`SHIFT-ENTER`运行代码，然后再次点击`print`函数。
+2.  如果你这样做，面板上会显示“点击函数查看文档。”，那么你需要用`SHIFT-ENTER`运行代码，然后再次点击`print`函数。
 
-3\. 接下来，去[Google](https://google.com)搜索`python print site:python.org`以获取 Python `print`函数的官方文档。
+3.  接下来，去[Google](https://google.com)搜索`python print site:python.org`以获取 Python `print`函数的官方文档。
 
 ### 常见学生问题
 

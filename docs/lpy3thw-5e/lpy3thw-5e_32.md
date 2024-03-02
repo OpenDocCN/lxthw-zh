@@ -1,4 +1,4 @@
-## 练习 29. 布尔练习
+## 练习 29：布尔练习
 
 你从上一个练习中学到的逻辑组合被称为“布尔”逻辑表达式。布尔逻辑在编程中被*广泛*使用。它是计算的基本部分，熟练掌握这些逻辑表达式就相当于熟练掌握音乐中的音阶。
 
@@ -16,32 +16,32 @@ True 或 False。一旦你把答案写下来，你将在终端中启动 Python �
  7\.   False and 0 != 0
  8\.   True or 1 == 1
  9\.   "test" == "testing"
-10\.   1 != 0 and 2 == 1
-11\.   "test" != "testing"
-12\.   "test" == 1
-13\.   not (True and False)
-14\.   not (1 == 1 and 0 != 1)
-15\.   not (10 == 1 or 1000 == 1000)
-16\.   not (1 != 10 or 3 == 4)
-17\.   not ("testing" == "testing" and "Zed" == "Cool Guy")
-18\.   1 == 1 and (not ("testing" == 1 or 1 == 0))
-19\.   "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
-20\.   3 != 3 and (not ("testing" == "testing" or "Python" == "Fun"))
+10.    1 != 0 and 2 == 1
+11.    "test" != "testing"
+12.    "test" == 1
+13.    not (True and False)
+14.    not (1 == 1 and 0 != 1)
+15.    not (10 == 1 or 1000 == 1000)
+16.    not (1 != 10 or 3 == 4)
+17.    not ("testing" == "testing" and "Zed" == "Cool Guy")
+18.    1 == 1 and (not ("testing" == 1 or 1 == 0))
+19.    "chunky" == "bacon" and (not (3 == 4 or 3 == 3))
+20.    3 != 3 and (not ("testing" == "testing" or "Python" == "Fun"))
 ```
 
 我还会给你一个技巧，帮助你解决更复杂的问题。
 
 每当你看到这些布尔逻辑语句，你都可以通过这个简单的过程轻松解决它们：
 
-1\. 找到一个相等测试（== 或 !=）并用其真值替换
+1.  找到一个相等测试（== 或 !=）并用其真值替换
 
-2\. 找到括号中的每个 `and/or` 并首先解决它们
+2.  找到括号中的每个 `and/or` 并首先解决它们
 
-3\. 找到每个 `not` 并反转它
+3.  找到每个 `not` 并反转它
 
-4\. 找到任何剩余的 `and/or` 并解决它
+4.  找到任何剩余的 `and/or` 并解决它
 
-5\. 完成后，你应该有 True 或 False
+5.  完成后，你应该有 True 或 False
 
 我将演示一个对 #20 的*变体*：
 
@@ -51,25 +51,25 @@ True 或 False。一旦你把答案写下来，你将在终端中启动 Python �
 
 这是我逐步进行每个步骤并展示翻译的过程，直到将其简化为一个结果：
 
-1\. 解决每个相等测试：
+1.  解决每个相等测试：
 
-• `3 != 4` 是 `True`，所以用 `True` 替换得到 `True and not ("testing" != "test"` `or "Python" == "Python")`
++   `3 != 4` 是 `True`，所以用 `True` 替换得到 `True and not ("testing" != "test"` `or "Python" == "Python")`
 
-• `"testing" != "test"` 是 `True`，所以用 `True` 替换 *that* 得到 `True and not (True` `or "Python" == "Python")`
++   `"testing" != "test"` 是 `True`，所以用 `True` 替换 *that* 得到 `True and not (True` `or "Python" == "Python")`
 
-• `"Python" == "Python"` 是 True，所以用 `True` 替换，得到 `True and` `not (True or True)`
++   `"Python" == "Python"` 是 True，所以用 `True` 替换，得到 `True and` `not (True or True)`
 
-2\. 找到括号中的每个 `and/or`：
+2.  找到括号中的每个 `and/or`：
 
-• `(True or True)` 是 `True`，所以替换得到 `True and not (True)`
++   `(True or True)` 是 `True`，所以替换得到 `True and not (True)`
 
-3\. 找到每个 `not` 并反转它：
+3.  找到每个 `not` 并反转它：
 
-• `not (True)` 是 `False`，所以替换得到 `True and False`
++   `not (True)` 是 `False`，所以替换得到 `True and False`
 
-4\. 找到任何剩余的 `and/or` 并解决它们：
+4.  找到任何剩余的 `and/or` 并解决它们：
 
-• `True and False` 是 `False`，你完成了
++   `True and False` 是 `False`，你完成了
 
 有了这个，我们就完成了，知道结果是 False。
 
@@ -90,13 +90,13 @@ True 或 False。一旦你把答案写下来，你将在终端中启动 Python �
 
 ### 学习练习
 
-1\. Python 中有很多类似于 `!=` 和 `==` 的运算符。尽量找到尽可能多的“相等运算符”。它们应该类似于 `<` 或 `<=`。
+1.  Python 中有很多类似于 `!=` 和 `==` 的运算符。尽量找到尽可能多的“相等运算符”。它们应该类似于 `<` 或 `<=`。
 
-2\. 写出每个相等运算符的名称。例如，我称 `!=` 为“不等于”。
+2.  写出每个相等运算符的名称。例如，我称 `!=` 为“不等于”。
 
-3\. 通过键入新的布尔运算符来玩 Python，在按下回车键之前，试着大声说出它是什么。不要思考。大声说出脑海中首先出现的东西。写下来，然后按下回车，并记录你答对和答错的次数。
+3.  通过键入新的布尔运算符来玩 Python，在按下回车键之前，试着大声说出它是什么。不要思考。大声说出脑海中首先出现的东西。写下来，然后按下回车，并记录你答对和答错的次数。
 
-4\. 丢掉第 3 个学习练习中的纸张，这样你就不会在以后不小心尝试使用它。
+4.  丢掉第 3 个学习练习中的纸张，这样你就不会在以后不小心尝试使用它。
 
 ### 常见学生问题
 
