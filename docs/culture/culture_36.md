@@ -46,4 +46,12 @@
 
 理性、创意、自由、开放、简单生活、鼓励探索发现、注重质量而不是外形和风格 ∎ 
 
-![幻灯片 7.png](img/4072368a1797f0daddb62e680fcf5585.png)![幻灯片 9.png](img/13eda168cf878d198dd6f9893ee93679.png)![幻灯片 5.png](img/2d51b91517dd3bf3635b018d20284b97.png)![幻灯片 6.png](img/4d2d1f61ba7c821b124fdb055464fbb2.png)![幻灯片 8.png](img/067fd4a957809c71dd8339d6f9950ec6.png)
+![幻灯片 7.png](img/4072368a1797f0daddb62e680fcf5585.png)
+
+![幻灯片 9.png](img/13eda168cf878d198dd6f9893ee93679.png)
+
+![幻灯片 5.png](img/2d51b91517dd3bf3635b018d20284b97.png)
+
+![幻灯片 6.png](img/4d2d1f61ba7c821b124fdb055464fbb2.png)
+
+![幻灯片 8.png](img/067fd4a957809c71dd8339d6f9950ec6.png)

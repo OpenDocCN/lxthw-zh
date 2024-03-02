@@ -46,4 +46,14 @@
 
 理性、创意、自由、开放、简单生活、鼓励探索发现、注重质量而不是外形和风格 ∎ 
 
-紫方法实验室 LNNUSOWOUNDR.EDA![幻灯片 7.png](img/4072368a1797f0daddb62e680fcf5585.png)紫方法实验不解难题?I 信 BAWTNWG![幻灯片 9.png](img/13eda168cf878d198dd6f9893ee93679.png)笨方法实验室世上无难事只怕笨方法 CO:IwASOSOOONNDED![幻灯片 5.png](img/2d51b91517dd3bf3635b018d20284b97.png)米方法实验六经露我注:QMYSSONOOUSRHED![幻灯片 6.png](img/4d2d1f61ba7c821b124fdb055464fbb2.png)麻方法实验堂磨练好奇科学模仿?AMRRWNNWDLnyD![幻灯片 8.png](img/067fd4a957809c71dd8339d6f9950ec6.png)
+紫方法实验室 LNNUSOWOUNDR.EDA
+
+![幻灯片 7.png](img/4072368a1797f0daddb62e680fcf5585.png)紫方法实验不解难题?I 信 BAWTNWG
+
+![幻灯片 9.png](img/13eda168cf878d198dd6f9893ee93679.png)笨方法实验室世上无难事只怕笨方法 CO:IwASOSOOONNDED
+
+![幻灯片 5.png](img/2d51b91517dd3bf3635b018d20284b97.png)米方法实验六经露我注:QMYSSONOOUSRHED
+
+![幻灯片 6.png](img/4d2d1f61ba7c821b124fdb055464fbb2.png)麻方法实验堂磨练好奇科学模仿?AMRRWNNWDLnyD
+
+![幻灯片 8.png](img/067fd4a957809c71dd8339d6f9950ec6.png)

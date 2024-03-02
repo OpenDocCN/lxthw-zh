@@ -4,7 +4,9 @@
 
 
 
-## ![BookCover.png](img/49687f434f7167c856f50d78aaceb63a.png) 
+## 
+
+![BookCover.png](img/49687f434f7167c856f50d78aaceb63a.png) 
 
 ## 1
 

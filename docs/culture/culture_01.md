@@ -10,7 +10,9 @@
 
 添加微信，再附赠 100 页《笨方法文化幻灯：好奇与磨练》 
 
-![企业微信.jpg](img/b2a15cbd072d361b09a7daf9b001bbf0.png)![文化手册 3.0.png](img/b1870d72278e7427eba5ee4325cd505f.png)  
+![企业微信.jpg](img/b2a15cbd072d361b09a7daf9b001bbf0.png)
+
+![文化手册 3.0.png](img/b1870d72278e7427eba5ee4325cd505f.png)  
 
 ![100 页幻灯截图.png](img/b7a182cc4b9ba7fc82fe32adeb726553.png)  
 
