@@ -30,4 +30,7 @@
 
 人人皆有好奇心，点燃它，守护它、强化它。 
 
-前行吧，以质疑为开场，成为一个探索者，而不是游客，去一个无人曾抵达的地方，或者去一个能抵达最远的地方，创造令你人生充满期待的希望。∎ <ne-h2 id="FJZr1" data-lake-id="FJZr1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext> <ne-heading-content></ne-heading-content></ne-h2>
+前行吧，以质疑为开场，成为一个探索者，而不是游客，去一个无人曾抵达的地方，或者去一个能抵达最远的地方，创造令你人生充满期待的希望。∎ 
+
+##  
+

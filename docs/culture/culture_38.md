@@ -66,4 +66,4 @@
 
 +   2020-10-01 念起，制作笨方法文化幻灯 
 
-<ne-card data-card-name="image" data-card-type="inline" id="j2zGJ" data-event-boundary="card" class="ne-spacing-all">![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="9d475a85b6687e9685bfea71a651e947" data-lake-id="9d475a85b6687e9685bfea71a651e947">欢迎订阅《笨方法实验室来信》，获取手册的最新连载。∎</ne-card></ne-p>
+![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="9d475a85b6687e9685bfea71a651e947" data-lake-id="9d475a85b6687e9685bfea71a651e947">欢迎订阅《笨方法实验室来信》，获取手册的最新连载。∎</ne-p>

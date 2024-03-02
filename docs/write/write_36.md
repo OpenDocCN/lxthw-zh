@@ -32,7 +32,11 @@
 
 头脑变得清晰，内心也会平和。 
 
-现在写作于我，有了更多内驱力。不再是为了副业挣钱、获得他人点赞认同，而是更好的梳理大脑，深入思考，训练语言能力。 <ne-h2 id="gRNjB" data-lake-id="gRNjB"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>changelog</ne-heading-content></ne-h2> 
+现在写作于我，有了更多内驱力。不再是为了副业挣钱、获得他人点赞认同，而是更好的梳理大脑，深入思考，训练语言能力。 
+
+## changelog
+
+ 
 
 +   2021.6.13 12:00-12:12 12min，用卡片梳理大纲 
 

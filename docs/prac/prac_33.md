@@ -2,7 +2,11 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/xggcw4`](https://www.yuque.com/hardwaylab/book/xggcw4)
 
-<ne-h2 id="PVDqW" data-lake-id="PVDqW"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+
+## 1
+
+ 
 
 「安身立命的东西，一定要写好一点。」 
 
@@ -20,9 +24,17 @@
 
 当你历经失败，知道何事可为，何事不可为，便开始拥有信念，凝结成为原则，想要更多人受益，便沉淀成为文本。 
 
-文本不能用来安身立命，但如果说，这份文本能让你也拥有份信念，便也足够。</ne-quote> <ne-h2 id="vJaK9" data-lake-id="vJaK9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+文本不能用来安身立命，但如果说，这份文本能让你也拥有份信念，便也足够。</ne-quote> 
 
-3.0 与过去版本有什么变动？主要有三个变动 <ne-h3 id="lLaMr" data-lake-id="lLaMr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更清晰</ne-heading-content></ne-h3> 
+## 2
+
+ 
+
+3.0 与过去版本有什么变动？主要有三个变动 
+
+### 更清晰
+
+ 
 
 删去复杂，费解，难以解释的东西，包括术语、生造词、流行词等。 
 
@@ -30,11 +42,19 @@
 
 删去多余的，反反复复讲的，令自己生厌的句子。 
 
-删减的过程比较痛苦，需要反复思考，观照自我，抽丝剥茧，将不属于自己的东西，统统剥离。 <ne-h3 id="o5QNx" data-lake-id="o5QNx"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更简洁</ne-heading-content></ne-h3> 
+删减的过程比较痛苦，需要反复思考，观照自我，抽丝剥茧，将不属于自己的东西，统统剥离。 
+
+### 更简洁
+
+ 
 
 去掉正文加粗文字格式。不要用我所认为的重要，去会抢夺读者的注意力，读者觉得重要的，才是重要的。 
 
-每篇文章再快速读上几遍，调整篇章结构，使其更直白流程。 <ne-h3 id="OMmmy" data-lake-id="OMmmy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更具体</ne-heading-content></ne-h3> 
+每篇文章再快速读上几遍，调整篇章结构，使其更直白流程。 
+
+### 更具体
+
+ 
 
 重点修订价值观。价值观变动不是坏事，怕的是知错不改，过去还是写复杂了，自己回看竟然都不记得。如果自己定的价值观，自己被问起都说不出来，那就要改。 
 
@@ -42,7 +62,11 @@
 
 增补更多个人具体实践故事和理解，试图输出更多真细节、具体、鲜活、湿润的内容。 
 
-这个过程工作量较大，需要整理半年积累的大量卡片，只留精华。 <ne-h2 id="uGWoj" data-lake-id="uGWoj"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+这个过程工作量较大，需要整理半年积累的大量卡片，只留精华。 
+
+## 3
+
+ 
 
 山南山北雪晴，千里万里月明。 
 

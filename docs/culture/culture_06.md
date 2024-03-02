@@ -2,7 +2,11 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/pv8x5g`](https://www.yuque.com/hardwaylab/book/pv8x5g)
 
-<ne-h2 id="xjWhh" data-lake-id="xjWhh"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+
+## 1
+
+ 
 
 多数人在谈论长期主义，但少有人能讲清楚。 
 
@@ -26,7 +30,11 @@
 
 我问：「如果是向父母解释呢？」 
 
-她一时沉默。 <ne-h2 id="ywxj5" data-lake-id="ywxj5"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+她一时沉默。 
+
+## 2
+
+ 
 
 「长期主义」并不是一个好词。 
 
@@ -40,7 +48,11 @@
 
 长期主义是宏大抽象的人生概念，衍生自金融词汇，最终落脚点在收益。 
 
-而健康长久是当下具体的行动指引，衍生自医学词汇，更关注细水长流。 <ne-h2 id="Tleiv" data-lake-id="Tleiv"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+而健康长久是当下具体的行动指引，衍生自医学词汇，更关注细水长流。 
+
+## 3
+
+ 
 
 我在《笨方法文化手册》中描述笨方法实验室的愿景，它曾经是： <ne-quote id="udca87177" data-lake-id="udca87177">
 
@@ -66,13 +78,21 @@
 
 于是，我将笨方法实验室的愿景改成： <ne-quote id="ud4bdc68d" data-lake-id="ud4bdc68d">
 
-成为更健康，更长久的进步共同体。</ne-quote> <ne-h2 id="GgNw4" data-lake-id="GgNw4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+成为更健康，更长久的进步共同体。</ne-quote> 
+
+## 4
+
+ 
 
 如何才能做到「更健康，更长久」？ 
 
 思考良久，觉得还是要解释一下。 
 
-简单三点：一是活着，二是做正确的事情，三是不做错误的事情。 <ne-h3 id="Wa0im" data-lake-id="Wa0im"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>活着</ne-heading-content></ne-h3> 
+简单三点：一是活着，二是做正确的事情，三是不做错误的事情。 
+
+### 活着
+
+ 
 
 活着就是不解体。企业活着，就是经济不解体，人活着，就是肉体不解体，做事活着，就是行动不解体。 
 
@@ -84,7 +104,11 @@
 
 笨方法学写作，我不要求学员一年写 365 张卡片，我只希望学员日课一卡，行动不解体，写作不放弃，技能终能习得。 
 
-能做多健康多长久，取决于个人的信念与行动，我相信，一直从用户的基本需求与不解体行动出发，活过几十年甚至更长久不会是问题。 <ne-h3 id="eWY1u" data-lake-id="eWY1u"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>正确的事情</ne-heading-content></ne-h3> 
+能做多健康多长久，取决于个人的信念与行动，我相信，一直从用户的基本需求与不解体行动出发，活过几十年甚至更长久不会是问题。 
+
+### 正确的事情
+
+ 
 
 什么是正确的事情？ 
 
@@ -102,7 +126,11 @@
 
 2、错误的事情，做了就要停，停了就改，不管付出多大的代价都要叫停都要改，不管多大的代价都是最小的代价。 
 
-3、如果不能判定某件事情是否是对的，可以列出哪些是错的，这样理解和执行起来就容易些。 <ne-h3 id="LuBcI" data-lake-id="LuBcI"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>不做错误的事情</ne-heading-content></ne-h3> 
+3、如果不能判定某件事情是否是对的，可以列出哪些是错的，这样理解和执行起来就容易些。 
+
+### 不做错误的事情
+
+ 
 
 不做错误的事情，《段永平投资问答录》讲得相当好，纯摘录如下： <ne-quote id="u0fca166e" data-lake-id="u0fca166e">
 

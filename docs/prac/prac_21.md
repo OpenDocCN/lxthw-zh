@@ -10,4 +10,4 @@
 
 笨方法四要的每个关键词都可以找到理论或专著来解释，详细可查看[笨方法四要书单](https://www.douban.com/people/cnfeat/doulists/all) 
 
-<ne-card data-card-name="image" data-card-type="inline" id="URKjK" data-event-boundary="card" class="ne-spacing-all">![image.png](img/d306d1c1ceb70f0444ee01372f63bfdc.png)</ne-card>
+![image.png](img/d306d1c1ceb70f0444ee01372f63bfdc.png)

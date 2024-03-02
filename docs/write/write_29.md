@@ -2,7 +2,11 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/hcipvf`](https://www.yuque.com/hardwaylab/cardstyle/hcipvf)
 
-<ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+
+## 1
+
+ 
 
 母亲属牛，父亲时常调侃：”属牛的人脑子钝，不会转弯。” 
 
@@ -10,7 +14,11 @@
 
 “笨一点，没关系的。傻人有傻福嘛。”母亲如是回应。 
 
-也许笨一点，未尝不好。 <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+也许笨一点，未尝不好。 
+
+## 2
+
+ 
 
 两年前，母亲开始学习中医。进入一个公益中医群，没有“老师”手把手教，有的只是几本传统医书和一位老中医多年前录制的讲解视频。 那儿有个群规，每天需要看一段讲解视频，写下笔记发至群里，一周不发作业就会被清退。 
 
@@ -28,13 +36,21 @@
 
 每天学，每天写作业，一段时间后，她开始用针实操，自己身上找穴，下针。又过了一段时间，因为作业交的勤，她已是班长了，群里原来有一百五十多人，最后只剩十五人。 
 
-如今，两年已过，六本厚厚的笔记本，每本都记满着她的认真与耐心。 <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+如今，两年已过，六本厚厚的笔记本，每本都记满着她的认真与耐心。 
+
+## 3
+
+ 
 
 前段时间，得知一朋友患有鼻炎，每次见她都打喷嚏，多年辗转多家医院未果。我给母亲打了个电话，抱着试试看的态度问问有没有治疗方法，母亲一听，立马告诉我应该如何做，该用什么药，药方如何调配，用针灸的话应该取什么穴位。 
 
 我便叫来朋友，靠着我那点皮毛下针功夫，按照她说的穴位，银针一下，竟立竿见影，接着配上一副药方，鼻炎至今未复发。我终于意识到，母亲学医已有所成。 
 
-她并不聪明，却是靠着那股钝劲，走至人迹罕至之处。 <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+她并不聪明，却是靠着那股钝劲，走至人迹罕至之处。 
+
+## 4
+
+ 
 
 在她开始学中医的时候我也在学英语，我不断搜索速成方法，怎样才是最高效的学习路径，一心想着走捷径，方法试了这家试那家，却是在兜兜转转。两年时间，英语并无实质长进。计较太多，反而误事。 
 

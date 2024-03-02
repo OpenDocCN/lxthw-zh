@@ -32,7 +32,7 @@
 
 笨方法到底是什么？ 
 
-<ne-card data-card-name="image" data-card-type="inline" id="u5ae84f8b" data-event-boundary="card" class="ne-spacing-all">![HardwayLabUI.png](img/676658a6438d429d68b39c22d45ef7f7.png)  <ne-p id="u7fb0d007" data-lake-id="u7fb0d007">其实，在多年实践笨方法之后，我已经将它融入日常，以体悟替换概念，每一年，我对笨方法的改变与理解都在升级，我只需要将它描述出来。 
+![HardwayLabUI.png](img/676658a6438d429d68b39c22d45ef7f7.png)  <ne-p id="u7fb0d007" data-lake-id="u7fb0d007">其实，在多年实践笨方法之后，我已经将它融入日常，以体悟替换概念，每一年，我对笨方法的改变与理解都在升级，我只需要将它描述出来。 
 
 我将这个问题悬挂在书房，时时提问自己。 
 
@@ -70,16 +70,16 @@
 
 毕竟，世上无难事，只怕笨方法。  
 
-<ne-card data-card-name="image" data-card-type="inline" id="ub487fb64" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ub9dadfc0" data-lake-id="ub9dadfc0">《千面英雄》中说： <ne-quote id="uc554cf5c" data-lake-id="uc554cf5c">
+<ne-p id="ub9dadfc0" data-lake-id="ub9dadfc0">《千面英雄》中说： <ne-quote id="uc554cf5c" data-lake-id="uc554cf5c">
 
 英雄自日常生活的世界外出冒险，进入超自然奇迹的领域，他在那里遭遇到奇幻的力量，并赢得决定性的胜利，然后，英雄从神秘的历险中带着给予同胞恩赐的力量回来。</ne-quote> 
 
-愿笨方法，能成为你的奇幻力量。∎ <ne-hole id="u0f5f9034" data-lake-id="u0f5f9034"><ne-card data-card-name="hr" data-card-type="block" id="EC1Uj" data-event-boundary="card">
+愿笨方法，能成为你的奇幻力量。∎ <ne-hole id="u0f5f9034" data-lake-id="u0f5f9034">
 
 每一年，这本手册至少会更新一个版本，接收来自你的反馈，扩充延展你觉得最有用的部分。 
 
 如果你有更好的建议或想法，欢迎添加微信与我联系。  
 
-<ne-card data-card-name="image" data-card-type="inline" id="uc8d7e322" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ud5b732ed" data-lake-id="ud5b732ed">同时，我也会通过全年每周一周四发送 newsletter，来更新我践行笨方法的心得体会，欢迎[免费邮件订阅](http://newsletter.hardwaylab.com/)。 
+<ne-p id="ud5b732ed" data-lake-id="ud5b732ed">同时，我也会通过全年每周一周四发送 newsletter，来更新我践行笨方法的心得体会，欢迎[免费邮件订阅](http://newsletter.hardwaylab.com/)。 
 
-<ne-card data-card-name="image" data-card-type="inline" id="uFyrx" data-event-boundary="card" class="ne-spacing-all"></ne-card></ne-card></ne-p></ne-card></ne-hole></ne-card></ne-p></ne-card></ne-p>
+</ne-p></ne-hole></ne-p></ne-p>

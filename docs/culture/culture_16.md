@@ -28,11 +28,15 @@
 
 我相信科学就是那样的一种机制。它是孕育和激励新知识发现的方式，但在历史的长河里，它更证明是有效的揭露谬误的一整套技艺和实践。为了不断克服我们自欺也欺人的固有倾向，科学是最好的工具。</ne-quote> 
 
-普通人需要使用科学模型来武装自己，但比科学模型更重要的，是科学精神，[把科学精神贯穿到自己的行为当中去](https://www.yuque.com/hardwaylab/book/aoi7ou)，养成用事实与数据思考的习惯与生活方式。∎ <ne-h3 id="XYgb7" data-lake-id="XYgb7"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>参考阅读</ne-heading-content></ne-h3> 
+普通人需要使用科学模型来武装自己，但比科学模型更重要的，是科学精神，[把科学精神贯穿到自己的行为当中去](https://www.yuque.com/hardwaylab/book/aoi7ou)，养成用事实与数据思考的习惯与生活方式。∎ 
+
+### 参考阅读
+
+ 
 
 +   [《社会科学研究 原理方法与实践》](https://www.opentextbooks.org.hk/zh-hant/system/files/export/35/35982/pdf/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6_%E5%8E%9F%E7%90%86%E6%96%B9%E6%B3%95%E4%B8%8E%E5%AE%9E%E8%B7%B5_35982.pdf) 
 
-+   [鲁白：为什么说科学是一种生活方式？](https://mp.weixin.qq.com/s?__biz=MzU2NzA3NDE3Mw==&mid=2247489136&idx=1&sn=38f76636ac8acce9acdaa4978fbc628f&chksm=fca39a62cbd41374aa9e129a9d1693c848496e45406fcf5d112c3e8585a71e6ddd2163b37532&scene=21#wechat_redirect) <ne-h3 id="W2smr" data-lake-id="W2smr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content></ne-heading-content></ne-h3>
++   [鲁白：为什么说科学是一种生活方式？](https://mp.weixin.qq.com/s?__biz=MzU2NzA3NDE3Mw==&mid=2247489136&idx=1&sn=38f76636ac8acce9acdaa4978fbc628f&chksm=fca39a62cbd41374aa9e129a9d1693c848496e45406fcf5d112c3e8585a71e6ddd2163b37532&scene=21#wechat_redirect) <ne-h3 id="W2smr" data-lake-id="W2smr"></ne-h3>
 
 在理。就是最后的标点应该是句号，结果是逗号哈哈哈哈哈 
 

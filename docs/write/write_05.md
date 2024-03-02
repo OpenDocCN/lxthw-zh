@@ -10,7 +10,11 @@
 
 他问：「相比其他写作课，《笨方法学写作》有何最大不同？」 
 
-我说：「多数写作课号称能让你 21 天学会，短期快速变现，而《笨方法学写作》提出且践行十年学会写作，写作短期内是学不会的，只能通过大时间周期持续练习掌握，写作是身心之学，重在洗心养气。 <ne-h2 id="4e6b7610" data-lake-id="4e6b7610"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>为何是「十年」？</ne-heading-content></ne-h2> 
+我说：「多数写作课号称能让你 21 天学会，短期快速变现，而《笨方法学写作》提出且践行十年学会写作，写作短期内是学不会的，只能通过大时间周期持续练习掌握，写作是身心之学，重在洗心养气。 
+
+## 为何是「十年」？
+
+ 
 
 我是一个普通人。 
 
@@ -28,7 +32,11 @@
 
 十年，是普通人成就的「最合理必要时间」。 
 
-读书如此，写作如此。 <ne-h2 id="bd7758e8" data-lake-id="bd7758e8"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>怎么定义「学会」？</ne-heading-content></ne-h2> 
+读书如此，写作如此。 
+
+## 怎么定义「学会」？
+
+ 
 
 写作到底能不能「学会」？ 
 
@@ -50,7 +58,11 @@
 
 写作没有「最佳路径」，你永远都不会有「学会」写作的那一瞬间。 
 
-你只能找到一条「满意路径」，给自己设定十年的期限，沉下心，写下第一个「10000 张卡片」，第二个「10000 张卡片」，第三个「10000 张卡片」…… <ne-h2 id="b4e8b7d9" data-lake-id="b4e8b7d9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>「写作」到底是什么？</ne-heading-content></ne-h2> 
+你只能找到一条「满意路径」，给自己设定十年的期限，沉下心，写下第一个「10000 张卡片」，第二个「10000 张卡片」，第三个「10000 张卡片」…… 
+
+## 「写作」到底是什么？
+
+ 
 
 什么样的写作才能持续十年？ 
 
@@ -58,8 +70,8 @@
 
 Tim Bray 曾说：「人类创造出的产品里，只有那些为了满足自己而作的，才是真正值得读、值得看、值得听的。满足全世界这个目标太大，你很难射中靶心。」 
 
-写作，是人的创造性适应过程，是主动的，符合内心抉择的行动，它的真正意义并不在外在功利，而在于从内部改造自己的生活方式，是「身心之学」、是自我修养、是为了让自己变得更好、是责任、是使命、是不沉默、是日常生活的抗争…… <ne-hole id="u3a27883d" data-lake-id="u3a27883d"><ne-card data-card-name="hr" data-card-type="block" id="Mqr2g" data-event-boundary="card">
+写作，是人的创造性适应过程，是主动的，符合内心抉择的行动，它的真正意义并不在外在功利，而在于从内部改造自己的生活方式，是「身心之学」、是自我修养、是为了让自己变得更好、是责任、是使命、是不沉默、是日常生活的抗争…… <ne-hole id="u3a27883d" data-lake-id="u3a27883d">
 
 如果你还有兴趣，可以继续查看更多笨方法学写作课程介绍—— 
 
-笨方法学写作，这一次，让你彻底学会写作。</ne-card></ne-hole>
+笨方法学写作，这一次，让你彻底学会写作。</ne-hole>

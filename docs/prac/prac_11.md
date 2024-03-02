@@ -8,7 +8,7 @@
 
 笨方法，不教你弯道超车，只教你少走弯路。不教你快的技巧，只教你专注的功夫。 
 
-<ne-card data-card-name="image" data-card-type="inline" id="u9112b64f" data-event-boundary="card" class="ne-spacing-all">![image.png](img/f1f2a62e8bdd204c25f688e81e299c5f.png)  <ne-p id="79b003dcfa263fd3a8d5c0ad7c9d7177" data-lake-id="79b003dcfa263fd3a8d5c0ad7c9d7177">四义：是要接受自己是普通人，而不是聪明人。 
+![image.png](img/f1f2a62e8bdd204c25f688e81e299c5f.png)  <ne-p id="79b003dcfa263fd3a8d5c0ad7c9d7177" data-lake-id="79b003dcfa263fd3a8d5c0ad7c9d7177">四义：是要接受自己是普通人，而不是聪明人。 
 
 四要：是要去做，而不是什么都不做。 
 
@@ -26,4 +26,8 @@
 
 四问：是要探索可能的自我，而不是寻找真正的自我。 
 
-<ne-card data-card-name="image" data-card-type="inline" id="ub04699d2" data-event-boundary="card" class="ne-spacing-all">![image.png](img/522ceafa27cc1a66ba7ffe4c2bdb0b1e.png)  <ne-h2 id="NL2xa" data-lake-id="NL2xa"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext> <ne-heading-content></ne-heading-content></ne-h2></ne-card></ne-card></ne-p>
+![image.png](img/522ceafa27cc1a66ba7ffe4c2bdb0b1e.png)  
+
+##  
+
+</ne-p>

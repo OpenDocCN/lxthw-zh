@@ -10,7 +10,11 @@
 
 「人要生活，就一定要有信仰。信仰什么？相信一切事和一切时刻的合理的内在联系，相信生活作为整体将永远继续下去，相信最近的东西和最远的东西。」卡夫卡在《午夜的沉默》中说。 
 
-我的信仰就是笨方法，它能给我带来平静、安宁、和平、善良，能够让我作为一个普通人在世俗的生活中变得珍贵。 <ne-h2 id="sH5iY" data-lake-id="sH5iY"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>认知：知己知彼</ne-heading-content></ne-h2> 
+我的信仰就是笨方法，它能给我带来平静、安宁、和平、善良，能够让我作为一个普通人在世俗的生活中变得珍贵。 
+
+## 认知：知己知彼
+
+ 
 
 多数人不甘平凡，心里头仍有那个自己是天选之子的期待。 
 
@@ -36,7 +40,11 @@ KY：接受自己的普通，并不是向社会低头，而是在努力摆脱普
 
 就像维吉尼亚·伍尔夫说的那样：不必成为他者，但做自己。 <ne-quote id="ub25d73ad" data-lake-id="ub25d73ad">
 
-复旦教授梁永安说：我们今后毕生的任务就是做一个优秀的普通人。这个优秀的普通人热爱世界，热爱万物，热爱众生。踏踏实实地去寻找到一个自己内心喜欢又有时代价值的事情。一个人一辈子能做好一两件事就相当不简单了。</ne-quote> <ne-h2 id="KlaGQ" data-lake-id="KlaGQ"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>精神：百折不挠</ne-heading-content></ne-h2> 
+复旦教授梁永安说：我们今后毕生的任务就是做一个优秀的普通人。这个优秀的普通人热爱世界，热爱万物，热爱众生。踏踏实实地去寻找到一个自己内心喜欢又有时代价值的事情。一个人一辈子能做好一两件事就相当不简单了。</ne-quote> 
+
+## 精神：百折不挠
+
+ 
 
 人生海海，失败常有，接受失败是普通人需养成的基本素质。如果你发现失败是你人生的主旋律，不用担心，因为你依然可以拥有幸福的人生。 
 
@@ -50,13 +58,21 @@ Alan Kay： <ne-quote id="u4272e0b5" data-lake-id="u4272e0b5">
 
 耐克创始人菲尔·奈特（Phil Knight）： <ne-quote id="ud925a949" data-lake-id="ud925a949">
 
-我希望在我失败的时候，能迅速终结败局，这样就有足够的时间来整理来之不易的经验教训。我不会经常设定目标，但是这个目标每天都盘旋在我的脑海里，直到成为我内心的颂歌。</ne-quote> <ne-h2 id="J7Gti" data-lake-id="J7Gti"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>态度：先胜后战</ne-heading-content></ne-h2> 
+我希望在我失败的时候，能迅速终结败局，这样就有足够的时间来整理来之不易的经验教训。我不会经常设定目标，但是这个目标每天都盘旋在我的脑海里，直到成为我内心的颂歌。</ne-quote> 
+
+## 态度：先胜后战
+
+ 
 
 笨方法不羡慕别人、不占别人便宜、不怕吃亏、不贪巧求速、不紧不慢、不疾而速、不趋炎附势、不说空话，不说虚话，不说套话，不说场面话、不装逼、不要脸。 
 
 笨方法相信守正中和、不亢不卑、滴水穿石、凿壁偷光、锲而不舍、持之以恒、日日不断、拱卒之功的力量，相信缓慢、平和、踏实、冷静、韧性、细水长流的力量。 
 
-没有什么是理所应当，一切都是难得可贵，没有什么是一劳永逸，一切都要不断努力。人没有付出的话就什么也得不到，为了得到某些东西，就必须付出同等的代价。 <ne-h2 id="WB7hW" data-lake-id="WB7hW"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>信念：守正出奇</ne-heading-content></ne-h2> 
+没有什么是理所应当，一切都是难得可贵，没有什么是一劳永逸，一切都要不断努力。人没有付出的话就什么也得不到，为了得到某些东西，就必须付出同等的代价。 
+
+## 信念：守正出奇
+
+ 
 
 在你面前有很多路，很多路是所谓「捷径」、死路、弯路，你要找到正确的路，就必须坚决只走正路，即使少走、走慢一点，但是错的路坚决不走。 
 

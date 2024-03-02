@@ -102,7 +102,15 @@ A：没问题，课程参考资料如下：
 
 Q：如何购买课程？ <ne-quote id="u0234808d" data-lake-id="u0234808d">
 
-A：可直接点击链接购买：[http://t.cn/RpVWsBr](http://t.cn/RpVWsBr)</ne-quote> <ne-h3 id="qpK4L" data-lake-id="qpK4L"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext> <ne-heading-content></ne-heading-content></ne-h3> <ne-h3 id="MDnrK" data-lake-id="MDnrK"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>Changelog</ne-heading-content></ne-h3> 
+A：可直接点击链接购买：[http://t.cn/RpVWsBr](http://t.cn/RpVWsBr)</ne-quote> 
+
+###  
+
+ 
+
+### Changelog
+
+ 
 
 +   2021-07-08 增加非虚构答疑 
 

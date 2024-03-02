@@ -8,7 +8,11 @@
 
 +   《笨方法小报》提倡「每天写卡片，进步一点点」，它是我终身践行，获益无穷的箴言。这篇文章是这句话的注释。 
 
-+   我相信你也能实现「每天写卡片，进步一点点」。</ne-quote> <ne-h2 id="d3GJk" data-lake-id="d3GJk"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
++   我相信你也能实现「每天写卡片，进步一点点」。</ne-quote> 
+
+## 1
+
+ 
 
 2014 年 8 月，我在东莞，刚从某大型国企匆匆离职，准确来讲更像是逃跑。当天晚上，我独自一人呆在即要清退的公司宿舍，看着窗外黑夜无边，星辰黯淡。 
 
@@ -24,7 +28,11 @@
 
 当时，我不仅快速地接过「独立写作」这个秘密武器，而且此后多多年，还不断有所逼有所激地去实践摸索，并以此拓展扩充我的秘密武器仓库。 
 
-现在，我打算将我对秘密武器的初始理解写下来，命名为《 A 级玩家的秘密武器》。 <ne-h2 id="MqEDy" data-lake-id="MqEDy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+现在，我打算将我对秘密武器的初始理解写下来，命名为《 A 级玩家的秘密武器》。 
+
+## 2
+
+ 
 
 什么是 A 级玩家 
 
@@ -60,7 +68,11 @@ A 级玩家存在于各个时代，他们的人生充满未知，毫不畏惧，
 
 +   A 级玩家有自己使命与认同的工作，B 级玩家为金钱工作； 
 
-+   A 级玩家创造灵感，B 级玩家等待灵感； <ne-h2 id="FFvWw" data-lake-id="FFvWw"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
++   A 级玩家创造灵感，B 级玩家等待灵感； 
+
+## 3
+
+ 
 
 什么是秘密武器？ 
 
@@ -92,7 +104,11 @@ A 级玩家对秘密武器有相似的理解——
 
 在大学念书时，我从不缺课的习惯就是为了要学老师的思考方法。所有要考的试都考过了，我就转作旁听生。 
 
-有一次，赫舒拉发（J. Hirshleifer）在课后来问我：「你旁听了我六个期，难道我所教的经济学你还未学全吗?」我回答说：「你的经济学我早从你的著作中学会了；我听你的课与经济学无关——我要学的是你思考的方法。」</ne-quote> <ne-h2 id="c1lPQ" data-lake-id="c1lPQ"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+有一次，赫舒拉发（J. Hirshleifer）在课后来问我：「你旁听了我六个期，难道我所教的经济学你还未学全吗?」我回答说：「你的经济学我早从你的著作中学会了；我听你的课与经济学无关——我要学的是你思考的方法。」</ne-quote> 
+
+## 4
+
+ 
 
 近 150+ 天的早上，我都 6 点起床，刷牙，冲上一杯黑咖啡，坐下来思考，我需要在小报童写什么可以令我更有动力，另能成系列输出的文本。 
 
@@ -120,4 +136,3 @@ A 级玩家对秘密武器有相似的理解——
 
 购买链接：[https://xiaobot.net/p/hardwaylab](https://xiaobot.net/p/hardwaylab) 
 
-<ne-card data-card-name="image" data-card-type="inline" id="ua323cdf9" data-event-boundary="card" class="ne-spacing-all"></ne-card>

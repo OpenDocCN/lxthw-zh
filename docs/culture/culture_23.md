@@ -36,8 +36,8 @@ Alaska 有句话，shortcut is the fastest way to get lost（捷径是迷路的�
 
 好问题比答案重要，以下 4 个笨方法元问题，值得持续一生去追寻。 <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="f7de0d8fb9dbd0e675de94be7b2d7e1e" data-lake-id="f7de0d8fb9dbd0e675de94be7b2d7e1e">你的个人现实小问题，能否抽象放大到社会责任层面，变成一个大问题，你将推动解决这个问题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="7a05f66d41c8ed74948715b39ffe1012" data-lake-id="7a05f66d41c8ed74948715b39ffe1012">是否有某个人，他的人生激励着你成为一个更好的人？他是谁？他的大问题是什么？他是如何解决大问题的？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="4e530aee7ba3854d1b5ff71008f6a4b5" data-lake-id="4e530aee7ba3854d1b5ff71008f6a4b5">如何怎样采取微小但有意义的方式，可以不假思索地、惯性地持续行动实践，并改变当前的工作态度或生活方式？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>4</ne-oli-i><ne-oli-c class="ne-oli-content" id="94a5dbb1fea79f67c2d4b52593191f2e" data-lake-id="94a5dbb1fea79f67c2d4b52593191f2e">如何将你探寻、分解、解决大问题的过程孵化成为个人项目，并将项目成果封装成为能为解决社会问题的产品或服务？</ne-oli-c></ne-oli> 
 
-<ne-card data-card-name="image" data-card-type="inline" id="ua05b2641" data-event-boundary="card" class="ne-spacing-all">![image.png](img/33c30cb27650320b8183b93363f1ad80.png)  <ne-hole id="u953b25d2" data-lake-id="u953b25d2"><ne-card data-card-name="hr" data-card-type="block" id="wrGKo" data-event-boundary="card"><ne-p id="u8535be57" data-lake-id="u8535be57">分享一个持续自我提问的小技巧： 
+![image.png](img/33c30cb27650320b8183b93363f1ad80.png)  <ne-hole id="u953b25d2" data-lake-id="u953b25d2"><ne-p id="u8535be57" data-lake-id="u8535be57">分享一个持续自我提问的小技巧： 
 
 注册一个 [flomo](https://flomoapp.com/register2/?NDA0MA) 账号，建立一个「面试题库」的标签，每条 flomo 就是一个问题，使用[「每日回顾」](https://help.flomoapp.com/advance/lucky.html)功能，每天早上 10 点和晚上 10 点定时给自己发送问题。 
 
-「面试题库」的问题清单见 [笨方法实验室会员计划](https://www.yuque.com/hardwaylab/book/bq5a1v)。</ne-card></ne-hole></ne-card></ne-p>
+「面试题库」的问题清单见 [笨方法实验室会员计划](https://www.yuque.com/hardwaylab/book/bq5a1v)。</ne-hole></ne-p>

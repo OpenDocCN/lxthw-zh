@@ -34,7 +34,11 @@
 
 我们能成功，不是因为我们善于解决难题，而是因为我们善于远离难题。我们只是找简单的事做……用高智商去解决简单但回报很好的问题。</ne-quote> 
 
-实践「不解难题」的难点在于 <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="9ee50cea8ea0734bb865ee589b2cb325" data-lake-id="9ee50cea8ea0734bb865ee589b2cb325">如何寻找你的难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="e5fedf2f8326bb7a42b261e10971ffaf" data-lake-id="e5fedf2f8326bb7a42b261e10971ffaf">如何真正做到不解难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="2f3dc5572a6775e54957dc381d534a71" data-lake-id="2f3dc5572a6775e54957dc381d534a71">如何用不解难题套利？</ne-oli-c></ne-oli> <ne-h2 id="ync4Z" data-lake-id="ync4Z"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>如何寻找你的难题？</ne-heading-content></ne-h2> 
+实践「不解难题」的难点在于 <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="9ee50cea8ea0734bb865ee589b2cb325" data-lake-id="9ee50cea8ea0734bb865ee589b2cb325">如何寻找你的难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="e5fedf2f8326bb7a42b261e10971ffaf" data-lake-id="e5fedf2f8326bb7a42b261e10971ffaf">如何真正做到不解难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="2f3dc5572a6775e54957dc381d534a71" data-lake-id="2f3dc5572a6775e54957dc381d534a71">如何用不解难题套利？</ne-oli-c></ne-oli> 
+
+## 如何寻找你的难题？
+
+ 
 
 芒格常给家人出些小难题：在美国有一项运动，是一对一的比赛，并且有全国冠军。有一个人在相隔 65 年的两次比赛中都拿了冠军。现在，请说出运动的名称。 
 
@@ -44,25 +48,49 @@
 
 这是正确的答案。 
 
-你可以思考一下，做什么事情可以让你在 65 年后还可以拿到冠军？ <ne-h2 id="Tpq8e" data-lake-id="Tpq8e"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>如何真正做到不解难题？</ne-heading-content></ne-h2> 
+你可以思考一下，做什么事情可以让你在 65 年后还可以拿到冠军？ 
+
+## 如何真正做到不解难题？
+
+ 
 
 新手在实验室解惯了难题，可能会在现实世界中挑选那些更难的事情，尤其是创业，他们会盲目做超出自己的核心能力的事情，总以为自己能够做得比现有的参与者更好，但往往这个「更好」的思维起步，就决定了他参与的是红海，很难有更好的附加值，而且这个「更好」实际上就是解题思维——我比别人做得更快更好，而非是创造思维。毕竟创业不是赢多当赢，而是[输少当赢](https://www.cnfeat.com/blog/2018/08/14/PaulGraham/)。 
 
-如何真正做到不解难题？你要从根源想，你要反过来想。 <ne-h3 id="PWZQh" data-lake-id="PWZQh"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>从根源想</ne-heading-content></ne-h3> 
+如何真正做到不解难题？你要从根源想，你要反过来想。 
 
-你为何要解难题？你之所以在笨方法实验室中解难题，是为了在现实世界不解难题。你去解难题，是为了去解决容易的题更加省力，获取超过一般人的认知差，建立普通人无法进入的护城河。不妨思考：什么东西可以让你赢得不费吹灰之力？选择它。什么东西可以让你在 65 年后还可以取得碾压式的优势？选择它。 <ne-h3 id="RBAjS" data-lake-id="RBAjS"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>反过来想</ne-heading-content></ne-h3> 
+### 从根源想
 
-钓鱼的第一条规则是，在有鱼的地方钓鱼。钓鱼的第二条规则是，记住第一条规则。我们很多人去了鳕鱼已经被钓光了的地方，还想钓上鳕鱼来。在竞争极其激烈的环境中，你再怎么努力都没用。不妨思考：什么东西在现实世界会诱惑你去解难题？避开它。什么东西会让你觉得你可以比其他人做得更好？避开它。 <ne-h2 id="Aa87T" data-lake-id="Aa87T"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>如何用不解难题套利？</ne-heading-content></ne-h2> <ne-h3 id="mUNDm" data-lake-id="mUNDm"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>先胜后战</ne-heading-content></ne-h3> 
+ 
+
+你为何要解难题？你之所以在笨方法实验室中解难题，是为了在现实世界不解难题。你去解难题，是为了去解决容易的题更加省力，获取超过一般人的认知差，建立普通人无法进入的护城河。不妨思考：什么东西可以让你赢得不费吹灰之力？选择它。什么东西可以让你在 65 年后还可以取得碾压式的优势？选择它。 
+
+### 反过来想
+
+ 
+
+钓鱼的第一条规则是，在有鱼的地方钓鱼。钓鱼的第二条规则是，记住第一条规则。我们很多人去了鳕鱼已经被钓光了的地方，还想钓上鳕鱼来。在竞争极其激烈的环境中，你再怎么努力都没用。不妨思考：什么东西在现实世界会诱惑你去解难题？避开它。什么东西会让你觉得你可以比其他人做得更好？避开它。 
+
+## 如何用不解难题套利？
+
+ 
+
+### 先胜后战
+
+ 
 
 在实验室内做好充足的准备，学习必要的知识，拥有平常人没有的常识，清楚自己的能力优势与边界。知道并确定什么时候大众是错的，知道并确定什么时候自己是对的。 
 
-在实验室内做好 999 次准备，只为一次的胜利。你准备的功夫比别人多，你的胜率就比别人大，竞争的功夫就是准备的功夫，竞争不是你要跟别人争，而是让别人没法跟你争，你要在基本面获得压倒性的胜利才能去跟别人争。 <ne-h3 id="XcaF5" data-lake-id="XcaF5"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>一战而定</ne-heading-content></ne-h3> 
+在实验室内做好 999 次准备，只为一次的胜利。你准备的功夫比别人多，你的胜率就比别人大，竞争的功夫就是准备的功夫，竞争不是你要跟别人争，而是让别人没法跟你争，你要在基本面获得压倒性的胜利才能去跟别人争。 
+
+### 一战而定
+
+ 
 
 牢牢把握稀有的机会，准确找到少数几个机会，做重大决定，而不是无数个不重要的决定。重大的机会、属于我的机会，只有少数几个，关键要让自己做好准备，自己比别人知道的更多。 
 
 当少数几个机会到来的时候，抓住这个机会，进入这个游戏，并始终留在这个游戏里，要知道每个普通人能分到的机会并不多。用芒格的话来说就是：我不是退出高手。我善于挑选，别人比我更会退出。我追求的是永远不必退出。你问错人了。成功的投资风格有很多种，有的人是不断退出的，退出不是我的强项。我不会退出，我甚至不看出口在哪里，我选择持有。∎ 
 
-<ne-card data-card-name="emoji" data-card-type="inline" id="GbIgo" data-event-boundary="card">![](img/6ec2ab79dea83c6535dade47f0d8e25b.png)</ne-card> 
+![](img/6ec2ab79dea83c6535dade47f0d8e25b.png) 
 
 好思路，芒格说的请问这是哪本书里面的？ 
 

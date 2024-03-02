@@ -22,11 +22,19 @@ Alan Kay： <ne-quote id="udd6d549a" data-lake-id="udd6d549a">
 
 有没有一个简单办法评估系统构建得好不好？有的，如果你需要调用意志力去完成一项工作，说明的系统还需要继续完善。 
 
-笨方法系统由这四步构成：1）找到大问题；2）分解大问题；3）跨学科学习；4）创作出产品。 <ne-h3 id="PH3DK" data-lake-id="PH3DK"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>好奇：找到大问题</ne-heading-content></ne-h3> 
+笨方法系统由这四步构成：1）找到大问题；2）分解大问题；3）跨学科学习；4）创作出产品。 
+
+### 好奇：找到大问题
+
+ 
 
 大问题是指能引起你感兴趣且值得继续投入时间的高价值问题，它是你的顶层研究使命，驱动你去探索付出，它将指导你对什么样的事情感兴趣。这个大问题能造福他人同时，也能给你大回报，能激发起你的内在动机，收获有价值的人生。 
 
-在解决大问题过程中，你必须输出，它是你解决大问题的副产品，你需要从中酝酿出可以持续发展的事业，孵化出引人注目而且能够迫使人们传播的项目。 <ne-h3 id="VSd5D" data-lake-id="VSd5D"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>磨练：分解大问题</ne-heading-content></ne-h3> 
+在解决大问题过程中，你必须输出，它是你解决大问题的副产品，你需要从中酝酿出可以持续发展的事业，孵化出引人注目而且能够迫使人们传播的项目。 
+
+### 磨练：分解大问题
+
+ 
 
 将大问题拆解成为可使用卡片层级解决的小问题，降低解决难度，使用可持续的不假思索的小行动逐个解决，卡片是你解决问题的工具，也是你的经验记录。 
 
@@ -36,7 +44,11 @@ Alan Kay： <ne-quote id="udd6d549a" data-lake-id="udd6d549a">
 
 +   它迫使你去创造新价值，即掌握某项新技能并且产生前所未有的新结果。 
 
-+   它可以产生实实在在的结果，从而收到实实在在的反馈。 <ne-h3 id="tCnUd" data-lake-id="tCnUd"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>科学：跨学科学习</ne-heading-content></ne-h3> 
++   它可以产生实实在在的结果，从而收到实实在在的反馈。 
+
+### 科学：跨学科学习
+
+ 
 
 大问题坚硬难啃，单一学科根本无法解决，你需要使用跨学科学习与主题学习的武器，尝试学习写出计算机、认知科学、心理学、艺术等学科的卡片，多路包抄围歼大问题。 
 
@@ -54,7 +66,11 @@ Alan Kay： <ne-quote id="udd6d549a" data-lake-id="udd6d549a">
 
 在某个探索性项目完成后，我会用它带来的实际反馈来指导我的下一步研究工作。这种反馈可以让我知道某一项目是不是应当放弃，如果不放弃，那么下一步朝哪个方向进行探索才是最有希望的。 
 
-另外，为完成探索性项目所付出的努力还会带来额外的好处，即增加了刻意练习的次数。 <ne-h3 id="CFr6a" data-lake-id="CFr6a"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>模仿：创作出产品</ne-heading-content></ne-h3> 
+另外，为完成探索性项目所付出的努力还会带来额外的好处，即增加了刻意练习的次数。 
+
+### 模仿：创作出产品
+
+ 
 
 通过项目，你需要输出产品，通过产品来倒逼自己持续输入。 <ne-quote id="ud30bb30a" data-lake-id="ud30bb30a">
 

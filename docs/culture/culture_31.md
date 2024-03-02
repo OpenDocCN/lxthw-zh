@@ -2,7 +2,11 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/gizm18`](https://www.yuque.com/hardwaylab/book/gizm18)
 
-<ne-h2 id="jse0x" data-lake-id="jse0x"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-card data-card-name="image" data-card-type="inline" id="u3a77509d" data-event-boundary="card" class="ne-spacing-all">![BookCover.png](img/49687f434f7167c856f50d78aaceb63a.png)  <ne-h2 id="e5DfW" data-lake-id="e5DfW"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+
+## ![BookCover.png](img/49687f434f7167c856f50d78aaceb63a.png)  <ne-h2 id="e5DfW" data-lake-id="e5DfW">1
+
+ 
 
 多数人并没有正确理解生产力。 
 
@@ -16,7 +20,11 @@
 
 时间管理被包装成消灭忙碌的良药，列一堆任务清单，试图最大化地利用有限时间，制造一种控制一切的错觉，但事实是，时间管理本身制造出了另一种形式的忙碌，以忙碌覆盖忙碌。 
 
-更加荒谬的是，你去做时间管理，并不是真的想去管理时间，而只是用正确的方式做成正确的事情，在你没有搞懂什么是正确的方式，什么是正确的事情之前，你时间管理得再好，但每分每秒都在原地打转，没有丝毫进步，你的付出就没有意义。 <ne-h2 id="Ir3y2" data-lake-id="Ir3y2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+更加荒谬的是，你去做时间管理，并不是真的想去管理时间，而只是用正确的方式做成正确的事情，在你没有搞懂什么是正确的方式，什么是正确的事情之前，你时间管理得再好，但每分每秒都在原地打转，没有丝毫进步，你的付出就没有意义。 
+
+## 2
+
+ 
 
 什么才是生产力？ 
 
@@ -38,7 +46,11 @@
 
 生产力是勇于面对不确定，建立自我安全感，达成自我契约，专注价值创造，成为可能自我的过程。 
 
-它包括且不限于以下关键词：终身学习、超越技能，自主优化、工作分发、自动化操作、效率工具等。 <ne-h2 id="i26gQ" data-lake-id="i26gQ"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+它包括且不限于以下关键词：终身学习、超越技能，自主优化、工作分发、自动化操作、效率工具等。 
+
+## 3
+
+ 
 
 好的生产力系统，不是只想把先进工具和高效工作方法告诉你，它像指南针，避免你被各种层出不穷的生产力工具带着走；它像是河流，能自动驱动你去寻找最优生产方法来优化工具组合；它像是火焰，赋予创作者的热情，点燃工具组合的最大价值。 
 
@@ -48,13 +60,25 @@
 
 它能促使你主动思考、学习、成长、持续改善，通过达成无数小进步，探索到更好的人生问题解决办法，让你宏观有耐心，微观有效率，成为可能自我。  
 
-<ne-card data-card-name="image" data-card-type="inline" id="MIS14" data-event-boundary="card" class="ne-spacing-all"><ne-p id="uf8e60248" data-lake-id="uf8e60248">你可以在本指南中收获： <ne-h2 id="Jzf5A" data-lake-id="Jzf5A"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>内容大纲</ne-heading-content></ne-h2> 
+<ne-p id="uf8e60248" data-lake-id="uf8e60248">你可以在本指南中收获： 
+
+## 内容大纲
+
+ 
 
 本书综合我实践优化生产力的所有经验，全书分为 3 部分，共 9 万+ 字，220+ 页。  
 
-<ne-card data-card-name="image" data-card-type="inline" id="z9WBY" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="Yi8Xs" data-lake-id="Yi8Xs"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2\. 社群服务</ne-heading-content></ne-h2> <ne-p id="u7ebe04aa" data-lake-id="u7ebe04aa">一经购买，永久更新，并加入本手册讨论社群，购买后请添加文末微信出示订单截图即可。  
 
-<ne-card data-card-name="image" data-card-type="inline" id="uc80eac4e" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="tX7k5" data-lake-id="tX7k5" ne-alignment="left"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>购买须知</ne-heading-content></ne-h2> 
+
+## 2\. 社群服务
+
+<ne-p id="u7ebe04aa" data-lake-id="u7ebe04aa">一经购买，永久更新，并加入本手册讨论社群，购买后请添加文末微信出示订单截图即可。  
+
+
+
+## 购买须知
+
+ 
 
 +   购买地址：[https://cie.h5.xeknow.com/s/2iNUXb](https://cie.h5.xeknow.com/s/2iNUXb) 
 
@@ -66,4 +90,8 @@
 
 +   本指南不定期更新小版本，每年至少更新一次大版本。 
 
-+   已购买用户，可查看过往订单下载最新版，申请加入社群。 <ne-uli ne-alignment="left">如遇到任何问题，可以添加微信寻求帮助，我会尽快回复。∎ <ne-h3 id="eZnCj" data-lake-id="eZnCj"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-card data-card-name="image" data-card-type="inline" id="oXpXm" data-event-boundary="card" class="ne-spacing-all"></ne-card></ne-heading-content></ne-h3></ne-card></ne-card></ne-p></ne-card></ne-p></ne-card></ne-heading-content></ne-h2>
++   已购买用户，可查看过往订单下载最新版，申请加入社群。 <ne-uli ne-alignment="left">如遇到任何问题，可以添加微信寻求帮助，我会尽快回复。∎ 
+
+### 
+
+</ne-p></ne-p></ne-h2>

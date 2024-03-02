@@ -4,7 +4,11 @@
 
 
 
-笨方法写作课的最大特色是什么？ <ne-h2 id="mHCFu" data-lake-id="mHCFu"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>使用笨方法</ne-heading-content></ne-h2> 
+笨方法写作课的最大特色是什么？ 
+
+## 使用笨方法
+
+ 
 
 笨方法写作课，就是要尊重「写作难」的基本事实。 
 
@@ -24,7 +28,11 @@
 
 第二是建立正确写作价值观。写作价值观是贯穿课程始终，在你写下第一张卡片就会浮现，渗入至你的零思考行动中去。 
 
-第三是使用科学的写作技术。写作是技能，是技能就可以学会，课程会不断整理符合科学学习的原理、方法、原则、规范等，让学员在具体操作中少走弯路。 <ne-h2 id="Lzk7E" data-lake-id="Lzk7E"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>为探索创造而写作</ne-heading-content></ne-h2> 
+第三是使用科学的写作技术。写作是技能，是技能就可以学会，课程会不断整理符合科学学习的原理、方法、原则、规范等，让学员在具体操作中少走弯路。 
+
+## 为探索创造而写作
+
+ 
 
 有一种写作课教人如何逻辑写作，大纲是：发现问题、分析问题、解决问题、解决问题一二三、结束。 
 

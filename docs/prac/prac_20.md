@@ -24,7 +24,11 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 寻找大问题，是个缓慢的过程，需要在求知中主主动关注现实，并缩小关注点，持续寻找并优化解决方案。 
 
-司马贺建议的步骤是： <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="u73b1ffbe" data-lake-id="u73b1ffbe">问题解决者心甘情愿地接受模糊定义的问题陈述，并逐步去建构它们；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="ue2dc8296" data-lake-id="ue2dc8296">在相当长的时间内持续全神贯注于问题；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="u6a284f61" data-lake-id="u6a284f61">在相关和潜在相关领域中广阔的背景知识——即对问题不明确状态的容忍、坚持不懈地钻研以及拥有大量的背景知识 。</ne-oli-c></ne-oli> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+司马贺建议的步骤是： <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="u73b1ffbe" data-lake-id="u73b1ffbe">问题解决者心甘情愿地接受模糊定义的问题陈述，并逐步去建构它们；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="ue2dc8296" data-lake-id="ue2dc8296">在相当长的时间内持续全神贯注于问题；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="u6a284f61" data-lake-id="u6a284f61">在相关和潜在相关领域中广阔的背景知识——即对问题不明确状态的容忍、坚持不懈地钻研以及拥有大量的背景知识 。</ne-oli-c></ne-oli> 
+
+## 1
+
+ 
 
 到底，什么是大问题？ 
 
@@ -42,7 +46,11 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 3、思考可以怎样采取微小但有意义的方式，改变当前的工作态度或生活方式，让它与你的核心价值观更为紧密联结。 
 
-4、如何将你探寻、分解、解决大问题的过程孵化成为一个个人项目，并将项目成果封装成为能为解决社会问题的产品或服务？ <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+4、如何将你探寻、分解、解决大问题的过程孵化成为一个个人项目，并将项目成果封装成为能为解决社会问题的产品或服务？ 
+
+## 2
+
+ 
 
 如果你暂时还没确定自己的大问题也不要紧，没有人能轻易快速找到自己的大问题，探索自己大问题的过程注定是曲折的漫长。 
 
@@ -64,7 +72,11 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 4、找同侪。你在试图解决这个问题的过程中，做出了什么样的努力，将你做出的努力记录并输出为文章，为后来人搭好脚手架，或召集更多人来解决这个问题。 
 
-5、找自己。经历以上，你也可能找到了属于自己的大问题，为何会有这个问题？这个问题是什么？你该如何解决这个问题？ <ne-h2 id="5" data-lake-id="5"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+5、找自己。经历以上，你也可能找到了属于自己的大问题，为何会有这个问题？这个问题是什么？你该如何解决这个问题？ 
+
+## 3
+
+ 
 
 大问题清单 
 
@@ -202,11 +214,19 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 +   Margaret Wertheim：你想从科学中得到什么? 
 
-+   Colin Tudge：宗教是什么？ 有必要吗？ 如果我们要为未来设计出一种看似合理却又避免平庸的宗教？ 那会是什么样子呢? <ne-h2 id="A6zed" data-lake-id="A6zed"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
++   Colin Tudge：宗教是什么？ 有必要吗？ 如果我们要为未来设计出一种看似合理却又避免平庸的宗教？ 那会是什么样子呢? 
+
+## 4
+
+ 
 
 附：问题发现工具  
 
-<ne-card data-card-name="image" data-card-type="inline" id="u8bcf2e50" data-event-boundary="card" class="ne-spacing-all"><ne-p id="u0690a710" data-lake-id="u0690a710"><ne-card data-card-name="image" data-card-type="inline" id="u38429820" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ube19bf22" data-lake-id="ube19bf22"><ne-card data-card-name="image" data-card-type="inline" id="u9512d5c9" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="18d394c2" data-lake-id="18d394c2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>本文起源</ne-heading-content></ne-h2> <ne-quote id="ud255ea53" data-lake-id="ud255ea53"><ne-p id="8a58551469833c4d3d32ede6c55c11f0" data-lake-id="8a58551469833c4d3d32ede6c55c11f0">之一 
+<ne-p id="u0690a710" data-lake-id="u0690a710"><ne-p id="ube19bf22" data-lake-id="ube19bf22">
+
+## 本文起源
+
+<ne-quote id="ud255ea53" data-lake-id="ud255ea53"><ne-p id="8a58551469833c4d3d32ede6c55c11f0" data-lake-id="8a58551469833c4d3d32ede6c55c11f0">之一 
 
 整理贝索斯的致股东的系列信件过程中，发现贝索斯从 1997 年到现在一直写致股东信，三十多年只为解决自己的大问题做行为注解，忽然想到这世上应有更多的「几十年或一生都只为解决一个问题」的「贝索斯」，将他们找出来应该相当有意思。 
 
@@ -220,7 +240,11 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 之四 
 
-找到大问题是笨方法四步的第一步，第一步相当重要，有必要为「大问题」做一个详细的注解。笨方法四步分别是找到大问题、分解大问题、跨学科学习、关注方法论，详细可见《[笨方法实验室](https://hardwaylab.com/)》官网。</ne-quote> <ne-h2 id="d17a0f0b" data-lake-id="d17a0f0b"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>参考</ne-heading-content></ne-h2> 
+找到大问题是笨方法四步的第一步，第一步相当重要，有必要为「大问题」做一个详细的注解。笨方法四步分别是找到大问题、分解大问题、跨学科学习、关注方法论，详细可见《[笨方法实验室](https://hardwaylab.com/)》官网。</ne-quote> 
+
+## 参考
+
+ 
 
 +   [人类的终极问题 (豆瓣)](https://book.douban.com/subject/34840198/) 
 
@@ -242,7 +266,11 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 +   [每个人都应该读一读贝索斯的致股东信（1997-2016）](https://www.cnfeat.com/blog/2017/07/08/BezosLetters/) 
 
-+   [学习周报的基本](https://www.cnfeat.com/blog/2019/07/06/BasicWeekly/) <ne-h3 id="Changelog" data-lake-id="Changelog"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>Changelog</ne-heading-content></ne-h3> 
++   [学习周报的基本](https://www.cnfeat.com/blog/2019/07/06/BasicWeekly/) 
+
+### Changelog
+
+ 
 
 +   2022-03-04 增补问题发现工具 
 
@@ -260,4 +288,4 @@ Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
 
 非常感谢素封汇总在此的大问题。我从没有意识过要寻找确定自己的大问题，没有思考过绝大多数的大问题。我刚刚已经记下了一部分感兴趣的大问题。我觉得这是一个好的开始。谢谢你。 
 
-期待你后续的实践行动。</ne-card></ne-p></ne-card></ne-p></ne-card></ne-p>
+期待你后续的实践行动。</ne-p></ne-p></ne-p>

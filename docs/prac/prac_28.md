@@ -24,9 +24,17 @@
 
 同时，这套卡片创作系统试图以文本驱动的创造主义来对抗消费主义，以产品与[身份](http://newsletter.hardwaylab.com/issues/issue-727965)驱动的长期主义对抗短期主义，持续用[「持久战」](http://newsletter.hardwaylab.com/issues/3-718115)与[「总体战」](http://newsletter.hardwaylab.com/issues/3-710518)思想武装到日常生产、工作、学习和社会生活中，推动[个人基建](http://newsletter.hardwaylab.com/issues/issue-721779)培养核心能力，用[实物工作量](http://newsletter.hardwaylab.com/issues/2-725333)在关键项目做压倒性投入。 
 
-现在，我邀请你加入这门课程，愿你的创作生生不息，繁荣昌盛。∎ <ne-h2 id="0dde8a3c" data-lake-id="0dde8a3c"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>课程介绍</ne-heading-content></ne-h2> 
+现在，我邀请你加入这门课程，愿你的创作生生不息，繁荣昌盛。∎ 
 
-<ne-card data-card-name="image" data-card-type="inline" id="u84cf73cd" data-event-boundary="card" class="ne-spacing-all">![幻灯片 4.png](img/0d3bac21652b56a85ba0f4064d5ae1d9.png) <ne-card data-card-name="image" data-card-type="inline" id="u7e8f8a12" data-event-boundary="card" class="ne-spacing-all"><ne-card data-card-name="image" data-card-type="inline" id="u8bea627a" data-event-boundary="card" class="ne-spacing-all"><ne-card data-card-name="image" data-card-type="inline" id="u0a6460ff" data-event-boundary="card" class="ne-spacing-all"><ne-card data-card-name="image" data-card-type="inline" id="u3f5049ea" data-event-boundary="card" class="ne-spacing-all"><ne-card data-card-name="image" data-card-type="inline" id="uc60aae59" data-event-boundary="card" class="ne-spacing-all"><ne-card data-card-name="image" data-card-type="inline" id="uea91f97b" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="2df7de62" data-lake-id="2df7de62"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>课程形式</ne-heading-content></ne-h2> 
+## 课程介绍
+
+ 
+
+![幻灯片 4.png](img/0d3bac21652b56a85ba0f4064d5ae1d9.png) 
+
+## 课程形式
+
+ 
 
 +   本课程为文字课程，有效期为一年，正式课程一共 42 节，共 5 个课程包，特训期起始每周更新 1 个课程包（P0 与 P1 打包更新），一共 28 天。 
 
@@ -34,16 +42,24 @@
 
 +   本课程采用「知识星球+微信群」进行学习，学员可申请加入特训微信群，每天发布跟踪学习情况。 
 
-+   此前加入知识星球，且有效期在 2022 年 3 月 27 前的学员，享受 3.0 待遇，可添加微信申请参加特训。老用户续费可自动享受优惠折扣。 <ne-h2 id="1bbbb204" data-lake-id="1bbbb204"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>注意事项</ne-heading-content></ne-h2> 
++   此前加入知识星球，且有效期在 2022 年 3 月 27 前的学员，享受 3.0 待遇，可添加微信申请参加特训。老用户续费可自动享受优惠折扣。 
+
+## 注意事项
+
+ 
 
 +   本课程知识密度较大，实践性较强，值得购买后一年内反复操练。 
 
 +   特训周期内，需每天提交作业，学习强度较高，旨鼓励有所激有所逼，快速通关所有课程，然后再次反复练习。 
 
-+   为什么要设置如此高强度：[一项研究表明](https://digest.bps.org.uk/2021/12/21/watching-a-lecture-twice-at-double-speed-can-benefit-learning-better-than-watching-it-once-at-normal-speed/)，观看学习视频时，两倍速看两遍比正常速度看一遍，效果更好。 <ne-h2 id="5a00e4c2" data-lake-id="5a00e4c2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>购前必读</ne-heading-content></ne-h2> 
++   为什么要设置如此高强度：[一项研究表明](https://digest.bps.org.uk/2021/12/21/watching-a-lecture-twice-at-double-speed-can-benefit-learning-better-than-watching-it-once-at-normal-speed/)，观看学习视频时，两倍速看两遍比正常速度看一遍，效果更好。 
+
+## 购前必读
+
+ 
 
 +   如果你之前没有了解过笨方法，建议先搜索阅读[《笨方法文化手册》](https://www.yuque.com/hardwaylab/book)再做决定。 
 
 +   本课程为虚拟内容服务，一经购买成功概不退款。 
 
-+   在购买过程中，如遇到任何问题，可以添加微信寻求帮助，我会尽快回复。</ne-card></ne-card></ne-card></ne-card></ne-card></ne-card></ne-card>
++   在购买过程中，如遇到任何问题，可以添加微信寻求帮助，我会尽快回复。
