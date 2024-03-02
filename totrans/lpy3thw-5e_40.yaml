@@ -1,0 +1,160 @@
+- en: Exercise 37. Symbol Review
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: It’s time to review the symbols and Python words you know and to try to pick
+    up a few more for the next few lessons. I have written out all the Python symbols
+    and keywords that are important to know.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In this lesson take each keyword and first try to write out what it does from
+    memory. Next, search online for it and see what it really does. This may be difficult
+    because some of these are difficult to search for, but try anyway.
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you get one of these wrong from memory, make an index card with the correct
+    definition and try to “correct” your memory.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Finally, use each of these in a small Python program, or as many as you can
+    get done. The goal is to find out what the symbol does, make sure you got it right,
+    correct it if you did not, and then use it to lock it in.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Keywords
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0133-01.jpg)![Images](graphics/t0134-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Data Types
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: For data types, write out what makes up each one. For example, with strings,
+    write out how you create a string. For numbers, write out a few numbers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0134-02.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: String Escape Sequences
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: For string escape sequences, use them in strings to make sure they do what you
+    think they do.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0135-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Old-Style String Formats
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'It’s the same thing for string formats: use them in some strings to know what
+    they do.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0135-02.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Older Python 2 code uses these formatting characters to do what f-strings do.
+    Try them out as an alternative.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Operators
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Some of these may be unfamiliar to you, but look them up anyway. Find out what
+    they do, and if you still can’t figure it out, save it for later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0136-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Spend about a week on this, but if you finish faster, that’s great. The point
+    is to try to get coverage on all these symbols and make sure they are locked in
+    your head. What’s also important is to find out what you *do not* know so you
+    can fix it later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Reading Code
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Now find some Python code to read. You should be reading any Python code you
+    can and trying to steal ideas that you find. You actually should have enough knowledge
+    to be able to read but maybe not understand what the code does. What this lesson
+    teaches is how to apply things you have learned to understand other people’s code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: First, print out the code you want to understand. Yes, print it out, because
+    your eyes and brain are more used to reading paper than computer screens. Make
+    sure you print a few pages at a time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Second, go through your printout and take notes on the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Functions and what they do.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Where each variable is first given a value.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Any variables with the same names in different parts of the program. These
+    may be trouble later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Any `if`-statements without else clauses. Are they right?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Any `while`-loops that might not end.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Any parts of code that you can’t understand for whatever reason.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Third, once you have all of this marked up, try to explain it to yourself by
+    writing comments as you go. Explain the functions, how they are used, what variables
+    are involved and anything you can to figure this code out.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Lastly, on all of the difficult parts, trace the values of each variable line
+    by line, function by function. In fact, do another printout, and write in the
+    margin the value of each variable that you need to “trace.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: Once you have a good idea of what the code does, go back to the computer and
+    read it again to see if you find new things. Keep finding more code and doing
+    this until you do not need the printouts anymore.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Find out what a “flow chart” is and draw a few.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If you find errors in code you are reading, try to fix them, and send the
+    author your changes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Another technique for when you are not using paper is to put `#` comments
+    with your notes in the code. Sometimes, these could become the actual comments
+    to help the next person.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**How would I search for these things online?** Simply put “python3” before
+    anything you want to find. For example, to find `yield` search for `python3 yield`.'
+  prefs: []
+  type: TYPE_NORMAL

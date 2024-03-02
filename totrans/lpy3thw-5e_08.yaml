@@ -1,0 +1,94 @@
+- en: Exercise 6. Strings and Text
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: While you have been writing strings, you still do not know what they do. In
+    this exercise we create a bunch of variables with complex strings so you can see
+    what they are for. First an explanation of strings.
+  prefs: []
+  type: TYPE_NORMAL
+- en: A string is usually a bit of text you want to display to someone or “export”
+    out of the program you are writing. Python knows you want something to be a string
+    when you put either `"` (double-quotes) or `'` (single-quotes) around the text.
+    You saw this many times with your use of `print` when you put the text you want
+    to go inside the string inside `"` or `'` after the `print` to print the string.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Strings can contain any number of variables that are in your Python script.
+    Remember that a variable is any line of code where you set a name `=` (equal)
+    to a value. In the code for this exercise, `types_of_people = 10` creates a variable
+    named `types_of_people` and sets it `=` (equal) to `10`. You can put that in any
+    string with `{types_of_people}`. You also see that I have to use a special type
+    of string to “format”; it’s called an “f-string” and looks like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: Python *also* has another kind of formatting using the `.format()` syntax, which
+    you see on line 17\. You’ll see me use that sometimes when I want to apply a format
+    to an already created string, such as in a loop. We’ll cover that more later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We will now type in a whole bunch of strings, variables, and formats, and print
+    them. You will also practice using short abbreviated variable names. Programmers
+    love saving time at your expense by using annoyingly short and cryptic variable
+    names, so let’s get you started reading and writing them early on.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 6.1: ex6.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Go through this program and write a comment above each line explaining it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Find all the places where a string is put inside a string.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Are you sure there are only four places? How do you know? Maybe I like lying.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Explain why adding the two strings `w` and `e` with `+` makes a longer string.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Break It
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: You are now at a point where you can try to break your code to see what happens.
+    Think of this as a game to devise the most clever way to break the code. You can
+    also find the simplest way to break it. Once you break the code, you then need
+    to fix it. If you have a friend, then the two of you can try to break each other’s
+    code and fix it. Give your friend your code in a file named `ex6.py` so they can
+    break something. Then you try to find their error and fix it. Have fun with this,
+    and remember that if you wrote this code once, you can do it again. If you take
+    your damage too far, you can always type it in again for extra practice.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why do you put** `''` **(single-quotes) around some strings and not others?**
+    Mostly it’s because of style, but I’ll use a single-quote inside a string that
+    has double-quotes. Look at lines 6 and 15 to see how I’m doing that.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**If you thought the joke was funny, could you write** `hilarious = True`**?**
+    Yes, and you’ll learn more about these boolean values later.'
+  prefs: []
+  type: TYPE_NORMAL

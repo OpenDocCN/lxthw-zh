@@ -1,0 +1,68 @@
+- en: Exercise 5. More Variables and Printing
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now we’ll do even more typing of variables and printing them out. This time
+    we’ll use something called a “format string.” Every time you put `"` (double-quotes)
+    around a piece of text you have been making a *string*. A string is how you make
+    something that your program might give to a human. You print strings, save strings
+    to files, send strings to web servers, and many other things.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Strings are really handy, so in this exercise you will learn how to make strings
+    that have variables embedded in them. You embed variables inside a string by using
+    a special `{}` sequence and then put the variable you want inside the `{}` characters.
+    You also must start the string with the letter `f` for “format,” as in `f"Hello
+    {somevar}"`. This little `f` before the `"` (double-quote) and the `{}` characters
+    tell Python 3, “Hey, this string needs to be formatted. Put these variables in
+    there.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: As usual, just type this in even if you do not understand it, and make it exactly
+    the same.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 5.1: ex5.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Change all the variables so there is no `my_` in front of each one. Make
+    sure you change the name everywhere, not just where you used `=` to set them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Try to write some variables that convert the inches and pounds to centimeters
+    and kilograms. Do not just type in the measurements. Work out the math in Python.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Can I make a variable like this:** `1 = ''Zed Shaw''`**?** No, `1` is not
+    a valid variable name. They need to start with a character, so `a1` would work,
+    but `1` will not.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How can I round a floating point number?** You can use the `round()` function
+    like this: `round(1.7333)`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why does this not make sense to me?** Try making the numbers in this script
+    your measurements. It’s weird, but talking about yourself will make it seem more
+    real. Also, you’re just starting out, so it won’t make too much sense. Keep going
+    and more exercises will explain it more.'
+  prefs: []
+  type: TYPE_NORMAL

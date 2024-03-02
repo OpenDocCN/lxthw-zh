@@ -1,0 +1,145 @@
+- en: Exercise 25. Dictionaries and Functions
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In this exercise we’re going to do something fun by combining functions with
+    `dict`s. The purpose of this exercise is to confirm that you can combine different
+    things in Python. Combination is a key aspect of programming, and you’ll find
+    that many “complex” concepts are nothing more than a combination of simpler concepts.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 1: Function Names Are Variables'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'To prepare we first have to confirm that a function’s name is just like other
+    variables. Take a look at this code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'If you run this code, you’ll see that `rename_print` does the exact same thing
+    as `print_number`, and that’s because they are the same. The name of a function
+    is the same as a variable, and you can reassign the name to another variable.
+    It’s the same as doing this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Play around with this until you get the idea. Make your own functions and then
+    assign them to new names until you get that idea.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 2: Dictionaries with Variables'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'It might be obvious, but just in case you haven’t made the connection, you
+    can put a variable into a `dict`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: This next piece of the puzzle makes sense, since you can put values into a `dict`
+    like numbers and strings. You can also assign those same values to variables,
+    so it makes sense you can combine both and put a variable into a `dict`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 3: Dictionaries with Functions'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'You should be seeing where this is going, but now we can combine these concepts
+    to put a function in a `dict`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: I’ve taken the `color` variable from before and simply put it right in the `dict`
+    for the `corvette`. Then I made a function `run` and put that into the `corvette`
+    as well. The tricky part is that last line `corvette ["run"]()`, but see if you
+    can figure it out based on what you know. Take some time to write out a description
+    of what this line is doing before continuing on.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 4: Deciphering the Last Line'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'The trick to deciphering that last line `corvette["run"]()` is to separate
+    out each piece of it. What confuses people about lines like this is they see one
+    single thing, “run the corvette.” The truth is this line is composed of *many*
+    things working together in combination. If we break this apart, we could have
+    this code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Even those two lines isn’t the entire story, but that shows you this is at
+    *least* two operations on one line: get the function with `["run"]` and then run
+    the function with `()`. To break this down further we can write:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. `corvette` tells Python to load the `dict`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. `[` tells Python to start an index into `corvette`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. `"run"` tells Python to use `"run"` as the key to search the `dict`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. `]` tells Python you are done and it should complete the index
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Python then *returns* the contents of `corvette` that match the key `"run"`,
+    which is the previous `run()` function
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Python now has the `run` function, so `()` tells Python to call it like
+    you would any other function
+  prefs: []
+  type: TYPE_NORMAL
+- en: Take some time to understand how this is working, and write your own functions
+    on the `corvette` to make it do more things.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drill
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'You now have a nice piece of code that’s controlling a car. In this Study Drill
+    you’re going to create a new function that *creates any car*. Your *creator function*
+    should meet these requirements:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. It should take parameters to set things like the color, speed, or anything
+    else your cars can do.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. It should create a `dict` that has the correct settings and already contains
+    all the functions you’ve created.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. It should return this `dict` so people can assign the results to anything
+    they want and use later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. It should be written so that someone can create any number of different
+    cars and each one they make is independent.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '5\. Your code should test #4 by changing settings in a few different cars and
+    then confirming they didn’t change in other cars.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: This challenge is different because I’ll show you the answer to the challenge
+    in a later exercise. If you struggle with this challenge, then shelve it for a
+    bit and move on. You’ll see this again shortly.
+  prefs: []
+  type: TYPE_NORMAL

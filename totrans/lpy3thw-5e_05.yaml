@@ -1,0 +1,109 @@
+- en: Exercise 3. Numbers and Math
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Every programming language has some kind of way of doing numbers and math.
+    Do not worry: programmers frequently lie about being math geniuses when they really
+    aren’t. If they were math geniuses, they would be doing math, not writing buggy
+    web frameworks so they can drive race cars.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'This exercise has lots of math symbols. Let’s name them right away so you know
+    what they are called. As you type this one in, say the name. When saying them
+    feels boring, you can stop saying them. Here are the names:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `+` plus
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `-` minus
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `/` slash
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `*` asterisk
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `%` percent
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `<` less-than
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `>` greater-than
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `<=` less-than-equal
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `>=` greater-than-equal
+  prefs: []
+  type: TYPE_NORMAL
+- en: Notice how the operations are missing? After you type in the code for this exercise,
+    go back and figure out what each of these does and complete the table. For example,
+    `+` does addition.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 3.1: ex3.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: Make sure you type this exactly before you run it. Compare each line of your
+    file to my file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Above each line, use the `#` to write a comment to yourself explaining what
+    the line does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. You can type most math directly into a Jupyter cell and get results. Try
+    using it to do some basic calculations like `1+2` and hit `SHIFT-ENTER`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Find something you need to calculate and write a new `.py` file that does
+    it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Rewrite this exercise to use floating point numbers so it’s more accurate.
+    20.0 is floating point.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why is the** `%` **character a “modulus” and not a “percent”?** Mostly that’s
+    just how the designers chose to use that symbol. In normal writing you are correct
+    to read it as a “percent.” In programming this calculation is typically done with
+    simple division and the `/` operator. The `%` modulus is a different operation
+    that just happens to use the `%` symbol.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How does** `%` **work?** Another way to say it is, “X divided by Y with J
+    remaining.” For example, “100 divided by 16 with 4 remaining.” The result of `%`
+    is the J part, or the remaining part.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What is the order of operations?** In the United States we use an acronym
+    called PEMDAS which stands for Parentheses Exponents Multiplication Division Addition
+    Subtraction. That’s the order Python follows as well. The mistake people make
+    with `PEMDAS` is to think this is a strict order, as in “Do P, then E, then M,
+    then D, then A, then S.” The actual order is you do the multiplication *and* division
+    (M&D) in one step, from left to right, and *then* you do the addition and subtraction
+    in one step from left to right. So, you could rewrite `PEMDAS` as `PE(M&D)(A&S)`.'
+  prefs: []
+  type: TYPE_NORMAL

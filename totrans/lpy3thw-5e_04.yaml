@@ -1,0 +1,84 @@
+- en: Exercise 2. Comments and Pound Characters
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Comments are very important in your programs. They are used to tell you what
+    something does in English, and they are used to disable parts of your program
+    if you need to remove them temporarily. Here’s how you use comments in Python:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 2.1: ex2.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: From now on, I’m going to write code like this. It is important for you to understand
+    that everything does not have to be literal. If my Jupyter looks a little different
+    from yours or if I’m using a text editor, the results will be the same. Focus
+    more on the textual output and less on the visual display such as fonts and colors.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Again, I’m not going to show you screenshots of all the Terminals possible.
+    You should understand that the preceding is not a literal translation of what
+    your output should look like visually, but the text is what you focus on.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Find out if you were right about what the `#` character does and make sure
+    you know what it’s called (octothorpe or pound character).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Take your code and review each line going backward. Start at the last line,
+    and check each word in reverse against what you should have typed.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Did you find more mistakes? Fix them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Read what you typed out loud, including saying each character by its name.
+    Did you find more mistakes? Fix them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Are you sure** `#` **is called the pound character?** I call it the octothorpe
+    because that is the only name that no one country uses and that works in every
+    country. Every country thinks its name for this one character is both the most
+    important way to do it and the only way it’s done. To me this is simply arrogance
+    and, really, y’all should just chill out and focus on more important things like
+    learning to code.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why does the** `#` **in** `print("Hi # there.")` **not get ignored?** The
+    `#` in that code is inside a string, so it will be put into the string until the
+    ending `"` character is hit. Pound characters in strings are just considered characters,
+    not comments.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How do I comment out multiple lines?** Put a `#` in front of each one.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I can’t figure out how to type a** `#` **character on my country’s keyboard.
+    How do I do that?** Some countries use the ALT key and combinations of other keys
+    to print characters foreign to their language. You’ll have to search online to
+    see how to type it.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why do I have to read code backward?** It’s a trick to make your brain not
+    attach meaning to each part of the code, and doing that makes you process each
+    piece exactly. This catches errors and is a handy error-checking technique.'
+  prefs: []
+  type: TYPE_NORMAL

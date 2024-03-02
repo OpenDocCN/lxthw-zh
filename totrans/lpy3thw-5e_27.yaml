@@ -1,0 +1,245 @@
+- en: Exercise 24. Introductory Dictionaries
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In this exercise we’ll use the same data from the previous exercise on lists
+    and use it to learn about Dictionaries or dicts.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Key/Value Structures
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'You use `key=value` data all the time without realizing it. When you read an
+    email, you might have:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'On the left are the keys (From, To, Subject) which are *mapped* to the contents
+    on the right of the `:`. Programmers say the key is “mapped” to the value, but
+    they could also say “set to” as in, “I set `From` to `j.smith@example.com`.” In
+    Python I might write this same email using a data object like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'You create a data object by:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Opening it with a `{` (curly-brace)
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Writing the key, which is a string here, but can be numbers, or almost anything
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Writing a `:` (colon)
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Writing the value, which can be anything that’s valid in Python
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Once you do that, you can access this Python email like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'You’ll notice that this is very similar to how you access variables and functions
+    in a module that you `require`. Using the `.` (dot) is a primary way you can access
+    parts of many data structures in Python. You can also access this data using the
+    `[]` syntax from the previous exercise:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: The only difference from `list` indexes is that you use a string (`'From'`)
+    instead of an integer. However, you could use an integer as a key if you want
+    (more on that soon).
+  prefs: []
+  type: TYPE_NORMAL
+- en: Combining Lists with Data Objects
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: A common theme in programming is combining components for surprising results.
+    Sometimes the surprise is a crash or a bug. Other times the surprise is a novel
+    new way to accomplish some task. Either way, what happens when you make novel
+    combinations isn’t really a surprise or a secret. To *you* it may be surprising,
+    but there is usually an explanation somewhere in the language specification (even
+    if that reason is absolutely stupid). There is no magic in your computer, just
+    complexity you don’t understand.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'A good example of combining Python components is putting data Objects inside
+    `lists`. You can do this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Once I do that I can now use `list` syntax to access the data objects like
+    this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: Notice how I can also use the `.` (dot) syntax on the data object right after
+    doing `messages[0]`? Again, you can try combining features to see if they work,
+    and if they do, go find out why because there’s always a reason (even if it’s
+    stupid).
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Code
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: You are now going to repeat the exercise you did with `lists` and write out
+    three data objects I’ve crafted. Then you’ll type them into Python and attempt
+    to access the data I give you. Remember to try to do this in your head and then
+    check your work with Python. You should also practice doing this to `list` and
+    `dict` structures until you’re confident you can access the contents. You’ll realize
+    that the data is the same, it’s simply been restructured.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 24.1: ex24.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE6]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Keep in mind that you’re doing some complicated data access moves here, so take
+    it slow. You have to go through the `data` variable you assign the module to,
+    and then access `lists`, followed by data objects, and in some cases another `list`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Challenge
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: I will give you the exact same set of data elements for you to get. Your job
+    is to figure out what indexing you need to get that information. For example,
+    if I tell you `fruit 'AAA'`, then your answer is `fruit[0].rating`. You should
+    attempt to do this in your head by looking at the code and then test your guess
+    in the `python` shell.
+  prefs: []
+  type: TYPE_NORMAL
+- en: fruit challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `fruit` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 12
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘AAA’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 2
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Oranges’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Grapes’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 14
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Apples’
+  prefs: []
+  type: TYPE_NORMAL
+- en: cars challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `cars` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Big’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Red’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 1234
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘White’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 7890
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Black’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 34500
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Blue’
+  prefs: []
+  type: TYPE_NORMAL
+- en: languages challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `languages` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Slow’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Alright’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Dangerous’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Fast’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Difficult’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Fun’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Annoying’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Weird’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Moderate’
+  prefs: []
+  type: TYPE_NORMAL
+- en: Final Challenge
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Your final challenge is to write out the Python code that writes out the same
+    song lyric from [Exercise 23](ch23.xhtml#ch23). Again, take it slow and try to
+    do it in your head before seeing whether you get it right. If you get it wrong,
+    take the time to understand why you got it wrong. For comparison, I wrote out
+    the lyrics in my head in one shot and didn’t get it wrong. I am also *way* more
+    experienced than you are, so you will probably make some mistakes and that is
+    alright.
+  prefs: []
+  type: TYPE_NORMAL
+- en: You didn’t know those were song lyrics? It’s a Prince song called “Little Red
+    Corvette.” You are now ordered to listen to 10 Prince songs before you continue
+    with this book or we cannot be friends anymore. Anymore!
+  prefs: []
+  type: TYPE_NORMAL

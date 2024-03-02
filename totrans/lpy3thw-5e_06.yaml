@@ -1,0 +1,113 @@
+- en: Exercise 4. Variables and Names
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now you can print things with `print`, and you can do math. The next step is
+    to learn about variables. In programming, a variable is nothing more than a name
+    for something, similar to how my name “Zed” is a name for “the human who wrote
+    this book.” Programmers use these variable names to make their code read more
+    like English and because they have lousy memories. If they didn’t use good names
+    for things in their software, they’d get lost when they tried to read their code
+    again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'If you get stuck with this exercise, remember the tricks you have been taught
+    so far for finding differences and focusing on details:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Write a comment above each line explaining to yourself what it does in English.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Read your Python code backward.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Read your Python code out loud, saying even the characters.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 4.1: ex4.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: Info
+  prefs: []
+  type: TYPE_NORMAL
+- en: The _ in `space_in_a_car` is called an underscore character. Find out how to
+    type it if you do not already know. We use this character a lot to put an imaginary
+    space between words in variable names.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'When I wrote this program the first time, I had a mistake, and Python told
+    me about it like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Explain this error in your own words. Make sure you use line numbers and explain
+    why.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Here are more drills:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. I used 4.0 for `space_in_a_car`, but is that necessary? What happens if
+    it’s just 4?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Remember that 4.0 is a `floating point` number. It’s just a number with
+    a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Write comments above each of the variable assignments.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Make sure you know what `=` is called (equals) and that its purpose is to
+    give data (numbers, strings, etc.) names (`cars_driven`, `passengers`).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Remember that `_` is an underscore character.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Try running `python3` from the Terminal as a calculator like you did before,
+    and use variable names to do your calculations. Popular variable names are also
+    `i`, `x`, and `j`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What is the difference between** `=` **(single-equal) and** `==` **(double-equal)?**
+    The `=` (single-equal) assigns the value on the right to a variable on the left.
+    The `==` (double-equal) tests whether two things have the same value. You’ll learn
+    about this later.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Can we write** `x=100` **instead of** `x = 100`**?** You can, but it’s bad
+    form. You should add space around operators like this so that it’s easier to read.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What do you mean by “read the file (code) backward”?** Very simple. Imagine
+    you have a file with 16 lines of code in it. Start at line 16, and compare it
+    to my code at line 16\. Then do it again for 15, and so on until you’ve read all
+    of the code backward.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why did you use** `4.0` **for** `space_in_a_car`**?** It is mostly so you
+    can then find out what a floating point number is and ask this question. See the
+    *Study Drills* section.'
+  prefs: []
+  type: TYPE_NORMAL

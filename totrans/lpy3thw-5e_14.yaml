@@ -1,0 +1,66 @@
+- en: Exercise 12. An Easier Way to Prompt
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'When you typed `input()`, you were typing the `(` and `)` characters, which
+    are `parenthesis` characters. For `input` you can also put in a prompt to show
+    to a person so they know what to type. Put a string that you want for the prompt
+    inside the `()` so that it looks like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: This prompts the user with “Name?” and puts the result into the variable `y`.
+    This is how you ask someone a question and get the answer.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This means we can completely rewrite our previous exercise using just `input`
+    to do all the prompting.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 12.1: ex12.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. In your Jupyter cell right-click on any `print` and select `Show Contextual
+    Help`. This will give you quick documentation for `print`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If you do this and the panel says “Click on a function to see documentation.”
+    then you need to run the code with `SHIFT-ENTER` and then click on the `print`
+    function again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Next, go to [Google](https://google.com) and search for `python print site:python.org`
+    to get official documentation for the Python `print` function.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why does the Contextual Help disappear?** I’m not sure, but I suspect it
+    can’t figure out what function you want documentation for while you’re editing
+    the code. Run the code and then suddenly it’ll work. You can also click on any
+    other functions in any other cell you work on.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Where does this documentation come from?** These are documentation comments
+    added to the code itself, which is why it might be different from the online documentation.
+    Get in the habit of studying both when you can.'
+  prefs: []
+  type: TYPE_NORMAL

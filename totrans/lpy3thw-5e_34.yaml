@@ -1,0 +1,110 @@
+- en: Exercise 31. Else and If
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In the previous exercise you worked out some `if-statements` and then tried
+    to guess what they are and how they work. Before you learn more, I’ll explain
+    what everything is by answering the questions you had from Study Drills. You did
+    the Study Drills, right?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. What do you think the `if` does to the code under it? An `if-statement`
+    creates what is called a “branch” in the code. It’s kind of like those choose-your-own-adventure
+    books where you are asked to turn to one page if you make one choice and another
+    if you go a different direction. The `if-statement` tells your script, “If this
+    Boolean expression is True, then run the code under it; otherwise skip it.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Why does the code under the `if` need to be indented four spaces? A colon
+    at the end of a line is how you tell Python you are going to create a new “block”
+    of code, and then indenting four spaces tells Python what lines of code are in
+    that block. This is *exactly* the same thing you did when you made functions in
+    the first half of the book.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. What happens if it isn’t indented? If it isn’t indented, you will most likely
+    create a Python error. Python expects you to indent *something* after you end
+    a line with a `:` (colon).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Can you put other Boolean expressions from [Exercise 28](ch28.xhtml#ch28)
+    in the `if-statement`? Try it. Yes you can, and they can be as complex as you
+    like, although really complex things generally are bad style.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. What happens if you change the initial values for `people`, `cats`, and
+    `dogs`? Because you are comparing numbers, if you change the numbers, different
+    `if-statements` will evaluate to `True`, and the blocks of code under them will
+    run. Go back and put different numbers in and see if you can figure out in your
+    head which blocks of code will run.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Compare my answers to your answers, and make sure you *really* understand the
+    concept of a “block” of code. This is important for when you do the next exercise
+    where you write all the parts of `if-statements` that you can use.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Type this one in and make it work too.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 31.1: ex31.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: '`dis()` It'
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'We’re now getting to a point where `dis()` is a bit too complicated to study.
+    Let’s just pick one of the code blocks to study:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: I think the best way to study this is to put the Python code next to the `dis()`
+    output and try to match the lines of Python to their byte codes. If you can do
+    that, then you’re going to be far ahead of many Python programmers who don’t even
+    know that Python has `dis()`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you can’t figure it out, don’t worry. It’s all about pushing your knowledge
+    as far as possible to find new ways to understand Python.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Try to guess what `elif` and `else` are doing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Change the numbers of `cars`, `people`, and `trucks`, and then trace through
+    each `if-statement` to see what will be printed.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Try some more complex Boolean expressions like `cars > people or trucks
+    < cars`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Above each line write an English description of what the line does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What happens if multiple** `elif` **blocks are** `True`**?** Python starts
+    at the top and runs the first block that is `True`, so it will run only the first
+    one.'
+  prefs: []
+  type: TYPE_NORMAL

@@ -1,0 +1,285 @@
+- en: Exercise 36. Designing and Debugging
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now that you know `if`-statements, I’m going to give you some rules for `for`-loops
+    and `while`-loops that will keep you out of trouble. I’m also going to give you
+    some tips on debugging so that you can figure out problems with your program.
+    Finally, you will design a little game similar to the previous exercise but with
+    a slight twist.
+  prefs: []
+  type: TYPE_NORMAL
+- en: From Idea to Working Code
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: There is a simple process anyone can follow to turn your idea into code. This
+    isn’t the *only* process, but it is one that works well for many people. Use this
+    until you develop your own personal process.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Get your idea out of your head in any form you understand. Are you a writer?
+    Then write an essay about your idea. Are you an artist or designer? Then draw
+    the user interface. Do you like charts and graphs? Check out the Sequence Diagram,
+    which is one of the most useful diagrams in programming.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Create a file for your code. Yes, believe it or not this is an important
+    step that most people stumble over. If you can’t come up with a name, just pick
+    a random one for now.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Write a description of your idea as comments, in plain English language
+    (or whatever language is easiest for you).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Start at the top, and convert the first comment into “pseudo-code,” which
+    is kind of Python but you don’t care about syntax.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Convert that “pseudo-code” into real Python code, and keep running your
+    file until this code does what your comment says.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Repeat this until you’ve converted all of the comments into Python.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '7\. Step back, review your code, and then *delete it*. You don’t have to do
+    this all the time, but if you get in the habit of throwing away your first version,
+    you’ll receive two benefits:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: a. Your second version is almost always better than the first.
+  prefs: []
+  type: TYPE_NORMAL
+- en: b. You confirm to yourself that it wasn’t just dumb luck. You actually can code.
+    This helps with impostor syndrome and confidence.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Let’s do an example with a simple problem of “create a simple Fahrenheit to
+    Celsius converter.” Step 1, I would write out what I know about the conversion:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: C equals (F - 32 ) / 1.8\. I should ask the user for the F and then print out
+    the C.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'A very basic math formula is an easy way to understand the problem. Step 2,
+    I write comments describing what my code should do:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Once I have that, I “fill in the blanks” with pseudo-code. I’ll do just the
+    first line so you can finish this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Notice I’m being sloppy and not getting the syntax right, which is the point
+    of pseudo-code. Once I have that, convert it to correct Python:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: '*Run it!* You should be running your code constantly. If you type more than
+    a few lines, just delete them and start over. It’s so much easier.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Now that those lines work, I move on to the next comment and repeat the process
+    until I have converted all of the comments into Python. When my script is finally
+    working, I delete it and rewrite it using what I know. Maybe this time I just
+    write the Python directly, or I just repeat the process again. Doing this will
+    confirm to myself that I can actually do it. It was not just dumb luck.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Is This a Professional Process?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: You may think that this process is not practical or unprofessional. I think
+    when you’re starting out, you need different tools than someone who’s been coding
+    for a really long time. I can sit down with an idea and just code, but I’ve been
+    coding professionally for longer than you may have been alive. Yet, in my head
+    this is essentially the process I follow. I’m just doing it inside my head rapidly,
+    while you have to practice it externally until you internalize it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I do use this process when I am stuck, or if I’m learning a new language. If
+    I don’t know a language but know what I want to do, then I can usually write comments
+    and slowly convert them to code, which also teaches me that language. The only
+    difference between me and you is that I do it faster because of years of training.
+  prefs: []
+  type: TYPE_NORMAL
+- en: About the “X/Y” Non-Problem
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Some professionals claim that this process gives students a strange disease
+    called the “X/Y problem.” They describe the X/Y problem as “Someone wants to do
+    X, but only knows how to do Y, so they ask for help on how to do Y.” The problem
+    with the X/Y problem is it’s critical of people who are simply learning how to
+    code and presents no solution. To the “X/Y hater” the solution seems to be “know
+    the answer already,” since if they knew how to do X, they wouldn’t bother with
+    Y. The hypocrisy of this belief is that all of the people who hate these kinds
+    of questions also went through a period of doing exactly this and asking these
+    same exact kinds of “X/Y” questions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The other problem is, they’re blaming *you* for their terrible documentation.
+    The classic example is from the original description of the X/Y problem:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: First off, this `feline` person is literally yelling at someone for asking a
+    question in an IRC channel devoted to answering questions. “ASK FOR WHAT YOU WANT!”
+    The second problem is, their solution is something I—a multi-decade veteran bash
+    and Linux professional—has to look up *every single time*. It is one of the worst
+    documented, least usable features in bash. How is a beginner expected to know
+    ahead of time that they should use some complicated “dollar brace name pound pound
+    asterisk dot brace” operation? This person most likely would not have asked this
+    question had there been simple documentation available online that explained how
+    to do this. Even better would be if bash actually just *had* a basic feature for
+    this incredibly common operation every human needs out of a shell.
+  prefs: []
+  type: TYPE_NORMAL
+- en: When it comes to the “X/Y problem,” it is really just an excuse to yell at beginners
+    for being beginners. Every single person who claims to hate this either doesn’t
+    actually write code or has *definitely* done exactly this while they were learning
+    to code. That’s *how* you learn to code. You come up with problems and stumble
+    through them learning how to implement solutions. So if you run into someone who
+    acts like `<feline>`, just ignore them. They’re just using you as an excuse to
+    be angry at someone and feel superior.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Additionally, you’ll notice that in the previous interaction not a single person
+    *asked to see code*. If `<n00b>` had just shown their code, then `<feline>` could
+    have recommended better ways to do that. Problem solved. I mean, assuming `<feline>`
+    is actually able to code and is not just hanging out in IRC waiting to pounce
+    on unsuspecting beginners asking questions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Rules for If-Statements
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Every `if`-statement must have an `else`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If this `else` should never run because it doesn’t make sense, then you
+    must use a die function in the `else` that prints out an error message and dies,
+    just like we did in the previous exercise. This will find *many* errors.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Never nest `if`-statements more than two deep and always try to do them
+    one deep.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Treat `if`-statements like paragraphs, where each `if-elif-else` grouping
+    is like a set of sentences. Put blank lines before and after.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Your Boolean tests should be simple. If they are complex, move their calculations
+    to variables earlier in your function and use a good name for the variable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you follow these simple rules, you will start writing better code than most
+    programmers. Go back to the previous exercise and see if I followed all of these
+    rules. If not, fix my mistakes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Never be a slave to the rules in real life. For training purposes, you need
+    to follow these rules to make your mind strong, but in real life sometimes these
+    rules are just stupid. If you think a rule is stupid, try not using it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Rules for Loops
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Use a `while`-loop only to loop forever, and that means probably never.
+    This applies only to Python; other languages are different.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Use a `for`-loop for all other kinds of looping, especially if there is
+    a fixed or limited number of things to loop over.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Tips for Debugging
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Do not use a “debugger.” A debugger is like doing a full-body scan on a
+    sick person. You do not get any specific useful information, and you find a whole
+    lot of information that doesn’t help and is just confusing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. The best way to debug a program is to use `print` to print out the values
+    of variables at points in the program to see where they go wrong.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Make sure parts of your programs work as you work on them. Do not write
+    massive files of code before you try to run them. Code a little, run a little,
+    fix a little.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Homework
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Now write a game similar to the one that I created in the previous exercise.
+    It can be any kind of game you want in the same flavor. Spend a week on it making
+    it as interesting as possible. For Study Drills, use lists, functions, and modules
+    (remember those from [Exercise 13](ch13.xhtml#ch13)?) as much as possible, and
+    find as many new pieces of Python as you can to make the game work.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Before you start coding you must draw a map for your game. Create the rooms,
+    monsters, and traps that the player must go through on paper before you code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Once you have your map, try to code it up. If you find problems with the map,
+    then adjust it and make the code match.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The best way to work on a piece of software is in small chunks like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. On a sheet of paper or an index card, write a list of tasks you need to
+    complete to finish the software. This is your to-do list.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Pick the easiest thing you can do from your list.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Write out English comments in your source file as a guide for how you would
+    accomplish this task in your code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Write some of the code under the English comments.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Quickly run your script so you can see if that code worked.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Keep working in a cycle of writing some code, running it to test it, and
+    fixing it until it works.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 7\. Cross this task off your list, and then pick your next easiest task and
+    repeat.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This process will help you work on software in a methodical and consistent manner.
+    As you work, update your list by removing tasks you don’t really need and adding
+    ones you do.
+  prefs: []
+  type: TYPE_NORMAL

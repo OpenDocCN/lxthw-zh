@@ -1,0 +1,111 @@
+- en: Exercise 10. Escape Codes in Strings
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In [Exercise 9](ch09.xhtml#ch09) I threw you some new stuff just to keep you
+    on your toes. I showed you two ways to make a string that goes across multiple
+    lines. In the first way, I put the characters `\n` (backslash `n`) between the
+    names of the months. These two characters put a `new line character` into the
+    string at that point.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This `\` (backslash) character encodes difficult-to-type characters into a string.
+    There are various “escape sequences” available for different characters you might
+    want to use. We’ll try a few of these sequences so you can see what I mean.
+  prefs: []
+  type: TYPE_NORMAL
+- en: An important escape sequence is to escape a single-quote `'` or double-quote
+    `"`. Imagine you have a string that uses double-quotes and you want to put a double-quote
+    inside the string. If you write `"I "understand" joe."` then Python will get confused
+    because it will think the `"` around `"understand"` actually *ends* the string.
+    You need a way to tell Python that the `"` inside the string isn’t a *real* double-quote.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'To solve this problem you *escape* double-quotes and single-quotes so Python
+    knows to include them in the string. Here’s an example:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: The second way to solve this problem is to use triple-quotes, which is just
+    `"""` and works like a string, but you also can put as many lines of text as you
+    want until you type `"""` again. We’ll also play with these.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 10.1: ex10.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Look for the tab characters that you made. In this exercise the spacing is important
+    to get right.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Escape Sequences
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: This is all of the escape sequences Python supports. You may not use many of
+    these, but memorize their format and what they do anyway. Try them out in some
+    strings to see if you can make them work.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/t0033-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Memorize all the escape sequences by putting them on flash cards.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Use `'''` (triple-single-quote) instead. Can you see why you might use that
+    instead of `"""`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Combine escape sequences and format strings to create a more complex format.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**I still haven’t completely figured out the last exercise. Should I continue?**
+    Yes, keep going. Instead of stopping, take notes listing things you don’t understand
+    for each exercise. Periodically go through your notes and see if you can figure
+    these things out after you’ve completed more exercises. Sometimes, though, you
+    may need to go back a few exercises and do them again.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What makes** // **special compared to the other ones?** It’s simply the way
+    you would write out one backslash (`\`) character. Think about why you would need
+    this.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**When I write** `//` **or** `/n` **it doesn’t work**. That’s because you are
+    using a forward-slash `/` and not a backslash `\`. They are different characters
+    that do very different things.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I don’t get Study Drill 3\. What do you mean by “combine” escape sequences
+    and formats?** One concept I need you to understand is that each of these exercises
+    can be combined to solve problems. Take what you know about format strings and
+    write some new code that uses format strings *and* the escape sequences from this
+    exercise.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What’s better,** `''''''` **or** `"""`**?** It’s entirely based on style.
+    Go with the `''''''` (triple-single-quote) style for now, but be ready to use
+    either depending on what feels best or what everyone else is doing.'
+  prefs: []
+  type: TYPE_NORMAL

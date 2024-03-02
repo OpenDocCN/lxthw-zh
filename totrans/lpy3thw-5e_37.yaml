@@ -1,0 +1,127 @@
+- en: Exercise 34. While Loops
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now to totally blow your mind with a new loop, the `while-loop`. A `while-loop`
+    will keep executing the code block under it as long as a Boolean expression is
+    `True`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Wait, you have been keeping up with the terminology, right? That if we write
+    a line and end it with a `:` (colon), then that tells Python to start a new block
+    of code? Then we indent, and that’s the new code. This is all about structuring
+    your programs so that Python knows what you mean. If you do not get that idea,
+    then go back and do some more work with `if`-statements, functions, and the `for`-loop
+    until you get it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Later on we’ll have some exercises that will train your brain to read these
+    structures, similar to how we burned Boolean expressions into your brain.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Back to `while-loops`. What they do is simply do a test like an `if`-statement,
+    but instead of running the code block *once*, they jump back to the “top” where
+    the `while` is, and repeat. A `while`-loop runs until the expression is `False`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Here’s the problem with `while`-loops: Sometimes they do not stop. This is
+    great if your intention is to just keep looping until the end of the universe.
+    Otherwise you almost always want your loops to end eventually.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'To avoid these problems, there are some rules to follow:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Make sure that you use `while`-loops sparingly. Usually a `for`-loop is
+    better.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Review your `while`-statements and make sure that the Boolean test will
+    become `False` at some point.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. When in doubt, print out your test variable at the top and bottom of the
+    `while`-loop to see what it’s doing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'In this exercise, you will learn the `while`-loop while doing these three checks:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 34.1: ex34.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: '`dis()` It'
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'For our final “side quest” in The Game of Code you’ll use `dis()` to analyze
+    how a `while-loop` works:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: You’ve already seen most of these byte codes, so it’s up to you to figure out
+    how this `dis()` output relates to the Python. Remember you can look up all of
+    the byte codes at [the end of the](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)
+    `[dis()](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)`
+    [documentation](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions).
+    Good luck!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Convert this `while-loop` to a function that you can call, and replace `6`
+    in the test (`i < 6`) with a variable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Use this function to rewrite the script to try different numbers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Add another variable to the function arguments that you can pass in that
+    lets you change the `+ 1` on line 8 so you can change how much it increments by.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Rewrite the script again to use this function to see what effect that has.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Write it to use `for-loops` and `range`. Do you need the incrementor in
+    the middle anymore? What happens if you do not get rid of it?
+  prefs: []
+  type: TYPE_NORMAL
+- en: If at any time that you are doing this it goes crazy (it probably will), just
+    hold down `CTRL` and press `c` (`CTRL-c`) and the program will abort.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What’s the difference between a** `for`**-loop and a** `while`**-loop?**
+    A `for`-loop can only iterate (loop) “over” collections of things. A `while`-loop
+    can do any kind of iteration (looping) you want. However, `while`-loops are harder
+    to get right, and you normally can get many things done with `for`-loops.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Loops are hard. How do I figure them out?** The main reason people don’t
+    understand loops is because they can’t follow the “jumping” that the code does.
+    When a loop runs, it goes through its block of code, and at the end it jumps back
+    to the top. To visualize this, put `print` statements all over the loop printing
+    out where in the loop Python is running and what the variables are set to at those
+    points. Write `print` lines before the loop, at the top of the loop, in the middle,
+    and at the bottom. Study the output and try to understand the jumping that’s going
+    on.'
+  prefs: []
+  type: TYPE_NORMAL

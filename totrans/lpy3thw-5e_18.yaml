@@ -1,0 +1,124 @@
+- en: Exercise 16. Reading and Writing Files
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'If you did the Study Drills from the previous exercise, you should have seen
+    all sorts of commands (methods/functions) you can give to files. Here’s the list
+    of commands I want you to remember:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `close` – Closes the file. Like `File->Save..` in a text editor or word processor.
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `read` – Reads the contents of the file. You can assign the result to a variable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `readline` – Reads just one line of a text file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `truncate` – Empties the file. Watch out if you care about the file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `write('stuff')` – Writes “stuff” to the file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `seek(0)` – Move the read/write location to the beginning of the file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: One way to remember what each of these does is to think of a vinyl record, cassette
+    tape, VHS tape, DVD, or CD player. In the early days of computers data was stored
+    on each of these kinds of media, so many of the file operations still resemble
+    a storage system that is linear. Tape and DVD drives need to “seek” a specific
+    spot, and then you can read or write at that spot. Today we have operating systems
+    and storage media that blur the lines between random access memory and disk drives,
+    but we still use the older idea of a linear tape with a read/write head that must
+    be moved.
+  prefs: []
+  type: TYPE_NORMAL
+- en: For now, these are the important commands you need to know. Some of them take
+    parameters, but we do not really care about that. You only need to remember that
+    `write` takes a parameter of a string you want to write to the file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Let’s use some of this to make a simple little text editor:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 16.1: ex16.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: That’s a large file, probably the largest you have typed in. So go slow, do
+    your checks, *run it frequently*, and take it slowly. One trick is to get bits
+    of it running at a time. Get lines 1–2 running, then two more, then a few more,
+    until it’s all done and running.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'There are actually two things you will see. First the output of your new script:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Now, open up the file you made (in my case `test.txt`) using the left panel
+    of Jupyter and check it out. Neat, right?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. If you do not understand this, go back through and use the comment trick
+    to get it squared away in your mind. One simple English comment above each line
+    will help you understand or at least let you know what you need to research more.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Write a `.py` script similar to the last [Exercise 14](ch14.xhtml#ch14)
+    that uses `read` ([Exercise 15](ch15.xhtml#ch15)) and `argv` ([Exercise 13](ch13.xhtml#ch13))
+    to read the file you just created. Be sure you run this in Terminal/PowerShell
+    instead of Jupyter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. There’s too much repetition in this file. Use strings, formats, and escapes
+    to print out `line1`, `line2`, and `line3` with just one `target.write()` command
+    instead of six.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '4\. Find out why we had to pass a `''w''` as an extra parameter to `open`.
+    Hint: `open` tries to be safe by making you explicitly say you want to write a
+    file.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. If you open the file with `'w'` mode, then do you really need the `target.truncate()`?
+    Read the documentation for Python’s `open` function and see if that’s true.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Is the** `truncate()` **necessary with the** `''w''` **parameter?** See Study
+    Drill 5.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does** `''w''` **mean?** It’s really just a string with a character
+    in it for the kind of mode for the file. If you use `''w''`, then you’re saying
+    “open this file in ‘write’ mode,” which is the reason for the `''w''` character.
+    There’s also `''r''` for “read,” `''a''` for append, and modifiers on these.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What modifiers to the file modes can I use?** The most important one to know
+    for now is the `+` modifier, so you can do `''w+''`, `''r+''`, and `''a+''`. This
+    will open the file in both read and write mode and, depending on the character
+    use, position the file in different ways.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Does just doing** `open(filename)` **open it in** `''r''` **(read) mode?**
+    Yes, that’s the default for the `open()` function.'
+  prefs: []
+  type: TYPE_NORMAL

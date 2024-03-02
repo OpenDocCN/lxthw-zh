@@ -1,0 +1,155 @@
+- en: Exercise 29. Boolean Practice
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: The logic combinations you learned from the previous exercise are called “Boolean”
+    logic expressions. Boolean logic is used *everywhere* in programming. It is a
+    fundamental part of computation, and knowing these logic expressions very well
+    is akin to knowing your scales in music.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In this exercise you will take the logic exercises you memorized and start trying
+    them out in Python. Take each of these logic problems and write what you think
+    the answer will be. In each case it will be either
+  prefs: []
+  type: TYPE_NORMAL
+- en: True or False. Once you have the answers written down, you will start Python
+    in your terminal and type each logic problem in to confirm your answers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: I will also give you a trick to help you figure out the more complicated ones
+    toward the end.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Whenever you see these Boolean logic statements, you can solve them easily
+    by this simple process:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Find an equality test (== or !=) and replace it with its truth
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Find each `and/or` inside parentheses and solve those first
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Find each `not` and invert it
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Find any remaining `and/or` and solve it
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. When you are done, you should have True or False
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'I will demonstrate with a *variation* on #20:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Here’s me going through each of the steps and showing you the translation until
+    I’ve boiled it down to a single result:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '1\. Solve each equality test:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `3 != 4` is `True`, so replace that with `True` to get `True and not ("testing"
+    != "test"` `or "Python" == "Python")`
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `"testing" != "test"` is `True`, so replace *that* with `True` to get `True
+    and not (True` `or "Python" == "Python")`
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `"Python" == "Python"` is True, so replace that with `True`, and we have `True
+    and` `not (True or True)`
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2\. Find each `and/or` in parentheses ():'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `(True or True)` is `True`, so replace that to get `True and not (True)`
+  prefs: []
+  type: TYPE_NORMAL
+- en: '3\. Find each `not` and invert it:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `not (True)` is `False`, so replace that, and we have `True and False`
+  prefs: []
+  type: TYPE_NORMAL
+- en: '4\. Find any remaining `and/or` and solve them:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • `True and False` is `False`, and you’re done
+  prefs: []
+  type: TYPE_NORMAL
+- en: With that we’re done and know the result is False.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: The more complicated ones may seem very hard at first. You should be able to
+    take a good first stab at solving them, but do not get discouraged. I’m just getting
+    you primed for more of these “logic gymnastics” so that later cool stuff is much
+    easier. Just stick with it, and keep track of what you get wrong, but do not worry
+    that it’s not getting in your head quite yet. It’ll come.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'After you have tried to guess at these, this is what your Jupyter cells might
+    look like:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. There are a lot of operators in Python similar to `!=` and `==`. Try to
+    find as many “equality operators” as you can. They should be like `<` or `<=`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Write out the names of each of these equality operators. For example, I
+    call `!=` “not equal.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Play with Python by typing out new Boolean operators, and before you press
+    Enter, try to shout out what it is. Do not think about it. Shout the first thing
+    that comes to mind. Write it down, then press Enter, and keep track of how many
+    you get right and wrong.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Throw away the piece of paper from Study Drill 3 so you do not accidentally
+    try to use it later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why does** `"test" and "test"` **return** `"test"` **or** `1 and 1` **return**
+    `1` **instead of** `True`**?** Python and many languages like to return one of
+    the operands to their Boolean expressions rather than just `True` or `False`.
+    This means that if you did `False and 1` you get the first operand (`False`),
+    but if you do `True and 1`, you get the second (`1`). Play with this a bit.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Is there any difference between** `!=` **and** `<>`**?** Python has deprecated
+    `<>` in favor of `!=`, so use `!=`. Other than that there should be no difference.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Isn’t there a shortcut?** Yes. Any `and` expression that has a `False` is
+    immediately `False`, so you can stop there. Any `or` expression that has a `True`
+    is immediately `True`, so you can stop there. But make sure that you can process
+    the whole expression because later it becomes helpful.'
+  prefs: []
+  type: TYPE_NORMAL

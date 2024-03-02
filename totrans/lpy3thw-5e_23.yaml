@@ -1,0 +1,100 @@
+- en: Exercise 20. Functions and Files
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Remember your checklist for functions, and then do this exercise paying close
+    attention to how functions and files can work together to make useful stuff. You
+    should also continue to type only a few lines before running your code. If you
+    catch yourself typing too many lines, then delete them and do it again. Doing
+    this uses `python` to train your understanding of Python.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Here’s the code for this exercise. Once again, it’s long, so if you find Jupyter
+    is difficult to use, then write a `ex20.py` file and run it that way.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 20.1: ex20.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: Pay close attention to how we pass in the current line number each time we run
+    `print_a_line`. There’s nothing new in this exercise. It has functions, and you
+    know those. It has files and you know those too. Just take your time with it and
+    you’ll get it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Write English comments for each line to understand what that line does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Each time `print_a_line` is run, you are passing in a variable `current_line`.
+    Write out what `current_line` is equal to on each function call, and trace how
+    it becomes `line_count` in `print_a_line`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Find each place a function is used, and check its `def` to make sure that
+    you are giving it the right arguments.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Research online what the `seek` function for `file` does. Try `pydoc file`,
+    and see if you can figure it out from there. Then try `pydoc file.seek` to see
+    what `seek` does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Research the shorthand notation `+=`, and rewrite the script to use `+=`
+    instead.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What is** `f` **in the** `print_all` **and other functions?** The `f` is
+    a variable just like you had in other functions in [Exercise 18](ch18.xhtml#ch18),
+    except this time it’s a file. A file in Python is kind of like an old tape drive
+    on a mainframe or maybe a DVD player. It has a “read head,” and you can “seek”
+    this read head around the file to a position and then work with it there. Each
+    time you do `f.seek(0)` you’re moving to the start of the file. Each time you
+    do `f.readline()` you’re reading a line from the file and moving the read head
+    to the right after the `\n` that ends that line. This will be explained more as
+    you go on.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why does** `seek(0)` **not set the** `current_line` **to 0?** First, the
+    `seek()` function is dealing in *bytes*, not lines. The code `seek(0)` moves the
+    file to the 0 byte (first byte) in the file. Second, `current_line` is just a
+    variable and has no real connection to the file at all. We are manually incrementing
+    it.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What is** `+=`**?** You know how in English I can rewrite “it is” as “it’s”?
+    Or I can rewrite “you are” as “you’re”? In English this is called a “contraction,”
+    and this is kind of like a contraction for the two operations `=` and `+`. That
+    means `x = x + y` is the same as `x += y`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How does** `readline()` **know where each line is?** Inside `readline()`
+    is code that scans each byte of the file until it finds a `\n` character and then
+    stops reading the file to return what it found so far. The file `f` is responsible
+    for maintaining the current position in the file after each `readline()` call
+    so that it will keep reading each line.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why are there empty lines between the lines in the file?** The `readline()`
+    function returns the `\n` that’s in the file at the end of that line. Add an `end
+    = ""` at the end of your `print` function calls to avoid adding double `\n` to
+    every line.'
+  prefs: []
+  type: TYPE_NORMAL

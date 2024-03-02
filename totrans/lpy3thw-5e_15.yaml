@@ -1,0 +1,265 @@
+- en: Exercise 13. Parameters, Unpacking, Variables
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We’re now going to take a quick detour into the world of the `Terminal` (aka
+    `PowerShell`) version of `python`. If you did the [First](https://learncodethehardway.org/first_steps/python/)
+    Steps correctly, you should have learned how to start your Terminal and run a
+    simple Python script. Later in this course you’ll learn how to use the Terminal
+    more extensively, but in this exercise we’ll just do a tiny test.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'First, I want you to create a file named `ex13.py` using Jupyter’s new Python
+    file:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. On the left there’s a list of the files in your directory.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Above that list is a blue `[+]` button.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Click that button, and scroll to the very bottom where there should be a
+    button for `Python` `File` with the Python “blue and yellow snakes” logo.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Click that button to open a new panel you can type code into.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Right away, use your mouse to select `File > Save Python File` or hold `CTRL`
+    and hit `s` (normally shown as `Ctrl-S` but you don’t use shift to get that `S`).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. This will open a modal prompt that says “Rename File.” Type “ex13” and it
+    should keep the `.py`, but be sure that this input says `ex13.py`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 7\. Hit the blue `[Rename]` button to save the file in that directory.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Once that file is saved, you can then type this code into the file:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 13.1: ex13.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'I recommend you type only one or two lines of code and then do the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Save your file again. `CTRL-s` is the easiest way, but use the menu if you
+    can’t remember it. This time it shouldn’t ask you to “rename” the file but instead
+    should just save it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Your file is now saved to your projects directory. If you remember from
+    the *[First Steps](https://learncodethehardway.org/first_steps/python/)* section,
+    you created a directory in `~/Projects/lpythw`, and when you run `jupyter-lab`,
+    you first `cd ~/Projects/lpythw`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Now start a new Terminal (aka PowerShell on Windows) and `cd ~/Projects/lpythw/`
+    again to get a Terminal there.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Finally, type `python ex13.py first 2nd 3rd`. (Type this without the Terminal
+    period.) When you do, you should see *absolutely nothing*! Yes, this is *very
+    important*. You only typed one or two lines, so there are no `print` lines in
+    your code. That means it does not print anything, but that’s good. If you get
+    errors, then stop and figure out what you’re doing wrong. Did you type that line
+    wrong? Did you run `python ex13.py`? That is also wrong. You have to run `python
+    ex13.py first 2nd 3rd`. (Again, type without the Terminal period.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: If You Get Lost
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'If you’re confused about where you are, use the `open` command on macOS and
+    the `start` command on Windows. If you type this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'on a macOS computer, it will open a window with the contents of where your
+    Terminal is currently located. The same happens when you type:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: on Windows inside PowerShell. Doing this will help you connect your idea of
+    “files are in folders in a window” to “files are in directories in the Terminal
+    (PowerShell).”
+  prefs: []
+  type: TYPE_NORMAL
+- en: If this is the first time you’re seeing this advice, then go back to the *[First
+    Steps](https://learncodethehardway.org/first_steps/python/)* section and review
+    it as it seems you missed this important concept.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Code Description
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: On line `1` we have what’s called an “import.” This is how you add features
+    to your script from the Python feature set. Rather than give you all the features
+    at once, Python asks you to say what you plan to use. This keeps your programs
+    small, but it also acts as documentation for other programmers who read your code
+    later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The `argv` is the “argument variable,” a very standard name in programming that
+    you will find used in many other languages. This variable *holds* the arguments
+    you pass to your Python script when you run it. In the exercises you will get
+    to play with this more and see what happens.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Line 3 “unpacks” `argv` so that, rather than holding all the arguments, it
+    gets assigned to four variables you can work with: `script`, `first`, `second`,
+    and `third`. This may look strange, but “unpack” is probably the best word to
+    describe what it does. It just says, “Take whatever is in `argv`, unpack it, and
+    assign it to all of these variables on the left in order.”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: After that we just print them out like normal.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Hold Up! Features Have Another Name
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'I call them “features” here (these little things you `import` to make your
+    Python program do more), but nobody else calls them features. I just used that
+    name because I needed to trick you into learning what they are without jargon.
+    Before you can continue, you need to learn their real name: `modules`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: From now on we will be calling these “features” that we `import` *modules*.
+    I’ll say things like, “You want to import the `sys` module.” They are also called
+    “libraries” by other programmers, but let’s just stick with modules.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Pay attention! You have been running Python scripts without command line arguments.
+    If you type only `python3 ex13.py`, you are doing it wrong! Pay close attention
+    to how I run it. This applies any time you see argv being used.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'When you are done typing in all of the code, it should finally run like this
+    (and you *must* pass *three* command line arguments):'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This is what you should see when you do a few different runs with different
+    arguments:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Here’s one more example showing it can be anything:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: You can actually replace `first`, `2nd`, and `3rd` with any three things you
+    want.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'If you do not run it correctly, then you will get an error like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Command failed: python ex13.py first 2nd Traceback (most recent call last):
+    File “/Users/zedshaw/Project s/learncodethehardway.com/private/db/modules/learn-python-the-hard-way-5e-section-1/code/ex13.py”,
+    line 3, in script, first, second, third = argv ValueError: not enough values to
+    unpack (expected 4, got 3)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: This happens when you do not put enough arguments on the command when you run
+    it (in this case just `first 2nd`). Notice that when I run it, I give it `first
+    2nd`, which caused it to give an error about “need more than 3 values to unpack”
+    telling you that you didn’t give it enough parameters.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Try giving fewer than three arguments to your script. See that error you
+    get? See if you can explain it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Write a script that has fewer arguments and one that has more. Make sure
+    you give the unpacked variables good names.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Combine `input` with `argv` to make a script that gets more input from a
+    user. Don’t overthink it. Just use `argv` to get something, and use `input` to
+    get something else from the user.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Remember that modules give you features. Modules. Modules. Remember this
+    because we’ll need it later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**When I run it, I get** `ValueError: need more than 1 value to unpack`. Remember
+    that an important skill is paying attention to details. If you look at the *What
+    You Should See* section, you see that I run the script with parameters on the
+    command line. You should replicate how I ran it exactly. There’s also a giant
+    warning right there explaining the mistake you just made, so again, please pay
+    attention.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What’s the difference between** `argv` **and** `input()`**?** The difference
+    has to do with where the user is required to give input. If they give your script
+    inputs on the command line, then you use `argv`. If you want them to input using
+    the keyboard while the script is running, then use `input()`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Are the command line arguments strings?** Yes, they come in as strings, even
+    if you typed numbers on the command line. Use `int()` to convert them just like
+    with `int(input())`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How do you use the command line?** You should have learned to use it very
+    quickly and fluently by now, but if you need to learn it at this stage, then read
+    Appendix A, “Command Line Crash Course.”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I can’t combine** `argv` **with** `input()`. Don’t overthink it. Just slap
+    two lines at the end of this script that uses `input()` to get something and then
+    print it. From that, start playing with more ways to use both in the same script.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why can’t I do this** `input(''? '') = x`**?** Because that’s backward to
+    how it should work. Do it the way I do it and it’ll work.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why do you want me to type one line at a time?** The biggest mistake beginners
+    make—and professionals too—is they type a massive block of code, run it once,
+    and then cry because of all the errors they have to fix. Errors in programming
+    languages are awful and frequently point at the wrong locations in your source.
+    If you’re typing only a few lines at a time, you will run your code more often,
+    and when you get an error, you know it’s probably a problem with the line(s) you
+    just typed. When you type 100 lines of code, you’ll spend the next 5 days trying
+    to find all the errors and just give up. Save yourself the trouble and just type
+    a little at a time. It’s what I—and most capable programmers—do in real life.'
+  prefs: []
+  type: TYPE_NORMAL

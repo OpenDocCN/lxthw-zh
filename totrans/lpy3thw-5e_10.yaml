@@ -1,0 +1,75 @@
+- en: Exercise 8. Formatting Strings Manually
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We will now see how to do a more complicated formatting of a string. This code
+    looks complex, but if you do your comments above each line and break each thing
+    down to its parts, you’ll understand it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 8.1: ex8.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: In this exercise I’m using something called a “function” to turn the `formatter`
+    variable into other strings.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'When you see me write `formatter.format(...)`, I’m telling Python to do the
+    following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Take the `formatter` string defined on line 1.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Call its `format` function, which is similar to telling it to do a command
+    line command named `format`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Pass to `format` four arguments, which match up with the four `{}` in the
+    `formatter` variable. This is like passing arguments to the command line command
+    `format`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. The result of calling `format` on `formatter` is a new string that has the
+    `{}` replaced with the four variables. This is what `print` is now printing out.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That’s a lot for the eighth exercise, so what I want you to do is consider this
+    a brainteaser. It’s alright if you don’t *really* understand what’s going on because
+    the rest of the book will slowly make this clear. At this point, try to study
+    this and see what’s going on, and then move on to the next exercise.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Repeat the Study Drills from [Exercise 7](ch07.xhtml#ch07).
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why do I have to put quotes around “one” but not around** `True` **or** `False`**?**
+    Python recognizes `True` and `False` as keywords representing the concept of true
+    and false. If you put quotes around them, then they are turned into strings and
+    won’t work. You’ll learn more about how these work later.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Can I use IDLE to run this?** No, you should use Jupyter or the command line
+    if you know how. It is essential to learning programming and is a good place to
+    start if you want to learn about programming. Jupyter is a far superior tool than
+    IDLE.'
+  prefs: []
+  type: TYPE_NORMAL

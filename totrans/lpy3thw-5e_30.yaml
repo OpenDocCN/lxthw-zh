@@ -1,0 +1,473 @@
+- en: Exercise 27. The Five Simple Rules to the Game of Code
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Info
+  prefs: []
+  type: TYPE_NORMAL
+- en: This exercise is intended to be studied periodically while you study the next
+    exercises. You’re expected to take this very slowly and to mix it with other explanations
+    until you finally get it. If you get lost in this exercise, take a break and do
+    the next ones. Then if you get confused in a later exercise, come back and study
+    the details I describe here. Keep doing this until it “clicks.” Remember, you
+    can’t fail, so just keep trying until you get it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you play a game like Go or Chess, you know the rules are fairly simple, yet
+    the games they enable are extremely complex. Really good games have this unique
+    quality of simple rules with complex interactions. Programming is also a game
+    with a few simple rules that create complex interactions, and in this exercise
+    we’re going to learn what those rules are.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Before we do that, I need to stress that you most likely won’t use these rules
+    directly when you code. There are languages that do utilize these rules directly,
+    and your CPU uses them too, but in daily programming you’ll rarely use them. If
+    that’s the case, then why learn the rules?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Because these rules are everywhere, and understanding them will help you understand
+    the code you write. It’ll help you debug the code when it goes wrong. If you ever
+    want to know how the code works, you’ll be able to “disassemble” it down to its
+    basic rules and really see how it works. These rules are a cheat *code*. Pun totally
+    intended.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’m also going to warn you that **you are not expected to totally understand
+    this right away**. Think of this exercise as setting you up for the rest of the
+    exercises in this module. You’re expected to study this exercise deeply, and when
+    you get stuck, move on to the next exercises as a break. You want to bounce between
+    this one and the next ones until the concepts “click” and they start to make sense.
+    You should also study these rules as deeply as you can, but don’t get stuck here.
+    Struggle for a few days, move on, come back, and keep trying. As long as you keep
+    trying, you can’t actually “fail.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Rule 1: Everything Is a Sequence of Instructions'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'All programs are a sequence of instructions that tell a computer to do something.
+    You’ve seen Python doing this already when you type code like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This code starts at line 1, goes to line 2, and so on until the end. That’s
+    a sequence of instructions, but inside Python these three lines are converted
+    into another sequence of instructions that look like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: That looks totally different from the Python version, but I *bet* you could
+    probably figure out what this sequence of instructions is doing. I’ve added comments
+    to explain each instruction, and you should be able to connect it back to the
+    previous Python code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’m not joking. Take some time right now to connect each line of the Python
+    code to the lines of this “byte code.” Using the comments I provided I’m positive
+    you can figure it out, and doing so might turn on a light in your head about the
+    Python code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: It’s not necessary to memorize this or even understand each of these instructions.
+    What you should realize is your Python code is being translated into a sequence
+    of simpler instructions that tell the computer to do something. This sequence
+    of instructions is called “byte code” because it’s usually stored in a file as
+    a sequence of numbers a computer understands. The output you see above is usually
+    called an “assembly language” because it’s a human “readable” (barely) version
+    of those bytes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: These simpler instructions are processed starting at the top, do one small thing
+    at a time, and go to the end when the program exits. That’s just like your Python
+    code but with a simpler syntax of `INSTRUCTION OPTIONS`. Another way to look at
+    this is each part of `x = 10` might become its own instructions in this “byte
+    code.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'That’s the first rule of The Game of Code: Everything you write eventually
+    becomes a sequence of bytes fed to a computer as instructions for what the computer
+    should do.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: How can I get this output?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'To get this output yourself, you use a module called `[dis](https://docs.python.org/3/library/dis.xhtml)`,
+    which stands for “disassemble.” This kind of code is traditionally called “byte
+    code” or “assembly language,” so `dis` means to “disassemble.” To use `dis` you
+    can import it and use the `dis()` function like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'In this Python code I’m doing the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. I import the `dis()` function from the `dis` module
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. I run the `dis()` function, but I give it a multi-line string using `'''`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. I then write the Python code I want to disassemble into this multi-line
+    string
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Finally, I end the multi-line string and the `dis()` function with `''')`
+  prefs: []
+  type: TYPE_NORMAL
+- en: When you run this in Jupyter, you’ll see it dump the byte code like I have above,
+    but maybe with some extras we’ll cover in a minute.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Where are these bytes stored?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: When you run Python (version 3), these bytes are stored in a directory named
+    `__pycache__`. If you put this code into a `ex19.py` file and then run it with
+    `python ex19.py`, you should see this directory.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Looking in this directory you should see a bunch of files ending in `.pyc` with
+    names similar to the code that generated them. These `.pyc` files contain your
+    compiled Python code as bytes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: When you run `dis()`, you’re printing a human-readable version of the numbers
+    in the `.pyc` file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Rule 2: Jumps Make the Sequence Non-Linear'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'A sequence of simple instructions like `LOAD_CONST 10` is not very useful.
+    Yay! You can load the number 10! Amazing! Where code starts to become useful is
+    when you add the concept of the “jump” to make this sequence *non-linear*. Let’s
+    look at a new piece of Python code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: To understand this code we have to foreshadow a later exercise where you learn
+    about the `while-loop`. The code `while True:` simply says “Keep running the code
+    under me `x = 10` while `True` is `True`.” Since `True` will always be `True`,
+    this will loop forever. If you run this in Jupyter, it will never end.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'What happens when you `dis()` this code? You see the new instruction `JUMP_ABSOLUTE`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: You saw the first two instructions when we covered the `x = 10` code, but now
+    at the end we have `JUMP_ABSOLUTE 0`. Notice there’s numbers `0`, `2`, and `4`
+    to the left of these instructions? In the previous code I cut them out so you
+    wouldn’t be distracted, but here they’re important because they represent locations
+    in the sequence where each instruction lives. All `JUMP_ABSOLUTE 0` does is tell
+    Python to “jump to the instruction at position 0”, which is `LOAD_CONST 1 (10)`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: With this simple instruction we now have turned boring straight line code into
+    a more complex loop that’s not straight anymore. Later we’ll see how jumps combine
+    with tests to allow even more complex movements through the sequence of bytes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Why is this backwards?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You may have noticed that the Python code reads as “while True is True set
+    x equal to 10” but the `dis()` output reads more like “set x equal to 10, jump
+    to do it again.” That’s because of Rule #1, which says we have to produce a *sequence
+    of bytes only*. There are no nested structures, or any syntax more complex than
+    `INSTRUCTION OPTIONS`, allowed.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: To follow this rule Python has to figure out how to translate its code into
+    a sequence of bytes that produces the desired output. That means moving the actual
+    repetition part to the end of the sequence so it will be in a sequence. You’ll
+    find this “backwards” nature comes up often when looking at byte codes and assembly
+    language.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Can a JUMP go forward?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Yes, technically a JUMP instruction is simply telling the computer to process
+    a different instruction in the sequence. It can be the next one, a previous one,
+    or one in the future. The way this works is the computer keeps track of the “index”
+    of the current instruction, and it simply increments that index.
+  prefs: []
+  type: TYPE_NORMAL
+- en: When you JUMP, you’re telling the computer to change this index to a new location
+    in the code. In the code for our `while` loop (below) the `JUMP_ABSOLUTE` is at
+    index `4` (see the 4 to the left). After it runs, the index changes to `0` where
+    the `LOAD_CONST` is located, so the computer runs that instruction again. This
+    loops forever.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Rule 3: Tests Control Jumps'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'A JUMP is useful for looping, but what about making decisions? A common thing
+    in programming is to ask questions like:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: “If x is greater than 0 then set y to 10.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'If we write this out in simple Python code, it might look like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE6]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Once again, this is foreshadowing something you’ll learn later, but this is
+    simple enough to figure out:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Python will *test* if `x` is greater than `>` 0
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If it is, then Python will run the line `y = 10`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. You see how that line is indented under the `if x > 0:`? That is called
+    a “block” and Python uses indentation to say “this indented code is part of the
+    code above it”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. If `x` is *NOT* greater than `0`, then Python will *JUMP* over the `y =
+    10` line to skip it
+  prefs: []
+  type: TYPE_NORMAL
+- en: To do this with our Python byte code we need a new instruction that implements
+    the testing part. We have the JUMP. We have variables. We just need a way to *compare*
+    two things and then a JUMP based on that comparison.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Let’s take that code and `dis()` it to see how Python does this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE7]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'The key part of this code is the `COMPARE_OP` and `POP_JUMP_IF_FALSE`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE8]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Here’s what this code does:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Use `LOAD_NAME` to load the `x` variable
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Use `LOAD_CONST` to load the `0` constant
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Use `COMPARE_OP`, which does the `>` comparison and leaves a `True` or `False`
+    result for later
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Finally, `POP_JUMP_IF_FALSE` makes the `if x > 0` work. It “pops” the `True`
+    or `False` value to get it, and if it reads `False`, it will `JUMP` to instruction
+    20
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Doing that will jump over the code that set `y` if the comparison is `False`,
+    *but* if the comparison is `True`, then Python just runs the next instruction,
+    which starts the `y = 10` sequence
+  prefs: []
+  type: TYPE_NORMAL
+- en: Take some time walking through this to try to understand it. If you have a printer,
+    try printing it out and set `x` to different values manually, and then trace through
+    how the code works. What happens when you set `x = -1`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: What do you mean “pop”?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: In the previous code I’m skipping over exactly how Python “pops” the value to
+    read it, but it’s storing it in something called a “stack.” For now just think
+    of it as a temporary storage place that you “push” values into and then “pop”
+    them off. You really don’t need to go much deeper than that at this stage in your
+    learning. Just understand the effect is to get the result of the last instruction.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Wait, aren’t tests like `*COMPARE_OP*` used in loops too?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Yes, and you could probably figure out how that works right now based on what
+    you know. Try to write a `while-loop` and see if you can get it to work with what
+    you know now. Don’t worry if you can’t though as we’ll be covering this in later
+    exercises.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Rule 4: Storage Controls Tests'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'You need some way to keep track of changing data while the code operates, and
+    this is done with “storage.” Usually this storage is in the computer’s memory
+    and you create names for the data you’re storing in memory. You’ve been doing
+    this when you write code like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE9]'
+  prefs: []
+  type: TYPE_PRE
+- en: In each of the previous lines we’re making a new piece of data and storing it
+    in memory. We’re also giving these pieces of memory the names `x`, `y`, and `z`.
+    We can then use these names to “recall” those values from memory, which is what
+    we do in `z = x + y`. We’re just recalling the value of `x` and `y` from memory
+    to add them together.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That’s the majority of the story, but the important part of this little rule
+    is that you almost always use memory to control tests.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Sure, you can write code like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE10]'
+  prefs: []
+  type: TYPE_PRE
+- en: That’s pointless though since it’s just running the second line after a pointless
+    test. `1` is always less than `2`, so it’s useless.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Where tests like `COMPARE_OP` shine is when you use variables to make the tests
+    dynamic based on calculations. That’s why I consider this a “rule of The Game
+    of Code” because code without variables isn’t really playing the game.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Take the time to go back through the previous examples and identify the places
+    where `LOAD` instructions are used to load values, and `STORE` instructions are
+    used to store values into memory.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Rule 5: Input/Output Controls Storage'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: The final rule of The Game of Code is how your code interacts with the outside
+    world. Having variables is great, but a program that has only data you’ve typed
+    into the source file isn’t very useful. What you need is *input* and *output*.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Input is how you get data into your code from things like files, the keyboard,
+    or the network. You’ve already used `open()` and `input()` to do that in the last
+    module. You accessed input every time you opened a file, read the contents, and
+    did something with them. You also used input when you used … `input()` to ask
+    the user a question.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Output is how you save or transmit the results of your program. Output can be
+    to the screen with `print()`, to a file with `file.write()`, or even over a network.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Let’s run `dis()` on a simple use of `input(''Yes? '')` to see what it does:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE11]'
+  prefs: []
+  type: TYPE_PRE
+- en: You can see there’s now a new instruction `CALL_FUNCTION` that implements the
+    function calls you learned about in [Exercise 18](ch18.xhtml#ch18). When Python
+    sees `CALL_FUNCTION`, it finds the function that’s been loaded with `LOAD_NAME`
+    and then jumps to it to run that function’s code. There’s a lot more behind how
+    functions work, but you can think of `CALL_FUNCTION` as similar to `JUMP_ABSOLUTE`
+    but to a named place in the instructions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Putting It All Together
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Taking the five rules, we have the following Game of Code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '1\. You read data as input to your program (Rule #5)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2\. You store this data in storage (variables) (Rule #4)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '3\. You use these variables to perform tests… (Rule #3)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '4\. … so you can JUMP around… (Rule #2)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '5\. … the sequence of instructions… (Rule #1)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '6\. … transforming the data into new variables (Rule #4)…'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '7\. … which you then write to output for storage or display (Rule #5)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: While this seems simple, these little rules create very complicated software.
+    Video games are a great example of *very* complicated software that does this.
+    A video game reads your controller or keyboard as input, updates variables that
+    control the models in the scene, and uses advanced instructions that render the
+    scene to your screen as output.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Take the time now to go back through exercises you’ve completed and see if you
+    understand them better. Does using `dis()` on code you didn’t understand help,
+    or is it more confusing? If it helps, then try it on everything to get new insights.
+    If it doesn’t help, then just remember it for later. This will be especially interesting
+    when you do it to [Exercise 26](ch26.xhtml#ch26).
+  prefs: []
+  type: TYPE_NORMAL
+- en: The List of Byte Codes
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: As you continue with the exercises I’ll have you run `dis()` on some code to
+    analyze what it’s doing. You’ll need the full list of Python byte codes to study,
+    which can be found [at the end of the](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)
+    `[dis()](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)`
+    [documentation](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions).
+  prefs: []
+  type: TYPE_NORMAL
+- en: '`dis()` Is a Side Quest'
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Later exercises will have short sections that ask you to run `dis()` on the
+    code to study the byte codes. These sections are “side quests” in your education.
+    That means they are *not* essential for understanding Python, but if you complete
+    them, it may help you later. If they’re too hard, then skip them and continue
+    on with the rest of the course.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The most important thing about `dis()` is that it gives you direct access to
+    what *Python* thinks your code does. That can help you if you’re confused about
+    how your code works or if you’re just curious about what Python is actually doing.
+  prefs: []
+  type: TYPE_NORMAL

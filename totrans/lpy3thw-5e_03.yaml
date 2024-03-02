@@ -1,0 +1,164 @@
+- en: Exercise 1. A Good First Program
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you skipped [Exercise 0](intro.xhtml#intro), then you are not doing this
+    book right. Are you trying to use IDLE or an IDE? I said not to use one in [Exercise
+    0](intro.xhtml#intro), so you should not use one. If you skipped [Exercise 0](intro.xhtml#intro),
+    please go back to it and read it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: You should have spent a good amount of time in [Exercise 0](intro.xhtml#intro)
+    learning how to install Jupyter, run Jupyter, run the Terminal, and work with
+    both of them. If you haven’t done that, then do not proceed. You will not have
+    a good time. This is the only time I’ll start an exercise with a warning that
+    you should not skip or get ahead of yourself.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Type the following text into a Jupyter cell:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 1.1: ex1.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Your Jupyter cell should look something like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/f0006-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: Don’t worry if your Jupyter window doesn’t look exactly the same; it should
+    be close though. You may have a slightly different window header, maybe slightly
+    different colors, and the left side of your Jupyter window won’t be the same,
+    but will instead show the directory you used for saving your files. All of those
+    differences are fine.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'When you create this cell, keep in mind these points:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. I did not type the line numbers on the left. Those are printed in the book
+    so I can talk about specific lines by saying, “See line 5…” You do not type line
+    numbers into Python scripts.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. I have the `print` at the beginning of the line, and it looks exactly the
+    same as what I have in the cell. Exactly means exactly, not kind of sort of the
+    same. Every single character has to match for it to work. Color doesn’t matter,
+    only the characters you type.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Once it is *exactly* the same, you can hit `SHIFT-ENTER` to run the code. If
+    you did it right, then you should see the same output as I in the *What You Should
+    See* section of this exercise. If not, you have done something wrong. No, the
+    computer is not wrong.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'The Jupyter output will look like this after you hold `SHIFT` and hit `ENTER`
+    (which I’ll write as `SHIFT-ENTER`):'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Images](graphics/f0010-01.jpg)'
+  prefs: []
+  type: TYPE_IMG
+- en: You may see different window appearance and layout, but the important part is
+    that you type the command and see the output is the same as mine.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'If you have an error, it will look like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: It’s important that you can read these error messages because you will be making
+    many of these mistakes. Even I make many of these mistakes. Let’s look at this
+    line by line.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. We ran our command in the Jupyter cell with `SHIFT-ENTER`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Python tells us that the cell has an error on line 3.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. It prints this line of code for us to see it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Then it puts a `^` (caret) character to point at where the problem is. Notice
+    the missing `"` (double-quote) character the end though?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Finally, it prints out a “SyntaxError” and tells us something about what
+    might be the error. Usually these errors are very cryptic, but if you copy that
+    text into a search engine, you will find someone else who’s had that error, and
+    you can probably figure out how to fix it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: The Study Drills contain things you should *try* to do. If you can’t, skip it
+    and come back later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'For this exercise, try these things:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Make your script print another line.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Make your script print only one of the lines.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Put a `#` (octothorpe) character at the beginning of a line. What did it
+    do? Try to find out what this character does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: From now on, I won’t explain how each exercise works unless an exercise is different.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Info
+  prefs: []
+  type: TYPE_NORMAL
+- en: An “octothorpe” is also called a “pound,” “hash,” “mesh,” or any number of names.
+    Pick the one that makes you chill out.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'These are *actual* questions that real students have asked when doing this
+    exercise:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Can I use IDLE?** No, for now just use Jupyter and later we’ll use a regular
+    text editor for extra superpowers.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Editing the code in Jupyter is annoying. Can I use a text editor?** Totally,
+    you can also create a `python` file in Jupyter and get a “good enough” editor.
+    In the left panel where you see all your files, click the `+` (plus) icon on the
+    top left. That will bring you to the first screen you saw when you started Jupyter.
+    Down at the bottom under `$_ Other` you’ll see a button for `Python` `File` with
+    the Python logo. Click that and you’ll get an editor to work on your file.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**My code doesn’t run; I just get the prompt back with no output**. You most
+    likely took the code in my cell literally and thought that `print("Hello World!")`
+    meant to type only `"Hello` `World!"` into the cell, without the `print`. Your
+    cell has to be *exactly* like mine.'
+  prefs: []
+  type: TYPE_NORMAL

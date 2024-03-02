@@ -1,0 +1,167 @@
+- en: Exercise 26. Dictionaries and Modules
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In this exercise you’re going to explore how the `dict` works with modules.
+    You’ve been using modules any time you use `import` to add “features” to your
+    own Python source. You did this the most in [Exercise 17](ch17.xhtml#ch17), so
+    it might be good to go review that exercise before you begin this one.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 1: Review of `import`'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'The first step is review how `import` works and develop that knowledge further.
+    Take some time to enter this code into a Python file named `ex26.py`. You can
+    do this in Jupyter by creating a file (left side, blue `[+]` button) with that
+    name:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.1: ex26.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Once you’ve created this file you can import it with this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.2: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This will bring the contents of `ex26.py` into your Jupyter lab so you can
+    access them like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.3: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Take some time to play with this as much as possible. Try adding new variables
+    and doing the import again to see how that works.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 2: Find the `__dict__`'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Once you understand that the `import` is the contents of `ex26.py` to your
+    lab, you can start investigating the `__dict__` variable like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.4: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: The `pprint` function is a “pretty printer” that will print the `__dict__` in
+    a better format.
+  prefs: []
+  type: TYPE_NORMAL
+- en: With `pprint` you suddenly see that `ex26` has a “hidden” variable called `__dict__`,
+    which is *literally* a `dict` that contains everything in the module. You’ll find
+    this `__dict__` and many other secret variables all over Python. The contents
+    of `__dict__` contain quite a few things that aren’t your code, but that’s simply
+    things Python needs to work with the module.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'These variables are so hidden that even top professionals forget they exist.
+    Many of these programmers believe that a module is *totally* different from a
+    `dict` when internally a module uses a `__dict__`, which means it *is* the same
+    as a `dict`. The only difference is Python has some syntax that lets you access
+    a module using the `.` operator instead of the `dict` syntax, but you *can* still
+    access the contents as a dict:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.5: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: You’ll get the same output for both syntaxes, but the `.` module syntax is definitely
+    easier.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Step 3: Change the `__dict__`'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'If a module is really a `dict` inside, then that means changing the contents
+    of `__dict__` should also change the variables in the module. Let’s try it:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.6: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: As you can see, the variable `ex26.height` changes when you change `ex26.__dict__['height']`,
+    which proves that the module is really the `__dict__`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'This means that the `.` operator is being translated into a `__dict__[]` access
+    operation. I want you to remember this for later, because many times when beginning
+    programmers see `ex26.height`, they think this is a single unit of code. It is
+    actually three or four separate operations:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Find `ex26`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Find the `ex26.__dict__`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Index into `__dict__` with `"height"`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Return that value.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Once you make this connection you’ll start to understand how the `.` works.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Study Drill: Find the “Dunders”'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: The `__dict__` variables are typically called “double underscore” variables,
+    but programmers are a lazy bunch so we just call them “dunder variables.” For
+    this final step in learning about dunder variables you’ll visit the Python documentation
+    for the data model, which describes how many of these dunders are used.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'This is a large document, and its writing style is very dry, so the best way
+    to study it is search for `__` (double underscore) and then find a way to access
+    this variable based on its description. For example, you can try to access the
+    `__doc__` on almost anything:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.7: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE6]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'That will give you a little bit of documentation attached to the `pprint` function.
+    You can access the same information using the `help` function:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 26.8: ex26_code.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE7]'
+  prefs: []
+  type: TYPE_PRE
+- en: Try these experiments with all of the other dunders you can find. You most likely
+    won’t ever use them directly, but it’s good to know how Python’s internals work.
+  prefs: []
+  type: TYPE_NORMAL

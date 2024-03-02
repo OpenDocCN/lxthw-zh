@@ -1,0 +1,77 @@
+- en: Exercise 11. Asking People Questions
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now it is time to pick up the pace. You are doing a lot of printing to get you
+    familiar with typing simple things, but those simple things are fairly boring.
+    What we want to do now is get data into your programs. This is a little tricky
+    because you have to learn to do two things that may not make sense right away,
+    but trust me and do them anyway. They will make sense in a few exercises.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Most of what software does is the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Take some kind of input from a person.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Change it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Print out something to show how it changed.
+  prefs: []
+  type: TYPE_NORMAL
+- en: So far you have been printing strings, but you haven’t been able to get any
+    input from a person. You may not even know what “input” means, but type this code
+    in anyway and make it exactly the same. In the next exercise we’ll do more to
+    explain input.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 11.1: ex11.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: Info
+  prefs: []
+  type: TYPE_NORMAL
+- en: We put an `end=' '` at the end of each print line. This tells `print` to not
+    end the line with a newline character and go to the next line.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Go online and find out what Python’s `input` does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Can you find other ways to use it? Try some of the samples you find.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Write another “form” like this to ask some other questions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**How do I get a number from someone so I can do math?** That’s a little advanced,
+    but try `x =` `int(input())`, which gets the number as a string from `input()`
+    and then converts it to an integer using `int()`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I put my height into raw input using** `input("6''2")` **but it doesn’t work**.
+    You don’t put your height in there; you type it directly into your Terminal. First
+    thing is, go back and make the code exactly like mine. Next, run the script, and
+    when it pauses, type your height in at your keyboard. That’s all there is to it.'
+  prefs: []
+  type: TYPE_NORMAL

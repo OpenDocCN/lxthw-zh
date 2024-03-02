@@ -1,0 +1,146 @@
+- en: Exercise 15. Reading Files
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: You know how to get input from a user with `input` or `argv`. Now you will learn
+    about reading from a file. You may have to play with this exercise the most to
+    understand what’s going on, so do the exercise carefully and remember your checks.
+    Working with files is an easy way to *erase your work* if you are not careful.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'This exercise involves writing two files. One is the usual `ex15.py` file that
+    you will run, but the *other* is named `ex15_sample.txt`. This second file isn’t
+    a script but a plain-text file we’ll be reading in our script. Here are the contents
+    of that file:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What we want to do is “open” that file in our script and print it out. However,
+    we do not want to just “hard-code” the name `ex15_sample.txt` into our script.
+    “Hard-coding” means putting some bit of information that should come from the
+    user as a string directly in our source code. That’s bad because we want it to
+    load other files later. The solution is to use `argv` or `input` to ask the user
+    what file to open instead of “hard-coding” the file’s name.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 15.1: ex15.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: A few fancy things are going on in this file, so let’s break it down really
+    quickly.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Lines 1–3 uses `argv` to get a filename. Next we have line 5, where we use
+    a new command: `open`. Right now, run `pydoc open` and read the instructions.
+    Notice how, like your own scripts and `input`, it takes a parameter and returns
+    a value you can set to your own variable. You just opened a file.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Line 7 prints a little message, but on line 8 we have something very new and
+    exciting. We call a function on `txt` named `read`. What you get back from `open`
+    is a `file`, and it also has commands you can give it. You give a file a command
+    by using the `.` (dot or period), the name of the command, and parameters, just
+    like with `open` and `input`. The difference is that `txt.read()` says, “Hey `txt`!
+    Do your read command with no parameters!”
+  prefs: []
+  type: TYPE_NORMAL
+- en: The remainder of the file is more of the same, but we’ll leave the analysis
+    to you in the *Study Drills* section.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Pay attention! I said pay attention! You have been running scripts with just
+    the name of the script, but now that you are using `argv` you have to add arguments.
+    Look at the very first line of the following example, and you will see I do `python
+    ex15.py ex15_sample.txt` to run it. See the extra argument `ex15_sample.txt` after
+    the `ex15.py` script name. If you do not type that, you will get an error, so
+    pay attention!
+  prefs: []
+  type: TYPE_NORMAL
+- en: I made a file called `ex15_sample.txt` and ran my script.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: This is a big jump, so be sure you do these Study Drills as best you can before
+    moving on.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Above each line, write out in English what that line does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If you are not sure, ask someone for help or search online. Many times searching
+    for “python3 THING” will find answers to what that THING does in Python. Try searching
+    for “python3 open.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. I used the word “commands” here, but commands are also called “functions”
+    and “methods.” You will learn about functions and methods later in the book.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Get rid of the lines 10–15 where you use `input` and run the script again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Use only `input` and try the script that way. Why is one way of getting
+    the filename better than another?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Start `python3` to start the `python3` shell, and use `open` from the prompt
+    just like in this program. Notice how you can open files and run `read` on them
+    from within `python3`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 7\. Have your script also call `close()` on the `txt` and `txt_again` variables.
+    It’s important to close files when you are done with them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Does** `txt = open(filename)` **return the contents of the file?** No, it
+    doesn’t. It actually makes something called a “file object.” You can think of
+    a file like an old tape drive that you saw on mainframe computers in the 1950s
+    or even like a DVD player from today. You can move around inside them and then
+    “read” them, but the DVD player is not the DVD the same way the file object is
+    not the file’s contents.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I can’t type code into Terminal/PowerShell like you say in Study Drill 7**.
+    First thing, from the command line just type `python3` and press Enter. Now you
+    are in `python3` as we’ve done a few other times. Then you can type in code and
+    Python will run it in little pieces. Play with that. To get out of it type `quit()`
+    and hit Enter.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why is there no error when we open the file twice?** Python will not restrict
+    you from opening a file more than once, and sometimes this is necessary.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does** `from sys import argv` **mean?** For now just understand that
+    `sys` is a package, and this phrase just says to get the `argv` feature from that
+    package. You’ll learn more about this later.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I put the name of the file in as** `script, ex15_sample.txt = argv`, **but
+    it doesn’t work**. No, that’s not how you do it. Make the code exactly like mine,
+    and then run it from the command line the exact same way I do. You don’t put the
+    names of files in; you let Python put the name in.'
+  prefs: []
+  type: TYPE_NORMAL

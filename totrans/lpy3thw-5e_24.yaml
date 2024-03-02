@@ -1,0 +1,98 @@
+- en: Exercise 21. Functions Can Return Something
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'You have been using the `=` character to name variables and set them to numbers
+    or strings. We’re now going to blow your mind again by showing you how to use
+    `=` and a new Python word `return` to set variables to be a *value from a function*.
+    There will be one thing to pay close attention to, but first type this in:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 21.1: ex21.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'We are now doing our own math functions for `add`, `subtract`, `multiply`,
+    and `divide`. The important thing to notice is the last line where we say `return
+    a + b` (in `add`). What this does is the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '1\. Our function is called with two arguments: `a` and `b`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. We print out what our function is doing, in this case “ADDING.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: '3\. Then we tell Python to do something kind of backward: we return the addition
+    of `a + b`. You might say this as, “I add `a` and `b` and then return them.”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Python adds the two numbers. Then when the function ends, any line that
+    runs it will be able to assign this `a + b` result to a variable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: As with many other things in this book, you should take this really slowly,
+    break it down, and try to trace what’s going on. To help there is extra credit
+    to solve a puzzle and learn something cool.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. If you aren’t really sure what `return` does, try writing a few of your
+    own functions and have them return some values. You can return anything that you
+    can put to the right of an `=`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. At the end of the script is a puzzle. I’m taking the return value of one
+    function and *using* it as the argument of another function. I’m doing this in
+    a chain so that I’m kind of creating a formula using the functions. It looks really
+    weird, but if you run the script, you can see the results. What you should do
+    is try to figure out the normal formula that would re-create this same set of
+    operations.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Once you have the formula worked out for the puzzle, get in there and see
+    what happens when you modify the parts of the functions. Try to change it on purpose
+    to make another value.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Do the inverse. Write a simple formula and use the functions in the same
+    way to calculate it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This exercise might really wreck your brain, but take it slow and and treat
+    it like a little game. Figuring out puzzles like this is what makes programming
+    fun, so I’ll be giving you more little problems like this as we go.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why does Python print the formula or the functions “backward”?** It’s not
+    really backward, it’s “inside out.” You’ll see how it works when you start breaking
+    down the function into separate formulas and functions. Try to understand what
+    I mean by “inside out” rather than “backward.”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How can I use** `input()` **to enter my own values?** Remember `int(input())`?
+    The problem with that is then you can’t enter floating point, so also try using
+    `float(input())` instead.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What do you mean by “write out a formula”?** Try `24 + 34 / 100 - 1023` as
+    a start. Convert that to use the functions. Now come up with your own similar
+    math equation, and use variables so it’s more like a formula.'
+  prefs: []
+  type: TYPE_NORMAL

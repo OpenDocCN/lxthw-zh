@@ -1,0 +1,49 @@
+- en: Exercise 9. Multi-line Strings
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: By now you should realize the pattern for this book is to use more than one
+    exercise to teach you something new. I start with code that you might not understand,
+    and then more exercises explain the concept. If you don’t understand something
+    now, you will later as you complete more exercises. Write down what you don’t
+    understand, and keep going.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 9.1: ex9.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Repeat the Study Drills from [Exercise 7](ch07.xhtml#ch07).
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why do I get an error when I put spaces between the three double-quotes?**
+    You have to type them like `"""` and not `" " "`, meaning with *no* spaces between
+    each one.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What if I wanted to start the months on a new line?** You simply start the
+    string with `\n` like this: `"\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Is it bad that my errors are always spelling mistakes?** Most programming
+    errors in the beginning (and even later) are simple spelling mistakes, typos,
+    or getting simple things out of order.'
+  prefs: []
+  type: TYPE_NORMAL

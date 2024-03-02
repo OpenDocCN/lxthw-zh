@@ -1,0 +1,72 @@
+- en: Exercise 35. Branches and Functions
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'You have learned `if-statements`, functions, and lists. Now it’s time to bend
+    your mind. Type this in, and see if you can figure out what it’s doing:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 35.1: ex35.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Here’s me playing the game:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Draw a map of the game and how you flow through it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Fix all of your mistakes, including spelling mistakes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Write comments for the functions you do not understand.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Add more to the game. What can you do to both simplify and expand it?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. The `gold_room` has a weird way of getting you to type a number. What are
+    all the bugs in this way of doing it? Can you make it better than what I’ve written?
+    Look at how `int()` works for clues.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Help! How does this program work!?** When you get stuck understanding a piece
+    of code, simply write an English comment above *every* line explaining what that
+    line does. Keep your comments short and similar to the code. Then either diagram
+    how the code works or write a paragraph describing it. If you do that, you’ll
+    get it.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why did you write** `while True`**?** That makes an infinite loop.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does** `exit(0)` **do?** On many operating systems a program can abort
+    with `exit(0)`, and the number passed in will indicate an error or not. If you
+    do `exit(1)`, then it will be an error, but `exit(0)` will be a good exit. The
+    reason it’s backward from normal Boolean logic (with `0==False`) is that you can
+    use different numbers to indicate different error results. You can do `exit(100)`
+    for a different error result than `exit(2)` or `exit(1)`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why is** `input()` **sometimes written as** `input(''> '')`**?** The parameter
+    to `input` is a string that it should print as a prompt before getting the user’s
+    input.'
+  prefs: []
+  type: TYPE_NORMAL

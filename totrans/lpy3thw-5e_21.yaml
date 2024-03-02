@@ -1,0 +1,266 @@
+- en: Exercise 18. Names, Variables, Code, Functions
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Big title, right? I am about to introduce you to *the function*! Dum dum dah!
+    Every programmer will go on and on about functions and all the different ideas
+    about how they work and what they do, but I will give you the simplest explanation
+    you can use right now.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Functions do three things:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. They name pieces of code the way variables name strings and numbers
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. They take arguments the way Python scripts take `argv` in [Exercise 13](ch13.xhtml#ch13)
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Using 1 and 2, they let you make your own “mini-scripts” or “tiny commands”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'You can create an *empty* function by using the word `def` in Python like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.1: ex18_demo.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This creates the function, but the `pass` keyword tells Python this function
+    is empty. To make the function do something, you add the code for the function
+    *under* the `def` line, but indent it four spaces:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.2: ex18_demo.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This effectively assigns the code `print("I did something!")` to the name `do_something`
+    so you can then use it again later in your code, similar to other variables. Using
+    a function you’ve defined is how you “run” it, or “call” it:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.3: ex18_demo.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'When the `do_something()` at the bottom runs, Python does the following:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Finds the `do_something` function in Python’s memory
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Sees you’re calling it with `()`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Jumps to where the `def do_something()` line is
+  prefs: []
+  type: TYPE_NORMAL
+- en: '4\. Runs the lines of code *under* the `def`, which in this case is one line:
+    `print("I did`'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. [rcurvearrowse] `something!"` When the code under the `def` is finished,
+    Python exits the function and jumps back to where you called it
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Then it continues, which in this case is the end of the code
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'For this exercise you need only one more concept, which is “arguments” to functions:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.4: ex18_demo.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'In this case, I have two arguments (also called “parameters”) to the `do_more_things`
+    function: `a` and `b`. When I call this function using `do_more_things("hello",
+    1)`, Python *temporarily* assigns `a="hello"` and `b=1` and then calls the function.
+    That means, inside the function `a` and `b` will have those values, and they’ll
+    disappear when the function exits. It’s kind of like doing this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.5: ex18_demo.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: Keep in mind this is not entirely accurate, since if you called `do_more_things`
+    with different arguments, the `a` and `b` would be different. It’s only an example
+    of this *one* time you call it with `do_more_things ("hello", 1)`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Exercise Code
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Take some time right now to play around in Jupyter by making your own functions
+    and calling them before attempting this code. Be sure you understand how your
+    code jumps to functions and then jumps back. Then I’m going to have you make four
+    different functions, and I’ll then show you how each one is related:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 18.6: ex18.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Let’s break down the first function, `print_two`, which is the most similar
+    to what you already know from making scripts:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. First we tell Python we want to make a function using `def` for “define”.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. On the same line as `def` we give the function a name. In this case we just
+    called it “print_two”, but it could also be “peanuts”. It doesn’t matter, except
+    that your function should have a short name that says what it does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Then we tell it we want `*args` (asterisk args), which is a lot like your
+    `argv` parameter but for functions. This *has* to go inside `()` parentheses to
+    work.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Then we end this line with a `:` (colon) and start indenting.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. After the colon all the lines that are indented four spaces will become
+    attached to this name, `print_two`. Our first indented line is one that unpacks
+    the arguments, the same as with your scripts.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. To demonstrate how it works we print these arguments out, just like we would
+    in a script.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The problem with `print_two` is that it’s not the easiest way to make a function.
+    In Python we can skip the whole unpacking arguments and just use the names we
+    want right inside `()`. That’s what `print_two_again` does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: After that you have an example of how you make a function that takes one argument
+    in `print_one`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Finally you have a function that has no arguments in `print_none`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: This is very important. Do not get discouraged right now if this doesn’t quite
+    make sense. We’re going to do a few exercises linking functions to your scripts
+    and show you how to make more. For now, just keep thinking “mini-script” when
+    I say “function” and keep playing with them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'If you run `ex18.py`, you should see:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE6]'
+  prefs: []
+  type: TYPE_PRE
+- en: Right away you can see how a function works. Notice that you used your functions
+    the way you use things like `exists`, `open`, and other “commands.” In fact, I’ve
+    been tricking you because in Python those “commands” are just functions. This
+    means you can make your own commands and use them in your scripts too.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Create a *function checklist* for later exercises. Write these checks on an
+    index card and keep it by you while you complete the rest of these exercises or
+    until you feel you do not need the index card anymore:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Did you start your function definition with `def`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Does your function name have only characters and `_` (underscore) characters?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Did you put `(` (an open parenthesis) right after the function name?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Did you put your arguments after `(` (the open parenthesis) separated by
+    commas?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Did you make each argument unique (meaning no duplicated names)?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Did you put `):` (a close parenthesis and a colon) after the arguments?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 7\. Did you indent all lines of code you want in the function four spaces? No
+    more, no less.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 8\. Did you “end” your function by going back to writing with no indent (“dedenting”
+    we call it)?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'When you run (“use” or “call”) a function, check these things:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Did you call/use/run this function by typing its name?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Did you put the `(` character after the name to run it?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Did you put the values you want into the parentheses separated by commas?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Did you end the function call with a `)` character?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Use these two checklists on the remaining lessons until you do not need them
+    anymore.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Finally, repeat this a few times to yourself:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE7]'
+  prefs: []
+  type: TYPE_PRE
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What’s allowed for a function name?** The same as variable names. Anything
+    that doesn’t start with a number and is letters, numbers, and underscores will
+    work.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does the** `*` **in** `*args` **do?** That tells Python to take all
+    the arguments to the function and then put them in `args` as a list. It’s like
+    `argv` that you’ve been using but for functions. It’s not normally used too often
+    unless specifically needed.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**This feels really boring and monotonous**. That’s good. It means you’re starting
+    to get better at typing in the code and understanding what it does. To make it
+    less boring, take everything I tell you to type in, and then break it on purpose.'
+  prefs: []
+  type: TYPE_NORMAL

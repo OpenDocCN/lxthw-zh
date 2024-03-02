@@ -1,0 +1,90 @@
+- en: Exercise 32. Making Decisions
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: In the first half of this book you mostly just printed out things called “functions,”
+    but everything was basically in a straight line. Your scripts ran starting at
+    the top and went to the bottom where they ended. If you made a function, you could
+    run that function later, but it still didn’t have the kind of branching you need
+    to really make decisions. Now that you have `if`, `else`, and `elif` you can start
+    to make scripts that decide things.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the last script you wrote out a simple set of tests asking some questions.
+    In this script you will ask the user questions and make decisions based on their
+    answers. Write this script, and then play with it quite a lot to figure it out.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 32.1: ex32.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: A key point here is that you are now putting the `if-statements` *inside* `if-statements`
+    as code that can run. This is very powerful and can be used to create “nested”
+    decisions, where one branch leads to another and another.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Make sure you understand this concept of `if`-statements inside `if`-statements.
+    In fact, do the Study Drills to really nail it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Here is me playing this little adventure game. I do not do so well.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: '`dis()` It'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'There is no `*dis()*` *It* section this time because this code is far too complicated
+    to understand, but if you’re feeling lucky, then try this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: This will produce so much code to analyze, but do the best you can. It does
+    get boring after a while, but it also helps you understand how Python works. Once
+    again, if this is confusing, skip it and try it later.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Make new parts of the game and change what decisions people can make. Expand
+    the game out as much as you can before it gets ridiculous.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Write a completely new game. Maybe you don’t like this one, so make your
+    own. This is your computer; do what you want.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Can you replace** `elif` **with a sequence of** `if-else` **combinations?**
+    You can in some situations, but it depends on how each `if/else` is written. It
+    also means that Python will check *every* `if-else` combination, rather than just
+    the first false ones like it would with `if-elif-else`. Try to make some of these
+    to figure out the differences.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How do I tell whether a number is between a range of numbers?** You have
+    two options: Use `0 < x` `< 10` or `1 <= x < 10`—which is classic notation—or
+    use `x in range(1, 10)`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What if I wanted more options in the** `if-elif-else` **blocks?** Add more
+    `elif` blocks for each possible choice.'
+  prefs: []
+  type: TYPE_NORMAL

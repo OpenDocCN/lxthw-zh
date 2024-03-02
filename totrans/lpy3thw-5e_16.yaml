@@ -1,0 +1,105 @@
+- en: Exercise 14. Prompting and Passing
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Let’s do an exercise that uses `argv` and `input` together to ask the user something
+    specific. You will need this for the next exercise where you learn to read and
+    write files. In this exercise we’ll use `input` slightly differently by having
+    it print a simple `>` prompt.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 14.1: ex14.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: We make a variable `prompt` that is set to the prompt we want, and we give that
+    to `input` instead of typing it over and over. Now if we want to make the prompt
+    something else, we just change it in this one spot and rerun the script. Very
+    handy.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Remember that you have to do the same thing you did in [Exercise 13](ch13.xhtml#ch13)
+    and use the Terminal to make this work. This will be the last time for a while,
+    but it’s important to know how to run code from the Terminal since that’s a very
+    common way to run Python code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: When you run this, remember that you have to give the script your name for the
+    `argv` arguments.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Find out what the games Zork and Adventure were. Try to find a copy and
+    play them.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Change the `prompt` variable to something else entirely.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Add another argument and use it in your script, the same way you did in
+    the previous exercise with `first, second = ARGV`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Make sure you understand how I combined a `"""` style multi-line string
+    with the `{}` format activator as the last print.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Try to find a way to run this in Jupyter. You will probably have to replace
+    the code that uses `argv` with something else, like some variables.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**I get** `SyntaxError: invalid syntax` **when I run this script**. Again,
+    you have to run it right on the command line, not inside Python. If you type `python3`
+    and then try to type `python3` `ex14.py Zed`, it will fail because you are running
+    *Python inside Python*. Close your window and then just type `python3 ex14.py
+    Zed`.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I don’t understand what you mean by changing the prompt**. See the variable
+    `prompt = ''> ''`. Change that to have a different value. You know this; it’s
+    just a string and you’ve done 13 exercises making them, so take the time to figure
+    it out.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I get the error** `ValueError: need more than 1 value to unpack`. Remember
+    when I said you need to look at the *What You Should See* (WYSS) section and replicate
+    what I did? You need to do the same thing here and focus on how I type the command
+    in and why I have a command line argument.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**How can I run this from IDLE?** Don’t use IDLE. It’s garbage.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Can I use double-quotes for the** `prompt` **variable?** You totally can.
+    Go ahead and try that.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**You have a Tandy computer?** I did when I was little.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I get** `NameError: name ''prompt'' is not defined` **when I run it**. You
+    either spelled the name of the `prompt` variable wrong or forgot that line. Go
+    back and compare each line of code to mine, from at the bottom of the script to
+    the top. Any time you see this error, it means you spelled something wrong or
+    forgot to create the variable.'
+  prefs: []
+  type: TYPE_NORMAL

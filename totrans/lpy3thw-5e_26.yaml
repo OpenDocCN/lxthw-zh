@@ -1,0 +1,222 @@
+- en: Exercise 23. Introductory Lists
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Most programming languages have some way to store data inside the computer.
+    Some languages only have raw memory locations, but programmers easily make mistakes
+    when that’s the case. In modern languages you’re provided with some core ways
+    to store data called “data structures.” A data structure takes pieces of data
+    (integers, strings, and even other data structures) and organizes them in some
+    useful way. In this exercise we’ll learn about the sequence style of data structures
+    called a `"list"` or `"Array"` depending on the language.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Python’s simplest sequence data structure is the `list`, which is an ordered
+    list of things. You can access the elements of a `list` randomly, in order, extend
+    it, shrink it, and do most anything else you could do to a sequence of things
+    in real life.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'You make a `list` like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'That’s all. Just put `[` (left-square-bracket) and `]` (right-square-bracket)
+    around the `list` of things and separate them with commas. You can also put anything
+    you want into a `list`, even other `lists`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: In this code I have a `list`, and that `list` has three `lists` inside it. Each
+    of those `lists` then has a name of a car type and the count of inventory. Study
+    this and make sure you can take it apart when you read it. Storing `lists` inside
+    `lists` inside other data structures is very common.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Accessing Elements of a List
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'What if you want the first element of the `inventory list`? How about the number
+    of Buick cars you have on inventory? You do this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: In the first two lines of code (after the comment) I do a two-step process.
+    I use the `inventory[0]` code to get the *first* element. If you’re not familiar
+    with programming languages, most start at 0, not 1, as that makes math work better
+    in most situations. The use of `[]` right after a variable name tells Python that
+    this is a “container thing” and says we want to “index into this thing with this
+    value,” in this case 0\. In the next line I take the `buicks[1]` element and get
+    the count `10` from it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: You don’t have to do that though as you can chain the uses of `[]` in a sequence
+    so that you dive deeper into a `list` as you go. In the last line of code I do
+    that with `inventory[0][1]`, which says “get the 0 element and then get the 1
+    element of *that*.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: Here’s where you’re going to make a mistake. The second `[1]` does not mean
+    to get the entire `["Buick",` [rcurvearrowse] `10]`. It’s not linear, it’s “recursive,”
+    meaning it dives into the structure. You are getting `10` in `["Buick",` [rcurvearrowse]
+    `10]`. It is more accurately just a combination of the first two lines of code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Practicing Lists
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Lists are simple enough, but you need practice accessing different parts of
+    very complicated `lists`. It’s important that you can *correctly* understand how
+    an index into a nested `list` will work. The best way to do that is to drill using
+    such a `list` in Jupyter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: How this works is I have a series of `lists` in the following code. You are
+    to type this code in like normal, and then you have to use Python to access the
+    elements so you get the same answers as I do.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Code
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'To complete this challenge you need this code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 23.1: ex23.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: It’s fine to copy-paste this code since the point of this exercise is learning
+    how to access data, but if you want extra practice typing Python, then enter it
+    in manually.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Challenge
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: I will give you a `list` name and a piece of data in the `list`. Your job is
+    to figure out what indexes you need to get that information. For example, if I
+    tell you `fruit 'AAA'`, then your answer is `fruit[0][2]`. You should attempt
+    to do this in your head by looking at the code and then test your guess in the
+    Jupyter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: fruit challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `fruit` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 12
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘AAA’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 2
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Oranges’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Grapes’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 14
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Apples’
+  prefs: []
+  type: TYPE_NORMAL
+- en: cars challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `cars` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Big’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Red’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 1234
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘White’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 7890
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Black’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • 34500
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Blue’
+  prefs: []
+  type: TYPE_NORMAL
+- en: languages challenge
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'You need to get all of these elements out of the `languages` variable:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Slow’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Alright’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Dangerous’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Fast’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Difficult’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Fun’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Annoying’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Weird’
+  prefs: []
+  type: TYPE_NORMAL
+- en: • ‘Moderate’
+  prefs: []
+  type: TYPE_NORMAL
+- en: Final Challenge
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'You now have to figure out what this code spells out:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: Don’t attempt to run this in Jupyter first. Instead, try to work out manually
+    what each line will spell out, and then test it in Jupyter.
+  prefs: []
+  type: TYPE_NORMAL

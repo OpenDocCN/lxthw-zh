@@ -1,0 +1,85 @@
+- en: Exercise 7. Combining Strings
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now we are going to do a bunch of exercises where you just type code in and
+    make it run. I won’t be explaining this exercise because it is more of the same.
+    The purpose is to build up your chops. See you in a few exercises, and *do not
+    skip!* Do not *paste!*
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 7.1: ex7.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: For these next few exercises, you will have the exact same Study Drills.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Go back through and write a comment on what each line does.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Read each one backward or out loud to find your errors.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. From now on, when you make mistakes, write down on a piece of paper what
+    kind of mistake you made.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. When you go to the next exercise, look at the mistakes you have made and
+    try not to make them in this new one.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Remember that everyone makes mistakes. Programmers are like magicians who
+    fool everyone into thinking they are perfect and never wrong, but it’s all an
+    act. They make mistakes all the time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Break It
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Did you have fun breaking the code in [Exercise 6](ch06.xhtml#ch06)? From now
+    on you’re going to break all the code you write or a friend’s code. I won’t have
+    a `Break It` section explicitly in every exercise, but I will do this in almost
+    every video. Your goal is to find as many different ways to break your code until
+    you get tired or exhaust all possibilities. In some exercises I might point out
+    a specific common way people break that exercise’s code, but otherwise consider
+    this a standing order to always break it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why are you using the variable named ‘snow’?** That’s actually not a variable:
+    it is just a string with the word `snow` in it. A variable wouldn’t have the single-quotes
+    around it.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Is it normal to write an English comment for every line of code like you
+    say to do in Study Drill 1?** No, you write comments only to explain difficult
+    to understand code or why you did something. Why is usually much more important,
+    and then you try to write the code so that it explains how something is being
+    done on its own. However, sometimes you have to write such nasty code to solve
+    a problem that it does need a comment on every line. In this case it’s strictly
+    for you to practice translating code to English.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Can I use single-quotes or double-quotes to make a string or do they do different
+    things?** In Python either way to make a string is acceptable, although typically
+    you’ll use single-quotes for any short strings like `''a''` or `''snow''`.'
+  prefs: []
+  type: TYPE_NORMAL

@@ -1,0 +1,106 @@
+- en: Exercise 19. Functions and Variables
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'You’re now going to combine functions with what you know of variables from
+    previous exercises. As you know, a variable gives a piece of data a name so you
+    can use it in your program. If you have this code:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: then you created a piece of data named `x` that is equal to the number 10.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'You also know that you can call functions with parameters like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'The parameter `arg1` is a variable similar to the `x` before, except it’s created
+    for you when you *call* the function like this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'In [Exercise 18](ch18.xhtml#ch18) you learned how Python runs functions when
+    you call them, but what happens if you did this:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Instead of calling `print_one` directly with `"First!"` you’re assigning `"First!"`
+    to `y` and *then* passing `y` to `print_one`. Does this work? Here’s a small sample
+    code you can use to test this out in Jupyter:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This shows how you can combine the concept of variables `y = "First!"` with
+    calling functions that use the variables. Study this and try your own variations
+    before working on this longer exercise, but first a bit of advice:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. This one is long, so if you find it difficult to manage in Jupyter, then
+    try typing it into an `ex19.py` file to run in Terminal.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2\. As usual, you should type only a few lines at a time, but you’ll have problems
+    if you type only the first line of a function. You can solve this by using the
+    `pass` keyword like this: `def some_func(some_arg): pass`. The `pass` word is
+    how you make an empty function without causing an error.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '3\. If you want to see what each function is doing, you can use “debug printing”
+    like this: `print` `(">>>> I''m here", something)`. That will print out a message
+    to help you “trace” through the code and see what `something` is in each function.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 19.1: ex19.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE5]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE6]'
+  prefs: []
+  type: TYPE_PRE
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Did you remember to type only a few lines at a time? Did you use `pass`
+    to make an empty function before filling it? If not, delete your code and do it
+    again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Change the name of `cheese_and_crackers` to have a spelling mistake and
+    view the error message. Now fix it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Delete one of the `+` symbols in the math to see what error you get.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Make changes to the math and then try to predict what output you’ll get.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Change the variables and try to guess the output with those changes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: This exercise has no questions yet, but you can ask me at [help@learncodethehardway.org](mailto:help@learncodethehardway.org)
+    to get help. Maybe your question will show up here.
+  prefs: []
+  type: TYPE_NORMAL

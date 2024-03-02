@@ -1,0 +1,78 @@
+- en: Exercise 30. What If
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Here is the next script of Python you will enter, which introduces you to the
+    `if-statement`. Type this in, make it run exactly right, and then we’ll see if
+    your practice has paid off.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 30.1: ex30.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: '`dis()` It'
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'For the next few exercises I want you to run `dis()` on some of the code you’re
+    studying to get more insight into how it works:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: This is *not* something you’d do normally when programming. I only want you
+    to do it here to give you one more possible way to understand what’s going on.
+    If `dis()` doesn’t really help you understand the code more, then feel free to
+    do it and forget it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: To study this, simply put the Python code next to this `dis()` output and try
+    to identify the lines of Python code that match the byte codes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drill
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'In this Study Drill, try to guess what you think the `if-statement` is and
+    what it does. Try to answer these questions in your own words before moving on
+    to the next exercise:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. What do you think the `if` does to the code under it?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Why does the code under the `if` need to be indented four spaces?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. What happens if it isn’t indented?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Can you put other Boolean expressions from [Exercise 28](ch28.xhtml#ch28)
+    in the `if-statement`? Try it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. What happens if you change the initial values for `people`, `cats`, and
+    `dogs`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**What does** `+=` **mean?** The code `x += 1` is the same as doing `x = x
+    + 1` but involves less typing. You can call this the “increment by” operator.
+    The same goes for `-=` and many other expressions you’ll learn later.'
+  prefs: []
+  type: TYPE_NORMAL

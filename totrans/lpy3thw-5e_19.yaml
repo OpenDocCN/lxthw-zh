@@ -1,0 +1,113 @@
+- en: Exercise 17. More Files
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Now let’s do a few more things with files. We’ll write a Python script to copy
+    one file to another. It’ll be very short but will give you ideas about other things
+    you can do with files.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 17.1: ex17.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: You should immediately notice that we `import` another handy command named `exists`.
+    This returns `True` if a file exists, based on its name in a string as an argument.
+    It returns `False` if not. We’ll be using this function in the second half of
+    this book to do lots of things, but right now you should see how you can import
+    it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Using `import` is a way to get a ton of free code other better (well, usually)
+    programmers have written so you do not have to write it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Just like your other scripts, run this one with two arguments: the file to
+    copy from and the file to copy it to. I’m going to use a simple test file named
+    `test.txt`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: It should work with any file. Try a bunch more and see what happens. Just be
+    careful you do not blast an important file.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Did you see the trick I did with `echo` to make a file and `cat` to show the
+    file? You can learn how to do that in Appendix A, “Command Line Crash Course.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. This script is *really* annoying. There’s no need to ask you before doing
+    the copy, and it prints too much out to the screen. Try to make the script friendlier
+    to use by removing features.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. See how short you can make the script. I could make this one line long.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Notice at the end of What You Should See I used something called `cat`?
+    It’s an old command that “con*cat*enates” files together, but mostly it’s just
+    an easy way to print a file to the screen. Type `man cat` to read about it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. Find out why you had to write `out_file.close()` in the code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 5\. Go read up on Python’s `import` statement, and start `python3` to try it
+    out. Try importing some things and see if you can get it right. It’s alright if
+    you do not.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 6\. Try converting this code to an `ex17.py` script you can run from Terminal/PowerShell
+    again. If you’re getting tired of Jupyter’s text editor, then check out one of
+    the editors mentioned in the *[First Steps](https://learncodethehardway.org/first_steps/python/)*
+    section.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**Why is the** `''w''` **in quotes?** That’s a string. You’ve been using strings
+    for a while now. Make sure you know what a string is.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**No way you can make this one line!** That ; depends ; on ; how ; you ; define
+    ; one ; line ; of ; code.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Is it normal to feel like this exercise was really hard?** Yes, it is totally
+    normal. Programming may not “click” for you until maybe even [Exercise 36](ch36.xhtml#ch36),
+    or it might not until you finish the book and then make something with Python.
+    Everyone is different, so just keep going and keep reviewing exercises that you
+    had trouble with until it clicks. Be patient.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does the** `len()` **function do?** It gets the length of the string
+    that you pass to it and then returns that as a number. Play with it.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**When I try to make this script shorter, I get an error when I close the files
+    at the end**. You probably did something like this, `indata = open(from_file).read()`,
+    which means you don’t need to then do `in_file.close()` when you reach the end
+    of the script. It should already be closed by Python once that one line runs.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I get a** `Syntax:EOL while scanning string literal` **error**. You forgot
+    to end a string properly with a quote. Go look at that line again.'
+  prefs: []
+  type: TYPE_NORMAL

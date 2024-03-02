@@ -1,0 +1,147 @@
+- en: Exercise 33. Loops and Lists
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: You should now be able to do some programs that are much more interesting. If
+    you have been keeping up, you should realize that now you can combine all the
+    other things you have learned with `if-statements` and Boolean expressions to
+    make your programs do smart things.
+  prefs: []
+  type: TYPE_NORMAL
+- en: However, programs also need to do repetitive things very quickly. We are going
+    to use a `for-loop` in this exercise to build and print various lists. When you
+    do the exercise, you will start to figure out what they are. I won’t tell you
+    right now. You have to figure it out.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Before you can use a `for-loop`, you need a way to *store* the results of loops
+    somewhere. The best way to do this is with `lists`. `Lists` are exactly what their
+    name says: a container of things that are organized in order from first to last.
+    It’s not complicated; you just have to learn a new syntax. First, here’s how you
+    make `lists`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE0]'
+  prefs: []
+  type: TYPE_PRE
+- en: You start the `list` with the `[` (left bracket), which “opens” the `list`.
+    Then you put each item you want in the list separated by commas, similar to function
+    arguments. Lastly, end the list with a `]` (right bracket) to indicate that it’s
+    over. Python then takes this list and all its contents and assigns them to the
+    variable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning!
+  prefs: []
+  type: TYPE_NORMAL
+- en: This is where things get tricky for people who can’t code. Your brain has been
+    taught that the world is flat. Remember in the previous exercise where you put
+    `if-statements` inside `if-statements`? That probably made your brain hurt because
+    most people do not ponder how to “nest” things inside things. In programming nested
+    structures are all over the place. You will find functions that call other functions
+    that have `if-statements` that have lists with lists inside lists. If you see
+    a structure like this that you can’t figure out, take out a pencil and paper and
+    break it down manually bit by bit until you understand it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'We now will build some lists using some `for-loops` and print them out:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Listing 33.1: ex33.py'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE1]'
+  prefs: []
+  type: TYPE_PRE
+- en: What You Should See
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '[PRE2]'
+  prefs: []
+  type: TYPE_PRE
+- en: '`dis()` It'
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: 'This time let’s keep it simple and just see how Python does the `for-loop`:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE3]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'This time I’m going to reproduce the output here so we can analyze it:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[PRE4]'
+  prefs: []
+  type: TYPE_PRE
+- en: 'Here we see a new thing in the `FOR_ITER` operation. This operation makes the
+    `for-loop` work by doing these steps:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 1\. Call `the_count.__next__()`
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. If this says there are no more elements in `the_count`, jump to 18
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. If there are still elements, then continue on
+  prefs: []
+  type: TYPE_NORMAL
+- en: 4\. The `STORE_NAME` then assigns the result of `the_count.__next__()` to the
+    name `number`
+  prefs: []
+  type: TYPE_NORMAL
+- en: That’s all a `for-loop` actually does. It’s mostly a single byte code `FOR_ITER`
+    combined with a few others to iterate through a list.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Study Drills
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 1\. Take a look at how you used `range`. Look up the `range` function to understand
+    it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 2\. Could you have avoided that `for-loop` entirely on line 22 and just assigned
+    `range(0,6)` directly to `elements`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 3\. Find the Python documentation on lists and read about them. What other operations
+    can you do to lists besides `append`?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Student Questions
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: '**How do you make a two-dimensional (2D) list?** That’s a list in a list like
+    this: `[[1,2,3],[4,5,6]]`'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Aren’t lists and arrays the same thing?** Depends on the language and the
+    implementation. In classic terms a list is very different from an array because
+    of how they’re implemented. In Ruby though they call these “arrays.” In Python
+    they call them “lists.” Just call these “lists” for now since that’s what Python
+    calls them.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why is a for-loop able to use a variable that isn’t defined yet?** The variable
+    is defined by the `for-loop` when it starts, initializing it to the current element
+    of the loop iteration each time through.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Why does** `for i in range(1, 3):` **only loop two times instead of three
+    times?** The `range()` function only does numbers from the first to the last,
+    *not including the last*. So it stops at two, not three in the preceding. This
+    turns out to be the most common way to do this kind of loop.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**What does** `elements.append()` **do?** It simply appends to the end of the
+    list. Open up the Python shell and try a few examples with a list you make. Any
+    time you run into things like this, always try to play with them interactively
+    in the Python shell.'
+  prefs: []
+  type: TYPE_NORMAL
