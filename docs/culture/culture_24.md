@@ -32,17 +32,31 @@
 
 但我是个不爱社交的人，也不喜欢去人多的地方，往往选择这样做。
 
-![](img/81f07e807f14014a58a0cbdbe3a14898.png)  <ne-p id="2dfefc95d05b44d4940335ac0e13619e" data-lake-id="2dfefc95d05b44d4940335ac0e13619e">![](img/35b49dd42c719d68452d8331ee9bfcfa.png)  <ne-p id="ff8f48d9b7d6462fdbc4542738f1e02b" data-lake-id="ff8f48d9b7d6462fdbc4542738f1e02b">![](img/e509ca30c6f619f9317fd60701254434.png)  <ne-p id="1511b64c11a201a74bc650566a98a340" data-lake-id="1511b64c11a201a74bc650566a98a340">Youtube 有一个叫做 TheStrive Studies 的视频[《Study With Me》](https://www.youtube.com/channel/UCSQkQjPhnZw12Hj-SfsbX8w)。 
+![](img/81f07e807f14014a58a0cbdbe3a14898.png)  
+
+![](img/35b49dd42c719d68452d8331ee9bfcfa.png)  
+
+![](img/e509ca30c6f619f9317fd60701254434.png)  
+
+Youtube 有一个叫做 TheStrive Studies 的视频[《Study With Me》](https://www.youtube.com/channel/UCSQkQjPhnZw12Hj-SfsbX8w)。 
 
 上面都是一个人在夜晚学习的情节，她就是静静在学习，经常一学就是两三个小时。  
 
-<ne-p id="be408d0f2692ced0707b350386efe864" data-lake-id="be408d0f2692ced0707b350386efe864"><ne-p id="a2b348c03a60b11a206004cf7f6e52de" data-lake-id="a2b348c03a60b11a206004cf7f6e52de">每当我晚上想吃薯片看电影、打游戏、刷豆瓣、听音乐、看漫画、刷抖音的时候，我就会打开这个视频。 
+
+
+
+
+每当我晚上想吃薯片看电影、打游戏、刷豆瓣、听音乐、看漫画、刷抖音的时候，我就会打开这个视频。 
 
 我是从 [@Sophie Z](https://www.douban.com/people/sophie-z/status/) 的豆瓣广播中知道这个视频的，她这样介绍这个视频： 
 
 YouTube 上有一个频道叫 TheStrive Studies（没记错的话是一个医学院的学生开的）。女主的 Vlog 很特别，一句话也没有，就是坐在镜头前学习几个小时，背景音乐就是那种室内沙发音乐。非常凝神静气了，用这个视频当小屏幕的背景，我写完了第三篇 essay。。  
 
-<ne-p id="35cf25cd9a9fbc772db868615de2fc03" data-lake-id="35cf25cd9a9fbc772db868615de2fc03"><ne-p id="9f9139b55eed3d0cf9f9f4c5f56510b9" data-lake-id="9f9139b55eed3d0cf9f9f4c5f56510b9">这种有气质的人，英文叫 Striver，中文名我称之为「凿壁偷光者」。 
+
+
+
+
+这种有气质的人，英文叫 Striver，中文名我称之为「凿壁偷光者」。 
 
 「凿壁偷光」当然是起源自西汉匡衡勤学苦读的故事，但启发我个人开始启用「凿壁偷光者」这个名字的，是汤川秀树的这段话： > 「感觉自己的人生列车似乎还没有一路黑到底，它正在穿过漫长的隧道，此时经过正可能是最黑暗的一段，但它依然还是那样平稳地呼呼而过，这就是它的平常。可我依然坚信，光明总会到来，我要等到那一刻。」 
 
@@ -50,9 +64,21 @@ YouTube 上有一个频道叫 TheStrive Studies（没记错的话是一个医学
 
 此后我就开始收集「凿壁偷光者」的图片：  
 
-<ne-p id="b437405eb8a363948975e06a6d086b08" data-lake-id="b437405eb8a363948975e06a6d086b08"><ne-p id="2ff596836b37c5b0a428d1ebe9c5e501" data-lake-id="2ff596836b37c5b0a428d1ebe9c5e501"><ne-p id="940345cc519b94879eae0b8da00d7f35" data-lake-id="940345cc519b94879eae0b8da00d7f35"><ne-p id="0a193a15395bfae4ddefa21d0a26ba62" data-lake-id="0a193a15395bfae4ddefa21d0a26ba62"><ne-p id="1f85645747be3df9afa3d602f5fcdff7" data-lake-id="1f85645747be3df9afa3d602f5fcdff7">在豆瓣建了一个[《凿壁偷光者》的相册](https://www.douban.com/photos/album/1686159083/)：  
 
-<ne-p id="11c057849708d66f28328188db24f913" data-lake-id="11c057849708d66f28328188db24f913">看着这些图片，我就会想：看看别人，看看别人，看看别人，自己呢？ 
+
+
+
+
+
+
+
+
+
+在豆瓣建了一个[《凿壁偷光者》的相册](https://www.douban.com/photos/album/1686159083/)：  
+
+
+
+看着这些图片，我就会想：看看别人，看看别人，看看别人，自己呢？ 
 
 这些文图片也许可以陪伴你无数个夜晚，但你需要知道，这些都是外在驱动。 
 
@@ -80,10 +106,12 @@ YouTube 上有一个频道叫 TheStrive Studies（没记错的话是一个医学
 
 从一封信开始，让在那个在平行宇宙的你给写一封信吧——这份信当然还是要你自己来写，写下他对你的反省、期待和鼓励，让这个世界的你充满信心，纵情向前。  
 
-<ne-p id="1c5e854e68578f7ca2526349f429917d" data-lake-id="1c5e854e68578f7ca2526349f429917d">写完抬头一看，估计那个平行宇宙的你已在对你微笑了吧。∎ 
+
+
+写完抬头一看，估计那个平行宇宙的你已在对你微笑了吧。∎ 
 
 ### [](https://mp.weixin.qq.com/s?__biz=MzU2NzA3NDE3Mw==&mid=2247489136&idx=1&sn=38f76636ac8acce9acdaa4978fbc628f&chksm=fca39a62cbd41374aa9e129a9d1693c848496e45406fcf5d112c3e8585a71e6ddd2163b37532&scene=21#wechat_redirect)
 
  
 
-很有用！现在就换壁纸。在脑海中虚构形象，也要继续呀🍺</ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p></ne-p>
+很有用！现在就换壁纸。在脑海中虚构形象，也要继续呀🍺

@@ -54,7 +54,43 @@ Jim Collins 问：你患有绝症，你只能活不过 10 年。你会做什么�
 
 ### 不为清单 Stop Doing List
 
-<ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="c59d5eeec320ca397bcd2def9dfbbc46" data-lake-id="c59d5eeec320ca397bcd2def9dfbbc46">选择不做什么，比做什么更重要。能做减法，能做简化，就尽力去做。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="cafbde4c8a823f59c47d4c5240eaea04" data-lake-id="cafbde4c8a823f59c47d4c5240eaea04">远离那些会给你带来时间黑洞（不带来积极效果）的人和事。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="f2c0c58d01b95dff2d418f2f268b5875" data-lake-id="f2c0c58d01b95dff2d418f2f268b5875">在实验室尽可解难题，但在现实世界，不解难题。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>4</ne-oli-i><ne-oli-c class="ne-oli-content" id="5019ff122831033514ae7a3efc91c6fe" data-lake-id="5019ff122831033514ae7a3efc91c6fe">不要靠意志力做事，靠意志力持久做事一定失败，要想办法不靠意志力做事。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>5</ne-oli-i><ne-oli-c class="ne-oli-content" id="d03a1ec41ed085663978489d8ac37679" data-lake-id="d03a1ec41ed085663978489d8ac37679">不要反驳，不要试着说服别人，不要讲道理，要讲故事。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>6</ne-oli-i><ne-oli-c class="ne-oli-content" id="27376b5b179ce42c6687528e71483978" data-lake-id="27376b5b179ce42c6687528e71483978">不要免费给建议，我的建议是值钱的，给（年轻人）免费建议、传授人生经验的行为令人厌烦。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>7</ne-oli-i><ne-oli-c class="ne-oli-content" id="298179469e98ecf4151a1c8d9c74f245" data-lake-id="298179469e98ecf4151a1c8d9c74f245">不要再说这些话：1）我没有时间；2）我没有办法。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>8</ne-oli-i><ne-oli-c class="ne-oli-content" id="119f12c77ff5c32d83e8a7a2fa33463e" data-lake-id="119f12c77ff5c32d83e8a7a2fa33463e">不要想去做英雄，要知道自己的局限，要懂得示弱。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>9</ne-oli-i><ne-oli-c class="ne-oli-content" id="a1128a35c62474a657993936aea2bde8" data-lake-id="a1128a35c62474a657993936aea2bde8">自己未曾做过或者没做成功的事情，不要说很容易，不要说可以教别人。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>10</ne-oli-i><ne-oli-c class="ne-oli-content" id="1f38226b03330b410ee350ecc3fedb03" data-lake-id="1f38226b03330b410ee350ecc3fedb03">不要公开谈论股票，尽可能避免给别人自己是赚钱精明人的形象，用股票快钱不可耻，但没必要让全世界知道，会替你感到高兴的人很少，等着看你最后下场的人很多。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>11</ne-oli-i><ne-oli-c class="ne-oli-content" id="591f3df4cd1c98b55112b6b86472c79b" data-lake-id="591f3df4cd1c98b55112b6b86472c79b">不要贪小便宜，没有人因为贪小便宜而发财，却有人因为贪小便宜而倾家荡产。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>12</ne-oli-i><ne-oli-c class="ne-oli-content" id="7f5b8f70edf5eed7bb4ff55cc3d7544e" data-lake-id="7f5b8f70edf5eed7bb4ff55cc3d7544e">不要说自己自律，不要说自己坚持，不要说自己谦虚，这些溢美之词如果自己用在自己身上就是沽名钓誉。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>13</ne-oli-i><ne-oli-c class="ne-oli-content" id="e0fb613b95fe9f912bde4aa63d827d40" data-lake-id="e0fb613b95fe9f912bde4aa63d827d40">遇见有异见的人，不要先去评判，要想办法搞清楚异见是如何产生的，搞清楚他的思想与行事逻辑，然后用他们的方法去做事看看。阻碍我们进步的，往往是那些我们觉得正确的东西，能帮助我们成功的，往往是我们现在讨厌的东西。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>14</ne-oli-i><ne-oli-c class="ne-oli-content" id="fc91d6ca7e1acb16969ee9289582143c" data-lake-id="fc91d6ca7e1acb16969ee9289582143c">不说自己在很多方面比别人做得更好，只说自己在做一件事情上能勉强超越大多数人，自知并确认自己的长处，然后朝这个方向不断努力，在这个方向上多一些堂吉诃德般的偏执与努力。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>15</ne-oli-i><ne-oli-c class="ne-oli-content" id="4fb9a0e47921671a690d64c35716fe70" data-lake-id="4fb9a0e47921671a690d64c35716fe70">不要不懂装懂，不要为满足虚荣心而刻意展现自己不具备的能力。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>16</ne-oli-i><ne-oli-c class="ne-oli-content" id="897ba198c82ff715220b7b00c03e567b" data-lake-id="897ba198c82ff715220b7b00c03e567b">永远不要高估消费者的品味，永远不要低估消费者的智商。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>17</ne-oli-i><ne-oli-c class="ne-oli-content" id="f4860cb32ef9525910f26303a5c79925" data-lake-id="f4860cb32ef9525910f26303a5c79925">不要讲你身边没有你值得学习的人，你可以绕过跨越物理距离，从无空间限制的世界网络找，从无时间限制的图书馆找。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>18</ne-oli-i><ne-oli-c class="ne-oli-content" id="uad4e44d9" data-lake-id="uad4e44d9">不要害怕拒绝。拒绝三连：不好意思，不去、不做、不搞。</ne-oli-c></ne-oli> 
+
+
+1.  选择不做什么，比做什么更重要。能做减法，能做简化，就尽力去做。 
+
+2.  远离那些会给你带来时间黑洞（不带来积极效果）的人和事。 
+
+3.  在实验室尽可解难题，但在现实世界，不解难题。 
+
+4.  不要靠意志力做事，靠意志力持久做事一定失败，要想办法不靠意志力做事。 
+
+5.  不要反驳，不要试着说服别人，不要讲道理，要讲故事。 
+
+6.  不要免费给建议，我的建议是值钱的，给（年轻人）免费建议、传授人生经验的行为令人厌烦。 
+
+7.  不要再说这些话：1）我没有时间；2）我没有办法。 
+
+8.  不要想去做英雄，要知道自己的局限，要懂得示弱。 
+
+9.  自己未曾做过或者没做成功的事情，不要说很容易，不要说可以教别人。 
+
+10.  不要公开谈论股票，尽可能避免给别人自己是赚钱精明人的形象，用股票快钱不可耻，但没必要让全世界知道，会替你感到高兴的人很少，等着看你最后下场的人很多。 
+
+11.  不要贪小便宜，没有人因为贪小便宜而发财，却有人因为贪小便宜而倾家荡产。 
+
+12.  不要说自己自律，不要说自己坚持，不要说自己谦虚，这些溢美之词如果自己用在自己身上就是沽名钓誉。 
+
+13.  遇见有异见的人，不要先去评判，要想办法搞清楚异见是如何产生的，搞清楚他的思想与行事逻辑，然后用他们的方法去做事看看。阻碍我们进步的，往往是那些我们觉得正确的东西，能帮助我们成功的，往往是我们现在讨厌的东西。 
+
+14.  不说自己在很多方面比别人做得更好，只说自己在做一件事情上能勉强超越大多数人，自知并确认自己的长处，然后朝这个方向不断努力，在这个方向上多一些堂吉诃德般的偏执与努力。 
+
+15.  不要不懂装懂，不要为满足虚荣心而刻意展现自己不具备的能力。 
+
+16.  永远不要高估消费者的品味，永远不要低估消费者的智商。 
+
+17.  不要讲你身边没有你值得学习的人，你可以绕过跨越物理距离，从无空间限制的世界网络找，从无时间限制的图书馆找。 
+
+18.  不要害怕拒绝。拒绝三连：不好意思，不去、不做、不搞。 
 
 未来我将择选部分清单，写下我的理解与实践。 
 

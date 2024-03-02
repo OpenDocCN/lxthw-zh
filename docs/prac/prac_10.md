@@ -30,7 +30,13 @@
 
 不解难题思维，也像芒格说的那样： > 我们能成功，不是因为我们善于解决难题，而是因为我们善于远离难题。我们只是找简单的事做……用高智商去解决简单但回报很好的问题。 
 
-实践「不解难题」的难点在于 <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="9ee50cea8ea0734bb865ee589b2cb325" data-lake-id="9ee50cea8ea0734bb865ee589b2cb325">如何寻找你的难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="e5fedf2f8326bb7a42b261e10971ffaf" data-lake-id="e5fedf2f8326bb7a42b261e10971ffaf">如何真正做到不解难题？</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="2f3dc5572a6775e54957dc381d534a71" data-lake-id="2f3dc5572a6775e54957dc381d534a71">如何用不解难题套利？</ne-oli-c></ne-oli> 
+实践「不解难题」的难点在于 
+
+1.  如何寻找你的难题？ 
+
+2.  如何真正做到不解难题？ 
+
+3.  如何用不解难题套利？ 
 
 ## 如何寻找你的难题？
 

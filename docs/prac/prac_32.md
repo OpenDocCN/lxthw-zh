@@ -118,7 +118,11 @@
 
 ### 提醒
 
-<ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="uc7fcb53c" data-lake-id="uc7fcb53c">本产品为虚拟产品，售出不做退款。</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="ubf38d142" data-lake-id="ubf38d142">购买后请添加微信，并发送购买截图，确认会员权益。</ne-oli-c></ne-oli> 
+
+
+1.  本产品为虚拟产品，售出不做退款。 
+
+2.  购买后请添加微信，并发送购买截图，确认会员权益。 
 
 ### changelog
 

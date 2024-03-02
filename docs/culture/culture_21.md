@@ -6,7 +6,31 @@
 
 孙子兵法：胜兵先胜而后求战，败兵先战而后求胜。掌握科学，助你先胜后战。 
 
-笨方法使用的科学模型包括： <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="3c79466815f9f4d3704a590f513e79b7" data-lake-id="3c79466815f9f4d3704a590f513e79b7">可能的自我</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="7bbe18b26684ca8ee9f6bacdb934baac" data-lake-id="7bbe18b26684ca8ee9f6bacdb934baac">成长型思维</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="d5ee33ecaeea827deefe4703fb3a5b68" data-lake-id="d5ee33ecaeea827deefe4703fb3a5b68">自我决定论</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>4</ne-oli-i><ne-oli-c class="ne-oli-content" id="a8907800c08f829bcd2bc60d2983a9cb" data-lake-id="a8907800c08f829bcd2bc60d2983a9cb">自我效能</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>5</ne-oli-i><ne-oli-c class="ne-oli-content" id="3e1f54895cff13803e97b6ecaada0338" data-lake-id="3e1f54895cff13803e97b6ecaada0338">成功定律</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>6</ne-oli-i><ne-oli-c class="ne-oli-content" id="22fa73e478d10293eba7bd2445771e18" data-lake-id="22fa73e478d10293eba7bd2445771e18">积极心理学</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>7</ne-oli-i><ne-oli-c class="ne-oli-content" id="41f48c5f3541f307facd45704c23dd9f" data-lake-id="41f48c5f3541f307facd45704c23dd9f">心流</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>8</ne-oli-i><ne-oli-c class="ne-oli-content" id="a2efcefd64eccf57b08e3a7d806954e9" data-lake-id="a2efcefd64eccf57b08e3a7d806954e9">实践智慧</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>9</ne-oli-i><ne-oli-c class="ne-oli-content" id="07f4c4900fa96e0844397890cdce4ff9" data-lake-id="07f4c4900fa96e0844397890cdce4ff9">刻意练习</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>10</ne-oli-i><ne-oli-c class="ne-oli-content" id="d1cc3944ebd98356a1f364a9e930b613" data-lake-id="d1cc3944ebd98356a1f364a9e930b613">正念</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>11</ne-oli-i><ne-oli-c class="ne-oli-content" id="148d25dce63e52df63c66c66401cc94c" data-lake-id="148d25dce63e52df63c66c66401cc94c">WOOP</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>12</ne-oli-i><ne-oli-c class="ne-oli-content" id="fbe63f033d3e30ab18807e93b17e84a6" data-lake-id="fbe63f033d3e30ab18807e93b17e84a6">……</ne-oli-c></ne-oli> 
+笨方法使用的科学模型包括： 
+
+1.  可能的自我 
+
+2.  成长型思维 
+
+3.  自我决定论 
+
+4.  自我效能 
+
+5.  成功定律 
+
+6.  积极心理学 
+
+7.  心流 
+
+8.  实践智慧 
+
+9.  刻意练习 
+
+10.  正念 
+
+11.  WOOP 
+
+12.  …… 
 
 笨方法四要的每个关键词都可以找到理论或专著来解释，详细可查看[笨方法四要书单](https://www.douban.com/people/cnfeat/doulists/all) 
 
