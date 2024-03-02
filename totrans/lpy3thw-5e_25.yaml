@@ -1,40 +1,58 @@
 - en: Exercise 22. Strings, Bytes, and Character Encodings
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 22. 字符串、字节和字符编码
 - en: 'To do this exercise you’ll need to *download* a text file that I’ve written
     named `languages.txt`. This file was created with a list of human languages to
     demonstrate a few interesting concepts:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 要完成这个练习，你需要*下载*一个我写的名为`languages.txt`的文本文件。这个文件是用人类语言列表创建的，以演示一些有趣的概念：
 - en: • How modern computers store human languages for display and processing and
     how Python 3 calls these `strings`
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: • 现代计算机如何存储人类语言以供显示和处理，以及 Python 3 如何称呼这些`字符串`
 - en: • How you must “encode” and “decode” Python’s strings into a type called `bytes`
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: • 你必须将 Python 的字符串“编码”和“解码”为一种称为`bytes`的类型
 - en: • How to handle errors in your string and byte handling
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: • 如何处理字符串和字节处理中的错误
 - en: • How to read code and find out what it means even if you’ve never seen it before
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: • 如何阅读代码并找出其含义，即使你以前从未见过它
 - en: You can get this file by doing a `right click` with your mouse and selecting
     “Download” to download the file reliably. Use the link [https://learnpythonthehardway.org/python3/languages.txt](https://learnpythonthehardway.org/python3/languages.txt)
     to download the file.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 你可以通过用鼠标`右键单击`并选择“下载”来可靠地下载这个文件。使用链接[https://learnpythonthehardway.org/python3/languages.txt](https://learnpythonthehardway.org/python3/languages.txt)来下载这个文件。
 - en: In addition, you’ll get a brief glimpse of the Python 3 `if-statement` and `lists`
     for processing a list of things. You don’t have to master this code or understand
     these concepts right away. You’ll get plenty of practice in later exercises. For
     now your job is to get a taste of the future and learn the four topics in the
     preceding list.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 此外，你将简要了解 Python 3 中的`if语句`和`列表`，用于处理一系列事物。你不必立即掌握这段代码或理解这些概念。你将在后续练习中有足够的练习。现在你的任务是尝试未来并学习前述列表中的四个主题。
 - en: Warning!
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: This exercise is hard! There’s a lot of information in it that you need to understand,
     and it’s information that goes deep into computers. This exercise is complex because
     Python’s strings are complex and difficult to use. I recommend you take this exercise
@@ -42,77 +60,111 @@
     research it. Take a paragraph at a time if you must. You can continue with other
     exercises while you study this one, so don’t get stuck here. Just chip away at
     it for as long as it takes.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习很难！里面有很多你需要理解的信息，而且这些信息深入到计算机内部。这个练习很复杂，因为 Python 的字符串很复杂且难以使用。我建议你慢慢来完成这个练习。写下你不理解的每个词，然后查找或研究它。如果必要，一段一段地进行。你可以在学习这个练习的同时继续进行其他练习，所以不要在这里卡住。只要花费足够长的时间逐步解决它。
 - en: Initial Research
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 初始研究
 - en: You will create a file named `ex22.py` and run it in the shell for this exercise.
     Be sure you know how to do that, and if not, revisit [Exercise 0](intro.xhtml#intro)
     where you learned how to run Python code from the Terminal.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 你将创建一个名为`ex22.py`的文件，并在 shell 中运行它以完成这个练习。确保你知道如何做到这一点，如果不知道，可以回顾[练习 0](intro.xhtml#intro)中学习如何从终端运行
+    Python 代码。
 - en: I’m going to teach you how to research a piece of code to expose its secrets.
     You’ll need the `[languages](https://learnpythonthehardway.org/python3/languages.txt).`
     ↪ `[txt](https://learnpythonthehardway.org/python3/languages.txt)` file for this
     code to work, so make sure you download it first. The `languages.txt` file simply
     contains a list of human language names that are encoded in UTF-8.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 我将教你如何研究一段代码以揭示其秘密。你需要`[languages](https://learnpythonthehardway.org/python3/languages.txt).`
+    ↪ `[txt](https://learnpythonthehardway.org/python3/languages.txt)`文件才能使这段代码工作，所以确保你首先下载它。`languages.txt`文件简单地包含了一些以
+    UTF-8 编码的人类语言名称。
 - en: 'Listing 22.1: ex22.py'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 22.1：ex22.py
 - en: '[PRE0]'
+  id: totrans-14
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Try to study this code by writing down each thing you don’t recognize, and then
     search for it with the usual `python THING site:python.org`. For example, if you
     don’t know what `encode()` does, then search for `python encode site:python.org`.
     Once you’ve read the documentation for everything you don’t know, continue with
     this exercise.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 尝试通过写下你不认识的每一样东西来研究这段代码，然后用通常的`python THING site:python.org`搜索它。例如，如果你不知道`encode()`是什么意思，那么搜索`python
+    encode site:python.org`。一旦你阅读了所有你不了解的东西的文档，继续进行这个练习。
 - en: 'Once you have that you’ll want to run this Python script in your shell to play
     with it. Here are some example commands I used to test it:'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你拥有了这个文件，你会想要在你的 shell 中运行这个 Python 脚本来测试它。以下是我用来测试它的一些示例命令：
 - en: '[PRE1]'
+  id: totrans-17
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: See the documentation for the `[str.encode()](https://docs.python.org/3/library/stdtypes.xhtml#str.encode)`
     function for more options.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 查看`[str.encode()](https://docs.python.org/3/library/stdtypes.xhtml#str.encode)`函数的文档以获取更多选项。
 - en: Warning!
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: You’ll notice I’m using images here to show you what you should see. After extensive
     testing it turns out that so many people have their computers configured to not
     display utf-8 that I had to use images so you’ll know what to expect. Even my
     own typesetting system (LaTeX) couldn’t handle these encodings, forcing me to
     use images instead. If you don’t see this, then your terminal is most likely not
     able to display utf-8, and you should try to fix that.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 你会注意到我在这里使用图片来展示你应该看到的内容。经过广泛测试，结果表明很多人的计算机配置为不显示utf-8，所以我不得不使用图片，这样你就知道可以期待什么。甚至我的排版系统（LaTeX）也无法处理这些编码，迫使我使用图片。如果你看不到这个，那么你的终端很可能无法显示utf-8，你应该尝试解决这个问题。
 - en: These examples use the `utf-8`, `utf-16`, and `big5` encodings to demonstrate
     the conversion and the types of errors you can get. Each of these names are called
     a “codec” in Python 3, but you use the parameter “encoding”. At the end of this
     exercise there’s a list of the available encodings if you want to try more. I’ll
     cover what all of this output means shortly. You’re only trying to get an idea
     of how this works so we can talk about it.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些示例使用`utf-8`、`utf-16`和`big5`编码来演示转换和可能出现的错误类型。在Python 3中，这些名称中的每一个被称为“编解码器”，但你使用参数“encoding”。在这个练习的结尾，有一个可用编码的列表，如果你想尝试更多的话。我很快会解释这些输出的含义。你只是试图了解这是如何工作的，这样我们就可以讨论它。
 - en: After you’ve run it a few times, go through your list of symbols and make a
     guess as to what they do. When you’ve written down your guesses, try looking the
     symbols up online to see if you can confirm your hypothesis. Don’t worry if you
     have no idea how to search for them. Just give it a try.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 在运行几次之后，浏览一下你的符号列表，猜一下它们的作用。当你写下你的猜测时，尝试在线查找这些符号，看看你是否能够确认你的假设。如果你不知道如何搜索它们，不要担心。试一试。
 - en: Switches, Conventions, and Encodings
+  id: totrans-23
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 开关、约定和编码
 - en: Before I can get into what this code means, you need to learn some basics about
     how data is stored in a computer. Modern computers are incredibly complex, but
     at their core they are like a huge array of light switches. Computers use electricity
@@ -121,8 +173,10 @@
     1 or 0, but these days it’s just 1s and 0s. One represents energy, electricity,
     on, power, substance. Zero represents off, done, gone, power down, the lack of
     energy. We call these 1s and 0s “bits.”
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我解释这段代码的含义之前，你需要了解一些关于计算机中数据存储的基础知识。现代计算机非常复杂，但在它们的核心，它们就像一个巨大的光开关阵列。计算机使用电力来开关打开或关闭。这些开关可以表示1为开，0为关。在过去，有各种奇怪的计算机不仅仅是1或0，但如今只有1和0。一个代表能量、电力、开、电源、物质。零代表关闭、完成、消失、关机、能量的缺乏。我们称这些1和0为“比特”。
 - en: Now, a computer that lets you work only with 1 and 0 would be both horribly
     inefficient and incredibly annoying. Computers take these 1s and 0s and use them
     to encode larger numbers. At the small end a computer will use 8 of these 1s and
@@ -132,8 +186,10 @@
     would be 0, `11111111` would be 255, and `00001111` would be 15\. There were even
     huge wars in the early history of computers on nothing more than the order of
     these bits because they were simply conventions we all had to agree on.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在，一台只能使用1和0来工作的计算机既效率低下又令人讨厌。计算机使用这些1和0来编码更大的数字。在较小的范围内，计算机将使用8个这些1和0来编码256个数字（0-255）。但“编码”是什么意思呢？这不过是一种约定俗成的标准，规定了一系列位应该如何表示一个数字。这是人类选择或偶然发现的一种约定，它说`00000000`将是0，`11111111`将是255，而`00001111`将是15。甚至在计算机早期历史上，甚至有关于这些位的顺序的巨大战争，因为它们只是我们都必须同意的约定。
 - en: Today we call a “byte” a sequence of 8 bits (1s and 0s). In the old days everyone
     had their own convention for a byte, so you’ll still run into people who think
     that this term should be flexible and handle sequences of 9 bits, 7 bits, 6 bits,
@@ -142,8 +198,10 @@
     using 16, 32, 64, and even more bits if you get into really big math. There are
     entire standards groups who do nothing but argue about these conventions and then
     implement them as encodings that eventually turn switches on and off.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 今天我们将“字节”称为8位（1和0的序列）。在旧时代，每个人都有自己的字节约定，所以你仍然会遇到认为这个术语应该灵活处理9位、7位、6位序列的人，但现在我们只说它是8位。这是我们的约定，这个约定定义了我们对字节的编码。对于使用16、32、64甚至更多位的大数字进行编码还有进一步的约定，如果你涉及到非常大的数学，会有整个标准组织专门讨论这些约定，然后将它们实现为最终打开和关闭开关的编码。
 - en: Once you have bytes, you can start to store and display text by deciding on
     another convention for how a number maps to a letter. In the early days of computing
     there were many conventions that mapped 8 or 7 bits (or less or more) onto lists
@@ -151,19 +209,27 @@
     American Standard Code for Information Interchange, or ASCII. This standard maps
     a number to a letter. The number 90 is Z, which in bits is `1011010`, which gets
     mapped to the ASCII table inside the computer.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你有了字节，你就可以开始通过决定另一种约定来将数字映射到字母来存储和显示文本。在计算机早期，有许多约定将8位或7位（或更少或更多）映射到计算机内部保存的字符列表上。最流行的约定最终成为了美国信息交换标准代码，即ASCII。这个标准将一个数字映射到一个字母。数字90是Z，在位上是`1011010`，这被映射到计算机内部的ASCII表中。
 - en: 'You can try this out in Python right now:'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 你现在可以在Python中尝试这个：
 - en: '[PRE2]'
+  id: totrans-29
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: First, I write the number 90 in binary, then I get the number based on the letter
     Z, then I convert the number to the letter Z. Don’t worry about needing to remember
     this though. I think I’ve had to do it twice the entire time I’ve used Python.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，我将数字90写成二进制，然后根据字母Z得到数字，最后将数字转换为字母Z。不过不用担心需要记住这个过程。我想我在使用Python的整个时间里只不过做过两次。
 - en: Once we have the ASCII convention for encoding a character using 8 bits (a byte),
     we can then “string” them together to make a word. If I want to write my name
     “Zed A. Shaw,” I just use a sequence of bytes that is `[90, 101, 100, 32, 65,
@@ -171,8 +237,11 @@
     than sequences of bytes, stored in memory, that a computer used to display text
     to a person. Again, this is just a sequence of conventions that turned switches
     on and off.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦我们有了使用8位（一个字节）编码字符的ASCII约定，我们就可以将它们“串”在一起形成一个单词。如果我想写我的名字“Zed A. Shaw”，我只需使用一个字节序列`[90,
+    101, 100, 32, 65, 46, 32, 83, 104, 97, 119]`。计算机早期的大部分文本只不过是存储在内存中的字节序列，计算机用来向人显示文本。同样，这只是一系列约定，用来打开和关闭开关。
 - en: The problem with ASCII is that it only encodes English and maybe a few other
     similar languages. Remember that a byte can hold 256 numbers (0–255, or 00000000–11111111).
     Turns out, there are *lots* more characters than 256 used throughout the world’s
@@ -181,8 +250,10 @@
     That meant if you want to put the title of an American English book in the middle
     of a Thai sentence, you were kind of in trouble. You’d need one encoding for Thai
     and another for English.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: ASCII的问题在于它只编码英语和可能还有一些其他类似的语言。记住一个字节可以存储256个数字（0-255，或00000000-11111111）。事实证明，世界上的语言中使用的字符远远超过256个。不同国家为他们的语言创建了自己的编码约定，这在大多数情况下是有效的，但许多编码只能处理一种语言。这意味着，如果你想在泰语句子中间放置一本美国英语书的标题，你可能会遇到麻烦。你需要一个编码用于泰语，另一个用于英语。
 - en: To solve this problem a group of people created Unicode. It sounds like “encode,”
     and it is meant to be a “universal encoding” of all human languages. The solution
     Unicode provides is like the ASCII table, but it’s huge by comparison. You can
@@ -191,8 +262,12 @@
     (2^32), which is enough space for every possible human language and probably a
     lot of alien ones too. Right now we use the extra space for important things like
     poop and smile emojis.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了解决这个问题，一群人创造了 Unicode。它听起来像“编码”，旨在成为所有人类语言的“通用编码”。Unicode 提供的解决方案类似于 ASCII
+    表，但相比之下要庞大得多。你可以使用 32 位来编码一个 Unicode 字符，这比我们可能找到的字符还要多。32 位数字意味着我们可以存储 4,294,967,295
+    个字符（2^32），这足够容纳每种可能的人类语言，也可能包括很多外星语言。现在我们利用额外的空间来存储重要的事物，比如粑粑和笑脸表情符号。
 - en: We now have a convention for encoding any character we want, but 32 bits is
     4 bytes (32/8 == 4), which means there is so much wasted space in most text we
     want to encode. We can also use 16 bits (2 bytes), but still there’s going to
@@ -201,26 +276,39 @@
     we need to encode more characters. That means we have one more convention that
     is nothing more than a compression encoding, making it possible for most common
     characters to use 8 bits and then escape out into 16 or 32 bits as needed.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们有了一个编码任何字符的约定，但 32 位等于 4 字节（32/8 == 4），这意味着在我们想要编码的大多数文本中有很多浪费的空间。我们也可以使用
+    16 位（2 字节），但大多数文本仍然会有浪费的空间。解决方案是使用一个巧妙的约定，使用 8 位来编码大多数常见字符，然后在需要编码更多字符时“转义”为更大的数字。这意味着我们有了一个不过是压缩编码的约定，使得大多数常见字符可以使用
+    8 位，然后根据需要转换为 16 或 32 位。
 - en: The convention for encoding text in Python is called “utf-8”, which means “Unicode
     Transformation Format 8 Bits.” It is a convention for encoding Unicode characters
     into sequences of bytes (which are sequences of bits (which turn sequences of
     switches on and off)). You can also use other conventions (encodings), but utf-8
     is the current standard.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 Python 中编码文本的约定称为“utf-8”，意思是“Unicode 转换格式 8 位”。这是一种将 Unicode 字符编码为字节序列（即位序列（将开关序列打开和关闭））的约定。你也可以使用其他约定（编码），但
+    utf-8 是当前的标准。
 - en: Dissecting the Output
+  id: totrans-36
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 解析输出
 - en: 'We can now look at the output of the previous commands. Let’s take just that
     first command and the first few lines of output:'
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们可以看一下之前命令的输出。让我们仅看一下第一个命令和输出的前几行：
 - en: '![Images](graphics/f0084-01.jpg)'
+  id: totrans-38
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/f0084-01.jpg)'
 - en: The `ex22.py` script is taking bytes written inside the `b''` (byte string)
     and converting them to the UTF-8 (or other) encoding you specified. On the left
     are the numbers for each byte of the utf-8 (shown in hexadecimal), and the right
@@ -229,23 +317,35 @@
     uses to store the string. You specify this with `b''` to tell Python this is “bytes”.
     These raw bytes are then displayed “cooked” on the right so you can see the real
     characters in your terminal.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '`ex22.py` 脚本将写在 `b''''`（字节字符串）内的字节转换为你指定的 UTF-8（或其他）编码。左侧是每个 utf-8 字节的数字（以十六进制显示），右侧是实际的
+    utf-8 字符输出。这样想，`<===>` 的左侧是 Python 的数字字节，或者 Python 用来存储字符串的“原始”字节。你使用 `b''''`
+    来告诉 Python 这是“字节”。然后这些原始字节会在右侧“烹饪”显示，这样你就可以在终端中看到真实的字符。'
 - en: Dissecting the Code
+  id: totrans-40
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 解析代码
 - en: 'We have an understanding of strings and byte sequences. In Python a `string`
     is a UTF-8 encoded sequence of characters for displaying or working with text.
     The bytes are then the “raw” sequence of bytes that Python uses to store this
     UTF-8 `string` and start with a `b''` to tell Python you are working with raw
     bytes. This is all based on conventions for how Python wants to work with text.
     Here’s a Python session showing me encoding strings and decoding bytes:'
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们已经了解了字符串和字节序列。在 Python 中，`string` 是一个 UTF-8 编码的字符序列，用于显示或处理文本。然后字节是 Python
+    用来存储这个 UTF-8 `string` 的“原始”字节序列，并以 `b'` 开头告诉 Python 你正在处理原始字节。这一切都基于 Python 处理文本的约定。这里是一个
+    Python 会话，展示了我如何编码字符串和解码字节：
 - en: '![Images](graphics/f0084-02.jpg)'
+  id: totrans-42
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/f0084-02.jpg)'
 - en: All you need to remember is if you have raw bytes, then you must use `.decode()`
     to get the `string`. Raw `bytes` have no convention to them. They are just sequences
     of bytes with no meaning other than numbers, so you must tell Python to “decode
@@ -254,31 +354,44 @@
     will throw up an error saying it doesn’t know how to “encode” it. Again, Python
     knows its internal convention, but it has no idea what convention you need. In
     that case, you must use `.encode()` to get the bytes you need.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要记住的是，如果你有原始字节，那么你必须使用`.decode()`来获取`string`。原始`bytes`没有约定。它们只是一系列没有其他含义的字节，所以你必须告诉Python“将其解码为utf字符串”。如果你有一个字符串并想要发送、存储、共享或执行其他操作，通常它会工作，但有时Python会抛出一个错误，说它不知道如何“编码”它。再次强调，Python知道它的内部约定，但不知道你需要什么约定。在这种情况下，你必须使用`.encode()`来获取你需要的字节。
 - en: The way to remember this (even though I look it up almost every time) is to
     remember the mnemonic “DBES,” which stands for “Decode Bytes Encode Strings.”
     I say “dee bess” in my head when I have to convert bytes and strings. When you
     have `bytes` and need a `string`, “Decode Bytes.” When you have a string and need
     bytes, “Encode Strings.”
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 要记住这一点（尽管我几乎每次都要查找），方法是记住“DBES”这个记忆口诀，它代表“Decode Bytes Encode Strings”。当我需要转换字节和字符串时，我会在脑海中说“dee
+    bess”。当你有`bytes`并需要一个`string`时，“Decode Bytes”。当你有一个字符串并需要字节时，“Encode Strings”。
 - en: 'With that in mind, let’s break down the code in `ex22.py` line by line:'
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 有了这个想法，让我们逐行分解`ex22.py`中的代码：
 - en: '**1-2** I start with your usual command line argument handling that you already
     know.'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: '**1-2** 我从你已经了解的常规命令行参数处理开始。'
 - en: '**5** I start the main meat of this code in a function conveniently called
     `main`. This will be called at the end of this script to get things going.'
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: '**5** 我在一个方便命名为`main`的函数中开始这段代码的主要部分。这将在脚本末尾调用以启动事务。'
 - en: '**6** The first thing this function does is read one line from the languages
     file it is given. You have done this before, so there’s nothing new here. Just
     `readline` as before when dealing with text files.'
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: '**6** 这个函数的第一件事是从给定的语言文件中读取一行。你以前做过这个，所以这里没有什么新东西。处理文本文件时，就像以前一样只需`readline`。'
 - en: '**8** Now I use something *new*. You will learn about this in the second half
     of the book, so consider this a teaser of interesting things to come. This is
     an `if-statement`, and it lets you make decisions in your Python code. You can
@@ -288,15 +401,20 @@
     `line` simply tests for this empty string. As long as `readline` gives us something,
     this will be true, and the code *under* (indented in, lines 9–10) will run. When
     this is false, Python will skip lines 9–10.'
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: '**8** 现在我使用了一些*新*的东西。你将在本书的后半部分了解到这一点，所以把它看作是即将发生的有趣事情的一个预告。这是一个`if`语句，它让你在Python代码中做出决策。你可以“测试”一个变量的真实性，并根据这个真实性运行一段代码或不运行它。在这种情况下，我正在测试`line`是否有内容。当`readline`到达文件末尾时，`readline`函数将返回一个空字符串，而`if`
+    `line`只是测试这个空字符串。只要`readline`给我们一些东西，这将是真的，代码*在*（缩进，第9-10行）将运行。当这是假的时候，Python将跳过9-10行。'
 - en: '**9** I then call a separate function to do the actual printing of this line.
     This simplifies my code and makes it easier for me to understand it. If I want
     to learn what this function does, I can jump to it and study. Once I know what
     `print_line` does, I can attach my memory to the name `print_line` and forget
     about the details.'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: '**9** 然后我调用一个单独的函数来实际打印这一行。这简化了我的代码，使我更容易理解它。如果我想了解这个函数的作用，我可以跳转到它并进行研究。一旦我知道`print_line`做什么，我就可以将我的记忆与名称`print_line`联系起来，然后忘记细节。'
 - en: '**10** I have written a tiny yet powerful piece of magic here. I am calling
     `main` again inside `main`. Actually, it’s not magic since nothing really is magical
     in programming. All the information you need is there. This looks like I am calling
@@ -308,53 +426,76 @@
     make it loop. Now look back at line 8, and you’ll see the `if-statement` keeps
     this function from looping forever. Carefully study this because it is a significant
     concept, but don’t worry if you can’t grasp it right away.'
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: '**10** 我在这里写了一小段强大的魔法。我在`main`函数内部再次调用`main`。实际上，这并不是魔法，因为在编程中没有什么是真正神奇的。所有你需要的信息都在那里。这看起来像是我在函数*内部*调用它自己，这似乎应该是不合法的。问问自己，为什么这应该是不合法的？从技术上讲，我可以在那里调用任何函数，甚至是这个`main`函数，没有任何技术上的理由不允许这样做。如果一个函数只是一个跳转到我命名为`main`的顶部的地方，那么在函数末尾调用这个函数会……跳回到顶部并再次运行它。这将使它循环。现在回顾一下第8行，你会看到`if语句`阻止了这个函数无限循环。仔细研究这一点，因为这是一个重要的概念，但如果你不能立刻理解也不要担心。'
 - en: '**13** I now start the definition for the `print_line` function, which does
     the actual encoding of each line from the `languages.txt` file.'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: '**13** 我现在开始定义`print_line`函数，该函数实际上对`languages.txt`文件中的每一行进行编码。'
 - en: '**14** This is a simple stripping of the trailing `\n` on the `line` string.'
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: '**14** 这只是简单地去除`line`字符串末尾的`\n`。'
 - en: '**15** Now I *finally* take the language I’ve received from the `languages.txt`
     file and “encode” it into the raw bytes. Remember the “DBES” mnemonic. “Decode
     Bytes, Encode Strings.” The `next_lang` variable is a string, so to get the raw
     bytes I must call `.encode()` on it to “Encode Strings.” I pass to `encode()`
     the encoding I want and how to handle errors.'
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: '**15** 现在我*终于*拿到了从`languages.txt`文件中收到的语言，并将其“编码”为原始字节。记住“DBES”这个助记符。“解码字节，编码字符串。”`next_lang`变量是一个字符串，所以为了获得原始字节，我必须在其上调用`.encode()`来“编码字符串”。我传递给`encode()`我想要的编码以及如何处理错误。'
 - en: '**16** I then do the extra step of showing the inverse of line 15 by creating
     a `cooked_string` variable from the `raw_bytes`. Remember, “DBES” says I “Decode
     Bytes,” and `raw_bytes` is `bytes`, so I call `.decode()` on it to get a Python
     `string`. This string should be the same as the `next_lang` variable.'
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: '**16** 然后我通过从`raw_bytes`创建一个`cooked_string`变量来展示第15行的反向操作。记住，“DBES”告诉我“解码字节”，而`raw_bytes`是`bytes`，所以我在其上调用`.decode()`来获得一个Python`string`。这个字符串应该与`next_lang`变量相同。'
 - en: '**18** Then I simply print them both out to show you what they look like.'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: '**18** 然后我简单地将它们都打印出来，以展示它们的样子。'
 - en: '**21** I’m done defining functions, so now I want to open the `languages.txt`
     file.'
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: '**21** 我已经定义完函数，现在我想打开`languages.txt`文件。'
 - en: '**23** The end of the script simply runs the `main` function with all the correct
     parameters to get everything going and kick-start the loop. Remember that this
     then jumps to where the `main` function is defined on line 5, and on line 10 `main`
     is called again, causing this to keep looping. The `if line:` on line 8 will prevent
     our loop from going forever.'
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: '**23** 脚本的结尾简单地运行`main`函数，带上所有正确的参数来启动一切并启动循环。记住，这会跳转到第5行定义`main`函数的地方，然后在第10行再次调用`main`，导致这个循环继续进行。第8行的`if
+    line:`将阻止我们的循环永远进行下去。'
 - en: Encodings Deep Dive
+  id: totrans-59
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 深入探讨编码
 - en: 'We can now use our little script to explore other encodings. Here’s me playing
     with different encodings and seeing how to break them:'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们可以使用我们的小脚本来探索其他编码。这是我尝试不同编码并看如何破解它们的过程：
 - en: '![Images](graphics/f0086-01.jpg)'
+  id: totrans-61
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/f0086-01.jpg)'
 - en: First, I’m doing a simple UTF-16 encoding so you can see how it changes compared
     to UTF-8\. You can also use “utf-32” to see how that’s even bigger and get an
     idea of the space saved with UTF-8\. After that I try Big5, and you’ll see that
@@ -363,34 +504,50 @@
     to tell Python to “replace” any bad characters for the Big5 encoding. Try that
     and you’ll see it puts a `?` character wherever it finds a character that doesn’t
     match the Big5 encoding system.
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，我正在做一个简单的UTF-16编码，这样你就可以看到它与UTF-8相比是如何变化的。你也可以使用“utf-32”来看看它更大，以及用UTF-8节省的空间的概念。之后我尝试Big5，你会发现Python*一点也不*喜欢那个。它会抛出一个错误，说“big5”无法对位置0的一些字符进行编码（这非常有帮助）。一个解决方案是告诉Python用“replace”替换任何Big5编码系统中不匹配的字符。尝试一下，你会看到它在发现一个不符合Big5编码系统的字符时会放置一个`?`字符。
 - en: Breaking It
+  id: totrans-63
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 破坏它
 - en: 'Rough ideas include the following:'
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: 粗略的想法包括以下内容：
 - en: 1\. Find strings of text encoded in other encodings and place them in the `ex22.py`
     file to see how it breaks.
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 找到用其他编码编码的文本字符串，并将它们放入`ex22.py`文件中，看看会发生什么。
 - en: 2\. Find out what happens when you give an encoding that doesn’t exist.
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 找出当你提供一个不存在的编码时会发生什么。
 - en: '3\. Extra challenging: Rewrite this using the `b''''` bytes instead of the
     UTF-8 strings, effectively reversing the script.'
+  id: totrans-67
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 额外挑战：使用`b''`字节来重写这个脚本，而不是使用UTF-8字符串，有效地颠倒脚本。
 - en: 4\. If you can do that, then you can also *break* these bytes by removing some
     to see what happens. How much do you need to remove to cause Python to break?
     How much can you remove to damage the string output but pass Python’s decoding
     system?
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 如果你能做到这一点，那么你也可以通过删除一些字节来*破坏*这些字节，看看会发生什么。你需要删除多少才能让Python崩溃？你可以删除多少来损坏字符串输出但通过Python的解码系统吗？
 - en: '5\. Use what you learned from #4 to see if you can mangle the files. What errors
     do you get? How much damage can you cause and get the file past Python’s decoding
     system?'
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 利用从第4步学到的知识，看看是否可以搞乱文件。你会得到什么错误？你能造成多大破坏并让文件通过Python的解码系统吗？

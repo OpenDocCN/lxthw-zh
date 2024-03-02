@@ -1,39 +1,53 @@
 - en: Exercise 33. Loops and Lists
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 33. 循环和列表
 - en: You should now be able to do some programs that are much more interesting. If
     you have been keeping up, you should realize that now you can combine all the
     other things you have learned with `if-statements` and Boolean expressions to
     make your programs do smart things.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你应该能够编写一些更有趣的程序了。如果你一直在跟进，你应该意识到现在你可以将所有其他学到的东西与`if-statements`和布尔表达式结合起来，使你的程序做一些聪明的事情。
 - en: However, programs also need to do repetitive things very quickly. We are going
     to use a `for-loop` in this exercise to build and print various lists. When you
     do the exercise, you will start to figure out what they are. I won’t tell you
     right now. You have to figure it out.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，程序也需要快速地执行重复的事情。在这个练习中，我们将使用`for-loop`来构建和打印各种列表。当你做这个练习时，你会开始明白它们是什么。我现在不会告诉你。你必须自己弄清楚。
 - en: 'Before you can use a `for-loop`, you need a way to *store* the results of loops
     somewhere. The best way to do this is with `lists`. `Lists` are exactly what their
     name says: a container of things that are organized in order from first to last.
     It’s not complicated; you just have to learn a new syntax. First, here’s how you
     make `lists`:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 在使用`for-loop`之前，你需要一种方法来*存储*循环的结果。最好的方法是使用`lists`。`Lists`正是它们的名字所说的：一个按照从头到尾顺序组织的东西的容器。这并不复杂；你只需要学习一种新的语法。首先，这是如何创建`lists`的：
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: You start the `list` with the `[` (left bracket), which “opens” the `list`.
     Then you put each item you want in the list separated by commas, similar to function
     arguments. Lastly, end the list with a `]` (right bracket) to indicate that it’s
     over. Python then takes this list and all its contents and assigns them to the
     variable.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 你用`[`（左括号）开始`list`，这个“打开”`list`。然后你用逗号分隔每个你想要放入列表的项目，类似于函数参数。最后，用`]`（右括号）结束列表以表示它的结束。然后Python将获取这个列表及其所有内容，并将它们分配给变量。
 - en: Warning!
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: This is where things get tricky for people who can’t code. Your brain has been
     taught that the world is flat. Remember in the previous exercise where you put
     `if-statements` inside `if-statements`? That probably made your brain hurt because
@@ -42,106 +56,162 @@
     that have `if-statements` that have lists with lists inside lists. If you see
     a structure like this that you can’t figure out, take out a pencil and paper and
     break it down manually bit by bit until you understand it.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是对于不能编码的人来说变得棘手的地方。你的大脑被教导世界是平的。还记得在上一个练习中你是如何在`if-statements`内部放置`if-statements`的吗？那可能让你的大脑感到疼痛，因为大多数人不会考虑如何在“嵌套”事物内部放置事物。在编程中，嵌套结构随处可见。你会发现调用其他函数的函数，这些函数有带有列表的`if-statements`，列表内部还有列表。如果你看到这样的结构而无法理解，拿出一支铅笔和纸，逐步手动分解，直到你理解为止。
 - en: 'We now will build some lists using some `for-loops` and print them out:'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将使用一些`for-loops`来构建一些列表并将它们打印出来：
 - en: 'Listing 33.1: ex33.py'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 33.1：ex33.py
 - en: '[PRE1]'
+  id: totrans-10
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: What You Should See
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE2]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: '`dis()` It'
+  id: totrans-13
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: '`dis()`它'
 - en: 'This time let’s keep it simple and just see how Python does the `for-loop`:'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 这次让我们简单点，只看看Python如何执行`for-loop`：
 - en: '[PRE3]'
+  id: totrans-15
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: 'This time I’m going to reproduce the output here so we can analyze it:'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 这次我将在这里重现输出，以便我们可以分析它：
 - en: '[PRE4]'
+  id: totrans-17
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: 'Here we see a new thing in the `FOR_ITER` operation. This operation makes the
     `for-loop` work by doing these steps:'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 在`FOR_ITER`操作中我们看到了一个新的东西。这个操作通过以下步骤使`for-loop`工作：
 - en: 1\. Call `the_count.__next__()`
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 调用`the_count.__next__()`
 - en: 2\. If this says there are no more elements in `the_count`, jump to 18
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 如果`the_count`中没有更多元素，则跳转到18
 - en: 3\. If there are still elements, then continue on
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 如果仍然有元素，则继续执行
 - en: 4\. The `STORE_NAME` then assigns the result of `the_count.__next__()` to the
     name `number`
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. `STORE_NAME`然后将`the_count.__next__()`的结果赋给名为`number`的变量
 - en: That’s all a `for-loop` actually does. It’s mostly a single byte code `FOR_ITER`
     combined with a few others to iterate through a list.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是`for-loop`实际上所做的一切。它主要是一个单字节代码`FOR_ITER`，结合其他几个来遍历列表。
 - en: Study Drills
+  id: totrans-24
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Take a look at how you used `range`. Look up the `range` function to understand
     it.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 看看你如何使用了`range`。查阅`range`函数以了解它。
 - en: 2\. Could you have avoided that `for-loop` entirely on line 22 and just assigned
     `range(0,6)` directly to `elements`?
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 在第22行完全避免了那个`for-loop`，直接将`range(0,6)`赋给`elements`，你能做到吗？
 - en: 3\. Find the Python documentation on lists and read about them. What other operations
     can you do to lists besides `append`?
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 查找关于列表的Python文档并阅读它们。除了`append`之外，你还可以对列表进行哪些操作？
 - en: Common Student Questions
+  id: totrans-28
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**How do you make a two-dimensional (2D) list?** That’s a list in a list like
     this: `[[1,2,3],[4,5,6]]`'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如何创建二维（2D）列表？** 就像这样的列表中嵌套列表：`[[1,2,3],[4,5,6]]`'
 - en: '**Aren’t lists and arrays the same thing?** Depends on the language and the
     implementation. In classic terms a list is very different from an array because
     of how they’re implemented. In Ruby though they call these “arrays.” In Python
     they call them “lists.” Just call these “lists” for now since that’s what Python
     calls them.'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: '**列表和数组不是一回事吗？** 这取决于语言和实现。在传统术语中，列表与数组非常不同，因为它们的实现方式不同。在 Ruby 中，它们称之为“数组”。在
+    Python 中，它们称之为“列表”。现在只需称之为“列表”，因为这是 Python 的称呼。'
 - en: '**Why is a for-loop able to use a variable that isn’t defined yet?** The variable
     is defined by the `for-loop` when it starts, initializing it to the current element
     of the loop iteration each time through.'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么 for 循环能够使用尚未定义的变量？** 变量在循环开始时由 `for 循环` 定义，每次迭代时将其初始化为当前循环元素。'
 - en: '**Why does** `for i in range(1, 3):` **only loop two times instead of three
     times?** The `range()` function only does numbers from the first to the last,
     *not including the last*. So it stops at two, not three in the preceding. This
     turns out to be the most common way to do this kind of loop.'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么** `for i in range(1, 3):` **只循环两次而不是三次？** `range()` 函数只生成从第一个到最后一个的数字，*不包括最后一个*。因此，在上述情况下它在两处停止，而不是三处。这实际上是这种循环最常见的方式。'
 - en: '**What does** `elements.append()` **do?** It simply appends to the end of the
     list. Open up the Python shell and try a few examples with a list you make. Any
     time you run into things like this, always try to play with them interactively
     in the Python shell.'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`elements.append()`** 做什么？它简单地将元素附加到列表的末尾。打开 Python shell 并尝试用自己创建的列表做几个示例。每当遇到这样的情况时，总是尝试在
+    Python shell 中进行交互操作。'

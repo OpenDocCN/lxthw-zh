@@ -1,155 +1,240 @@
 - en: Exercise 29. Boolean Practice
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 29. 布尔练习
 - en: The logic combinations you learned from the previous exercise are called “Boolean”
     logic expressions. Boolean logic is used *everywhere* in programming. It is a
     fundamental part of computation, and knowing these logic expressions very well
     is akin to knowing your scales in music.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 你从上一个练习中学到的逻辑组合被称为“布尔”逻辑表达式。布尔逻辑在编程中被*广泛*使用。它是计算的基本部分，熟练掌握这些逻辑表达式就相当于熟练掌握音乐中的音阶。
 - en: In this exercise you will take the logic exercises you memorized and start trying
     them out in Python. Take each of these logic problems and write what you think
     the answer will be. In each case it will be either
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个练习中，你将把你记住的逻辑练习放入 Python 中尝试。拿出每个逻辑问题，并写下你认为答案会是什么。在每种情况下，答案将是
 - en: True or False. Once you have the answers written down, you will start Python
     in your terminal and type each logic problem in to confirm your answers.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: True 或 False。一旦你把答案写下来，你将在终端中启动 Python 并输入每个逻辑问题以确认你的答案。
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: I will also give you a trick to help you figure out the more complicated ones
     toward the end.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我还会给你一个技巧，帮助你解决更复杂的问题。
 - en: 'Whenever you see these Boolean logic statements, you can solve them easily
     by this simple process:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 每当你看到这些布尔逻辑语句，你都可以通过这个简单的过程轻松解决它们：
 - en: 1\. Find an equality test (== or !=) and replace it with its truth
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 找到一个相等测试（== 或 !=）并用其真值替换
 - en: 2\. Find each `and/or` inside parentheses and solve those first
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 找到括号中的每个 `and/or` 并首先解决它们
 - en: 3\. Find each `not` and invert it
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 找到每个 `not` 并反转它
 - en: 4\. Find any remaining `and/or` and solve it
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 找到任何剩余的 `and/or` 并解决它
 - en: 5\. When you are done, you should have True or False
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 完成后，你应该有 True 或 False
 - en: 'I will demonstrate with a *variation* on #20:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '我将演示一个对 #20 的*变体*：'
 - en: '[PRE1]'
+  id: totrans-13
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: 'Here’s me going through each of the steps and showing you the translation until
     I’ve boiled it down to a single result:'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我逐步进行每个步骤并展示翻译的过程，直到将其简化为一个结果：
 - en: '1\. Solve each equality test:'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 解决每个相等测试：
 - en: • `3 != 4` is `True`, so replace that with `True` to get `True and not ("testing"
     != "test"` `or "Python" == "Python")`
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: • `3 != 4` 是 `True`，所以用 `True` 替换得到 `True and not ("testing" != "test"` `or
+    "Python" == "Python")`
 - en: • `"testing" != "test"` is `True`, so replace *that* with `True` to get `True
     and not (True` `or "Python" == "Python")`
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: • `"testing" != "test"` 是 `True`，所以用 `True` 替换 *that* 得到 `True and not (True`
+    `or "Python" == "Python")`
 - en: • `"Python" == "Python"` is True, so replace that with `True`, and we have `True
     and` `not (True or True)`
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: • `"Python" == "Python"` 是 True，所以用 `True` 替换，得到 `True and` `not (True or True)`
 - en: '2\. Find each `and/or` in parentheses ():'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 找到括号中的每个 `and/or`：
 - en: • `(True or True)` is `True`, so replace that to get `True and not (True)`
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: • `(True or True)` 是 `True`，所以替换得到 `True and not (True)`
 - en: '3\. Find each `not` and invert it:'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 找到每个 `not` 并反转它：
 - en: • `not (True)` is `False`, so replace that, and we have `True and False`
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: • `not (True)` 是 `False`，所以替换得到 `True and False`
 - en: '4\. Find any remaining `and/or` and solve them:'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 找到任何剩余的 `and/or` 并解决它们：
 - en: • `True and False` is `False`, and you’re done
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: • `True and False` 是 `False`，你完成了
 - en: With that we’re done and know the result is False.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 有了这个，我们就完成了，知道结果是 False。
 - en: Warning!
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: The more complicated ones may seem very hard at first. You should be able to
     take a good first stab at solving them, but do not get discouraged. I’m just getting
     you primed for more of these “logic gymnastics” so that later cool stuff is much
     easier. Just stick with it, and keep track of what you get wrong, but do not worry
     that it’s not getting in your head quite yet. It’ll come.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 更复杂的可能一开始看起来很难。你应该能够很好地尝试解决它们，但不要灰心。我只是让你为更多这些“逻辑体操”做好准备，这样以后更酷的东西会更容易。坚持下去，记录下你做错的地方，但不要担心它还没有完全进入你的脑海。它会的。
 - en: What You Should See
+  id: totrans-28
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的结果
 - en: 'After you have tried to guess at these, this is what your Jupyter cells might
     look like:'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 在你尝试猜测这些之后，你的 Jupyter 单元格可能会是这样的：
 - en: '[PRE2]'
+  id: totrans-30
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Study Drills
+  id: totrans-31
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. There are a lot of operators in Python similar to `!=` and `==`. Try to
     find as many “equality operators” as you can. They should be like `<` or `<=`.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. Python 中有很多类似于 `!=` 和 `==` 的运算符。尽量找到尽可能多的“相等运算符”。它们应该类似于 `<` 或 `<=`。
 - en: 2\. Write out the names of each of these equality operators. For example, I
     call `!=` “not equal.”
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 写出每个相等运算符的名称。例如，我称 `!=` 为“不等于”。
 - en: 3\. Play with Python by typing out new Boolean operators, and before you press
     Enter, try to shout out what it is. Do not think about it. Shout the first thing
     that comes to mind. Write it down, then press Enter, and keep track of how many
     you get right and wrong.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 通过键入新的布尔运算符来玩Python，在按下回车键之前，试着大声说出它是什么。不要思考。大声说出脑海中首先出现的东西。写下来，然后按下回车，并记录你答对和答错的次数。
 - en: 4\. Throw away the piece of paper from Study Drill 3 so you do not accidentally
     try to use it later.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 丢掉第3个学习练习中的纸张，这样你就不会在以后不小心尝试使用它。
 - en: Common Student Questions
+  id: totrans-36
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why does** `"test" and "test"` **return** `"test"` **or** `1 and 1` **return**
     `1` **instead of** `True`**?** Python and many languages like to return one of
     the operands to their Boolean expressions rather than just `True` or `False`.
     This means that if you did `False and 1` you get the first operand (`False`),
     but if you do `True and 1`, you get the second (`1`). Play with this a bit.'
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么** `"test" and "test"` **返回** `"test"` **或** `1 and 1` **返回** `1` **而不是**
+    `True`**？** Python和许多其他语言喜欢返回其布尔表达式的操作数之一，而不仅仅是 `True` 或 `False`。这意味着如果你执行 `False
+    and 1`，你会得到第一个操作数（`False`），但如果你执行 `True and 1`，你会得到第二个操作数（`1`）。试着玩弄一下这个。'
 - en: '**Is there any difference between** `!=` **and** `<>`**?** Python has deprecated
     `<>` in favor of `!=`, so use `!=`. Other than that there should be no difference.'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`!=`** 和 **`<>`** 之间有什么区别吗？Python已经弃用了 **`<>`**，请使用 **`!=`**。除此之外，应该没有任何区别。'
 - en: '**Isn’t there a shortcut?** Yes. Any `and` expression that has a `False` is
     immediately `False`, so you can stop there. Any `or` expression that has a `True`
     is immediately `True`, so you can stop there. But make sure that you can process
     the whole expression because later it becomes helpful.'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '**有没有捷径？** 有。任何具有 `False` 的 `and` 表达式立即为 `False`，所以你可以在那里停止。任何具有 `True` 的 `or`
+    表达式立即为 `True`，所以你可以在那里停止。但确保你能处理整个表达式，因为以后这会变得有用。'

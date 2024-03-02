@@ -1,145 +1,216 @@
 - en: Exercise 25. Dictionaries and Functions
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习25. 字典和函数
 - en: In this exercise we’re going to do something fun by combining functions with
     `dict`s. The purpose of this exercise is to confirm that you can combine different
     things in Python. Combination is a key aspect of programming, and you’ll find
     that many “complex” concepts are nothing more than a combination of simpler concepts.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个练习中，我们将通过将函数与`dict`结合起来做一些有趣的事情。这个练习的目的是确认你可以在Python中组合不同的东西。组合是编程的关键方面，你会发现许多“复杂”的概念实际上只是更简单概念的组合。
 - en: 'Step 1: Function Names Are Variables'
+  id: totrans-2
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 第一步：函数名称是变量
 - en: 'To prepare we first have to confirm that a function’s name is just like other
     variables. Take a look at this code:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了做好准备，我们首先要确认函数的名称就像其他变量一样。看看这段代码：
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'If you run this code, you’ll see that `rename_print` does the exact same thing
     as `print_number`, and that’s because they are the same. The name of a function
     is the same as a variable, and you can reassign the name to another variable.
     It’s the same as doing this:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你运行这段代码，你会发现`rename_print`和`print_number`做的事情完全相同，这是因为它们是相同的。函数的名称与变量的名称相同，你可以将名称重新分配给另一个变量。这就像这样做一样：
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Play around with this until you get the idea. Make your own functions and then
     assign them to new names until you get that idea.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 玩弄这个，直到你明白。创建自己的函数，然后将它们分配给新名称，直到你理解这个概念。
 - en: 'Step 2: Dictionaries with Variables'
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 第二步：带有变量的字典
 - en: 'It might be obvious, but just in case you haven’t made the connection, you
     can put a variable into a `dict`:'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 这可能很明显，但以防你还没有建立联系，你可以将一个变量放入`dict`中：
 - en: '[PRE2]'
+  id: totrans-10
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: This next piece of the puzzle makes sense, since you can put values into a `dict`
     like numbers and strings. You can also assign those same values to variables,
     so it makes sense you can combine both and put a variable into a `dict`.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 接下来的拼图部分是有意义的，因为你可以将数字和字符串等值放入`dict`中。你也可以将这些相同的值分配给变量，因此将它们组合起来并将变量放入`dict`中是有意义的。
 - en: 'Step 3: Dictionaries with Functions'
+  id: totrans-12
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 第三步：带有函数的字典
 - en: 'You should be seeing where this is going, but now we can combine these concepts
     to put a function in a `dict`:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 你应该看到这是怎么回事了，但现在我们可以将这些概念结合起来，将一个函数放入`dict`中：
 - en: '[PRE3]'
+  id: totrans-14
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: I’ve taken the `color` variable from before and simply put it right in the `dict`
     for the `corvette`. Then I made a function `run` and put that into the `corvette`
     as well. The tricky part is that last line `corvette ["run"]()`, but see if you
     can figure it out based on what you know. Take some time to write out a description
     of what this line is doing before continuing on.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 我从前面的`color`变量中取出，并将其直接放入`corvette`的`dict`中。然后我创建了一个名为`run`的函数，并将其放入`corvette`中。最棘手的部分是最后一行`corvette
+    ["run"]()`，但看看你是否可以根据你所知道的来弄清楚它。在继续之前，花些时间写出这行代码正在做什么的描述。
 - en: 'Step 4: Deciphering the Last Line'
+  id: totrans-16
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 第四步：解密最后一行
 - en: 'The trick to deciphering that last line `corvette["run"]()` is to separate
     out each piece of it. What confuses people about lines like this is they see one
     single thing, “run the corvette.” The truth is this line is composed of *many*
     things working together in combination. If we break this apart, we could have
     this code:'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 解密最后一行`corvette["run"]()`的技巧是将其分解成每个部分。人们对这样的代码行感到困惑的原因是他们看到了一个单一的东西，“运行corvette”。事实上，这行代码由*许多*东西组合在一起共同工作。如果我们将其拆分开来，我们可以得到这段代码：
 - en: '[PRE4]'
+  id: totrans-18
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: 'Even those two lines isn’t the entire story, but that shows you this is at
     *least* two operations on one line: get the function with `["run"]` and then run
     the function with `()`. To break this down further we can write:'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 即使这两行并不是整个故事，但这向你展示了这至少是一行上的两个操作：使用`["run"]`获取函数，然后使用`()`运行函数。为了进一步分解这个，我们可以写成：
 - en: 1\. `corvette` tells Python to load the `dict`
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. `corvette`告诉Python加载`dict`
 - en: 2\. `[` tells Python to start an index into `corvette`
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. `[`告诉Python开始索引到`corvette`
 - en: 3\. `"run"` tells Python to use `"run"` as the key to search the `dict`
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. `"run"`告诉Python使用`"run"`作为键来搜索`dict`
 - en: 4\. `]` tells Python you are done and it should complete the index
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. `]`告诉Python你已经完成索引，它应该完成索引
 - en: 5\. Python then *returns* the contents of `corvette` that match the key `"run"`,
     which is the previous `run()` function
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. Python然后*返回*与键`"run"`匹配的`corvette`内容，这是之前的`run()`函数
 - en: 6\. Python now has the `run` function, so `()` tells Python to call it like
     you would any other function
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. Python现在有了`run`函数，所以`()`告诉Python像调用任何其他函数一样调用它
 - en: Take some time to understand how this is working, and write your own functions
     on the `corvette` to make it do more things.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 花些时间理解这是如何工作的，并在`corvette`上编写自己的函数以使其执行更多操作。
 - en: Study Drill
+  id: totrans-27
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 'You now have a nice piece of code that’s controlling a car. In this Study Drill
     you’re going to create a new function that *creates any car*. Your *creator function*
     should meet these requirements:'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你有一段控制汽车的好代码。在这个练习中，你将创建一个新的函数，*创建任何汽车*。你的*创建函数*应满足以下要求：
 - en: 1\. It should take parameters to set things like the color, speed, or anything
     else your cars can do.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 它应接受参数来设置颜色、速度或其他你的汽车可以做的任何事情。
 - en: 2\. It should create a `dict` that has the correct settings and already contains
     all the functions you’ve created.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 它应创建一个包含正确设置并已包含你创建的所有函数的`dict`。
 - en: 3\. It should return this `dict` so people can assign the results to anything
     they want and use later.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 它应返回这个`dict`，这样人们可以将结果分配给任何他们想要的东西，并以后使用。
 - en: 4\. It should be written so that someone can create any number of different
     cars and each one they make is independent.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 它应该被编写成这样，以便某人可以创建任意数量的不同汽车，每个他们制造的汽车都是独立的。
 - en: '5\. Your code should test #4 by changing settings in a few different cars and
     then confirming they didn’t change in other cars.'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 你的代码应通过改变几辆不同汽车的设置来测试#4，然后确认它们没有改变其他汽车的设置。
 - en: This challenge is different because I’ll show you the answer to the challenge
     in a later exercise. If you struggle with this challenge, then shelve it for a
     bit and move on. You’ll see this again shortly.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个挑战不同，因为我会在后面的练习中向你展示挑战的答案。如果你在这个挑战中遇到困难，那么暂时搁置它，继续前进。你很快会再次看到它。

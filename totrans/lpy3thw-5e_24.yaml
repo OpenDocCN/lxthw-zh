@@ -1,98 +1,143 @@
 - en: Exercise 21. Functions Can Return Something
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 21. 函数可以返回值
 - en: 'You have been using the `=` character to name variables and set them to numbers
     or strings. We’re now going to blow your mind again by showing you how to use
     `=` and a new Python word `return` to set variables to be a *value from a function*.
     There will be one thing to pay close attention to, but first type this in:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 你一直在使用`=`字符来命名变量并将它们设置为数字或字符串。现在我们将再次让你大开眼界，向你展示如何使用`=`和一个新的 Python 词`return`来将变量设置为来自函数的*值*。有一件事要特别注意，但首先输入这个：
 - en: 'Listing 21.1: ex21.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '代码清单 21.1: ex21.py'
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'We are now doing our own math functions for `add`, `subtract`, `multiply`,
     and `divide`. The important thing to notice is the last line where we say `return
     a + b` (in `add`). What this does is the following:'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们正在为`add`、`subtract`、`multiply`和`divide`做我们自己的数学函数。需要注意的重要一点是我们说的最后一行`return
+    a + b`（在`add`中）。这样做的效果如下：
 - en: '1\. Our function is called with two arguments: `a` and `b`.'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 我们的函数被调用时带有两个参数：`a`和`b`。
 - en: 2\. We print out what our function is doing, in this case “ADDING.”
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 我们打印出我们的函数正在做的事情，在这种情况下是“ADDING”。
 - en: '3\. Then we tell Python to do something kind of backward: we return the addition
     of `a + b`. You might say this as, “I add `a` and `b` and then return them.”'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 然后我们告诉 Python 做一些有点反向的事情：我们返回`a + b`的加法。你可以这样说，“我将`a`和`b`相加然后返回它们。”
 - en: 4\. Python adds the two numbers. Then when the function ends, any line that
     runs it will be able to assign this `a + b` result to a variable.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. Python将这两个数字相加。然后当函数结束时，运行它的任何行都可以将`a + b`的结果赋给一个变量。
 - en: As with many other things in this book, you should take this really slowly,
     break it down, and try to trace what’s going on. To help there is extra credit
     to solve a puzzle and learn something cool.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 就像本书中的许多其他内容一样，你应该慢慢来，分解问题，并尝试追踪发生了什么。为了帮助，有额外的练习来解决一个谜题并学到一些有趣的东西。
 - en: What You Should See
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的结果
 - en: '[PRE1]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-12
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习扩展
 - en: 1\. If you aren’t really sure what `return` does, try writing a few of your
     own functions and have them return some values. You can return anything that you
     can put to the right of an `=`.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 如果你不确定`return`的作用，尝试编写一些自己的函数，并让它们返回一些值。你可以返回任何可以放在`=`右侧的东西。
 - en: 2\. At the end of the script is a puzzle. I’m taking the return value of one
     function and *using* it as the argument of another function. I’m doing this in
     a chain so that I’m kind of creating a formula using the functions. It looks really
     weird, but if you run the script, you can see the results. What you should do
     is try to figure out the normal formula that would re-create this same set of
     operations.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 脚本的结尾是一个谜题。我正在将一个函数的返回值作为另一个函数的参数。我正在以链式方式执行这个操作，所以我有点像使用函数创建一个公式。看起来很奇怪，但如果你运行脚本，你会看到结果。你应该尝试找出能够重新创建相同操作集的正常公式。
 - en: 3\. Once you have the formula worked out for the puzzle, get in there and see
     what happens when you modify the parts of the functions. Try to change it on purpose
     to make another value.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 一旦你为谜题找到了公式，就深入其中，看看当你修改函数的部分时会发生什么。试着故意改变它以生成另一个值。
 - en: 4\. Do the inverse. Write a simple formula and use the functions in the same
     way to calculate it.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 做相反的操作。编写一个简单的公式，并以相同的方式使用函数来计算它。
 - en: This exercise might really wreck your brain, but take it slow and and treat
     it like a little game. Figuring out puzzles like this is what makes programming
     fun, so I’ll be giving you more little problems like this as we go.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习可能会让你的大脑混乱，但慢慢来，把它当作一个小游戏。像这样解决谜题是编程变得有趣的地方，所以在我们继续进行时，我会给你更多类似的小问题。
 - en: Common Student Questions
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why does Python print the formula or the functions “backward”?** It’s not
     really backward, it’s “inside out.” You’ll see how it works when you start breaking
     down the function into separate formulas and functions. Try to understand what
     I mean by “inside out” rather than “backward.”'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么 Python 打印公式或函数“反向”？** 它实际上不是反向的，而是“里外相反”。当你开始将函数分解为单独的公式和函数时，你会看到它是如何工作的。试着理解我所说的“里外相反”而不是“反向”。'
 - en: '**How can I use** `input()` **to enter my own values?** Remember `int(input())`?
     The problem with that is then you can’t enter floating point, so also try using
     `float(input())` instead.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我如何使用** `input()` **输入自己的值？** 还记得`int(input())`吗？问题在于你无法输入浮点数，所以也尝试使用`float(input())`。'
 - en: '**What do you mean by “write out a formula”?** Try `24 + 34 / 100 - 1023` as
     a start. Convert that to use the functions. Now come up with your own similar
     math equation, and use variables so it’s more like a formula.'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: '**“写出一个公式”是什么意思？** 尝试以`24 + 34 / 100 - 1023`为起点。将其转换为使用函数。现在想出你自己类似的数学方程，并使用变量使其更像一个公式。'

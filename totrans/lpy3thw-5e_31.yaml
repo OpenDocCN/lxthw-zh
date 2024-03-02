@@ -1,31 +1,41 @@
 - en: Exercise 28. Memorizing Logic
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习28. 记忆逻辑
 - en: Today is the day you start learning about logic. Up to this point you have done
     everything you possibly can reading and writing files, to the Terminal, and have
     learned quite a lot of the math capabilities of Python.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 今天是你开始学习逻辑的一天。到目前为止，你已经尽可能地阅读和写入文件，使用终端，并且已经学会了Python的许多数学功能。
 - en: From now on, you will be learning *logic*. You won’t learn complex theories
     that academics love to study but just the simple basic logic that makes real programs
     work and that real programmers need every day.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 从现在开始，你将学习*逻辑*。你不会学习学术界喜欢研究的复杂理论，而只会学习使真实程序运行并且真正的程序员每天都需要的简单基本逻辑。
 - en: Learning logic has to come after you do some memorization. I want you to do
     this exercise for an entire week. Do not falter. Even if you are bored out of
     your mind, keep doing it. This exercise has a set of logic tables you must memorize
     to make it easier for you to do the later exercises.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 学习逻辑必须在你进行一些记忆工作之后进行。我希望你能坚持做这个练习整整一个星期。即使你感到无聊透顶，也要坚持下去。这个练习有一组逻辑表格，你必须记住它们，以便让你更容易完成后面的练习。
 - en: I’m warning you this won’t be fun at first. It will be downright boring and
     tedious, but this teaches you a very important skill you will need as a programmer.
     You *will* need to be able to memorize important concepts in your life. Most of
     these concepts will be exciting once you get them. You will struggle with them,
     like wrestling a squid, and then one day you will understand it. All that work
     memorizing the basics pays off big later.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我警告你，一开始这可能不会很有趣。这将会非常无聊和乏味，但这会教会你作为程序员所需要的一项非常重要的技能。你*将*需要能够记忆生活中重要的概念。一旦你掌握了这些概念，大多数都会变得令人兴奋。你将与之奋斗，就像与章鱼搏斗一样，然后有一天你会理解它。所有记忆基础知识的工作以后会有很大的回报。
 - en: 'Here’s a tip on how to memorize something without going insane: Do a tiny bit
     at a time throughout the day and mark down what you need to work on most. Do not
     try to sit down for two hours straight and memorize these tables. This won’t work.
@@ -34,124 +44,190 @@
     or False) on the front, and the column on the right on the back. You should then
     take them out, see the “True or False” and immediately say “True!” Keep practicing
     until you can do this.'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下是一个提示，如何在不发疯的情况下记忆某些内容：每天分散一点时间进行学习，并记录下你最需要重点学习的内容。不要试图连续坐下两个小时来记忆这些表格。这样做是不会奏效的。你的大脑只会记住你最开始学习的15或30分钟的内容。相反，创建一堆索引卡，每一列在正面（True或False），背面是对应的列。然后拿出来，看到“True或False”立即说“True！”不断练习直到能够做到这一点。
 - en: Once you can do that, start writing out your own truth tables each night into
     a notebook. Do not just copy them. Try to do them from memory. When you get stuck,
     glance quickly at the ones I have here to refresh your memory. Doing this will
     train your brain to remember the whole table.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你能做到这一点，每天晚上开始在笔记本上写下自己的真值表。不要只是复制它们。尝试从记忆中完成。当遇到困难时，快速瞥一眼我这里的表格以刷新记忆。这样做将训练你的大脑记住整个表格。
 - en: Do not spend more than one week on this, because you will be applying it as
     you go.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 不要花费超过一周的时间在这上面，因为你将在学习过程中应用它。
 - en: The Truth Terms
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 真值术语
 - en: In Python we have the following terms (characters and phrases) for determining
     if something is “True” or “False.” Logic on a computer is all about seeing if
     some combination of these characters and some variables is True at that point
     in the program.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Python中，我们有以下术语（字符和短语）来确定某些东西在程序中是否为“True”或“False”。计算机上的逻辑完全是关于查看这些字符和一些变量的组合在程序的某一点是否为True。
 - en: • `and`
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: • `and`
 - en: • `or`
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: • `or`
 - en: • `not`
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: • `not`
 - en: • `!=` (not equal)
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: • `!=`（不等于）
 - en: • `==` (equal)
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: • `==`（等于）
 - en: • `>=` (greater-than-equal)
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: • `>=`（大于等于）
 - en: • `<=` (less-than-equal)
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: • `<=`（小于等于）
 - en: • `True`
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: • `True`
 - en: • `False`
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: • `False`
 - en: You actually have run into these characters before but maybe not the terms.
     The terms (and, or, not) actually work the way you expect them to, just like in
     English.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 你实际上之前已经遇到过这些字符，只是可能不是这些术语。这些术语（and、or、not）实际上的工作方式与你期望的一样，就像英语中一样。
 - en: The Truth Tables
+  id: totrans-20
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 真值表
 - en: 'We will now use these characters to make the truth tables you need to memorize.
     First is the table for `not X`:'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将使用这些字符制作你需要记忆的真值表。首先是`not X`的表：
 - en: '![Images](graphics/t0104-01.jpg)'
+  id: totrans-22
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0104-01.jpg)'
 - en: 'This is the table for `X or Y`:'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是`X or Y`的表格：
 - en: '![Images](graphics/t0104-02.jpg)'
+  id: totrans-24
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0104-02.jpg)'
 - en: 'Now the table for `X and Y`:'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在是`X and Y`的表格：
 - en: '![Images](graphics/t0104-03.jpg)'
+  id: totrans-26
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0104-03.jpg)'
 - en: 'Then we have the table for `not` combined with `or` as `not (X or Y)`:'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 接下来是`not`与`or`组合的表格，即`not (X or Y)`：
 - en: '![Images](graphics/t0105-01.jpg)'
+  id: totrans-28
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0105-01.jpg)'
 - en: You should compare these tables to the `or` and `and` tables to see if you notice
     a pattern. Here’s the table for `not (X and Y)`. If you can figure out the pattern,
     you might not need to memorize them.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 你应该将这些表格与`or`和`and`的表格进行比较，看看是否注意到了模式。这是`not (X and Y)`的表格。如果你能找出模式，也许就不需要记忆它们了。
 - en: '![Images](graphics/t0105-02.jpg)'
+  id: totrans-30
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0105-02.jpg)'
 - en: 'Now we get into equalities, which is testing if one thing is equal to another
     in various ways. First is `X != Y`:'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们来讨论等式，即以各种方式测试一件事是否等于另一件事。首先是`X != Y`：
 - en: '![Images](graphics/t0105-03.jpg)'
+  id: totrans-32
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0105-03.jpg)'
 - en: 'Finally we have `X == Y`:'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后是`X == Y`：
 - en: '![Images](graphics/t0105-04.jpg)'
+  id: totrans-34
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0105-04.jpg)'
 - en: Now use these tables to write up your own cards and spend the week memorizing
     them. Remember though, there is no failing in this book, just trying as hard as
     you can each day, and then a *little* bit more.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在使用这些表格编写你自己的卡片，并花一周时间记忆它们。请记住，这本书中没有失败，只有每天尽力而为，然后再多努力一点。
 - en: Common Student Questions
+  id: totrans-36
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Can’t I just learn the concepts behind Boolean algebra and not memorize this?**
     Sure, you can do that, but then you’ll have to constantly go through the rules
     for Boolean algebra while you code. If you memorize these first, not only does
     it build your memorization skills, but it also makes these operations natural.
     After that, the concept of Boolean algebra is easy. But do whatever works for
     you.'
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我不能只学习布尔代数背后的概念而不记忆这些吗？** 当然可以，但那样的话，你在编码时就必须不断查阅布尔代数的规则。如果你先记忆这些，不仅可以提高你的记忆能力，而且使这些操作变得自然。之后，布尔代数的概念就很容易了。但请按照适合你的方式去做。'

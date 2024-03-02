@@ -1,66 +1,97 @@
 - en: Exercise 20. Functions and Files
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 20. 函数和文件
 - en: Remember your checklist for functions, and then do this exercise paying close
     attention to how functions and files can work together to make useful stuff. You
     should also continue to type only a few lines before running your code. If you
     catch yourself typing too many lines, then delete them and do it again. Doing
     this uses `python` to train your understanding of Python.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 记住函数的清单，然后在这个练习中要特别注意函数和文件如何一起工作以制作有用的东西。你还应该继续在运行代码之前只输入几行。如果发现自己输入了太多行，请删除它们然后重新输入。这样做可以使用`python`来训练你对
+    Python 的理解。
 - en: Here’s the code for this exercise. Once again, it’s long, so if you find Jupyter
     is difficult to use, then write a `ex20.py` file and run it that way.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是这个练习的代码。再次强调，如果你觉得 Jupyter 难以使用，那么写一个`ex20.py`文件并以这种方式运行它。
 - en: 'Listing 20.1: ex20.py'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 20.1: ex20.py'
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Pay close attention to how we pass in the current line number each time we run
     `print_a_line`. There’s nothing new in this exercise. It has functions, and you
     know those. It has files and you know those too. Just take your time with it and
     you’ll get it.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意每次运行`print_a_line`时我们如何传入当前行号。在这个练习中没有什么新的。它有函数，你知道那些。它有文件，你也知道那些。只要花点时间，你就能理解。
 - en: What You Should See
+  id: totrans-6
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-7
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习扩展
 - en: 1\. Write English comments for each line to understand what that line does.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 为每一行写英文注释以理解该行的作用。
 - en: 2\. Each time `print_a_line` is run, you are passing in a variable `current_line`.
     Write out what `current_line` is equal to on each function call, and trace how
     it becomes `line_count` in `print_a_line`.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 每次运行`print_a_line`时，你都会传入一个变量`current_line`。写出每个函数调用中`current_line`等于什么，并跟踪它如何变成`print_a_line`中的`line_count`。
 - en: 3\. Find each place a function is used, and check its `def` to make sure that
     you are giving it the right arguments.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 找到每个函数被使用的地方，并检查其`def`以确保你给出了正确的参数。
 - en: 4\. Research online what the `seek` function for `file` does. Try `pydoc file`,
     and see if you can figure it out from there. Then try `pydoc file.seek` to see
     what `seek` does.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 在线研究`file`的`seek`函数是做什么的。尝试`pydoc file`，看看能否从中弄清楚。然后尝试`pydoc file.seek`来查看`seek`的作用。
 - en: 5\. Research the shorthand notation `+=`, and rewrite the script to use `+=`
     instead.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 研究`+=`的简写表示法，并重写脚本以使用`+=`。
 - en: Common Student Questions
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**What is** `f` **in the** `print_all` **and other functions?** The `f` is
     a variable just like you had in other functions in [Exercise 18](ch18.xhtml#ch18),
     except this time it’s a file. A file in Python is kind of like an old tape drive
@@ -70,31 +101,46 @@
     do `f.readline()` you’re reading a line from the file and moving the read head
     to the right after the `\n` that ends that line. This will be explained more as
     you go on.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`print_all`和其他函数中的`f`是什么？** `f`就像你在[练习 18](ch18.xhtml#ch18)中的其他函数中一样，只是这次它是一个文件。在
+    Python 中，文件有点像主机上的旧磁带驱动器或者可能是 DVD 播放器。它有一个“读头”，你可以“寻找”这个读头在文件中的位置，然后在那里进行操作。每次你执行`f.seek(0)`时，你都在移动到文件的开头。每次你执行`f.readline()`时，你都在从文件中读取一行，并将读头移动到结束该行的`\n`之后。随着你的学习，这将会有更多解释。'
 - en: '**Why does** `seek(0)` **not set the** `current_line` **to 0?** First, the
     `seek()` function is dealing in *bytes*, not lines. The code `seek(0)` moves the
     file to the 0 byte (first byte) in the file. Second, `current_line` is just a
     variable and has no real connection to the file at all. We are manually incrementing
     it.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么**`seek(0)`**不会将**`current_line`**设置为 0？** 首先，`seek()`函数处理的是*字节*，而不是行。代码`seek(0)`将文件移动到文件中的第
+    0 字节（第一个字节）。其次，`current_line`只是一个变量，与文件没有真正的连接。我们是手动递增它。'
 - en: '**What is** `+=`**?** You know how in English I can rewrite “it is” as “it’s”?
     Or I can rewrite “you are” as “you’re”? In English this is called a “contraction,”
     and this is kind of like a contraction for the two operations `=` and `+`. That
     means `x = x + y` is the same as `x += y`.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`+=`是什么？** 你知道在英语中我可以将“it is”重写为“it’s”吗？或者我可以将“you are”重写为“you’re”吗？在英语中，这被称为“缩略形式”，这有点像`=`和`+`两个操作的缩写。这意味着`x
+    = x + y`与`x += y`是相同的。'
 - en: '**How does** `readline()` **know where each line is?** Inside `readline()`
     is code that scans each byte of the file until it finds a `\n` character and then
     stops reading the file to return what it found so far. The file `f` is responsible
     for maintaining the current position in the file after each `readline()` call
     so that it will keep reading each line.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`readline()`** 如何知道每行在哪里？在 `readline()` 内部有代码扫描文件的每个字节，直到找到一个 `\n` 字符，然后停止读取文件并返回到目前为止找到的内容。文件
+    `f` 负责在每次 `readline()` 调用后维护文件中的当前位置，以便继续读取每一行。'
 - en: '**Why are there empty lines between the lines in the file?** The `readline()`
     function returns the `\n` that’s in the file at the end of that line. Add an `end
     = ""` at the end of your `print` function calls to avoid adding double `\n` to
     every line.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 文件中的行之间为什么有空行？`readline()` 函数返回文件中该行末尾的 `\n`。在 `print` 函数调用的末尾添加 `end = ""`
+    可以避免在每行末尾添加双重 `\n`。

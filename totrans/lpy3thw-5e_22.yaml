@@ -1,106 +1,163 @@
 - en: Exercise 19. Functions and Variables
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习19. 函数和变量
 - en: 'You’re now going to combine functions with what you know of variables from
     previous exercises. As you know, a variable gives a piece of data a name so you
     can use it in your program. If you have this code:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你将把函数与你从之前练习中了解到的变量结合起来。如你所知，变量给数据片段一个名称，这样你就可以在程序中使用它。如果你有这段代码：
 - en: '[PRE0]'
+  id: totrans-2
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: then you created a piece of data named `x` that is equal to the number 10.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 然后你创建了一个名为`x`的数据片段，它等于数字10。
 - en: 'You also know that you can call functions with parameters like this:'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 你还知道你可以像这样带参数调用函数：
 - en: '[PRE1]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: 'The parameter `arg1` is a variable similar to the `x` before, except it’s created
     for you when you *call* the function like this:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 参数`arg1`是类似于之前的`x`的变量，只是当你像这样*调用*函数时为你创建：
 - en: '[PRE2]'
+  id: totrans-7
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: 'In [Exercise 18](ch18.xhtml#ch18) you learned how Python runs functions when
     you call them, but what happens if you did this:'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 在[练习18](ch18.xhtml#ch18)中，你学习了当你调用函数时Python如何运行它们，但如果你这样做会发生什么：
 - en: '[PRE3]'
+  id: totrans-9
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: 'Instead of calling `print_one` directly with `"First!"` you’re assigning `"First!"`
     to `y` and *then* passing `y` to `print_one`. Does this work? Here’s a small sample
     code you can use to test this out in Jupyter:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 不直接使用`"First!"`调用`print_one`，而是将`"First!"`赋给`y`，然后将`y`传递给`print_one`。这样会起作用吗？这里有一小段代码示例，你可以在Jupyter中测试一下：
 - en: '[PRE4]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: 'This shows how you can combine the concept of variables `y = "First!"` with
     calling functions that use the variables. Study this and try your own variations
     before working on this longer exercise, but first a bit of advice:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这展示了如何将变量的概念`y = "First!"`与调用使用这些变量的函数相结合。在进行这个较长的练习之前，研究这个并尝试自己的变化，但首先给一点建议：
 - en: 1\. This one is long, so if you find it difficult to manage in Jupyter, then
     try typing it into an `ex19.py` file to run in Terminal.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 这个很长，如果你在Jupyter中觉得难以管理，那么尝试将其输入到一个`ex19.py`文件中在终端中运行。
 - en: '2\. As usual, you should type only a few lines at a time, but you’ll have problems
     if you type only the first line of a function. You can solve this by using the
     `pass` keyword like this: `def some_func(some_arg): pass`. The `pass` word is
     how you make an empty function without causing an error.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '2\. 通常情况下，你应该一次只输入几行代码，但如果你只输入函数的第一行，你会遇到问题。你可以使用`pass`关键字来解决这个问题，像这样：`def
+    some_func(some_arg): pass`。`pass`关键字是用来创建一个空函数而不会引发错误的方法。'
 - en: '3\. If you want to see what each function is doing, you can use “debug printing”
     like this: `print` `(">>>> I''m here", something)`. That will print out a message
     to help you “trace” through the code and see what `something` is in each function.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 如果你想看到每个函数在做什么，你可以使用“调试打印”像这样：`print` `(">>>> 我在这里", something)`。这将打印出一条消息，帮助你“跟踪”代码并查看每个函数中的`something`是什么。
 - en: 'Listing 19.1: ex19.py'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 19.1：ex19.py
 - en: '[PRE5]'
+  id: totrans-17
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE5]'
 - en: What You Should See
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE6]'
+  id: totrans-19
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE6]'
 - en: Study Drills
+  id: totrans-20
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Did you remember to type only a few lines at a time? Did you use `pass`
     to make an empty function before filling it? If not, delete your code and do it
     again.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 你记得一次只输入几行代码吗？在填充之前使用`pass`创建一个空函数了吗？如果没有，删除你的代码然后重新做一遍。
 - en: 2\. Change the name of `cheese_and_crackers` to have a spelling mistake and
     view the error message. Now fix it.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 将`cheese_and_crackers`的名称拼错，然后查看错误消息。现在修复它。
 - en: 3\. Delete one of the `+` symbols in the math to see what error you get.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 删除数学中的一个`+`符号，看看你会得到什么错误。
 - en: 4\. Make changes to the math and then try to predict what output you’ll get.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 修改数学内容，然后尝试预测你将得到什么输出。
 - en: 5\. Change the variables and try to guess the output with those changes.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 更改变量并尝试猜测这些更改后的输出。
 - en: Common Student Questions
+  id: totrans-26
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: This exercise has no questions yet, but you can ask me at [help@learncodethehardway.org](mailto:help@learncodethehardway.org)
     to get help. Maybe your question will show up here.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习目前还没有问题，但你可以通过[help@learncodethehardway.org](mailto:help@learncodethehardway.org)向我提问以获取帮助。也许你的问题会出现在这里。

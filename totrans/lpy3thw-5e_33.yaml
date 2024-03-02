@@ -1,78 +1,118 @@
 - en: Exercise 30. What If
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 30. 假如
 - en: Here is the next script of Python you will enter, which introduces you to the
     `if-statement`. Type this in, make it run exactly right, and then we’ll see if
     your practice has paid off.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是你将要输入的下一个 Python 脚本，它向你介绍了`if`语句。输入这个代码，确保它能够完美运行，然后我们将看看你的练习是否有所收获。
 - en: 'Listing 30.1: ex30.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 30.1：ex30.py
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-4
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: '`dis()` It'
+  id: totrans-6
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: '`dis()` 它'
 - en: 'For the next few exercises I want you to run `dis()` on some of the code you’re
     studying to get more insight into how it works:'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 在接下来的几个练习中，我希望你运行`dis()`在你正在学习的一些代码上，以便更深入地了解它是如何工作的：
 - en: '[PRE2]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: This is *not* something you’d do normally when programming. I only want you
     to do it here to give you one more possible way to understand what’s going on.
     If `dis()` doesn’t really help you understand the code more, then feel free to
     do it and forget it.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 这*不*是你在编程时通常会做的事情。我只是希望你在这里这样做，以便为你理解正在发生的事情提供另一种可能的方式。如果`dis()`并没有真正帮助你更好地理解代码，那么随意这样做并忘记它。
 - en: To study this, simply put the Python code next to this `dis()` output and try
     to identify the lines of Python code that match the byte codes.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 要研究这个问题，只需将 Python 代码放在这个`dis()`输出旁边，然后尝试识别与字节码匹配的 Python 代码行。
 - en: Study Drill
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 练习题
 - en: 'In this Study Drill, try to guess what you think the `if-statement` is and
     what it does. Try to answer these questions in your own words before moving on
     to the next exercise:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个练习中，试着猜测`if`语句是什么以及它的作用是什么。在继续下一个练习之前，尝试用自己的话回答这些问题：
 - en: 1\. What do you think the `if` does to the code under it?
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 你认为`if`对下面的代码有什么影响？
 - en: 2\. Why does the code under the `if` need to be indented four spaces?
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 为什么`if`下面的代码需要缩进四个空格？
 - en: 3\. What happens if it isn’t indented?
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 如果没有缩进会发生什么？
 - en: 4\. Can you put other Boolean expressions from [Exercise 28](ch28.xhtml#ch28)
     in the `if-statement`? Try it.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 你能否在`if`语句中放入来自[练习 28](ch28.xhtml#ch28)的其他布尔表达式？试一试。
 - en: 5\. What happens if you change the initial values for `people`, `cats`, and
     `dogs`?
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 如果你改变`people`、`cats`和`dogs`的初始值会发生什么？
 - en: Common Student Questions
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**What does** `+=` **mean?** The code `x += 1` is the same as doing `x = x
     + 1` but involves less typing. You can call this the “increment by” operator.
     The same goes for `-=` and many other expressions you’ll learn later.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`+=`是什么意思？** 代码`x += 1`与`x = x + 1`相同，但输入更少。你可以称之为“递增运算符”。对于`-=`和许多其他表达式，你以后会学到的也是一样。'

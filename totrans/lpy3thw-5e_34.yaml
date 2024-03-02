@@ -1,110 +1,160 @@
 - en: Exercise 31. Else and If
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习31. 否则和如果
 - en: In the previous exercise you worked out some `if-statements` and then tried
     to guess what they are and how they work. Before you learn more, I’ll explain
     what everything is by answering the questions you had from Study Drills. You did
     the Study Drills, right?
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在上一个练习中，你解决了一些`if语句`，然后试图猜测它们是什么以及它们如何工作。在学习更多之前，我将通过回答你在学习练习中提出的问题来解释一切。你做了学习练习，对吧？
 - en: 1\. What do you think the `if` does to the code under it? An `if-statement`
     creates what is called a “branch” in the code. It’s kind of like those choose-your-own-adventure
     books where you are asked to turn to one page if you make one choice and another
     if you go a different direction. The `if-statement` tells your script, “If this
     Boolean expression is True, then run the code under it; otherwise skip it.”
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 你认为`if`对其下面的代码有什么影响？`if语句`在代码中创建了所谓的“分支”。这有点像那些选择你自己冒险的书，如果你做出一个选择，就会被要求翻到一页，如果你选择另一条路，就会翻到另一页。`if语句`告诉你的脚本，“如果这个布尔表达式为真，则运行其下的代码；否则跳过它。”
 - en: 2\. Why does the code under the `if` need to be indented four spaces? A colon
     at the end of a line is how you tell Python you are going to create a new “block”
     of code, and then indenting four spaces tells Python what lines of code are in
     that block. This is *exactly* the same thing you did when you made functions in
     the first half of the book.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 为什么`if`下面的代码需要缩进四个空格？在一行的末尾加上冒号是告诉Python你将创建一个新的代码“块”，然后缩进四个空格告诉Python哪些代码行在该块中。这与你在本书的前半部分创建函数时所做的事情*完全*相同。
 - en: 3\. What happens if it isn’t indented? If it isn’t indented, you will most likely
     create a Python error. Python expects you to indent *something* after you end
     a line with a `:` (colon).
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 如果没有缩进会发生什么？如果没有缩进，你很可能会产生Python错误。Python希望你在以`:`（冒号）结尾的行之后缩进*一些*东西。
 - en: 4\. Can you put other Boolean expressions from [Exercise 28](ch28.xhtml#ch28)
     in the `if-statement`? Try it. Yes you can, and they can be as complex as you
     like, although really complex things generally are bad style.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 你能把[练习28](ch28.xhtml#ch28)中的其他布尔表达式放在`if语句`中吗？试试看。是的，你可以，而且它们可以尽可能复杂，尽管非常复杂的东西通常是不好的风格。
 - en: 5\. What happens if you change the initial values for `people`, `cats`, and
     `dogs`? Because you are comparing numbers, if you change the numbers, different
     `if-statements` will evaluate to `True`, and the blocks of code under them will
     run. Go back and put different numbers in and see if you can figure out in your
     head which blocks of code will run.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 如果更改`people`，`cats`和`dogs`的初始值会发生什么？因为你正在比较数字，如果更改数字，不同的`if语句`将评估为`True`，并且其下的代码块将运行。回去放入不同的数字，看看你是否能在脑海中弄清楚哪些代码块将运行。
 - en: Compare my answers to your answers, and make sure you *really* understand the
     concept of a “block” of code. This is important for when you do the next exercise
     where you write all the parts of `if-statements` that you can use.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 将我的答案与你的答案进行比较，并确保你*真正*理解代码“块”的概念。这对于你做下一个练习很重要，其中你将编写所有可以使用的`if语句`的部分。
 - en: Type this one in and make it work too.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 将这个输入并使其工作。
 - en: 'Listing 31.1: ex31.py'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 31.1：ex31.py
 - en: '[PRE0]'
+  id: totrans-10
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: '[PRE1]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: '`dis()` It'
+  id: totrans-13
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: '`dis()`它'
 - en: 'We’re now getting to a point where `dis()` is a bit too complicated to study.
     Let’s just pick one of the code blocks to study:'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们现在到了一个`dis()`有点太复杂的地步。让我们只选择一个代码块来学习：
 - en: '[PRE2]'
+  id: totrans-15
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: I think the best way to study this is to put the Python code next to the `dis()`
     output and try to match the lines of Python to their byte codes. If you can do
     that, then you’re going to be far ahead of many Python programmers who don’t even
     know that Python has `dis()`.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 我认为学习这个最好的方法是将Python代码放在`dis()`输出旁边，尝试将Python代码的行与其字节码匹配。如果你能做到这一点，那么你将远远领先于许多甚至不知道Python有`dis()`的Python程序员。
 - en: If you can’t figure it out, don’t worry. It’s all about pushing your knowledge
     as far as possible to find new ways to understand Python.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你搞不清楚，不要担心。这一切都是关于尽可能推动你的知识，以找到理解Python的新方法。
 - en: Study Drills
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Try to guess what `elif` and `else` are doing.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 试着猜猜`elif`和`else`在做什么。
 - en: 2\. Change the numbers of `cars`, `people`, and `trucks`, and then trace through
     each `if-statement` to see what will be printed.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 更改`cars`，`people`和`trucks`的数字，然后跟踪每个`if语句`，看看将打印出什么。
 - en: 3\. Try some more complex Boolean expressions like `cars > people or trucks
     < cars`.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 尝试一些更复杂的布尔表达式，比如`cars > people or trucks < cars`。
 - en: 4\. Above each line write an English description of what the line does.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 在每行上方写出该行的英文描述。
 - en: Common Student Questions
+  id: totrans-23
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**What happens if multiple** `elif` **blocks are** `True`**?** Python starts
     at the top and runs the first block that is `True`, so it will run only the first
     one.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如果多个** `elif` **块都为** `True`**会发生什么？** Python 从顶部开始运行第一个为`True`的块，因此只会运行第一个。'

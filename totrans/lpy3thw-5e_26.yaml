@@ -1,7 +1,9 @@
 - en: Exercise 23. Introductory Lists
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习23. 入门列表
 - en: Most programming languages have some way to store data inside the computer.
     Some languages only have raw memory locations, but programmers easily make mistakes
     when that’s the case. In modern languages you’re provided with some core ways
@@ -9,45 +11,65 @@
     (integers, strings, and even other data structures) and organizes them in some
     useful way. In this exercise we’ll learn about the sequence style of data structures
     called a `"list"` or `"Array"` depending on the language.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数编程语言都有一种将数据存储在计算机内部的方法。一些语言只有原始内存位置，但当情况如此时，程序员很容易犯错误。在现代语言中，你会得到一些核心的存储数据的方式，称为“数据结构”。数据结构将数据片段（整数、字符串，甚至其他数据结构）组织在一些有用的方式中。在这个练习中，我们将学习一种称为“`list`”或“`Array`”的序列式数据结构，具体取决于语言。
 - en: Python’s simplest sequence data structure is the `list`, which is an ordered
     list of things. You can access the elements of a `list` randomly, in order, extend
     it, shrink it, and do most anything else you could do to a sequence of things
     in real life.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: Python最简单的序列数据结构是`list`，它是一组有序的事物。你可以随机访问`list`的元素，按顺序访问，扩展它，缩小它，以及对实际生活中的一系列事物做的几乎任何其他操作。
 - en: 'You make a `list` like this:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 制作`list`的方法如下：
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'That’s all. Just put `[` (left-square-bracket) and `]` (right-square-bracket)
     around the `list` of things and separate them with commas. You can also put anything
     you want into a `list`, even other `lists`:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 就是这样。只需在要放入`list`的事物周围加上`[`（左方括号）和`]`（右方括号），并用逗号分隔它们。你甚至可以将任何东西放入`list`中，甚至其他`lists`：
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: In this code I have a `list`, and that `list` has three `lists` inside it. Each
     of those `lists` then has a name of a car type and the count of inventory. Study
     this and make sure you can take it apart when you read it. Storing `lists` inside
     `lists` inside other data structures is very common.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这段代码中，我有一个`list`，而且这个`list`里面有三个`lists`。每个`list`里面都有一个汽车类型的名称和库存数量。仔细研究这个并确保你能够在阅读时将其分解。在其他数据结构中存储`lists`在`lists`内部是非常常见的。
 - en: Accessing Elements of a List
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 访问列表的元素
 - en: 'What if you want the first element of the `inventory list`? How about the number
     of Buick cars you have on inventory? You do this:'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你想要`inventory list`的第一个元素怎么办？那么你库存中有多少辆别克汽车呢？你可以这样做：
 - en: '[PRE2]'
+  id: totrans-10
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: In the first two lines of code (after the comment) I do a two-step process.
     I use the `inventory[0]` code to get the *first* element. If you’re not familiar
     with programming languages, most start at 0, not 1, as that makes math work better
@@ -55,168 +77,263 @@
     this is a “container thing” and says we want to “index into this thing with this
     value,” in this case 0\. In the next line I take the `buicks[1]` element and get
     the count `10` from it.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 在注释之后的前两行代码中，我进行了一个两步过程。我使用`inventory[0]`代码来获取*第一个*元素。如果你不熟悉编程语言，大多数语言从0开始，而不是1，因为在大多数情况下这样数学运算更好。在变量名后面紧跟`[]`告诉Python这是一个“容器”，并表示我们要“用这个值索引到这个东西中”，在这种情况下是0。在下一行中，我取出`buicks[1]`元素，并从中获取`10`。
 - en: You don’t have to do that though as you can chain the uses of `[]` in a sequence
     so that you dive deeper into a `list` as you go. In the last line of code I do
     that with `inventory[0][1]`, which says “get the 0 element and then get the 1
     element of *that*.”
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 你不必这样做，因为你可以将`[]`的用法链接在一起，以便在进行深入研究`list`时逐步深入。在代码的最后一行中，我用`inventory[0][1]`来实现这一点，它的意思是“获取第0个元素，然后获取*那个*元素”。
 - en: Here’s where you’re going to make a mistake. The second `[1]` does not mean
     to get the entire `["Buick",` [rcurvearrowse] `10]`. It’s not linear, it’s “recursive,”
     meaning it dives into the structure. You are getting `10` in `["Buick",` [rcurvearrowse]
     `10]`. It is more accurately just a combination of the first two lines of code.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里是你可能会犯错误的地方。第二个`[1]`并不意味着获取整个`["Buick",` [rcurvearrowse] `10]`。它不是线性的，而是“递归”的，意味着它深入到结构中。你正在获取`["Buick",`
+    [rcurvearrowse] `10]`中的`10`。更准确地说，它只是前两行代码的组合。
 - en: Practicing Lists
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 练习列表
 - en: Lists are simple enough, but you need practice accessing different parts of
     very complicated `lists`. It’s important that you can *correctly* understand how
     an index into a nested `list` will work. The best way to do that is to drill using
     such a `list` in Jupyter.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表足够简单，但你需要练习访问非常复杂`lists`的不同部分。重要的是，你能够*正确地*理解如何索引到嵌套`list`中的元素。最好的方法是在Jupyter中使用这样的`list`进行练习。
 - en: How this works is I have a series of `lists` in the following code. You are
     to type this code in like normal, and then you have to use Python to access the
     elements so you get the same answers as I do.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 这段代码中我有一系列的`lists`。你需要像平常一样输入这段代码，然后使用Python访问元素，以便得到与我相同的答案。
 - en: The Code
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 代码
 - en: 'To complete this challenge you need this code:'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 要完成这个挑战，你需要这段代码：
 - en: 'Listing 23.1: ex23.py'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 代码清单 23.1：ex23.py
 - en: '[PRE3]'
+  id: totrans-20
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: It’s fine to copy-paste this code since the point of this exercise is learning
     how to access data, but if you want extra practice typing Python, then enter it
     in manually.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 可以复制粘贴这段代码，因为这个练习的重点是学习如何访问数据，但如果你想要额外练习输入Python代码，那么可以手动输入。
 - en: The Challenge
+  id: totrans-22
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 挑战
 - en: I will give you a `list` name and a piece of data in the `list`. Your job is
     to figure out what indexes you need to get that information. For example, if I
     tell you `fruit 'AAA'`, then your answer is `fruit[0][2]`. You should attempt
     to do this in your head by looking at the code and then test your guess in the
     Jupyter.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 我会给你一个名为`list`的列表和列表中的一段数据。你的任务是找出你需要获取该信息的索引。例如，如果我告诉你`fruit 'AAA'`，那么你的答案是`fruit[0][2]`。你应该试着在脑海中通过查看代码来完成这个任务，然后在Jupyter中测试你的猜测。
 - en: fruit challenge
+  id: totrans-24
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 水果挑战
 - en: 'You need to get all of these elements out of the `fruit` variable:'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`fruit`变量中获取所有这些元素：
 - en: • 12
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: • 12
 - en: • ‘AAA’
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘AAA’
 - en: • 2
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: • 2
 - en: • ‘Oranges’
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘橙子’
 - en: • ‘Grapes’
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘葡萄’
 - en: • 14
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: • 14
 - en: • ‘Apples’
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘苹果’
 - en: cars challenge
+  id: totrans-33
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 汽车挑战
 - en: 'You need to get all of these elements out of the `cars` variable:'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`cars`变量中获取所有这些元素：
 - en: • ‘Big’
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘大’
 - en: • ‘Red’
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘红色’
 - en: • 1234
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: • 1234
 - en: • ‘White’
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘白色’
 - en: • 7890
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: • 7890
 - en: • ‘Black’
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘黑色’
 - en: • 34500
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: • 34500
 - en: • ‘Blue’
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘蓝色’
 - en: languages challenge
+  id: totrans-43
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 语言挑战
 - en: 'You need to get all of these elements out of the `languages` variable:'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`languages`变量中获取所有这些元素：
 - en: • ‘Slow’
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘缓慢’
 - en: • ‘Alright’
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘好的’
 - en: • ‘Dangerous’
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘危险’
 - en: • ‘Fast’
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘快速’
 - en: • ‘Difficult’
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘困难’
 - en: • ‘Fun’
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘有趣’
 - en: • ‘Annoying’
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘烦人’
 - en: • ‘Weird’
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘奇怪’
 - en: • ‘Moderate’
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘适中’
 - en: Final Challenge
+  id: totrans-54
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 最终挑战
 - en: 'You now have to figure out what this code spells out:'
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你需要弄清楚这段代码拼出了什么：
 - en: '[PRE4]'
+  id: totrans-56
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: Don’t attempt to run this in Jupyter first. Instead, try to work out manually
     what each line will spell out, and then test it in Jupyter.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 不要首先在Jupyter中运行这段代码。相反，尝试手动计算每行将拼出什么，然后在Jupyter中测试。

@@ -1,70 +1,106 @@
 - en: Exercise 24. Introductory Dictionaries
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习24. 初级字典
 - en: In this exercise we’ll use the same data from the previous exercise on lists
     and use it to learn about Dictionaries or dicts.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个练习中，我们将使用前一个练习中的相同数据来学习字典或dicts。
 - en: Key/Value Structures
+  id: totrans-2
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 键/值结构
 - en: 'You use `key=value` data all the time without realizing it. When you read an
     email, you might have:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 你经常在不知不觉中使用`key=value`数据。当你阅读一封电子邮件时，你可能会有：
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'On the left are the keys (From, To, Subject) which are *mapped* to the contents
     on the right of the `:`. Programmers say the key is “mapped” to the value, but
     they could also say “set to” as in, “I set `From` to `j.smith@example.com`.” In
     Python I might write this same email using a data object like this:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 左边是键（From，To，Subject），它们与右边的`:`后的内容*映射*在一起。程序员说键被“映射”到值，但他们也可以说“设置为”，比如，“我将`From`设置为`j.smith@example.com`”。在Python中，我可能会使用一个数据对象来写这封电子邮件：
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: 'You create a data object by:'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过以下方式创建数据对象：
 - en: 1\. Opening it with a `{` (curly-brace)
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 用`{`（大括号）打开它
 - en: 2\. Writing the key, which is a string here, but can be numbers, or almost anything
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 写入键，这里是一个字符串，但可以是数字，或几乎任何东西
 - en: 3\. Writing a `:` (colon)
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 写入一个`:`（冒号）
 - en: 4\. Writing the value, which can be anything that’s valid in Python
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 写入值，可以是Python中有效的任何内容
 - en: 'Once you do that, you can access this Python email like this:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你这样做，你可以像这样访问这封Python电子邮件：
 - en: '[PRE2]'
+  id: totrans-13
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: 'You’ll notice that this is very similar to how you access variables and functions
     in a module that you `require`. Using the `.` (dot) is a primary way you can access
     parts of many data structures in Python. You can also access this data using the
     `[]` syntax from the previous exercise:'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 你会注意到这与你访问模块中的变量和函数的方式非常相似，你需要`require`。使用`.`（点）是你可以访问Python中许多数据结构部分的主要方式。你也可以使用前一个练习中的`[]`语法来访问这些数据：
 - en: '[PRE3]'
+  id: totrans-15
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: The only difference from `list` indexes is that you use a string (`'From'`)
     instead of an integer. However, you could use an integer as a key if you want
     (more on that soon).
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 与`list`索引的唯一区别是你使用字符串（'From'）而不是整数。但是，如果你愿意，你也可以使用整数作为键（后面会详细介绍）。
 - en: Combining Lists with Data Objects
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 将列表与数据对象结合
 - en: A common theme in programming is combining components for surprising results.
     Sometimes the surprise is a crash or a bug. Other times the surprise is a novel
     new way to accomplish some task. Either way, what happens when you make novel
@@ -72,163 +108,254 @@
     but there is usually an explanation somewhere in the language specification (even
     if that reason is absolutely stupid). There is no magic in your computer, just
     complexity you don’t understand.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 编程中的一个常见主题是将组件组合以获得令人惊讶的结果。有时惊喜是崩溃或错误。其他时候，惊喜是一种新颖的完成某项任务的方式。无论如何，当你进行新颖的组合时发生了什么并不是真正的惊喜或秘密。对于*你*来说可能是惊喜的，但语言规范中通常会有一个解释（即使这个原因绝对愚蠢）。你的计算机中没有魔法，只有你不理解的复杂性。
 - en: 'A good example of combining Python components is putting data Objects inside
     `lists`. You can do this:'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 将数据对象放入`lists`中的一个很好的例子。你可以这样做：
 - en: '[PRE4]'
+  id: totrans-20
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: 'Once I do that I can now use `list` syntax to access the data objects like
     this:'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦我这样做了，我现在可以使用`list`语法来访问数据对象，就像这样：
 - en: '[PRE5]'
+  id: totrans-22
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE5]'
 - en: Notice how I can also use the `.` (dot) syntax on the data object right after
     doing `messages[0]`? Again, you can try combining features to see if they work,
     and if they do, go find out why because there’s always a reason (even if it’s
     stupid).
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意我在`messages[0]`后面立即使用`.`（点）语法的方式？再次尝试结合功能，看看它们是否有效，如果有效，找出原因，因为总会有一个原因（即使它很愚蠢）。
 - en: The Code
+  id: totrans-24
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 代码
 - en: You are now going to repeat the exercise you did with `lists` and write out
     three data objects I’ve crafted. Then you’ll type them into Python and attempt
     to access the data I give you. Remember to try to do this in your head and then
     check your work with Python. You should also practice doing this to `list` and
     `dict` structures until you’re confident you can access the contents. You’ll realize
     that the data is the same, it’s simply been restructured.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在，你将重复使用`lists`的练习，并写出我精心制作的三个数据对象。然后，你将把它们输入到Python中，并尝试访问我给你的数据。记得尝试在脑海中完成这个任务，然后用Python检查你的工作。你还应该练习对`list`和`dict`结构进行这样的操作，直到你有信心可以访问内容。你会意识到数据是相同的，只是被重新构造了。
 - en: 'Listing 24.1: ex24.py'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表24.1: ex24.py'
 - en: '[PRE6]'
+  id: totrans-27
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE6]'
 - en: What You Should See
+  id: totrans-28
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的结果
 - en: Keep in mind that you’re doing some complicated data access moves here, so take
     it slow. You have to go through the `data` variable you assign the module to,
     and then access `lists`, followed by data objects, and in some cases another `list`.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 请记住，你在这里进行了一些复杂的数据访问操作，所以要慢慢来。你必须遍历你分配给模块的`data`变量，然后访问`lists`，接着是数据对象，有时还有另一个`list`。
 - en: The Challenge
+  id: totrans-30
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 挑战
 - en: I will give you the exact same set of data elements for you to get. Your job
     is to figure out what indexing you need to get that information. For example,
     if I tell you `fruit 'AAA'`, then your answer is `fruit[0].rating`. You should
     attempt to do this in your head by looking at the code and then test your guess
     in the `python` shell.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 我会给你完全相同的数据元素集，你需要找出获取这些信息所需的索引。例如，如果我告诉你`fruit 'AAA'`，那么你的答案是`fruit[0].rating`。你应该试着在脑海中通过查看代码来做到这一点，然后在`python`
+    shell中测试你的猜测。
 - en: fruit challenge
+  id: totrans-32
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 水果挑战
 - en: 'You need to get all of these elements out of the `fruit` variable:'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`fruit`变量中取出所有这些元素：
 - en: • 12
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: • 12
 - en: • ‘AAA’
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘AAA’
 - en: • 2
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: • 2
 - en: • ‘Oranges’
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘橙子’
 - en: • ‘Grapes’
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘葡萄’
 - en: • 14
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: • 14
 - en: • ‘Apples’
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘苹果’
 - en: cars challenge
+  id: totrans-41
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 汽车挑战
 - en: 'You need to get all of these elements out of the `cars` variable:'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`cars`变量中取出所有这些元素：
 - en: • ‘Big’
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘大的’
 - en: • ‘Red’
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘红色的’
 - en: • 1234
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: • 1234
 - en: • ‘White’
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘白色的’
 - en: • 7890
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: • 7890
 - en: • ‘Black’
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘黑色的’
 - en: • 34500
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: • 34500
 - en: • ‘Blue’
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘蓝色的’
 - en: languages challenge
+  id: totrans-51
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 语言挑战
 - en: 'You need to get all of these elements out of the `languages` variable:'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要从`languages`变量中取出所有这些元素：
 - en: • ‘Slow’
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘慢的’
 - en: • ‘Alright’
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘好的’
 - en: • ‘Dangerous’
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘危险的’
 - en: • ‘Fast’
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘快的’
 - en: • ‘Difficult’
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘困难的’
 - en: • ‘Fun’
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘有趣的’
 - en: • ‘Annoying’
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘烦人的’
 - en: • ‘Weird’
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘奇怪的’
 - en: • ‘Moderate’
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: • ‘适度的’
 - en: Final Challenge
+  id: totrans-62
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 最终挑战
 - en: Your final challenge is to write out the Python code that writes out the same
     song lyric from [Exercise 23](ch23.xhtml#ch23). Again, take it slow and try to
     do it in your head before seeing whether you get it right. If you get it wrong,
@@ -236,10 +363,14 @@
     the lyrics in my head in one shot and didn’t get it wrong. I am also *way* more
     experienced than you are, so you will probably make some mistakes and that is
     alright.
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 你的最终挑战是编写出写出与[练习 23](ch23.xhtml#ch23)中相同歌词的 Python 代码。再次慢慢来，试着在脑海中完成再看看你是否做对了。如果你做错了，花时间理解为什么错了。作为对比，我在脑海中一次性写出了歌词，没有出错。我也比你有更多经验，所以你可能会犯一些错误，那也没关系。
 - en: You didn’t know those were song lyrics? It’s a Prince song called “Little Red
     Corvette.” You are now ordered to listen to 10 Prince songs before you continue
     with this book or we cannot be friends anymore. Anymore!
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: 你不知道这些是歌词吗？这是一首由王子演唱的歌曲叫做“Little Red Corvette”。在继续阅读本书之前，你现在被命令听 10 首王子的歌曲，否则我们就不能再做朋友了。再也不能！

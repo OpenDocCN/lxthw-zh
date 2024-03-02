@@ -1,266 +1,410 @@
 - en: Exercise 18. Names, Variables, Code, Functions
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 18. 名称、变量、代码、函数
 - en: Big title, right? I am about to introduce you to *the function*! Dum dum dah!
     Every programmer will go on and on about functions and all the different ideas
     about how they work and what they do, but I will give you the simplest explanation
     you can use right now.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 大标题，对吧？我将要向你介绍*函数*！Dum dum dah！每个程序员都会滔滔不绝地谈论函数以及它们如何工作和做什么，但我会给你一个你现在可以使用的最简单的解释。
 - en: 'Functions do three things:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 函数有三个作用：
 - en: 1\. They name pieces of code the way variables name strings and numbers
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 它们命名代码片段的方式就像变量命名字符串和数字一样
 - en: 2\. They take arguments the way Python scripts take `argv` in [Exercise 13](ch13.xhtml#ch13)
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 它们接受参数的方式就像 Python 脚本在[练习 13](ch13.xhtml#ch13)中接受`argv`
 - en: 3\. Using 1 and 2, they let you make your own “mini-scripts” or “tiny commands”
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 使用 1 和 2，它们让你制作自己的“迷你脚本”或“微型命令”
 - en: 'You can create an *empty* function by using the word `def` in Python like this:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 你可以像这样在 Python 中使用`def`来创建一个*空*函数：
 - en: 'Listing 18.1: ex18_demo.py'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.1: ex18_demo.py'
 - en: '[PRE0]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'This creates the function, but the `pass` keyword tells Python this function
     is empty. To make the function do something, you add the code for the function
     *under* the `def` line, but indent it four spaces:'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 这创建了函数，但`pass`关键字告诉 Python 这个函数是空的。要使函数执行某些操作，你需要在`def`行下添加函数的代码，但要缩进四个空格：
 - en: 'Listing 18.2: ex18_demo.py'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.2: ex18_demo.py'
 - en: '[PRE1]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: 'This effectively assigns the code `print("I did something!")` to the name `do_something`
     so you can then use it again later in your code, similar to other variables. Using
     a function you’ve defined is how you “run” it, or “call” it:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这实际上将代码`print("I did something!")`分配给名称`do_something`，这样你以后可以再次在代码中使用它，类似于其他变量。使用你定义的函数是如何“运行”它或“调用”它的：
 - en: 'Listing 18.3: ex18_demo.py'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.3: ex18_demo.py'
 - en: '[PRE2]'
+  id: totrans-14
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: 'When the `do_something()` at the bottom runs, Python does the following:'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 当底部的`do_something()`运行时，Python 执行以下操作：
 - en: 1\. Finds the `do_something` function in Python’s memory
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 在 Python 的内存中找到`do_something`函数
 - en: 2\. Sees you’re calling it with `()`
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 看到你用`()`调用它
 - en: 3\. Jumps to where the `def do_something()` line is
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 跳转到`def do_something()`行的位置
 - en: '4\. Runs the lines of code *under* the `def`, which in this case is one line:
     `print("I did`'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 运行`def`下的代码行，这里是一行：`print("I did`
 - en: 5\. [rcurvearrowse] `something!"` When the code under the `def` is finished,
     Python exits the function and jumps back to where you called it
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. [rcurvearrowse] `something!"` 当`def`下的代码完成时，Python 退出函数并跳回到你调用它的位置
 - en: 6\. Then it continues, which in this case is the end of the code
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 然后它继续，这在这种情况下是代码的结尾
 - en: 'For this exercise you need only one more concept, which is “arguments” to functions:'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于这个练习，你只需要了解一个概念，那就是函数的“参数”：
 - en: 'Listing 18.4: ex18_demo.py'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.4: ex18_demo.py'
 - en: '[PRE3]'
+  id: totrans-24
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: 'In this case, I have two arguments (also called “parameters”) to the `do_more_things`
     function: `a` and `b`. When I call this function using `do_more_things("hello",
     1)`, Python *temporarily* assigns `a="hello"` and `b=1` and then calls the function.
     That means, inside the function `a` and `b` will have those values, and they’ll
     disappear when the function exits. It’s kind of like doing this:'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这种情况下，我有两个参数（也称为“参数”）传递给`do_more_things`函数：`a`和`b`。当我使用`do_more_things("hello",
+    1)`调用这个函数时，Python *临时*赋值`a="hello"`和`b=1`，然后调用函数。这意味着，在函数内部`a`和`b`将具有这些值，并且当函数退出时它们将消失。这有点像这样：
 - en: 'Listing 18.5: ex18_demo.py'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.5: ex18_demo.py'
 - en: '[PRE4]'
+  id: totrans-27
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: Keep in mind this is not entirely accurate, since if you called `do_more_things`
     with different arguments, the `a` and `b` would be different. It’s only an example
     of this *one* time you call it with `do_more_things ("hello", 1)`.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 请记住这并不完全准确，因为如果你用不同的参数调用`do_more_things`，`a`和`b`会不同。这只是一个例子，*一次*你用`do_more_things
+    ("hello", 1)`调用它。
 - en: Exercise Code
+  id: totrans-29
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 练习代码
 - en: 'Take some time right now to play around in Jupyter by making your own functions
     and calling them before attempting this code. Be sure you understand how your
     code jumps to functions and then jumps back. Then I’m going to have you make four
     different functions, and I’ll then show you how each one is related:'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在花点时间在 Jupyter 中玩耍，创建自己的函数并在尝试这段代码之前调用它们。确保你理解代码如何跳转到函数，然后再跳回来。然后我会让你创建四个不同的函数，然后我会展示它们之间的关系：
 - en: 'Listing 18.6: ex18.py'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 18.6: ex18.py'
 - en: '[PRE5]'
+  id: totrans-32
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE5]'
 - en: 'Let’s break down the first function, `print_two`, which is the most similar
     to what you already know from making scripts:'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们分解第一个函数`print_two`，这与你从制作脚本中已经了解的内容最相似：
 - en: 1\. First we tell Python we want to make a function using `def` for “define”.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 首先，我们告诉Python我们要使用`def`来制作一个函数，其中“def”代表“定义”。
 - en: 2\. On the same line as `def` we give the function a name. In this case we just
     called it “print_two”, but it could also be “peanuts”. It doesn’t matter, except
     that your function should have a short name that says what it does.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 在与`def`相同的行上，我们给函数命名。在这种情况下，我们只是称之为“print_two”，但也可以是“peanuts”。这不重要，除非你的函数应该有一个简短的名称，说明它的作用。
 - en: 3\. Then we tell it we want `*args` (asterisk args), which is a lot like your
     `argv` parameter but for functions. This *has* to go inside `()` parentheses to
     work.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 然后我们告诉它我们想要`*args`（星号参数），这很像你的`argv`参数，但用于函数。这*必须*放在`()`括号内才能起作用。
 - en: 4\. Then we end this line with a `:` (colon) and start indenting.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 然后我们以`:`（冒号）结束这一行并开始缩进。
 - en: 5\. After the colon all the lines that are indented four spaces will become
     attached to this name, `print_two`. Our first indented line is one that unpacks
     the arguments, the same as with your scripts.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 冒号之后，所有缩进四个空格的行都将与此名称`print_two`相关联。我们的第一个缩进行是一个解压参数的行，与您的脚本相同。
 - en: 6\. To demonstrate how it works we print these arguments out, just like we would
     in a script.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 为了演示它的工作原理，我们打印出这些参数，就像在脚本中一样。
 - en: The problem with `print_two` is that it’s not the easiest way to make a function.
     In Python we can skip the whole unpacking arguments and just use the names we
     want right inside `()`. That’s what `print_two_again` does.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: '`print_two`的问题在于这不是制作函数的最简单方法。在Python中，我们可以跳过整个解压参数的过程，直接在`()`内部使用我们想要的名称。这就是`print_two_again`的作用。'
 - en: After that you have an example of how you make a function that takes one argument
     in `print_one`.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 在那之后，你有一个在`print_one`中接受一个参数的函数示例。
 - en: Finally you have a function that has no arguments in `print_none`.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，你有一个没有参数的函数`print_none`。
 - en: Warning!
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: This is very important. Do not get discouraged right now if this doesn’t quite
     make sense. We’re going to do a few exercises linking functions to your scripts
     and show you how to make more. For now, just keep thinking “mini-script” when
     I say “function” and keep playing with them.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 这非常重要。如果现在这还不太明白，不要灰心。我们将做一些练习，将函数与你的脚本链接起来，并向你展示如何制作更多函数。现在，当我说“函数”时，只需继续思考“小型脚本”，并继续尝试。
 - en: What You Should See
+  id: totrans-45
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: 'If you run `ex18.py`, you should see:'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你运行`ex18.py`，你应该看到：
 - en: '[PRE6]'
+  id: totrans-47
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE6]'
 - en: Right away you can see how a function works. Notice that you used your functions
     the way you use things like `exists`, `open`, and other “commands.” In fact, I’ve
     been tricking you because in Python those “commands” are just functions. This
     means you can make your own commands and use them in your scripts too.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 立即你就能看到函数是如何工作的。注意你使用函数的方式就像你使用`exists`、`open`和其他“命令”一样。事实上，我一直在欺骗你，因为在Python中，这些“命令”只是函数。这意味着你可以制作自己的命令并在脚本中使用它们。
 - en: Study Drills
+  id: totrans-49
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 'Create a *function checklist* for later exercises. Write these checks on an
     index card and keep it by you while you complete the rest of these exercises or
     until you feel you do not need the index card anymore:'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 为后续练习创建一个*函数清单*。将这些检查写在一张索引卡上，并在完成其余练习时或直到你觉得不再需要索引卡时保留在身边：
 - en: 1\. Did you start your function definition with `def`?
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 你是否以`def`开始函数定义？
 - en: 2\. Does your function name have only characters and `_` (underscore) characters?
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 你的函数名称只包含字符和`_`（下划线）字符吗？
 - en: 3\. Did you put `(` (an open parenthesis) right after the function name?
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 你是否在函数名称后面放置了`(`（开括号）？
 - en: 4\. Did you put your arguments after `(` (the open parenthesis) separated by
     commas?
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 你是否在`(`（开括号）后面用逗号分隔放置了参数？
 - en: 5\. Did you make each argument unique (meaning no duplicated names)?
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 你是否使每个参数都是唯一的（即没有重复的名称）？
 - en: 6\. Did you put `):` (a close parenthesis and a colon) after the arguments?
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 你是否在参数后面放置了`):`（一个闭括号和一个冒号）？
 - en: 7\. Did you indent all lines of code you want in the function four spaces? No
     more, no less.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 7\. 你是否将所有想要放在函数中的代码都缩进了四个空格？不多也不少。
 - en: 8\. Did you “end” your function by going back to writing with no indent (“dedenting”
     we call it)?
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 8\. 你是否通过取消缩进（我们称之为“去缩进”）来“结束”函数？
 - en: 'When you run (“use” or “call”) a function, check these things:'
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你运行（“使用”或“调用”）一个函数时，请检查以下事项：
 - en: 1\. Did you call/use/run this function by typing its name?
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 你是否通过键入函数名称来调用/使用/运行此函数？
 - en: 2\. Did you put the `(` character after the name to run it?
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 你是否在名称后面放置了`(`字符以运行它？
 - en: 3\. Did you put the values you want into the parentheses separated by commas?
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 你是否将想要的值放在括号内，用逗号分隔？
 - en: 4\. Did you end the function call with a `)` character?
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 你是否以`）`字符结束了函数调用？
 - en: Use these two checklists on the remaining lessons until you do not need them
     anymore.
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: 在剩下的课程中使用这两个检查表，直到你不再需要它们为止。
 - en: 'Finally, repeat this a few times to yourself:'
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，对自己重复几次：
 - en: '[PRE7]'
+  id: totrans-66
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE7]'
 - en: Common Student Questions
+  id: totrans-67
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**What’s allowed for a function name?** The same as variable names. Anything
     that doesn’t start with a number and is letters, numbers, and underscores will
     work.'
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: '**函数名允许使用什么？** 与变量名相同。任何不以数字开头且由字母、数字和下划线组成的内容都可以。'
 - en: '**What does the** `*` **in** `*args` **do?** That tells Python to take all
     the arguments to the function and then put them in `args` as a list. It’s like
     `argv` that you’ve been using but for functions. It’s not normally used too often
     unless specifically needed.'
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: '**在** `*args` **中的** `*` **是做什么的？** 这告诉 Python 获取函数的所有参数，然后将它们作为列表放入`args`中。就像你一直在使用的`argv`，但用于函数。除非特别需要，通常不会经常使用。'
 - en: '**This feels really boring and monotonous**. That’s good. It means you’re starting
     to get better at typing in the code and understanding what it does. To make it
     less boring, take everything I tell you to type in, and then break it on purpose.'
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: '**这感觉真的很无聊和单调**。这是好事。这意味着你开始擅长输入代码并理解它的作用。为了让它不那么无聊，把我告诉你要输入的所有内容都故意打破。'

@@ -1,90 +1,135 @@
 - en: Exercise 32. Making Decisions
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 32. 做决策
 - en: In the first half of this book you mostly just printed out things called “functions,”
     but everything was basically in a straight line. Your scripts ran starting at
     the top and went to the bottom where they ended. If you made a function, you could
     run that function later, but it still didn’t have the kind of branching you need
     to really make decisions. Now that you have `if`, `else`, and `elif` you can start
     to make scripts that decide things.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这本书的前半部分，你主要只是打印出一些称为“函数”的东西，但一切基本上都是直线的。你的脚本从顶部开始运行，一直到底部结束。如果你创建了一个函数，你可以稍后运行该函数，但它仍然没有你真正需要做出决策的分支。现在你有了
+    `if`、`else` 和 `elif`，你可以开始编写决策性的脚本了。
 - en: In the last script you wrote out a simple set of tests asking some questions.
     In this script you will ask the user questions and make decisions based on their
     answers. Write this script, and then play with it quite a lot to figure it out.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在上一个脚本中，你列出了一组简单的测试，询问一些问题。在这个脚本中，你将询问用户问题，并根据他们的答案做出决定。编写这个脚本，然后多玩一下，弄清楚它的运行方式。
 - en: 'Listing 32.1: ex32.py'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '代码清单 32.1: ex32.py'
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: A key point here is that you are now putting the `if-statements` *inside* `if-statements`
     as code that can run. This is very powerful and can be used to create “nested”
     decisions, where one branch leads to another and another.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里的关键点是，现在你正在将`if-statements`放在`if-statements`内部作为可以运行的代码。这是非常强大的，可以用来创建“嵌套”决策，其中一个分支导致另一个分支。
 - en: Make sure you understand this concept of `if`-statements inside `if`-statements.
     In fact, do the Study Drills to really nail it.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 确保你理解了`if`-statements中嵌套`if`-statements的概念。实际上，做一些练习来真正掌握它。
 - en: What You Should See
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的结果
 - en: Here is me playing this little adventure game. I do not do so well.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我玩这个小冒险游戏的情况。我表现得不太好。
 - en: '[PRE1]'
+  id: totrans-9
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: '`dis()` It'
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '`dis()` 它'
 - en: 'There is no `*dis()*` *It* section this time because this code is far too complicated
     to understand, but if you’re feeling lucky, then try this:'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 这次没有 `*dis()*` *It* 部分，因为这段代码太复杂了，难以理解，但如果你感觉幸运的话，可以尝试一下：
 - en: '[PRE2]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: This will produce so much code to analyze, but do the best you can. It does
     get boring after a while, but it also helps you understand how Python works. Once
     again, if this is confusing, skip it and try it later.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 这将产生大量需要分析的代码，但尽力而为。过一段时间会变得无聊，但也有助于理解 Python 的工作原理。再次强调，如果这让你困惑，可以先跳过，以后再尝试。
 - en: Study Drills
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 练习
 - en: 1\. Make new parts of the game and change what decisions people can make. Expand
     the game out as much as you can before it gets ridiculous.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 制作游戏的新部分，并改变人们可以做出的决定。在游戏变得荒谬之前尽可能扩展游戏。
 - en: 2\. Write a completely new game. Maybe you don’t like this one, so make your
     own. This is your computer; do what you want.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 编写一个全新的游戏。也许你不喜欢这个，那就自己创造一个。这是你的电脑；做你想做的事情。
 - en: Common Student Questions
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Can you replace** `elif` **with a sequence of** `if-else` **combinations?**
     You can in some situations, but it depends on how each `if/else` is written. It
     also means that Python will check *every* `if-else` combination, rather than just
     the first false ones like it would with `if-elif-else`. Try to make some of these
     to figure out the differences.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**你能用一系列** `if-else` **组合替换** `elif` **吗？** 在某些情况下可以，但这取决于每个 `if/else` 的编写方式。这也意味着
+    Python 将检查*每个* `if-else` 组合，而不像 `if-elif-else` 那样只检查第一个为假的条件。尝试创建一些来了解差异。'
 - en: '**How do I tell whether a number is between a range of numbers?** You have
     two options: Use `0 < x` `< 10` or `1 <= x < 10`—which is classic notation—or
     use `x in range(1, 10)`.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如何判断一个数字是否在一系列数字范围内？** 你有两个选择：使用 `0 < x` `< 10` 或 `1 <= x < 10`—这是经典的表示法—或使用
+    `x in range(1, 10)`。'
 - en: '**What if I wanted more options in the** `if-elif-else` **blocks?** Add more
     `elif` blocks for each possible choice.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如果我想在** `if-elif-else` **块中增加更多选项怎么办？** 为每个可能的选择添加更多 `elif` 块。'

@@ -1,72 +1,110 @@
 - en: Exercise 35. Branches and Functions
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 35. 分支和函数
 - en: 'You have learned `if-statements`, functions, and lists. Now it’s time to bend
     your mind. Type this in, and see if you can figure out what it’s doing:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 你已经学会了`if语句`、函数和列表。现在是时候挑战你的思维了。把这个输入进去，看看你能否弄清楚它在做什么：
 - en: 'Listing 35.1: ex35.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 35.1: ex35.py'
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-4
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: 'Here’s me playing the game:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我玩游戏的样子：
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Draw a map of the game and how you flow through it.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 绘制游戏地图以及你如何在其中流动。
 - en: 2\. Fix all of your mistakes, including spelling mistakes.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 修复所有错误，包括拼写错误。
 - en: 3\. Write comments for the functions you do not understand.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 为你不理解的函数写注释。
 - en: 4\. Add more to the game. What can you do to both simplify and expand it?
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 添加更多内容到游戏中。你能做些什么来简化和扩展它？
 - en: 5\. The `gold_room` has a weird way of getting you to type a number. What are
     all the bugs in this way of doing it? Can you make it better than what I’ve written?
     Look at how `int()` works for clues.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. `gold_room` 有一种奇怪的方式让你输入一个数字。这种方式存在哪些错误？你能比我写的更好吗？看看 `int()` 的工作原理会有提示。
 - en: Common Student Questions
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Help! How does this program work!?** When you get stuck understanding a piece
     of code, simply write an English comment above *every* line explaining what that
     line does. Keep your comments short and similar to the code. Then either diagram
     how the code works or write a paragraph describing it. If you do that, you’ll
     get it.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '**救命！这个程序怎么运行的！？** 当你在理解一段代码时遇到困难时，只需在*每一行*上面写一个英文注释，解释该行的作用。保持你的评论简短并与代码相似。然后要么画出代码的工作原理，要么写一段描述它的段落。如果你这样做，你就会理解它。'
 - en: '**Why did you write** `while True`**?** That makes an infinite loop.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么你写了** `while True`**？** 这会造成一个无限循环。'
 - en: '**What does** `exit(0)` **do?** On many operating systems a program can abort
     with `exit(0)`, and the number passed in will indicate an error or not. If you
     do `exit(1)`, then it will be an error, but `exit(0)` will be a good exit. The
     reason it’s backward from normal Boolean logic (with `0==False`) is that you can
     use different numbers to indicate different error results. You can do `exit(100)`
     for a different error result than `exit(2)` or `exit(1)`.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`exit(0)` 的作用是什么？** 在许多操作系统上，一个程序可以通过 `exit(0)` 中止，传入的数字将指示是否有错误。如果你使用 `exit(1)`，那么就会有一个错误，但
+    `exit(0)` 将是一个良好的退出。它与正常的布尔逻辑相反（`0==False`）的原因是你可以使用不同的数字来指示不同的错误结果。你可以使用 `exit(100)`
+    来表示不同的错误结果，而不同于 `exit(2)` 或 `exit(1)`。'
 - en: '**Why is** `input()` **sometimes written as** `input(''> '')`**?** The parameter
     to `input` is a string that it should print as a prompt before getting the user’s
     input.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么** `input()` **有时写成** `input(''> '')`**？** `input` 的参数是一个字符串，它应该在获取用户输入之前打印作为提示。'

@@ -1,38 +1,50 @@
 - en: Exercise 27. The Five Simple Rules to the Game of Code
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习27. 编程游戏的五个简单规则
 - en: Info
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 信息
 - en: This exercise is intended to be studied periodically while you study the next
     exercises. You’re expected to take this very slowly and to mix it with other explanations
     until you finally get it. If you get lost in this exercise, take a break and do
     the next ones. Then if you get confused in a later exercise, come back and study
     the details I describe here. Keep doing this until it “clicks.” Remember, you
     can’t fail, so just keep trying until you get it.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习旨在在你学习下一个练习时定期学习。你应该慢慢来，将其与其他解释混合在一起，直到最终理解。如果在这个练习中迷失了方向，休息一下，然后进行下一个练习。然后，如果在后面的练习中感到困惑，回来学习我在这里描述的细节。一直坚持下去，直到“豁然开朗”。记住，你不会失败，所以继续努力直到理解为止。
 - en: If you play a game like Go or Chess, you know the rules are fairly simple, yet
     the games they enable are extremely complex. Really good games have this unique
     quality of simple rules with complex interactions. Programming is also a game
     with a few simple rules that create complex interactions, and in this exercise
     we’re going to learn what those rules are.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你玩围棋或国际象棋这样的游戏，你会知道规则相当简单，但它们所启用的游戏却极其复杂。真正好的游戏具有简单规则和复杂互动的独特品质。编程也是一个具有少量简单规则的游戏，这些规则创造了复杂的互动，在这个练习中，我们将学习这些规则是什么。
 - en: Before we do that, I need to stress that you most likely won’t use these rules
     directly when you code. There are languages that do utilize these rules directly,
     and your CPU uses them too, but in daily programming you’ll rarely use them. If
     that’s the case, then why learn the rules?
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我们做这个之前，我需要强调的是，当你编写代码时，你很可能不会直接使用这些规则。有些语言确实直接利用这些规则，你的 CPU 也使用它们，但在日常编程中你很少会使用它们。如果是这样，那么为什么要学习这些规则呢？
 - en: Because these rules are everywhere, and understanding them will help you understand
     the code you write. It’ll help you debug the code when it goes wrong. If you ever
     want to know how the code works, you’ll be able to “disassemble” it down to its
     basic rules and really see how it works. These rules are a cheat *code*. Pun totally
     intended.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 因为这些规则无处不在，理解它们将帮助你理解你编写的代码。当代码出错时，它将帮助你调试代码。如果你想知道代码是如何工作的，你将能够将其“分解”到基本规则，真正看到它是如何工作的。这些规则就像是一个秘密的*代码*。完全是故意的双关语。
 - en: I’m also going to warn you that **you are not expected to totally understand
     this right away**. Think of this exercise as setting you up for the rest of the
     exercises in this module. You’re expected to study this exercise deeply, and when
@@ -41,39 +53,57 @@
     You should also study these rules as deeply as you can, but don’t get stuck here.
     Struggle for a few days, move on, come back, and keep trying. As long as you keep
     trying, you can’t actually “fail.”
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 我还要警告你**不要期望立即完全理解这一点**。把这个练习看作是为本模块中其余练习做准备。你应该深入研究这个练习，当遇到困难时，继续进行下一个练习作为休息。你应该在这个练习和下一个练习之间来回跳动，直到概念“豁然开朗”并开始变得有意义。你也应该尽可能深入地研究这些规则，但不要在这里卡住。挣扎几天，继续前进，回来，继续努力。只要你继续努力，你实际上不可能“失败”。
 - en: 'Rule 1: Everything Is a Sequence of Instructions'
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 规则1：一切都是一系列指令
 - en: 'All programs are a sequence of instructions that tell a computer to do something.
     You’ve seen Python doing this already when you type code like this:'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 所有程序都是一系列指令，告诉计算机做某事。当你输入这样的代码时，你已经看到 Python 在做这个了：
 - en: '[PRE0]'
+  id: totrans-9
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'This code starts at line 1, goes to line 2, and so on until the end. That’s
     a sequence of instructions, but inside Python these three lines are converted
     into another sequence of instructions that look like this:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 这段代码从第1行开始，到第2行，依此类推直到结束。这是一系列指令，但在 Python 中，这三行被转换为另一系列指令，看起来像这样：
 - en: '[PRE1]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: That looks totally different from the Python version, but I *bet* you could
     probably figure out what this sequence of instructions is doing. I’ve added comments
     to explain each instruction, and you should be able to connect it back to the
     previous Python code.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这看起来与 Python 版本完全不同，但我*敢打赌*你可能能够猜出这一系列指令在做什么。我已经添加了注释来解释每个指令，你应该能够将其与之前的 Python
+    代码联系起来。
 - en: I’m not joking. Take some time right now to connect each line of the Python
     code to the lines of this “byte code.” Using the comments I provided I’m positive
     you can figure it out, and doing so might turn on a light in your head about the
     Python code.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不是在开玩笑。现在花点时间将 Python 代码的每一行与这个“字节码”的行联系起来。使用我提供的注释，我相信你可以弄清楚，这样做可能会在你的脑海中点亮一盏灯，让你更好地理解
+    Python 代码。
 - en: It’s not necessary to memorize this or even understand each of these instructions.
     What you should realize is your Python code is being translated into a sequence
     of simpler instructions that tell the computer to do something. This sequence
@@ -81,393 +111,583 @@
     a sequence of numbers a computer understands. The output you see above is usually
     called an “assembly language” because it’s a human “readable” (barely) version
     of those bytes.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 不需要记住这些指令，甚至不需要理解每一条指令。你应该意识到的是，你的 Python 代码被翻译成了一系列简单的指令，告诉计算机做什么。这个指令序列被称为“字节码”，因为它通常以一系列计算机理解的数字的形式存储在文件中。你在上面看到的输出通常被称为“汇编语言”，因为它是这些字节的人类“可读”（勉强）版本。
 - en: These simpler instructions are processed starting at the top, do one small thing
     at a time, and go to the end when the program exits. That’s just like your Python
     code but with a simpler syntax of `INSTRUCTION OPTIONS`. Another way to look at
     this is each part of `x = 10` might become its own instructions in this “byte
     code.”
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些简单的指令从顶部开始处理，一次执行一个小操作，当程序退出时到达末尾。这就像你的 Python 代码，但语法更简单，是`INSTRUCTION OPTIONS`的形式。另一种看待这个问题的方式是，`x
+    = 10`的每个部分可能会在这个“字节码”中成为自己的指令。
 - en: 'That’s the first rule of The Game of Code: Everything you write eventually
     becomes a sequence of bytes fed to a computer as instructions for what the computer
     should do.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是《编码游戏》的第一条规则：你写的每一行最终都会成为一系列字节，作为计算机的指令输入，告诉计算机应该做什么。
 - en: How can I get this output?
+  id: totrans-17
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 我怎样才能得到这个输出？
 - en: 'To get this output yourself, you use a module called `[dis](https://docs.python.org/3/library/dis.xhtml)`,
     which stands for “disassemble.” This kind of code is traditionally called “byte
     code” or “assembly language,” so `dis` means to “disassemble.” To use `dis` you
     can import it and use the `dis()` function like this:'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 要自己得到这个输出，你可以使用一个名为`[dis](https://docs.python.org/3/library/dis.xhtml)`的模块，它代表“disassemble”。这种代码传统上被称为“字节码”或“汇编语言”，所以`dis`的意思是“反汇编”。要使用`dis`，你可以导入它并像这样使用`dis()`函数：
 - en: '[PRE2]'
+  id: totrans-19
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: 'In this Python code I’m doing the following:'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个 Python 代码中，我正在做以下事情：
 - en: 1\. I import the `dis()` function from the `dis` module
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 我从`dis`模块中导入`dis()`函数
 - en: 2\. I run the `dis()` function, but I give it a multi-line string using `'''`
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 我运行`dis()`函数，但使用`'''`给它一个多行字符串
 - en: 3\. I then write the Python code I want to disassemble into this multi-line
     string
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 我接着将想要反汇编的 Python 代码写入这个多行字符串中
 - en: 4\. Finally, I end the multi-line string and the `dis()` function with `''')`
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 最后，我用`''')`结束多行字符串和`dis()`函数
 - en: When you run this in Jupyter, you’ll see it dump the byte code like I have above,
     but maybe with some extras we’ll cover in a minute.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你在 Jupyter 中运行这个代码时，你会看到它像我上面展示的那样输出字节码，但也许会有一些我们马上会讨论的额外内容。
 - en: Where are these bytes stored?
+  id: totrans-26
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 这些字节存储在哪里？
 - en: When you run Python (version 3), these bytes are stored in a directory named
     `__pycache__`. If you put this code into a `ex19.py` file and then run it with
     `python ex19.py`, you should see this directory.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你运行 Python（版本 3）时，这些字节会存储在一个名为`__pycache__`的目录中。如果你将这段代码放入一个名为`ex19.py`的文件中，然后用`python
+    ex19.py`运行它，你应该会看到这个目录。
 - en: Looking in this directory you should see a bunch of files ending in `.pyc` with
     names similar to the code that generated them. These `.pyc` files contain your
     compiled Python code as bytes.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个目录中，你应该会看到一堆以`.pyc`结尾的文件，名称类似于生成它们的代码。这些`.pyc`文件包含了你编译后的 Python 代码的字节。
 - en: When you run `dis()`, you’re printing a human-readable version of the numbers
     in the `.pyc` file.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你运行`dis()`时，你正在打印`.pyc`文件中数字的人类可读版本。
 - en: 'Rule 2: Jumps Make the Sequence Non-Linear'
+  id: totrans-30
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 规则 2：跳转使序列变得非线性
 - en: 'A sequence of simple instructions like `LOAD_CONST 10` is not very useful.
     Yay! You can load the number 10! Amazing! Where code starts to become useful is
     when you add the concept of the “jump” to make this sequence *non-linear*. Let’s
     look at a new piece of Python code:'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 像`LOAD_CONST 10`这样的一系列简单指令并不是很有用。耶！你可以加载数字 10！太棒了！代码开始变得有用的地方是当你添加“跳转”概念使这个序列*非线性*。让我们看一个新的
+    Python 代码片段：
 - en: '[PRE3]'
+  id: totrans-32
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: To understand this code we have to foreshadow a later exercise where you learn
     about the `while-loop`. The code `while True:` simply says “Keep running the code
     under me `x = 10` while `True` is `True`.” Since `True` will always be `True`,
     this will loop forever. If you run this in Jupyter, it will never end.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 要理解这段代码，我们必须预示一个稍后的练习，你将学习关于 `while-loop`。代码 `while True:` 简单地表示“在 `True` 为
+    `True` 时继续运行我的代码 `x = 10`。”由于 `True` 将始终为 `True`，这将永远循环。如果在 Jupyter 中运行，它永远不会结束。
 - en: 'What happens when you `dis()` this code? You see the new instruction `JUMP_ABSOLUTE`:'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你 `dis()` 这段代码时会发生什么？你会看到新的指令 `JUMP_ABSOLUTE`：
 - en: '[PRE4]'
+  id: totrans-35
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: You saw the first two instructions when we covered the `x = 10` code, but now
     at the end we have `JUMP_ABSOLUTE 0`. Notice there’s numbers `0`, `2`, and `4`
     to the left of these instructions? In the previous code I cut them out so you
     wouldn’t be distracted, but here they’re important because they represent locations
     in the sequence where each instruction lives. All `JUMP_ABSOLUTE 0` does is tell
     Python to “jump to the instruction at position 0”, which is `LOAD_CONST 1 (10)`.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我们讨论 `x = 10` 代码时，你看到了前两个指令，但现在在结尾我们有 `JUMP_ABSOLUTE 0`。注意这些指令左边有数字 `0`、`2`
+    和 `4`？在之前的代码中我把它们剪掉了，这样你就不会被分心，但在这里它们很重要，因为它们代表每个指令所在位置的序列。所有 `JUMP_ABSOLUTE 0`
+    做的就是告诉 Python “跳转到位置 0 处的指令”，即 `LOAD_CONST 1 (10)`。
 - en: With this simple instruction we now have turned boring straight line code into
     a more complex loop that’s not straight anymore. Later we’ll see how jumps combine
     with tests to allow even more complex movements through the sequence of bytes.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过这个简单的指令，我们现在已经将无聊的直线代码转变成了一个更复杂的循环，不再是直线了。稍后我们将看到跳转如何与测试结合，允许更复杂的移动通过字节序列。
 - en: Why is this backwards?
+  id: totrans-38
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 为什么是反向的？
 - en: 'You may have noticed that the Python code reads as “while True is True set
     x equal to 10” but the `dis()` output reads more like “set x equal to 10, jump
     to do it again.” That’s because of Rule #1, which says we have to produce a *sequence
     of bytes only*. There are no nested structures, or any syntax more complex than
     `INSTRUCTION OPTIONS`, allowed.'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '你可能已经注意到 Python 代码读起来像“当 True 为 True 时将 x 设置为 10”，但 `dis()` 输出更像是“将 x 设置为 10，跳转以再次执行”。这是因为规则
+    #1，它说我们只能生成一个 *字节序列*。不允许有嵌套结构，或任何比 `INSTRUCTION OPTIONS` 更复杂的语法。'
 - en: To follow this rule Python has to figure out how to translate its code into
     a sequence of bytes that produces the desired output. That means moving the actual
     repetition part to the end of the sequence so it will be in a sequence. You’ll
     find this “backwards” nature comes up often when looking at byte codes and assembly
     language.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了遵循这个规则，Python 必须找出如何将其代码转换为产生所需输出的字节序列。这意味着将实际的重复部分移动到序列的末尾，以便它在一个序列中。当查看字节码和汇编语言时，你会经常发现这种“反向”的特性。
 - en: Can a JUMP go forward?
+  id: totrans-41
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 一个 JUMP 能前进吗？
 - en: Yes, technically a JUMP instruction is simply telling the computer to process
     a different instruction in the sequence. It can be the next one, a previous one,
     or one in the future. The way this works is the computer keeps track of the “index”
     of the current instruction, and it simply increments that index.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 是的，技术上，JUMP 指令只是告诉计算机在序列中处理不同的指令。它可以是下一个，前一个，或未来的一个。这是计算机跟踪当前指令“索引”的方式，它简单地递增该索引。
 - en: When you JUMP, you’re telling the computer to change this index to a new location
     in the code. In the code for our `while` loop (below) the `JUMP_ABSOLUTE` is at
     index `4` (see the 4 to the left). After it runs, the index changes to `0` where
     the `LOAD_CONST` is located, so the computer runs that instruction again. This
     loops forever.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你 JUMP 时，你在告诉计算机将这个索引更改到代码中的一个新位置。在我们的 `while` 循环代码中（下面），`JUMP_ABSOLUTE` 在索引
+    `4` 处（看左边的 4）。运行后，索引会更改为 `0`，在那里是 `LOAD_CONST` 的位置，所以计算机再次运行该指令。这将永远循环。
 - en: '[PRE5]'
+  id: totrans-44
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE5]'
 - en: 'Rule 3: Tests Control Jumps'
+  id: totrans-45
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 规则 3：测试控制跳转
 - en: 'A JUMP is useful for looping, but what about making decisions? A common thing
     in programming is to ask questions like:'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: JUMP 对于循环很有用，但是如何做决策呢？编程中的一个常见问题是提出类似的问题：
 - en: “If x is greater than 0 then set y to 10.”
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: “如果 x 大于 0，则将 y 设置为 10。”
 - en: 'If we write this out in simple Python code, it might look like this:'
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果我们用简单的 Python 代码写出来，可能会像这样：
 - en: '[PRE6]'
+  id: totrans-49
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE6]'
 - en: 'Once again, this is foreshadowing something you’ll learn later, but this is
     simple enough to figure out:'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 再次，这是预示你将来会学到的东西，但这足够简单可以理解：
 - en: 1\. Python will *test* if `x` is greater than `>` 0
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. Python 将 *测试* `x` 是否大于 `>` 0
 - en: 2\. If it is, then Python will run the line `y = 10`
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 如果是，那么 Python 将运行行 `y = 10`
 - en: 3\. You see how that line is indented under the `if x > 0:`? That is called
     a “block” and Python uses indentation to say “this indented code is part of the
     code above it”
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 你看到那行缩进在`if x > 0:`下面了吗？这被称为“块”，Python使用缩进来表示“这个缩进的代码是上面代码的一部分”
 - en: 4\. If `x` is *NOT* greater than `0`, then Python will *JUMP* over the `y =
     10` line to skip it
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 如果`x`*不*大于`0`，那么Python将*跳过*`y = 10`行以跳过它
 - en: To do this with our Python byte code we need a new instruction that implements
     the testing part. We have the JUMP. We have variables. We just need a way to *compare*
     two things and then a JUMP based on that comparison.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 要使用我们的Python字节码来实现测试部分，我们需要一个实现测试部分的新指令。我们有JUMP。我们有变量。我们只需要一种方法来*比较*两个东西，然后根据比较跳转。
 - en: 'Let’s take that code and `dis()` it to see how Python does this:'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们拿这段代码并用`dis()`来看看Python是如何做到这一点的：
 - en: '[PRE7]'
+  id: totrans-57
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE7]'
 - en: 'The key part of this code is the `COMPARE_OP` and `POP_JUMP_IF_FALSE`:'
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 这段代码的关键部分是`COMPARE_OP`和`POP_JUMP_IF_FALSE`：
 - en: '[PRE8]'
+  id: totrans-59
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE8]'
 - en: 'Here’s what this code does:'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 这段代码的作用是：
 - en: 1\. Use `LOAD_NAME` to load the `x` variable
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 使用`LOAD_NAME`加载`x`变量
 - en: 2\. Use `LOAD_CONST` to load the `0` constant
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 使用`LOAD_CONST`加载常量`0`
 - en: 3\. Use `COMPARE_OP`, which does the `>` comparison and leaves a `True` or `False`
     result for later
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 使用`COMPARE_OP`，进行`>`比较并留下`True`或`False`结果供以后使用
 - en: 4\. Finally, `POP_JUMP_IF_FALSE` makes the `if x > 0` work. It “pops” the `True`
     or `False` value to get it, and if it reads `False`, it will `JUMP` to instruction
     20
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 最后，`POP_JUMP_IF_FALSE`使`if x > 0`起作用。它“弹出”`True`或`False`值以获取它，如果读取到`False`，它将`JUMP`到指令20
 - en: 5\. Doing that will jump over the code that set `y` if the comparison is `False`,
     *but* if the comparison is `True`, then Python just runs the next instruction,
     which starts the `y = 10` sequence
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 这将跳过设置`y`的代码，如果比较结果是`False`，*但是*如果比较结果是`True`，那么Python将运行下一条指令，从而开始`y =
+    10`序列
 - en: Take some time walking through this to try to understand it. If you have a printer,
     try printing it out and set `x` to different values manually, and then trace through
     how the code works. What happens when you set `x = -1`?
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: 花点时间仔细研究一下这个问题。如果你有打印机，尝试打印出来并手动设置`x`为不同的值，然后跟踪代码的运行过程。当你设置`x = -1`时会发生什么？
 - en: What do you mean “pop”?
+  id: totrans-67
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 你说的“pop”是什么意思？
 - en: In the previous code I’m skipping over exactly how Python “pops” the value to
     read it, but it’s storing it in something called a “stack.” For now just think
     of it as a temporary storage place that you “push” values into and then “pop”
     them off. You really don’t need to go much deeper than that at this stage in your
     learning. Just understand the effect is to get the result of the last instruction.
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: 在前面的代码中，我跳过了Python如何“弹出”值来读取它的部分，但它将其存储在一个称为“堆栈”的东西中。现在只需将其视为一个临时存储位置，你可以将值“推入”其中，然后将其“弹出”。在你的学习阶段，你真的不需要深入了解更多。只需了解其效果是获取最后一条指令的结果。
 - en: Wait, aren’t tests like `*COMPARE_OP*` used in loops too?
+  id: totrans-69
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 等等，像`*COMPARE_OP*`这样的测试也在循环中使用吗？
 - en: Yes, and you could probably figure out how that works right now based on what
     you know. Try to write a `while-loop` and see if you can get it to work with what
     you know now. Don’t worry if you can’t though as we’ll be covering this in later
     exercises.
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: 是的，基于你现在所知道的，你可能可以立即弄清楚它是如何工作的。尝试编写一个`while-loop`，看看你是否可以根据你现在所知道的知识使其工作。如果你不能，不要担心，因为我们将在后续练习中涵盖这个内容。
 - en: 'Rule 4: Storage Controls Tests'
+  id: totrans-71
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 规则4：存储控制测试
 - en: 'You need some way to keep track of changing data while the code operates, and
     this is done with “storage.” Usually this storage is in the computer’s memory
     and you create names for the data you’re storing in memory. You’ve been doing
     this when you write code like this:'
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: 在代码运行时，你需要一种方式来跟踪数据的变化，这通过“存储”来实现。通常这种存储是在计算机的内存中，你为存储在内存中的数据创建名称。当你编写这样的代码时，你一直在这样做：
 - en: '[PRE9]'
+  id: totrans-73
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE9]'
 - en: In each of the previous lines we’re making a new piece of data and storing it
     in memory. We’re also giving these pieces of memory the names `x`, `y`, and `z`.
     We can then use these names to “recall” those values from memory, which is what
     we do in `z = x + y`. We’re just recalling the value of `x` and `y` from memory
     to add them together.
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: 在前面的每一行中，我们都在创建一个新的数据片段并将其存储在内存中。我们还为这些内存片段赋予了名称`x`、`y`和`z`。然后我们可以使用这些名称从内存中“召回”这些值，这就是我们在`z
+    = x + y`中所做的。我们只是从内存中召回`x`和`y`的值然后将它们相加。
 - en: That’s the majority of the story, but the important part of this little rule
     is that you almost always use memory to control tests.
+  id: totrans-75
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是这个小规则的大部分内容，但这个小规则的重要部分是你几乎总是使用内存来控制测试。
 - en: 'Sure, you can write code like this:'
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: 当然，你可以编写这样的代码：
 - en: '[PRE10]'
+  id: totrans-77
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE10]'
 - en: That’s pointless though since it’s just running the second line after a pointless
     test. `1` is always less than `2`, so it’s useless.
+  id: totrans-78
   prefs: []
   type: TYPE_NORMAL
+  zh: 不过这是毫无意义的，因为它只是在一个毫无意义的测试之后运行第二行。`1`始终小于`2`，所以这是无用的。
 - en: Where tests like `COMPARE_OP` shine is when you use variables to make the tests
     dynamic based on calculations. That’s why I consider this a “rule of The Game
     of Code” because code without variables isn’t really playing the game.
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: 当您使用变量进行测试以使测试基于计算动态化时，像`COMPARE_OP`这样的测试就会发挥作用。这就是为什么我认为这是“代码游戏”的一条规则，因为没有变量的代码实际上并不在玩游戏。
 - en: Take the time to go back through the previous examples and identify the places
     where `LOAD` instructions are used to load values, and `STORE` instructions are
     used to store values into memory.
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: 仔细回顾以前的示例，并确定在哪些地方使用`LOAD`指令加载值，以及使用`STORE`指令将值存储到内存中。
 - en: 'Rule 5: Input/Output Controls Storage'
+  id: totrans-81
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 规则5：输入/输出控制存储
 - en: The final rule of The Game of Code is how your code interacts with the outside
     world. Having variables is great, but a program that has only data you’ve typed
     into the source file isn’t very useful. What you need is *input* and *output*.
+  id: totrans-82
   prefs: []
   type: TYPE_NORMAL
+  zh: “代码游戏”的最后一条规则是您的代码如何与外部世界互动。拥有变量很好，但一个只包含您在源文件中键入的数据的程序并不是很有用。您需要的是*输入*和*输出*。
 - en: Input is how you get data into your code from things like files, the keyboard,
     or the network. You’ve already used `open()` and `input()` to do that in the last
     module. You accessed input every time you opened a file, read the contents, and
     did something with them. You also used input when you used … `input()` to ask
     the user a question.
+  id: totrans-83
   prefs: []
   type: TYPE_NORMAL
+  zh: 输入是您从文件、键盘或网络等地方将数据输入到代码中的方式。在上一个模块中，您已经使用`open()`和`input()`来做到这一点。每次打开文件、读取内容并对其执行操作时，您都会访问输入。当您使用`input()`向用户提问时，您也使用了输入。
 - en: Output is how you save or transmit the results of your program. Output can be
     to the screen with `print()`, to a file with `file.write()`, or even over a network.
+  id: totrans-84
   prefs: []
   type: TYPE_NORMAL
+  zh: 输出是如何保存或传输程序结果的。输出可以是通过`print()`输出到屏幕，通过`file.write()`输出到文件，甚至通过网络传输。
 - en: 'Let’s run `dis()` on a simple use of `input(''Yes? '')` to see what it does:'
+  id: totrans-85
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们对`input('Yes? ')`的简单使用运行`dis()`，看看它做了什么：
 - en: '[PRE11]'
+  id: totrans-86
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE11]'
 - en: You can see there’s now a new instruction `CALL_FUNCTION` that implements the
     function calls you learned about in [Exercise 18](ch18.xhtml#ch18). When Python
     sees `CALL_FUNCTION`, it finds the function that’s been loaded with `LOAD_NAME`
     and then jumps to it to run that function’s code. There’s a lot more behind how
     functions work, but you can think of `CALL_FUNCTION` as similar to `JUMP_ABSOLUTE`
     but to a named place in the instructions.
+  id: totrans-87
   prefs: []
   type: TYPE_NORMAL
+  zh: 你可以看到现在有一个新的指令`CALL_FUNCTION`，它实现了你在[练习18](ch18.xhtml#ch18)中学到的函数调用。当Python看到`CALL_FUNCTION`时，它会找到用`LOAD_NAME`加载的函数，然后跳转到该函数以运行该函数的代码。函数如何工作背后有很多东西，但你可以将`CALL_FUNCTION`看作类似于`JUMP_ABSOLUTE`，但是跳转到指令中的一个命名位置。
 - en: Putting It All Together
+  id: totrans-88
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 将所有内容整合在一起
 - en: 'Taking the five rules, we have the following Game of Code:'
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
+  zh: 根据这五条规则，我们有以下代码游戏：
 - en: '1\. You read data as input to your program (Rule #5)'
+  id: totrans-90
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 您将数据作为程序的输入读取（规则＃5）
 - en: '2\. You store this data in storage (variables) (Rule #4)'
+  id: totrans-91
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 您将这些数据存储在存储器中（变量）（规则＃4）
 - en: '3\. You use these variables to perform tests… (Rule #3)'
+  id: totrans-92
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 您使用这些变量执行测试…（规则＃3）
 - en: '4\. … so you can JUMP around… (Rule #2)'
+  id: totrans-93
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. … 这样您就可以在各处跳转…（规则＃2）
 - en: '5\. … the sequence of instructions… (Rule #1)'
+  id: totrans-94
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. … 指令序列…（规则＃1）
 - en: '6\. … transforming the data into new variables (Rule #4)…'
+  id: totrans-95
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. … 将数据转换为新变量（规则＃4）…
 - en: '7\. … which you then write to output for storage or display (Rule #5)'
+  id: totrans-96
   prefs: []
   type: TYPE_NORMAL
+  zh: 7\. … 然后将其写入输出以进行存储或显示（规则＃5）
 - en: While this seems simple, these little rules create very complicated software.
     Video games are a great example of *very* complicated software that does this.
     A video game reads your controller or keyboard as input, updates variables that
     control the models in the scene, and uses advanced instructions that render the
     scene to your screen as output.
+  id: totrans-97
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管这看起来很简单，但这些小规则创造了非常复杂的软件。视频游戏是一个很好的例子，*非常*复杂的软件就是这样做的。视频游戏会读取您的控制器或键盘作为输入，更新控制场景中模型的变量，并使用高级指令将场景呈现到屏幕上作为输出。
 - en: Take the time now to go back through exercises you’ve completed and see if you
     understand them better. Does using `dis()` on code you didn’t understand help,
     or is it more confusing? If it helps, then try it on everything to get new insights.
     If it doesn’t help, then just remember it for later. This will be especially interesting
     when you do it to [Exercise 26](ch26.xhtml#ch26).
+  id: totrans-98
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在花点时间回顾你已经完成的练习，看看你是否更好地理解它们。在你不理解的代码上使用`dis()`是否有帮助，还是更加困惑？如果有帮助，那就尝试在所有代码上使用它以获得新的见解。如果没有帮助，那就记住它以备以后使用。当你在[练习26](ch26.xhtml#ch26)上这样做时，这将会特别有趣。
 - en: The List of Byte Codes
+  id: totrans-99
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 字节码列表
 - en: As you continue with the exercises I’ll have you run `dis()` on some code to
     analyze what it’s doing. You’ll need the full list of Python byte codes to study,
     which can be found [at the end of the](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)
     `[dis()](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)`
     [documentation](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions).
+  id: totrans-100
   prefs: []
   type: TYPE_NORMAL
+  zh: 随着你继续练习，我会让你在一些代码上运行`dis()`来分析它在做什么。你需要完整的Python字节码列表来学习，可以在[文档的末尾](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)找到`[dis()](https://docs.python.org/3/library/dis.xhtml#python-bytecode-instructions)`。
 - en: '`dis()` Is a Side Quest'
+  id: totrans-101
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: '`dis()`是一个支线任务'
 - en: Later exercises will have short sections that ask you to run `dis()` on the
     code to study the byte codes. These sections are “side quests” in your education.
     That means they are *not* essential for understanding Python, but if you complete
     them, it may help you later. If they’re too hard, then skip them and continue
     on with the rest of the course.
+  id: totrans-102
   prefs: []
   type: TYPE_NORMAL
+  zh: 后续练习将包含一些短小的部分，要求你在代码上运行`dis()`来研究字节码。这些部分是你教育过程中的“支线任务”。这意味着它们*不*是理解Python必不可少的，但如果你完成它们，可能会在以后有所帮助。如果它们太难了，那就跳过它们，继续进行课程的其他部分。
 - en: The most important thing about `dis()` is that it gives you direct access to
     what *Python* thinks your code does. That can help you if you’re confused about
     how your code works or if you’re just curious about what Python is actually doing.
+  id: totrans-103
   prefs: []
   type: TYPE_NORMAL
+  zh: '`dis()`最重要的一点是它直接让你了解*Python*认为你的代码在做什么。如果你对代码的工作原理感到困惑，或者只是好奇Python实际在做什么，这会对你有所帮助。'

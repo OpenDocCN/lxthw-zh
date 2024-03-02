@@ -1,160 +1,240 @@
 - en: Exercise 37. Symbol Review
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 37. 符号复习
 - en: It’s time to review the symbols and Python words you know and to try to pick
     up a few more for the next few lessons. I have written out all the Python symbols
     and keywords that are important to know.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在是时候复习你所知道的符号和 Python 关键字，并尝试在接下来的几节课中学习更多。我已经列出了所有重要的 Python 符号和关键字。
 - en: In this lesson take each keyword and first try to write out what it does from
     memory. Next, search online for it and see what it really does. This may be difficult
     because some of these are difficult to search for, but try anyway.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这节课中，首先尝试从记忆中写出每个关键字的作用。接下来，在网上搜索它们，看看它们真正的作用。这可能很困难，因为有些很难搜索，但无论如何都要尝试。
 - en: If you get one of these wrong from memory, make an index card with the correct
     definition and try to “correct” your memory.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你从记忆中记错了其中一个，就制作一张正确定义的索引卡，尝试“纠正”你的记忆。
 - en: Finally, use each of these in a small Python program, or as many as you can
     get done. The goal is to find out what the symbol does, make sure you got it right,
     correct it if you did not, and then use it to lock it in.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，在一个小的 Python 程序中使用这些中的每一个，或者尽可能多地完成。目标是找出符号的作用，确保你理解正确，如果不正确就纠正，然后使用它来牢记。
 - en: Keywords
+  id: totrans-5
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 关键字
 - en: '![Images](graphics/t0133-01.jpg)![Images](graphics/t0134-01.jpg)'
+  id: totrans-6
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0133-01.jpg)![图片](graphics/t0134-01.jpg)'
 - en: Data Types
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 数据类型
 - en: For data types, write out what makes up each one. For example, with strings,
     write out how you create a string. For numbers, write out a few numbers.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于数据类型，写出每种数据类型的组成部分。例如，对于字符串，写出如何创建一个字符串。对于数字，写出一些数字。
 - en: '![Images](graphics/t0134-02.jpg)'
+  id: totrans-9
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0134-02.jpg)'
 - en: String Escape Sequences
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 字符串转义序列
 - en: For string escape sequences, use them in strings to make sure they do what you
     think they do.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于字符串转义序列，将它们用在字符串中，确保它们执行你认为的操作。
 - en: '![Images](graphics/t0135-01.jpg)'
+  id: totrans-12
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0135-01.jpg)'
 - en: Old-Style String Formats
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 旧式字符串格式
 - en: 'It’s the same thing for string formats: use them in some strings to know what
     they do.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于字符串格式也是一样：在一些字符串中使用它们，以了解它们的作用。
 - en: '![Images](graphics/t0135-02.jpg)'
+  id: totrans-15
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0135-02.jpg)'
 - en: Older Python 2 code uses these formatting characters to do what f-strings do.
     Try them out as an alternative.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 旧版 Python 2 代码使用这些格式化字符来实现 f-strings 的功能。尝试它们作为替代方案。
 - en: Operators
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 运算符
 - en: Some of these may be unfamiliar to you, but look them up anyway. Find out what
     they do, and if you still can’t figure it out, save it for later.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 其中一些可能对你来说很陌生，但无论如何都要查找它们。找出它们的作用，如果你仍然无法弄清楚，就留到以后再看。
 - en: '![Images](graphics/t0136-01.jpg)'
+  id: totrans-19
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0136-01.jpg)'
 - en: Spend about a week on this, but if you finish faster, that’s great. The point
     is to try to get coverage on all these symbols and make sure they are locked in
     your head. What’s also important is to find out what you *do not* know so you
     can fix it later.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 大约花一周的时间，但如果你更快完成，那就太好了。重点是尝试覆盖所有这些符号，并确保它们牢记在你的脑海中。同样重要的是找出你*不*知道的东西，这样你就可以以后修复它。
 - en: Reading Code
+  id: totrans-21
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 阅读代码
 - en: Now find some Python code to read. You should be reading any Python code you
     can and trying to steal ideas that you find. You actually should have enough knowledge
     to be able to read but maybe not understand what the code does. What this lesson
     teaches is how to apply things you have learned to understand other people’s code.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在找一些 Python 代码来阅读。你应该阅读任何你能找到的 Python 代码，并尝试窃取你发现的想法。你实际上应该有足够的知识来阅读，但也许不理解代码的作用。这节课教你如何应用你学到的东西来理解别人的代码。
 - en: First, print out the code you want to understand. Yes, print it out, because
     your eyes and brain are more used to reading paper than computer screens. Make
     sure you print a few pages at a time.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，打印出你想要理解的代码。是的，打印出来，因为你的眼睛和大脑更习惯于阅读纸张而不是电脑屏幕。确保每次打印几页。
 - en: 'Second, go through your printout and take notes on the following:'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 其次，浏览你的打印输出，并对以下内容做笔记：
 - en: 1\. Functions and what they do.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 函数及其作用。
 - en: 2\. Where each variable is first given a value.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 每个变量首次被赋值的地方。
 - en: 3\. Any variables with the same names in different parts of the program. These
     may be trouble later.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 程序中不同部分中具有相同名称的任何变量。这些以后可能会有麻烦。
 - en: 4\. Any `if`-statements without else clauses. Are they right?
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 没有`else`子句的`if`语句。它们正确吗？
 - en: 5\. Any `while`-loops that might not end.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 任何可能不会结束的`while`循环。
 - en: 6\. Any parts of code that you can’t understand for whatever reason.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 任何你因为任何原因无法理解的代码部分。
 - en: Third, once you have all of this marked up, try to explain it to yourself by
     writing comments as you go. Explain the functions, how they are used, what variables
     are involved and anything you can to figure this code out.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 第三，一旦你标记了所有这些，尝试通过写注释来向自己解释。解释函数，它们如何被使用，涉及哪些变量以及你可以找出这段代码的任何内容。
 - en: Lastly, on all of the difficult parts, trace the values of each variable line
     by line, function by function. In fact, do another printout, and write in the
     margin the value of each variable that you need to “trace.”
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，在所有困难的部分，逐行追踪每个变量的值，逐个函数地。实际上，再做一份打印输出，并在边缘写下你需要“追踪”的每个变量的值。
 - en: Once you have a good idea of what the code does, go back to the computer and
     read it again to see if you find new things. Keep finding more code and doing
     this until you do not need the printouts anymore.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你对代码的功能有了很好的理解，回到电脑上再次阅读它，看看是否能发现新的东西。继续找到更多的代码并这样做，直到你不再需要打印输出为止。
 - en: Study Drills
+  id: totrans-34
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Find out what a “flow chart” is and draw a few.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 找出“流程图”是什么，并画几个。
 - en: 2\. If you find errors in code you are reading, try to fix them, and send the
     author your changes.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 如果你在阅读代码时发现错误，请尝试修复它们，并将更改发送给作者。
 - en: 3\. Another technique for when you are not using paper is to put `#` comments
     with your notes in the code. Sometimes, these could become the actual comments
     to help the next person.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 当你不使用纸张时的另一种技巧是在代码中用`#`注释来记录你的笔记。有时，这些注释可能成为实际的注释，帮助下一个人。
 - en: Common Student Questions
+  id: totrans-38
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**How would I search for these things online?** Simply put “python3” before
     anything you want to find. For example, to find `yield` search for `python3 yield`.'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我该如何在网上搜索这些内容？** 只需在你想要查找的任何内容前加上“python3”。例如，要查找`yield`，搜索`python3 yield`。'
