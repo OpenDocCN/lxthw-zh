@@ -2,4 +2,54 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/hcipvf`](https://www.yuque.com/hardwaylab/cardstyle/hcipvf)
 
-<ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uc2d4c924">1</ne-text></ne-heading-content></ne-h2> <ne-p id="0a2d1c4df2d51cf626bb6e0ae59206b1" data-lake-id="0a2d1c4df2d51cf626bb6e0ae59206b1"><ne-text id="ua9032bd1">母亲属牛，父亲时常调侃：”属牛的人脑子钝，不会转弯。”</ne-text></ne-p> <ne-p id="a957b292ac3cdf30dd36441e3409caf9" data-lake-id="a957b292ac3cdf30dd36441e3409caf9"><ne-text id="uec04665e">母亲也认自己愚笨，这种想法从小随她至今。长大后，我开始有了自己的想法，自认聪明，告诉妈妈：你不要觉得自己笨，你这么想只会越来越笨的！</ne-text></ne-p> <ne-p id="af371134e3e7a6f25ab5e31b2106c31f" data-lake-id="af371134e3e7a6f25ab5e31b2106c31f"><ne-text id="uc623730f">“笨一点，没关系的。傻人有傻福嘛。”母亲如是回应。</ne-text></ne-p> <ne-p id="f3e9f6b1eaa6146f4920fd5530d68a15" data-lake-id="f3e9f6b1eaa6146f4920fd5530d68a15"><ne-text id="u5a297831">也许笨一点，未尝不好。</ne-text></ne-p> <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u3106c00b">2</ne-text></ne-heading-content></ne-h2> <ne-p id="fb36e35153273bf42c1522584a72fcf6" data-lake-id="fb36e35153273bf42c1522584a72fcf6"><ne-text id="u38b877c1">两年前，母亲开始学习中医。进入一个公益中医群，没有“老师”手把手教，有的只是几本传统医书和一位老中医多年前录制的讲解视频。 那儿有个群规，每天需要看一段讲解视频，写下笔记发至群里，一周不发作业就会被清退。</ne-text></ne-p> <ne-p id="691cffef1414c96faf9a96677bd05abe" data-lake-id="691cffef1414c96faf9a96677bd05abe"><ne-text id="ua7fa0ac3">她刚学时我见她在看医书《灵枢经》，全是古文，我看了几眼没能看明白，于是问母亲：你看得懂这在什么意思吗？母亲蹙着眉头看我：“妈妈脑袋笨，人家看一遍就懂的我要看好多遍才懂，如果看不懂我就一直看，听完讲解视频再看书，总能看懂的。”</ne-text></ne-p> <ne-p id="e20a40716046be5802d1ef9f1c5b9947" data-lake-id="e20a40716046be5802d1ef9f1c5b9947"><ne-text id="ucbdb5a4f">母亲买了几个大大的牛皮笔记本写笔记，我曾天真预测，这几个笔记本铁定写不完。我看我母亲抄笔记抄得累，便教起母亲用电子笔记，告诉她电子笔记的好处，可她打字慢，觉得还不如用手写。</ne-text></ne-p> <ne-p id="895168ce3538f61f6d9e3967202f07bc" data-lake-id="895168ce3538f61f6d9e3967202f07bc"><ne-text id="u2a17f7f5">群里要求要发作业，她不懂怎么写，就用的最笨的方法，把视频中讲过的内容都抄一遍，费时费力。一开始自告奋勇当了个小组长，自愿去检查、督促其他同学教作业，花的时间自然是更多。但她一点不觉得累，她为自己当上个小组长发自内心的开心。</ne-text></ne-p> <ne-p id="3f7fef3ee4dccf5436bbb9ef092a160b" data-lake-id="3f7fef3ee4dccf5436bbb9ef092a160b"><ne-text id="ucdd6fdca">她不懂取巧，也不走捷径，只是靠着那股愚钝劲，朝着山中一步一步一走着。</ne-text></ne-p> <ne-p id="a68e8fa7d7d6bf90a5f8f83ac88ffbe6" data-lake-id="a68e8fa7d7d6bf90a5f8f83ac88ffbe6"><ne-text id="u3ac415a8">她心性坚毅，用更大的精力，更认真的态度去做了一件事。</ne-text></ne-p> <ne-p id="1b3077af94c9bef913748a7ffad8feca" data-lake-id="1b3077af94c9bef913748a7ffad8feca"><ne-text id="u672042c0">她虚心，一有问题就向他人请教，在时间的积累下，心中疑惑逐渐解开，柳暗花明又一村。</ne-text></ne-p> <ne-p id="2cba85b26eb8722123549868af6f634a" data-lake-id="2cba85b26eb8722123549868af6f634a"><ne-text id="u60a66dde">每天学，每天写作业，一段时间后，她开始用针实操，自己身上找穴，下针。又过了一段时间，因为作业交的勤，她已是班长了，群里原来有一百五十多人，最后只剩十五人。</ne-text></ne-p> <ne-p id="ad0b9ca4761965075ff159b34327a337" data-lake-id="ad0b9ca4761965075ff159b34327a337"><ne-text id="u497bf5dc">如今，两年已过，六本厚厚的笔记本，每本都记满着她的认真与耐心。</ne-text></ne-p> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u195d00d8">3</ne-text></ne-heading-content></ne-h2> <ne-p id="a23affb9b04f037c7115434cabc015e2" data-lake-id="a23affb9b04f037c7115434cabc015e2"><ne-text id="ua722be00">前段时间，得知一朋友患有鼻炎，每次见她都打喷嚏，多年辗转多家医院未果。我给母亲打了个电话，抱着试试看的态度问问有没有治疗方法，母亲一听，立马告诉我应该如何做，该用什么药，药方如何调配，用针灸的话应该取什么穴位。</ne-text></ne-p> <ne-p id="d6d65bde5b67b9b3420c45d9c60a75fa" data-lake-id="d6d65bde5b67b9b3420c45d9c60a75fa"><ne-text id="u3a5d58a9">我便叫来朋友，靠着我那点皮毛下针功夫，按照她说的穴位，银针一下，竟立竿见影，接着配上一副药方，鼻炎至今未复发。我终于意识到，母亲学医已有所成。</ne-text></ne-p> <ne-p id="3fab57fedd9af0adb56b48b8ed0e06eb" data-lake-id="3fab57fedd9af0adb56b48b8ed0e06eb"><ne-text id="uec0e3b9a">她并不聪明，却是靠着那股钝劲，走至人迹罕至之处。</ne-text></ne-p> <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u76376bc5">4</ne-text></ne-heading-content></ne-h2> <ne-p id="a80f2ac34635e43e8a81f87d3752e98e" data-lake-id="a80f2ac34635e43e8a81f87d3752e98e"><ne-text id="ua1ba0404">在她开始学中医的时候我也在学英语，我不断搜索速成方法，怎样才是最高效的学习路径，一心想着走捷径，方法试了这家试那家，却是在兜兜转转。两年时间，英语并无实质长进。计较太多，反而误事。</ne-text></ne-p> <ne-p id="2ec111ea4f739b988669b49decda9a0c" data-lake-id="2ec111ea4f739b988669b49decda9a0c"><ne-text id="u812e19f3">母亲用了两年时间，就专注的做了这一件事，没有追求所谓的方法，没有追求结果，她就是那么学下去，日复一日，便了。这看似更慢更难的路，却更似捷径，也许这就是是”笨“的福气。</ne-text></ne-p> <ne-p id="f6b432064ba5f6482bf6c20eee00f178" data-lake-id="f6b432064ba5f6482bf6c20eee00f178"><ne-text id="ud51af311">我爱耍小聪明，这种“聪明”做不得长远之事，一遇困难就退缩，寻求他路捷径，而我母亲的用的笨方法是一步一个脚印，点滴积累，水滴石穿。</ne-text></ne-p> <ne-p id="96e8bd39d4326fb553b7839fdab38b07" data-lake-id="96e8bd39d4326fb553b7839fdab38b07"><ne-text id="uf2c1f936">以前我觉得她笨，如今，我佩服她。她有我所没有的坚毅和专注，这恰恰是最宝贵的特质。</ne-text></ne-p> <ne-quote id="u488d6729" data-lake-id="u488d6729"><ne-p id="ff3c018949d03f3b8638302dca0349f6" data-lake-id="ff3c018949d03f3b8638302dca0349f6"><ne-text id="u96210b98">”笨“到极致就是”聪明“，“拙“到极致就成了巧。</ne-text></ne-p></ne-quote> <ne-p id="3e513df8802a3852a72a9cf5718da5cb" data-lake-id="3e513df8802a3852a72a9cf5718da5cb"><ne-text id="uaad24229">“笨”一点，未尝不好。</ne-text></ne-p> <ne-p id="ba860f790fe5e4e0e5352520acd9347e" data-lake-id="ba860f790fe5e4e0e5352520acd9347e"><ne-text id="ue84d1a88">2019-07-27 21:52:29</ne-text></ne-p> <ne-p id="6961b7794cea7eeea0bbba560e5957fc" data-lake-id="6961b7794cea7eeea0bbba560e5957fc"><ne-text id="u274c1b6c">写了两天，第一天完全不知道怎么写，冥思苦想开了两个番茄钟只是记录流水账一样写了一行些断断续续的句子。今天早上起来继续写，想到几个词，又想到我妈用的那笨方法学中医的事，就有了头绪，开始写故事框架。</ne-text></ne-p> <ne-p id="99db676c558923b538bbc7d96029e6e9" data-lake-id="99db676c558923b538bbc7d96029e6e9"><ne-text id="ufa8ea6a9">上午完成大概框架，晚上修改，这篇千字文大概花了十个小时。</ne-text></ne-p>
+<ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+母亲属牛，父亲时常调侃：”属牛的人脑子钝，不会转弯。” 
+
+母亲也认自己愚笨，这种想法从小随她至今。长大后，我开始有了自己的想法，自认聪明，告诉妈妈：你不要觉得自己笨，你这么想只会越来越笨的！ 
+
+“笨一点，没关系的。傻人有傻福嘛。”母亲如是回应。 
+
+也许笨一点，未尝不好。 <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+
+两年前，母亲开始学习中医。进入一个公益中医群，没有“老师”手把手教，有的只是几本传统医书和一位老中医多年前录制的讲解视频。 那儿有个群规，每天需要看一段讲解视频，写下笔记发至群里，一周不发作业就会被清退。 
+
+她刚学时我见她在看医书《灵枢经》，全是古文，我看了几眼没能看明白，于是问母亲：你看得懂这在什么意思吗？母亲蹙着眉头看我：“妈妈脑袋笨，人家看一遍就懂的我要看好多遍才懂，如果看不懂我就一直看，听完讲解视频再看书，总能看懂的。” 
+
+母亲买了几个大大的牛皮笔记本写笔记，我曾天真预测，这几个笔记本铁定写不完。我看我母亲抄笔记抄得累，便教起母亲用电子笔记，告诉她电子笔记的好处，可她打字慢，觉得还不如用手写。 
+
+群里要求要发作业，她不懂怎么写，就用的最笨的方法，把视频中讲过的内容都抄一遍，费时费力。一开始自告奋勇当了个小组长，自愿去检查、督促其他同学教作业，花的时间自然是更多。但她一点不觉得累，她为自己当上个小组长发自内心的开心。 
+
+她不懂取巧，也不走捷径，只是靠着那股愚钝劲，朝着山中一步一步一走着。 
+
+她心性坚毅，用更大的精力，更认真的态度去做了一件事。 
+
+她虚心，一有问题就向他人请教，在时间的积累下，心中疑惑逐渐解开，柳暗花明又一村。 
+
+每天学，每天写作业，一段时间后，她开始用针实操，自己身上找穴，下针。又过了一段时间，因为作业交的勤，她已是班长了，群里原来有一百五十多人，最后只剩十五人。 
+
+如今，两年已过，六本厚厚的笔记本，每本都记满着她的认真与耐心。 <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+
+前段时间，得知一朋友患有鼻炎，每次见她都打喷嚏，多年辗转多家医院未果。我给母亲打了个电话，抱着试试看的态度问问有没有治疗方法，母亲一听，立马告诉我应该如何做，该用什么药，药方如何调配，用针灸的话应该取什么穴位。 
+
+我便叫来朋友，靠着我那点皮毛下针功夫，按照她说的穴位，银针一下，竟立竿见影，接着配上一副药方，鼻炎至今未复发。我终于意识到，母亲学医已有所成。 
+
+她并不聪明，却是靠着那股钝劲，走至人迹罕至之处。 <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+
+在她开始学中医的时候我也在学英语，我不断搜索速成方法，怎样才是最高效的学习路径，一心想着走捷径，方法试了这家试那家，却是在兜兜转转。两年时间，英语并无实质长进。计较太多，反而误事。 
+
+母亲用了两年时间，就专注的做了这一件事，没有追求所谓的方法，没有追求结果，她就是那么学下去，日复一日，便了。这看似更慢更难的路，却更似捷径，也许这就是是”笨“的福气。 
+
+我爱耍小聪明，这种“聪明”做不得长远之事，一遇困难就退缩，寻求他路捷径，而我母亲的用的笨方法是一步一个脚印，点滴积累，水滴石穿。 
+
+以前我觉得她笨，如今，我佩服她。她有我所没有的坚毅和专注，这恰恰是最宝贵的特质。 <ne-quote id="u488d6729" data-lake-id="u488d6729">
+
+”笨“到极致就是”聪明“，“拙“到极致就成了巧。</ne-quote> 
+
+“笨”一点，未尝不好。 
+
+2019-07-27 21:52:29 
+
+写了两天，第一天完全不知道怎么写，冥思苦想开了两个番茄钟只是记录流水账一样写了一行些断断续续的句子。今天早上起来继续写，想到几个词，又想到我妈用的那笨方法学中医的事，就有了头绪，开始写故事框架。 
+
+上午完成大概框架，晚上修改，这篇千字文大概花了十个小时。

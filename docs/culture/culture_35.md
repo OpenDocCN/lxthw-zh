@@ -2,4 +2,14 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/cwyzy9`](https://www.yuque.com/hardwaylab/book/cwyzy9)
 
-<ne-p id="u410433bf" data-lake-id="u410433bf"><ne-text id="u2bd166fb">肉哥：</ne-text></ne-p> <ne-quote id="u3d8bbf85" data-lake-id="u3d8bbf85"><ne-p id="u6578c3ad" data-lake-id="u6578c3ad"><ne-text id="u85e77574">今天终于看完了笨方法学习手册。首先 我认真反思了一下自己，也许很多时候我都在逃避，尽可能的去选择相对容易的事情，所以我到今天为之看起来没什么成就，平平无奇，碌碌无为。</ne-text> <ne-text id="u274257d2">世上无难事，只怕笨方法。也许没有什么事情是可以一蹴而就的，都需要一点一点踏踏实实去做，一个问题一个问题去攻克。</ne-text> <ne-text id="ub12163d5">我想，我不希望自己的人生是平凡无趣的，我希望过平淡的生活，但这不意味着他没有乐趣，我只是一个普通人，我能做的也只有努力成为优秀的普通人，热爱生活。</ne-text></ne-p></ne-quote> <ne-p id="u7f1623e0" data-lake-id="u7f1623e0"><ne-text id="u298eccfe" ne-fontsize="16" style="color: rgb(51, 51, 51);">Asa:</ne-text></ne-p> <ne-quote id="u465f9971" data-lake-id="u465f9971"><ne-p id="u6568c9b1" data-lake-id="u6568c9b1"><ne-text id="uabd49b51">在阅读《笨方法文化手册》之后，深刻发现它可以将一切都联系在一起的，使我的生活成为一个统一的整体。</ne-text></ne-p> <ne-p id="ud957c8de" data-lake-id="ud957c8de"><ne-text id="ub42de83b">看完电子版，我还打印了出来，值得再看一遍。∎</ne-text></ne-p></ne-quote>
+
+
+肉哥： <ne-quote id="u3d8bbf85" data-lake-id="u3d8bbf85">
+
+今天终于看完了笨方法学习手册。首先 我认真反思了一下自己，也许很多时候我都在逃避，尽可能的去选择相对容易的事情，所以我到今天为之看起来没什么成就，平平无奇，碌碌无为。 世上无难事，只怕笨方法。也许没有什么事情是可以一蹴而就的，都需要一点一点踏踏实实去做，一个问题一个问题去攻克。 我想，我不希望自己的人生是平凡无趣的，我希望过平淡的生活，但这不意味着他没有乐趣，我只是一个普通人，我能做的也只有努力成为优秀的普通人，热爱生活。</ne-quote> 
+
+Asa: <ne-quote id="u465f9971" data-lake-id="u465f9971">
+
+在阅读《笨方法文化手册》之后，深刻发现它可以将一切都联系在一起的，使我的生活成为一个统一的整体。 
+
+看完电子版，我还打印了出来，值得再看一遍。∎</ne-quote>

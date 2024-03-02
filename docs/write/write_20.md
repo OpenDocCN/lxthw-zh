@@ -2,4 +2,74 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/wy77b9`](https://www.yuque.com/hardwaylab/cardstyle/wy77b9)
 
-<ne-p id="851810797d9d84dc3cc261467171a1e5_p_1" data-lake-id="851810797d9d84dc3cc261467171a1e5_p_1"><ne-text id="u535ced1d">来自</ne-text> [<ne-text id="u2f8a00e4">我与卡片的故事 - 简书</ne-text>](https://www.jianshu.com/p/b6f90fd2e5a9)</ne-p> <ne-p id="2ac05fb7fb44c9e40481e65cf2a2050e_p_3" data-lake-id="2ac05fb7fb44c9e40481e65cf2a2050e_p_3"><ne-text id="ubd689faf">2017 年 2 月无意间接触到阳老师，了解到阳老的卡片大法。在开智公众号遇到了陈素封老师使用卡片创作的文章《卡片创作法之纳博科夫 - 笨方法学写作》。于是决定购买一盒卡片，开始写卡片和模仿使用卡片创作。</ne-text></ne-p> <ne-p id="144ae6a507f54d934f593499234b6bd4_p_5" data-lake-id="144ae6a507f54d934f593499234b6bd4_p_5"><ne-text id="uf84f7a38">可惜，我没能坚持使用卡片来创作。阳老师将卡片分为反常识卡、人名卡、术语卡、金句卡、行动卡、技巧卡、任意卡。但自己字写得太难看，写完后不忍直视。查找人名和术语时又因为英语太差，网页翻译的机器文实在不能看，写一张卡片往往会花费半个小时查资料，写完后也不会定期翻阅。一盒卡片也只用了 30 来张，没能坚持像阳老师所说的每天写 3 张卡片，剩下的卡片也只有在有灵感时才会使用。</ne-text></ne-p> <ne-p id="ded5c5a3b381d04cff8f58cd4ea9fc0c_p_7" data-lake-id="ded5c5a3b381d04cff8f58cd4ea9fc0c_p_7"><ne-text id="u354f38c3">18 年 2 月，我开始练习《笨方法学写作》 决心认真学习卡片写作， 在淘宝买了两盒卡片，到今天还剩下几十张卡片。</ne-text></ne-p> <ne-p id="2af4b77a3f19402066282b209f0dd63f_p_9" data-lake-id="2af4b77a3f19402066282b209f0dd63f_p_9"><ne-text id="ufcf85645">用完的卡片</ne-text> <ne-text id="u07d85c29">4 月 10 日立志写每天写一张卡片并发布在微博，至 5 月 18 日。共写微博 25 条。其中使用 workflowy 写微博 19 条，从 5 月 9 号开始使用 5 张纸质卡片快写，在 workflowy 中修改后发布至微博共 6 条。</ne-text></ne-p> <ne-p id="167544dae45ba3b446cdd92b055178bc_p_11" data-lake-id="167544dae45ba3b446cdd92b055178bc_p_11"><ne-text id="u1b8c65f4">我怎样写微博卡片？每天晚上 10 点开始，拿出 5 张卡片，用手机 APP 限定时间，在限定时间内写完今天的微博卡片。内容来源于当天或某天灵感、书上一句话、偶然间的一个词。养成每日写卡片的习惯。</ne-text></ne-p> <ne-p id="05996f874fc54d81ed6819a885ca4a73_p_13" data-lake-id="05996f874fc54d81ed6819a885ca4a73_p_13"><ne-text id="u2ee4dbce">每日卡片</ne-text> <ne-text id="uf9fa75b9">我在写每日微博时，常想今天没什么灵感，也没看过几页书，都不知道写些什么。人家不都没有天天写吗。干脆偷个懒，不要写了。可理智告诉我，这是你每天的任务，是你给自己的要求，不每天写，你能改变自己吗？没办法只能坐在桌前硬着头皮摊开卡片，拿着笔思考，强行让大脑活动起来，想想最近看的书、发生的事、自己的小随笔。就这样来了思绪，拿起笔，一连写满五张卡片。有时思绪不够，只能找个话题，先写着让文字催生文字，写上 2 句思绪就来了。</ne-text></ne-p> <ne-p id="d5eeb159072b7b548791ceb686d12058_p_15" data-lake-id="d5eeb159072b7b548791ceb686d12058_p_15"><ne-text id="uaaa97775">上学期间，喜欢在草稿纸上画来画去，写上几个关键词，画上几个符号，写上一段句子。现在，画来画去的习惯从草稿纸变成了卡片，一张卡片只存放一个内容， 所有的问题与想法都写在卡片上。逼迫自己短时间大量思考，让脑子里的组块快速拼接，产生新的卡片，用笔快速记下。</ne-text></ne-p> <ne-p id="fd99ba1a59be55ca6dd9dac0952ae8a3_p_17" data-lake-id="fd99ba1a59be55ca6dd9dac0952ae8a3_p_17"><ne-text id="u7f44ab2c">我使用卡片十分随意，写上我能懂得符号，写上我自己认识的字，毕竟卡片是思想的载体。不吝啬卡片的使用，多写，让自己顺着心流写下去，只会越写越快，大脑里零碎的内容，会自动结合在一起，产生新的卡片。一张卡片有时能写满，有时只写得出 20 来个字。一切随你所好，工具是为了更好思考。</ne-text></ne-p> <ne-p id="f6774dd98f599b9a94d22561c0373dab_p_19" data-lake-id="f6774dd98f599b9a94d22561c0373dab_p_19"><ne-text id="uc561baf5">一张卡片写不了多少个字，但承载思想足够了，用卡片清空大脑，为了让更多的灵感出现在大脑中。</ne-text></ne-p> <ne-p id="cc511f053fb8241c2270e520f6a1f68a_p_21" data-lake-id="cc511f053fb8241c2270e520f6a1f68a_p_21"><ne-text id="ua6bd65f2">卡片写作，也是大脑思考过程，使用卡片，将大脑所思、所想。用卡片作载体呈现出来，这就是卡片，我心所想，我笔所记。</ne-text></ne-p> <ne-p id="e437940a93101c602d66affd127d60ff_p_23" data-lake-id="e437940a93101c602d66affd127d60ff_p_23"><ne-text id="ue377d4d6">ChangeLog</ne-text> <ne-text id="u3907c857">2018-06-10 整合卡片，修改内容</ne-text> <ne-text id="ud2913e38">2018-06-08 开始写我与卡片的卡片。</ne-text> <ne-text id="u101d89ad">2018-06-07 在微信群见有人讨论卡片，想起自己使用卡片故事</ne-text></ne-p> <ne-p id="a9df2c1ec8bac60fa4502bdc98ac51e7" data-lake-id="a9df2c1ec8bac60fa4502bdc98ac51e7"><ne-text id="ub7665b1f">-----</ne-text></ne-p> <ne-p id="84688758a3b9603d4f381dfd13b836e9_p_25" data-lake-id="84688758a3b9603d4f381dfd13b836e9_p_25"><ne-text id="ub03be826">链接：</ne-text>[<ne-text id="u1c388d2a">写作的幸福 - 简书</ne-text>](https://www.jianshu.com/p/af4b508e99bf)</ne-p> <ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u6ceb46ad">1</ne-text></ne-heading-content></ne-h2> <ne-p id="f200bc26b489f65d926345f7d2a791bd" data-lake-id="f200bc26b489f65d926345f7d2a791bd"><ne-text id="ue8adaf3e">2017 年 10 月我参加阳志平老师的《认知写作学》，而在随后学习认知写作学的半年里，我共写了 3 篇千字文。虽然从头到尾参加了课程，还是不幸成为了阳老师常说的「捐学费的人」。不甘心如此， 2018 年 2 月犹豫多次后决心参加陈素封老师的《笨方法学写作》，从头开始练习写作，练习卡片创作。</ne-text></ne-p> <ne-p id="8739de173bd7156c254cd0f3f6284461" data-lake-id="8739de173bd7156c254cd0f3f6284461"><ne-text id="u1630d35c">2018 年 2 月到 6 月，使用卡片创作 8 篇千字文，使用纸质卡片 2 盒 ，从 4 月写卡片微博至今天（可见我与卡片的故事 - 简书 ），用以养成每日写千字习惯，现在每周至少写一篇千字文。</ne-text></ne-p> <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u2b11d268">2</ne-text></ne-heading-content></ne-h2> <ne-p id="0c2e461391e7fabfec36514921d268fa" data-lake-id="0c2e461391e7fabfec36514921d268fa"><ne-text id="ud2f99c7d">产生这些差异的原因，并非阳老师的认知写作学不好，恰恰是因为认知写作学太好了。认知写作学是阳老师集多学科之大成，是写作知识的迷宫。庞大到没有背景知识的初学者，只会迷失其中。就像刚开始写作的我，在认知写作学中。因为知识体系过于庞大，又没有好的学习习惯与写作习惯，也没有保持写每日卡片，最后导致行为瘫痪。</ne-text></ne-p> <ne-p id="1751d6d1352e13c7b80f40ef494c76b0" data-lake-id="1751d6d1352e13c7b80f40ef494c76b0"><ne-text id="u22bcd848">笨方法学写作，提倡使用纸质卡，讲究笨方法。推崇坚毅、科学、认真、创意，所有创作均从纸质卡片开始，从行动开始。没有使用完 3 盒纸质卡片不算入门。</ne-text></ne-p> <ne-p id="081fb02659ad753fecc790dd632335e0" data-lake-id="081fb02659ad753fecc790dd632335e0"><ne-text id="u46d94d77">在我练习卡片创作的同时，也会学习认知写作学中写作的知识。认知写作学中认为写作有三难，难在逻辑、文采、故事。卡片创作理清逻辑，写作清单练习文采，而故事需要你用一生来谱写。</ne-text></ne-p> <ne-p id="c2643ce00b0310b11621a016bd730a0a" data-lake-id="c2643ce00b0310b11621a016bd730a0a"><ne-text id="ufa535a66">我决心练习写作，正是从阳志平老师开始，可以说阳志平老师让我寻找到改变的道路，陈素封老师则将其自身改变轨迹展示给我，而剩下的就是去练习卡片创作，走上一条自己走的路。</ne-text></ne-p> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u4d7ad912">3</ne-text></ne-heading-content></ne-h2> <ne-p id="2647b2588e04e319fc3de790fffadd12" data-lake-id="2647b2588e04e319fc3de790fffadd12"><ne-text id="u21aa85dd">「练习写作，试图用写作改变自己」这是我对自己的口号，也是我的立志之道。</ne-text></ne-p> <ne-p id="7525c9d012942a2281861943eea2eabf" data-lake-id="7525c9d012942a2281861943eea2eabf"><ne-text id="u05b5e54b">起初我只是想改变自己，原因非常简单，和前女友分手，想改变自己，寻求不一样的自己。重新回到前女友身边，这是本意。</ne-text></ne-p> <ne-p id="c2426134c40df1a10408bf230284586f" data-lake-id="c2426134c40df1a10408bf230284586f"><ne-text id="u11a81a70">写作是否带给我改变，我不知道。但笨方法给了我足够的勇气来练习写作。在我练习卡片创作时，坚毅的力量让我养成写作习惯。</ne-text></ne-p> <ne-p id="8eff61e809acff103c31b0ff3ea7dc5f" data-lake-id="8eff61e809acff103c31b0ff3ea7dc5f"><ne-text id="u0bdf072a">过去我想要改变而去写作，现在则是写作改变了我。让我想改变的不只是情感，写作让我思考更多人生的意义，让我在这里敲下我的故事。</ne-text></ne-p> <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uafd83122">4</ne-text></ne-heading-content></ne-h2> <ne-p id="1ce888d585283b79eb26e40c114dc277" data-lake-id="1ce888d585283b79eb26e40c114dc277"><ne-text id="ud06dc69b">海边、山中，一个人的周末。在我不知道该做些什么的时候，写作便成了我的乐趣。在我内心时常蹦出这样的念头，去写一篇文章，纪念过去，写下那个有你有我的故事。在写作中，享受创作的乐趣。在卡片上涂鸦，在键盘上敲下一个个字。心流诞生在笔尖、在指尖，流淌在心间。</ne-text></ne-p> <ne-p id="c55723b8651b58ddfab465b7d888eadb" data-lake-id="c55723b8651b58ddfab465b7d888eadb"><ne-text id="u58f9a72f">因为写作，扩展了我的阅读面。也因此让我发现这世上还有那么多有意思的人、有意思的文字。跟王烁「老婆推」学记趣和爱 · 杂记 | ishanshan's blog、老婆推专门博开博王烁新浪博客、光阴的故事-笨方法学写作</ne-text></ne-p> <ne-p id="f8f27c0796b487bd5736aa5398f2b773" data-lake-id="f8f27c0796b487bd5736aa5398f2b773"><ne-text id="ud5fc31c0">海子说我有三种幸福：诗歌、王位、太阳。对我而言写作便是我的幸福了。</ne-text></ne-p> <ne-p id="44eec7e484ea22806a1168fa4714b60a" data-lake-id="44eec7e484ea22806a1168fa4714b60a"><ne-text id="ue75b98fd">ChangeLog</ne-text></ne-p> <ne-p id="e7904254edee5c5ea64f213474c7a418" data-lake-id="e7904254edee5c5ea64f213474c7a418"><ne-text id="ua79a5c40">2018-06-18 慢改 1 h</ne-text></ne-p> <ne-p id="1cdfa1cee1f9878540f9064b37b0680a" data-lake-id="1cdfa1cee1f9878540f9064b37b0680a"><ne-text id="u79bbb86d">2018-06-17 workflowy 中慢改 2 h</ne-text></ne-p> <ne-p id="f8e3886b8069999c1b02a8af734d33e2" data-lake-id="f8e3886b8069999c1b02a8af734d33e2"><ne-text id="u9be68e0b">2018-06-16 卡片创作快写 1 h</ne-text></ne-p> <ne-p id="d6340ab1c0c5f6d885948ecf4cafc92f" data-lake-id="d6340ab1c0c5f6d885948ecf4cafc92f"><ne-text id="u6b395d19">作者：Syaoran_</ne-text></ne-p> <ne-p id="0c4315727c98e169303dd3d1c0ec784f" data-lake-id="0c4315727c98e169303dd3d1c0ec784f"><ne-text id="ua0cc7fef">链接：</ne-text>[<ne-text id="u4bce887a">https://www.jianshu.com/p/af4b508e99bf</ne-text>](https://www.jianshu.com/p/af4b508e99bf)</ne-p> <ne-p id="2060c8e75e62bd14bb618af91a70811a" data-lake-id="2060c8e75e62bd14bb618af91a70811a"><ne-text id="u2109f2d1">來源：简书</ne-text></ne-p> <ne-p id="ce352d9763571282b0a9045ef730c1ee" data-lake-id="ce352d9763571282b0a9045ef730c1ee"><ne-text id="ub6579ad9">简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</ne-text></ne-p>
+
+
+来自 [我与卡片的故事 - 简书](https://www.jianshu.com/p/b6f90fd2e5a9) 
+
+2017 年 2 月无意间接触到阳老师，了解到阳老的卡片大法。在开智公众号遇到了陈素封老师使用卡片创作的文章《卡片创作法之纳博科夫 - 笨方法学写作》。于是决定购买一盒卡片，开始写卡片和模仿使用卡片创作。 
+
+可惜，我没能坚持使用卡片来创作。阳老师将卡片分为反常识卡、人名卡、术语卡、金句卡、行动卡、技巧卡、任意卡。但自己字写得太难看，写完后不忍直视。查找人名和术语时又因为英语太差，网页翻译的机器文实在不能看，写一张卡片往往会花费半个小时查资料，写完后也不会定期翻阅。一盒卡片也只用了 30 来张，没能坚持像阳老师所说的每天写 3 张卡片，剩下的卡片也只有在有灵感时才会使用。 
+
+18 年 2 月，我开始练习《笨方法学写作》 决心认真学习卡片写作， 在淘宝买了两盒卡片，到今天还剩下几十张卡片。 
+
+用完的卡片 4 月 10 日立志写每天写一张卡片并发布在微博，至 5 月 18 日。共写微博 25 条。其中使用 workflowy 写微博 19 条，从 5 月 9 号开始使用 5 张纸质卡片快写，在 workflowy 中修改后发布至微博共 6 条。 
+
+我怎样写微博卡片？每天晚上 10 点开始，拿出 5 张卡片，用手机 APP 限定时间，在限定时间内写完今天的微博卡片。内容来源于当天或某天灵感、书上一句话、偶然间的一个词。养成每日写卡片的习惯。 
+
+每日卡片 我在写每日微博时，常想今天没什么灵感，也没看过几页书，都不知道写些什么。人家不都没有天天写吗。干脆偷个懒，不要写了。可理智告诉我，这是你每天的任务，是你给自己的要求，不每天写，你能改变自己吗？没办法只能坐在桌前硬着头皮摊开卡片，拿着笔思考，强行让大脑活动起来，想想最近看的书、发生的事、自己的小随笔。就这样来了思绪，拿起笔，一连写满五张卡片。有时思绪不够，只能找个话题，先写着让文字催生文字，写上 2 句思绪就来了。 
+
+上学期间，喜欢在草稿纸上画来画去，写上几个关键词，画上几个符号，写上一段句子。现在，画来画去的习惯从草稿纸变成了卡片，一张卡片只存放一个内容， 所有的问题与想法都写在卡片上。逼迫自己短时间大量思考，让脑子里的组块快速拼接，产生新的卡片，用笔快速记下。 
+
+我使用卡片十分随意，写上我能懂得符号，写上我自己认识的字，毕竟卡片是思想的载体。不吝啬卡片的使用，多写，让自己顺着心流写下去，只会越写越快，大脑里零碎的内容，会自动结合在一起，产生新的卡片。一张卡片有时能写满，有时只写得出 20 来个字。一切随你所好，工具是为了更好思考。 
+
+一张卡片写不了多少个字，但承载思想足够了，用卡片清空大脑，为了让更多的灵感出现在大脑中。 
+
+卡片写作，也是大脑思考过程，使用卡片，将大脑所思、所想。用卡片作载体呈现出来，这就是卡片，我心所想，我笔所记。 
+
+ChangeLog 2018-06-10 整合卡片，修改内容 2018-06-08 开始写我与卡片的卡片。 2018-06-07 在微信群见有人讨论卡片，想起自己使用卡片故事 
+
+----- 
+
+链接：[写作的幸福 - 简书](https://www.jianshu.com/p/af4b508e99bf) <ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+2017 年 10 月我参加阳志平老师的《认知写作学》，而在随后学习认知写作学的半年里，我共写了 3 篇千字文。虽然从头到尾参加了课程，还是不幸成为了阳老师常说的「捐学费的人」。不甘心如此， 2018 年 2 月犹豫多次后决心参加陈素封老师的《笨方法学写作》，从头开始练习写作，练习卡片创作。 
+
+2018 年 2 月到 6 月，使用卡片创作 8 篇千字文，使用纸质卡片 2 盒 ，从 4 月写卡片微博至今天（可见我与卡片的故事 - 简书 ），用以养成每日写千字习惯，现在每周至少写一篇千字文。 <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+
+产生这些差异的原因，并非阳老师的认知写作学不好，恰恰是因为认知写作学太好了。认知写作学是阳老师集多学科之大成，是写作知识的迷宫。庞大到没有背景知识的初学者，只会迷失其中。就像刚开始写作的我，在认知写作学中。因为知识体系过于庞大，又没有好的学习习惯与写作习惯，也没有保持写每日卡片，最后导致行为瘫痪。 
+
+笨方法学写作，提倡使用纸质卡，讲究笨方法。推崇坚毅、科学、认真、创意，所有创作均从纸质卡片开始，从行动开始。没有使用完 3 盒纸质卡片不算入门。 
+
+在我练习卡片创作的同时，也会学习认知写作学中写作的知识。认知写作学中认为写作有三难，难在逻辑、文采、故事。卡片创作理清逻辑，写作清单练习文采，而故事需要你用一生来谱写。 
+
+我决心练习写作，正是从阳志平老师开始，可以说阳志平老师让我寻找到改变的道路，陈素封老师则将其自身改变轨迹展示给我，而剩下的就是去练习卡片创作，走上一条自己走的路。 <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+
+「练习写作，试图用写作改变自己」这是我对自己的口号，也是我的立志之道。 
+
+起初我只是想改变自己，原因非常简单，和前女友分手，想改变自己，寻求不一样的自己。重新回到前女友身边，这是本意。 
+
+写作是否带给我改变，我不知道。但笨方法给了我足够的勇气来练习写作。在我练习卡片创作时，坚毅的力量让我养成写作习惯。 
+
+过去我想要改变而去写作，现在则是写作改变了我。让我想改变的不只是情感，写作让我思考更多人生的意义，让我在这里敲下我的故事。 <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+
+海边、山中，一个人的周末。在我不知道该做些什么的时候，写作便成了我的乐趣。在我内心时常蹦出这样的念头，去写一篇文章，纪念过去，写下那个有你有我的故事。在写作中，享受创作的乐趣。在卡片上涂鸦，在键盘上敲下一个个字。心流诞生在笔尖、在指尖，流淌在心间。 
+
+因为写作，扩展了我的阅读面。也因此让我发现这世上还有那么多有意思的人、有意思的文字。跟王烁「老婆推」学记趣和爱 · 杂记 | ishanshan's blog、老婆推专门博开博王烁新浪博客、光阴的故事-笨方法学写作 
+
+海子说我有三种幸福：诗歌、王位、太阳。对我而言写作便是我的幸福了。 
+
+ChangeLog 
+
+2018-06-18 慢改 1 h 
+
+2018-06-17 workflowy 中慢改 2 h 
+
+2018-06-16 卡片创作快写 1 h 
+
+作者：Syaoran_ 
+
+链接：[https://www.jianshu.com/p/af4b508e99bf](https://www.jianshu.com/p/af4b508e99bf) 
+
+來源：简书 
+
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。

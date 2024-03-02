@@ -2,4 +2,64 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/pqpw5t`](https://www.yuque.com/hardwaylab/cardstyle/pqpw5t)
 
-<ne-p id="3a6fd726baad886833184771a59798a3" data-lake-id="3a6fd726baad886833184771a59798a3"><ne-text id="u1baa0dbc">有人问：「什么样的写作课才值得学？」</ne-text></ne-p> <ne-p id="0caf364c2abd0c18f9bdbd4c5a3831d1" data-lake-id="0caf364c2abd0c18f9bdbd4c5a3831d1"><ne-text id="u0c9335c3">我说：「如果一门课程不能影响你对写作的想法，那它就不值得去学。」</ne-text></ne-p> <ne-p id="96240d1b8e50c534034df2cd5b4ab94d" data-lake-id="96240d1b8e50c534034df2cd5b4ab94d"><ne-text id="uacfab700">他问：「相比其他写作课，《笨方法学写作》有何最大不同？」</ne-text></ne-p> <ne-p id="fe0b81b5fdd1897f8eb30f584bbe692c" data-lake-id="fe0b81b5fdd1897f8eb30f584bbe692c"><ne-text id="u42d6b8f3">我说：「多数写作课号称能让你 21 天学会，短期快速变现，而《笨方法学写作》提出且践行十年学会写作，写作短期内是学不会的，只能通过大时间周期持续练习掌握，写作是身心之学，重在洗心养气。</ne-text></ne-p> <ne-h2 id="4e6b7610" data-lake-id="4e6b7610"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u7ff45e03">为何是「十年」？</ne-text></ne-heading-content></ne-h2> <ne-p id="0187b8e923728d1e03dacb70f301c82c" data-lake-id="0187b8e923728d1e03dacb70f301c82c"><ne-text id="ub5edb1af">我是一个普通人。</ne-text></ne-p> <ne-p id="6ac993121d91dfc9048933d120f05783" data-lake-id="6ac993121d91dfc9048933d120f05783"><ne-text id="uef0759a9">我知道，任何领域的卓越成就都只能通过一生的努力来获得，稍低一点都不行。</ne-text></ne-p> <ne-p id="28f70c5e4c3faee1bf7fe258bad30ed6" data-lake-id="28f70c5e4c3faee1bf7fe258bad30ed6"><ne-text id="u05c9a823">我知道，在那道光没有射在我头上之前，我就必须去坐冷板凳，默默努力，潜心创作。</ne-text></ne-p> <ne-p id="2f02fadb76d3274ee241f819763a02af" data-lake-id="2f02fadb76d3274ee241f819763a02af"><ne-text id="u3bea323c">司马贺说：「在这些专业领域，差不多没有任何一个人不是首先经过了至少十年光景的紧张学习和勤奋实践，才有可能达到世界水平的成就。」</ne-text></ne-p> <ne-p id="703a46de70e70a9d216a657991613812" data-lake-id="703a46de70e70a9d216a657991613812"><ne-text id="u9d11803c">我没有太大的欲望达到世界水平的成就，我只是希望能把想做的事情做成，仅此而已。</ne-text></ne-p> <ne-p id="e72bf5d4ebf88a3f232e0525639c0f82" data-lake-id="e72bf5d4ebf88a3f232e0525639c0f82"><ne-text id="u961d35a4">一年前，我立志读完《治治通鉴》，不知道何时可以读完，既然决心已定，便定下了十年的期限。</ne-text></ne-p> <ne-p id="29168ec0ff62282bbec4df1c51c24ada" data-lake-id="29168ec0ff62282bbec4df1c51c24ada"><ne-text id="ue33aeeb3">星河明灭，日月轮转。十年这个期限，说短不短，说长不长——当你去诚心正意地想去做一件事情时，时间用多点，战线拉长一点也没有关系，当你觉得所有的事情都可以用笨方法完成时，每天的时间便觉不够用了。</ne-text></ne-p> <ne-p id="7d42b3ef860a25ecf9bb0470f6e76455" data-lake-id="7d42b3ef860a25ecf9bb0470f6e76455"><ne-text id="u857b8a07">十年，是普通人成就的「最合理必要时间」。</ne-text></ne-p> <ne-p id="85546ffd3a720def79c0e19920c210f3" data-lake-id="85546ffd3a720def79c0e19920c210f3"><ne-text id="u234f3531">读书如此，写作如此。</ne-text></ne-p> <ne-h2 id="bd7758e8" data-lake-id="bd7758e8"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u53462c0e">怎么定义「学会」？</ne-text></ne-heading-content></ne-h2> <ne-p id="edb67a57c2c7d2e7db564d978c76226b" data-lake-id="edb67a57c2c7d2e7db564d978c76226b"><ne-text id="u5390b7aa">写作到底能不能「学会」？</ne-text></ne-p> <ne-p id="381bf4be183075281760ae726208a8a1" data-lake-id="381bf4be183075281760ae726208a8a1"><ne-text id="ua1644cd2">能学会——但并不是读书、听课、做笔记的那种「学」，而是刻意练习那种「学」。</ne-text></ne-p> <ne-p id="bbb017189f2a1bfab4cfcfbda5139fc5" data-lake-id="bbb017189f2a1bfab4cfcfbda5139fc5"><ne-text id="u5c04e9f3">那这种练习是否量化呢？</ne-text></ne-p> <ne-p id="dc23c4bc21247c82df62f1d2169c4e23" data-lake-id="dc23c4bc21247c82df62f1d2169c4e23"><ne-text id="ud752a45e">普通新手掌握卡片写作技能，路径只有一条：大量写卡片。</ne-text></ne-p> <ne-p id="4cd70aead9b52a562ff09cbcd83e36d8" data-lake-id="4cd70aead9b52a562ff09cbcd83e36d8"><ne-text id="u3b6de3b5">你所看到众多卡片写作高手的精美构思和想法，都是卡片锻炼思维、肌肉记忆、大量书写、大量舍弃而成的。</ne-text></ne-p> <ne-p id="3def24fc1592ad3fbec9a105cff09afb" data-lake-id="3def24fc1592ad3fbec9a105cff09afb"><ne-text id="u46af2fde">根据我践行卡片创作与开设课程的经验反馈，10000 卡片是掌握卡片写作的「最基本数量」。</ne-text></ne-p> <ne-p id="64ed69bca26b85442b7f3f4f595b67d6" data-lake-id="64ed69bca26b85442b7f3f4f595b67d6"><ne-text id="u0666e2dd">在学习卡片写作的路上，我见过太多的失败案例，100%的失败原因都是没有持续大量练习。</ne-text></ne-p> <ne-p id="dfbc18febef33e5d8f1af07afffb0405" data-lake-id="dfbc18febef33e5d8f1af07afffb0405"><ne-text id="u9b2f5a86">他们多数在寻找各种卡片写作技法，在比对评测各种卡片写作工具，在摸索卡片分类的方法，但其实，真实的卡片写作并不需要多少高超的技法，按照《卡片写作九原则》，脚踏实地去用纸质卡片去写去练，定期整理成为电子卡片即可。</ne-text></ne-p> <ne-p id="1a8704b825681a0a2f101f1fc02d5908" data-lake-id="1a8704b825681a0a2f101f1fc02d5908"><ne-text id="ud61049b1">多数人花更多的时间在试图寻找卡片写作的「最佳路径」，「最佳路径」毫无止境的，会耗尽你写作的热情与初心，即使你（以为）找到那条「最佳路径」，找到又如何，你真正的写作之路还没有开始，10000 张卡片，你才写了三五张，谈何学会写作？</ne-text></ne-p> <ne-p id="8cd15fdbef4cdcf6212978ec6df08683" data-lake-id="8cd15fdbef4cdcf6212978ec6df08683"><ne-text id="ud61eaf7b">写作没有「最佳路径」，你永远都不会有「学会」写作的那一瞬间。</ne-text></ne-p> <ne-p id="e5481fda78c48fd4aeb57b6973fff85e" data-lake-id="e5481fda78c48fd4aeb57b6973fff85e"><ne-text id="u55e13ea1">你只能找到一条「满意路径」，给自己设定十年的期限，沉下心，写下第一个「10000 张卡片」，第二个「10000 张卡片」，第三个「10000 张卡片」……</ne-text></ne-p> <ne-h2 id="b4e8b7d9" data-lake-id="b4e8b7d9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u32a4f38a">「写作」到底是什么？</ne-text></ne-heading-content></ne-h2> <ne-p id="f842d7dabcb8d1a5a378a3f869d43a19" data-lake-id="f842d7dabcb8d1a5a378a3f869d43a19"><ne-text id="uadfe0858">什么样的写作才能持续十年？</ne-text></ne-p> <ne-p id="796ba2d29fb50872abffabd33b5ba74e" data-lake-id="796ba2d29fb50872abffabd33b5ba74e"><ne-text id="u3945928e">十年学会写作，始终是兴趣与好奇第一，因为其他因素，例如金钱、名次、奖励、名声等，它们都不足以支持你投入十年的时间去学习写作。</ne-text></ne-p> <ne-p id="8181a6bd84efd0180a890822cea58a8f" data-lake-id="8181a6bd84efd0180a890822cea58a8f"><ne-text id="u52ab2226">Tim Bray 曾说：「人类创造出的产品里，只有那些为了满足自己而作的，才是真正值得读、值得看、值得听的。满足全世界这个目标太大，你很难射中靶心。」</ne-text></ne-p> <ne-p id="471f6c42e01a18a15065d9586b4cb9d0" data-lake-id="471f6c42e01a18a15065d9586b4cb9d0"><ne-text id="uac1fc084">写作，是人的创造性适应过程，是主动的，符合内心抉择的行动，它的真正意义并不在外在功利，而在于从内部改造自己的生活方式，是「身心之学」、是自我修养、是为了让自己变得更好、是责任、是使命、是不沉默、是日常生活的抗争……</ne-text></ne-p> <ne-hole id="u3a27883d" data-lake-id="u3a27883d"><ne-card data-card-name="hr" data-card-type="block" id="Mqr2g" data-event-boundary="card"><ne-p id="eb62ea86833d0a3e708b627bc7c13182" data-lake-id="eb62ea86833d0a3e708b627bc7c13182"><ne-text id="ue1116705">如果你还有兴趣，可以继续查看更多笨方法学写作课程介绍——</ne-text></ne-p> <ne-p id="644aa2e58295e7a312f95e6d5a33a921" data-lake-id="644aa2e58295e7a312f95e6d5a33a921"><ne-text id="u296fb5d4">笨方法学写作，这一次，让你彻底学会写作。</ne-text></ne-p></ne-card></ne-hole>
+
+
+有人问：「什么样的写作课才值得学？」 
+
+我说：「如果一门课程不能影响你对写作的想法，那它就不值得去学。」 
+
+他问：「相比其他写作课，《笨方法学写作》有何最大不同？」 
+
+我说：「多数写作课号称能让你 21 天学会，短期快速变现，而《笨方法学写作》提出且践行十年学会写作，写作短期内是学不会的，只能通过大时间周期持续练习掌握，写作是身心之学，重在洗心养气。 <ne-h2 id="4e6b7610" data-lake-id="4e6b7610"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>为何是「十年」？</ne-heading-content></ne-h2> 
+
+我是一个普通人。 
+
+我知道，任何领域的卓越成就都只能通过一生的努力来获得，稍低一点都不行。 
+
+我知道，在那道光没有射在我头上之前，我就必须去坐冷板凳，默默努力，潜心创作。 
+
+司马贺说：「在这些专业领域，差不多没有任何一个人不是首先经过了至少十年光景的紧张学习和勤奋实践，才有可能达到世界水平的成就。」 
+
+我没有太大的欲望达到世界水平的成就，我只是希望能把想做的事情做成，仅此而已。 
+
+一年前，我立志读完《治治通鉴》，不知道何时可以读完，既然决心已定，便定下了十年的期限。 
+
+星河明灭，日月轮转。十年这个期限，说短不短，说长不长——当你去诚心正意地想去做一件事情时，时间用多点，战线拉长一点也没有关系，当你觉得所有的事情都可以用笨方法完成时，每天的时间便觉不够用了。 
+
+十年，是普通人成就的「最合理必要时间」。 
+
+读书如此，写作如此。 <ne-h2 id="bd7758e8" data-lake-id="bd7758e8"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>怎么定义「学会」？</ne-heading-content></ne-h2> 
+
+写作到底能不能「学会」？ 
+
+能学会——但并不是读书、听课、做笔记的那种「学」，而是刻意练习那种「学」。 
+
+那这种练习是否量化呢？ 
+
+普通新手掌握卡片写作技能，路径只有一条：大量写卡片。 
+
+你所看到众多卡片写作高手的精美构思和想法，都是卡片锻炼思维、肌肉记忆、大量书写、大量舍弃而成的。 
+
+根据我践行卡片创作与开设课程的经验反馈，10000 卡片是掌握卡片写作的「最基本数量」。 
+
+在学习卡片写作的路上，我见过太多的失败案例，100%的失败原因都是没有持续大量练习。 
+
+他们多数在寻找各种卡片写作技法，在比对评测各种卡片写作工具，在摸索卡片分类的方法，但其实，真实的卡片写作并不需要多少高超的技法，按照《卡片写作九原则》，脚踏实地去用纸质卡片去写去练，定期整理成为电子卡片即可。 
+
+多数人花更多的时间在试图寻找卡片写作的「最佳路径」，「最佳路径」毫无止境的，会耗尽你写作的热情与初心，即使你（以为）找到那条「最佳路径」，找到又如何，你真正的写作之路还没有开始，10000 张卡片，你才写了三五张，谈何学会写作？ 
+
+写作没有「最佳路径」，你永远都不会有「学会」写作的那一瞬间。 
+
+你只能找到一条「满意路径」，给自己设定十年的期限，沉下心，写下第一个「10000 张卡片」，第二个「10000 张卡片」，第三个「10000 张卡片」…… <ne-h2 id="b4e8b7d9" data-lake-id="b4e8b7d9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>「写作」到底是什么？</ne-heading-content></ne-h2> 
+
+什么样的写作才能持续十年？ 
+
+十年学会写作，始终是兴趣与好奇第一，因为其他因素，例如金钱、名次、奖励、名声等，它们都不足以支持你投入十年的时间去学习写作。 
+
+Tim Bray 曾说：「人类创造出的产品里，只有那些为了满足自己而作的，才是真正值得读、值得看、值得听的。满足全世界这个目标太大，你很难射中靶心。」 
+
+写作，是人的创造性适应过程，是主动的，符合内心抉择的行动，它的真正意义并不在外在功利，而在于从内部改造自己的生活方式，是「身心之学」、是自我修养、是为了让自己变得更好、是责任、是使命、是不沉默、是日常生活的抗争…… <ne-hole id="u3a27883d" data-lake-id="u3a27883d"><ne-card data-card-name="hr" data-card-type="block" id="Mqr2g" data-event-boundary="card">
+
+如果你还有兴趣，可以继续查看更多笨方法学写作课程介绍—— 
+
+笨方法学写作，这一次，让你彻底学会写作。</ne-card></ne-hole>

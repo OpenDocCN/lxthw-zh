@@ -2,4 +2,24 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/gatkt8`](https://www.yuque.com/hardwaylab/book/gatkt8)
 
-<ne-quote id="ueaab88e6" data-lake-id="ueaab88e6"><ne-p id="ua5caf559" data-lake-id="ua5caf559" ne-alignment="justify"><ne-text id="u16adaf0c">关键词：成长型思维、行动、创造、技术、开放、解答</ne-text></ne-p></ne-quote> <ne-p id="609d93629958084bca0d059a259d257a" data-lake-id="609d93629958084bca0d059a259d257a" ne-alignment="justify"><ne-text id="u4a554f69">模仿是为行动，探索成功可能，降低行动成本，思考普通人如何变得更有创造力的技术。</ne-text></ne-p> <ne-p id="u6773d253" data-lake-id="u6773d253" ne-alignment="justify"><ne-text id="uf06f2dde">作家王文兴说：</ne-text></ne-p> <ne-quote id="u2e6e1898" data-lake-id="u2e6e1898"><ne-p id="ufcbed138" data-lake-id="ufcbed138" ne-alignment="justify"><ne-text id="u95897654">什么是自己创作？无非也是一种模仿。人家做那么高，你看你能不能也跟着学一学，模仿他。模仿不是抄袭，是对它的方向、它的能力的模仿。</ne-text></ne-p></ne-quote> <ne-p id="20eb8ed4f2a5af12cac1e89b2f2d451a" data-lake-id="20eb8ed4f2a5af12cac1e89b2f2d451a" ne-alignment="justify"><ne-text id="uc73bd424">例如这本笨方法手册，也是我模仿写出来的，不断找市面能找到的最好的手册——《谷歌方法》、《奈飞文化手册》、《得到品控手册》等，反复看，反复做，反复改，反复发布，反复更新，参考不断更新而成的。</ne-text></ne-p> <ne-p id="u9e78f3d2" data-lake-id="u9e78f3d2" ne-alignment="justify"><ne-text id="uca0b7259">虽然可能只是笨拙的模仿，虽然有可能会被人诟病，但我不太关心，我关心的是：我是否输出了某个产品，我是否超越了日常水平，我是否能让你能从中得到收获。</ne-text></ne-p> <ne-p id="d4b30aff9aa0db484ef7cbfd5832da51" data-lake-id="d4b30aff9aa0db484ef7cbfd5832da51" ne-alignment="justify"><ne-card data-card-name="image" data-card-type="inline" id="L7y2d" data-event-boundary="card">![](img/154696793b0244faf8bf4d62987df876.png)  <ne-p id="u42202d94" data-lake-id="u42202d94" ne-alignment="justify"><ne-text id="u5aaa9451">所谓的「模仿」，是要带着开放的心态借鉴、欣赏，不要盯着一个人、一个机构、一个物件、一个产品去「模仿」，而是要学会从多个源头获取灵感，并进行混合、变形、再创作，并非单纯的抄袭。</ne-text></ne-p> <ne-p id="ube5d79e1" data-lake-id="ube5d79e1" ne-alignment="justify">[<ne-text id="u986954db">《离线·副本时代》</ne-text>](https://the-offline.com/2021/07/22/abc-03/)<ne-text id="ua2663b31">：</ne-text></ne-p> <ne-quote id="u19ffff25" data-lake-id="u19ffff25"><ne-p id="u28a0ec02" data-lake-id="u28a0ec02" ne-alignment="justify"><ne-text id="u0750ca1c">仿制品在对正本进行微妙地修饰的过程中，会创造出意义。</ne-text></ne-p></ne-quote> <ne-p id="u689d4207" data-lake-id="u689d4207" ne-alignment="justify"><ne-text id="u28769fcc">大多数人都相信，创意是来自于对一个特定问题的课题做长时间准备，并且恒定做出新尝试，直到做出独创的解决方案为止，而模仿就无需如此，你只需一个简单的理由，你想做就开始做，</ne-text><ne-text id="u526ff4b4">独创并非最重要，开始做才是最重要的。∎</ne-text></ne-p></ne-card></ne-p>
+<ne-quote id="ueaab88e6" data-lake-id="ueaab88e6">
+
+关键词：成长型思维、行动、创造、技术、开放、解答</ne-quote> 
+
+模仿是为行动，探索成功可能，降低行动成本，思考普通人如何变得更有创造力的技术。 
+
+作家王文兴说： <ne-quote id="u2e6e1898" data-lake-id="u2e6e1898">
+
+什么是自己创作？无非也是一种模仿。人家做那么高，你看你能不能也跟着学一学，模仿他。模仿不是抄袭，是对它的方向、它的能力的模仿。</ne-quote> 
+
+例如这本笨方法手册，也是我模仿写出来的，不断找市面能找到的最好的手册——《谷歌方法》、《奈飞文化手册》、《得到品控手册》等，反复看，反复做，反复改，反复发布，反复更新，参考不断更新而成的。 
+
+虽然可能只是笨拙的模仿，虽然有可能会被人诟病，但我不太关心，我关心的是：我是否输出了某个产品，我是否超越了日常水平，我是否能让你能从中得到收获。 
+
+<ne-card data-card-name="image" data-card-type="inline" id="L7y2d" data-event-boundary="card">![](img/154696793b0244faf8bf4d62987df876.png)  <ne-p id="u42202d94" data-lake-id="u42202d94" ne-alignment="justify">所谓的「模仿」，是要带着开放的心态借鉴、欣赏，不要盯着一个人、一个机构、一个物件、一个产品去「模仿」，而是要学会从多个源头获取灵感，并进行混合、变形、再创作，并非单纯的抄袭。 
+
+[《离线·副本时代》](https://the-offline.com/2021/07/22/abc-03/)： <ne-quote id="u19ffff25" data-lake-id="u19ffff25">
+
+仿制品在对正本进行微妙地修饰的过程中，会创造出意义。</ne-quote> 
+
+大多数人都相信，创意是来自于对一个特定问题的课题做长时间准备，并且恒定做出新尝试，直到做出独创的解决方案为止，而模仿就无需如此，你只需一个简单的理由，你想做就开始做，独创并非最重要，开始做才是最重要的。∎</ne-card></ne-p>

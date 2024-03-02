@@ -2,4 +2,262 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/gkmgfo`](https://www.yuque.com/hardwaylab/book/gkmgfo)
 
-<ne-quote id="u72ea7248" data-lake-id="u72ea7248"><ne-p id="ub9888bd8" data-lake-id="ub9888bd8"><ne-text id="u7431891b">大前研一：随便一句「我怎么学得会」会把自己永远封闭在象牙塔中。</ne-text></ne-p> <ne-p id="uce628336" data-lake-id="uce628336"><ne-text id="u08bd2177">有些人，与其说是精力旺盛，不如说是他们有持续生长的好奇心。</ne-text></ne-p></ne-quote> <ne-p id="uc78e880b" data-lake-id="uc78e880b"><ne-text id="ucb20f057">有没有培养好奇心的方法呢？</ne-text></ne-p> <ne-p id="u1d1c320c" data-lake-id="u1d1c320c"><ne-text id="uf754b2ba">Paul Graham 这样说：</ne-text></ne-p> <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b"><ne-p id="u2d2383d5" data-lake-id="u2d2383d5"><ne-text id="u1cc7742b">首先，你要避免出现压制好奇心的情况。你目前所做的工作有多少能吸引你的好奇心？如果答案是 "不多"，也许你应该改变一些东西。</ne-text></ne-p> <ne-p id="deda98b1c87515369c9aa182023b5c6c" data-lake-id="deda98b1c87515369c9aa182023b5c6c"><ne-text id="uc87f95ac">培养好奇心最重要的一步，就是找出能吸引好奇心的话题。很少有成年人对所有的事情都有同样的好奇心，而且似乎你也不能选择自己感兴趣的话题。所以要靠你自己去寻找它们，或者必要时发明它们。</ne-text></ne-p> <ne-p id="b8d6e47d621868f753c006c6ba940c23" data-lake-id="b8d6e47d621868f753c006c6ba940c23"><ne-text id="u13389629">另一种增加好奇心的方法是放纵它，通过调查你感兴趣的事情来满足它。在这方面，好奇心与大多数其他欲望不同：放纵往往会增加而不是满足它。问题会导致更多的问题。</ne-text></ne-p> <ne-p id="35357879b1ff39b7daec9d37fd3c6c87" data-lake-id="35357879b1ff39b7daec9d37fd3c6c87"><ne-text id="u9718c0ad">好奇心似乎比一丝不苟的追求真理或对被告知如何思考的抗拒更有个性。在某种程度上，人们对后两者的好奇程度通常是相当普遍的，而不同的人可以对非常不同的事情感到好奇。所以，也许好奇心是这里的指南针。也许，如果你的目标是发现新奇的想法，你的座右铭不应该是 "做你喜欢的事"，而应该是 "做你好奇的事"。</ne-text></ne-p></ne-quote> <ne-p id="62f3880286d2ebc23c8a5d34e73e7df4" data-lake-id="62f3880286d2ebc23c8a5d34e73e7df4"><ne-text id="u1de44859">你需要找到一个大问题，这个问题集中了你对于人生意义与自我使命的巨大困惑，只有当你面对一个足够难的问题时，你才可能想到足够聪明的答案。</ne-text></ne-p> <ne-p id="uf62cbfde" data-lake-id="uf62cbfde"><ne-text id="u16890c79">寻找大问题，是个缓慢的过程，需要在求知中主主动关注现实，并缩小关注点，持续寻找并优化解决方案。</ne-text></ne-p> <ne-p id="6f932d6e2d2c6b46b01f8b37e8b89c00" data-lake-id="6f932d6e2d2c6b46b01f8b37e8b89c00"><ne-text id="uef713287">司马贺建议的步骤是：</ne-text></ne-p> <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="u73b1ffbe" data-lake-id="u73b1ffbe"><ne-text id="uabace0ec">问题解决者心甘情愿地接受模糊定义的问题陈述，并逐步去建构它们；</ne-text></ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="ue2dc8296" data-lake-id="ue2dc8296"><ne-text id="u2967c68a">在相当长的时间内持续全神贯注于问题；</ne-text></ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="u6a284f61" data-lake-id="u6a284f61"><ne-text id="u3bc2ea41">在相关和潜在相关领域中广阔的背景知识——即对问题不明确状态的容忍、坚持不懈地钻研以及拥有大量的背景知识 。</ne-text></ne-oli-c></ne-oli> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf6388e64">1</ne-text></ne-heading-content></ne-h2> <ne-p id="392ea2a77abfca46cf7c01f33e241d43" data-lake-id="392ea2a77abfca46cf7c01f33e241d43"><ne-text id="u0caa40ac">到底，什么是大问题？</ne-text></ne-p> <ne-p id="ae88b7fddd851d76fbcc99a4880dcdad" data-lake-id="ae88b7fddd851d76fbcc99a4880dcdad"><ne-text id="ua765f303">大问题是指你感兴趣且值得你继续投入时间的真实的、高价值的，并有可能被解决的问题。</ne-text></ne-p> <ne-p id="b9f9705a34ca7fbfa5c05ca1b4e8a094" data-lake-id="b9f9705a34ca7fbfa5c05ca1b4e8a094"><ne-text id="u290ad078">这个大问题最好是「事关人类生存与发展的重大基础性问题」，并且，你相信解答这个大问题能造福他人，给你大回报，能激发起你的内在动机，引导你能有多种可能性的迷宫中进行着漫长而愉快的搜索，贯穿你的一生。</ne-text></ne-p> <ne-p id="afdd8ff03794e79a5a83df3f58270d29" data-lake-id="afdd8ff03794e79a5a83df3f58270d29"><ne-text id="u16e025b3">大问题要与真实世界相连，与社会责任联系起来，让它具备某种使命意义——发现与解决大问题是一件必须你要做的事，是可带来长远利益的事，是一件可以最终实现个人价值的事，它能让你所做的一切事情（无论多么细小或烦琐）都变得充满意义。</ne-text></ne-p> <ne-p id="101c35a2986ed0474d32441067705bec" data-lake-id="101c35a2986ed0474d32441067705bec"><ne-text id="ub47ff929">如果你还没有确定你的大问题，不妨思考以下 4 个问题：</ne-text></ne-p> <ne-p id="d8d98bb6c1012f512bc35907ee2cd626" data-lake-id="d8d98bb6c1012f512bc35907ee2cd626"><ne-text id="uf0cabc9b">1、反思你的工作、生活状态，如何能对社会做出积极的贡献？如何承担某一社会责任？你可以解决哪些社会问题？你的个人小问题，能否抽象放大到社会层面，变成一个大问题来解决？</ne-text></ne-p> <ne-p id="2c9db4a3af6f44627b889c765da46531" data-lake-id="2c9db4a3af6f44627b889c765da46531"><ne-text id="u2d26a306">2、「想象一下 10 年之后的自己，你认为那时候对你最重要的是什么？」以及「你能否想到某个人，他的人生激励着你成为一个更好的人？他是谁？他的大问题是什么？他是如何解决大问题的？」</ne-text></ne-p> <ne-p id="86121a00df702abd1f87528f2ba998ae" data-lake-id="86121a00df702abd1f87528f2ba998ae"><ne-text id="u6c126ac1">3、思考可以怎样采取微小但有意义的方式，改变当前的工作态度或生活方式，让它与你的核心价值观更为紧密联结。</ne-text></ne-p> <ne-p id="2f24729d456ed8a39b5a4c11b564a444" data-lake-id="2f24729d456ed8a39b5a4c11b564a444"><ne-text id="uab29c7a6">4、如何将你探寻、分解、解决大问题的过程孵化成为一个个人项目，并将项目成果封装成为能为解决社会问题的产品或服务？</ne-text></ne-p> <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u5612cecc">2</ne-text></ne-heading-content></ne-h2> <ne-p id="375a46565251a7ee63759595525dbafa" data-lake-id="375a46565251a7ee63759595525dbafa"><ne-text id="u208d8877">如果你暂时还没确定自己的大问题也不要紧，没有人能轻易快速找到自己的大问题，探索自己大问题的过程注定是曲折的漫长。</ne-text></ne-p> <ne-p id="048feb88905aeb1697e0a0f9070ce82a" data-lake-id="048feb88905aeb1697e0a0f9070ce82a"><ne-text id="u3c1e3ff8">大问题也不是一成不变的，而是会随着自己的认知、行为、体验、学习的变化而变化，一般要经历三到五年的探索期才能稍微稳定。</ne-text></ne-p> <ne-p id="6769a62bb798bf98b145358999415fd8" data-lake-id="6769a62bb798bf98b145358999415fd8"><ne-text id="uc8d69c49">例如司马贺的大问题轨迹是这样的：</ne-text></ne-p> <ne-p id="559226827cfadabc5e90d9905740f7fc" data-lake-id="559226827cfadabc5e90d9905740f7fc"><ne-text id="u06d937db">确立自己大问题 > 研究人是如何决策 > 决定先从经济学切入 > 发现经济学旧知识无法满足新需求 > 发现当时主流经济学建立的假设有漏洞 > 尝试自己解决 > 融合新学科与实证 > 提出有限理性理论 > 不被认同 > 自己继续潜心研究 > 提出更完备的理论依据 > 结合心理学、认知科学、计算机科学继续研究人的决策 > 已经走出长长的一段路后 > 经济学方面的见解获得主流认同 > 获得诺贝尔奖 > 发现人的决策与计算机科学结合的魅力——人工智能的魅力 > 去研究人工智能。</ne-text></ne-p> <ne-p id="6e2ea812b415946b8e45fc1f5daa1805" data-lake-id="6e2ea812b415946b8e45fc1f5daa1805"><ne-text id="ua4c6c0ef">为了帮你在确定大问题的过程中少走弯路，我这里列了一份大问题清单，这份清单的大部分问题是我花大量时间浏览完 Edge 网站所有问题精选出来的。</ne-text></ne-p> <ne-p id="f039e79fd0a4b837bc43a8587c818298" data-lake-id="f039e79fd0a4b837bc43a8587c818298"><ne-text id="u42543f9a">你可以按照以下方法使用这份清单——</ne-text></ne-p> <ne-p id="3b4c7123dab55f7a1e599fa7b7b271ff" data-lake-id="3b4c7123dab55f7a1e599fa7b7b271ff"><ne-text id="u92536b45">1、找问题。找到你感兴趣的大问题，写下你感兴趣的原因，暂时列入你的大问题清单。</ne-text></ne-p> <ne-p id="60e8dab0653f7034815481d7e18d37e9" data-lake-id="60e8dab0653f7034815481d7e18d37e9"><ne-text id="u97963886">2、找源头。找到提问者，看看他为这个问题都做出过什么努力？输出过什么作品，例如是否写过什么论文、出过什么书、拿过什么奖、解决过什么问题等等。</ne-text></ne-p> <ne-p id="f7ced4b432368ae8ae1ab793dc2cba1c" data-lake-id="f7ced4b432368ae8ae1ab793dc2cba1c"><ne-text id="ud8ab0fd4">3、找方法。如果他依然没有解决这个问题，瓶颈在哪里？解决办法在哪里？是否还有其他人同样努力在解决这个问题，他们都是怎样做的？</ne-text></ne-p> <ne-p id="ebee38a6326935f2f55bd2ba842ad100" data-lake-id="ebee38a6326935f2f55bd2ba842ad100"><ne-text id="u427d0c20">4、找同侪。你在试图解决这个问题的过程中，做出了什么样的努力，将你做出的努力记录并输出为文章，为后来人搭好脚手架，或召集更多人来解决这个问题。</ne-text></ne-p> <ne-p id="59c86b9a7cb578c973e7d57b0aa434f3" data-lake-id="59c86b9a7cb578c973e7d57b0aa434f3"><ne-text id="u115d40db">5、找自己。经历以上，你也可能找到了属于自己的大问题，为何会有这个问题？这个问题是什么？你该如何解决这个问题？</ne-text></ne-p> <ne-h2 id="5" data-lake-id="5"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u27d1eb91">3</ne-text></ne-heading-content></ne-h2> <ne-p id="cd1cf3549c031f9f37360cd2e8632258" data-lake-id="cd1cf3549c031f9f37360cd2e8632258"><ne-text id="ube10dee1">大问题清单</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ec7f298bb819ea92ebe3219d805ce04b" data-lake-id="ec7f298bb819ea92ebe3219d805ce04b"><ne-text id="u441ad90c">Peter Thiel：在什么重要问题上你与其他人有不同看法？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="c4edd044de1854ea4c238c8f4b18ffbb" data-lake-id="c4edd044de1854ea4c238c8f4b18ffbb"><ne-text id="ufdfc15ca">Herbert Alexander Simon：人类理性本质是什么？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="31b1f98f76fe60b6aa01916f85c52a9f" data-lake-id="31b1f98f76fe60b6aa01916f85c52a9f"><ne-text id="u2a37fb09">James Gardner March：如何处理逻辑认同与身份认同之间的平衡？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="206b2513fe0d7c76a158f11700ea9d24" data-lake-id="206b2513fe0d7c76a158f11700ea9d24"><ne-text id="ub9599114">Joseph·Campbell：如何发挥故事的力量？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u2df4420e" data-lake-id="u2df4420e"><ne-text id="ub0bc0be3">Alan kay：如何帮助学生追求他们的兴趣和热情？如何帮助学生学习「强有力的思想」，并成长为有系统性思考能力的人？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="bb16e732e5e5f8196290cea2a93c2ec9" data-lake-id="bb16e732e5e5f8196290cea2a93c2ec9"><ne-text id="ueea41cfb">Nassim Nicholas Taleb：如何从不确定性中获益？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="3d81baee44a6a3a68e79aa6a12b895ac" data-lake-id="3d81baee44a6a3a68e79aa6a12b895ac"><ne-text id="ufb0e327e">Peter F. Drucker：我的优势是什么？我如何学习？我的价值观是什么？我要为组织作出什么样的贡献？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="175129501a01d999a8487bf005d43eeb" data-lake-id="175129501a01d999a8487bf005d43eeb"><ne-text id="u962433ca">Jeffrey Preston Bezos：如何发现并坚持做有长期价值的事情？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="bc853ccaf9db6abbd7155a911af0ca07" data-lake-id="bc853ccaf9db6abbd7155a911af0ca07"><ne-text id="u764fb5f4">Santa Fe Institute（圣菲研究所）：人类为何需要复杂性思维？复杂系统中，各组成部分之间相互作用所突现出的特性究竟是怎样的？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ced6f2a34ca94c46d08729a6b6870c89" data-lake-id="ced6f2a34ca94c46d08729a6b6870c89"><ne-text id="u52aba279">Albert Wenger：在人类灭绝的灾难性事件之后，我们如何为人类快速重建一个先进的文明创建和维护备份选项？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="5333ad46920117aa4fe85d47a643523a" data-lake-id="5333ad46920117aa4fe85d47a643523a"><ne-text id="u0d96b5cf">Eduardo Salcedo-Albaran：为什么有些人在法律之内行事，有些人在法律之外行事，还有一些人制定法律？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ee5540e470b0173d22da560dec70e8ce" data-lake-id="ee5540e470b0173d22da560dec70e8ce"><ne-text id="u22ce0917">Lisa Mosconi：建立一个更喜欢娱乐而不是理解的社会有进化优势吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="054aa67484328149f17e38783557f45f" data-lake-id="054aa67484328149f17e38783557f45f"><ne-text id="u1f144208">Read Montague：感情是可计算的吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="41428e145204e42bf68b1fb5564ec876" data-lake-id="41428e145204e42bf68b1fb5564ec876"><ne-text id="ucdfa4551">Ian McEwan：如果所有重要知识的总和都是有限的，那么在智能机器的帮助下，人类最终能获得多大比例的知识呢？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="79194c6f6eaf4bd57319dfb0aca6443a" data-lake-id="79194c6f6eaf4bd57319dfb0aca6443a"><ne-text id="ucf4d9bb0">Chiara Marletto：有趣的问题的数量是有限的吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="881a4e1254049b01ef60cd638ccd15e8" data-lake-id="881a4e1254049b01ef60cd638ccd15e8"><ne-text id="u14df1db2">Gary Marcus：为什么人类在思考和日常推理方面仍然比机器灵活得多？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="832cf18cb357e9e438948c147c0abf5b" data-lake-id="832cf18cb357e9e438948c147c0abf5b"><ne-text id="u64d26779">Jonathan B. Losos：一百年后，或者十万年后，进化将如何塑造生物世界？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="d3f9e6c35c70c24be7a0ca56c1b3cb5b" data-lake-id="d3f9e6c35c70c24be7a0ca56c1b3cb5b"><ne-text id="u9baba77c">Coco Krumme：为什么我们如此在意算法对我们的近似程度？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0004d68a02ed8896269a8cc8ba20e4d6" data-lake-id="0004d68a02ed8896269a8cc8ba20e4d6"><ne-text id="uad4536a6">Kai Krause：当第一个外星生命形式被发现时，地球上的宗教会发生什么</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="4fb314a2b6281a4a9b5447d778c714c7" data-lake-id="4fb314a2b6281a4a9b5447d778c714c7"><ne-text id="u8e170fee">Jon Kleinberg：我们能否创造出有助于公平地减少世界冲突数量的技术？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="998269d84c1ee7a861b64ff429504087" data-lake-id="998269d84c1ee7a861b64ff429504087"><ne-text id="ud960b840">Gary Klein：我们怎样才能制造出让我们变得更聪明的机器？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="5dbb074d8333109a5ab040d1b2d1d58c" data-lake-id="5dbb074d8333109a5ab040d1b2d1d58c"><ne-text id="ubaf23153">Kevin Kelly：如何改进科学的进程？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="274a9ebb146979adfea7812f08935127" data-lake-id="274a9ebb146979adfea7812f08935127"><ne-text id="u7b98c325">John Horgan：如何才能一劳永逸地结束战争？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="17dc746c466f6544d381e1d3e6810583" data-lake-id="17dc746c466f6544d381e1d3e6810583"><ne-text id="u87732580">César Hidalgo：我们什么时候才能用算法取代政府？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="551f8071a24c1fb6bd74c625f0d8a048" data-lake-id="551f8071a24c1fb6bd74c625f0d8a048"><ne-text id="ued1e6453">Jonathan Gottschall：故事对我们有害吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="874869e1a2e192bc65966835de288e65" data-lake-id="874869e1a2e192bc65966835de288e65"><ne-text id="u7cfb27b0">Christine Finn：我们的过去在未来还有位置吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="693880b42ce6d99bc097ea42388c8187" data-lake-id="693880b42ce6d99bc097ea42388c8187"><ne-text id="u36dc94f2">Nick Enfield：共享知识的累积是否永远受到人类语言的限制？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="8d734b845d6c7c598f959b824d5fb739" data-lake-id="8d734b845d6c7c598f959b824d5fb739"><ne-text id="ua628d980">David Edelman：我们是否会被另一个地球物种所取代，这个物种能够进化到类似的社会和技术复杂程度，有效地填补我们腾出的生物文化空白？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="9f45d1d8e13ff26f63204f521ce9b3fe" data-lake-id="9f45d1d8e13ff26f63204f521ce9b3fe"><ne-text id="u22d6abd3">David M. Eagleman：我们能否为人类创造新的感官——不仅仅是触觉、味觉、视觉、听觉、嗅觉，而是我们还没有语言来表达的全新的感官？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="270f8627ab454750cab9ebe636efc7d6" data-lake-id="270f8627ab454750cab9ebe636efc7d6"><ne-text id="ue957b953">Chris DiBona：计算机真的能够理解和体验人类的善良吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="fb673414556e132ed60be6cdfaed2082" data-lake-id="fb673414556e132ed60be6cdfaed2082"><ne-text id="u7b269117">Luca De Biase：如果我们想要制定一个真正有效的以科学为基础的政策，我们应该改变政治还是科学？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="674c48ffa94140c2dcb963a7d332abe2" data-lake-id="674c48ffa94140c2dcb963a7d332abe2"><ne-text id="uf6e7fa35">Kate Darling：今天大多数有远见的人会认为哪些未来的进步规范过于超前而不屑一顾？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="e948acf53a40e623fba24e06d60c2744" data-lake-id="e948acf53a40e623fba24e06d60c2744"><ne-text id="u8bbde965">Oliver Scott Curry：为什么要做好人？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="7379296427281935e8a1e3941224fbd0" data-lake-id="7379296427281935e8a1e3941224fbd0"><ne-text id="u575b0957">Jaeweon Cho ：我们能否设计一个没有货币的现代社会，至少在经济和政治上与我们现行的制度一样有效？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="dc22a73b4d13b067152ccfa9fc8288b5" data-lake-id="dc22a73b4d13b067152ccfa9fc8288b5"><ne-text id="u05917fd2">Nick Bostrom：哪些问题我们不应该问，也不应该试图回答？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="f32c95bb07ea3ff08ed6467bd9970887" data-lake-id="f32c95bb07ea3ff08ed6467bd9970887"><ne-text id="ua759522e">Joscha Bach：发现真理的最佳算法是什么？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="87c3602d318bf212bfff3b0a662c71b5" data-lake-id="87c3602d318bf212bfff3b0a662c71b5"><ne-text id="u26bc64f5">George Lakoff：认知科学会像其他科学一样改变我们的思维方式吗？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0e6a5e45cadf1c289b407f11f08c6524" data-lake-id="0e6a5e45cadf1c289b407f11f08c6524"><ne-text id="u49cf3177">Stanislas Dehaene：我们的大脑是否足够聪明去理解大脑？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="f238dbeba59f44c37b36a37264bb39df" data-lake-id="f238dbeba59f44c37b36a37264bb39df"><ne-text id="uc3e462dd">Brian Eno：我们为什么要装饰？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="c251cd7c638e6c5c6285b06171c07cd3" data-lake-id="c251cd7c638e6c5c6285b06171c07cd3"><ne-text id="ue85273b4">为什么我们所知道的所有人类文明都会装饰东西？ 为什么不让他们自己呆着呢？ 为什么要投入那么多额外的、显然是非功能性的能量呢？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0dc29a62818d21223aef904b06b33a00" data-lake-id="0dc29a62818d21223aef904b06b33a00"><ne-text id="u294b350a">W. Daniel Hillis：为什么人们喜欢音乐？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="d25871a21e0a3a6789aa3cab66ce17cb" data-lake-id="d25871a21e0a3a6789aa3cab66ce17cb"><ne-text id="udb7917d9">Dan Sperber：社会科学能在多大程度上有助于我们建立一个公正和自由的社会？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="7eaaba57f53f72bb387559e2cca73993" data-lake-id="7eaaba57f53f72bb387559e2cca73993"><ne-text id="u8cf78371">Tor Nørretranders：为什么我们要走得更远，去探索新的东西？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="3b3807c3a6170e552acf8f9c7742c542" data-lake-id="3b3807c3a6170e552acf8f9c7742c542"><ne-text id="ua410db12">John D. Barrow：自然法则是否是一种需要并使用错误校正的计算机代码？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="dd1d7515c4f518e0237946a90636babc" data-lake-id="dd1d7515c4f518e0237946a90636babc"><ne-text id="u2f5358a6">David G. Myers：为什么我们害怕错误的东西？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="6adf1a8e61ef957e3c1c6d8e73b9a5f2" data-lake-id="6adf1a8e61ef957e3c1c6d8e73b9a5f2"><ne-text id="u633956d9">Henry Warwick：科学之后是什么? 什么时候？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="bc5ca0f94283bd0f28d4c483a00e92a6" data-lake-id="bc5ca0f94283bd0f28d4c483a00e92a6"><ne-text id="ub143d198">Alan Alda：时尚、时尚、疯狂和金融狂热的本质是什么？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="909f0120a8bbcfbd73524cb208f72345" data-lake-id="909f0120a8bbcfbd73524cb208f72345"><ne-text id="ua6eb16e0">Todd E. Feinberg：活着和有思想之间有什么关系？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="3264ce5226e6340c5e9b247e50e59248" data-lake-id="3264ce5226e6340c5e9b247e50e59248"><ne-text id="ucb387c8b">Kevin Kelly：你的异端邪说是什么？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="f79226434f84a5ac9a53caab5cfcc31a" data-lake-id="f79226434f84a5ac9a53caab5cfcc31a"><ne-text id="uff0d6cae">Mihaly Csikszentmihalyi：我们如何才能保持年轻人对提出这些问题的兴趣？在一个日益物质化的文化中，我们还能保持多久的好奇心和创造力?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="fc34b50731e9706073ab247fffb39dd8" data-lake-id="fc34b50731e9706073ab247fffb39dd8"><ne-text id="u8aed5c08">Stewart Brand：我们如何让长期思考变得自动化和普遍化，而不是困难和罕见?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ebec9a40ce399c6756bd8745bf3962b8" data-lake-id="ebec9a40ce399c6756bd8745bf3962b8"><ne-text id="ue3496ebf">Alun Anderson：如果一个科学家获得了比我更了解我自己的力量，那会有什么后果呢?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="3db54c20126196f2a1cedb509d5e37bd" data-lake-id="3db54c20126196f2a1cedb509d5e37bd"><ne-text id="uad881dff">William H. Calvin：一旦我们了解了大脑如何制造思维，思维将如何扩展?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="4e8d4812c69445ce29e03fdacdabf219" data-lake-id="4e8d4812c69445ce29e03fdacdabf219"><ne-text id="uab9ae519">David G. Myers：人类直觉的力量和局限是什么?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="72fed26beaae20a47b669a2b3145b76d" data-lake-id="72fed26beaae20a47b669a2b3145b76d"><ne-text id="u77a84e19">Jared Diamond：过去社会的崩塌给予未来何种启示？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="4e48c105bba72874395f354b440d9760" data-lake-id="4e48c105bba72874395f354b440d9760"><ne-text id="ue4f4d819">Katie Hafner：为什么历史如此重要?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="aa01d2fb34ff0dde2979b0585a57aa4a" data-lake-id="aa01d2fb34ff0dde2979b0585a57aa4a"><ne-text id="uceeccadf">Nicholas Humphrey：为什么音乐是一种乐趣?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="6670f0fb9acd4b4c71f765314a54c5c6" data-lake-id="6670f0fb9acd4b4c71f765314a54c5c6"><ne-text id="u8aca4362">Kevin Kelly：科技想要什么？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="5aa9a58c14966d1f33b2e1e2490895f4" data-lake-id="5aa9a58c14966d1f33b2e1e2490895f4"><ne-text id="ue645a54d">Sir John Maddox：我们怎么知道什么时候知道，什么事情我们不知道?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="4c18029a736a1e77e23aa9c9ed2a7f59" data-lake-id="4c18029a736a1e77e23aa9c9ed2a7f59"><ne-text id="ub8b612ce">Louis Rossetto：是否存在一个幸福基因，并且它占主导地位?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="1bd4ab91d3c5fa1ef5f360131dfc2a26" data-lake-id="1bd4ab91d3c5fa1ef5f360131dfc2a26"><ne-text id="u7a84c808">Elaine Pagels：为什么宗教仍然至关重要?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="1db7525267ef02de646f5490afedec48" data-lake-id="1db7525267ef02de646f5490afedec48"><ne-text id="u05d358ad">Steven Rose：如何确保我们开发的科学和技术为人民服务，接受民主监督，并且有助于而不是阻碍人类与自然和谐相处?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="34bf264c69c0ea5af283e6bacfe838db" data-lake-id="34bf264c69c0ea5af283e6bacfe838db"><ne-text id="u648037f2">Lee Smolin：从根本上说，时间的流动是真实的吗? 还是我们对时间流逝的感觉只是一种错觉，掩盖了真实只是一系列瞬间的事实?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="b47408c6122409f9124ea7111a060a6d" data-lake-id="b47408c6122409f9124ea7111a060a6d"><ne-text id="u3c043d40">Tor Nørretranders：我们作为人，能够在生活中与其他人分享多少经历?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="a707e047ac010f9d2689c137a09522c8" data-lake-id="a707e047ac010f9d2689c137a09522c8"><ne-text id="ua3358438">Robert Provine：情感对智力有贡献吗? 如果有，那么情感计算技术的发展会有什么影响呢? 」</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="6790cb67b34f286a5fdd163625688afc" data-lake-id="6790cb67b34f286a5fdd163625688afc"><ne-text id="u322fff4c">Cliff Stoll：你该怎样教育你的孩子？</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0f600059ac948f8015677b61eccd6ea7" data-lake-id="0f600059ac948f8015677b61eccd6ea7"><ne-text id="u9d3c34ba">Margaret Wertheim：你想从科学中得到什么?</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="51457bfff9b90afc769bbe6f56d05a1c" data-lake-id="51457bfff9b90afc769bbe6f56d05a1c"><ne-text id="u6a1c3486">Colin Tudge：宗教是什么？ 有必要吗？ 如果我们要为未来设计出一种看似合理却又避免平庸的宗教？ 那会是什么样子呢?</ne-text></ne-uli-c></ne-uli> <ne-h2 id="A6zed" data-lake-id="A6zed"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf28f357a">4</ne-text></ne-heading-content></ne-h2> <ne-p id="ucefcb392" data-lake-id="ucefcb392"><ne-text id="uf9d9f444">附：问题发现工具</ne-text></ne-p>  <ne-p id="u20debefb" data-lake-id="u20debefb"><ne-text id="ue2b4a70a"><ne-card data-card-name="image" data-card-type="inline" id="u8bcf2e50" data-event-boundary="card" class="ne-spacing-all"><ne-p id="u0690a710" data-lake-id="u0690a710"><ne-card data-card-name="image" data-card-type="inline" id="u38429820" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ube19bf22" data-lake-id="ube19bf22"><ne-card data-card-name="image" data-card-type="inline" id="u9512d5c9" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="18d394c2" data-lake-id="18d394c2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf53bd429">本文起源</ne-text></ne-heading-content></ne-h2> <ne-quote id="ud255ea53" data-lake-id="ud255ea53"><ne-p id="8a58551469833c4d3d32ede6c55c11f0" data-lake-id="8a58551469833c4d3d32ede6c55c11f0"><ne-text id="u3877569a">之一</ne-text></ne-p> <ne-p id="cf7ba576504efec4c5f9ae0aa2d220ea" data-lake-id="cf7ba576504efec4c5f9ae0aa2d220ea"><ne-text id="uf792e240">整理贝索斯的致股东的系列信件过程中，发现贝索斯从 1997 年到现在一直写致股东信，三十多年只为解决自己的大问题做行为注解，忽然想到这世上应有更多的「几十年或一生都只为解决一个问题」的「贝索斯」，将他们找出来应该相当有意思。</ne-text></ne-p> <ne-p id="a250bfd88f2460ef6e1586b64b28dc48" data-lake-id="a250bfd88f2460ef6e1586b64b28dc48"><ne-text id="u1a02d029">之二</ne-text></ne-p> <ne-p id="2b923291ac0a596a1c2387472d321a37" data-lake-id="2b923291ac0a596a1c2387472d321a37"><ne-text id="u78ea13b9">看司马贺《现代决策理论的基石》时，发现司马贺一再强调自己的大问题的是：人类理性本质——其机制、效应及其对人类本身状况而言的意义。返观自己，发现自己的大问题却迟迟没有定下来，在盯着司马贺的大问题良久，忽然想把其他的智者的大问题做个清单，给自己做个参考。</ne-text></ne-p> <ne-p id="8015f3e2ea80a53b446f620fa3aeb13d" data-lake-id="8015f3e2ea80a53b446f620fa3aeb13d"><ne-text id="u131ab20f">之三</ne-text></ne-p> <ne-p id="c280b52c37082e0d2b925eaee3c629e6" data-lake-id="c280b52c37082e0d2b925eaee3c629e6"><ne-text id="ufb63583f">看《他乡的童年 04》，片中提到英国的的小学给学生准备不少的大问题，这些问题包括：自由是什么？什么是艺术？爱人更容易，还是被爱更容易？这些问题被贴在墙上，引发他们思考，思考的结果不重要，重要的是思考本身。忽然发现，自己竟然从未思考过这些大问题，又萌生想法，自己要一个一个来回答，即使简短，即使每个阶段都有不同的答案，但这也代表自己曾经思考过。</ne-text></ne-p> <ne-p id="f9566b3955d26d1126f328af7593ef06" data-lake-id="f9566b3955d26d1126f328af7593ef06"><ne-text id="u255063ee">之四</ne-text></ne-p> <ne-p id="2689a939df9b8b4bc87efbd4a69ff864" data-lake-id="2689a939df9b8b4bc87efbd4a69ff864"><ne-text id="ub0def236">找到大问题是笨方法四步的第一步，第一步相当重要，有必要为「大问题」做一个详细的注解。笨方法四步分别是找到大问题、分解大问题、跨学科学习、关注方法论，详细可见《</ne-text>[<ne-text id="u86d799ec">笨方法实验室</ne-text>](https://hardwaylab.com/)<ne-text id="ued90f782">》官网。</ne-text></ne-p></ne-quote> <ne-h2 id="d17a0f0b" data-lake-id="d17a0f0b"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u5ca1f432">参考</ne-text></ne-heading-content></ne-h2> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="2a781eb3246c72d46adc1c9234237dea" data-lake-id="2a781eb3246c72d46adc1c9234237dea">[<ne-text id="u433b65c2">人类的终极问题 (豆瓣)</ne-text>](https://book.douban.com/subject/34840198/)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="9b29f25685930073250ab7edce9e9214" data-lake-id="9b29f25685930073250ab7edce9e9214">[<ne-text id="u49170135">边缘网站（Edge.com）年度大问题</ne-text>](http://www.mesule.com/2017/01/EdgeBigQuestion)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="484f5ede8803d43fe442e8352c1f628a" data-lake-id="484f5ede8803d43fe442e8352c1f628a">[<ne-text id="uc123ffb4">2002 : WHAT IS YOUR QUESTION? ... WHY?</ne-text>](https://www.edge.org/responses/what-is-your-question-why)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="8459fbb22918e427f397538bec0dd3f4" data-lake-id="8459fbb22918e427f397538bec0dd3f4">[<ne-text id="uc842a4eb">1998 : WHAT QUESTIONS ARE YOU ASKING YOURSELF?</ne-text>](https://www.edge.org/responses/what-questions-are-you-asking-yourself)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="9d319898c863ee33417c0954e08cb459" data-lake-id="9d319898c863ee33417c0954e08cb459">[<ne-text id="uf609a1b5">米尔卡·科斯蒂奇：做真正让你充满激情和兴奋的研究</ne-text>](https://mp.weixin.qq.com/s/xONLXJHR2TUR14N2oAY1mg)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ucc4a2708" data-lake-id="ucc4a2708">[<ne-text id="u032f2cef">理查德·汉明《你和你的研究》 - 阮一峰的网络日志</ne-text>](http://www.ruanyifeng.com/blog/2016/04/you-and-your-research.html)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="aea45fc658aa3d59d13e01ff6f147590" data-lake-id="aea45fc658aa3d59d13e01ff6f147590">[<ne-text id="u87d722db">德鲁克：管理自己</ne-text>](https://www.douban.com/group/topic/20159977/)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="48ec0656e495630c5c4dbebc7439f860" data-lake-id="48ec0656e495630c5c4dbebc7439f860">[<ne-text id="u250db123">专访韩靖 中国学者是如何接受复杂性研究的？</ne-text><ne-text id="u8aee898b" ne-italic="true">主题</ne-text><ne-text id="u6f81bc45">新京报电子报</ne-text>](http://epaper.bjnews.com.cn/html/2019-11/16/content_771217.htm?div=0)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="241f691ba8ad598c8adac41d7c34fda6" data-lake-id="241f691ba8ad598c8adac41d7c34fda6">[<ne-text id="uc6f8ea9a">跨学科学习不完全手册 - 笨方法学写作</ne-text>](http://www.cnfeat.com/blog/2017/05/30/InterdisciplinaryLearning/)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="e0bfd09b074728870938db183742c5e2" data-lake-id="e0bfd09b074728870938db183742c5e2">[<ne-text id="ubcfb3676">每个人都应该读一读贝索斯的致股东信（1997-2016）</ne-text>](https://www.cnfeat.com/blog/2017/07/08/BezosLetters/)</ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="93bccbd73af38cca4a98529f02d6a78e" data-lake-id="93bccbd73af38cca4a98529f02d6a78e">[<ne-text id="uaf7a6a3e">学习周报的基本</ne-text>](https://www.cnfeat.com/blog/2019/07/06/BasicWeekly/)</ne-uli-c></ne-uli> <ne-h3 id="Changelog" data-lake-id="Changelog"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u7211ba8f">Changelog</ne-text></ne-heading-content></ne-h3> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u11055b57" data-lake-id="u11055b57"><ne-text id="u942bedcf">2022-03-04 增补问题发现工具</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="9fefe16ac8e1be500ca6f29b04422fd4" data-lake-id="9fefe16ac8e1be500ca6f29b04422fd4"><ne-text id="ud2155df6">2021-05-31 修订迁移开源至《笨方法文化手册》</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="85a2be16297d6ba8c4cec055102f44fb" data-lake-id="85a2be16297d6ba8c4cec055102f44fb"><ne-text id="u1792efbe">2020-05-03 修订发布至知识星球</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0194011e0d326db9fb9bc9ab99d5847a" data-lake-id="0194011e0d326db9fb9bc9ab99d5847a"><ne-text id="u479e1bed">2020-05-02 完稿</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="df6bbdf5ddbd012f2cfeb177a61319d3" data-lake-id="df6bbdf5ddbd012f2cfeb177a61319d3"><ne-text id="u3cf6fe21">2020-04-25 增补故事卡片</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="0f16333eed104a8658726ff10da84af3" data-lake-id="0f16333eed104a8658726ff10da84af3"><ne-text id="uba39357e">2020-02-11 增补霍金附录</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="963f87ea62be9291a479350943674860" data-lake-id="963f87ea62be9291a479350943674860"><ne-text id="u14463cb1">2019-11-15 整理边缘大问题清单</ne-text></ne-uli-c></ne-uli> <ne-p id="a20d224c568e48b9d67847a2c66a8c01_p_0" data-lake-id="a20d224c568e48b9d67847a2c66a8c01_p_0"><ne-text id="ubd5af481">非常感谢素封汇总在此的大问题。我从没有意识过要寻找确定自己的大问题，没有思考过绝大多数的大问题。我刚刚已经记下了一部分感兴趣的大问题。我觉得这是一个好的开始。谢谢你。</ne-text></ne-p> <ne-p id="ub6552104" data-lake-id="ub6552104"><ne-text id="u0cfd2614">期待你后续的实践行动。</ne-text></ne-p></ne-card></ne-p></ne-card></ne-p></ne-card></ne-text></ne-p>
+<ne-quote id="u72ea7248" data-lake-id="u72ea7248">
+
+大前研一：随便一句「我怎么学得会」会把自己永远封闭在象牙塔中。 
+
+有些人，与其说是精力旺盛，不如说是他们有持续生长的好奇心。</ne-quote> 
+
+有没有培养好奇心的方法呢？ 
+
+Paul Graham 这样说： <ne-quote id="u4f39b04b" data-lake-id="u4f39b04b">
+
+首先，你要避免出现压制好奇心的情况。你目前所做的工作有多少能吸引你的好奇心？如果答案是 "不多"，也许你应该改变一些东西。 
+
+培养好奇心最重要的一步，就是找出能吸引好奇心的话题。很少有成年人对所有的事情都有同样的好奇心，而且似乎你也不能选择自己感兴趣的话题。所以要靠你自己去寻找它们，或者必要时发明它们。 
+
+另一种增加好奇心的方法是放纵它，通过调查你感兴趣的事情来满足它。在这方面，好奇心与大多数其他欲望不同：放纵往往会增加而不是满足它。问题会导致更多的问题。 
+
+好奇心似乎比一丝不苟的追求真理或对被告知如何思考的抗拒更有个性。在某种程度上，人们对后两者的好奇程度通常是相当普遍的，而不同的人可以对非常不同的事情感到好奇。所以，也许好奇心是这里的指南针。也许，如果你的目标是发现新奇的想法，你的座右铭不应该是 "做你喜欢的事"，而应该是 "做你好奇的事"。</ne-quote> 
+
+你需要找到一个大问题，这个问题集中了你对于人生意义与自我使命的巨大困惑，只有当你面对一个足够难的问题时，你才可能想到足够聪明的答案。 
+
+寻找大问题，是个缓慢的过程，需要在求知中主主动关注现实，并缩小关注点，持续寻找并优化解决方案。 
+
+司马贺建议的步骤是： <ne-oli><ne-oli-i>1</ne-oli-i><ne-oli-c class="ne-oli-content" id="u73b1ffbe" data-lake-id="u73b1ffbe">问题解决者心甘情愿地接受模糊定义的问题陈述，并逐步去建构它们；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>2</ne-oli-i><ne-oli-c class="ne-oli-content" id="ue2dc8296" data-lake-id="ue2dc8296">在相当长的时间内持续全神贯注于问题；</ne-oli-c></ne-oli> <ne-oli><ne-oli-i>3</ne-oli-i><ne-oli-c class="ne-oli-content" id="u6a284f61" data-lake-id="u6a284f61">在相关和潜在相关领域中广阔的背景知识——即对问题不明确状态的容忍、坚持不懈地钻研以及拥有大量的背景知识 。</ne-oli-c></ne-oli> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+到底，什么是大问题？ 
+
+大问题是指你感兴趣且值得你继续投入时间的真实的、高价值的，并有可能被解决的问题。 
+
+这个大问题最好是「事关人类生存与发展的重大基础性问题」，并且，你相信解答这个大问题能造福他人，给你大回报，能激发起你的内在动机，引导你能有多种可能性的迷宫中进行着漫长而愉快的搜索，贯穿你的一生。 
+
+大问题要与真实世界相连，与社会责任联系起来，让它具备某种使命意义——发现与解决大问题是一件必须你要做的事，是可带来长远利益的事，是一件可以最终实现个人价值的事，它能让你所做的一切事情（无论多么细小或烦琐）都变得充满意义。 
+
+如果你还没有确定你的大问题，不妨思考以下 4 个问题： 
+
+1、反思你的工作、生活状态，如何能对社会做出积极的贡献？如何承担某一社会责任？你可以解决哪些社会问题？你的个人小问题，能否抽象放大到社会层面，变成一个大问题来解决？ 
+
+2、「想象一下 10 年之后的自己，你认为那时候对你最重要的是什么？」以及「你能否想到某个人，他的人生激励着你成为一个更好的人？他是谁？他的大问题是什么？他是如何解决大问题的？」 
+
+3、思考可以怎样采取微小但有意义的方式，改变当前的工作态度或生活方式，让它与你的核心价值观更为紧密联结。 
+
+4、如何将你探寻、分解、解决大问题的过程孵化成为一个个人项目，并将项目成果封装成为能为解决社会问题的产品或服务？ <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+
+如果你暂时还没确定自己的大问题也不要紧，没有人能轻易快速找到自己的大问题，探索自己大问题的过程注定是曲折的漫长。 
+
+大问题也不是一成不变的，而是会随着自己的认知、行为、体验、学习的变化而变化，一般要经历三到五年的探索期才能稍微稳定。 
+
+例如司马贺的大问题轨迹是这样的： 
+
+确立自己大问题 > 研究人是如何决策 > 决定先从经济学切入 > 发现经济学旧知识无法满足新需求 > 发现当时主流经济学建立的假设有漏洞 > 尝试自己解决 > 融合新学科与实证 > 提出有限理性理论 > 不被认同 > 自己继续潜心研究 > 提出更完备的理论依据 > 结合心理学、认知科学、计算机科学继续研究人的决策 > 已经走出长长的一段路后 > 经济学方面的见解获得主流认同 > 获得诺贝尔奖 > 发现人的决策与计算机科学结合的魅力——人工智能的魅力 > 去研究人工智能。 
+
+为了帮你在确定大问题的过程中少走弯路，我这里列了一份大问题清单，这份清单的大部分问题是我花大量时间浏览完 Edge 网站所有问题精选出来的。 
+
+你可以按照以下方法使用这份清单—— 
+
+1、找问题。找到你感兴趣的大问题，写下你感兴趣的原因，暂时列入你的大问题清单。 
+
+2、找源头。找到提问者，看看他为这个问题都做出过什么努力？输出过什么作品，例如是否写过什么论文、出过什么书、拿过什么奖、解决过什么问题等等。 
+
+3、找方法。如果他依然没有解决这个问题，瓶颈在哪里？解决办法在哪里？是否还有其他人同样努力在解决这个问题，他们都是怎样做的？ 
+
+4、找同侪。你在试图解决这个问题的过程中，做出了什么样的努力，将你做出的努力记录并输出为文章，为后来人搭好脚手架，或召集更多人来解决这个问题。 
+
+5、找自己。经历以上，你也可能找到了属于自己的大问题，为何会有这个问题？这个问题是什么？你该如何解决这个问题？ <ne-h2 id="5" data-lake-id="5"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+
+大问题清单 
+
++   Peter Thiel：在什么重要问题上你与其他人有不同看法？ 
+
++   Herbert Alexander Simon：人类理性本质是什么？ 
+
++   James Gardner March：如何处理逻辑认同与身份认同之间的平衡？ 
+
++   Joseph·Campbell：如何发挥故事的力量？ 
+
++   Alan kay：如何帮助学生追求他们的兴趣和热情？如何帮助学生学习「强有力的思想」，并成长为有系统性思考能力的人？ 
+
++   Nassim Nicholas Taleb：如何从不确定性中获益？ 
+
++   Peter F. Drucker：我的优势是什么？我如何学习？我的价值观是什么？我要为组织作出什么样的贡献？ 
+
++   Jeffrey Preston Bezos：如何发现并坚持做有长期价值的事情？ 
+
++   Santa Fe Institute（圣菲研究所）：人类为何需要复杂性思维？复杂系统中，各组成部分之间相互作用所突现出的特性究竟是怎样的？ 
+
++   Albert Wenger：在人类灭绝的灾难性事件之后，我们如何为人类快速重建一个先进的文明创建和维护备份选项？ 
+
++   Eduardo Salcedo-Albaran：为什么有些人在法律之内行事，有些人在法律之外行事，还有一些人制定法律？ 
+
++   Lisa Mosconi：建立一个更喜欢娱乐而不是理解的社会有进化优势吗？ 
+
++   Read Montague：感情是可计算的吗？ 
+
++   Ian McEwan：如果所有重要知识的总和都是有限的，那么在智能机器的帮助下，人类最终能获得多大比例的知识呢？ 
+
++   Chiara Marletto：有趣的问题的数量是有限的吗？ 
+
++   Gary Marcus：为什么人类在思考和日常推理方面仍然比机器灵活得多？ 
+
++   Jonathan B. Losos：一百年后，或者十万年后，进化将如何塑造生物世界？ 
+
++   Coco Krumme：为什么我们如此在意算法对我们的近似程度？ 
+
++   Kai Krause：当第一个外星生命形式被发现时，地球上的宗教会发生什么 
+
++   Jon Kleinberg：我们能否创造出有助于公平地减少世界冲突数量的技术？ 
+
++   Gary Klein：我们怎样才能制造出让我们变得更聪明的机器？ 
+
++   Kevin Kelly：如何改进科学的进程？ 
+
++   John Horgan：如何才能一劳永逸地结束战争？ 
+
++   César Hidalgo：我们什么时候才能用算法取代政府？ 
+
++   Jonathan Gottschall：故事对我们有害吗？ 
+
++   Christine Finn：我们的过去在未来还有位置吗？ 
+
++   Nick Enfield：共享知识的累积是否永远受到人类语言的限制？ 
+
++   David Edelman：我们是否会被另一个地球物种所取代，这个物种能够进化到类似的社会和技术复杂程度，有效地填补我们腾出的生物文化空白？ 
+
++   David M. Eagleman：我们能否为人类创造新的感官——不仅仅是触觉、味觉、视觉、听觉、嗅觉，而是我们还没有语言来表达的全新的感官？ 
+
++   Chris DiBona：计算机真的能够理解和体验人类的善良吗？ 
+
++   Luca De Biase：如果我们想要制定一个真正有效的以科学为基础的政策，我们应该改变政治还是科学？ 
+
++   Kate Darling：今天大多数有远见的人会认为哪些未来的进步规范过于超前而不屑一顾？ 
+
++   Oliver Scott Curry：为什么要做好人？ 
+
++   Jaeweon Cho ：我们能否设计一个没有货币的现代社会，至少在经济和政治上与我们现行的制度一样有效？ 
+
++   Nick Bostrom：哪些问题我们不应该问，也不应该试图回答？ 
+
++   Joscha Bach：发现真理的最佳算法是什么？ 
+
++   George Lakoff：认知科学会像其他科学一样改变我们的思维方式吗？ 
+
++   Stanislas Dehaene：我们的大脑是否足够聪明去理解大脑？ 
+
++   Brian Eno：我们为什么要装饰？ 
+
++   为什么我们所知道的所有人类文明都会装饰东西？ 为什么不让他们自己呆着呢？ 为什么要投入那么多额外的、显然是非功能性的能量呢？ 
+
++   W. Daniel Hillis：为什么人们喜欢音乐？ 
+
++   Dan Sperber：社会科学能在多大程度上有助于我们建立一个公正和自由的社会？ 
+
++   Tor Nørretranders：为什么我们要走得更远，去探索新的东西？ 
+
++   John D. Barrow：自然法则是否是一种需要并使用错误校正的计算机代码？ 
+
++   David G. Myers：为什么我们害怕错误的东西？ 
+
++   Henry Warwick：科学之后是什么? 什么时候？ 
+
++   Alan Alda：时尚、时尚、疯狂和金融狂热的本质是什么？ 
+
++   Todd E. Feinberg：活着和有思想之间有什么关系？ 
+
++   Kevin Kelly：你的异端邪说是什么？ 
+
++   Mihaly Csikszentmihalyi：我们如何才能保持年轻人对提出这些问题的兴趣？在一个日益物质化的文化中，我们还能保持多久的好奇心和创造力? 
+
++   Stewart Brand：我们如何让长期思考变得自动化和普遍化，而不是困难和罕见? 
+
++   Alun Anderson：如果一个科学家获得了比我更了解我自己的力量，那会有什么后果呢? 
+
++   William H. Calvin：一旦我们了解了大脑如何制造思维，思维将如何扩展? 
+
++   David G. Myers：人类直觉的力量和局限是什么? 
+
++   Jared Diamond：过去社会的崩塌给予未来何种启示？ 
+
++   Katie Hafner：为什么历史如此重要? 
+
++   Nicholas Humphrey：为什么音乐是一种乐趣? 
+
++   Kevin Kelly：科技想要什么？ 
+
++   Sir John Maddox：我们怎么知道什么时候知道，什么事情我们不知道? 
+
++   Louis Rossetto：是否存在一个幸福基因，并且它占主导地位? 
+
++   Elaine Pagels：为什么宗教仍然至关重要? 
+
++   Steven Rose：如何确保我们开发的科学和技术为人民服务，接受民主监督，并且有助于而不是阻碍人类与自然和谐相处? 
+
++   Lee Smolin：从根本上说，时间的流动是真实的吗? 还是我们对时间流逝的感觉只是一种错觉，掩盖了真实只是一系列瞬间的事实? 
+
++   Tor Nørretranders：我们作为人，能够在生活中与其他人分享多少经历? 
+
++   Robert Provine：情感对智力有贡献吗? 如果有，那么情感计算技术的发展会有什么影响呢? 」 
+
++   Cliff Stoll：你该怎样教育你的孩子？ 
+
++   Margaret Wertheim：你想从科学中得到什么? 
+
++   Colin Tudge：宗教是什么？ 有必要吗？ 如果我们要为未来设计出一种看似合理却又避免平庸的宗教？ 那会是什么样子呢? <ne-h2 id="A6zed" data-lake-id="A6zed"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+
+附：问题发现工具  
+
+<ne-card data-card-name="image" data-card-type="inline" id="u8bcf2e50" data-event-boundary="card" class="ne-spacing-all"><ne-p id="u0690a710" data-lake-id="u0690a710"><ne-card data-card-name="image" data-card-type="inline" id="u38429820" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ube19bf22" data-lake-id="ube19bf22"><ne-card data-card-name="image" data-card-type="inline" id="u9512d5c9" data-event-boundary="card" class="ne-spacing-all"><ne-h2 id="18d394c2" data-lake-id="18d394c2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>本文起源</ne-heading-content></ne-h2> <ne-quote id="ud255ea53" data-lake-id="ud255ea53"><ne-p id="8a58551469833c4d3d32ede6c55c11f0" data-lake-id="8a58551469833c4d3d32ede6c55c11f0">之一 
+
+整理贝索斯的致股东的系列信件过程中，发现贝索斯从 1997 年到现在一直写致股东信，三十多年只为解决自己的大问题做行为注解，忽然想到这世上应有更多的「几十年或一生都只为解决一个问题」的「贝索斯」，将他们找出来应该相当有意思。 
+
+之二 
+
+看司马贺《现代决策理论的基石》时，发现司马贺一再强调自己的大问题的是：人类理性本质——其机制、效应及其对人类本身状况而言的意义。返观自己，发现自己的大问题却迟迟没有定下来，在盯着司马贺的大问题良久，忽然想把其他的智者的大问题做个清单，给自己做个参考。 
+
+之三 
+
+看《他乡的童年 04》，片中提到英国的的小学给学生准备不少的大问题，这些问题包括：自由是什么？什么是艺术？爱人更容易，还是被爱更容易？这些问题被贴在墙上，引发他们思考，思考的结果不重要，重要的是思考本身。忽然发现，自己竟然从未思考过这些大问题，又萌生想法，自己要一个一个来回答，即使简短，即使每个阶段都有不同的答案，但这也代表自己曾经思考过。 
+
+之四 
+
+找到大问题是笨方法四步的第一步，第一步相当重要，有必要为「大问题」做一个详细的注解。笨方法四步分别是找到大问题、分解大问题、跨学科学习、关注方法论，详细可见《[笨方法实验室](https://hardwaylab.com/)》官网。</ne-quote> <ne-h2 id="d17a0f0b" data-lake-id="d17a0f0b"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>参考</ne-heading-content></ne-h2> 
+
++   [人类的终极问题 (豆瓣)](https://book.douban.com/subject/34840198/) 
+
++   [边缘网站（Edge.com）年度大问题](http://www.mesule.com/2017/01/EdgeBigQuestion) 
+
++   [2002 : WHAT IS YOUR QUESTION? ... WHY?](https://www.edge.org/responses/what-is-your-question-why) 
+
++   [1998 : WHAT QUESTIONS ARE YOU ASKING YOURSELF?](https://www.edge.org/responses/what-questions-are-you-asking-yourself) 
+
++   [米尔卡·科斯蒂奇：做真正让你充满激情和兴奋的研究](https://mp.weixin.qq.com/s/xONLXJHR2TUR14N2oAY1mg) 
+
++   [理查德·汉明《你和你的研究》 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2016/04/you-and-your-research.html) 
+
++   [德鲁克：管理自己](https://www.douban.com/group/topic/20159977/) 
+
++   [专访韩靖 中国学者是如何接受复杂性研究的？主题新京报电子报](http://epaper.bjnews.com.cn/html/2019-11/16/content_771217.htm?div=0) 
+
++   [跨学科学习不完全手册 - 笨方法学写作](http://www.cnfeat.com/blog/2017/05/30/InterdisciplinaryLearning/) 
+
++   [每个人都应该读一读贝索斯的致股东信（1997-2016）](https://www.cnfeat.com/blog/2017/07/08/BezosLetters/) 
+
++   [学习周报的基本](https://www.cnfeat.com/blog/2019/07/06/BasicWeekly/) <ne-h3 id="Changelog" data-lake-id="Changelog"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>Changelog</ne-heading-content></ne-h3> 
+
++   2022-03-04 增补问题发现工具 
+
++   2021-05-31 修订迁移开源至《笨方法文化手册》 
+
++   2020-05-03 修订发布至知识星球 
+
++   2020-05-02 完稿 
+
++   2020-04-25 增补故事卡片 
+
++   2020-02-11 增补霍金附录 
+
++   2019-11-15 整理边缘大问题清单 
+
+非常感谢素封汇总在此的大问题。我从没有意识过要寻找确定自己的大问题，没有思考过绝大多数的大问题。我刚刚已经记下了一部分感兴趣的大问题。我觉得这是一个好的开始。谢谢你。 
+
+期待你后续的实践行动。</ne-card></ne-p></ne-card></ne-p></ne-card></ne-p>

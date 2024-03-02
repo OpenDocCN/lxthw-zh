@@ -2,4 +2,34 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/sm1nri`](https://www.yuque.com/hardwaylab/cardstyle/sm1nri)
 
-<ne-quote id="u1ae4026d" data-lake-id="u1ae4026d"><ne-p id="15d6177895e95d1fba6c584fea546f05_p_1" data-lake-id="15d6177895e95d1fba6c584fea546f05_p_1"><ne-text id="u4a8c5c32">来源：</ne-text>[<ne-text id="ua1e2c205">写作的幸福 - 简书</ne-text>](https://www.jianshu.com/p/af4b508e99bf)</ne-p></ne-quote> <ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ud07526da">1</ne-text></ne-heading-content></ne-h2> <ne-p id="db3884139d7813c4fee3f51b07c3a82c_p_4" data-lake-id="db3884139d7813c4fee3f51b07c3a82c_p_4"><ne-text id="u5eff53d8">2017 年 10 月我参加阳志平老师的《认知写作学》，而在随后学习认知写作学的半年里，我共写了 3 篇千字文。虽然从头到尾参加了课程，还是不幸成为了阳老师常说的「捐学费的人」。不甘心如此， 2018 年 2 月犹豫多次后决心参加陈素封老师的《笨方法学写作》，从头开始练习写作，练习卡片创作。</ne-text></ne-p> <ne-p id="edfed86d8de85b78924b608c568389c5_p_6" data-lake-id="edfed86d8de85b78924b608c568389c5_p_6"><ne-text id="uac5bf798">2018 年 2 月到 6 月，使用卡片创作 8 篇千字文，使用纸质卡片 2 盒 ，从 4 月写卡片微博至今天（可见我与卡片的故事 - 简书 ），用以养成每日写千字习惯，现在每周至少写一篇千字文。</ne-text></ne-p> <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ue8280b89">2</ne-text></ne-heading-content></ne-h2> <ne-p id="7585a2b8a842a9b9a5e36184669fc5fe_p_9" data-lake-id="7585a2b8a842a9b9a5e36184669fc5fe_p_9"><ne-text id="uf15adb22">产生这些差异的原因，并非阳老师的认知写作学不好，恰恰是因为认知写作学太好了。认知写作学是阳老师集多学科之大成，是写作知识的迷宫。庞大到没有背景知识的初学者，只会迷失其中。就像刚开始写作的我，在认知写作学中。因为知识体系过于庞大，又没有好的学习习惯与写作习惯，也没有保持写每日卡片，最后导致行为瘫痪。</ne-text></ne-p> <ne-p id="3b41e648871238f730f4cc5533fbfc59_p_11" data-lake-id="3b41e648871238f730f4cc5533fbfc59_p_11"><ne-text id="ue2555769">笨方法学写作，提倡使用纸质卡，讲究笨方法。推崇坚毅、科学、认真、创意，所有创作均从纸质卡片开始，从行动开始。没有使用完 3 盒纸质卡片不算入门。</ne-text></ne-p> <ne-p id="98f968647bd29953e022256983735c54_p_13" data-lake-id="98f968647bd29953e022256983735c54_p_13"><ne-text id="u84acee9c">在我练习卡片创作的同时，也会学习认知写作学中写作的知识。认知写作学中认为写作有三难，难在逻辑、文采、故事。卡片创作理清逻辑，写作清单练习文采，而故事需要你用一生来谱写。</ne-text></ne-p> <ne-p id="8bdebdf594c80ca4c7a717c0aecbac7d_p_15" data-lake-id="8bdebdf594c80ca4c7a717c0aecbac7d_p_15"><ne-text id="u80d200b0">我决心练习写作，正是从阳志平老师开始，可以说阳志平老师让我寻找到改变的道路，陈素封老师则将其自身改变轨迹展示给我，而剩下的就是去练习卡片创作，走上一条自己走的路。</ne-text></ne-p> <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u03fca5d5">3</ne-text></ne-heading-content></ne-h2> <ne-p id="d92af908cba1392d5675e855d8b28a52_p_18" data-lake-id="d92af908cba1392d5675e855d8b28a52_p_18"><ne-text id="u68da6b8a">「练习写作，试图用写作改变自己」这是我对自己的口号，也是我的立志之道。</ne-text></ne-p> <ne-p id="34ef737286f1a0779043d3a6f35baa0e_p_20" data-lake-id="34ef737286f1a0779043d3a6f35baa0e_p_20"><ne-text id="ue0118274">起初我只是想改变自己，原因非常简单，和前女友分手，想改变自己，寻求不一样的自己。重新回到前女友身边，这是本意。</ne-text></ne-p> <ne-p id="12d7afe226094950088a79ffc9492c79_p_22" data-lake-id="12d7afe226094950088a79ffc9492c79_p_22"><ne-text id="u6a5ca211">写作是否带给我改变，我不知道。但笨方法给了我足够的勇气来练习写作。在我练习卡片创作时，坚毅的力量让我养成写作习惯。</ne-text></ne-p> <ne-p id="199e62e94552993a43a1cfefc4593818_p_24" data-lake-id="199e62e94552993a43a1cfefc4593818_p_24"><ne-text id="u70b34d6c">过去我想要改变而去写作，现在则是写作改变了我。让我想改变的不只是情感，写作让我思考更多人生的意义，让我在这里敲下我的故事。</ne-text></ne-p> <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u016b6def">4</ne-text></ne-heading-content></ne-h2> <ne-p id="60bab45a27648937bf04e6e092007bd2_p_27" data-lake-id="60bab45a27648937bf04e6e092007bd2_p_27"><ne-text id="uf92321b7">海边、山中，一个人的周末。在我不知道该做些什么的时候，写作便成了我的乐趣。在我内心时常蹦出这样的念头，去写一篇文章，纪念过去，写下那个有你有我的故事。在写作中，享受创作的乐趣。在卡片上涂鸦，在键盘上敲下一个个字。心流诞生在笔尖、在指尖，流淌在心间。</ne-text></ne-p> <ne-p id="aa481b2df14f7d34b774b4602ea6b0b3_p_29" data-lake-id="aa481b2df14f7d34b774b4602ea6b0b3_p_29"><ne-text id="ub1a5be7a">因为写作，扩展了我的阅读面。也因此让我发现这世上还有那么多有意思的人、有意思的文字。跟王烁「老婆推」学记趣和爱 · 杂记 | ishanshan's blog、老婆推专门博开博王烁新浪博客、光阴的故事-笨方法学写作</ne-text></ne-p> <ne-p id="8a638574d53320c17eff3322bd7f7019_p_31" data-lake-id="8a638574d53320c17eff3322bd7f7019_p_31"><ne-text id="u2570fc83">海子说我有三种幸福：诗歌、王位、太阳。对我而言写作便是我的幸福了。</ne-text></ne-p> <ne-p id="60d960b186494693d6d7a720a8b97622_p_33" data-lake-id="60d960b186494693d6d7a720a8b97622_p_33"><ne-text id="u846c7aff">ChangeLog</ne-text> <ne-text id="u03de8455">2018-06-18 慢改 1 h</ne-text> <ne-text id="u96a5c0fe">2018-06-17 workflowy 中慢改 2 h</ne-text> <ne-text id="uc035b062">2018-06-16 卡片创作快写 1 h</ne-text></ne-p>
+<ne-quote id="u1ae4026d" data-lake-id="u1ae4026d">
+
+来源：[写作的幸福 - 简书](https://www.jianshu.com/p/af4b508e99bf)</ne-quote> <ne-h2 id="1" data-lake-id="1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+2017 年 10 月我参加阳志平老师的《认知写作学》，而在随后学习认知写作学的半年里，我共写了 3 篇千字文。虽然从头到尾参加了课程，还是不幸成为了阳老师常说的「捐学费的人」。不甘心如此， 2018 年 2 月犹豫多次后决心参加陈素封老师的《笨方法学写作》，从头开始练习写作，练习卡片创作。 
+
+2018 年 2 月到 6 月，使用卡片创作 8 篇千字文，使用纸质卡片 2 盒 ，从 4 月写卡片微博至今天（可见我与卡片的故事 - 简书 ），用以养成每日写千字习惯，现在每周至少写一篇千字文。 <ne-h2 id="2" data-lake-id="2"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+
+产生这些差异的原因，并非阳老师的认知写作学不好，恰恰是因为认知写作学太好了。认知写作学是阳老师集多学科之大成，是写作知识的迷宫。庞大到没有背景知识的初学者，只会迷失其中。就像刚开始写作的我，在认知写作学中。因为知识体系过于庞大，又没有好的学习习惯与写作习惯，也没有保持写每日卡片，最后导致行为瘫痪。 
+
+笨方法学写作，提倡使用纸质卡，讲究笨方法。推崇坚毅、科学、认真、创意，所有创作均从纸质卡片开始，从行动开始。没有使用完 3 盒纸质卡片不算入门。 
+
+在我练习卡片创作的同时，也会学习认知写作学中写作的知识。认知写作学中认为写作有三难，难在逻辑、文采、故事。卡片创作理清逻辑，写作清单练习文采，而故事需要你用一生来谱写。 
+
+我决心练习写作，正是从阳志平老师开始，可以说阳志平老师让我寻找到改变的道路，陈素封老师则将其自身改变轨迹展示给我，而剩下的就是去练习卡片创作，走上一条自己走的路。 <ne-h2 id="3" data-lake-id="3"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+
+「练习写作，试图用写作改变自己」这是我对自己的口号，也是我的立志之道。 
+
+起初我只是想改变自己，原因非常简单，和前女友分手，想改变自己，寻求不一样的自己。重新回到前女友身边，这是本意。 
+
+写作是否带给我改变，我不知道。但笨方法给了我足够的勇气来练习写作。在我练习卡片创作时，坚毅的力量让我养成写作习惯。 
+
+过去我想要改变而去写作，现在则是写作改变了我。让我想改变的不只是情感，写作让我思考更多人生的意义，让我在这里敲下我的故事。 <ne-h2 id="4" data-lake-id="4"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>4</ne-heading-content></ne-h2> 
+
+海边、山中，一个人的周末。在我不知道该做些什么的时候，写作便成了我的乐趣。在我内心时常蹦出这样的念头，去写一篇文章，纪念过去，写下那个有你有我的故事。在写作中，享受创作的乐趣。在卡片上涂鸦，在键盘上敲下一个个字。心流诞生在笔尖、在指尖，流淌在心间。 
+
+因为写作，扩展了我的阅读面。也因此让我发现这世上还有那么多有意思的人、有意思的文字。跟王烁「老婆推」学记趣和爱 · 杂记 | ishanshan's blog、老婆推专门博开博王烁新浪博客、光阴的故事-笨方法学写作 
+
+海子说我有三种幸福：诗歌、王位、太阳。对我而言写作便是我的幸福了。 
+
+ChangeLog 2018-06-18 慢改 1 h 2018-06-17 workflowy 中慢改 2 h 2018-06-16 卡片创作快写 1 h

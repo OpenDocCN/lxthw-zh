@@ -2,4 +2,8 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/bwcc45`](https://www.yuque.com/hardwaylab/principle/bwcc45)
 
-<ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="a1b94f9429c55394b2af2a081e0a8b2b" data-lake-id="a1b94f9429c55394b2af2a081e0a8b2b"><ne-text id="uef60961b">2021-07-06 自简书归集至语雀</ne-text></ne-uli-c></ne-uli> <ne-p id="6ebb616f7d4ef518a8618090f3a744ef" data-lake-id="6ebb616f7d4ef518a8618090f3a744ef"><ne-card data-card-name="image" data-card-type="inline" id="XfWEz" data-event-boundary="card" class="ne-spacing-all">![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="0733818804ac8c36ba68e6504fa3eeb6" data-lake-id="0733818804ac8c36ba68e6504fa3eeb6"><ne-text id="u08c25edc">笨方法实验室，给你</ne-text><ne-text id="udfe88f0a">一份做成难事的无限检查清单，</ne-text>[<ne-text id="ue131f88f">免费邮件订阅</ne-text>](http://newsletter.hardwaylab.com/)<ne-text id="u2d97dbfe">。</ne-text></ne-p></ne-card></ne-p>
+
+
++   2021-07-06 自简书归集至语雀 
+
+<ne-card data-card-name="image" data-card-type="inline" id="XfWEz" data-event-boundary="card" class="ne-spacing-all">![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="0733818804ac8c36ba68e6504fa3eeb6" data-lake-id="0733818804ac8c36ba68e6504fa3eeb6">笨方法实验室，给你一份做成难事的无限检查清单，[免费邮件订阅](http://newsletter.hardwaylab.com/)。</ne-card></ne-p>

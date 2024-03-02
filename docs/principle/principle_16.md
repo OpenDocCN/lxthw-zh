@@ -2,4 +2,38 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/cqcey9`](https://www.yuque.com/hardwaylab/principle/cqcey9)
 
-<ne-p id="605005e2fcc92ef36299582e525fd217_p_2" data-lake-id="605005e2fcc92ef36299582e525fd217_p_2"><ne-text id="u340f7fe3">Ray Dalio：「我们也在不断犯错误，但错误都在我们的预期范围之内。而我们会尽最大可能利用我们的错误，因为我们养成了习惯，把错误看作学习和改进的机会。」</ne-text></ne-p> <ne-p id="148de79d31f760ed3c151841cd315b26_p_4" data-lake-id="148de79d31f760ed3c151841cd315b26_p_4"><ne-text id="ud33f6bd3" ne-bold="true">Ray Dalio 曾提过他是一名专业犯错者（Professional Mistake Maker），这不是说 Ray Dalio 犯错很出色，而是他对待错误的态度十分专业：能预计犯错发生时间、知道犯错之后的正确做法、如何最大化利用错误、如何把错误当作是改进的机会。</ne-text></ne-p> <ne-p id="108a8e784b21fd6ae275ccb96e37f228_p_6" data-lake-id="108a8e784b21fd6ae275ccb96e37f228_p_6"><ne-text id="u4ca5868c">错误本身并没有对错，它只是作为正确的对立面存在，提醒你可以做得更好。</ne-text></ne-p> <ne-p id="50a464f52c845b4cb0dc1c3529baf4d2_p_8" data-lake-id="50a464f52c845b4cb0dc1c3529baf4d2_p_8"><ne-text id="u55592a0a">对待错误不能时而不见，今日你跳过的错误，明日你可能还会继续犯，总结每个错误，正确安放它们的位置，正视并努力解决，那么你犯错的机率就越来越低。</ne-text></ne-p> <ne-p id="7233c1621ea48c4e2e3f67d5ec827c0d_p_10" data-lake-id="7233c1621ea48c4e2e3f67d5ec827c0d_p_10"><ne-text id="ucb4fd2c0">要成为专业犯错者，首先要定义什么才是错误？</ne-text></ne-p> <ne-p id="772881ee297e183e7c66d4fccf5431d2_p_12" data-lake-id="772881ee297e183e7c66d4fccf5431d2_p_12"><ne-text id="uc081be54">1）事情没有按计划进行。一定是哪里出现了问题？2）问题没有得到真正解决。不能扬汤止沸，要釜底抽薪。3）所有人都不认同你。如果你是对的，那你怎么知道你是对的呢？你能把其中的原理说清楚吗？</ne-text></ne-p> <ne-p id="f531ed67a6a537eb17ef190ac450fe49_p_14" data-lake-id="f531ed67a6a537eb17ef190ac450fe49_p_14"><ne-text id="ua41e6688">正确面错误的态度是不要找借口，承认错误，找出解决办法，快速行动，解决问题，之后才是承担责任，总结复盘。</ne-text></ne-p> <ne-p id="381eb30ee74f27870978d1158bfd6adf_p_16" data-lake-id="381eb30ee74f27870978d1158bfd6adf_p_16"><ne-text id="u37b57343">总之，不要害怕犯错，犯错总比什么都不错好。</ne-text></ne-p> <ne-p id="3dcafd3f6d14dc27554b0bc85c3d59db_p_18" data-lake-id="3dcafd3f6d14dc27554b0bc85c3d59db_p_18"><ne-text id="u258267f2" ne-bold="true">Ray Dalio：「用一套程序确保问题会摆在桌面上，同时确保问题根源会得到剖析，这样才能实现持续的改进。」</ne-text></ne-p> <ne-p id="a72d86023beeeda21731e5e119f021c6_p_20" data-lake-id="a72d86023beeeda21731e5e119f021c6_p_20"><ne-text id="u61ec7c95">隐藏错误将导致出现更大、代价更高的错误。</ne-text></ne-p> <ne-p id="13d2f815b211740509a8c856a313eb60_p_22" data-lake-id="13d2f815b211740509a8c856a313eb60_p_22"><ne-text id="ua5fcc64c">Ray Dalio 的公司是投资公司，任何一个微小错误都可能给公司造成严重损失，如何理性并正确处理员工的错误尤其重要。于是 Ray Dalio 与同事想出了一个办法，建立「错误日志」，如何事情出现差错（一项交易没有执行、支付的交易费显著高于预期等），都必须写入日志，写明其严重程度，并写清楚谁为此负责。</ne-text></ne-p> <ne-p id="5d00cc2a43983d1164be51916e18ab13_p_24" data-lake-id="5d00cc2a43983d1164be51916e18ab13_p_24"><ne-text id="u4e8eae34">错误日志的重要原则是：对事不对人，但犯错的人一定要负责。</ne-text></ne-p> <ne-p id="18e02964824f068a46268e10d118462a_p_26" data-lake-id="18e02964824f068a46268e10d118462a_p_26"><ne-text id="u1ba5fb15">「错误日志」还将继续跟进错误的状态，包括快速公开错误，集体采取补救行动。随着不断跟踪和解决错误，公司的运行机制不断完善。</ne-text></ne-p> <ne-p id="e6bbc899619289c0bc50c779214dddb9_p_28" data-lake-id="e6bbc899619289c0bc50c779214dddb9_p_28"><ne-text id="u5a41a3b0">每个人都可以看到公司犯过的所有错误，谨记在心，提醒自己切莫重复犯错。</ne-text></ne-p> <ne-p id="0ce554f46b8dc93c7927d1944f486740_p_30" data-lake-id="0ce554f46b8dc93c7927d1944f486740_p_30"><ne-text id="u75ddfe35">具体到个人，每个人都应有一个属于自己的「错误日志」，以此建立原则。</ne-text></ne-p> <ne-p id="b3a6a8f144cbacf6e05baa2625f009b0_p_32" data-lake-id="b3a6a8f144cbacf6e05baa2625f009b0_p_32"><ne-text id="u5d3f442d">--</ne-text></ne-p> <ne-p id="1878a724655bce48b0ef50d63108949f_p_34" data-lake-id="1878a724655bce48b0ef50d63108949f_p_34"><ne-text id="ue1adc6c1">本文是「笨方法学写作」习作：</ne-text>[<ne-text id="ud163e03f">http://www.LearnWritingTheHardWay.cn</ne-text>](http://www.LearnWritingTheHardWay.cn)</ne-p>
+
+
+Ray Dalio：「我们也在不断犯错误，但错误都在我们的预期范围之内。而我们会尽最大可能利用我们的错误，因为我们养成了习惯，把错误看作学习和改进的机会。」 
+
+Ray Dalio 曾提过他是一名专业犯错者（Professional Mistake Maker），这不是说 Ray Dalio 犯错很出色，而是他对待错误的态度十分专业：能预计犯错发生时间、知道犯错之后的正确做法、如何最大化利用错误、如何把错误当作是改进的机会。 
+
+错误本身并没有对错，它只是作为正确的对立面存在，提醒你可以做得更好。 
+
+对待错误不能时而不见，今日你跳过的错误，明日你可能还会继续犯，总结每个错误，正确安放它们的位置，正视并努力解决，那么你犯错的机率就越来越低。 
+
+要成为专业犯错者，首先要定义什么才是错误？ 
+
+1）事情没有按计划进行。一定是哪里出现了问题？2）问题没有得到真正解决。不能扬汤止沸，要釜底抽薪。3）所有人都不认同你。如果你是对的，那你怎么知道你是对的呢？你能把其中的原理说清楚吗？ 
+
+正确面错误的态度是不要找借口，承认错误，找出解决办法，快速行动，解决问题，之后才是承担责任，总结复盘。 
+
+总之，不要害怕犯错，犯错总比什么都不错好。 
+
+Ray Dalio：「用一套程序确保问题会摆在桌面上，同时确保问题根源会得到剖析，这样才能实现持续的改进。」 
+
+隐藏错误将导致出现更大、代价更高的错误。 
+
+Ray Dalio 的公司是投资公司，任何一个微小错误都可能给公司造成严重损失，如何理性并正确处理员工的错误尤其重要。于是 Ray Dalio 与同事想出了一个办法，建立「错误日志」，如何事情出现差错（一项交易没有执行、支付的交易费显著高于预期等），都必须写入日志，写明其严重程度，并写清楚谁为此负责。 
+
+错误日志的重要原则是：对事不对人，但犯错的人一定要负责。 
+
+「错误日志」还将继续跟进错误的状态，包括快速公开错误，集体采取补救行动。随着不断跟踪和解决错误，公司的运行机制不断完善。 
+
+每个人都可以看到公司犯过的所有错误，谨记在心，提醒自己切莫重复犯错。 
+
+具体到个人，每个人都应有一个属于自己的「错误日志」，以此建立原则。 
+
+-- 
+
+本文是「笨方法学写作」习作：[http://www.LearnWritingTheHardWay.cn](http://www.LearnWritingTheHardWay.cn)

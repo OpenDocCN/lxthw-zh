@@ -2,4 +2,26 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/mmwwp3`](https://www.yuque.com/hardwaylab/principle/mmwwp3)
 
-<ne-p id="a20d224c568e48b9d67847a2c66a8c01_p_0" data-lake-id="a20d224c568e48b9d67847a2c66a8c01_p_0"><ne-text id="u04411ed0" ne-bold="true">Ray Dalio：「在深思熟虑的意见分歧中，你的目标不是让对方相信你是对的，而是弄明白谁是对的，并决定该怎么做。在深思熟虑的意见分歧中，双方的动机都是真诚担忧错过重要观点。你们彼此要真正看到对方看到的东西，也就是说，你们两人更高层次的自我努力探寻事实，这样的交流使双方受益匪浅，并能释放出巨大的未被发掘的潜力。」</ne-text></ne-p> <ne-p id="27e485df815e68b085f62101086c239e" data-lake-id="27e485df815e68b085f62101086c239e"><ne-text id="u65e0b966">两个头脑开放的人，经过深思熟虑，但依然存在意见分歧，怎么办？</ne-text></ne-p> <ne-p id="b1fd01635603861d0708edaf992f93b0" data-lake-id="b1fd01635603861d0708edaf992f93b0"><ne-text id="u5c2d439f">根据 Ray Dalio 的经验，可以总结 8 条可行的对话原则：</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="2da3f123899eddc1377eb1745f474f51" data-lake-id="2da3f123899eddc1377eb1745f474f51"><ne-text id="u010ee559">1）无须让对方相信你是对的；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="615e7ef73c7a2299de15889dc232fc5e" data-lake-id="615e7ef73c7a2299de15889dc232fc5e"><ne-text id="ua22bb9c4">2）争论毫无必要，你的目标之一是要对方看到他尚未看到东西，找到真实的结果；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="55d60c9b96d52e906e7e23d0ea60d6ba" data-lake-id="55d60c9b96d52e906e7e23d0ea60d6ba"><ne-text id="u1f19f6cb">3）同理，你也要对方看到你试图在理解他的诚意，让对方有意愿向你展示你看不到的东西；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="e45df82c439c0bc27772c9cefc9ac4b5" data-lake-id="e45df82c439c0bc27772c9cefc9ac4b5"><ne-text id="u0ab4e4d1">4）建议双方建立「两分钟法则」，即两分钟内不允许打断对方说话，以便对方有时间把想法说清楚</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="758e2e79e7de0f8cd3ec7187f283b2f6" data-lake-id="758e2e79e7de0f8cd3ec7187f283b2f6"><ne-text id="ud26dbf1a">5）沟通应以提问与确认为主，平心静气，平等尊重；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="91bec4107a3eb94a310abcadac063823" data-lake-id="91bec4107a3eb94a310abcadac063823"><ne-text id="u3267a67e">6）在沟通分歧中学到东西并且改变想法的人才是赢家，而不是那个执拗不变，拒绝学习的人；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="bc82fd0122ad407d3a38208ba0d9b711" data-lake-id="bc82fd0122ad407d3a38208ba0d9b711"><ne-text id="u5b12f91b">7）不必对所有人都采取这套方法，只与可信的人讨论，并培养出能识别出可信之人的方法；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="6d4be8eede8c8919117bb9cdc2d32348" data-lake-id="6d4be8eede8c8919117bb9cdc2d32348"><ne-text id="ud316f73e">8）即使如此还遇上僵局，就找个中间人来帮忙，无须想法达成一致，只需确保双方的想法都能平等呈现。</ne-text></ne-uli-c></ne-uli>
+
+
+Ray Dalio：「在深思熟虑的意见分歧中，你的目标不是让对方相信你是对的，而是弄明白谁是对的，并决定该怎么做。在深思熟虑的意见分歧中，双方的动机都是真诚担忧错过重要观点。你们彼此要真正看到对方看到的东西，也就是说，你们两人更高层次的自我努力探寻事实，这样的交流使双方受益匪浅，并能释放出巨大的未被发掘的潜力。」 
+
+两个头脑开放的人，经过深思熟虑，但依然存在意见分歧，怎么办？ 
+
+根据 Ray Dalio 的经验，可以总结 8 条可行的对话原则： 
+
++   1）无须让对方相信你是对的； 
+
++   2）争论毫无必要，你的目标之一是要对方看到他尚未看到东西，找到真实的结果； 
+
++   3）同理，你也要对方看到你试图在理解他的诚意，让对方有意愿向你展示你看不到的东西； 
+
++   4）建议双方建立「两分钟法则」，即两分钟内不允许打断对方说话，以便对方有时间把想法说清楚 
+
++   5）沟通应以提问与确认为主，平心静气，平等尊重； 
+
++   6）在沟通分歧中学到东西并且改变想法的人才是赢家，而不是那个执拗不变，拒绝学习的人； 
+
++   7）不必对所有人都采取这套方法，只与可信的人讨论，并培养出能识别出可信之人的方法； 
+
++   8）即使如此还遇上僵局，就找个中间人来帮忙，无须想法达成一致，只需确保双方的想法都能平等呈现。

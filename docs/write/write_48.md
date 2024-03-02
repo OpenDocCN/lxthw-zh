@@ -2,4 +2,10 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/gfwypy`](https://www.yuque.com/hardwaylab/cardstyle/gfwypy)
 
-<ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="5856f9e32dde96923263bd46227bfdb2" data-lake-id="5856f9e32dde96923263bd46227bfdb2"><ne-text id="u601d14cb">2021-11-24 精简内容</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u226f225c" data-lake-id="u226f225c"><ne-text id="u7f2ce3da">2021-07-06 博客卡片文章集结至此</ne-text></ne-uli-c></ne-uli> <ne-p id="9bba51b2a84782bdfbc0d86f33252f83" data-lake-id="9bba51b2a84782bdfbc0d86f33252f83"><ne-card data-card-name="image" data-card-type="inline" id="XDkBB" data-event-boundary="card" class="ne-spacing-all">![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="eb9d14148f25757348c83fc2ea0974c1" data-lake-id="eb9d14148f25757348c83fc2ea0974c1"><ne-text id="uca081a9b">笨方法实验室，给你</ne-text><ne-text id="u64ae0eb0">一份做成难事的无限检查清单，</ne-text>[<ne-text id="u30d7be09">免费邮件订阅</ne-text>](http://newsletter.hardwaylab.com/)<ne-text id="u626e0978">。</ne-text></ne-p></ne-card></ne-p>
+
+
++   2021-11-24 精简内容 
+
++   2021-07-06 博客卡片文章集结至此 
+
+<ne-card data-card-name="image" data-card-type="inline" id="XDkBB" data-event-boundary="card" class="ne-spacing-all">![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="eb9d14148f25757348c83fc2ea0974c1" data-lake-id="eb9d14148f25757348c83fc2ea0974c1">笨方法实验室，给你一份做成难事的无限检查清单，[免费邮件订阅](http://newsletter.hardwaylab.com/)。</ne-card></ne-p>

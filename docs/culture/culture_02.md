@@ -2,4 +2,84 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/asq24p`](https://www.yuque.com/hardwaylab/book/asq24p)
 
-<ne-quote id="u4784d7a4" data-lake-id="u4784d7a4"><ne-p id="uaa806821" data-lake-id="uaa806821"><ne-text id="u33299ff0">为了理解这个世界，你必须亲自动手构建它。</ne-text></ne-p> <ne-p id="u93a35fbc" data-lake-id="u93a35fbc"><ne-text id="u3f562028">遇到难决策的事情，不要问你的领导要怎么做，要问你的信奉的文化告诉你怎么做。</ne-text></ne-p></ne-quote> <ne-p id="46ae86023876eda201c408f741d43bc6" data-lake-id="46ae86023876eda201c408f741d43bc6"><ne-text id="u5ba9caf0">我所做的，不过是做一个圈，且不论这个圈圆不圆，先让它滚起来。</ne-text></ne-p> <ne-p id="ue780bee3" data-lake-id="ue780bee3"><ne-text id="uf166b1d4">时间回到 2017 年 10 月某日清晨五点半，窗外石花山蒙蒙可见，我独自一人在大厅参照《笨方法学 Python》一个键一个键敲代码，彼时的我对编程一无所知，但当严格按指示将代码敲进屏幕，按下回车得出 Hello World 之后，竟莫名而生一种学习自信。</ne-text></ne-p> <ne-p id="4c5132aff60e8058356cea631780835c" data-lake-id="4c5132aff60e8058356cea631780835c"><ne-text id="u9c729da2">忽然醒觉，既然编程技能可以用「笨方法」习得，那么写作技能也应该可以，于是逐渐将自己所理解「笨方法」迁移到写作、阅读、学习等领域，输出了一门课程《笨方法学写作》，初心是想为所有想练习写作的人提供一套简单有效的习题集。</ne-text></ne-p> <ne-p id="u87661f5b" data-lake-id="u87661f5b"><ne-text id="ua63cae22">课程发布之后，遇到大量同行者，他们纷纷问起，什么是笨方法？</ne-text></ne-p> <ne-p id="u9d45a5e2" data-lake-id="u9d45a5e2"><ne-text id="ud31ba5d8">搜索一通，发现还没有人完整定义过「笨方法」，大多数人只将「笨方法」模糊定义为一种苦干精神。</ne-text></ne-p> <ne-p id="u4af2ee7b" data-lake-id="u4af2ee7b"><ne-text id="uea413f20">我只能按照自己的理解，给出自己的初步解释——</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u225847a0" data-lake-id="u225847a0"><ne-text id="uf4817b3a">面对贪快之人，便说笨方法是踏实的脚步；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uf988cec9" data-lake-id="uf988cec9"><ne-text id="u23f6dcca">面对懒惰之人，便说笨方法是磨练的驱动；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ub906e8f6" data-lake-id="ub906e8f6"><ne-text id="u4f3dd2b6">面对蒙昧之人，便说笨方法是科学的探索；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uce25f191" data-lake-id="uce25f191"><ne-text id="u377ec979">面对畏惧之人，便说笨方法是行动的勇敢……</ne-text></ne-uli-c></ne-uli> <ne-p id="0f3e1170f6c55e297b317f9e64881ae1" data-lake-id="0f3e1170f6c55e297b317f9e64881ae1"><ne-text id="u98a155c0">然而我终究觉得，要给出一个暂时满意的答案。</ne-text></ne-p> <ne-p id="u523b2067" data-lake-id="u523b2067"><ne-text id="u25a93a45">笨方法到底是什么？</ne-text></ne-p> <ne-p id="u5acd93e1" data-lake-id="u5acd93e1"><ne-card data-card-name="image" data-card-type="inline" id="u5ae84f8b" data-event-boundary="card" class="ne-spacing-all">![HardwayLabUI.png](img/676658a6438d429d68b39c22d45ef7f7.png)  <ne-p id="u7fb0d007" data-lake-id="u7fb0d007"><ne-text id="u31840937">其实，在多年实践笨方法之后，我已经将它融入日常，以体悟替换概念，每一年，我对笨方法的改变与理解都在升级，我只需要将它描述出来。</ne-text></ne-p> <ne-p id="facd5c5fae541b985361a9b5ac034070" data-lake-id="facd5c5fae541b985361a9b5ac034070"><ne-text id="u938824ee">我将这个问题悬挂在书房，时时提问自己。</ne-text></ne-p> <ne-p id="u116506d0" data-lake-id="u116506d0"><ne-text id="uf06e19a8">就这样提问越多越频繁，也便积累了些答案，直到答案丰富到可以输出成为一本手册。</ne-text></ne-p> <ne-p id="74cc2f660f39664c6c113a5a985e89e5" data-lake-id="74cc2f660f39664c6c113a5a985e89e5"><ne-text id="u6cff7b22">为了更好地解答这个问题，我开始寻找更多鲜活证据，2019 年开始，我开始主题阅读</ne-text>[<ne-text id="udb1f22b6">马奇</ne-text>](https://www.douban.com/doulist/46472818/)<ne-text id="u809de3a3">，了解马奇所描述的堂吉诃德的「愚蠢」真意，之后主题阅读</ne-text>[<ne-text id="uf3b3abe0">曾国藩</ne-text>](https://www.douban.com/doulist/109913623/)<ne-text id="uf475f0b7">，发现曾国藩的对勤笃的践行，尤为契合笨方法精神。</ne-text></ne-p> <ne-p id="f7d89226cdd12ca89948d138d18831b9" data-lake-id="f7d89226cdd12ca89948d138d18831b9"><ne-text id="u9f98b2d4">同年，为更好地学会写作，执行「</ne-text>[<ne-text id="u10160b2d">十年读通鉴</ne-text>](https://www.cnfeat.com/blog/2019/05/04/TenYears/)<ne-text id="u1e5a1279">」计划，但在开始执行一两个月只读了两三次，自己懒惰太多，长此以往，十年必然读不完《通鉴》，便在 2020 年制定个人年度关键词：勤笃。将「勤笃」二字打印挂在书房，少打游戏，少刷短视频和社交媒体，早起读书，这样一做，居然持续下来。</ne-text></ne-p> <ne-p id="cfaf444849404f211feab00b40f05026" data-lake-id="cfaf444849404f211feab00b40f05026"><ne-text id="u40faedfe">同时，我也留意到「勤笃」更多强调的是某种努力的状态，而不是强调输出某种成果。而笨方法更需要的是行动与内驱，审度之后，将「笨方法四要」升级为「磨练、好奇、科学、模仿」，并打算在 2021 年起，逐年将这四个词设定年度关键词，计划在未来 4 年间不断打磨升级笨方法的理论体系。</ne-text></ne-p> <ne-p id="8bce92286b18c9f9cbb0522e76d69861" data-lake-id="8bce92286b18c9f9cbb0522e76d69861"><ne-text id="uf4b33edb">开始，笨方法四要只是脑中的 8 个字，后来为这 8 个字的找到注脚越来越多，便模仿《奈飞文化手册》制作一份近百页的幻灯，在「四要」基础上扩展为「</ne-text><ne-text id="ua70e6c94" style="color: rgb(42, 49, 53);">四义、四要、四步、四问</ne-text><ne-text id="ubb878369">」</ne-text><ne-text id="ub5531739" style="color: rgb(42, 49, 53);">。</ne-text></ne-p> <ne-p id="5565388d3306b8dc4ef341ce28f024d9" data-lake-id="5565388d3306b8dc4ef341ce28f024d9"><ne-text id="ufa76b52f">再接着，幻灯持续更新到幻灯容纳不下，便开始将自己四处收集的卡片汇总，便有这本手册的雏形，现在我已经在这本手册投入 3000+ 小时。</ne-text></ne-p> <ne-p id="33f0311cd4e85e35cadc8fe1038bfdaf" data-lake-id="33f0311cd4e85e35cadc8fe1038bfdaf"><ne-text id="u850ea27a">随着自己在个人项目的探索益深，自觉有必要成立一个小组织来承载笨方法的文化，便成立笨方法实验室（HardWay Lab），将原来属于个人的大问题修订为组织级别的愿景与使命。</ne-text></ne-p> <ne-quote id="u5b64c014" data-lake-id="u5b64c014"><ne-p id="727739c71b872fb1b0b8122b0758c6f3" data-lake-id="727739c71b872fb1b0b8122b0758c6f3"><ne-text id="u03c6d601">德鲁克说：「在脑力劳动者取得一项成果时，只有组织才能为他们提供所需的持续性。也只有组织才能使脑力劳动者所掌握的专业知识转化为具体的成果。」</ne-text></ne-p></ne-quote> <ne-p id="f57a58fc122d29f77a6daa9db880384e" data-lake-id="f57a58fc122d29f77a6daa9db880384e"><ne-text id="uc1d3971d">我将笨方法实验室的愿景与使命定义为：世上无难事，只怕笨方法。</ne-text></ne-p> <ne-p id="bf7a67779a8471d1a28e5cc80420bd85" data-lake-id="bf7a67779a8471d1a28e5cc80420bd85"><ne-text id="u1a24aab2">2020 年 10 月，念起。</ne-text></ne-p> <ne-p id="u57874a11" data-lake-id="u57874a11"><ne-text id="uefee22de">2021 年 6 月发布阶段性的满意成果《笨方法文化手册 2.0》，264 天的复盘思索，并非刻意营造，只是念念不忘，必有回响。</ne-text></ne-p> <ne-p id="uf9913b12" data-lake-id="uf9913b12"><ne-text id="u42a40f97">2021 年 6 月，创建「笨方法实验室来信」，每周两篇更新，升级我对笨方法的理解与实践。</ne-text></ne-p> <ne-p id="uda41c9bf" data-lake-id="uda41c9bf"><ne-text id="ue8cc81e5">2022 年 3 月，整理发布《笨方法文化手册 3.0》。</ne-text></ne-p> <ne-p id="9266bead2a1cb01c878c3cccf8e761a1" data-lake-id="9266bead2a1cb01c878c3cccf8e761a1"><ne-text id="u938074e7">我相信，这本手册会是目前阐述笨方法文化的最个人化手册。</ne-text></ne-p> <ne-p id="c2c4887187784fb02cd83423685e2863" data-lake-id="c2c4887187784fb02cd83423685e2863"><ne-text id="ub5a5fa98">我相信，不管你是刚刚知道笨方法，还是践行笨方法已久，都可以从这本手册中更新对笨方法的认知。</ne-text></ne-p> <ne-p id="5652f7c752144137a3b29b17b55504c3" data-lake-id="5652f7c752144137a3b29b17b55504c3"><ne-text id="u7d5a8877">当然，如果你认同我对笨方法的理解，也可以转发给你的朋友，让更多人加入践行笨方法的行列。</ne-text></ne-p> <ne-p id="568cb0af769e0ac96ef27845633e9518" data-lake-id="568cb0af769e0ac96ef27845633e9518"><ne-text id="u40b5777b">毕竟，世上无难事，只怕笨方法。</ne-text></ne-p>  <ne-p id="u25801696" data-lake-id="u25801696"><ne-card data-card-name="image" data-card-type="inline" id="ub487fb64" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ub9dadfc0" data-lake-id="ub9dadfc0"><ne-text id="u237b19b0">《千面英雄》中说：</ne-text></ne-p> <ne-quote id="uc554cf5c" data-lake-id="uc554cf5c"><ne-p id="u1c9d7b15" data-lake-id="u1c9d7b15"><ne-text id="u1c419ce9">英雄自日常生活的世界外出冒险，进入超自然奇迹的领域，他在那里遭遇到奇幻的力量，并赢得决定性的胜利，然后，英雄从神秘的历险中带着给予同胞恩赐的力量回来。</ne-text></ne-p></ne-quote> <ne-p id="u446f7da0" data-lake-id="u446f7da0"><ne-text id="u3ba42543">愿笨方法，能成为你的奇幻力量。∎</ne-text></ne-p> <ne-hole id="ub8ce30f2" data-lake-id="ub8ce30f2"><ne-card data-card-name="hr" data-card-type="block" id="EC1Uj" data-event-boundary="card"><ne-p id="ucbe428e0" data-lake-id="ucbe428e0"><ne-text id="u81892b58">每一年，这本手册至少会更新一个版本，接收来自你的反馈，扩充延展你觉得最有用的部分。</ne-text></ne-p> <ne-p id="uffe162e4" data-lake-id="uffe162e4"><ne-text id="ud77bac53">如果你有更好的建议或想法，欢迎添加微信与我联系。</ne-text></ne-p>  <ne-p id="u8a9b6524" data-lake-id="u8a9b6524"><ne-card data-card-name="image" data-card-type="inline" id="uc8d7e322" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ud5b732ed" data-lake-id="ud5b732ed"><ne-text id="u9668296e">同时，我也会通过全年每周一周四发送 newsletter，来更新我践行笨方法的心得体会，欢迎</ne-text>[<ne-text id="u4531a723">免费邮件订阅</ne-text>](http://newsletter.hardwaylab.com/)<ne-text id="u85522d3e">。</ne-text></ne-p> <ne-p id="f74bd73cd6b745ff832c3012d2fe65a5" data-lake-id="f74bd73cd6b745ff832c3012d2fe65a5"><ne-card data-card-name="image" data-card-type="inline" id="uFyrx" data-event-boundary="card" class="ne-spacing-all"></ne-card></ne-p></ne-card></ne-p></ne-card></ne-hole></ne-card></ne-p></ne-card></ne-p>
+<ne-quote id="u4784d7a4" data-lake-id="u4784d7a4">
+
+为了理解这个世界，你必须亲自动手构建它。 
+
+遇到难决策的事情，不要问你的领导要怎么做，要问你的信奉的文化告诉你怎么做。</ne-quote> 
+
+我所做的，不过是做一个圈，且不论这个圈圆不圆，先让它滚起来。 
+
+时间回到 2017 年 10 月某日清晨五点半，窗外石花山蒙蒙可见，我独自一人在大厅参照《笨方法学 Python》一个键一个键敲代码，彼时的我对编程一无所知，但当严格按指示将代码敲进屏幕，按下回车得出 Hello World 之后，竟莫名而生一种学习自信。 
+
+忽然醒觉，既然编程技能可以用「笨方法」习得，那么写作技能也应该可以，于是逐渐将自己所理解「笨方法」迁移到写作、阅读、学习等领域，输出了一门课程《笨方法学写作》，初心是想为所有想练习写作的人提供一套简单有效的习题集。 
+
+课程发布之后，遇到大量同行者，他们纷纷问起，什么是笨方法？ 
+
+搜索一通，发现还没有人完整定义过「笨方法」，大多数人只将「笨方法」模糊定义为一种苦干精神。 
+
+我只能按照自己的理解，给出自己的初步解释—— 
+
++   面对贪快之人，便说笨方法是踏实的脚步； 
+
++   面对懒惰之人，便说笨方法是磨练的驱动； 
+
++   面对蒙昧之人，便说笨方法是科学的探索； 
+
++   面对畏惧之人，便说笨方法是行动的勇敢…… 
+
+然而我终究觉得，要给出一个暂时满意的答案。 
+
+笨方法到底是什么？ 
+
+<ne-card data-card-name="image" data-card-type="inline" id="u5ae84f8b" data-event-boundary="card" class="ne-spacing-all">![HardwayLabUI.png](img/676658a6438d429d68b39c22d45ef7f7.png)  <ne-p id="u7fb0d007" data-lake-id="u7fb0d007">其实，在多年实践笨方法之后，我已经将它融入日常，以体悟替换概念，每一年，我对笨方法的改变与理解都在升级，我只需要将它描述出来。 
+
+我将这个问题悬挂在书房，时时提问自己。 
+
+就这样提问越多越频繁，也便积累了些答案，直到答案丰富到可以输出成为一本手册。 
+
+为了更好地解答这个问题，我开始寻找更多鲜活证据，2019 年开始，我开始主题阅读[马奇](https://www.douban.com/doulist/46472818/)，了解马奇所描述的堂吉诃德的「愚蠢」真意，之后主题阅读[曾国藩](https://www.douban.com/doulist/109913623/)，发现曾国藩的对勤笃的践行，尤为契合笨方法精神。 
+
+同年，为更好地学会写作，执行「[十年读通鉴](https://www.cnfeat.com/blog/2019/05/04/TenYears/)」计划，但在开始执行一两个月只读了两三次，自己懒惰太多，长此以往，十年必然读不完《通鉴》，便在 2020 年制定个人年度关键词：勤笃。将「勤笃」二字打印挂在书房，少打游戏，少刷短视频和社交媒体，早起读书，这样一做，居然持续下来。 
+
+同时，我也留意到「勤笃」更多强调的是某种努力的状态，而不是强调输出某种成果。而笨方法更需要的是行动与内驱，审度之后，将「笨方法四要」升级为「磨练、好奇、科学、模仿」，并打算在 2021 年起，逐年将这四个词设定年度关键词，计划在未来 4 年间不断打磨升级笨方法的理论体系。 
+
+开始，笨方法四要只是脑中的 8 个字，后来为这 8 个字的找到注脚越来越多，便模仿《奈飞文化手册》制作一份近百页的幻灯，在「四要」基础上扩展为「四义、四要、四步、四问」。 
+
+再接着，幻灯持续更新到幻灯容纳不下，便开始将自己四处收集的卡片汇总，便有这本手册的雏形，现在我已经在这本手册投入 3000+ 小时。 
+
+随着自己在个人项目的探索益深，自觉有必要成立一个小组织来承载笨方法的文化，便成立笨方法实验室（HardWay Lab），将原来属于个人的大问题修订为组织级别的愿景与使命。 <ne-quote id="u5b64c014" data-lake-id="u5b64c014">
+
+德鲁克说：「在脑力劳动者取得一项成果时，只有组织才能为他们提供所需的持续性。也只有组织才能使脑力劳动者所掌握的专业知识转化为具体的成果。」</ne-quote> 
+
+我将笨方法实验室的愿景与使命定义为：世上无难事，只怕笨方法。 
+
+2020 年 10 月，念起。 
+
+2021 年 6 月发布阶段性的满意成果《笨方法文化手册 2.0》，264 天的复盘思索，并非刻意营造，只是念念不忘，必有回响。 
+
+2021 年 6 月，创建「笨方法实验室来信」，每周两篇更新，升级我对笨方法的理解与实践。 
+
+2022 年 3 月，整理发布《笨方法文化手册 3.0》。 
+
+我相信，这本手册会是目前阐述笨方法文化的最个人化手册。 
+
+我相信，不管你是刚刚知道笨方法，还是践行笨方法已久，都可以从这本手册中更新对笨方法的认知。 
+
+当然，如果你认同我对笨方法的理解，也可以转发给你的朋友，让更多人加入践行笨方法的行列。 
+
+毕竟，世上无难事，只怕笨方法。  
+
+<ne-card data-card-name="image" data-card-type="inline" id="ub487fb64" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ub9dadfc0" data-lake-id="ub9dadfc0">《千面英雄》中说： <ne-quote id="uc554cf5c" data-lake-id="uc554cf5c">
+
+英雄自日常生活的世界外出冒险，进入超自然奇迹的领域，他在那里遭遇到奇幻的力量，并赢得决定性的胜利，然后，英雄从神秘的历险中带着给予同胞恩赐的力量回来。</ne-quote> 
+
+愿笨方法，能成为你的奇幻力量。∎ <ne-hole id="ub8ce30f2" data-lake-id="ub8ce30f2"><ne-card data-card-name="hr" data-card-type="block" id="EC1Uj" data-event-boundary="card">
+
+每一年，这本手册至少会更新一个版本，接收来自你的反馈，扩充延展你觉得最有用的部分。 
+
+如果你有更好的建议或想法，欢迎添加微信与我联系。  
+
+<ne-card data-card-name="image" data-card-type="inline" id="uc8d7e322" data-event-boundary="card" class="ne-spacing-all"><ne-p id="ud5b732ed" data-lake-id="ud5b732ed">同时，我也会通过全年每周一周四发送 newsletter，来更新我践行笨方法的心得体会，欢迎[免费邮件订阅](http://newsletter.hardwaylab.com/)。 
+
+<ne-card data-card-name="image" data-card-type="inline" id="uFyrx" data-event-boundary="card" class="ne-spacing-all"></ne-card></ne-card></ne-p></ne-card></ne-hole></ne-card></ne-p></ne-card></ne-p>

@@ -2,4 +2,32 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/iphga7`](https://www.yuque.com/hardwaylab/book/iphga7)
 
-<ne-quote id="u58b740a0" data-lake-id="u58b740a0"><ne-p id="f00e9bcb3417661c9b43d97e360fa813" data-lake-id="f00e9bcb3417661c9b43d97e360fa813"><ne-text id="u99bfbc14">关键词：源头、可能的自我、信念、探索、内在驱动、起点</ne-text></ne-p></ne-quote> <ne-p id="u3e052f54" data-lake-id="u3e052f54"><ne-text id="ud70e97fc">好奇即为原力，好奇是所有做成难事的源头起点，磨练是所有做成难事的持续状态。</ne-text></ne-p> <ne-p id="u1eab35af" data-lake-id="u1eab35af"><ne-text id="u12c8baf0">如果要为所有学习行为寻找一个共同点，那就是好奇。好奇心是人的本性，是一个自发的、兴趣盎然的过程，它会唤起你内心的欲望，用一种专注的、持久的、忠诚的、稳定的方式去关注的某个顶级目标的内在驱动。</ne-text></ne-p> <ne-p id="uf3c897f2" data-lake-id="uf3c897f2"><ne-text id="u988ba10c">保持好奇心不仅仅包括善护念，即使在外界不断打压也持续保持内驱，还包括不断践行，将好奇心转化成可改变自己，甚至改变世界的作品。</ne-text></ne-p> <ne-p id="u270cc3d6" data-lake-id="u270cc3d6"><ne-text id="ufb93a41b">「好奇心不是一个培养出来的东西，而是一个要保护它不灭绝的东西。」</ne-text></ne-p> <ne-p id="804ee19785655d046a7b5aa59c1a85f5" data-lake-id="804ee19785655d046a7b5aa59c1a85f5"><ne-text id="ud221f464">好奇是你在工作中感受到内在动机所必需的营养物质。 你会有自主感，知道自己对生活拥有控制力且自己的所作所为是重要的；你会有胜任感，知道自己擅长所做的事情；你会有归属感，知道自己自己能与他人建立联系。</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uaafe4728" data-lake-id="uaafe4728"><ne-text id="u5ea04193">因为好奇，你做事的动力始终来自于你自己想做，而不是为了讨好别人；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u48beb4a0" data-lake-id="u48beb4a0"><ne-text id="u7970e0d1">因为好奇，你会日思夜想地朝同一个方向前进哪怕一小步，而不是向另一个目标迈一大步；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uf84ec9ed" data-lake-id="uf84ec9ed"><ne-text id="u2bc22d29">因为好奇，你会提问，你会为寻找答案而迎接挑战、不满于现状，你会戴着镣铐也要起舞，极力投入去改变，思考、探索和追求未知；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u0e012807" data-lake-id="u0e012807"><ne-text id="uabd00eab">因为好奇，你会持续追问，持续挖掘，你会去寻找可以与你分享的人，寻找可指导你的老师。</ne-text></ne-uli-c></ne-uli> <ne-p id="u441c0b29" data-lake-id="u441c0b29"><ne-text id="u07fb91df">此后，你的知识、专业技能会增长，你的自信心、好奇心也会增长。</ne-text></ne-p> <ne-p id="15e0a1e395a1f6087655544553f4b7da" data-lake-id="15e0a1e395a1f6087655544553f4b7da"><ne-text id="u055c54ed">好奇没有任何确定的报酬，好奇本身就是你人生最大的奖励。</ne-text></ne-p> <ne-p id="8fbc1b2c166e71ba38b5884a4b985fe8" data-lake-id="8fbc1b2c166e71ba38b5884a4b985fe8"><ne-text id="u1bf6bcf6">人人皆有好奇心，点燃它，守护它、强化它。</ne-text></ne-p> <ne-p id="ubd5d9412" data-lake-id="ubd5d9412"><ne-text id="u8da50dbd">前行吧，以质疑为开场，成为一个探索者，而不是游客，去一个无人曾抵达的地方，或者去一个能抵达最远的地方，创造令你人生充满期待的希望。∎</ne-text></ne-p> <ne-h2 id="FJZr1" data-lake-id="FJZr1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext> <ne-heading-content></ne-heading-content></ne-h2>
+<ne-quote id="u58b740a0" data-lake-id="u58b740a0">
+
+关键词：源头、可能的自我、信念、探索、内在驱动、起点</ne-quote> 
+
+好奇即为原力，好奇是所有做成难事的源头起点，磨练是所有做成难事的持续状态。 
+
+如果要为所有学习行为寻找一个共同点，那就是好奇。好奇心是人的本性，是一个自发的、兴趣盎然的过程，它会唤起你内心的欲望，用一种专注的、持久的、忠诚的、稳定的方式去关注的某个顶级目标的内在驱动。 
+
+保持好奇心不仅仅包括善护念，即使在外界不断打压也持续保持内驱，还包括不断践行，将好奇心转化成可改变自己，甚至改变世界的作品。 
+
+「好奇心不是一个培养出来的东西，而是一个要保护它不灭绝的东西。」 
+
+好奇是你在工作中感受到内在动机所必需的营养物质。 你会有自主感，知道自己对生活拥有控制力且自己的所作所为是重要的；你会有胜任感，知道自己擅长所做的事情；你会有归属感，知道自己自己能与他人建立联系。 
+
++   因为好奇，你做事的动力始终来自于你自己想做，而不是为了讨好别人； 
+
++   因为好奇，你会日思夜想地朝同一个方向前进哪怕一小步，而不是向另一个目标迈一大步； 
+
++   因为好奇，你会提问，你会为寻找答案而迎接挑战、不满于现状，你会戴着镣铐也要起舞，极力投入去改变，思考、探索和追求未知； 
+
++   因为好奇，你会持续追问，持续挖掘，你会去寻找可以与你分享的人，寻找可指导你的老师。 
+
+此后，你的知识、专业技能会增长，你的自信心、好奇心也会增长。 
+
+好奇没有任何确定的报酬，好奇本身就是你人生最大的奖励。 
+
+人人皆有好奇心，点燃它，守护它、强化它。 
+
+前行吧，以质疑为开场，成为一个探索者，而不是游客，去一个无人曾抵达的地方，或者去一个能抵达最远的地方，创造令你人生充满期待的希望。∎ <ne-h2 id="FJZr1" data-lake-id="FJZr1"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext> <ne-heading-content></ne-heading-content></ne-h2>

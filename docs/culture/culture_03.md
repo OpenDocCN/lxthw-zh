@@ -2,4 +2,64 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/rxvcit`](https://www.yuque.com/hardwaylab/book/rxvcit)
 
-<ne-quote id="u3dacf46e" data-lake-id="u3dacf46e"><ne-p id="ufe43d1b7" data-lake-id="ufe43d1b7"><ne-text id="uc3fce3c8">我们相信，无论成长到哪个阶段，强大的共同价值观都可以让我们维持一贯的组织文化及凝聚力。</ne-text></ne-p> <ne-p id="uace6f3b4" data-lake-id="uace6f3b4"><ne-text id="u8319da9b">我们坚信，</ne-text><ne-text id="ud676184b" ne-fontsize="16" style="color: rgb(42, 49, 53);">好文化会有高概率会带来好结果。</ne-text></ne-p></ne-quote> <ne-p id="ud546eecf" data-lake-id="ud546eecf"><ne-text id="u73e10658">太多人喜欢做计划，太少人去做实验；太多人喜欢找寻真实的自我，太少人去探索可能的自我。</ne-text></ne-p> <ne-p id="763ad139fdd9c86394f048da0ff40d8b" data-lake-id="763ad139fdd9c86394f048da0ff40d8b"><ne-text id="udd6e7d49">人生更像一个实验，笨方法实验室试图建立一个假设，不断用一次又一次的实验探索人生的改变。在一次一次的改变中实现可能的自我。</ne-text></ne-p> <ne-p id="a6ce9ca2e7a6e896bc2144118f501d6e" data-lake-id="a6ce9ca2e7a6e896bc2144118f501d6e"><ne-text id="ua0ac0ed8">这本手册，就是笨方法实验室生产出的稳定、可用的基本方法论——提供一份无限清单，鼓励你去做正确的事，做困难的事，在实验室解决难题，在现实世界不解难题。</ne-text></ne-p> <ne-h2 id="pEQ5q" data-lake-id="pEQ5q"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u781e0dae">笨方法实验室文化</ne-text></ne-heading-content></ne-h2> <ne-p id="u3ab74f64" data-lake-id="u3ab74f64"><ne-text id="u66e5f335">笨方法实验室相信「世上无难事，只怕笨方法」，主张「99% 的努力都是白费」，为 1% 的实现可能而做长期努力，成为可能自我。</ne-text></ne-p> <ne-p id="uf330cfb9" data-lake-id="uf330cfb9"><ne-text id="uf0a2f918">笨方法实验室试图成为你的成长熔炉。你在此寻找并解决大问题，用解题思维解决难题，接受学习、实践、探索和生产的压力测试，进而回到现实世界，用创造思维，实现「</ne-text>[<ne-text id="uf336351d">不解难题</ne-text>](https://www.yuque.com/hardwaylab/book/zi4qlb)<ne-text id="uc407107a">」。</ne-text></ne-p> <ne-p id="u966be0a5" data-lake-id="u966be0a5"><ne-card data-card-name="image" data-card-type="inline" id="u589d4f61" data-event-boundary="card" class="ne-spacing-all">![笨方法生产方式 2.drawio.png](img/b93cb22d87b70b41164e1d55122c581f.png)  <ne-h3 id="ccnKC" data-lake-id="ccnKC"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ubc6941f9">经营使命</ne-text></ne-heading-content></ne-h3> <ne-quote id="uea38c6e0" data-lake-id="uea38c6e0"><ne-p id="uc77e7106" data-lake-id="uc77e7106"><ne-text id="u5122c225">我们为何存在？</ne-text></ne-p></ne-quote> <ne-p id="u16f60518" data-lake-id="u16f60518"><ne-text id="u9702957f">——世上无难事，只怕笨方法</ne-text></ne-p> <ne-h3 id="UX4pb" data-lake-id="UX4pb"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u5cc493aa">核心价值观</ne-text></ne-heading-content></ne-h3> <ne-quote id="u2e83c2f8" data-lake-id="u2e83c2f8"><ne-p id="u812d0d65" data-lake-id="u812d0d65"><ne-text id="ua2ac698b">我们相信什么？</ne-text></ne-p> <ne-p id="ue66e49b2" data-lake-id="ue66e49b2"><ne-text id="u0aaf841d">怎么分清哪些事情是对的，哪些事情是不对的？</ne-text></ne-p></ne-quote> <ne-p id="u40492bc5" data-lake-id="u40492bc5"><ne-text id="u79eec66f">——</ne-text>[<ne-text id="u6db08857">本分</ne-text>](https://www.yuque.com/hardwaylab/book/nhue62)</ne-p> <ne-h3 id="e6vHc" data-lake-id="e6vHc"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u8d15f31e">经营理念</ne-text></ne-heading-content></ne-h3> <ne-quote id="u020385d5" data-lake-id="u020385d5"><ne-p id="ue5eb0629" data-lake-id="ue5eb0629"><ne-text id="u818be985">我们将怎样做？</ne-text></ne-p></ne-quote> <ne-p id="u49540695" data-lake-id="u49540695"><ne-text id="u247b4678">——用户导向、</ne-text>[<ne-text id="u06a1569c">六经注我</ne-text>](https://www.yuque.com/hardwaylab/book/vsxvdy)<ne-text id="u9aa39e24" style="color: rgb(42, 49, 53);">、</ne-text>[<ne-text id="u4b5301a0">不解难题</ne-text>](https://www.yuque.com/hardwaylab/book/zi4qlb)</ne-p> <ne-h3 id="nbaYY" data-lake-id="nbaYY"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u6530d688">愿景</ne-text></ne-heading-content></ne-h3> <ne-quote id="u1178392d" data-lake-id="u1178392d"><ne-p id="ufa1f0170" data-lake-id="ufa1f0170"><ne-text id="ube92286c">我们想成为什么？想去哪里？</ne-text></ne-p></ne-quote> <ne-p id="u69f7f5da" data-lake-id="u69f7f5da"><ne-text id="u11cc38d8">——成为</ne-text>[<ne-text id="ub8bb7b55">更健康、更长久</ne-text>](https://www.yuque.com/hardwaylab/book/pv8x5g)<ne-text id="u2ca4bed0">的进步共同体</ne-text></ne-p> <ne-h3 id="WKTni" data-lake-id="WKTni"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u3c061d0a">笨方法精神</ne-text></ne-heading-content></ne-h3> <ne-quote id="u26316590" data-lake-id="u26316590"><ne-p id="u83f63a7e" data-lake-id="u83f63a7e"><ne-text id="ufb54e399">在创造某产品，提供某服务之前，连问 5 次「这为什么重要」。</ne-text></ne-p></ne-quote> <ne-p id="ua3801016" data-lake-id="ua3801016"><ne-text id="ua306a118">——磨练、好奇、科学、模仿</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uc086f935" data-lake-id="uc086f935"><ne-text id="ufd9173c0">磨练：是为故事，自我决定驱动探索</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ue6cfae10" data-lake-id="ue6cfae10"><ne-text id="u9bee3e68">好奇：是为信念，建立全局认知地图</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u8386d818" data-lake-id="u8386d818"><ne-text id="u2ea628ee">科学：是为模型，学习最小必要知识</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u439fd0fc" data-lake-id="u439fd0fc"><ne-text id="u57149b4b">模仿：是为行动，复刻创造最佳实践</ne-text></ne-uli-c></ne-uli> <ne-h2 id="ED0tP" data-lake-id="ED0tP"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ue4241afb">one more thing</ne-text></ne-heading-content></ne-h2> <ne-p id="ud26512b9" data-lake-id="ud26512b9"><ne-text id="u59a67ea5">我爱看梁文道的《一千零一夜》。</ne-text><ne-text id="u6a313228" ne-fontsize="15" style="color: rgb(51, 51, 51);">某一期「出走季」中，梁文道与邻桌大叔对话：</ne-text></ne-p> <ne-quote id="u0d54a005" data-lake-id="u0d54a005"><ne-p id="u3bb542f1" data-lake-id="u3bb542f1" ne-alignment="justify"><ne-text id="ufa958376" ne-fontsize="15" style="color: rgb(51, 51, 51);">大叔说：「现在的年轻人得有点信仰有点韵味。」</ne-text></ne-p> <ne-p id="ue027fa40" data-lake-id="ue027fa40" ne-alignment="justify"><ne-text id="u37c9985b" ne-fontsize="15" style="color: rgb(51, 51, 51);">梁文道说：「对，还是希望能做到这样。」</ne-text></ne-p></ne-quote> <ne-p id="u90e8a599" data-lake-id="u90e8a599"><ne-text id="uee468098">若你觉得独坐是困倦乏味，想用费点心机做出惊喜，不如唱这歌，美好前程跟我再追寻——</ne-text></ne-p> <ne-quote id="ue0fd65f0" data-lake-id="ue0fd65f0"><ne-p id="u9f17d6e5" data-lake-id="u9f17d6e5"><ne-text id="u012337c4">成和败努力尝试 人若有志应该不怕迟</ne-text></ne-p> <ne-p id="ud5174eb2" data-lake-id="ud5174eb2"><ne-text id="ubd981a22">谁人在我未为意 成就靠真本事</ne-text></ne-p> <ne-p id="u2fab5c2d" data-lake-id="u2fab5c2d"><ne-text id="u6783e00f">做个真的汉子 承担起苦痛跟失意</ne-text></ne-p> <ne-p id="ud3f9980b" data-lake-id="ud3f9980b"><ne-text id="ucf9c9169">投入要我愿意 全力干要干的事∎</ne-text></ne-p></ne-quote></ne-card></ne-p>
+<ne-quote id="u3dacf46e" data-lake-id="u3dacf46e">
+
+我们相信，无论成长到哪个阶段，强大的共同价值观都可以让我们维持一贯的组织文化及凝聚力。 
+
+我们坚信，好文化会有高概率会带来好结果。</ne-quote> 
+
+太多人喜欢做计划，太少人去做实验；太多人喜欢找寻真实的自我，太少人去探索可能的自我。 
+
+人生更像一个实验，笨方法实验室试图建立一个假设，不断用一次又一次的实验探索人生的改变。在一次一次的改变中实现可能的自我。 
+
+这本手册，就是笨方法实验室生产出的稳定、可用的基本方法论——提供一份无限清单，鼓励你去做正确的事，做困难的事，在实验室解决难题，在现实世界不解难题。 <ne-h2 id="pEQ5q" data-lake-id="pEQ5q"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>笨方法实验室文化</ne-heading-content></ne-h2> 
+
+笨方法实验室相信「世上无难事，只怕笨方法」，主张「99% 的努力都是白费」，为 1% 的实现可能而做长期努力，成为可能自我。 
+
+笨方法实验室试图成为你的成长熔炉。你在此寻找并解决大问题，用解题思维解决难题，接受学习、实践、探索和生产的压力测试，进而回到现实世界，用创造思维，实现「[不解难题](https://www.yuque.com/hardwaylab/book/zi4qlb)」。 
+
+<ne-card data-card-name="image" data-card-type="inline" id="u589d4f61" data-event-boundary="card" class="ne-spacing-all">![笨方法生产方式 2.drawio.png](img/b93cb22d87b70b41164e1d55122c581f.png)  <ne-h3 id="ccnKC" data-lake-id="ccnKC"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>经营使命</ne-heading-content></ne-h3> <ne-quote id="uea38c6e0" data-lake-id="uea38c6e0"><ne-p id="uc77e7106" data-lake-id="uc77e7106">我们为何存在？</ne-quote> 
+
+——世上无难事，只怕笨方法 <ne-h3 id="UX4pb" data-lake-id="UX4pb"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>核心价值观</ne-heading-content></ne-h3> <ne-quote id="u2e83c2f8" data-lake-id="u2e83c2f8">
+
+我们相信什么？ 
+
+怎么分清哪些事情是对的，哪些事情是不对的？</ne-quote> 
+
+——[本分](https://www.yuque.com/hardwaylab/book/nhue62) <ne-h3 id="e6vHc" data-lake-id="e6vHc"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>经营理念</ne-heading-content></ne-h3> <ne-quote id="u020385d5" data-lake-id="u020385d5">
+
+我们将怎样做？</ne-quote> 
+
+——用户导向、[六经注我](https://www.yuque.com/hardwaylab/book/vsxvdy)、[不解难题](https://www.yuque.com/hardwaylab/book/zi4qlb) <ne-h3 id="nbaYY" data-lake-id="nbaYY"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>愿景</ne-heading-content></ne-h3> <ne-quote id="u1178392d" data-lake-id="u1178392d">
+
+我们想成为什么？想去哪里？</ne-quote> 
+
+——成为[更健康、更长久](https://www.yuque.com/hardwaylab/book/pv8x5g)的进步共同体 <ne-h3 id="WKTni" data-lake-id="WKTni"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>笨方法精神</ne-heading-content></ne-h3> <ne-quote id="u26316590" data-lake-id="u26316590">
+
+在创造某产品，提供某服务之前，连问 5 次「这为什么重要」。</ne-quote> 
+
+——磨练、好奇、科学、模仿 
+
++   磨练：是为故事，自我决定驱动探索 
+
++   好奇：是为信念，建立全局认知地图 
+
++   科学：是为模型，学习最小必要知识 
+
++   模仿：是为行动，复刻创造最佳实践 <ne-h2 id="ED0tP" data-lake-id="ED0tP"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>one more thing</ne-heading-content></ne-h2> 
+
+我爱看梁文道的《一千零一夜》。某一期「出走季」中，梁文道与邻桌大叔对话： <ne-quote id="u0d54a005" data-lake-id="u0d54a005">
+
+大叔说：「现在的年轻人得有点信仰有点韵味。」 
+
+梁文道说：「对，还是希望能做到这样。」</ne-quote> 
+
+若你觉得独坐是困倦乏味，想用费点心机做出惊喜，不如唱这歌，美好前程跟我再追寻—— <ne-quote id="ue0fd65f0" data-lake-id="ue0fd65f0">
+
+成和败努力尝试 人若有志应该不怕迟 
+
+谁人在我未为意 成就靠真本事 
+
+做个真的汉子 承担起苦痛跟失意 
+
+投入要我愿意 全力干要干的事∎</ne-quote></ne-card></ne-p>

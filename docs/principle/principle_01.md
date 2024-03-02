@@ -2,4 +2,46 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/qgvz2e`](https://www.yuque.com/hardwaylab/principle/qgvz2e)
 
-<ne-p id="2ed2e6f53a9e3829548fb4b869d348dd_p_1" data-lake-id="2ed2e6f53a9e3829548fb4b869d348dd_p_1"><ne-text id="u51658a92">2018-01-11 开始读《原则》，此前已在知笔墨看过，如今重读、细读、品读、解读，每日连载。</ne-text></ne-p> <ne-p id="1e2e23a3c30fcc73384b78ff934e317b_p_3" data-lake-id="1e2e23a3c30fcc73384b78ff934e317b_p_3"><ne-text id="u35963a48">读此书的原则：</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="c3e11ad5c6eb9a0c106eeb784ede926b_li_0" data-lake-id="c3e11ad5c6eb9a0c106eeb784ede926b_li_0"><ne-text id="u8588c56d">每日必读</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ddb808021e8dae17a3157c4c8febac08_li_1" data-lake-id="ddb808021e8dae17a3157c4c8febac08_li_1"><ne-text id="u91038a63">一字不差地阅读</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="b5c2b0bb3fac88bb4b848d0754502e78_li_2" data-lake-id="b5c2b0bb3fac88bb4b848d0754502e78_li_2"><ne-text id="ue30724e9">采用「六经注我」的方式阅读</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="595ce95f37550b63bf9705aa876060ab_li_3" data-lake-id="595ce95f37550b63bf9705aa876060ab_li_3"><ne-text id="u56259cf1">一边阅读一边写卡片，最终汇集成「笨方法读《原则》」。如此读书的方法之前已经有人实践过，一个是李笑来读《YC 创业课》，另一个是华杉读《论语》、《孟子》、《中庸》，他们皆是发现极好的东西就会如获至宝，反复学习。这样看来，瑞·达利欧也是在现实中发现一些极好的东西，然后反复学习，抽象成为原则，我只不过是在向他们学习而已。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="37bfcff5f79e745c50f3a4c3685fc079_li_4" data-lake-id="37bfcff5f79e745c50f3a4c3685fc079_li_4"><ne-text id="ua01ffe61">第一目标：切实践行瑞·达利欧的原则，将瑞·达利欧当作自己的老师，他说什么，自己就老老实实去做，并写出自己的理解。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="83dedb099da60473312b59eac8367825_li_5" data-lake-id="83dedb099da60473312b59eac8367825_li_5"><ne-text id="u3f180b03">第二目标：用瑞·达利欧建立原则的方法来建立自己的原则清单，如果在建立原则清单的同时还能让更多人知道如何建立原则，那就功德无量。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="1aa53d3e790379ec3aead13aeb40b239_li_6" data-lake-id="1aa53d3e790379ec3aead13aeb40b239_li_6"><ne-text id="u6d6af8ac">有碎片时间就边读边划线标注，有大块时间就坐在桌前重看标注写卡片。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="008904d535f1af90fd95c1f6593466a9_li_7" data-lake-id="008904d535f1af90fd95c1f6593466a9_li_7"><ne-text id="u655cef05">此读书原则会持续更新</ne-text></ne-uli-c></ne-uli> <ne-p id="a5829f838fdbfcc40c0b7847f0fe76a1_p_6" data-lake-id="a5829f838fdbfcc40c0b7847f0fe76a1_p_6"><ne-text id="ua0688a8c">导言</ne-text></ne-p> <ne-p id="f31c4ed251c064585ee2617e7976e78b_p_8" data-lake-id="f31c4ed251c064585ee2617e7976e78b_p_8"><ne-text id="ua752b511" ne-bold="true">Ray Dalio：「不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什么，并据此如何行动。」</ne-text></ne-p> <ne-p id="7e836f0a219fd2cdca2f98fa2f8d71a4_p_10" data-lake-id="7e836f0a219fd2cdca2f98fa2f8d71a4_p_10"><ne-text id="u87f77b8e">在 100% 成功概率下做事并不算厉害，在未知情况下敢作敢为，且成功了才算是真本事。我尊敬有原则的人，他们是在我生命中出现的少数人，他们有信念，有所为有所不为。我知道，有原则必有故事，这些故事必定藏有我可学习之处，但遗憾的是，我从来没有问过他们，于是，我先总结读此书的</ne-text></ne-p> <ne-p id="ff5bc352535bf1feaefe72cf62d88e81_p_12" data-lake-id="ff5bc352535bf1feaefe72cf62d88e81_p_12"><ne-text id="u243a8187">001 #原则 ：发现按原则做事的人，须询问清楚其原则，发现其背后的故事。</ne-text></ne-p> <ne-p id="af97660779f41006fb80f12fecb0dab2_p_14" data-lake-id="af97660779f41006fb80f12fecb0dab2_p_14"><ne-text id="u7666757b">瑞·达利欧就当然是有个故事的人了，我且从他开始。</ne-text></ne-p> <ne-p id="4d5b43146e492d080ab72afbb2cb84f2_p_16" data-lake-id="4d5b43146e492d080ab72afbb2cb84f2_p_16"><ne-text id="u36d5fa61" ne-bold="true">Ray Dalio：「我现在分享这些原则的原因是，到了生命的这个阶段，我更关心的是如何帮助他人取得成功，而不是让自己变得更成功。」</ne-text></ne-p> <ne-p id="d35bf6b9132bf3217e8dfbfb7152fc4b_p_18" data-lake-id="d35bf6b9132bf3217e8dfbfb7152fc4b_p_18"><ne-text id="ubd2227d2">睿智的人的生命往往有一条明显的分割线，前半段努力让自己变得成功，后半段努力帮助他人获得成功，他们因有这条分割线而能成为睿智。</ne-text></ne-p> <ne-p id="63f112b7e548688e93e77d9105a8831b_p_20" data-lake-id="63f112b7e548688e93e77d9105a8831b_p_20"><ne-text id="uf774a680">大多数人看到这里可能觉得瑞·达利欧已经老了，反正这些智慧又不能带入棺材，不如分享出来沽名钓誉吧，但实际上，这些原则在 2010 年就已经出现在桥水基金的官网上了，只不过大多数对这种唾手可得的智慧反而不重视——而且瑞·达利欧说的也是普通的大白话，实在再老生常谈不过，大多数人都懂，只是没有老老实实去做而已。</ne-text></ne-p> <ne-p id="4c811a747864b2fe682beaaa2bf221f9_p_22" data-lake-id="4c811a747864b2fe682beaaa2bf221f9_p_22"><ne-text id="u38f69943">有人以为分享就是转发，而在瑞·达利欧这一类人看来，分享是一种素养，是一种经训练和实践而获得的一种道德修养，他们的分享，不仅有自己的思考，还带领人思考，给人如沐春风的感觉，他们的分享是帮助人类探索、学习、思考、创造、传递更好的思想。如此的行为才叫分享。</ne-text></ne-p> <ne-p id="16844ca04dbd612624cd65f15b95a05e_p_24" data-lake-id="16844ca04dbd612624cd65f15b95a05e_p_24"><ne-text id="ud9870c4e">--</ne-text></ne-p> <ne-p id="29db846bc431bd8b515aa625c99c90b2_p_26" data-lake-id="29db846bc431bd8b515aa625c99c90b2_p_26"><ne-text id="ud2eaf5ee">本文是「笨方法学写作」习作：</ne-text>[<ne-text id="u0658268b">http://www.LearnWritingTheHardWay.cn</ne-text>](http://www.LearnWritingTheHardWay.cn)</ne-p>
+
+
+2018-01-11 开始读《原则》，此前已在知笔墨看过，如今重读、细读、品读、解读，每日连载。 
+
+读此书的原则： 
+
++   每日必读 
+
++   一字不差地阅读 
+
++   采用「六经注我」的方式阅读 
+
++   一边阅读一边写卡片，最终汇集成「笨方法读《原则》」。如此读书的方法之前已经有人实践过，一个是李笑来读《YC 创业课》，另一个是华杉读《论语》、《孟子》、《中庸》，他们皆是发现极好的东西就会如获至宝，反复学习。这样看来，瑞·达利欧也是在现实中发现一些极好的东西，然后反复学习，抽象成为原则，我只不过是在向他们学习而已。 
+
++   第一目标：切实践行瑞·达利欧的原则，将瑞·达利欧当作自己的老师，他说什么，自己就老老实实去做，并写出自己的理解。 
+
++   第二目标：用瑞·达利欧建立原则的方法来建立自己的原则清单，如果在建立原则清单的同时还能让更多人知道如何建立原则，那就功德无量。 
+
++   有碎片时间就边读边划线标注，有大块时间就坐在桌前重看标注写卡片。 
+
++   此读书原则会持续更新 
+
+导言 
+
+Ray Dalio：「不管我一生中取得了多大的成功，其主要原因都不是我知道多少事情，而是我知道在无知的情况下自己应该怎么做。我一生中学到的最重要的东西是一种以原则为基础的生活方式，是它帮助我发现真相是什么，并据此如何行动。」 
+
+在 100% 成功概率下做事并不算厉害，在未知情况下敢作敢为，且成功了才算是真本事。我尊敬有原则的人，他们是在我生命中出现的少数人，他们有信念，有所为有所不为。我知道，有原则必有故事，这些故事必定藏有我可学习之处，但遗憾的是，我从来没有问过他们，于是，我先总结读此书的 
+
+001 #原则 ：发现按原则做事的人，须询问清楚其原则，发现其背后的故事。 
+
+瑞·达利欧就当然是有个故事的人了，我且从他开始。 
+
+Ray Dalio：「我现在分享这些原则的原因是，到了生命的这个阶段，我更关心的是如何帮助他人取得成功，而不是让自己变得更成功。」 
+
+睿智的人的生命往往有一条明显的分割线，前半段努力让自己变得成功，后半段努力帮助他人获得成功，他们因有这条分割线而能成为睿智。 
+
+大多数人看到这里可能觉得瑞·达利欧已经老了，反正这些智慧又不能带入棺材，不如分享出来沽名钓誉吧，但实际上，这些原则在 2010 年就已经出现在桥水基金的官网上了，只不过大多数对这种唾手可得的智慧反而不重视——而且瑞·达利欧说的也是普通的大白话，实在再老生常谈不过，大多数人都懂，只是没有老老实实去做而已。 
+
+有人以为分享就是转发，而在瑞·达利欧这一类人看来，分享是一种素养，是一种经训练和实践而获得的一种道德修养，他们的分享，不仅有自己的思考，还带领人思考，给人如沐春风的感觉，他们的分享是帮助人类探索、学习、思考、创造、传递更好的思想。如此的行为才叫分享。 
+
+-- 
+
+本文是「笨方法学写作」习作：[http://www.LearnWritingTheHardWay.cn](http://www.LearnWritingTheHardWay.cn)

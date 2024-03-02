@@ -2,4 +2,24 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/kzwyo4`](https://www.yuque.com/hardwaylab/principle/kzwyo4)
 
-<ne-p id="8601be8c5ab421b7cec3329543e0512e_p_2" data-lake-id="8601be8c5ab421b7cec3329543e0512e_p_2"><ne-text id="u1d3863ea" ne-bold="true">Ray Dalio：「有时，极为强烈的追求目标的决心会使塑造者显得粗率或者不关心他人……他们眼中没有完美。现实和理想之间的差距在他们看来既是悲剧，也是永不枯竭的动力之源。没有人能妨碍他们追求目标……每当面对是实现自己的目标还是取悦他人（或不让他人失望）时，他们都会选择实现自己的目标。」</ne-text></ne-p> <ne-p id="ea4043584cdac238e4814e853bff6958_p_4" data-lake-id="ea4043584cdac238e4814e853bff6958_p_4"><ne-text id="u8a319807">shaper 的注意力不能浪费，只能集中在最可能实现目标的行动上，不关心他人是他们节省注意力的方式，仅此而已，为了实现目标，shaper 不能沉醉赞扬，也不能在意谩骂，他们知道仍有一大段路要走，不能停下来与别人享受或争论。</ne-text></ne-p> <ne-p id="382eeb4f945db8f53a0b21bcb88fced5_p_6" data-lake-id="382eeb4f945db8f53a0b21bcb88fced5_p_6"><ne-text id="uc91ed983">他们理性而目标明确，你可以说有些 shaper 情商低，其实是他们觉得关心他人就是社交就是搞关系、做政治，这些事情都太复杂，太费时间了，宁愿花更多时间去发明创作。</ne-text></ne-p> <ne-p id="89466090a4de3c3685aa85636d349d5a_p_8" data-lake-id="89466090a4de3c3685aa85636d349d5a_p_8"><ne-text id="u3e9c12e7">做个 shaper ，专注目标，而不是搞关系。</ne-text></ne-p> <ne-p id="93bb2c48a31b241b2993a457c3466cbb_p_10" data-lake-id="93bb2c48a31b241b2993a457c3466cbb_p_10"><ne-text id="u329d5da1" ne-bold="true">Ray Dalio：「像算法一样决策的一个好处是，这可以让人们把注意力集中在因果关系上，并以此培养真正的创意择优。当所有人都能看到算法使用的标准并参与其制定时，他们就都会一致认同，这个系统是公正的，并放心地让计算机考察证据，正确地对人做出评估，给他们分配合理的职权。算法本质上就是在连续性基础上运行的原则。」</ne-text></ne-p> <ne-p id="403f4b94b74a427abf82ffdf023a4f2a_p_12" data-lake-id="403f4b94b74a427abf82ffdf023a4f2a_p_12"><ne-text id="ud0da1c7b">Ray Dalio 将组织管理视为计算机系统，按照公开、公正、公平的原则做算法标准，所有人按同样的标准评判。</ne-text></ne-p> <ne-p id="9ec8737dd38a9730a6b2c2a4cce419d3_p_14" data-lake-id="9ec8737dd38a9730a6b2c2a4cce419d3_p_14"><ne-text id="u73688647">成员在组织的行动就像学编程一样，计算机整合了一套原则算法，你输入错误的代码，计算机就会及时给予你负面反馈，不偏不倚，这个系统在自动教育与塑造成员的行为与价值观。</ne-text></ne-p> <ne-p id="d017a33a8d9bc9dd6f71e3dceeae763c_p_16" data-lake-id="d017a33a8d9bc9dd6f71e3dceeae763c_p_16"><ne-text id="ud8a33bbb">Ray Dalio 的目标只是让组织持续做正确的事情——并不关心正确的做法是不是来自创始人，他需要让整个组织的人都知道这一点，并且行动起来贡献想法，集思广益，创意择优。</ne-text></ne-p> <ne-p id="32c807e771f227f424bd90808d974237_p_18" data-lake-id="32c807e771f227f424bd90808d974237_p_18"><ne-text id="u992187eb">--</ne-text></ne-p> <ne-p id="4b5b409f346b9110d81cea7f1900d7ee_p_20" data-lake-id="4b5b409f346b9110d81cea7f1900d7ee_p_20"><ne-text id="u131d5e18">本文是「笨方法学写作」习作：</ne-text>[<ne-text id="u33468773">http://www.LearnWritingTheHardWay.cn</ne-text>](http://www.LearnWritingTheHardWay.cn)</ne-p>
+
+
+Ray Dalio：「有时，极为强烈的追求目标的决心会使塑造者显得粗率或者不关心他人……他们眼中没有完美。现实和理想之间的差距在他们看来既是悲剧，也是永不枯竭的动力之源。没有人能妨碍他们追求目标……每当面对是实现自己的目标还是取悦他人（或不让他人失望）时，他们都会选择实现自己的目标。」 
+
+shaper 的注意力不能浪费，只能集中在最可能实现目标的行动上，不关心他人是他们节省注意力的方式，仅此而已，为了实现目标，shaper 不能沉醉赞扬，也不能在意谩骂，他们知道仍有一大段路要走，不能停下来与别人享受或争论。 
+
+他们理性而目标明确，你可以说有些 shaper 情商低，其实是他们觉得关心他人就是社交就是搞关系、做政治，这些事情都太复杂，太费时间了，宁愿花更多时间去发明创作。 
+
+做个 shaper ，专注目标，而不是搞关系。 
+
+Ray Dalio：「像算法一样决策的一个好处是，这可以让人们把注意力集中在因果关系上，并以此培养真正的创意择优。当所有人都能看到算法使用的标准并参与其制定时，他们就都会一致认同，这个系统是公正的，并放心地让计算机考察证据，正确地对人做出评估，给他们分配合理的职权。算法本质上就是在连续性基础上运行的原则。」 
+
+Ray Dalio 将组织管理视为计算机系统，按照公开、公正、公平的原则做算法标准，所有人按同样的标准评判。 
+
+成员在组织的行动就像学编程一样，计算机整合了一套原则算法，你输入错误的代码，计算机就会及时给予你负面反馈，不偏不倚，这个系统在自动教育与塑造成员的行为与价值观。 
+
+Ray Dalio 的目标只是让组织持续做正确的事情——并不关心正确的做法是不是来自创始人，他需要让整个组织的人都知道这一点，并且行动起来贡献想法，集思广益，创意择优。 
+
+-- 
+
+本文是「笨方法学写作」习作：[http://www.LearnWritingTheHardWay.cn](http://www.LearnWritingTheHardWay.cn)

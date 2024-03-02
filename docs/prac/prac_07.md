@@ -2,4 +2,186 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/nhue62`](https://www.yuque.com/hardwaylab/book/nhue62)
 
-<ne-quote id="ufbc9d763" data-lake-id="ufbc9d763"><ne-p id="ud44201ad" data-lake-id="ud44201ad"><ne-text id="u5c2b208a">说明：本文绝大多数文字摘录自</ne-text>[<ne-text id="u5967dcde">《段永平投资问答录》</ne-text>](https://book.douban.com/subject/35254511/)<ne-text id="u84bb4ffc">，我只略作编辑，搬运在这里。如果造成理解偏差，那全部是我责任，如果对你用，那全部是这本书的功劳。</ne-text></ne-p></ne-quote> <ne-p id="uae2399d9" data-lake-id="uae2399d9"><ne-text id="u89489d2c">「本分」二字，极其简单但绝不容易，多数人可以一秒钟看「懂」，但一辈子做不到。</ne-text></ne-p> <ne-p id="u0592d097" data-lake-id="u0592d097"><ne-text id="uc98e8aae">什么是本分？</ne-text></ne-p> <ne-p id="ue4f76797" data-lake-id="ue4f76797"><ne-text id="u57228f40">1）首先是不做不本分的事情，2）然后才是做本分的事情，即做对的事情，把事情做对。</ne-text></ne-p> <ne-h2 id="xFu4V" data-lake-id="xFu4V"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf3159c64">不做不本分的事情</ne-text></ne-heading-content></ne-h2> <ne-p id="ucea3df88" data-lake-id="ucea3df88"><ne-text id="uc4469af6">人们往往知道什么是错的事情，只要把错的事情停止做了，就离「做对的事情」更近了一步。</ne-text></ne-p> <ne-p id="uf62f5a9e" data-lake-id="uf62f5a9e"><ne-text id="u8278bcf6">所以，「做对的事情」其实就是发现是错的事情的时候要马上停止，不管多大的代价都是最小的代价。人们常说的「坚持到底」，指的是坚持「做对的事情」而不是坚持做错的事情。</ne-text></ne-p> <ne-p id="u00f97ff7" data-lake-id="u00f97ff7"><ne-text id="uf2ca8e6b">本分的意思是不干不该干的东西。知不知道什么该干是能力问题，明知不该干还干是作风问题，赚了不应该赚的钱当然就是不本分。虽然大部分人认为有钱赚就行，但我们公司是属于知道有些钱是不能赚的这类公司。如果这类公司越来越多的话，消费者就会安心很多。</ne-text></ne-p> <ne-h2 id="VpCTr" data-lake-id="VpCTr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u2b4e5a68">做本分的事情</ne-text></ne-heading-content></ne-h2> <ne-p id="uefc06f48" data-lake-id="uefc06f48"><ne-text id="u8dcba537">在人的一生中，或者企业经营的过程中，会不断遇到诱惑、挫折，会不断受到挤压。我们会不由自主、随机地做出反应，这种反应往往背弃了我们最开始的路。这时，我们要回到最早的原点，想一想我们本来要做什么，我们最开始做这件事的目的是什么，把这一点牢牢抓住，再考虑外界带给我们的诱惑，这种心态就是本分。</ne-text></ne-p> <ne-p id="uf867ca99" data-lake-id="uf867ca99"><ne-text id="ue3b6c399">本分是骨子里的东西，应该不是学来的。比如借钱要还等等。</ne-text></ne-p> <ne-p id="u2d852bff" data-lake-id="u2d852bff"><ne-text id="uec183ab0">你只要能坚持「本分」，很多年后你会很厉害的。俗话说「有借有还再借不难」，其中「有借有还」就是「本分」，「再借不难」其实是「功利」。当你不再想着「再借不难」时你就真的「本分」了。</ne-text></ne-p> <ne-p id="u0dbb1c2a" data-lake-id="u0dbb1c2a"><ne-text id="u1293961f">所谓本分，其实主要指的是价值观和能力范围。赚多少钱不是我决定的，是市场给的。谋事在人，成事在天。</ne-text></ne-p> <ne-h3 id="A8LuD" data-lake-id="A8LuD"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ua06403be">平常心</ne-text></ne-heading-content></ne-h3> <ne-p id="uf72b33b8" data-lake-id="uf72b33b8"><ne-text id="ua2dae561">只有平常心才能本分。「本分」，就是要回归（或者找到）一种心态，在这种心态下往往能做正确的事情，而这种心态就是清净心，是佛家所说的无上智慧。回归清净心，做正确事情的这个过程的坚持，就是本分。</ne-text></ne-p> <ne-p id="u663309ce" data-lake-id="u663309ce"><ne-text id="ub1d20864">平常心其实就是在任何时候，尤其是在有诱惑的时候，能够排除所有外界的干扰，回到事物的本质（原点），辨别事情的是非与对错，知道什么是对的事情。</ne-text></ne-p> <ne-p id="ud7728531" data-lake-id="ud7728531"><ne-text id="u8b31edda">所谓回到原点也是指回到「什么是对的事情」或者是「如何把事实做对」这点上。我们公司在沟通上可能比绝大多数公司的沟通成本要低很多，最重要的一点就是当碰到难题时，我们能经常先回到「什么是对的事情」而不是停在讨论「这是不是最好的（赚钱）的办法」上。</ne-text></ne-p> <ne-p id="u08152086" data-lake-id="u08152086"><ne-text id="u02cb03fc">平常心，（就是）知道做企业最大的对手是自己。</ne-text></ne-p> <ne-p id="u6fd3dcba" data-lake-id="u6fd3dcba"><ne-text id="u1ca41e2f">平常心其实就是理性思考的习惯，应该是后天养成的。我之所以提出平常心的原因就是因为我也会失去平常心，所以大家都差不多，需要时刻提醒一下自己哈。</ne-text></ne-p> <ne-p id="uddc0541a" data-lake-id="uddc0541a"><ne-text id="u5b0ee266">《赢周刊》 问：你常说不争一城一池，企业的心态最重要。这「心态」指的是什么？</ne-text></ne-p> <ne-quote id="u24ca84bd" data-lake-id="u24ca84bd"><ne-p id="u3472a2f1" data-lake-id="u3472a2f1"><ne-text id="u15c52bda">段永平：有时候无招反胜有招。做人要有平常心，企业亦如是。往往，企业规模越大，要保持平常心就越难。对一个新企业来说，他唯一的目标就是生存。小企业去尝试一件事的时候，它的机会成本很低，失败了，再来过，谈不上有多大的损失。在美国，95％的创业企业要失败的。但是在企业有了一定规模的时候，管理者要保持平常心就有了一定难度，因为他可选择做的事情多了，选择的范围大了，同样，他犯错误的可能性也大了。大企业比什么？比谁犯的错误少。我看国外网球比赛的转播发现比较科学，他们是算一个运动员和对手之间谁的失误率最少，基本就可以判断胜负。一些水平相当的运动高手之间比赛比的往往就是心态了。</ne-text></ne-p></ne-quote> <ne-p id="udc7b7750" data-lake-id="udc7b7750"><ne-text id="u91767901">做企业，必须有平常心。我认为企业最重要的是安全，而不是像某些人说的要做多大。大是自然而然的发展过程，包括利润。企业的利润也是一个过程。当然企业必须有利润，没有利润就无法生存，但你不能把利润作为最大的追求目标。如果这样的话，企业就会变的唯利是图。企业赚了不该赚的钱，会伤害你的未来的。企业应该有利润之上的追求。</ne-text></ne-p> <ne-p id="ua53697e4" data-lake-id="ua53697e4"><ne-text id="ue86de9a7">陈明永（OPPO CEO）对本分的解释很好：</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uf86c9025" data-lake-id="uf86c9025"><ne-text id="ua98a2534">1、隔离外在的压力和诱惑，保持平常心态，回归事物的本源，把握住我们应该做的合理方向。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u9ea34b60" data-lake-id="u9ea34b60"><ne-text id="u65e65ef2">2、本分要求要敢于质疑，敢于挑战，通过批判性思考，以抓住事物本质。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u95111b81" data-lake-id="u95111b81"><ne-text id="u9a0ff26f">3、本分是要求自己而不是要求别人，当出现问题时，首先求责于己。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ufdfb2bda" data-lake-id="ufdfb2bda"><ne-text id="ub9874205">4、本分规范了与人合作的态度——我不赚人便宜。</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u8aa6958c" data-lake-id="u8aa6958c"><ne-text id="ub3e80321">5、本分高于诚信，即使没有承诺，本来应该做的事情也要做到。</ne-text></ne-uli-c></ne-uli> <ne-h3 id="UdY2B" data-lake-id="UdY2B"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ua2e1557f">高于诚信</ne-text></ne-heading-content></ne-h3> <ne-p id="u28c68fdd" data-lake-id="u28c68fdd"><ne-text id="ubdf715cf">本分包含的东西要更多一些。诚信是承诺的事情要做到，本分是要求自己，即使没有承诺应该自己做的要做到（或者说违反自己原则底线价值观的不做）。本分包含且高于诚信。本分的企业或人总是让人有好感，值得信赖。</ne-text></ne-p> <ne-p id="u5349b553" data-lake-id="u5349b553"><ne-text id="u3f8a366c">企业应该有道德，有自己的原则。有些生意哪怕再赚钱，如果违背自己做企业的原则，那我肯定不会去做的。企业不能不赢利，但赢利应该建立在对市场的准确把握的基础上进行合法经营。如果什么钱都想挣，这种企业永远也长不大。</ne-text></ne-p> <ne-p id="u0be4193f" data-lake-id="u0be4193f"><ne-text id="u08df8759">企业挣钱固然非常重要，但挣钱的过程更充满了乐趣，如果挣钱就是目的，那目光就太短浅，这种企业很难长大。做企业要有责任感，而不是简单的为了赚钱，赚钱只是一个过程。企业存在要有价值，比如为社会创造财富，提供就业机会等。</ne-text></ne-p> <ne-p id="u4546ab59" data-lake-id="u4546ab59"><ne-text id="u2c193467">所谓「讲信誉」或叫诚信或本分，不是讲讲而已，只有需要付出代价的时候，才知道谁是讲（守）信誉的。</ne-text></ne-p> <ne-p id="uda7a379d" data-lake-id="uda7a379d"><ne-text id="u3f863e12">商业上的承诺也偶有兑现不了的时候，这个时候就需要付出代价。不守信往往体现在逃避代价上。</ne-text></ne-p> <ne-p id="u562be584" data-lake-id="u562be584"><ne-text id="u6f1fb2e6">本分的意思就是 1.0 的厚度就说是 1.0 的厚度，句号。</ne-text></ne-p> <ne-quote id="u70c08e68" data-lake-id="u70c08e68"><ne-p id="u3967c7e7" data-lake-id="u3967c7e7"><ne-text id="u3fd6c3fe">来自答网友问：在中国不少行业都有潜规则的问题，不知道国外有没有。在有潜规则的行业中，如果不用潜规则，有时和使用这些潜规则的企业相比而言成本会高不少，但如果使用了总感觉缺乏诚信、不够本分，比如建材行业中铝合金门，说是 1.2 的厚度，行业内其实一般都是 1.0 的厚度甚至更薄，但这个行业从上游的型材到门厂的加工到终端门市的销售都类似，请问段老师怎么看这个问题呢？如果你是从事门厂这个行业的话，会怎么做呢？</ne-text></ne-p></ne-quote> <ne-p id="u9c407e9e" data-lake-id="u9c407e9e"><ne-text id="u24e9849f">「讲」信誉谁都会，但当需要「守」信誉的时候很多人就不行了。原则问题不应该妥协，这不是代价的问题。原则是不应该有时间性的。</ne-text></ne-p> <ne-quote id="u5cfc5737" data-lake-id="u5cfc5737"><ne-p id="u64af79d6" data-lake-id="u64af79d6"><ne-text id="uacd59fc2">来自答网友问：我的问题是坚持原则与妥协之间如何取舍？例如请了一个工头做一个建筑或者装修工程项目，工头不诚信，老想偷工减料，或者临时加价等，如果换工程队会严重影响工期，带来比较大的损失。（如换一个工头，大概也不会很诚信）。如果选择妥协，则可按照计划完工，在可控范围内比原计划成本增加一些。现实生活中很多诸如此类的问题，该如何取舍呢？</ne-text></ne-p></ne-quote> <ne-p id="u32ef8d47" data-lake-id="u32ef8d47"><ne-text id="u49166755">合作伙伴言而无信，合作大概率不会有好下场。尽量不和这些人打交道。停止和你已经投入的无关，损失少是你的运气。</ne-text></ne-p> <ne-p id="udeabe75b" data-lake-id="udeabe75b"><ne-text id="uf5c8159b">来自答网友问：怎么看不本分的人，经常做不对的事的人，经常抓不住本质的人。他们时间长，应该没啥出息。大道怎么看他们？我想学点世界观。</ne-text></ne-p> <ne-h3 id="yacew" data-lake-id="yacew"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u5d1db42c">肯吃亏</ne-text></ne-heading-content></ne-h3> <ne-p id="u21f7d904" data-lake-id="u21f7d904"><ne-text id="u681ff59f">（在中国做正直的人）其实不难，但你如果希望因为这个得到什么可能会有点难。有时可能还要吃亏。如果你不肯吃亏，也会有点难。</ne-text></ne-p> <ne-p id="u4c46d269" data-lake-id="u4c46d269"><ne-text id="u7351f7a2">我们做企业最根本的东西，就是本分。 说话要算数，是一种本分。守信誉不是给人看的，为了一个承诺去赔钱，可能很多企业家会赖账，但我会毫不犹豫地践诺。</ne-text></ne-p> <ne-p id="u13aa8ebc" data-lake-id="u13aa8ebc"><ne-text id="ue34991b6">我曾经为一个承诺赔了 1800 多万元。客观地讲，信誉是一笔巨大的无形资产，守信誉能带来巨大的收获，步步高发展到今天，正是得益于良好的信誉得到股东的支持。</ne-text></ne-p> <ne-p id="u007f2536" data-lake-id="u007f2536"><ne-text id="ue196d024">我觉得好汉应能吃眼前亏，吃了眼前亏将来才不会吃亏，有的人看上去很聪明，算得很精，甚至能骗钱，但他赚不着大钱。只有智慧的人才能挣大钱，他不会去玩手腕，不会去骗人，而这种企业家往往能将企业做大。 企业不要什么钱都赚，这是一种本分。</ne-text></ne-p> <ne-h3 id="vcSOm" data-lake-id="vcSOm"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ub5bffbdf">有错就改</ne-text></ne-heading-content></ne-h3> <ne-p id="u1f17f522" data-lake-id="u1f17f522"><ne-text id="uf6a04d71">什么是「把事情做对」？这个可能比较容易理解一点点，但其实也没有看上去那么容易。把事情做对是一个学习的过程，中间会犯很多的错误。</ne-text></ne-p> <ne-p id="u51938169" data-lake-id="u51938169"><ne-text id="u9b9de0ca">如果发现错了，就立刻停止，因为这个时候成本是最小的。我不能告诉你对错，怎么判断对错，要自己积累。 至于怎么把事情做对，要花时间去培养 skill sets（就是有学习曲线的意思，要允许犯错误）。</ne-text></ne-p> <ne-p id="u4ed39e1c" data-lake-id="u4ed39e1c"><ne-text id="ud2c0ac43">如何坚持做对的事情，付出为了把事情做对的过程当中所需要付出的代价，其实是非常不容易的。在把事情做对的过程当中，其实是没有办法避免犯错误的，比如打高尔夫的人，是没有办法避免偶尔把球打下水的，能做的仅仅是如何能降低犯错误的概率。</ne-text></ne-p> <ne-p id="u895f9e9a" data-lake-id="u895f9e9a"><ne-text id="uf987fed4">做企业关键就是「做对的事情」和「把事情做对」，董事长的工作不是去控制细节，而是关注企业是否在做对的事情。任何人在做对的事情的过程中都可能犯错，那是技术上的问题，很正常。但类似质量有问题的产品还出厂这样的事，我就要让它立刻停止，不管多大的代价都是最小的代价。</ne-text></ne-p> <ne-p id="u34542d8c" data-lake-id="u34542d8c"><ne-text id="u8c1bbded">我是放手让比自己能干的人去做事，至少做着做着就比我能干了。放权里最关键的是可以容忍在「把事情做对」的过程当中所犯的错误，我个人的理解是其实干同样的事我也犯错，为什么别人不可以犯错。</ne-text></ne-p> <ne-p id="ua8591525" data-lake-id="ua8591525"><ne-text id="ud2bcabaa">好企业也可能会犯错的。 我一般看到企业犯错时，主要判断这个错是「做了错的事情」还是在想「把事情做对」的过程当中犯的错。任何人在「做对的事情」的前提下，为了「把事情做对」的过程当中都是会犯错的，这种错误也可能给企业造成很大的短期损失，但长期而言却可能微不足道。而另一种错误的损失却可以是致命的。</ne-text></ne-p> <ne-h3 id="Iq8zb" data-lake-id="Iq8zb"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf277cb0d">不赚人便宜</ne-text></ne-heading-content></ne-h3> <ne-p id="u3138f3ed" data-lake-id="u3138f3ed"><ne-text id="ueb193d0b">我们公司财务如果逾期给不了款应该属于「没能力」的表现。 早年我当 CEO 时曾在一次供应商会议上向所有供应商提供了我的手机号码，告诉他们如果有人不守信就可以打我电话投诉</ne-text></ne-p> <ne-quote id="ucda7c650" data-lake-id="ucda7c650"><ne-p id="ucb4c0114" data-lake-id="ucb4c0114"><ne-text id="uaef8fa0d">回应网友讨论：提倡不赚别人便宜的公司，是值得尊敬的，她至少明确告诉了员工什么是对的（不赚别人便宜），什么是错的（老想赚别人便宜）。我看到的大多数的公司都是在以能赚别人便宜为荣，比如一个采购员能拖供应商的货款，是「有能力」的表现，其结果是……</ne-text></ne-p></ne-quote> <ne-p id="u4552f223" data-lake-id="u4552f223"><ne-text id="u1a924e20">上个世纪 90 年代初的时候，「小天才」在游戏机领域是个非常响当当的牌子，产品的质量和口碑都非常好，在我的感觉里是曾经唯一可以有机会和「小霸王」一比的牌子。后来不知道什么原因「小天才」就慢慢在市场上消失了。实际上「小天才」这 3 个字比「小霸王」这 3 个字的平衡性要好很多，主要是「霸」的笔画太多，导致「小霸王」 3 个字怎么设计都不太好看。</ne-text></ne-p> <ne-p id="u56060088" data-lake-id="u56060088"><ne-text id="u553d91b2">在步步高创业初期，我们曾经找到「小天才」商标所有人，提出想买这个商标（那是他们在市场已经上没产品了），并出到了 300 万的价钱，结果被一口回绝了。 10 年后的某一天（大概是 2007 或 2008 年？），我突然想到也许我们该再试试，因为想个好商标名确实是件非常难的事，尤其是 3 个字商标基本上都被注绝了。如果能够以不太贵的价钱买到一个好的商标名字绝对是合算的。</ne-text></ne-p> <ne-p id="uf6ab6157" data-lake-id="uf6ab6157"><ne-text id="ub31274ec">于是我们费尽九牛二虎之力终于找到了「小天才」的商标所有人。不过这一次我们吸取了上次的经验，委托了一个中间公司出面购买。结果对方直接出价就是 30 万，而且一再强调他这个牌子是很值钱的，10 年前步步高就曾经出过 300 万想买。过程自然是很顺利，一切按照法律手续，大概大半年后这个牌子就归到我们公司了。</ne-text></ne-p> <ne-p id="u8f33a5cf" data-lake-id="u8f33a5cf"><ne-text id="u0ae73586">其实我们当时还是打算用 300 万买的，哪怕今天当时「小天才」的所有人找到我们，我们依然还可以补足他，因为实在是不想赚他的便宜。 不过据说后来又找不到他了，希望他运气好能看到这个帖子哈。</ne-text></ne-p> <ne-p id="u8fc2f7a7" data-lake-id="u8fc2f7a7"><ne-text id="u1a7183c4">网友问：我想问下您明明 30 万已买了的商标，怎么还愿意补偿给商标所有人。一般在生意过程中怎么把握厚道和每一分都要算计这个度？是不是只有厚道的生意人才能做得大？</ne-text></ne-p> <ne-p id="uf1d68fec" data-lake-id="uf1d68fec"><ne-text id="ud0760cf8">段永平：因为我们本来就觉得 300 万是个很好的价钱，没想到对方给的价钱那么低。厚道和做得大没有必然联系，但厚道的生意人可能能睡得好点吧。</ne-text></ne-p> <ne-h3 id="gS5WO" data-lake-id="gS5WO"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u8392ab27">老实做事</ne-text></ne-heading-content></ne-h3> <ne-p id="u41fc239f" data-lake-id="u41fc239f"><ne-text id="u9c8c7089">老实做事，是我们做企业的准则。企业不是什么事都做，这是一种本分。</ne-text></ne-p> <ne-p id="u7b3eab65" data-lake-id="u7b3eab65"><ne-text id="u3611fb1e">有多大能力做多大的事，而不是有多大的胆量。实际上每个企业的资源都是有限的，包括人力、物力、财力，把这有限的资源用到无限的投资方向上去肯定要出问题，有的企业什么都在做，但都没有什么特点，你不知道它到底是干什么的。这种企业的问题也许短期内不会表现出来，但将来很麻烦。必须要集中优势兵力打歼灭战，即在一个企业中实现焦点化，集中一个行业中最尖端的技术开发出最尖端的产品。企业就那么点能力和规模，不可能再分散资源，我不相信有天上掉馅饼的事。</ne-text></ne-p> <ne-p id="u92dbddb3" data-lake-id="u92dbddb3"><ne-text id="u7aeb7118">做企业其实非常简单，没有什么花拳绣腿，最厉害的招数是没有招的招，一拳打出去，非常朴实。我觉得也跟做学问、搞科研一样，勤奋和坚韧都是非常重要的，爱迪生关于成功的公式：99%的汗水加 1%的灵感，这里同样适合。必须老老实实做事，做企业就像长跑赛一样，唯有老老实实保持匀速前进，不偷懒、不投机者才不会被淘汰。一个企业在成长过程中，随时都可能遇到困难和挫折，有时甚至是灾难性的打击，但企业家必须能扛得住，绝不能放弃自己的追求，很多人老是埋怨自己的运气不好，在逆境中沮丧，甚至走向颓废，这实际上是意志品质不够好。企业家应该有一种精神，百折不挠，方能制胜。</ne-text></ne-p> <ne-p id="u7d00b5e7" data-lake-id="u7d00b5e7"><ne-text id="u354b347f">其实真正好的能持续经营的企业大多都不是着眼于利润的，利润不过是水到渠成的结果而已，就是所谓让利润追着自己跑的那种。</ne-text></ne-p> <ne-p id="u007ca861" data-lake-id="u007ca861"><ne-text id="udfceec6b">我们公司不会把追求干倒谁过作为目标，也不会把市场份额，销售数量及排名作为我们的追求目标的。我们追求的就是改善用户体验，做出最好的产品，其他的都是水到渠成的事情。</ne-text></ne-p> <ne-h3 id="ROhAU" data-lake-id="ROhAU"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uc9519f68">用户导向</ne-text></ne-heading-content></ne-h3> <ne-p id="u6d34e1ba" data-lake-id="u6d34e1ba"><ne-text id="u57591293">用户导向是一种利润之上的追求，简单讲就是想着用户到底要的是什么，我们如何去实现。结果导向指的是要把事情做对。追求极致还是要把事情做对的范畴。</ne-text></ne-p> <ne-p id="u408bac98" data-lake-id="u408bac98"><ne-text id="u842f372c">我们比对手优胜的地方就是更加专注于竞争对手没有做好的地方去做好，紧紧围绕消费者导向这一原则。</ne-text></ne-p> <ne-p id="u650b4994" data-lake-id="u650b4994"><ne-text id="u58976c31">只有极少数的企业是真的在骨子里具有「消费者导向」同时又具备实现「消费者导向」的能力的，这些公司最后往往会被人们称为「伟大的公司」。</ne-text></ne-p> <ne-p id="u38929fac" data-lake-id="u38929fac"><ne-text id="u4041724b">能找到你能满足的细分市场的话，你也许就有机会。几乎所有大公司都是从小公司起来的，最重要是你能有消费者导向的观念。</ne-text></ne-p> <ne-p id="u13c0ff4d" data-lake-id="u13c0ff4d"><ne-text id="u2d169d53">是否超越谁并不是我们的目标。最重要是做出好东西给用户。</ne-text></ne-p> <ne-p id="udd761ef0" data-lake-id="udd761ef0"><ne-text id="u5d5645c9">能做多久应该取决于你自己的。如果你一直想着你的用户的需求，10 年或更久为什么会是问题？难道 10 年后大家就不穿衣服了？</ne-text></ne-p> <ne-p id="ubdf4eb34" data-lake-id="ubdf4eb34"><ne-text id="u6a7768e1">如果你的东西推出去没有很快抓住用户，肯定是不够好，一定要回来好好思考，想自己的问题。</ne-text></ne-p> <ne-p id="u1f0ec75e" data-lake-id="u1f0ec75e"><ne-text id="ua20cced2">把追求干倒谁过作为目标，也不会把市场份额，销售数量及排名作为我们的追求目标的。我们追求的就是改善用户体验，做出最好的产品，其他的都是水到渠成的事情。</ne-text></ne-p> <ne-p id="u50becff1" data-lake-id="u50becff1"><ne-text id="u5aaf920d">其实做企业非常简单，叫做 consumer retation 就叫做消费者导向，这个东西说起来非常简单，但是真正这样做的人非常少，绝大多数都是生意导向，是赚钱导向。只要你觉得这个市场足够大，时间足够长，我就什么时候介入都是不晚的。你比方说假设这个市场有五十年的市场，你说我晚五年有什么关系吗？没有什么关系。</ne-text></ne-p> <ne-p id="u81c34fc2" data-lake-id="u81c34fc2"><ne-text id="ubedda40e">同样的东西分成多个品牌卖显然属于生意导向而不是用户导向。</ne-text></ne-p> <ne-h3 id="WEGfy" data-lake-id="WEGfy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u79c54b87">标实价不讲价</ne-text></ne-heading-content></ne-h3> <ne-p id="u5f09dd22" data-lake-id="u5f09dd22"><ne-text id="ucc2d10de">我刚到广东时，就发现人们在谈生意时谈来谈去谈的都是价格，当时我就想，如果能不谈价钱，那至少可以省掉 70% 到 80% 的时间吧。后来，我们花了两三年的时间，建立了一套销售体系，确确实实做到了所有的客户在我们这里拿的货的价钱都是完全一样的，不管生意额的大小，没有折扣，没有返点。</ne-text></ne-p> <ne-p id="ued63caaf" data-lake-id="ued63caaf"><ne-text id="uf2b95b63">我们公司卖东西是没有还价空间的，所有的客户都是一个价，不管生意大小，生客熟客……刚刚开始经营企业时我就发现，所谓谈生意谈来谈去主要是在谈价钱。</ne-text></ne-p> <ne-p id="u8cbaf55f" data-lake-id="u8cbaf55f"><ne-text id="u81ae42ba">人们把大量时间放在谈价钱上，而且在谈的过程中经常还需要诈来诈去的。对于卖东西的业务员来说，价钱的授权是件非常困难的事情，所以他们总是要找更上一级领导去获取更多授权，所以领导就会变得非常忙且没有效率。所以我们在 20 多年前就没有讨价还价了。</ne-text></ne-p> <ne-p id="u8c52a4fb" data-lake-id="u8c52a4fb"><ne-text id="u6054e0c4">任何东西都是标实价不讲价的好。可以讲价实际上对卖家而言是个非常短视且成本很高的行为。成本很高指的是无法授权且容易造成管理漏洞，短视指的是如果可以还价，那就是在鼓励回头客来讨价还价。对于客户而言，任何讨价还价都会让他们有可能吃亏了的感觉，因为客户很可能觉得价钱还没还够。</ne-text></ne-p> <ne-p id="u19e00497" data-lake-id="u19e00497"><ne-text id="u9e32bf61">价格不一致，一是他们迟早会发现；二是客户发现能议价，会想尽办法跟你讨价还价，浪费你很多时间，这都是麻烦事。价格一致，会省很多麻烦。做产品主要是要抓住客户的需求，而不是价格。</ne-text></ne-p> <ne-h3 id="RMMMV" data-lake-id="RMMMV"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="uf4f6c164">不为清单</ne-text></ne-heading-content></ne-h3> <ne-p id="u37bc8738" data-lake-id="u37bc8738"><ne-text id="uda5f8a7a">很多人都希望知道把公司做好的秘诀是什么，其实「秘诀」不是做了什么而是不做什么。好的公司都一定是有一个长长的「Stop doing list」，就是「不做的事情」。「不做的事情」其实也分两类：一类是谁都不应该做的事情，比如欺骗；另一类是和自己公司的使命和愿景相结合的</ne-text></ne-p> <ne-p id="u69083291" data-lake-id="u69083291"><ne-text id="u3ee9866d">下面我举一些我们自己的「不做的事情」的例子，这也算我们的小秘密吧。</ne-text></ne-p> <ne-p id="u23e0af06" data-lake-id="u23e0af06"><ne-text id="ucb45bffc">不做 OEM：最早提出不做 OEM 的就是现在 OPPO 的 CEO 陈明永，不记得是哪年了，大概可能有 20 年了吧。为什么我们不做 OEM 呢？长远来讲，我们想建立自己的品牌，我们需要把所有的资源投入到我们自己的产品上。</ne-text></ne-p> <ne-p id="uf74c042d" data-lake-id="uf74c042d"><ne-text id="uc149ba48">做 OEM 有很专业的公司，他们有很专业的办法去满足很多不同的客户的不同的要求，我们根本就没有精力去做这些事情，所以长远来说我们是会输给那些专业做 OEM 的公司的，既然知道长远会做不过别人，那我们干脆就不做。</ne-text></ne-p> <ne-p id="u7b036164" data-lake-id="u7b036164"><ne-text id="u2e65e569">记得大概十五六年前，我还是 CEO 的时候，沃尔玛的供应商曾经来找过我，说要给我们下 100 万台的 VCD 的单子，我在电话里直接就拒绝了。对方还问我，难道价钱你都不想谈吗？我说，对的，不管什么价钱我都拒绝，反正你也不会给我好的价钱，谈来谈去浪费大家的时间。我当时还类似地拒绝过南方贝尔的代表要下的「巨量」电话机订单。当时给我打电话的人还嘟囔着说，在中国还没有人拒绝过我们的订单呢。∎</ne-text></ne-p> <ne-hole id="u0e7540b5" data-lake-id="u0e7540b5"><ne-card data-card-name="hr" data-card-type="block" id="sUBkj" data-event-boundary="card"><ne-h3 id="QnVTQ" data-lake-id="QnVTQ"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ud3b5d6bc" style="color: rgb(34, 34, 34);">谦退</ne-text></ne-heading-content></ne-h3> <ne-quote id="u6114a345" data-lake-id="u6114a345"><ne-p id="u3bd72ce7" data-lake-id="u3bd72ce7" ne-alignment="justify"><ne-text id="uc1e2ea9d" ne-fontsize="16" style="color: rgb(34, 34, 34);">以下文字摘录自</ne-text> <ne-text id="ue63d35b9">华与华「下苦功」2022 年会演讲实录</ne-text></ne-p></ne-quote> <ne-p id="uaa68c64f" data-lake-id="uaa68c64f"><ne-text id="uaadb1f1f">孟子说：「行有不得，反求诸己。」如果行动没有达到预期的效果，就应该反省，从自己身上找原因，而不是一切都是自己为中心去考虑。</ne-text></ne-p> <ne-p id="uf0dd76d0" data-lake-id="uf0dd76d0"><ne-text id="uade2e338">我们要比自己「该」拿的少拿一点，比自己"该"快的再慢一点，因为每个人都有不公平的错觉。</ne-text></ne-p> <ne-p id="u979ca93e" data-lake-id="u979ca93e"><ne-text id="u2ca3cc78">我创业前在公司上班的时候，应该是在 1997 年，我年终奖拿了 8 万，年终奖都是不能相互说，王老师给我们每人都拿了个红包。</ne-text></ne-p> <ne-p id="u9a4395ef" data-lake-id="u9a4395ef"><ne-text id="u5faf0e7e">但我有个铁哥们跑来问我拿多少，和他关系好我又不好意思不说，就告诉他我拿了 8 万。他听完后说：「你都拿了 8 万，我怎么只有 6 万！」但他不知道，当我得知他拿了 6 万，我瞬间不高兴了，心想「你居然都拿了 6 万，凭什么我只有 8 万！」</ne-text></ne-p> <ne-p id="ud308cfa5" data-lake-id="ud308cfa5"><ne-text id="u4bd78a7b">拿少了的觉得自己拿少了，拿多的觉得自己拿的不够多，每个人都有不公平的错觉。对我们来说，每个人都要学会谦退，不做倾险之事。</ne-text></ne-p> <ne-p id="u3979b349" data-lake-id="u3979b349"><ne-text id="ufb4d2d0a" ne-fontsize="16" style="color: rgb(34, 34, 34);">我知道自己是干什么的，我知道自己该怎么干，然后干就是了，做好自己的事，等待命运的安排。</ne-text></ne-p> <ne-hole id="u9061fc2d" data-lake-id="u9061fc2d"><ne-card data-card-name="hr" data-card-type="block" id="v5lB7" data-event-boundary="card"><ne-h3 id="fApD7" data-lake-id="fApD7"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="udd05dd81" style="color: rgb(18, 18, 18);">晚上能睡好</ne-text></ne-heading-content></ne-h3> <ne-quote id="uc8b41c27" data-lake-id="uc8b41c27"><ne-p id="u182f68aa" data-lake-id="u182f68aa"><ne-text id="u922e2c47">来源：</ne-text>[<ne-text id="uf350092c">1985 年《花花公子》采访乔布斯</ne-text>](https://zhuanlan.zhihu.com/p/107101944)</ne-p></ne-quote> <ne-p id="u3b0100e1" data-lake-id="u3b0100e1"><ne-text id="u3f35cd9f" ne-bold="true" style="color: rgb(18, 18, 18);">《花花公子》</ne-text><ne-text id="u8aef4c9e" style="color: rgb(18, 18, 18);">：有疯狂又伟大的想法的人和实现这些疯狂又伟大想法的人之间有什么区别？</ne-text></ne-p> <ne-p id="u6591443d" data-lake-id="u6591443d"><ne-text id="ucdeb2df8" ne-bold="true" style="color: rgb(18, 18, 18);">乔布斯：</ne-text><ne-text id="u4f0d268f" style="color: rgb(18, 18, 18);">让我把它跟 IBM 做个比较吧。怎么是 Mac 项目组造出了 Mac 计算机而 IBM 的人造出了 PCjr 呢？我们认为 Mac 计算机会卖出无数台，但是我们不是为别人造的 Mac 计算机。我们是为自己造的。我们是会来评价它是不是了不起的那群人。我们不会走出去来做市场研究。我们就是要做我们能做出的最好的东西。当你是个木匠要去做个漂亮的抽屉柜时，你不会用胶合板来做背板，尽管实际上它面对的是墙，没人会看到它。你会知道它在那里，所以你会在背面用一块漂亮的木板。为了你能晚上能睡好，美感和质量需要贯彻始终。</ne-text></ne-p> <ne-p id="u775ced19" data-lake-id="u775ced19"><ne-text id="uc7fb3914" ne-bold="true" style="color: rgb(18, 18, 18);">《花花公子》</ne-text><ne-text id="u59453157" style="color: rgb(18, 18, 18);">：你是说造出来 PCjr 的人没有那种对产品的自豪感吗？</ne-text></ne-p> <ne-p id="uf94ea64f" data-lake-id="uf94ea64f"><ne-text id="u718c3932" ne-bold="true" style="color: rgb(18, 18, 18);">乔布斯：</ne-text><ne-text id="u77201185" style="color: rgb(18, 18, 18);">如果他们有，他们不会交出 PCjr。在我看来很清楚，他们是基于市场研究而为某个特定细分市场、为特定的年龄段的客户设计的，而他们希望如果他们造这个产品，很多人会购买它们，而他们会赚很多钱。这是不同的动机。Mac 项目组的人想要造出从来没人见过的最伟大的计算机。</ne-text></ne-p></ne-card></ne-hole></ne-card></ne-hole>
+<ne-quote id="ufbc9d763" data-lake-id="ufbc9d763">
+
+说明：本文绝大多数文字摘录自[《段永平投资问答录》](https://book.douban.com/subject/35254511/)，我只略作编辑，搬运在这里。如果造成理解偏差，那全部是我责任，如果对你用，那全部是这本书的功劳。</ne-quote> 
+
+「本分」二字，极其简单但绝不容易，多数人可以一秒钟看「懂」，但一辈子做不到。 
+
+什么是本分？ 
+
+1）首先是不做不本分的事情，2）然后才是做本分的事情，即做对的事情，把事情做对。 <ne-h2 id="xFu4V" data-lake-id="xFu4V"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>不做不本分的事情</ne-heading-content></ne-h2> 
+
+人们往往知道什么是错的事情，只要把错的事情停止做了，就离「做对的事情」更近了一步。 
+
+所以，「做对的事情」其实就是发现是错的事情的时候要马上停止，不管多大的代价都是最小的代价。人们常说的「坚持到底」，指的是坚持「做对的事情」而不是坚持做错的事情。 
+
+本分的意思是不干不该干的东西。知不知道什么该干是能力问题，明知不该干还干是作风问题，赚了不应该赚的钱当然就是不本分。虽然大部分人认为有钱赚就行，但我们公司是属于知道有些钱是不能赚的这类公司。如果这类公司越来越多的话，消费者就会安心很多。 <ne-h2 id="VpCTr" data-lake-id="VpCTr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>做本分的事情</ne-heading-content></ne-h2> 
+
+在人的一生中，或者企业经营的过程中，会不断遇到诱惑、挫折，会不断受到挤压。我们会不由自主、随机地做出反应，这种反应往往背弃了我们最开始的路。这时，我们要回到最早的原点，想一想我们本来要做什么，我们最开始做这件事的目的是什么，把这一点牢牢抓住，再考虑外界带给我们的诱惑，这种心态就是本分。 
+
+本分是骨子里的东西，应该不是学来的。比如借钱要还等等。 
+
+你只要能坚持「本分」，很多年后你会很厉害的。俗话说「有借有还再借不难」，其中「有借有还」就是「本分」，「再借不难」其实是「功利」。当你不再想着「再借不难」时你就真的「本分」了。 
+
+所谓本分，其实主要指的是价值观和能力范围。赚多少钱不是我决定的，是市场给的。谋事在人，成事在天。 <ne-h3 id="A8LuD" data-lake-id="A8LuD"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>平常心</ne-heading-content></ne-h3> 
+
+只有平常心才能本分。「本分」，就是要回归（或者找到）一种心态，在这种心态下往往能做正确的事情，而这种心态就是清净心，是佛家所说的无上智慧。回归清净心，做正确事情的这个过程的坚持，就是本分。 
+
+平常心其实就是在任何时候，尤其是在有诱惑的时候，能够排除所有外界的干扰，回到事物的本质（原点），辨别事情的是非与对错，知道什么是对的事情。 
+
+所谓回到原点也是指回到「什么是对的事情」或者是「如何把事实做对」这点上。我们公司在沟通上可能比绝大多数公司的沟通成本要低很多，最重要的一点就是当碰到难题时，我们能经常先回到「什么是对的事情」而不是停在讨论「这是不是最好的（赚钱）的办法」上。 
+
+平常心，（就是）知道做企业最大的对手是自己。 
+
+平常心其实就是理性思考的习惯，应该是后天养成的。我之所以提出平常心的原因就是因为我也会失去平常心，所以大家都差不多，需要时刻提醒一下自己哈。 
+
+《赢周刊》 问：你常说不争一城一池，企业的心态最重要。这「心态」指的是什么？ <ne-quote id="u24ca84bd" data-lake-id="u24ca84bd">
+
+段永平：有时候无招反胜有招。做人要有平常心，企业亦如是。往往，企业规模越大，要保持平常心就越难。对一个新企业来说，他唯一的目标就是生存。小企业去尝试一件事的时候，它的机会成本很低，失败了，再来过，谈不上有多大的损失。在美国，95％的创业企业要失败的。但是在企业有了一定规模的时候，管理者要保持平常心就有了一定难度，因为他可选择做的事情多了，选择的范围大了，同样，他犯错误的可能性也大了。大企业比什么？比谁犯的错误少。我看国外网球比赛的转播发现比较科学，他们是算一个运动员和对手之间谁的失误率最少，基本就可以判断胜负。一些水平相当的运动高手之间比赛比的往往就是心态了。</ne-quote> 
+
+做企业，必须有平常心。我认为企业最重要的是安全，而不是像某些人说的要做多大。大是自然而然的发展过程，包括利润。企业的利润也是一个过程。当然企业必须有利润，没有利润就无法生存，但你不能把利润作为最大的追求目标。如果这样的话，企业就会变的唯利是图。企业赚了不该赚的钱，会伤害你的未来的。企业应该有利润之上的追求。 
+
+陈明永（OPPO CEO）对本分的解释很好： 
+
++   1、隔离外在的压力和诱惑，保持平常心态，回归事物的本源，把握住我们应该做的合理方向。 
+
++   2、本分要求要敢于质疑，敢于挑战，通过批判性思考，以抓住事物本质。 
+
++   3、本分是要求自己而不是要求别人，当出现问题时，首先求责于己。 
+
++   4、本分规范了与人合作的态度——我不赚人便宜。 
+
++   5、本分高于诚信，即使没有承诺，本来应该做的事情也要做到。 <ne-h3 id="UdY2B" data-lake-id="UdY2B"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>高于诚信</ne-heading-content></ne-h3> 
+
+本分包含的东西要更多一些。诚信是承诺的事情要做到，本分是要求自己，即使没有承诺应该自己做的要做到（或者说违反自己原则底线价值观的不做）。本分包含且高于诚信。本分的企业或人总是让人有好感，值得信赖。 
+
+企业应该有道德，有自己的原则。有些生意哪怕再赚钱，如果违背自己做企业的原则，那我肯定不会去做的。企业不能不赢利，但赢利应该建立在对市场的准确把握的基础上进行合法经营。如果什么钱都想挣，这种企业永远也长不大。 
+
+企业挣钱固然非常重要，但挣钱的过程更充满了乐趣，如果挣钱就是目的，那目光就太短浅，这种企业很难长大。做企业要有责任感，而不是简单的为了赚钱，赚钱只是一个过程。企业存在要有价值，比如为社会创造财富，提供就业机会等。 
+
+所谓「讲信誉」或叫诚信或本分，不是讲讲而已，只有需要付出代价的时候，才知道谁是讲（守）信誉的。 
+
+商业上的承诺也偶有兑现不了的时候，这个时候就需要付出代价。不守信往往体现在逃避代价上。 
+
+本分的意思就是 1.0 的厚度就说是 1.0 的厚度，句号。 <ne-quote id="u70c08e68" data-lake-id="u70c08e68">
+
+来自答网友问：在中国不少行业都有潜规则的问题，不知道国外有没有。在有潜规则的行业中，如果不用潜规则，有时和使用这些潜规则的企业相比而言成本会高不少，但如果使用了总感觉缺乏诚信、不够本分，比如建材行业中铝合金门，说是 1.2 的厚度，行业内其实一般都是 1.0 的厚度甚至更薄，但这个行业从上游的型材到门厂的加工到终端门市的销售都类似，请问段老师怎么看这个问题呢？如果你是从事门厂这个行业的话，会怎么做呢？</ne-quote> 
+
+「讲」信誉谁都会，但当需要「守」信誉的时候很多人就不行了。原则问题不应该妥协，这不是代价的问题。原则是不应该有时间性的。 <ne-quote id="u5cfc5737" data-lake-id="u5cfc5737">
+
+来自答网友问：我的问题是坚持原则与妥协之间如何取舍？例如请了一个工头做一个建筑或者装修工程项目，工头不诚信，老想偷工减料，或者临时加价等，如果换工程队会严重影响工期，带来比较大的损失。（如换一个工头，大概也不会很诚信）。如果选择妥协，则可按照计划完工，在可控范围内比原计划成本增加一些。现实生活中很多诸如此类的问题，该如何取舍呢？</ne-quote> 
+
+合作伙伴言而无信，合作大概率不会有好下场。尽量不和这些人打交道。停止和你已经投入的无关，损失少是你的运气。 
+
+来自答网友问：怎么看不本分的人，经常做不对的事的人，经常抓不住本质的人。他们时间长，应该没啥出息。大道怎么看他们？我想学点世界观。 <ne-h3 id="yacew" data-lake-id="yacew"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>肯吃亏</ne-heading-content></ne-h3> 
+
+（在中国做正直的人）其实不难，但你如果希望因为这个得到什么可能会有点难。有时可能还要吃亏。如果你不肯吃亏，也会有点难。 
+
+我们做企业最根本的东西，就是本分。 说话要算数，是一种本分。守信誉不是给人看的，为了一个承诺去赔钱，可能很多企业家会赖账，但我会毫不犹豫地践诺。 
+
+我曾经为一个承诺赔了 1800 多万元。客观地讲，信誉是一笔巨大的无形资产，守信誉能带来巨大的收获，步步高发展到今天，正是得益于良好的信誉得到股东的支持。 
+
+我觉得好汉应能吃眼前亏，吃了眼前亏将来才不会吃亏，有的人看上去很聪明，算得很精，甚至能骗钱，但他赚不着大钱。只有智慧的人才能挣大钱，他不会去玩手腕，不会去骗人，而这种企业家往往能将企业做大。 企业不要什么钱都赚，这是一种本分。 <ne-h3 id="vcSOm" data-lake-id="vcSOm"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>有错就改</ne-heading-content></ne-h3> 
+
+什么是「把事情做对」？这个可能比较容易理解一点点，但其实也没有看上去那么容易。把事情做对是一个学习的过程，中间会犯很多的错误。 
+
+如果发现错了，就立刻停止，因为这个时候成本是最小的。我不能告诉你对错，怎么判断对错，要自己积累。 至于怎么把事情做对，要花时间去培养 skill sets（就是有学习曲线的意思，要允许犯错误）。 
+
+如何坚持做对的事情，付出为了把事情做对的过程当中所需要付出的代价，其实是非常不容易的。在把事情做对的过程当中，其实是没有办法避免犯错误的，比如打高尔夫的人，是没有办法避免偶尔把球打下水的，能做的仅仅是如何能降低犯错误的概率。 
+
+做企业关键就是「做对的事情」和「把事情做对」，董事长的工作不是去控制细节，而是关注企业是否在做对的事情。任何人在做对的事情的过程中都可能犯错，那是技术上的问题，很正常。但类似质量有问题的产品还出厂这样的事，我就要让它立刻停止，不管多大的代价都是最小的代价。 
+
+我是放手让比自己能干的人去做事，至少做着做着就比我能干了。放权里最关键的是可以容忍在「把事情做对」的过程当中所犯的错误，我个人的理解是其实干同样的事我也犯错，为什么别人不可以犯错。 
+
+好企业也可能会犯错的。 我一般看到企业犯错时，主要判断这个错是「做了错的事情」还是在想「把事情做对」的过程当中犯的错。任何人在「做对的事情」的前提下，为了「把事情做对」的过程当中都是会犯错的，这种错误也可能给企业造成很大的短期损失，但长期而言却可能微不足道。而另一种错误的损失却可以是致命的。 <ne-h3 id="Iq8zb" data-lake-id="Iq8zb"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>不赚人便宜</ne-heading-content></ne-h3> 
+
+我们公司财务如果逾期给不了款应该属于「没能力」的表现。 早年我当 CEO 时曾在一次供应商会议上向所有供应商提供了我的手机号码，告诉他们如果有人不守信就可以打我电话投诉 <ne-quote id="ucda7c650" data-lake-id="ucda7c650">
+
+回应网友讨论：提倡不赚别人便宜的公司，是值得尊敬的，她至少明确告诉了员工什么是对的（不赚别人便宜），什么是错的（老想赚别人便宜）。我看到的大多数的公司都是在以能赚别人便宜为荣，比如一个采购员能拖供应商的货款，是「有能力」的表现，其结果是……</ne-quote> 
+
+上个世纪 90 年代初的时候，「小天才」在游戏机领域是个非常响当当的牌子，产品的质量和口碑都非常好，在我的感觉里是曾经唯一可以有机会和「小霸王」一比的牌子。后来不知道什么原因「小天才」就慢慢在市场上消失了。实际上「小天才」这 3 个字比「小霸王」这 3 个字的平衡性要好很多，主要是「霸」的笔画太多，导致「小霸王」 3 个字怎么设计都不太好看。 
+
+在步步高创业初期，我们曾经找到「小天才」商标所有人，提出想买这个商标（那是他们在市场已经上没产品了），并出到了 300 万的价钱，结果被一口回绝了。 10 年后的某一天（大概是 2007 或 2008 年？），我突然想到也许我们该再试试，因为想个好商标名确实是件非常难的事，尤其是 3 个字商标基本上都被注绝了。如果能够以不太贵的价钱买到一个好的商标名字绝对是合算的。 
+
+于是我们费尽九牛二虎之力终于找到了「小天才」的商标所有人。不过这一次我们吸取了上次的经验，委托了一个中间公司出面购买。结果对方直接出价就是 30 万，而且一再强调他这个牌子是很值钱的，10 年前步步高就曾经出过 300 万想买。过程自然是很顺利，一切按照法律手续，大概大半年后这个牌子就归到我们公司了。 
+
+其实我们当时还是打算用 300 万买的，哪怕今天当时「小天才」的所有人找到我们，我们依然还可以补足他，因为实在是不想赚他的便宜。 不过据说后来又找不到他了，希望他运气好能看到这个帖子哈。 
+
+网友问：我想问下您明明 30 万已买了的商标，怎么还愿意补偿给商标所有人。一般在生意过程中怎么把握厚道和每一分都要算计这个度？是不是只有厚道的生意人才能做得大？ 
+
+段永平：因为我们本来就觉得 300 万是个很好的价钱，没想到对方给的价钱那么低。厚道和做得大没有必然联系，但厚道的生意人可能能睡得好点吧。 <ne-h3 id="gS5WO" data-lake-id="gS5WO"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>老实做事</ne-heading-content></ne-h3> 
+
+老实做事，是我们做企业的准则。企业不是什么事都做，这是一种本分。 
+
+有多大能力做多大的事，而不是有多大的胆量。实际上每个企业的资源都是有限的，包括人力、物力、财力，把这有限的资源用到无限的投资方向上去肯定要出问题，有的企业什么都在做，但都没有什么特点，你不知道它到底是干什么的。这种企业的问题也许短期内不会表现出来，但将来很麻烦。必须要集中优势兵力打歼灭战，即在一个企业中实现焦点化，集中一个行业中最尖端的技术开发出最尖端的产品。企业就那么点能力和规模，不可能再分散资源，我不相信有天上掉馅饼的事。 
+
+做企业其实非常简单，没有什么花拳绣腿，最厉害的招数是没有招的招，一拳打出去，非常朴实。我觉得也跟做学问、搞科研一样，勤奋和坚韧都是非常重要的，爱迪生关于成功的公式：99%的汗水加 1%的灵感，这里同样适合。必须老老实实做事，做企业就像长跑赛一样，唯有老老实实保持匀速前进，不偷懒、不投机者才不会被淘汰。一个企业在成长过程中，随时都可能遇到困难和挫折，有时甚至是灾难性的打击，但企业家必须能扛得住，绝不能放弃自己的追求，很多人老是埋怨自己的运气不好，在逆境中沮丧，甚至走向颓废，这实际上是意志品质不够好。企业家应该有一种精神，百折不挠，方能制胜。 
+
+其实真正好的能持续经营的企业大多都不是着眼于利润的，利润不过是水到渠成的结果而已，就是所谓让利润追着自己跑的那种。 
+
+我们公司不会把追求干倒谁过作为目标，也不会把市场份额，销售数量及排名作为我们的追求目标的。我们追求的就是改善用户体验，做出最好的产品，其他的都是水到渠成的事情。 <ne-h3 id="ROhAU" data-lake-id="ROhAU"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>用户导向</ne-heading-content></ne-h3> 
+
+用户导向是一种利润之上的追求，简单讲就是想着用户到底要的是什么，我们如何去实现。结果导向指的是要把事情做对。追求极致还是要把事情做对的范畴。 
+
+我们比对手优胜的地方就是更加专注于竞争对手没有做好的地方去做好，紧紧围绕消费者导向这一原则。 
+
+只有极少数的企业是真的在骨子里具有「消费者导向」同时又具备实现「消费者导向」的能力的，这些公司最后往往会被人们称为「伟大的公司」。 
+
+能找到你能满足的细分市场的话，你也许就有机会。几乎所有大公司都是从小公司起来的，最重要是你能有消费者导向的观念。 
+
+是否超越谁并不是我们的目标。最重要是做出好东西给用户。 
+
+能做多久应该取决于你自己的。如果你一直想着你的用户的需求，10 年或更久为什么会是问题？难道 10 年后大家就不穿衣服了？ 
+
+如果你的东西推出去没有很快抓住用户，肯定是不够好，一定要回来好好思考，想自己的问题。 
+
+把追求干倒谁过作为目标，也不会把市场份额，销售数量及排名作为我们的追求目标的。我们追求的就是改善用户体验，做出最好的产品，其他的都是水到渠成的事情。 
+
+其实做企业非常简单，叫做 consumer retation 就叫做消费者导向，这个东西说起来非常简单，但是真正这样做的人非常少，绝大多数都是生意导向，是赚钱导向。只要你觉得这个市场足够大，时间足够长，我就什么时候介入都是不晚的。你比方说假设这个市场有五十年的市场，你说我晚五年有什么关系吗？没有什么关系。 
+
+同样的东西分成多个品牌卖显然属于生意导向而不是用户导向。 <ne-h3 id="WEGfy" data-lake-id="WEGfy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>标实价不讲价</ne-heading-content></ne-h3> 
+
+我刚到广东时，就发现人们在谈生意时谈来谈去谈的都是价格，当时我就想，如果能不谈价钱，那至少可以省掉 70% 到 80% 的时间吧。后来，我们花了两三年的时间，建立了一套销售体系，确确实实做到了所有的客户在我们这里拿的货的价钱都是完全一样的，不管生意额的大小，没有折扣，没有返点。 
+
+我们公司卖东西是没有还价空间的，所有的客户都是一个价，不管生意大小，生客熟客……刚刚开始经营企业时我就发现，所谓谈生意谈来谈去主要是在谈价钱。 
+
+人们把大量时间放在谈价钱上，而且在谈的过程中经常还需要诈来诈去的。对于卖东西的业务员来说，价钱的授权是件非常困难的事情，所以他们总是要找更上一级领导去获取更多授权，所以领导就会变得非常忙且没有效率。所以我们在 20 多年前就没有讨价还价了。 
+
+任何东西都是标实价不讲价的好。可以讲价实际上对卖家而言是个非常短视且成本很高的行为。成本很高指的是无法授权且容易造成管理漏洞，短视指的是如果可以还价，那就是在鼓励回头客来讨价还价。对于客户而言，任何讨价还价都会让他们有可能吃亏了的感觉，因为客户很可能觉得价钱还没还够。 
+
+价格不一致，一是他们迟早会发现；二是客户发现能议价，会想尽办法跟你讨价还价，浪费你很多时间，这都是麻烦事。价格一致，会省很多麻烦。做产品主要是要抓住客户的需求，而不是价格。 <ne-h3 id="RMMMV" data-lake-id="RMMMV"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>不为清单</ne-heading-content></ne-h3> 
+
+很多人都希望知道把公司做好的秘诀是什么，其实「秘诀」不是做了什么而是不做什么。好的公司都一定是有一个长长的「Stop doing list」，就是「不做的事情」。「不做的事情」其实也分两类：一类是谁都不应该做的事情，比如欺骗；另一类是和自己公司的使命和愿景相结合的 
+
+下面我举一些我们自己的「不做的事情」的例子，这也算我们的小秘密吧。 
+
+不做 OEM：最早提出不做 OEM 的就是现在 OPPO 的 CEO 陈明永，不记得是哪年了，大概可能有 20 年了吧。为什么我们不做 OEM 呢？长远来讲，我们想建立自己的品牌，我们需要把所有的资源投入到我们自己的产品上。 
+
+做 OEM 有很专业的公司，他们有很专业的办法去满足很多不同的客户的不同的要求，我们根本就没有精力去做这些事情，所以长远来说我们是会输给那些专业做 OEM 的公司的，既然知道长远会做不过别人，那我们干脆就不做。 
+
+记得大概十五六年前，我还是 CEO 的时候，沃尔玛的供应商曾经来找过我，说要给我们下 100 万台的 VCD 的单子，我在电话里直接就拒绝了。对方还问我，难道价钱你都不想谈吗？我说，对的，不管什么价钱我都拒绝，反正你也不会给我好的价钱，谈来谈去浪费大家的时间。我当时还类似地拒绝过南方贝尔的代表要下的「巨量」电话机订单。当时给我打电话的人还嘟囔着说，在中国还没有人拒绝过我们的订单呢。∎ <ne-hole id="u0e7540b5" data-lake-id="u0e7540b5"><ne-card data-card-name="hr" data-card-type="block" id="sUBkj" data-event-boundary="card"><ne-h3 id="QnVTQ" data-lake-id="QnVTQ"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>谦退</ne-heading-content></ne-h3> <ne-quote id="u6114a345" data-lake-id="u6114a345">
+
+以下文字摘录自 华与华「下苦功」2022 年会演讲实录</ne-quote> 
+
+孟子说：「行有不得，反求诸己。」如果行动没有达到预期的效果，就应该反省，从自己身上找原因，而不是一切都是自己为中心去考虑。 
+
+我们要比自己「该」拿的少拿一点，比自己"该"快的再慢一点，因为每个人都有不公平的错觉。 
+
+我创业前在公司上班的时候，应该是在 1997 年，我年终奖拿了 8 万，年终奖都是不能相互说，王老师给我们每人都拿了个红包。 
+
+但我有个铁哥们跑来问我拿多少，和他关系好我又不好意思不说，就告诉他我拿了 8 万。他听完后说：「你都拿了 8 万，我怎么只有 6 万！」但他不知道，当我得知他拿了 6 万，我瞬间不高兴了，心想「你居然都拿了 6 万，凭什么我只有 8 万！」 
+
+拿少了的觉得自己拿少了，拿多的觉得自己拿的不够多，每个人都有不公平的错觉。对我们来说，每个人都要学会谦退，不做倾险之事。 
+
+我知道自己是干什么的，我知道自己该怎么干，然后干就是了，做好自己的事，等待命运的安排。 <ne-hole id="u9061fc2d" data-lake-id="u9061fc2d"><ne-card data-card-name="hr" data-card-type="block" id="v5lB7" data-event-boundary="card"><ne-h3 id="fApD7" data-lake-id="fApD7"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>晚上能睡好</ne-heading-content></ne-h3> <ne-quote id="uc8b41c27" data-lake-id="uc8b41c27">
+
+来源：[1985 年《花花公子》采访乔布斯](https://zhuanlan.zhihu.com/p/107101944)</ne-quote> 
+
+《花花公子》：有疯狂又伟大的想法的人和实现这些疯狂又伟大想法的人之间有什么区别？ 
+
+乔布斯：让我把它跟 IBM 做个比较吧。怎么是 Mac 项目组造出了 Mac 计算机而 IBM 的人造出了 PCjr 呢？我们认为 Mac 计算机会卖出无数台，但是我们不是为别人造的 Mac 计算机。我们是为自己造的。我们是会来评价它是不是了不起的那群人。我们不会走出去来做市场研究。我们就是要做我们能做出的最好的东西。当你是个木匠要去做个漂亮的抽屉柜时，你不会用胶合板来做背板，尽管实际上它面对的是墙，没人会看到它。你会知道它在那里，所以你会在背面用一块漂亮的木板。为了你能晚上能睡好，美感和质量需要贯彻始终。 
+
+《花花公子》：你是说造出来 PCjr 的人没有那种对产品的自豪感吗？ 
+
+乔布斯：如果他们有，他们不会交出 PCjr。在我看来很清楚，他们是基于市场研究而为某个特定细分市场、为特定的年龄段的客户设计的，而他们希望如果他们造这个产品，很多人会购买它们，而他们会赚很多钱。这是不同的动机。Mac 项目组的人想要造出从来没人见过的最伟大的计算机。</ne-card></ne-hole></ne-card></ne-hole>

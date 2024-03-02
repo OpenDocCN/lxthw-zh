@@ -2,4 +2,28 @@
 
 > 来源：[`www.yuque.com/hardwaylab/principle/cbcai1`](https://www.yuque.com/hardwaylab/principle/cbcai1)
 
-<ne-p id="1fb5360351719bd533f3d8f4fe71969a" data-lake-id="1fb5360351719bd533f3d8f4fe71969a"><ne-text id="u65224991" ne-bold="true">Ray Dalio：「最重要的解药是头脑极度开放：人抱着一种真诚的担忧，担心自己可能看不到最好的决策方式，从而以极度开放的心态看待问题。这是一种有效探索不同观点和可能性、不受自我意识和思维盲点阻碍的能力。」</ne-text></ne-p> <ne-p id="d44cff2eea4f0b4363ac8ae28378f4f9" data-lake-id="d44cff2eea4f0b4363ac8ae28378f4f9"><ne-text id="u1f42b2b9">如何才能做到头脑开放？Ray Dalio 在《原则》不厌其烦，叨叨絮絮，核心只有一句：自己并非完美，需要他人帮助。其他的各种方法都是这句话的注释，牢牢记住这句核心，其他方法就相当容易理解，例如</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="90bd9af87dea530e376f0f2059c6ed7e" data-lake-id="90bd9af87dea530e376f0f2059c6ed7e"><ne-text id="u646531aa">1）你要相信，即使深思熟虑，你的答案也可能不正确；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ce5d12ba201fffacad5cf885cbc89a88" data-lake-id="ce5d12ba201fffacad5cf885cbc89a88"><ne-text id="ue85ef118">2）与你意见不同的聪明人永远存在，你需要找到他们；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ff02c8a2db391cb2e295750f4a597a37" data-lake-id="ff02c8a2db391cb2e295750f4a597a37"><ne-text id="u00a63886">3）你需要从他们的视角看待问题，这样你的理解会更深刻；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="bc78155a256cb4b40a5bd29ec969c2f4" data-lake-id="bc78155a256cb4b40a5bd29ec969c2f4"><ne-text id="uf6e88204">4）你需要发现自己和其他聪明人的优点和缺点，这样你才能知道，你能做好哪些事情，别人能帮助你做好哪些事情；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="e23a7e5dabc60ce36fdda942a2906e88" data-lake-id="e23a7e5dabc60ce36fdda942a2906e88"><ne-text id="u8937dcbd">5）发现了错误就马上改正，发现了最好的决策就马上去做；</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="81750407646f489892a41f04201a3600" data-lake-id="81750407646f489892a41f04201a3600"><ne-text id="u461357ec">6）通过快速试错以适应现实是无价的。</ne-text></ne-uli-c></ne-uli> <ne-p id="58ca6d4b6f18380e636e987cc8c7933c" data-lake-id="58ca6d4b6f18380e636e987cc8c7933c"><ne-text id="u28d0c707" ne-bold="true">Ray Dalio：「良好的合作来自对共同价值观和利益的分享、相同的追求价值观和利益的方式、理性并善待对方。同时，合作方之间必须愿意秉承高标准，能够突破分歧开展工作。对良好合作关系形成主要考验的，不在于彼此之间是否有分歧（人们在正常的交往中都会有不同意见），而在于能否把分歧摆上桌面很好地协商解决。」</ne-text></ne-p> <ne-p id="03ec1d7da360d9443814f5d621b65841" data-lake-id="03ec1d7da360d9443814f5d621b65841"><ne-text id="ucf4d7c66">合作的首要原则是合作并非意味没有分歧，所有的合作都会有分歧，重点是如何解决分歧——找到共同的价值和利益，并围绕它积极地解决分歧。</ne-text></ne-p> <ne-p id="b05770ee03c381e1e25bcd21fb421a7a" data-lake-id="b05770ee03c381e1e25bcd21fb421a7a"><ne-text id="u7df572d4">如果在合作之初，一方能把这条原则摆出来，另一方也表示同意，那么接下来合作就会顺畅，大家都会为解决问题而努力，其他认同这条原则的人也可能会因此与你合作。</ne-text></ne-p> <ne-p id="118ad3653d3b1c01aaf014a30aee9b4a" data-lake-id="118ad3653d3b1c01aaf014a30aee9b4a"><ne-text id="u728c0de8">与你合作的人越来越多，你自然就越有可能成功。</ne-text></ne-p>
+
+
+Ray Dalio：「最重要的解药是头脑极度开放：人抱着一种真诚的担忧，担心自己可能看不到最好的决策方式，从而以极度开放的心态看待问题。这是一种有效探索不同观点和可能性、不受自我意识和思维盲点阻碍的能力。」 
+
+如何才能做到头脑开放？Ray Dalio 在《原则》不厌其烦，叨叨絮絮，核心只有一句：自己并非完美，需要他人帮助。其他的各种方法都是这句话的注释，牢牢记住这句核心，其他方法就相当容易理解，例如 
+
++   1）你要相信，即使深思熟虑，你的答案也可能不正确； 
+
++   2）与你意见不同的聪明人永远存在，你需要找到他们； 
+
++   3）你需要从他们的视角看待问题，这样你的理解会更深刻； 
+
++   4）你需要发现自己和其他聪明人的优点和缺点，这样你才能知道，你能做好哪些事情，别人能帮助你做好哪些事情； 
+
++   5）发现了错误就马上改正，发现了最好的决策就马上去做； 
+
++   6）通过快速试错以适应现实是无价的。 
+
+Ray Dalio：「良好的合作来自对共同价值观和利益的分享、相同的追求价值观和利益的方式、理性并善待对方。同时，合作方之间必须愿意秉承高标准，能够突破分歧开展工作。对良好合作关系形成主要考验的，不在于彼此之间是否有分歧（人们在正常的交往中都会有不同意见），而在于能否把分歧摆上桌面很好地协商解决。」 
+
+合作的首要原则是合作并非意味没有分歧，所有的合作都会有分歧，重点是如何解决分歧——找到共同的价值和利益，并围绕它积极地解决分歧。 
+
+如果在合作之初，一方能把这条原则摆出来，另一方也表示同意，那么接下来合作就会顺畅，大家都会为解决问题而努力，其他认同这条原则的人也可能会因此与你合作。 
+
+与你合作的人越来越多，你自然就越有可能成功。

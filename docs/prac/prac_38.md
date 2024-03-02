@@ -2,4 +2,68 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/fmmztn`](https://www.yuque.com/hardwaylab/book/fmmztn)
 
-<ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u70d024e5" data-lake-id="u70d024e5"><ne-text id="ua3af0fbd">2022-04-18 更新 Stop Doing List</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u48e8e55e" data-lake-id="u48e8e55e"><ne-text id="uf2eb5712">2022-03-25 新增本分</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ue2082c68" data-lake-id="ue2082c68"><ne-text id="ua1e2cda5">2022-03-17 新增年度关键词</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uead0860b" data-lake-id="uead0860b"><ne-text id="ub8d0ba88">2022-03-16 新增健康长久</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="uba913fc9" data-lake-id="uba913fc9"><ne-text id="uc643aa76">2022-03-08 修订后记，增补细节</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u49022143" data-lake-id="u49022143"><ne-text id="u86b79db1">2022-03-07 完成更新 3.0</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u77714fe4" data-lake-id="u77714fe4"><ne-text id="ud74fd92b">2022-03-03 着手更新 3.0</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u045a548c" data-lake-id="u045a548c"><ne-text id="u7ef6dc14">2021-11-16 更新思维导图</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ube9a6207" data-lake-id="ube9a6207"><ne-text id="ucc96d89e">2021-11-05 合并完成，修订细节，修订标点符号</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u4360eaa7" data-lake-id="u4360eaa7"><ne-text id="uf27b01c8">2021-11-03 增补版本与 1.0 合并</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ue84c6c8b" data-lake-id="ue84c6c8b"><ne-text id="ue5a7e454">2021-07-04 梳理补充，大事记在 Changelog</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="3941365287d69c8217fc27b68391f87a" data-lake-id="3941365287d69c8217fc27b68391f87a"><ne-text id="ucdf05494">2021-06-22 准备将 workflowy 与 flomo 内容整理更新</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="1cf7700dbce836665083c69e647bf2e4" data-lake-id="1cf7700dbce836665083c69e647bf2e4"><ne-text id="ub710980a">2021-06-18 准备 2.0 版本</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="548b4bfc943c850f279ecc434f637a85" data-lake-id="548b4bfc943c850f279ecc434f637a85"><ne-text id="uaebefc56">2021-06-16 修订后记</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="2faec84e2cbafc6a738359b043cdf505" data-lake-id="2faec84e2cbafc6a738359b043cdf505"><ne-text id="ua05ffc17">2021-06-11 引用部分迁移到独立知识库，修订后记，检查发布 1.0 版本</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="c19f568e8bef66e88758730a25eb3171" data-lake-id="c19f568e8bef66e88758730a25eb3171"><ne-text id="ue60ad897">2021-06-10 到出 pdf，重新检查，增加语雀图标</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ace65d0e190b462be6606dfae84f47de" data-lake-id="ace65d0e190b462be6606dfae84f47de"><ne-text id="u5dae24a3">2021-06-09 重新检查修正，一鼓作气完成后记</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="37eb6eca4c3163349b695809277d9361" data-lake-id="37eb6eca4c3163349b695809277d9361"><ne-text id="uc4e575cb">2021-06-08 修订高手论笨方法，增补来源</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="2e27a46efb6e704152da8dccba49ce97" data-lake-id="2e27a46efb6e704152da8dccba49ce97"><ne-text id="u6f8baa3a">2021-06-08 升级个人使用说明书</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="06a62012b191d8d4d56b59e190af5c92" data-lake-id="06a62012b191d8d4d56b59e190af5c92"><ne-text id="uc5980427">2021-06-04 修订笨方法系统，更新系统清单</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="7b89bd8167b2a343f4f87e23fb4a2694" data-lake-id="7b89bd8167b2a343f4f87e23fb4a2694"><ne-text id="u8232d367">2021-06-01 持续修订，逻辑未完善部分，用时间在 2.0 解决</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="4ae29046bbca428083440d1e3c629c04" data-lake-id="4ae29046bbca428083440d1e3c629c04"><ne-text id="u01692445">2021-05-31 更新修补细节</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="f6d17612fd7c73afc35723eb0043a34c" data-lake-id="f6d17612fd7c73afc35723eb0043a34c"><ne-text id="u5cdba86c">2021-05-30 建立四要科学理论体系，更新豆瓣书单</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="055b5ff49e878fda8aa8aa84b6342631" data-lake-id="055b5ff49e878fda8aa8aa84b6342631"><ne-text id="u79b69020">2021-05-29 将大部分标题修改成「怎样体」</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="ab371239fd4ae5d91a140a46d692b5f6" data-lake-id="ab371239fd4ae5d91a140a46d692b5f6"><ne-text id="u639fd3b1">2021-05-28 阅读</ne-text><ne-text id="u2804813d">《得到品控手册 7.0》</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="77e5345c8be56e8ba4cc188ced40c21b" data-lake-id="77e5345c8be56e8ba4cc188ced40c21b"><ne-text id="ue970b339">2021-05-27</ne-text> <ne-text id="u92db7f56">添加封面，</ne-text><ne-text id="ue7966916">参考《得到品控手册》更新</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="c5af22ae99898e85234144ab4cb74120" data-lake-id="c5af22ae99898e85234144ab4cb74120"><ne-text id="u8518ff2b">2021-05-10 整合文化集内容至本手册</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="08e465a3cfd5a3e608658b4fe69551fc" data-lake-id="08e465a3cfd5a3e608658b4fe69551fc"><ne-text id="u260b8d51">2021-05-04 补充笨方法实验室</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="d93cd373353c507e2380d69030ee2007" data-lake-id="d93cd373353c507e2380d69030ee2007"><ne-text id="u0275219d">2021-04-05 全面更新</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="e9dfffcc3dee7121b6437927feee4072" data-lake-id="e9dfffcc3dee7121b6437927feee4072"><ne-text id="u81d37ac5">2021-03-24 迁移到语雀</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u995570c6" data-lake-id="u995570c6"><ne-text id="u1a24aab2">2020-10-01 念起，制作笨方法文化幻灯</ne-text></ne-uli-c></ne-uli> <ne-p id="7db76dc13430750131590bc22271af35" data-lake-id="7db76dc13430750131590bc22271af35"><ne-card data-card-name="image" data-card-type="inline" id="j2zGJ" data-event-boundary="card" class="ne-spacing-all">笨方法实验室做成难事的检查清单免费邮件订阅更新 www.HardwayLab.com![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="9d475a85b6687e9685bfea71a651e947" data-lake-id="9d475a85b6687e9685bfea71a651e947"><ne-text id="uaa61beda">欢迎订阅《笨方法实验室来信》，获取手册的最新连载。∎</ne-text></ne-p></ne-card></ne-p>
+
+
++   2022-04-18 更新 Stop Doing List 
+
++   2022-03-25 新增本分 
+
++   2022-03-17 新增年度关键词 
+
++   2022-03-16 新增健康长久 
+
++   2022-03-08 修订后记，增补细节 
+
++   2022-03-07 完成更新 3.0 
+
++   2022-03-03 着手更新 3.0 
+
++   2021-11-16 更新思维导图 
+
++   2021-11-05 合并完成，修订细节，修订标点符号 
+
++   2021-11-03 增补版本与 1.0 合并 
+
++   2021-07-04 梳理补充，大事记在 Changelog 
+
++   2021-06-22 准备将 workflowy 与 flomo 内容整理更新 
+
++   2021-06-18 准备 2.0 版本 
+
++   2021-06-16 修订后记 
+
++   2021-06-11 引用部分迁移到独立知识库，修订后记，检查发布 1.0 版本 
+
++   2021-06-10 到出 pdf，重新检查，增加语雀图标 
+
++   2021-06-09 重新检查修正，一鼓作气完成后记 
+
++   2021-06-08 修订高手论笨方法，增补来源 
+
++   2021-06-08 升级个人使用说明书 
+
++   2021-06-04 修订笨方法系统，更新系统清单 
+
++   2021-06-01 持续修订，逻辑未完善部分，用时间在 2.0 解决 
+
++   2021-05-31 更新修补细节 
+
++   2021-05-30 建立四要科学理论体系，更新豆瓣书单 
+
++   2021-05-29 将大部分标题修改成「怎样体」 
+
++   2021-05-28 阅读《得到品控手册 7.0》 
+
++   2021-05-27 添加封面，参考《得到品控手册》更新 
+
++   2021-05-10 整合文化集内容至本手册 
+
++   2021-05-04 补充笨方法实验室 
+
++   2021-04-05 全面更新 
+
++   2021-03-24 迁移到语雀 
+
++   2020-10-01 念起，制作笨方法文化幻灯 
+
+<ne-card data-card-name="image" data-card-type="inline" id="j2zGJ" data-event-boundary="card" class="ne-spacing-all">笨方法实验室做成难事的检查清单免费邮件订阅更新 www.HardwayLab.com![邮件订阅图片.png](img/daf82add06bc7972186b5459757c8829.png)  <ne-p id="9d475a85b6687e9685bfea71a651e947" data-lake-id="9d475a85b6687e9685bfea71a651e947">欢迎订阅《笨方法实验室来信》，获取手册的最新连载。∎</ne-card></ne-p>

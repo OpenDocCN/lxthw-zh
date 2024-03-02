@@ -2,4 +2,48 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/xggcw4`](https://www.yuque.com/hardwaylab/book/xggcw4)
 
-<ne-h2 id="PVDqW" data-lake-id="PVDqW"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u09111785">1</ne-text></ne-heading-content></ne-h2> <ne-p id="u2c2eea4a" data-lake-id="u2c2eea4a"><ne-text id="ufe5149a5">「安身立命的东西，一定要写好一点。」</ne-text></ne-p> <ne-p id="u0a9bf46e" data-lake-id="u0a9bf46e"><ne-text id="u6db4df8a">更新《笨方法文化手册 3.0》时，我一直这样提醒自己。</ne-text></ne-p> <ne-p id="u1e666f5c" data-lake-id="u1e666f5c"><ne-text id="u03968709">你可能问，「以一份文本安身立命，也太单薄了吧？」</ne-text></ne-p> <ne-quote id="u139f6360" data-lake-id="u139f6360"><ne-p id="ua8deceb0" data-lake-id="ua8deceb0"><ne-text id="u25d1b58c">《笨方法文化手册》从原来的一份简陋的 PPT，变成一份 3000+ 字的总结，接着变成 2 万+ 的手册 2.0，现在的升级为 6 万+ 字手册 3.0 。</ne-text></ne-p> <ne-p id="u2b79902f" data-lake-id="u2b79902f"><ne-text id="u5d0ec943">愿如果印刷出来，也必定沉甸垂手。</ne-text></ne-p></ne-quote> <ne-p id="u3386e226" data-lake-id="u3386e226"><ne-text id="u4b8553fd">你又问，「文本怎么能用来安身立命呢？」</ne-text></ne-p> <ne-quote id="u665ea21a" data-lake-id="u665ea21a"><ne-p id="u840b1c77" data-lake-id="u840b1c77"><ne-text id="uf13507f7">安身立命是什么意思？就是你做事的支点，你用什么精神来支撑你度过人生的艰难时刻。</ne-text></ne-p> <ne-p id="ube4b1bfe" data-lake-id="ube4b1bfe"><ne-text id="u018f34df">当你历经失败，知道何事可为，何事不可为，便开始拥有信念，凝结成为原则，想要更多人受益，便沉淀成为文本。</ne-text></ne-p> <ne-p id="uaba7f1bf" data-lake-id="uaba7f1bf"><ne-text id="u4113c9f1">文本不能用来安身立命，但如果说，这份文本能让你也拥有份信念，便也足够。</ne-text></ne-p></ne-quote> <ne-h2 id="vJaK9" data-lake-id="vJaK9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u143b99f1">2</ne-text></ne-heading-content></ne-h2> <ne-p id="u06fe570f" data-lake-id="u06fe570f"><ne-text id="u9159f390">3.0 与过去版本有什么变动？主要有三个变动</ne-text></ne-p> <ne-h3 id="lLaMr" data-lake-id="lLaMr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ucd316343">更清晰</ne-text></ne-heading-content></ne-h3> <ne-p id="u76aa3ca6" data-lake-id="u76aa3ca6"><ne-text id="u9eceeb28">删去复杂，费解，难以解释的东西，包括术语、生造词、流行词等。</ne-text></ne-p> <ne-p id="u0a34ba09" data-lake-id="u0a34ba09"><ne-text id="u19e54fab">删去矫饰做作，刻意表现，远离真诚，自己都未曾搞懂未曾做过的东西。</ne-text></ne-p> <ne-p id="u2ef87434" data-lake-id="u2ef87434"><ne-text id="u82b5ea08">删去多余的，反反复复讲的，令自己生厌的句子。</ne-text></ne-p> <ne-p id="ud1d3d7b6" data-lake-id="ud1d3d7b6"><ne-text id="uc542e665">删减的过程比较痛苦，需要反复思考，观照自我，抽丝剥茧，将不属于自己的东西，统统剥离。</ne-text></ne-p> <ne-h3 id="o5QNx" data-lake-id="o5QNx"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u9552d9c4">更简洁</ne-text></ne-heading-content></ne-h3> <ne-p id="u298cdf4d" data-lake-id="u298cdf4d"><ne-text id="u3c5e54cd">去掉正文加粗文字格式。不要用我所认为的重要，去会抢夺读者的注意力，读者觉得重要的，才是重要的。</ne-text></ne-p> <ne-p id="u463256fb" data-lake-id="u463256fb"><ne-text id="u21f5a039">每篇文章再快速读上几遍，调整篇章结构，使其更直白流程。</ne-text></ne-p> <ne-h3 id="OMmmy" data-lake-id="OMmmy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="ub3a78d81">更具体</ne-text></ne-heading-content></ne-h3> <ne-p id="uccbb971d" data-lake-id="uccbb971d"><ne-text id="u6a2b28bc">重点修订价值观。价值观变动不是坏事，怕的是知错不改，过去还是写复杂了，自己回看竟然都不记得。如果自己定的价值观，自己被问起都说不出来，那就要改。</ne-text></ne-p> <ne-p id="u53571600" data-lake-id="u53571600"><ne-text id="u083e80a3">少喊口号，少讲空话大话，少讲别人的故事，写干货，多写些湿货，多讲讲自己的故事。</ne-text></ne-p> <ne-p id="u26fc8815" data-lake-id="u26fc8815"><ne-text id="uc283fd57">增补更多个人具体实践故事和理解，试图输出更多真细节、具体、鲜活、湿润的内容。</ne-text></ne-p> <ne-p id="ua562d187" data-lake-id="ua562d187"><ne-text id="ua615ca5e">这个过程工作量较大，需要整理半年积累的大量卡片，只留精华。</ne-text></ne-p> <ne-h2 id="uGWoj" data-lake-id="uGWoj"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content><ne-text id="u9620bb35">3</ne-text></ne-heading-content></ne-h2> <ne-p id="u56366608" data-lake-id="u56366608"><ne-text id="uc9cf2541">山南山北雪晴，千里万里月明。</ne-text></ne-p> <ne-p id="ufe49f403" data-lake-id="ufe49f403"><ne-text id="u50229a8f">逻辑是抽象的，生活是具体的，愿《笨方法文化手册 3.0》给你启发。∎</ne-text></ne-p>
+<ne-h2 id="PVDqW" data-lake-id="PVDqW"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>1</ne-heading-content></ne-h2> 
+
+「安身立命的东西，一定要写好一点。」 
+
+更新《笨方法文化手册 3.0》时，我一直这样提醒自己。 
+
+你可能问，「以一份文本安身立命，也太单薄了吧？」 <ne-quote id="u139f6360" data-lake-id="u139f6360">
+
+《笨方法文化手册》从原来的一份简陋的 PPT，变成一份 3000+ 字的总结，接着变成 2 万+ 的手册 2.0，现在的升级为 6 万+ 字手册 3.0 。 
+
+愿如果印刷出来，也必定沉甸垂手。</ne-quote> 
+
+你又问，「文本怎么能用来安身立命呢？」 <ne-quote id="u665ea21a" data-lake-id="u665ea21a">
+
+安身立命是什么意思？就是你做事的支点，你用什么精神来支撑你度过人生的艰难时刻。 
+
+当你历经失败，知道何事可为，何事不可为，便开始拥有信念，凝结成为原则，想要更多人受益，便沉淀成为文本。 
+
+文本不能用来安身立命，但如果说，这份文本能让你也拥有份信念，便也足够。</ne-quote> <ne-h2 id="vJaK9" data-lake-id="vJaK9"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>2</ne-heading-content></ne-h2> 
+
+3.0 与过去版本有什么变动？主要有三个变动 <ne-h3 id="lLaMr" data-lake-id="lLaMr"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更清晰</ne-heading-content></ne-h3> 
+
+删去复杂，费解，难以解释的东西，包括术语、生造词、流行词等。 
+
+删去矫饰做作，刻意表现，远离真诚，自己都未曾搞懂未曾做过的东西。 
+
+删去多余的，反反复复讲的，令自己生厌的句子。 
+
+删减的过程比较痛苦，需要反复思考，观照自我，抽丝剥茧，将不属于自己的东西，统统剥离。 <ne-h3 id="o5QNx" data-lake-id="o5QNx"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更简洁</ne-heading-content></ne-h3> 
+
+去掉正文加粗文字格式。不要用我所认为的重要，去会抢夺读者的注意力，读者觉得重要的，才是重要的。 
+
+每篇文章再快速读上几遍，调整篇章结构，使其更直白流程。 <ne-h3 id="OMmmy" data-lake-id="OMmmy"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>更具体</ne-heading-content></ne-h3> 
+
+重点修订价值观。价值观变动不是坏事，怕的是知错不改，过去还是写复杂了，自己回看竟然都不记得。如果自己定的价值观，自己被问起都说不出来，那就要改。 
+
+少喊口号，少讲空话大话，少讲别人的故事，写干货，多写些湿货，多讲讲自己的故事。 
+
+增补更多个人具体实践故事和理解，试图输出更多真细节、具体、鲜活、湿润的内容。 
+
+这个过程工作量较大，需要整理半年积累的大量卡片，只留精华。 <ne-h2 id="uGWoj" data-lake-id="uGWoj"><ne-heading-ext><ne-heading-anchor></ne-heading-anchor><ne-heading-fold></ne-heading-fold></ne-heading-ext><ne-heading-content>3</ne-heading-content></ne-h2> 
+
+山南山北雪晴，千里万里月明。 
+
+逻辑是抽象的，生活是具体的，愿《笨方法文化手册 3.0》给你启发。∎

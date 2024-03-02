@@ -2,4 +2,18 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/uirvfl`](https://www.yuque.com/hardwaylab/book/uirvfl)
 
-<ne-p id="19bf3d5743ccb6fd500fa6afc4560f5c" data-lake-id="19bf3d5743ccb6fd500fa6afc4560f5c"><ne-text id="u56e5b2d7">笨方法有四要：磨练、好奇、科学、模仿。</ne-text></ne-p> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u88dbb40c" data-lake-id="u88dbb40c"><ne-text id="ufd9173c0">磨练：是为故事，自我决定驱动探索</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u47633340" data-lake-id="u47633340"><ne-text id="u9bee3e68">好奇：是为信念，建立全局认知地图</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u50d8cef8" data-lake-id="u50d8cef8"><ne-text id="u2ea628ee">科学：是为模型，学习最小必要知识</ne-text></ne-uli-c></ne-uli> <ne-uli><ne-uli-i>●</ne-uli-i><ne-uli-c class="ne-uli-content" id="u91774509" data-lake-id="u91774509"><ne-text id="u57149b4b">模仿：是为行动，复刻创造最佳实践</ne-text></ne-uli-c></ne-uli> <ne-p id="u782b9c7e" data-lake-id="u782b9c7e"><ne-text id="u7691880a">做到「真信、真学、真懂、真干、真坚持」</ne-text></ne-p> <ne-p id="u960ad590" data-lake-id="u960ad590"><ne-text id="u147f577d">只有真信才能真学，真学才能真懂，真懂才能真干，真干才能见效，还要真坚持，否则，就会半途而废。∎</ne-text></ne-p>
+
+
+笨方法有四要：磨练、好奇、科学、模仿。 
+
++   磨练：是为故事，自我决定驱动探索 
+
++   好奇：是为信念，建立全局认知地图 
+
++   科学：是为模型，学习最小必要知识 
+
++   模仿：是为行动，复刻创造最佳实践 
+
+做到「真信、真学、真懂、真干、真坚持」 
+
+只有真信才能真学，真学才能真懂，真懂才能真干，真干才能见效，还要真坚持，否则，就会半途而废。∎
