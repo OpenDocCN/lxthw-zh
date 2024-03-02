@@ -142,7 +142,11 @@ Exercise 44c 会话
 
 ```py
 $ python3.6 ex44c.py
-3.  ``PARENT altered()``4.  ``CHILD, BEFORE PARENT altered()``5.  ``PARENT altered()``6.  ``CHILD, AFTER PARENT altered()``
+PARENT altered()
+CHILD, BEFORE PARENT altered()
+PARENT altered()
+CHILD, AFTER PARENT altered()
+
 ```
 
 ### 44.1.4 三者结合
@@ -309,4 +313,4 @@ CHILD, AFTER OTHER altered()
 
 **如何才能更好地解决我之前没有遇到过的问题？**要想更好地解决问题，唯一的方法就是自己解决尽可能多的问题。通常情况下，人们遇到一个难题，就会冲出去寻找答案。当你着急完成工作的时候，这没问题。但是如果你有时间自己解决，那就花时间去解决。停下来，尽可能长时间地思考这个问题，尝试所有可能的方案，直到你把它解决或者放弃。在这之后，你找到的答案会更令人满意，你最终也会更擅长解决问题。
 
-**对象不就是类的拷贝吗？**在某些语言中（如 JavaScript），这是对的。这些被称为原型语言，除了用法之外，对象和类之间没有太多区别。然而，在 Python 中，类充当“铸造”（mint）新对象的模板，类似于使用模具（die） 来铸造硬币的概念。``
+**对象不就是类的拷贝吗？**在某些语言中（如 JavaScript），这是对的。这些被称为原型语言，除了用法之外，对象和类之间没有太多区别。然而，在 Python 中，类充当“铸造”（mint）新对象的模板，类似于使用模具（die） 来铸造硬币的概念。

@@ -48,7 +48,10 @@ Where  do you live zed?
 >  San  Francisco
 What kind of computer do you have?
 >  Tandy  1000
-11.  ``Alright, so you said Yes about liking me.``12.  ``You live in  San  Francisco.  Not sure where that is.``13.  ``And you have a Tandy  1000 computer.  Nice.``
+Alright, so you said Yes about liking me.
+You live in  San  Francisco.  Not sure where that is.
+And you have a Tandy  1000 computer.  Nice.
+
 ```
 
 ## 附加练习

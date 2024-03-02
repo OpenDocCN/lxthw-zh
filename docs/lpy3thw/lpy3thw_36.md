@@ -77,7 +77,18 @@ I got dimes
 I got 3
 I got quarters
 Adding  0 to the list.
-18.  `Adding  1 to the list.` 19.  `Adding  2 to the list.`20.  `Adding  3 to the list.` 21.  `Adding  4 to the list.`22.  `Adding  5 to the list.` 23.  `Element was:  0`24.  `Element was:  1`25.  `Element was:  2`26.  `Element was:  3`27.  `Element was:  4`28.  `Element was:  5`
+Adding  1 to the list.
+ Adding  2 to the list.
+Adding  3 to the list.
+ Adding  4 to the list.
+Adding  5 to the list.
+ Element was:  0
+Element was:  1
+Element was:  2
+Element was:  3
+Element was:  4
+Element was:  5
+
 ```
 
 ## 附加练习

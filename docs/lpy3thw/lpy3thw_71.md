@@ -60,7 +60,7 @@ Mode  LastWriteTime  Length  Name
 -a---  12/22/2011  4:49 PM 0 awesome.txt
 > ls
 Directory: C:\Users\zed\temp
-`Mode  LastWriteTime  Length  Name
+Mode  LastWriteTime  Length  Name
 ----  -------------  ------  ----
 d----  12/22/2011  4:52 PM      newplace
 d----  12/22/2011  4:52 PM      something
@@ -77,4 +77,4 @@ d----  12/22/2011  4:52 PM      something
 
 ### 55.12.3 附加练习
 
-*   将 newplace 目录下的一个文件移动到另一个目录下，然后再移动回来。``
+*   将 newplace 目录下的一个文件移动到另一个目录下，然后再移动回来。

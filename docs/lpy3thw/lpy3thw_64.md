@@ -15,7 +15,12 @@
 ```py
 $ pwd
 $ cd ~
-4.  ``$ mkdir temp``5.  ``$ mkdir temp/stuff``6.  ``$ mkdir temp/stuff/things``7.  ``$ mkdir -p temp/stuff/things/orange/apple/pear/grape``8.  ``$``
+$ mkdir temp
+$ mkdir temp/stuff
+$ mkdir temp/stuff/things
+$ mkdir -p temp/stuff/things/orange/apple/pear/grape
+$
+
 ```
 
 #### Windows
@@ -26,7 +31,8 @@ $ cd ~
 > pwd
 > cd ~
 > mkdir temp
-6.  ```Directory: C:\Users\zed
+`
+Directory: C:\Users\zed
 Mode  LastWriteTime  Length  Name
 ----  -------------  ------  ----
 d----  12/17/2011  9:02 AM      temp

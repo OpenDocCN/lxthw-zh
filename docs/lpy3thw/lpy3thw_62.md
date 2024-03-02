@@ -24,13 +24,11 @@ $
 
 练习 2 Windows 会话
 
-##  ```py
+```py
 PS C:\Users\zed> pwd Path
-``` 
-
-`C:\Users\zed`
-
-`PS C:\Users\zed>`
+C:\Users\zed
+PS C:\Users\zed>
+```
 
 | 警告！ |
 | --- |

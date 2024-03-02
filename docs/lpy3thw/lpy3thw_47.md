@@ -523,7 +523,8 @@ ex43.py
 
 ```py
 $ python3.6 ex43.py
-The  Gothons of Planet  Percal  #25 have invaded your ship and destroyed your entire crew. You are the last surviving member and your last mission is to get the neutron destruct bomb from the Weapons Armory, put it in the bridge, and blow the ship up after getting into an escape pod.``5.  ```You're running down the central corridor to the Weapons Armory when a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume flowing around his hate filled body. He's blocking the door to the Armory  and about to pull a weapon to blast you.
+The  Gothons of Planet  Percal  #25 have invaded your ship and destroyed your entire crew. You are the last surviving member and your last mission is to get the neutron destruct bomb from the Weapons Armory, put it in the bridge, and blow the ship up after getting into an escape pod.
+You're running down the central corridor to the Weapons Armory when a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume flowing around his hate filled body. He's blocking the door to the Armory  and about to pull a weapon to blast you.
 > dodge!
 Like a world class boxer you dodge, weave, slip and slide right as the Gothon's blaster cranks a laser past your head. In the middle of your artful dodge your foot slips and you bang your head on the metal wall and pass out. You wake up shortly after only to die as the Gothon stomps on your head and eats you.
 You're worse than your Dad's jokes.
@@ -545,4 +546,4 @@ You're worse than your Dad's jokes.
 
 ## 常见问题
 
-**我在哪里可以找到我自己的游戏故事？**你可以自己编，就像你给朋友讲故事一样。或者你可以从你喜欢的书或电影中选取一些简单的场景。``
+**我在哪里可以找到我自己的游戏故事？**你可以自己编，就像你给朋友讲故事一样。或者你可以从你喜欢的书或电影中选取一些简单的场景。

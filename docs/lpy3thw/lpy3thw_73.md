@@ -25,7 +25,12 @@ $
 
 ```py
 > more test2.txt [displays file here]
-3.  ``> cat test2.txt I am a fun guy.``4.  ``Don't you know why? Because I make poems, that make babies cry.``5.  ``> cat test.txt``6.  ``Hi there this is cool.``7.  ``>``
+> cat test2.txt I am a fun guy.
+Don't you know why? Because I make poems, that make babies cry.
+> cat test.txt
+Hi there this is cool.
+>
+
 ```
 
 ### 55.14.2 你学到的

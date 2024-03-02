@@ -54,7 +54,18 @@ Your third variable is:  3rd
 练习 13 会话
 
 ```py
-1.  `$ python3.6 ex13.py stuff things that` 2.  `The script is called: ex13.py`3.  `Your first variable is: stuff`4.  `Your second variable is: things`5.  `Your third variable is: that`6.  `$`7.  `$ python3.6 ex13.py apple orange  grapefruit`8.  `The script is called: ex13.py`9.  `Your first variable is: apple`10.  `Your second variable is: orange`11.  `Your third variable is: grapefruit`
+$ python3.6 ex13.py stuff things that
+ The script is called: ex13.py
+Your first variable is: stuff
+Your second variable is: things
+Your third variable is: that
+$
+$ python3.6 ex13.py apple orange  grapefruit
+The script is called: ex13.py
+Your first variable is: apple
+Your second variable is: orange
+Your third variable is: grapefruit
+
 ```
 
 事实上你还可以把 `first`，`2nd`，`3rd` 替换成任何你想替换的东西。如果你没有正确运行，你会收到这样的报错：
@@ -62,7 +73,12 @@ Your third variable is:  3rd
 练习 13 会话
 
 ```py
-1.  `$ python3.6 ex13.py first 2nd` 2.  `Traceback  (most recent call last):`3.  `File  "ex13.py", line 3,  in  <module>` 4.  `script, first, second, third = argv`5.  `ValueError:  not enough values to unpack (expected 4, got 3)`
+$ python3.6 ex13.py first 2nd
+ Traceback  (most recent call last):
+File  "ex13.py", line 3,  in  <module>
+ script, first, second, third = argv
+ValueError:  not enough values to unpack (expected 4, got 3)
+
 ```
 
 这种情况一般是当你运行脚本的时候没有在命令行放足够的变量（在本例中只有 `first` 、`2nd` ）。注意当我运行的时候只给出 `first` 、`2nd` ，就会出现错误说“需要三个以上的值来解包”，这就是告诉你，你没有给到足够多的参数。”

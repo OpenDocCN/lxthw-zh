@@ -102,7 +102,22 @@ ex50.py
 **ai 酱注：** 上面的代码中并没有 greeting 变量，我在网上找到了另一个版本的 [LP3THW](http://anyflip.com/fkxr/vvmy/basic/251-300)，其 app.py 的代码跟我们在用的这一版略有区别，def hello_world() 下面是两行内容，第 1 行：`greeting = "World"`，第 2 行：`return f'Hello, {greeting}!'`。大家可以修改一下再按照上面一段内容进行操作。
 
 ```py
-1.  `(lpthw) $ p`ython3.6 app.py`2.  `*   Running on http://127.0.0.1 :5000/ (Press CTRL+C to quit) [2017-02-22 14:35:54,256] ERROR in app:   Exception on / [GET] Traceback ( most recent call last ):`3.  `File “[VENV]/site-packages/flask/app.py”, line 1982, in wsgi_app`4.  `response = self.full_dispatch_request() File “[VENV]/site-packages/flask/app.py”,`5.  `line 1614, in full_dispatch_request rv = self . handle_user_exception(e)`6.  `File    “[VENV]/site-packages/flask/app.py”, line 1517, in handle_user_exception reraise(exc_type, exc_value, tb)`7.  `File “[VENV]/site—packages/flask/_compat.py”, line 33, in reraise`8.  `raise value`9.  `File “[VENV]/site—packages/flask/app.py”, line 1612, in full_dispatch_request`10.  `rv = self.dispatch_request()`11.  `File “[VENV]/site —packages/flask/app.py”, line 1598, in dispatch_request`12.  `return self.view_f unctionsrule.end point`13.  `File“app.py”, line 8, in index`14.  `return render_template(“index.html”, greeting=greeting) NameError: name 'greeting'  is not defined`15.  `127.0.0.1--[22/Feb/2017 14:35:54] “GET / HTTP/1.1” 500—`
+(lpthw) $ p
+ython3.6 app.py`*   Running on http://127.0.0.1 :5000/ (Press CTRL+C to quit) [2017-02-22 14:35:54,256] ERROR in app:   Exception on / [GET] Traceback ( most recent call last ):
+File “[VENV]/site-packages/flask/app.py”, line 1982, in wsgi_app
+response = self.full_dispatch_request() File “[VENV]/site-packages/flask/app.py”,
+line 1614, in full_dispatch_request rv = self . handle_user_exception(e)
+File    “[VENV]/site-packages/flask/app.py”, line 1517, in handle_user_exception reraise(exc_type, exc_value, tb)
+File “[VENV]/site—packages/flask/_compat.py”, line 33, in reraise
+raise value
+File “[VENV]/site—packages/flask/app.py”, line 1612, in full_dispatch_request
+rv = self.dispatch_request()
+File “[VENV]/site —packages/flask/app.py”, line 1598, in dispatch_request
+return self.view_f unctionsrule.end point
+File“app.py”, line 8, in index
+return render_template(“index.html”, greeting=greeting) NameError: name 'greeting'  is not defined
+127.0.0.1--[22/Feb/2017 14:35:54] “GET / HTTP/1.1” 500—
+
 ```
 
 这样可以正常运行，不过你也可以在“调试模式”（debugger mode）下运行 Flask。你会得到一个更好的错误页面，以及更多的有用信息。不过，调试模式的问题是它在互联网上运行不够安全，因此，你必须像这样打开它：

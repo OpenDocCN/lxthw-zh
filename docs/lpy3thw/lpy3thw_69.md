@@ -25,7 +25,7 @@ $
 > cd temp
 >  New-Item iamcool.txt -type file
 > ls
-6.  ```Directory: C:\Users\zed\temp
+Directory: C:\Users\zed\temp
 Mode  LastWriteTime  Length  Name
 ----  -------------  ------  -----
 a---  12/17/2011  9:03 AM      iamcool.txt
@@ -39,4 +39,4 @@ a---  12/17/2011  9:03 AM      iamcool.txt
 ### 55.10.3 附加练习
 
 *   Unix：创建一个目录，切换到该目录下，然后在它里面创建一个文件，然后再切换到该目录的上一次，用 `rmdir` 命令移除该目录。你会收到报错，试着理解一下为什么。
-*   Windows：做同样的事情，但是你不会收到报错，你会收到一个提示符问你是否真的要移除这个目录。``
+*   Windows：做同样的事情，但是你不会收到报错，你会收到一个提示符问你是否真的要移除这个目录。

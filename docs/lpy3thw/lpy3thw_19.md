@@ -53,7 +53,17 @@ ex15.py
 练习 15 会话
 
 ```py
-1.  `$ python3.6 ex15.py ex15_sample.txt` 2.  `Here's your file ex15_sample.txt:`3.  `This is stuff I typed into a file.`4.  `It is really cool stuff.`5.  `Lots and lots of fun to have in here.`7.  ``Type the filename again:``8.  ``>   ex15_sample.txt``9.  ``This is stuff I typed into a file.``10.  ``It is really cool stuff.``11.  ``Lots and lots of fun to have in here.``
+$ python3.6 ex15.py ex15_sample.txt
+ Here's your file ex15_sample.txt:
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+Type the filename again:
+>   ex15_sample.txt
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+
 ```
 
 ## 附加练习

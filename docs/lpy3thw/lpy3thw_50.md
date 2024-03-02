@@ -231,10 +231,18 @@ NAME_tests.py
 
 ```py
 skeleton /
-3.  ``NAME/``4.  ``__init__.py``5.  ``bin/``6.  ``docs/``7.  ``setup.py``8.  ``tests/``9.  ``NAME_tests. py``10.  ``__init__.py``
+NAME/
+__init__.py
+bin/
+docs/
+setup.py
+tests/
+NAME_tests. py
+__init__.py
+
 ```
 
- `从现在开始，你应该从这个目录中运行你的命令。如果你看不到，可以输入 `ls -R`，如果你没看到同样的结构，那应该是搞错了当前目录。比如，人们通常在 tests/ 下运行文件，这肯定行不通。要运行你的应用的测试，你需要处在 tests/ 目录的上一层，所以如果你这样：
+从现在开始，你应该从这个目录中运行你的命令。如果你看不到，可以输入 `ls -R`，如果你没看到同样的结构，那应该是搞错了当前目录。比如，人们通常在 tests/ 下运行文件，这肯定行不通。要运行你的应用的测试，你需要处在 tests/ 目录的上一层，所以如果你这样：
 
 ```py
 $ cd tests/  # WRONG! WRONG! WRONG!

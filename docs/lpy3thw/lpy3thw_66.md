@@ -33,7 +33,8 @@ $ cd ../../../
 $ ls orange
 $ cd ../../
 $ ls stuff
-22.  ``$``
+$
+
 ```
 
 #### Windows
@@ -77,12 +78,12 @@ Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear
 Mode  LastWriteTime  Length  Name
 ----  -------------  ------  ----
 d----  12/17/2011  9:03 AM      grape
-`> cd grape
+> cd grape
 > ls
 > cd ..
 > ls
-`Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear
-`Mode  LastWriteTime  Length  Name
+Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear
+Mode  LastWriteTime  Length  Name
 ----  -------------  ------  ----
 d----  12/17/2011  9:03 AM      grape
 > cd ..

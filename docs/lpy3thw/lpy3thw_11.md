@@ -39,7 +39,9 @@ $ python3.6 ex7.py
 Mary had a little lamb.
 Its fleece was white as snow.
 And everywhere that Mary went.
-6.  ``..........``7.  ``Cheese  Burger``
+..........
+Cheese  Burger
+
 ```
 
 ## 附加练习

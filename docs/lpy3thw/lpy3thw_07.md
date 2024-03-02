@@ -55,7 +55,7 @@ What  is  5  -  7?  -2
 Oh, that's why it's False.  How about some more.
 Is it greater?  True
 Is it greater or equal?  True
-12.  ``Is it less or equal?  False``
+Is it less or equal?  False
 ```
 
 ## 课后练习

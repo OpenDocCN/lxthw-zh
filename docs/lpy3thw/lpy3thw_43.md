@@ -141,35 +141,43 @@ ex39.py
 
 练习 39 会话
 
-##  ```py
+```py
 $ python3.6 ex39.py
-``` 
 
-`NY State has: New York`
-
-## OR State has: Portland
-
+NY State has: New York
+OR State has: Portland
+----------
 Michigan's abbreviation is: MI
-
-## Florida's abbreviation is: FL
-
+Florida's abbreviation is: FL
+----------
 Michigan has: Detroit
-
-## Florida has: Jacksonville
-
-Oregon is abbreviated ORFlorida is abbreviated FLCalifornia is abbreviated CANew York is abbreviated NY
-
-## Michigan is abbreviated MI
-
-CA has the city San FranciscoMI has the city DetroitFL has the city JacksonvilleNY has the city New York
-
-## OR has the city Portland
-
-Oregon state is abbreviated ORand has city PortlandFlorida state is abbreviated FLand has city JacksonvilleCalifornia state is abbreviated CAand has city San FranciscoNew York state is abbreviated NYand has city New YorkMichigan state is abbreviated MI
-
-## and has city Detroit` 
-
-`Sorry, no Texas.The city for the state 'TX' is: Does Not Exist`
+Florida has: Jacksonville
+----------
+Oregon is abbreviated OR
+Florida is abbreviated FL
+California is abbreviated CA
+New York is abbreviated NY
+ Michigan is abbreviated MI
+----------
+CA has the city San Francisco
+MI has the city Detroit
+FL has the city Jacksonville
+NY has the city New York
+OR has the city Portland
+----------
+Oregon state is abbreviated OR
+and has city Portland
+Florida state is abbreviated FL
+and has city Jacksonville
+California state is abbreviated CA
+and has city San Francisco
+New York state is abbreviated NY
+and has city New York
+Michigan state is abbreviated MI
+and has city Detroit` 
+----------
+Sorry, no Texas.The city for the state 'TX' is: Does Not Exist
+```
 
 ## 字典能做什么
 
