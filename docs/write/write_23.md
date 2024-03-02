@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/sm1nri`](https://www.yuque.com/hardwaylab/cardstyle/sm1nri)
 
-<ne-quote id="u1ae4026d" data-lake-id="u1ae4026d">
-
-来源：[写作的幸福 - 简书](https://www.jianshu.com/p/af4b508e99bf)</ne-quote> 
+> 来源：[写作的幸福 - 简书](https://www.jianshu.com/p/af4b508e99bf) 
 
 ## 1
 

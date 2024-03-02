@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/dvlfog`](https://www.yuque.com/hardwaylab/book/dvlfog)
 
-<ne-quote id="u2cd79b79" data-lake-id="u2cd79b79">
-
-不是因为我太聪明，而是因为我在问题上停留的时间更长。——阿尔伯特 · 爱因斯坦</ne-quote> 
+> 不是因为我太聪明，而是因为我在问题上停留的时间更长。——阿尔伯特 · 爱因斯坦 
 
 段永平：不存在什么捷径。不存在什么窍门。如果你想走轻松的路，我保证：它比艰难的路更长更痛苦。 
 

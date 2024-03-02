@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/qf4410`](https://www.yuque.com/hardwaylab/cardstyle/qf4410)
 
-<ne-quote id="uf4dcc99c" data-lake-id="uf4dcc99c">
-
-来源：[https://t.zsxq.com/zVv3jmE](https://t.zsxq.com/zVv3jmE)</ne-quote> 
+> 来源：[https://t.zsxq.com/zVv3jmE](https://t.zsxq.com/zVv3jmE) 
 
 《笨方法学写作》课是从去年 1 月 30 日开始订阅的，订阅后打开几次就被搁置了。一放就是大半年过去了，到了 8 月份重新开始“下决心”学写作，就重新进来学习，这次有了目标：养成写作的习惯。 
 

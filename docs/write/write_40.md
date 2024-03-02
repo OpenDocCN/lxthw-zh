@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/wzlz69`](https://www.yuque.com/hardwaylab/cardstyle/wzlz69)
 
-<ne-quote id="u2a18b18b" data-lake-id="u2a18b18b">
-
-来源：[https://t.zsxq.com/V7uNN7Y](https://t.zsxq.com/V7uNN7Y)</ne-quote> 
+> 来源：[https://t.zsxq.com/V7uNN7Y](https://t.zsxq.com/V7uNN7Y) 
 
 坚毅:从小时候课本里的李白习得铁杵磨成针的精髓、到《荀子·劝学》里的积跬步致千里、积小流成江海，都告诉我们要一步一脚印做好每一件事。然大多时候，只是学过了，并没有理解了、吸收了为我所用。身边可能也没有导师来指点方向，兜兜转转耗费大半辈子，整天意 yin 如何过上成功人士的生活，却不愿去了解其背后一点一滴的坚持和积累。小时候，老师总是告诉大家说要有梦想，但却没有告诉大家“有实力的梦想是理想，没有实力的梦想是幻想”，更没有告诉大家如何积攒实力，就像给了一锅浓汤却没有给勺子。 
 

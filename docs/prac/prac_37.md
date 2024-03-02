@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/etcs10`](https://www.yuque.com/hardwaylab/book/etcs10)
 
-<ne-quote id="u0a05adc6" data-lake-id="u0a05adc6">
-
-卑之无无甚高论，六经注我</ne-quote> 
+> 卑之无无甚高论，六经注我 
 
 我在阅读中会遇到源源不断的新想法，一直在寻找的精确的见解可能会迟迟没出现，但我所遇见的内容，即使只有一小部分在此时此刻对我有用，这就足够。 
 

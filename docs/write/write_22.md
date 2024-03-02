@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/zlw7qo`](https://www.yuque.com/hardwaylab/cardstyle/zlw7qo)
 
-<ne-quote id="uacc97867" data-lake-id="uacc97867">
-
-来源：[https://t.zsxq.com/NZrvrfq](https://t.zsxq.com/NZrvrfq)</ne-quote> 
+> 来源：[https://t.zsxq.com/NZrvrfq](https://t.zsxq.com/NZrvrfq) 
 
 写作之于我一直以来是一件很难的事情。小学时候的作文，就从来没怎么被老师夸过，唯一的一次还是邻居小姐姐代笔，到了后来高考的作文也是写了一大堆废话拼的，因为总感觉没什么话好讲了，但是字数不写够的话又要被扣分。现在工作也有好几年了，工作中碰到的公文写作也有点吃力，基本上东拼西凑居多。我想是这辈子应该很难学好写作了。 随着年龄逐渐增长，自身对于知识焦虑越来越严重，想学的东西挺多的，得到的专栏也订阅了很多，平常都是以听为主，效果较差。毕竟听了这么多，还是有点收获的，要想学习效果好，都说还是要输出的，这就涉及到了写作，写作是一个很好整理人所学，提高人思维能力的工具。 
 

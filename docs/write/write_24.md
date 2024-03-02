@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/hmg6ux`](https://www.yuque.com/hardwaylab/cardstyle/hmg6ux)
 
-<ne-quote id="uadfa7573" data-lake-id="uadfa7573">
-
-来源：[学习写作，你需要“笨方法” - 简书](https://www.jianshu.com/p/889a61f8dad8)</ne-quote> 
+> 来源：[学习写作，你需要“笨方法” - 简书](https://www.jianshu.com/p/889a61f8dad8) 
 
 笨方法的要义，就是“用正确的方法做正确的事”。 
 

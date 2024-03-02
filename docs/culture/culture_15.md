@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/iphga7`](https://www.yuque.com/hardwaylab/book/iphga7)
 
-<ne-quote id="u58b740a0" data-lake-id="u58b740a0">
-
-关键词：源头、可能的自我、信念、探索、内在驱动、起点</ne-quote> 
+> 关键词：源头、可能的自我、信念、探索、内在驱动、起点 
 
 好奇即为原力，好奇是所有做成难事的源头起点，磨练是所有做成难事的持续状态。 
 

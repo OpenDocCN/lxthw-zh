@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/xv8gcr`](https://www.yuque.com/hardwaylab/cardstyle/xv8gcr)
 
-<ne-quote id="uf5f858bd" data-lake-id="uf5f858bd">
-
-来源：[https://t.zsxq.com/uvfEmeM](https://t.zsxq.com/uvfEmeM)</ne-quote> 
+> 来源：[https://t.zsxq.com/uvfEmeM](https://t.zsxq.com/uvfEmeM) 
 
 人的本质=信息+模式 
 

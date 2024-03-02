@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/gsokrr`](https://www.yuque.com/hardwaylab/book/gsokrr)
 
-<ne-quote id="u20c40e08" data-lake-id="u20c40e08">
-
-使用笨方法做事的人，姑且称之为凿壁偷光者。</ne-quote> 
+> 使用笨方法做事的人，姑且称之为凿壁偷光者。 
 
 你总发现，身边有这么一类人—— 
 

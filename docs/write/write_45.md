@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/nrmbg6`](https://www.yuque.com/hardwaylab/cardstyle/nrmbg6)
 
-<ne-quote id="uff94dbcc" data-lake-id="uff94dbcc">
-
-来源：[https://t.zsxq.com/AuvzB6Y](https://t.zsxq.com/AuvzB6Y)</ne-quote> 
+> 来源：[https://t.zsxq.com/AuvzB6Y](https://t.zsxq.com/AuvzB6Y) 
 
 已经受够了那些营销，“21 天教你靠写作月收入过万”“我是怎么靠写作财富自由的”，他们用短期、快速、钱财这些东西触碰你的脑神经，等付了钱学完整个课程之后才发现能学到的东西微乎其微，毕竟最精华的内容都在文案上了。 
 

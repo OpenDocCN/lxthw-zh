@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/fu1wbk`](https://www.yuque.com/hardwaylab/book/fu1wbk)
 
-<ne-quote id="ueed687f5" data-lake-id="ueed687f5">
-
-尊重基本事实的前提下，各式各样的偏见并存，远远好过唯一的正确答案。——《司马迁的记忆之野》</ne-quote> 
+> 尊重基本事实的前提下，各式各样的偏见并存，远远好过唯一的正确答案。——《司马迁的记忆之野》 
 
 笨方法，不教你弯道超车，只教你少走弯路。不教你快的技巧，只教你专注的功夫。 
 

@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/yxdesm`](https://www.yuque.com/hardwaylab/book/yxdesm)
 
-<ne-quote id="u5c1a9920" data-lake-id="u5c1a9920">
-
-此处留给你去书写你的故事，可参考本手册[后记](https://www.yuque.com/hardwaylab/book/asq24p)。</ne-quote> 
+> 此处留给你去书写你的故事，可参考本手册[后记](https://www.yuque.com/hardwaylab/book/asq24p)。 
 
 想做出好的作品，就要被好的人包围，多接触有才华的人；想要成为什么样的人，就当自己已经是那样的人去行动，fake it till you make it 。 
 

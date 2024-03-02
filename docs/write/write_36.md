@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/kgo76h`](https://www.yuque.com/hardwaylab/cardstyle/kgo76h)
 
-<ne-quote id="u791f4090" data-lake-id="u791f4090">
-
-来源：[https://t.zsxq.com/B6meqR3](https://t.zsxq.com/B6meqR3)</ne-quote> 
+> 来源：[https://t.zsxq.com/B6meqR3](https://t.zsxq.com/B6meqR3) 
 
 最近的日更出现了一个问题：动力不足。 
 

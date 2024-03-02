@@ -2,11 +2,9 @@
 
 > 来源：[`www.yuque.com/hardwaylab/book/vycr58`](https://www.yuque.com/hardwaylab/book/vycr58)
 
-<ne-quote id="u4784d7a4" data-lake-id="u4784d7a4">
-
-改变常改变 风雨前几多不变 令你我相对中妥协 令你我相看苦笑心中作战 
-
-厌恶了沧桑千百变也要去实现 看透了一生千百变世界永远新鲜 一再面对改变</ne-quote> 
+> 改变常改变 风雨前几多不变 令你我相对中妥协 令你我相看苦笑心中作战 
+> 
+> 厌恶了沧桑千百变也要去实现 看透了一生千百变世界永远新鲜 一再面对改变 
 
 ## 不是做笨人
 

@@ -2,9 +2,7 @@
 
 > 来源：[`www.yuque.com/hardwaylab/cardstyle/qqow1r`](https://www.yuque.com/hardwaylab/cardstyle/qqow1r)
 
-<ne-quote id="ud84f21a5" data-lake-id="ud84f21a5">
-
-来源：[https://t.zsxq.com/ynyjqVR](https://t.zsxq.com/ynyjqVR)</ne-quote> 
+> 来源：[https://t.zsxq.com/ynyjqVR](https://t.zsxq.com/ynyjqVR) 
 
 ## 缘起
 
