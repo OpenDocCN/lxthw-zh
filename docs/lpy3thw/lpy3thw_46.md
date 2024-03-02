@@ -1,4 +1,4 @@
-# 练习 42\. Is-A, Has-A, 对象和类
+# 练习 42 Is-A, Has-A, 对象和类
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.47.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.47.learn-py3.md)
 

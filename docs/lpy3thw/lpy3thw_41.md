@@ -1,4 +1,4 @@
-# 练习 37\. 复习各种符号
+# 练习 37 复习各种符号
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.42.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.42.learn-py3.md)
 

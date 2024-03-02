@@ -1,4 +1,4 @@
-# 练习 41\. 学着去说面向对象
+# 练习 41 学着去说面向对象
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.46.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.46.learn-py3.md)
 

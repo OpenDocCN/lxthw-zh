@@ -1,4 +1,4 @@
-# 练习 39\. 字典，可爱的字典
+# 练习 39 字典，可爱的字典
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.44.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.44.learn-py3.md)
 

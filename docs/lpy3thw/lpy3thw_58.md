@@ -1,4 +1,4 @@
-# 练习 54\. 来自老程序员的建议
+# 练习 54 来自老程序员的建议
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.59.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.59.learn-py3.md)
 

@@ -1,4 +1,4 @@
-# 练习 40\. 模块、类和对象
+# 练习 40 模块、类和对象
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.45.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.45.learn-py3.md)
 

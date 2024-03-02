@@ -1,4 +1,4 @@
-# 练习 45\. 你来做一个游戏
+# 练习 45 你来做一个游戏
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.50.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.50.learn-py3.md)
 

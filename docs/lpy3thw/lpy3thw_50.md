@@ -1,4 +1,4 @@
-# 练习 46\. 一个项目骨架
+# 练习 46 一个项目骨架
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.51.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.51.learn-py3.md)
 

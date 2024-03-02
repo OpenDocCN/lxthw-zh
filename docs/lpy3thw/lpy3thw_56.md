@@ -1,4 +1,4 @@
-# 练习 52\. 创建你的 web 游戏
+# 练习 52 创建你的 web 游戏
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.57.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.57.learn-py3.md)
 

@@ -1,4 +1,4 @@
-# 练习 38\. 操作列表
+# 练习 38 操作列表
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.43.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.43.learn-py3.md)
 

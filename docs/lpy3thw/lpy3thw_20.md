@@ -1,4 +1,4 @@
-# 练习 16\. 读写文件
+# 练习 16 读写文件
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.21.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.21.learn-py3.md)
 

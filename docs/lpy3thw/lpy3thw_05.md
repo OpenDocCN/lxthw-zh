@@ -1,4 +1,4 @@
-# 练习 1\. 第一个程序
+# 练习 1 第一个程序
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.6.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.6.learn-py3.md)
 

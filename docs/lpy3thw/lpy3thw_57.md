@@ -1,4 +1,4 @@
-# 练习 53\. 接下来的步骤
+# 练习 53 接下来的步骤
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.58.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.58.learn-py3.md)
 

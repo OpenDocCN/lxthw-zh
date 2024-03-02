@@ -1,4 +1,4 @@
-# 练习 49\. 创建句子
+# 练习 49 创建句子
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.54.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.54.learn-py3.md)
 

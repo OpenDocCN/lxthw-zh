@@ -1,4 +1,4 @@
-# 练习 50\. 你的第一个网站
+# 练习 50 你的第一个网站
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.55.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.55.learn-py3.md)
 

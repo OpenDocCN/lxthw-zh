@@ -1,4 +1,4 @@
-# 练习 51\. 从浏览器获取输入
+# 练习 51 从浏览器获取输入
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.56.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.56.learn-py3.md)
 

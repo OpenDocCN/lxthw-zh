@@ -1,4 +1,4 @@
-# 练习 48\. 更复杂的用户输入
+# 练习 48 更复杂的用户输入
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.53.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.53.learn-py3.md)
 

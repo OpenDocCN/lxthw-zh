@@ -1,4 +1,4 @@
-# 练习 47\. 自动化测试
+# 练习 47 自动化测试
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.52.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.52.learn-py3.md)
 

@@ -1,4 +1,4 @@
-# 练习 17\. 更多文件
+# 练习 17 更多文件
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.22.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.22.learn-py3.md)
 

@@ -1,4 +1,4 @@
-# 练习 43\. 面向对象的分析和设计基础
+# 练习 43 面向对象的分析和设计基础
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.48.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.48.learn-py3.md)
 

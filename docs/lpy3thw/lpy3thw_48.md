@@ -1,4 +1,4 @@
-# 练习 44\. 继承和组合
+# 练习 44 继承和组合
 
 > 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.49.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.49.learn-py3.md)
 
