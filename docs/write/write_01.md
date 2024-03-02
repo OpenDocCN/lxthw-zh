@@ -1,0 +1,5 @@
+# 笨方法写作课
+
+> 来源：[`www.yuque.com/hardwaylab/cardstyle/xzzpoz`](https://www.yuque.com/hardwaylab/cardstyle/xzzpoz)
+
+<ne-p id="99724cfb6d3b1e2ae98c7ad9d96429bf" data-lake-id="99724cfb6d3b1e2ae98c7ad9d96429bf"><ne-text id="uacdb4657">笨方法实验室官网：</ne-text>[<ne-text id="u3a69e29e">http://www.HardWayLab.com</ne-text>](http://www.HardWayLab.com)</ne-p> <ne-p id="f91fdc5e9ee927a026224450b14a7b3c" data-lake-id="f91fdc5e9ee927a026224450b14a7b3c"><ne-text id="u32425a2a">笨方法文化手册：264 天成果，46 页，1.6 万字，免费领取。</ne-text></ne-p> <ne-p id="3bf0645b8951ad08e5f16769b9500e92" data-lake-id="3bf0645b8951ad08e5f16769b9500e92">[<ne-text id="uaf1f4cee">https://mp.weixin.qq.com/s/FxnDVEuDt7P4jUR-JZdN6w</ne-text>](https://mp.weixin.qq.com/s/FxnDVEuDt7P4jUR-JZdN6w)</ne-p> <ne-p id="aad458e58a9eb37bf3fd7e0ca0adfed2" data-lake-id="aad458e58a9eb37bf3fd7e0ca0adfed2"><ne-text id="u00770553">笨方法实验室，给你一份无限检查清单，鼓励你去做成难事，免费邮件订阅。</ne-text></ne-p> <ne-p id="3e402062990a62f8610fcf1040dae979" data-lake-id="3e402062990a62f8610fcf1040dae979">[<ne-text id="udaa1fc65">http://newsletter.hardwaylab.com/</ne-text>](http://newsletter.hardwaylab.com/)</ne-p>
