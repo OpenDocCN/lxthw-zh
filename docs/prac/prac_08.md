@@ -8,7 +8,9 @@
 
 以上是《基业长青》作者 Jim Collins 提出的思想实验，建议企业与个人列一张 Stop Doing List。 
 
-Jim Collins 的另一本著作《从优秀到卓越》，也提到 Stop Doing List： > 我们大多数人的生活忙碌而又不规律。我们一直在扩充 To Do List，努力营造做更多事情的良好势头，但作用很小。然而，那些建立卓越公司的人同样看重 Stop Doing List，因为它划去各种烂事，显示出非凡的自律与克制。 
+Jim Collins 的另一本著作《从优秀到卓越》，也提到 Stop Doing List： 
+
+> 我们大多数人的生活忙碌而又不规律。我们一直在扩充 To Do List，努力营造做更多事情的良好势头，但作用很小。然而，那些建立卓越公司的人同样看重 Stop Doing List，因为它划去各种烂事，显示出非凡的自律与克制。 
 
 Stop Doing List 是做正确事情的重要步骤，是做到更健康更长久的重要方法。 
 
