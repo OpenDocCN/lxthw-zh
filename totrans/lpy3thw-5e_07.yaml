@@ -1,14 +1,18 @@
 - en: Exercise 5. More Variables and Printing
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 5. 更多变量和打印
 - en: Now we’ll do even more typing of variables and printing them out. This time
     we’ll use something called a “format string.” Every time you put `"` (double-quotes)
     around a piece of text you have been making a *string*. A string is how you make
     something that your program might give to a human. You print strings, save strings
     to files, send strings to web servers, and many other things.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将更多地输入变量并将它们打印出来。这次我们将使用一种称为“格式化字符串”的东西。每当你在文本周围加上`"`（双引号）时，你就在制作一个*字符串*。字符串是你如何制作程序可能提供给人类的东西。你打印字符串，将字符串保存到文件中，将字符串发送到Web服务器等等。
 - en: Strings are really handy, so in this exercise you will learn how to make strings
     that have variables embedded in them. You embed variables inside a string by using
     a special `{}` sequence and then put the variable you want inside the `{}` characters.
@@ -16,53 +20,80 @@
     {somevar}"`. This little `f` before the `"` (double-quote) and the `{}` characters
     tell Python 3, “Hey, this string needs to be formatted. Put these variables in
     there.”
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 字符串非常方便，所以在这个练习中，你将学习如何制作包含嵌入变量的字符串。你通过使用特殊的`{}`序列将变量嵌入字符串中，然后将你想要的变量放在`{}`字符中。你还必须以字母`f`开头，表示“格式”，就像`f"Hello
+    {somevar}"`一样。在`"`（双引号）和`{}`字符之前加上这个小`f`告诉Python 3，“嘿，这个字符串需要格式化。把这些变量放进去。”
 - en: As usual, just type this in even if you do not understand it, and make it exactly
     the same.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 和往常一样，即使你不理解也要输入这些内容，并确保完全一样。
 - en: 'Listing 5.1: ex5.py'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 5.1：ex5.py
 - en: '[PRE0]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-6
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-7
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习扩展
 - en: 1\. Change all the variables so there is no `my_` in front of each one. Make
     sure you change the name everywhere, not just where you used `=` to set them.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 将所有变量中的`my_`都去掉。确保你在所有地方都修改了名称，不仅仅是在使用`=`设置它们的地方。
 - en: 2\. Try to write some variables that convert the inches and pounds to centimeters
     and kilograms. Do not just type in the measurements. Work out the math in Python.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 尝试编写一些变量，将英寸和磅转换为厘米和千克。不要只是输入测量值。在Python中进行数学计算。
 - en: Common Student Questions
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Can I make a variable like this:** `1 = ''Zed Shaw''`**?** No, `1` is not
     a valid variable name. They need to start with a character, so `a1` would work,
     but `1` will not.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我可以像这样定义一个变量吗：** `1 = ''Zed Shaw''`**？** 不可以，`1`不是一个有效的变量名。变量名需要以字符开头，所以`a1`是可以的，但`1`是不行的。'
 - en: '**How can I round a floating point number?** You can use the `round()` function
     like this: `round(1.7333)`.'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如何将浮点数四舍五入？** 你可以像这样使用`round()`函数：`round(1.7333)`。'
 - en: '**Why does this not make sense to me?** Try making the numbers in this script
     your measurements. It’s weird, but talking about yourself will make it seem more
     real. Also, you’re just starting out, so it won’t make too much sense. Keep going
     and more exercises will explain it more.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我看不懂这个？** 尝试将脚本中的数字改为你的测量值。这有点奇怪，但谈论自己会让它看起来更真实。而且，你刚刚开始，所以不会太有意义。继续前进，更多的练习会让你更好地理解。'

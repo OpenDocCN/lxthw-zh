@@ -1,75 +1,113 @@
 - en: Exercise 8. Formatting Strings Manually
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 8. 手动格式化字符串
 - en: We will now see how to do a more complicated formatting of a string. This code
     looks complex, but if you do your comments above each line and break each thing
     down to its parts, you’ll understand it.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将看到如何对字符串进行更复杂的格式化。这段代码看起来复杂，但如果你在每一行上面做好注释，并将每个部分分解开来，你就会理解它。
 - en: 'Listing 8.1: ex8.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '代码清单 8.1: ex8.py'
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-4
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: In this exercise I’m using something called a “function” to turn the `formatter`
     variable into other strings.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个练习中，我使用了一个叫做“函数”的东西，将 `formatter` 变量转换为其他字符串。
 - en: 'When you see me write `formatter.format(...)`, I’m telling Python to do the
     following:'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你看到我写 `formatter.format(...)` 时，我是在告诉 Python 执行以下操作：
 - en: 1\. Take the `formatter` string defined on line 1.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 取出第 1 行定义的 `formatter` 字符串。
 - en: 2\. Call its `format` function, which is similar to telling it to do a command
     line command named `format`.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 调用它的 `format` 函数，类似于告诉它执行一个名为 `format` 的命令行命令。
 - en: 3\. Pass to `format` four arguments, which match up with the four `{}` in the
     `formatter` variable. This is like passing arguments to the command line command
     `format`.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 传递给 `format` 四个参数，这些参数与 `formatter` 变量中的四个 `{}` 匹配。这就像向命令行命令 `format` 传递参数一样。
 - en: 4\. The result of calling `format` on `formatter` is a new string that has the
     `{}` replaced with the four variables. This is what `print` is now printing out.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 在 `formatter` 上调用 `format` 的结果是一个新字符串，其中的 `{}` 被这四个变量替换。这就是 `print` 现在打印出来的内容。
 - en: That’s a lot for the eighth exercise, so what I want you to do is consider this
     a brainteaser. It’s alright if you don’t *really* understand what’s going on because
     the rest of the book will slowly make this clear. At this point, try to study
     this and see what’s going on, and then move on to the next exercise.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这对于第八个练习来说有点多，所以我希望你把它当作一个脑筋急转弯。如果你不是*真的*理解发生了什么，也没关系，因为本书的其余部分会慢慢澄清这一点。此时，请尝试研究一下这个，并看看发生了什么，然后继续下一个练习。
 - en: Study Drills
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习任务
 - en: Repeat the Study Drills from [Exercise 7](ch07.xhtml#ch07).
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 重复 [练习 7](ch07.xhtml#ch07) 中的学习任务。
 - en: Common Student Questions
+  id: totrans-15
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why do I have to put quotes around “one” but not around** `True` **or** `False`**?**
     Python recognizes `True` and `False` as keywords representing the concept of true
     and false. If you put quotes around them, then they are turned into strings and
     won’t work. You’ll learn more about how these work later.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我必须在“one”周围加引号，但不需要在** `True` **或** `False` **周围加引号？** Python 将 `True`
+    和 `False` 视为代表真和假概念的关键字。如果你在它们周围加上引号，那么它们就会变成字符串，无法正常工作。你将在后面学到更多关于它们如何工作的知识。'
 - en: '**Can I use IDLE to run this?** No, you should use Jupyter or the command line
     if you know how. It is essential to learning programming and is a good place to
     start if you want to learn about programming. Jupyter is a far superior tool than
     IDLE.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我可以使用 IDLE 运行吗？** 不可以，如果你知道的话，应该使用 Jupyter 或命令行。学习编程是必不可少的，如果你想学习编程，这是一个很好的起点。Jupyter
+    比 IDLE 是一个更优秀的工具。'

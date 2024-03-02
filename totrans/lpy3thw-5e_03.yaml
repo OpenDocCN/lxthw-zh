@@ -1,164 +1,247 @@
 - en: Exercise 1. A Good First Program
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 1. 一个好的第一个程序
 - en: Warning!
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: If you skipped [Exercise 0](intro.xhtml#intro), then you are not doing this
     book right. Are you trying to use IDLE or an IDE? I said not to use one in [Exercise
     0](intro.xhtml#intro), so you should not use one. If you skipped [Exercise 0](intro.xhtml#intro),
     please go back to it and read it.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你跳过了[Exercise 0](intro.xhtml#intro)，那么你就没有正确地进行这本书的学习。你是在尝试使用IDLE还是IDE吗？我在[Exercise
+    0](intro.xhtml#intro)中说不要使用其中的任何一个，所以你也不应该使用。如果你跳过了[Exercise 0](intro.xhtml#intro)，请返回并阅读它。
 - en: You should have spent a good amount of time in [Exercise 0](intro.xhtml#intro)
     learning how to install Jupyter, run Jupyter, run the Terminal, and work with
     both of them. If you haven’t done that, then do not proceed. You will not have
     a good time. This is the only time I’ll start an exercise with a warning that
     you should not skip or get ahead of yourself.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 你应该在[Exercise 0](intro.xhtml#intro)中花费了相当多的时间学习如何安装Jupyter，运行Jupyter，运行终端，并且同时使用它们。如果你还没有这样做，那么请不要继续。你将度过不愉快的时光。这是我唯一一次在开始练习时警告你不要跳过或超前的时间。
 - en: 'Type the following text into a Jupyter cell:'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Jupyter单元格中输入以下文本：
 - en: 'Listing 1.1: ex1.py'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 1.1: ex1.py'
 - en: '[PRE0]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'Your Jupyter cell should look something like this:'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 你的Jupyter单元格应该看起来像这样：
 - en: '![Images](graphics/f0006-01.jpg)'
+  id: totrans-8
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/f0006-01.jpg)'
 - en: Don’t worry if your Jupyter window doesn’t look exactly the same; it should
     be close though. You may have a slightly different window header, maybe slightly
     different colors, and the left side of your Jupyter window won’t be the same,
     but will instead show the directory you used for saving your files. All of those
     differences are fine.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 不要担心如果你的Jupyter窗口看起来不完全相同；它应该是接近的。你的窗口标题可能略有不同，也许颜色略有不同，而你的Jupyter窗口的左侧不会相同，而是会显示你用于保存文件的目录。所有这些差异都是可以接受的。
 - en: 'When you create this cell, keep in mind these points:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你创建这个单元格时，请记住这些要点：
 - en: 1\. I did not type the line numbers on the left. Those are printed in the book
     so I can talk about specific lines by saying, “See line 5…” You do not type line
     numbers into Python scripts.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 我没有在左侧输入行号。这些行号是在书中打印出来的，这样我就可以通过说“看第5行…”来谈论特定的行。你不需要在Python脚本中输入行号。
 - en: 2\. I have the `print` at the beginning of the line, and it looks exactly the
     same as what I have in the cell. Exactly means exactly, not kind of sort of the
     same. Every single character has to match for it to work. Color doesn’t matter,
     only the characters you type.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 我在行首有`print`，它看起来与我在单元格中的完全相同。完全意味着完全，不是有点类似。每个字符都必须匹配才能正常工作。颜色无关紧要，只有你输入的字符。
 - en: Once it is *exactly* the same, you can hit `SHIFT-ENTER` to run the code. If
     you did it right, then you should see the same output as I in the *What You Should
     See* section of this exercise. If not, you have done something wrong. No, the
     computer is not wrong.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦它*完全*相同，你可以按下`SHIFT-ENTER`来运行代码。如果你做对了，那么你应该看到与我在本练习的*你应该看到的内容*部分相同的输出。如果没有，那么你做错了。不，计算机没有错。
 - en: What You Should See
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: 'The Jupyter output will look like this after you hold `SHIFT` and hit `ENTER`
     (which I’ll write as `SHIFT-ENTER`):'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 在你按住`SHIFT`并按下`ENTER`后，Jupyter的输出将如下所示（我会写成`SHIFT-ENTER`）：
 - en: '![Images](graphics/f0010-01.jpg)'
+  id: totrans-16
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/f0010-01.jpg)'
 - en: You may see different window appearance and layout, but the important part is
     that you type the command and see the output is the same as mine.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 你可能会看到不同的窗口外观和布局，但重要的是你输入命令并查看输出与我的相同。
 - en: 'If you have an error, it will look like this:'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果出现错误，它会看起来像这样：
 - en: '[PRE1]'
+  id: totrans-19
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: It’s important that you can read these error messages because you will be making
     many of these mistakes. Even I make many of these mistakes. Let’s look at this
     line by line.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 重要的是你能够阅读这些错误消息，因为你将犯许多这样的错误。即使我也会犯许多这样的错误。让我们逐行查看这个。
 - en: 1\. We ran our command in the Jupyter cell with `SHIFT-ENTER`.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 我们使用`SHIFT-ENTER`在Jupyter单元格中运行了我们的命令。
 - en: 2\. Python tells us that the cell has an error on line 3.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. Python告诉我们该单元格在第3行有一个错误。
 - en: 3\. It prints this line of code for us to see it.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 它为我们打印出这行代码以供查看。
 - en: 4\. Then it puts a `^` (caret) character to point at where the problem is. Notice
     the missing `"` (double-quote) character the end though?
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 然后它放置一个`^`（插入符）字符指向问题所在的地方。注意结尾缺少`"`（双引号）字符了吗？
 - en: 5\. Finally, it prints out a “SyntaxError” and tells us something about what
     might be the error. Usually these errors are very cryptic, but if you copy that
     text into a search engine, you will find someone else who’s had that error, and
     you can probably figure out how to fix it.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 最后，它会打印出一个“SyntaxError”并告诉我们可能的错误。通常这些错误非常难以理解，但如果你将该文本复制到搜索引擎中，你会找到其他遇到过这个错误的人，并且你可能会弄清楚如何修复它。
 - en: Study Drills
+  id: totrans-26
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: The Study Drills contain things you should *try* to do. If you can’t, skip it
     and come back later.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 学习练习包含你应该*尝试*做的事情。如果你做不到，跳过它，稍后再回来。
 - en: 'For this exercise, try these things:'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于这个练习，请尝试这些事情：
 - en: 1\. Make your script print another line.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 让你的脚本打印另一行。
 - en: 2\. Make your script print only one of the lines.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 让你的脚本只打印一行。
 - en: 3\. Put a `#` (octothorpe) character at the beginning of a line. What did it
     do? Try to find out what this character does.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 在一行的开头放一个`#`（井号）字符。它有什么作用？试着找出这个字符的作用。
 - en: From now on, I won’t explain how each exercise works unless an exercise is different.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 从现在开始，除非练习有所不同，否则我不会解释每个练习的工作原理。
 - en: Info
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 信息
 - en: An “octothorpe” is also called a “pound,” “hash,” “mesh,” or any number of names.
     Pick the one that makes you chill out.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: “井号”也被称为“磅”，“井号”，“网格”或任何一种名称。选择让你放松的那个。
 - en: Common Student Questions
+  id: totrans-35
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: 'These are *actual* questions that real students have asked when doing this
     exercise:'
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些是真实学生在做这个练习时提出的*实际*问题：
 - en: '**Can I use IDLE?** No, for now just use Jupyter and later we’ll use a regular
     text editor for extra superpowers.'
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我可以使用IDLE吗？** 不，现在只使用Jupyter，稍后我们将使用常规文本编辑器获得额外的超能力。'
 - en: '**Editing the code in Jupyter is annoying. Can I use a text editor?** Totally,
     you can also create a `python` file in Jupyter and get a “good enough” editor.
     In the left panel where you see all your files, click the `+` (plus) icon on the
     top left. That will bring you to the first screen you saw when you started Jupyter.
     Down at the bottom under `$_ Other` you’ll see a button for `Python` `File` with
     the Python logo. Click that and you’ll get an editor to work on your file.'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: '**在Jupyter中编辑代码很烦人。我可以使用文本编辑器吗？** 完全可以，你也可以在Jupyter中创建一个`python`文件并获得一个“足够好”的编辑器。在左侧面板中看到所有文件的地方，点击左上角的`+`（加号）图标。这将带你到你开始Jupyter时看到的第一个屏幕。在底部的`$_
+    Other`下，你会看到一个带有Python标志的`Python` `File`按钮。点击它，你将获得一个编辑器来处理你的文件。'
 - en: '**My code doesn’t run; I just get the prompt back with no output**. You most
     likely took the code in my cell literally and thought that `print("Hello World!")`
     meant to type only `"Hello` `World!"` into the cell, without the `print`. Your
     cell has to be *exactly* like mine.'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我的代码无法运行；我只是得到一个没有输出的提示符**。你很可能字面上采用了我的单元格中的代码，并认为`print("Hello World!")`意味着只在单元格中输入`"Hello`
+    `World!"`，而不包括`print`。你的单元格必须*完全*像我的一样。'

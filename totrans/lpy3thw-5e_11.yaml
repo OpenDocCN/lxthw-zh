@@ -1,49 +1,73 @@
 - en: Exercise 9. Multi-line Strings
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 9. 多行字符串
 - en: By now you should realize the pattern for this book is to use more than one
     exercise to teach you something new. I start with code that you might not understand,
     and then more exercises explain the concept. If you don’t understand something
     now, you will later as you complete more exercises. Write down what you don’t
     understand, and keep going.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你应该意识到这本书的模式是使用多个练习来教授你新知识。我从你可能不理解的代码开始，然后更多的练习来解释概念。如果你现在不理解某些内容，随着完成更多练习，你以后会理解的。记下你不理解的内容，然后继续。
 - en: 'Listing 9.1: ex9.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '代码清单 9.1: ex9.py'
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What You Should See
+  id: totrans-4
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-6
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习扩展
 - en: Repeat the Study Drills from [Exercise 7](ch07.xhtml#ch07).
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 重复来自[练习 7](ch07.xhtml#ch07)的学习扩展。
 - en: Common Student Questions
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why do I get an error when I put spaces between the three double-quotes?**
     You have to type them like `"""` and not `" " "`, meaning with *no* spaces between
     each one.'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我在三个双引号之间放空格时会出错？** 你必须像这样输入`"""`而不是`" " "`, 意思是*每个之间都没有*空格。'
 - en: '**What if I wanted to start the months on a new line?** You simply start the
     string with `\n` like this: `"\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"`.'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如果我想要在新的一行开始月份怎么办？** 你只需像这样以`\n`开头的字符串：`"\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"`。'
 - en: '**Is it bad that my errors are always spelling mistakes?** Most programming
     errors in the beginning (and even later) are simple spelling mistakes, typos,
     or getting simple things out of order.'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我的错误总是拼写错误，这是不好的吗？** 大多数编程错误在开始阶段（甚至后来）都是简单的拼写错误、打字错误或者简单事情的顺序错了。'

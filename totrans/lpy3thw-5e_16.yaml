@@ -1,105 +1,154 @@
 - en: Exercise 14. Prompting and Passing
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习14. 提示和传递
 - en: Let’s do an exercise that uses `argv` and `input` together to ask the user something
     specific. You will need this for the next exercise where you learn to read and
     write files. In this exercise we’ll use `input` slightly differently by having
     it print a simple `>` prompt.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们做一个练习，结合使用`argv`和`input`来询问用户特定的事情。你将在下一个练习中需要这个，那里你将学习如何读写文件。在这个练习中，我们将稍微不同地使用`input`，让它打印一个简单的`>`提示。
 - en: 'Listing 14.1: ex14.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 14.1: ex14.py'
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: We make a variable `prompt` that is set to the prompt we want, and we give that
     to `input` instead of typing it over and over. Now if we want to make the prompt
     something else, we just change it in this one spot and rerun the script. Very
     handy.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们创建一个名为`prompt`的变量，设置为我们想要的提示，并将其提供给`input`，而不是一遍又一遍地输入。现在，如果我们想要将提示更改为其他内容，我们只需在这一个地方更改它，然后重新运行脚本。非常方便。
 - en: Warning!
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: Remember that you have to do the same thing you did in [Exercise 13](ch13.xhtml#ch13)
     and use the Terminal to make this work. This will be the last time for a while,
     but it’s important to know how to run code from the Terminal since that’s a very
     common way to run Python code.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 记住，你必须像在[Exercise 13](ch13.xhtml#ch13)中那样做，并使用终端使其工作。这将是一段时间内的最后一次，但重要的是要知道如何从终端运行代码，因为这是运行Python代码的一种常见方式。
 - en: What You Should See
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: When you run this, remember that you have to give the script your name for the
     `argv` arguments.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 运行此代码时，请记住必须为`argv`参数提供你的名字。
 - en: '[PRE1]'
+  id: totrans-9
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Find out what the games Zork and Adventure were. Try to find a copy and
     play them.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 找出Zork和Adventure是什么游戏。尝试找到一份副本并玩一玩。
 - en: 2\. Change the `prompt` variable to something else entirely.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 将`prompt`变量完全更改为其他内容。
 - en: 3\. Add another argument and use it in your script, the same way you did in
     the previous exercise with `first, second = ARGV`.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 添加另一个参数，并在你的脚本中使用它，就像在上一个练习中使用`first, second = ARGV`一样。
 - en: 4\. Make sure you understand how I combined a `"""` style multi-line string
     with the `{}` format activator as the last print.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 确保你理解我是如何将`"""`样式的多行字符串与`{}`格式激活器结合在一起作为最后一个打印的。
 - en: 5\. Try to find a way to run this in Jupyter. You will probably have to replace
     the code that uses `argv` with something else, like some variables.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 尝试找到在Jupyter中运行此代码的方法。你可能需要用其他东西替换使用`argv`的代码，比如一些变量。
 - en: Common Student Questions
+  id: totrans-16
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**I get** `SyntaxError: invalid syntax` **when I run this script**. Again,
     you have to run it right on the command line, not inside Python. If you type `python3`
     and then try to type `python3` `ex14.py Zed`, it will fail because you are running
     *Python inside Python*. Close your window and then just type `python3 ex14.py
     Zed`.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '**当我运行这个脚本时，我收到** `SyntaxError: invalid syntax`。再次强调，你必须在命令行上正确运行它，而不是在Python内部。如果你输入`python3`然后尝试输入`python3
+    ex14.py Zed`，它将失败，因为你是在*Python内部运行Python*。关闭窗口，然后只需输入`python3 ex14.py Zed`。'
 - en: '**I don’t understand what you mean by changing the prompt**. See the variable
     `prompt = ''> ''`. Change that to have a different value. You know this; it’s
     just a string and you’ve done 13 exercises making them, so take the time to figure
     it out.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我不明白你所说的改变提示是什么意思**。看看变量`prompt = ''> ''`。将其更改为其他值。你知道这个；这只是一个字符串，你已经做了13个练习来创建它，所以花点时间弄清楚。'
 - en: '**I get the error** `ValueError: need more than 1 value to unpack`. Remember
     when I said you need to look at the *What You Should See* (WYSS) section and replicate
     what I did? You need to do the same thing here and focus on how I type the command
     in and why I have a command line argument.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我收到错误** `ValueError: need more than 1 value to unpack`。记得我说过你需要查看*你应该看到的内容*（WYSS）部分并复制我做的吗？你需要在这里做同样的事情，关注我如何输入命令以及为什么要有命令行参数。'
 - en: '**How can I run this from IDLE?** Don’t use IDLE. It’s garbage.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我如何从IDLE运行这个？** 不要使用IDLE。它很糟糕。'
 - en: '**Can I use double-quotes for the** `prompt` **variable?** You totally can.
     Go ahead and try that.'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我可以为** `prompt` **变量使用双引号吗？** 完全可以。试试看吧。'
 - en: '**You have a Tandy computer?** I did when I was little.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '**你有一台Tandy电脑吗？** 我小时候有过。'
 - en: '**I get** `NameError: name ''prompt'' is not defined` **when I run it**. You
     either spelled the name of the `prompt` variable wrong or forgot that line. Go
     back and compare each line of code to mine, from at the bottom of the script to
     the top. Any time you see this error, it means you spelled something wrong or
     forgot to create the variable.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: '**当我运行它时，我收到** `NameError: name ''prompt'' is not defined`。你要么拼错了`prompt`变量的名称，要么忘记了那一行。回去逐行比较我的代码和你的代码，从脚本底部到顶部。每当你看到这个错误时，意味着你拼写错了或忘记创建变量。'

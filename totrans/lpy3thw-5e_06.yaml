@@ -1,7 +1,9 @@
 - en: Exercise 4. Variables and Names
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 4. 变量和名称
 - en: Now you can print things with `print`, and you can do math. The next step is
     to learn about variables. In programming, a variable is nothing more than a name
     for something, similar to how my name “Zed” is a name for “the human who wrote
@@ -9,105 +11,159 @@
     like English and because they have lousy memories. If they didn’t use good names
     for things in their software, they’d get lost when they tried to read their code
     again.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你可以用`print`打印东西，还可以进行数学运算。下一步是学习关于变量的知识。在编程中，变量只不过是某物的名称，类似于我的名字“Zed”是“写这本书的人类”的名称。程序员使用这些变量名称使他们的代码更像英语，并且因为他们的记忆力不好。如果他们在软件中不使用良好的名称，当他们再次阅读代码时就会迷失方向。
 - en: 'If you get stuck with this exercise, remember the tricks you have been taught
     so far for finding differences and focusing on details:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你在这个练习中遇到困难，记住你到目前为止学到的找出差异和专注细节的技巧：
 - en: 1\. Write a comment above each line explaining to yourself what it does in English.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 在每一行上面写一个注释，用英语解释它的作用。
 - en: 2\. Read your Python code backward.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 反向阅读你的Python代码。
 - en: 3\. Read your Python code out loud, saying even the characters.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 大声朗读你的Python代码，甚至说出字符。
 - en: 'Listing 4.1: ex4.py'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表 4.1: ex4.py'
 - en: '[PRE0]'
+  id: totrans-7
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Info
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 信息
 - en: The _ in `space_in_a_car` is called an underscore character. Find out how to
     type it if you do not already know. We use this character a lot to put an imaginary
     space between words in variable names.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: '`space_in_a_car`中的`_`被称为下划线字符。如果你还不知道如何输入它，请找出如何输入。我们经常使用这个字符在变量名中的单词之间放置一个虚拟空格。'
 - en: What You Should See
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的结果
 - en: '[PRE1]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-12
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 练习
 - en: 'When I wrote this program the first time, I had a mistake, and Python told
     me about it like this:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我第一次编写这个程序时，我犯了一个错误，Python像这样告诉我：
 - en: '[PRE2]'
+  id: totrans-14
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Explain this error in your own words. Make sure you use line numbers and explain
     why.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 用你自己的话解释这个错误。确保使用行号并解释原因。
 - en: 'Here are more drills:'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里有更多练习：
 - en: 1\. I used 4.0 for `space_in_a_car`, but is that necessary? What happens if
     it’s just 4?
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 我用4.0代表`space_in_a_car`，但这是必要的吗？如果只是4会发生什么？
 - en: 2\. Remember that 4.0 is a `floating point` number. It’s just a number with
     a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 记住4.0是一个`浮点数`。它只是一个带有小数点的数字，你需要用4.0而不是只有4，这样它就是浮点数了。
 - en: 3\. Write comments above each of the variable assignments.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 在每个变量赋值上面写注释。
 - en: 4\. Make sure you know what `=` is called (equals) and that its purpose is to
     give data (numbers, strings, etc.) names (`cars_driven`, `passengers`).
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 确保你知道`=`被称为什么（等于号），它的目的是给数据（数字、字符串等）命名（`cars_driven`、`passengers`）。
 - en: 5\. Remember that `_` is an underscore character.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 记住`_`是一个下划线字符。
 - en: 6\. Try running `python3` from the Terminal as a calculator like you did before,
     and use variable names to do your calculations. Popular variable names are also
     `i`, `x`, and `j`.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 尝试像之前一样从终端运行`python3`作为计算器，并使用变量名进行计算。常用的变量名还有`i`、`x`和`j`。
 - en: Common Student Questions
+  id: totrans-23
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**What is the difference between** `=` **(single-equal) and** `==` **(double-equal)?**
     The `=` (single-equal) assigns the value on the right to a variable on the left.
     The `==` (double-equal) tests whether two things have the same value. You’ll learn
     about this later.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`=`（单等号）和** `==` **（双等号）之间有什么区别？** `=`（单等号）将右侧的值赋给左侧的变量。`==`（双等号）测试两个值是否相同。你以后会学到这个。'
 - en: '**Can we write** `x=100` **instead of** `x = 100`**?** You can, but it’s bad
     form. You should add space around operators like this so that it’s easier to read.'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我们可以写** `x=100` **而不是** `x = 100`**吗？** 可以，但这是不好的形式。你应该在操作符周围添加空格，这样更容易阅读。'
 - en: '**What do you mean by “read the file (code) backward”?** Very simple. Imagine
     you have a file with 16 lines of code in it. Start at line 16, and compare it
     to my code at line 16\. Then do it again for 15, and so on until you’ve read all
     of the code backward.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '**“反向阅读文件（代码）”是什么意思？** 非常简单。想象你有一个有16行代码的文件。从第16行开始，将其与我在第16行的代码进行比较。然后再对第15行进行同样的操作，依此类推，直到你将所有代码都反向阅读完。'
 - en: '**Why did you use** `4.0` **for** `space_in_a_car`**?** It is mostly so you
     can then find out what a floating point number is and ask this question. See the
     *Study Drills* section.'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么你在** `space_in_a_car` **中使用** `4.0`**？** 主要是为了让你了解什么是浮点数，并提出这个问题。参见*练习*部分。'

@@ -1,84 +1,122 @@
 - en: Exercise 2. Comments and Pound Characters
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习2. 注释和井号字符
 - en: 'Comments are very important in your programs. They are used to tell you what
     something does in English, and they are used to disable parts of your program
     if you need to remove them temporarily. Here’s how you use comments in Python:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在你的程序中，注释非常重要。它们用于用英语告诉你某件事情的作用，并且用于暂时禁用程序的某些部分。以下是如何在Python中使用注释：
 - en: 'Listing 2.1: ex2.py'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表2.1：ex2.py
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: From now on, I’m going to write code like this. It is important for you to understand
     that everything does not have to be literal. If my Jupyter looks a little different
     from yours or if I’m using a text editor, the results will be the same. Focus
     more on the textual output and less on the visual display such as fonts and colors.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 从现在开始，我会这样写代码。你需要明白并不是所有东西都必须字面意思。如果我的Jupyter看起来与你的有些不同，或者我在使用文本编辑器，结果都是一样的。更多关注文本输出，少关注视觉显示，比如字体和颜色。
 - en: What You Should See
+  id: totrans-5
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Again, I’m not going to show you screenshots of all the Terminals possible.
     You should understand that the preceding is not a literal translation of what
     your output should look like visually, but the text is what you focus on.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 再次强调，我不会展示所有可能的终端的截图。你应该明白上述内容并不是你的输出在视觉上应该看起来的字面翻译，而是你应该关注的文本内容。
 - en: Study Drills
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Find out if you were right about what the `#` character does and make sure
     you know what it’s called (octothorpe or pound character).
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 查明你对`#`字符的理解是否正确，并确保你知道它的名称（井号或磅字符）。
 - en: 2\. Take your code and review each line going backward. Start at the last line,
     and check each word in reverse against what you should have typed.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 拿起你的代码，倒着检查每一行。从最后一行开始，逆向检查每个单词是否与你应该输入的相符。
 - en: 3\. Did you find more mistakes? Fix them.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 你找到更多错误了吗？修正它们。
 - en: 4\. Read what you typed out loud, including saying each character by its name.
     Did you find more mistakes? Fix them.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 大声朗读你输入的内容，包括按名称说出每个字符。你找到更多错误了吗？修正它们。
 - en: Common Student Questions
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Are you sure** `#` **is called the pound character?** I call it the octothorpe
     because that is the only name that no one country uses and that works in every
     country. Every country thinks its name for this one character is both the most
     important way to do it and the only way it’s done. To me this is simply arrogance
     and, really, y’all should just chill out and focus on more important things like
     learning to code.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '**你确定** `#` **被称为井号字符吗？** 我称其为八角符号，因为这是唯一一个没有一个国家使用并且在每个国家都有效的名称。每个国家都认为对于这个字符的命名方式是最重要的，也是唯一的方式。对我来说，这只是傲慢，实际上，大家应该冷静下来，更专注于更重要的事情，比如学习编程。'
 - en: '**Why does the** `#` **in** `print("Hi # there.")` **not get ignored?** The
     `#` in that code is inside a string, so it will be put into the string until the
     ending `"` character is hit. Pound characters in strings are just considered characters,
     not comments.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么** `print("Hi # there.")` **中的** `#` **不会被忽略？** 该代码中的`#`在一个字符串内，因此它会一直被放入字符串，直到结束的`"`字符出现。字符串中的井号字符只被视为字符，而不是注释。'
 - en: '**How do I comment out multiple lines?** Put a `#` in front of each one.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如何注释掉多行？** 在每一行前面加上`#`。'
 - en: '**I can’t figure out how to type a** `#` **character on my country’s keyboard.
     How do I do that?** Some countries use the ALT key and combinations of other keys
     to print characters foreign to their language. You’ll have to search online to
     see how to type it.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我不知道如何在我国的键盘上输入** `#` **字符。我该怎么做？** 一些国家使用ALT键和其他键的组合来打印与其语言不同的字符。你需要上网搜索如何输入它。'
 - en: '**Why do I have to read code backward?** It’s a trick to make your brain not
     attach meaning to each part of the code, and doing that makes you process each
     piece exactly. This catches errors and is a handy error-checking technique.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我要倒着读代码？** 这是一个技巧，让你的大脑不会将代码的每个部分赋予意义，这样做可以让你精确处理每个部分。这可以捕捉错误，并且是一个方便的错误检查技术。'

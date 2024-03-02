@@ -1,77 +1,117 @@
 - en: Exercise 11. Asking People Questions
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 11. 向人们提问
 - en: Now it is time to pick up the pace. You are doing a lot of printing to get you
     familiar with typing simple things, but those simple things are fairly boring.
     What we want to do now is get data into your programs. This is a little tricky
     because you have to learn to do two things that may not make sense right away,
     but trust me and do them anyway. They will make sense in a few exercises.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在是加快节奏的时候了。你一直在打印以便熟悉输入简单的东西，但那些简单的东西相当无聊。我们现在想要做的是将数据输入到你的程序中。这有点棘手，因为你必须学会做两件可能一开始不太明白的事情，但相信我，无论如何都要做。在几个练习后，它们会变得清晰起来。
 - en: 'Most of what software does is the following:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 软件大部分的功能是以下内容：
 - en: 1\. Take some kind of input from a person.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 从一个人那里获取某种输入。
 - en: 2\. Change it.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 改变它。
 - en: 3\. Print out something to show how it changed.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 打印出一些内容以展示它是如何改变的。
 - en: So far you have been printing strings, but you haven’t been able to get any
     input from a person. You may not even know what “input” means, but type this code
     in anyway and make it exactly the same. In the next exercise we’ll do more to
     explain input.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 到目前为止，你一直在打印字符串，但还没有能够从一个人那里获取任何输入。你可能甚至不知道“输入”是什么意思，但无论如何都要输入这段代码，并确保完全相同。在下一个练习中，我们将做更多的解释输入的内容。
 - en: 'Listing 11.1: ex11.py'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 清单 11.1：ex11.py
 - en: '[PRE0]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Info
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 信息
 - en: We put an `end=' '` at the end of each print line. This tells `print` to not
     end the line with a newline character and go to the next line.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在每个打印行的末尾加上了`end=' '`。这告诉`print`不要以换行符结束该行并转到下一行。
 - en: What You Should See
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE1]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Go online and find out what Python’s `input` does.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 上网查找Python的`input`是做什么的。
 - en: 2\. Can you find other ways to use it? Try some of the samples you find.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 你能找到其他使用它的方法吗？尝试一些你找到的示例。
 - en: 3\. Write another “form” like this to ask some other questions.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 写另一个像这样的“表格”来询问其他问题。
 - en: Common Student Questions
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**How do I get a number from someone so I can do math?** That’s a little advanced,
     but try `x =` `int(input())`, which gets the number as a string from `input()`
     and then converts it to an integer using `int()`.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我如何从某人那里获取一个数字以便进行数学计算？** 这有点高级，但尝试`x =` `int(input())`，它从`input()`获取数字作为字符串，然后使用`int()`将其转换为整数。'
 - en: '**I put my height into raw input using** `input("6''2")` **but it doesn’t work**.
     You don’t put your height in there; you type it directly into your Terminal. First
     thing is, go back and make the code exactly like mine. Next, run the script, and
     when it pauses, type your height in at your keyboard. That’s all there is to it.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我使用** `input("6''2")` **将我的身高输入到原始输入中，但它不起作用**。你不需要在那里输入你的身高；你直接在终端中输入。首先，回去把代码完全改成和我的一样。接下来，运行脚本，当它暂停时，在键盘上输入你的身高。就是这么简单。'

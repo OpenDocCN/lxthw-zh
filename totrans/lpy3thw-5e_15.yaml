@@ -1,69 +1,105 @@
 - en: Exercise 13. Parameters, Unpacking, Variables
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习13. 参数、解包、变量
 - en: We’re now going to take a quick detour into the world of the `Terminal` (aka
     `PowerShell`) version of `python`. If you did the [First](https://learncodethehardway.org/first_steps/python/)
     Steps correctly, you should have learned how to start your Terminal and run a
     simple Python script. Later in this course you’ll learn how to use the Terminal
     more extensively, but in this exercise we’ll just do a tiny test.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将快速进入`终端`（又称`PowerShell`）版本的`python`世界。如果你正确完成了[First](https://learncodethehardway.org/first_steps/python/)
+    Steps，你应该已经学会了如何启动终端并运行一个简单的Python脚本。在本课程的后面，你将学习如何更广泛地使用终端，但在这个练习中，我们只是做一个小小的测试。
 - en: 'First, I want you to create a file named `ex13.py` using Jupyter’s new Python
     file:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，我希望你使用Jupyter的新Python文件创建一个名为`ex13.py`的文件：
 - en: 1\. On the left there’s a list of the files in your directory.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 左侧有一个列出你目录中文件的列表。
 - en: 2\. Above that list is a blue `[+]` button.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 在那个列表的上方有一个蓝色的`[+]`按钮。
 - en: 3\. Click that button, and scroll to the very bottom where there should be a
     button for `Python` `File` with the Python “blue and yellow snakes” logo.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 点击那个按钮，滚动到底部，那里应该有一个带有Python“蓝色和黄色蛇”标志的`Python` `File`按钮。
 - en: 4\. Click that button to open a new panel you can type code into.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 点击那个按钮打开一个新的面板，你可以在其中输入代码。
 - en: 5\. Right away, use your mouse to select `File > Save Python File` or hold `CTRL`
     and hit `s` (normally shown as `Ctrl-S` but you don’t use shift to get that `S`).
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 立即使用鼠标选择`File > Save Python File`或按住`CTRL`键并按下`s`键（通常显示为`Ctrl-S`，但你不需要按住Shift键来输入`S`）。
 - en: 6\. This will open a modal prompt that says “Rename File.” Type “ex13” and it
     should keep the `.py`, but be sure that this input says `ex13.py`.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 这将打开一个模态提示，上面写着“重命名文件”。输入“ex13”，它应该保留`.py`，但确保这个输入显示为`ex13.py`。
 - en: 7\. Hit the blue `[Rename]` button to save the file in that directory.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 7\. 点击蓝色的`[Rename]`按钮将文件保存在那个目录中。
 - en: 'Once that file is saved, you can then type this code into the file:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 保存了那个文件之后，你可以将以下代码输入到文件中：
 - en: 'Listing 13.1: ex13.py'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表13.1: ex13.py'
 - en: '[PRE0]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'I recommend you type only one or two lines of code and then do the following:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 我建议你只输入一两行代码，然后执行以下操作：
 - en: 1\. Save your file again. `CTRL-s` is the easiest way, but use the menu if you
     can’t remember it. This time it shouldn’t ask you to “rename” the file but instead
     should just save it.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 再次保存你的文件。按下`CTRL-s`是最简单的方法，但如果你记不住，可以使用菜单。这次它不应该要求你“重命名”文件，而应该直接保存。
 - en: 2\. Your file is now saved to your projects directory. If you remember from
     the *[First Steps](https://learncodethehardway.org/first_steps/python/)* section,
     you created a directory in `~/Projects/lpythw`, and when you run `jupyter-lab`,
     you first `cd ~/Projects/lpythw`.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 你的文件现在保存在你的项目目录中。如果你还记得*[First Steps](https://learncodethehardway.org/first_steps/python/)*部分，你创建了一个目录在`~/Projects/lpythw`，当你运行`jupyter-lab`时，你首先`cd
+    ~/Projects/lpythw`。
 - en: 3\. Now start a new Terminal (aka PowerShell on Windows) and `cd ~/Projects/lpythw/`
     again to get a Terminal there.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 现在打开一个新的终端（在Windows上是PowerShell），再次输入`cd ~/Projects/lpythw/`以进入该终端。
 - en: 4\. Finally, type `python ex13.py first 2nd 3rd`. (Type this without the Terminal
     period.) When you do, you should see *absolutely nothing*! Yes, this is *very
     important*. You only typed one or two lines, so there are no `print` lines in
@@ -71,187 +107,272 @@
     errors, then stop and figure out what you’re doing wrong. Did you type that line
     wrong? Did you run `python ex13.py`? That is also wrong. You have to run `python
     ex13.py first 2nd 3rd`. (Again, type without the Terminal period.)
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 最后，输入`python ex13.py first 2nd 3rd`。（在终端中输入时不要加句号。）当你这样做时，你应该看到*绝对什么都没有*！是的，这点*非常重要*。你只输入了一两行代码，所以在你的代码中没有`print`语句。这意味着它不会打印任何内容，但这是好事。如果出现错误，那么停下来弄清楚你做错了什么。你是不是打错了那行代码？你运行了`python
+    ex13.py`吗？那也是错误的。你必须运行`python ex13.py first 2nd 3rd`。（再次强调，不要在终端中加句号。）
 - en: If You Get Lost
+  id: totrans-18
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 如果你迷路了
 - en: 'If you’re confused about where you are, use the `open` command on macOS and
     the `start` command on Windows. If you type this:'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你对自己所在位置感到困惑，可以在macOS上使用`open`命令，在Windows上使用`start`命令。如果你输入以下内容：
 - en: '[PRE1]'
+  id: totrans-20
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: 'on a macOS computer, it will open a window with the contents of where your
     Terminal is currently located. The same happens when you type:'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 在macOS电脑上，它会打开一个窗口，显示当前终端所在位置的内容。当你输入以下内容时，同样的情况也会发生：
 - en: '[PRE2]'
+  id: totrans-22
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: on Windows inside PowerShell. Doing this will help you connect your idea of
     “files are in folders in a window” to “files are in directories in the Terminal
     (PowerShell).”
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Windows中在PowerShell中。这样做将帮助你将“文件在窗口中的文件夹中”这个概念连接到“文件在终端（PowerShell）中的目录中”。
 - en: If this is the first time you’re seeing this advice, then go back to the *[First
     Steps](https://learncodethehardway.org/first_steps/python/)* section and review
     it as it seems you missed this important concept.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果这是你第一次看到这个建议，那么回到*[First Steps](https://learncodethehardway.org/first_steps/python/)*部分，重新查看它，因为你似乎错过了这个重要概念。
 - en: Code Description
+  id: totrans-25
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 代码描述
 - en: On line `1` we have what’s called an “import.” This is how you add features
     to your script from the Python feature set. Rather than give you all the features
     at once, Python asks you to say what you plan to use. This keeps your programs
     small, but it also acts as documentation for other programmers who read your code
     later.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 在第`1`行，我们有一个称为“import”的东西。这是你从Python功能集中添加功能到你的脚本的方式。Python不会一次性给你所有功能，而是要求你说出你打算使用的功能。这样可以使你的程序保持简洁，同时也作为其他程序员阅读你代码时的文档。
 - en: The `argv` is the “argument variable,” a very standard name in programming that
     you will find used in many other languages. This variable *holds* the arguments
     you pass to your Python script when you run it. In the exercises you will get
     to play with this more and see what happens.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: '`argv`是“参数变量”，在编程中是一个非常标准的名称，你会发现它在许多其他语言中被使用。这个变量*保存*你在运行Python脚本时传递的参数。在练习中，你将有机会更多地玩弄它，并看看会发生什么。'
 - en: 'Line 3 “unpacks” `argv` so that, rather than holding all the arguments, it
     gets assigned to four variables you can work with: `script`, `first`, `second`,
     and `third`. This may look strange, but “unpack” is probably the best word to
     describe what it does. It just says, “Take whatever is in `argv`, unpack it, and
     assign it to all of these variables on the left in order.”'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 第3行“unpacks” `argv`，这样，它不再保存所有参数，而是被分配给四个你可以使用的变量：`script`、`first`、`second`和`third`。这可能看起来很奇怪，但“unpack”可能是最好的描述它的词。它只是说，“取出`argv`中的任何内容，解包它，并按顺序分配给左边的所有这些变量。”
 - en: After that we just print them out like normal.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 之后我们就像平常一样打印它们出来。
 - en: Hold Up! Features Have Another Name
+  id: totrans-30
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 等一下！features还有另一个名字
 - en: 'I call them “features” here (these little things you `import` to make your
     Python program do more), but nobody else calls them features. I just used that
     name because I needed to trick you into learning what they are without jargon.
     Before you can continue, you need to learn their real name: `modules`.'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在这里称它们为“features”（你`import`来使你的Python程序做更多事情的小东西），但没有人称它们为features。我只是用这个名字是因为我需要欺骗你学习它们是什么，而不带有行话。在继续之前，你需要学习它们的真实名称：`modules`。
 - en: From now on we will be calling these “features” that we `import` *modules*.
     I’ll say things like, “You want to import the `sys` module.” They are also called
     “libraries” by other programmers, but let’s just stick with modules.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 从现在开始，我们将称这些为“features”，我们`import`*modules*。我会说像，“你想要导入`sys`模块。”其他程序员也称它们为“库”，但让我们坚持使用模块。
 - en: What You Should See
+  id: totrans-33
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: Warning!
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: Pay attention! You have been running Python scripts without command line arguments.
     If you type only `python3 ex13.py`, you are doing it wrong! Pay close attention
     to how I run it. This applies any time you see argv being used.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意！你一直在没有命令行参数运行Python脚本。如果你只输入`python3 ex13.py`，那么你做错了！请仔细看我是如何运行的。每当看到使用argv时都适用。
 - en: 'When you are done typing in all of the code, it should finally run like this
     (and you *must* pass *three* command line arguments):'
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你输入完所有代码后，它应该像这样最终运行（而且你*必须*传递*三个*命令行参数）：
 - en: '[PRE3]'
+  id: totrans-37
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE3]'
 - en: 'This is what you should see when you do a few different runs with different
     arguments:'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是你使用不同参数进行几次运行时应该看到的内容：
 - en: '[PRE4]'
+  id: totrans-39
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE4]'
 - en: 'Here’s one more example showing it can be anything:'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里有一个更多的例子，显示它可以是任何东西：
 - en: '[PRE5]'
+  id: totrans-41
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE5]'
 - en: You can actually replace `first`, `2nd`, and `3rd` with any three things you
     want.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 你实际上可以用任何三个你想要的东西替换`first`、`2nd`和`3rd`。
 - en: 'If you do not run it correctly, then you will get an error like this:'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你没有正确运行它，那么你会得到这样的错误：
 - en: 'Command failed: python ex13.py first 2nd Traceback (most recent call last):
     File “/Users/zedshaw/Project s/learncodethehardway.com/private/db/modules/learn-python-the-hard-way-5e-section-1/code/ex13.py”,
     line 3, in script, first, second, third = argv ValueError: not enough values to
     unpack (expected 4, got 3)'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: '命令失败：python ex13.py first 2nd Traceback (most recent call last): File “/Users/zedshaw/Project
+    s/learncodethehardway.com/private/db/modules/learn-python-the-hard-way-5e-section-1/code/ex13.py”，第3行，在脚本、第一个、第二个、第三个
+    = argv ValueError: not enough values to unpack (expected 4, got 3)'
 - en: This happens when you do not put enough arguments on the command when you run
     it (in this case just `first 2nd`). Notice that when I run it, I give it `first
     2nd`, which caused it to give an error about “need more than 3 values to unpack”
     telling you that you didn’t give it enough parameters.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你在运行时没有在命令中放足够的参数时会发生这种情况（在这种情况下只有`first 2nd`）。注意，当我运行它时，我给了它`first 2nd`，这导致它出现了一个关于“需要超过3个值来解包”的错误，告诉你没有给足够的参数。
 - en: Study Drills
+  id: totrans-46
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Try giving fewer than three arguments to your script. See that error you
     get? See if you can explain it.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 尝试给你的脚本提供少于三个参数。看看你会得到什么错误？看看你能否解释清楚。
 - en: 2\. Write a script that has fewer arguments and one that has more. Make sure
     you give the unpacked variables good names.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 编写一个参数较少的脚本和一个参数较多的脚本。确保给解包的变量起一个好名字。
 - en: 3\. Combine `input` with `argv` to make a script that gets more input from a
     user. Don’t overthink it. Just use `argv` to get something, and use `input` to
     get something else from the user.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 结合`input`和`argv`编写一个脚本，从用户那里获取更多输入。不要想得太多。只需使用`argv`获取一些内容，然后使用`input`从用户那里获取其他内容。
 - en: 4\. Remember that modules give you features. Modules. Modules. Remember this
     because we’ll need it later.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 记住模块给你提供了功能。模块。模块。记住这一点，因为我们以后会用到它。
 - en: Common Student Questions
+  id: totrans-51
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**When I run it, I get** `ValueError: need more than 1 value to unpack`. Remember
     that an important skill is paying attention to details. If you look at the *What
     You Should See* section, you see that I run the script with parameters on the
     command line. You should replicate how I ran it exactly. There’s also a giant
     warning right there explaining the mistake you just made, so again, please pay
     attention.'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: '**当我运行它时，我得到** `ValueError: need more than 1 value to unpack`。记住一个重要的技能是注意细节。如果你看一下*你应该看到的内容*部分，你会看到我是如何在命令行上运行脚本的。你应该完全复制我运行它的方式。那里还有一个巨大的警告解释了你刚刚犯的错误，所以请再次注意。'
 - en: '**What’s the difference between** `argv` **and** `input()`**?** The difference
     has to do with where the user is required to give input. If they give your script
     inputs on the command line, then you use `argv`. If you want them to input using
     the keyboard while the script is running, then use `input()`.'
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`argv`和** `input()` **之间有什么区别？** 区别在于用户需要在哪里提供输入。如果他们在命令行上给你的脚本输入，那么使用`argv`。如果你希望他们在脚本运行时使用键盘输入，那么使用`input()`。'
 - en: '**Are the command line arguments strings?** Yes, they come in as strings, even
     if you typed numbers on the command line. Use `int()` to convert them just like
     with `int(input())`.'
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: '**命令行参数是字符串吗？** 是的，它们作为字符串传入，即使你在命令行上输入了数字。使用`int()`来转换它们，就像使用`int(input())`一样。'
 - en: '**How do you use the command line?** You should have learned to use it very
     quickly and fluently by now, but if you need to learn it at this stage, then read
     Appendix A, “Command Line Crash Course.”'
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: '**你如何使用命令行？** 你应该已经学会如何快速流利地使用它了，但如果你在这个阶段需要学习，那么请阅读附录A，“命令行速成课程”。'
 - en: '**I can’t combine** `argv` **with** `input()`. Don’t overthink it. Just slap
     two lines at the end of this script that uses `input()` to get something and then
     print it. From that, start playing with more ways to use both in the same script.'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我无法将** `argv` **与** `input()` **结合起来**。不要想得太多。只需在脚本末尾加上两行，使用`input()`获取一些内容然后打印出来。从那里开始尝试更多同时使用两者的方法。'
 - en: '**Why can’t I do this** `input(''? '') = x`**?** Because that’s backward to
     how it should work. Do it the way I do it and it’ll work.'
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我不能这样做** `input(''? '') = x`**？** 因为这是反向的工作方式。按照我的方式去做，它就会起作用。'
 - en: '**Why do you want me to type one line at a time?** The biggest mistake beginners
     make—and professionals too—is they type a massive block of code, run it once,
     and then cry because of all the errors they have to fix. Errors in programming
@@ -261,5 +382,7 @@
     just typed. When you type 100 lines of code, you’ll spend the next 5 days trying
     to find all the errors and just give up. Save yourself the trouble and just type
     a little at a time. It’s what I—and most capable programmers—do in real life.'
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么你要让我一次只输入一行？** 初学者和专业人士最常犯的错误就是他们输入一大块代码，运行一次，然后因为所有的错误而哭泣。编程语言中的错误令人沮丧，并经常指向源代码中错误的位置。如果你一次只输入几行代码，你会更频繁地运行代码，当出现错误时，你知道这可能是你刚刚输入的那几行代码有问题。当你输入100行代码时，你将花费接下来的5天来寻找所有的错误，最终放弃。省点麻烦，一次只输入一点点。这就是我和大多数有能力的程序员在现实生活中所做的。'

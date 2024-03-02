@@ -1,32 +1,45 @@
 - en: Exercise 0. Gearing Up
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 0. 准备工作
 - en: This exercise has no code. It is simply the exercise you complete to get your
     computer to run Python. You should follow these instructions as exactly as possible.
     If you have problems following the written instructions, then watch the included
     videos for your platform.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习没有代码。这只是你完成的练习，让你的计算机运行 Python。你应该尽可能准确地遵循这些说明。如果你在遵循书面说明时遇到问题，请观看包含的适用于你平台的视频。
 - en: General Instructions
+  id: totrans-2
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 通用说明
 - en: Your general task is to get a “programming environment” with tools you can use
     to write code. Nearly every programmer has their own specialized environment,
     but at first you’ll want something simple that can get you through this course.
     After the course you’ll know enough about programming to then waste the rest of
     your life trying every tool you can imagine. It’s a lot of fun.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 你的一般任务是获得一个“编程环境”，其中包含你可以用来编写代码的工具。几乎每个程序员都有自己专门的环境，但起初你会想要一些简单的东西，可以帮助你完成这门课程。课程结束后，你将了解足够的编程知识，然后可以浪费余生尝试你能想象到的每种工具。这是非常有趣的。
 - en: 'What you’ll need is the following:'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 你需要的是以下内容：
 - en: • [Jupyter](https://jupyter.org/), which will be used in the first part of the
     book to get you started easily. Jupyter is a programming and data analysis environment
     that uses many languages, but we’ll use Python.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: • [Jupyter](https://jupyter.org/)，将在书的第一部分中用于轻松入门。Jupyter 是一个使用多种语言的编程和数据分析环境，但我们将使用
+    Python。
 - en: • Python. The version of Python you install *mostly* doesn’t matter so long
     as it’s older than version 3.6\. Versions of Python (and other software) use numbers
     to indicate their age, and the position of the numbers determines how much changed
@@ -35,169 +48,247 @@
     fixes. That means if you have version 3.8 and version 3.10, then there are no
     major changes, but there are minor changes. If you have versions 3.10.1 and 3.10.2,
     then there are only bug fixes.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: • Python。你安装的 Python 版本*基本上*不重要，只要它比版本 3.6 旧。Python（和其他软件）的版本使用数字表示它们的年龄，数字的位置决定了版本之间的变化程度。一般规则是第一个数字表示“主要变化”，第二个数字表示“次要变化”，第三个数字表示仅有错误或安全修复。这意味着如果你有版本
+    3.8 和版本 3.10，那么没有主要变化，但有次要变化。如果你有版本 3.10.1 和 3.10.2，那么只有错误修复。
 - en: • A *basic* programmer’s editor. Programmers use very complicated text editors,
     but you should start with something simple that still works as a programmer’s
     editor.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: • 一个*基本*的程序员编辑器。程序员使用非常复杂的文本编辑器，但你应该从一些简单但仍然作为程序员编辑器的东西开始。
 - en: • A Terminal emulator. This is a text-based command interface to your computer.
     If you’ve ever seen a movie with hacking and programming in it, you’ve seen people
     furiously typing green text into a black screen so they can take down an entire
     alien race with their “unix exe 32 pipe attack.” At first you won’t need this,
     but later you’ll “graduate” to using the Terminal as it’s incredibly powerful
     and not too hard to learn.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: • 终端模拟器。这是一个基于文本的命令界面，用于与计算机交互。如果你看过有关黑客和编程的电影，你会看到人们在黑屏上疯狂输入绿色文本，以便使用他们的“unix
+    exe 32 pipe attack”摧毁整个外星种族。起初你不需要这个，但以后你会“毕业”使用终端，因为它非常强大且学习起来并不太难。
 - en: You should have most of the other things you’ll need on your computer already,
     so let’s install each of these requirements for your operating system (OS).
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 你的计算机上应该已经有大部分你需要的其他东西，所以让我们为你的操作系统（OS）安装这些要求中的每一项。
 - en: Minimalist Start
+  id: totrans-10
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 极简启动
 - en: 'The instructions in this exercise are designed to install most of the things
     you need for the rest of the course, but if you want to get going quickly with
     the least amount of work, then install:'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 本练习中的说明旨在安装你在课程中所需的大部分工具，但如果你想尽快开始并付出最少的努力，那么请安装：
 - en: 1\. [Anaconda](https://www.anaconda.com/) to get your Python.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. [Anaconda](https://www.anaconda.com/) 来获取你的 Python。
 - en: 2\. [Jupyter](https://jupyter.org/) to write and run some code.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. [Jupyter](https://jupyter.org/) 用于编写和运行一些代码。
 - en: a. On Windows the best way to run Jupyter is to hit the Windows key (Start menu)
     and type `jupyter-lab`. This will start it in a way that makes sense.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: a. 在 Windows 上运行 Jupyter 的最佳方法是按下 Windows 键（开始菜单）并键入 `jupyter-lab`。这将以合理的方式启动它。
 - en: b. On Linux it should be the same command in your Terminal.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: b. 在 Linux 上，你应该在终端中输入相同的命令。
 - en: c. On macOS you can either type that command in the Terminal or start the app
     like normal.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: c. 在 macOS 上，你可以在终端中输入该命令，或者像平常一样启动应用程序。
 - en: This will give you enough to get started, but eventually you’ll hit exercises
     that need the Terminal and Python from the “command line.” Come back to this exercise
     when you reach that point in the course.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 这将为您提供足够的信息来开始学习，但最终您会遇到需要使用“命令行”中的终端和Python的练习。当您在课程中达到这一点时，请回到这个练习。
 - en: Complete Instructions
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 完整说明
 - en: Eventually you’ll need to install more software to complete the course. The
     problem with installation instructions in books is they become outdated quickly.
     To solve this problem, I have a web page you need to visit with all of the instructions
     for your OS with videos showing you the installations. These instructions are
     updated whenever things change, and the web page includes any errata needed for
     your book.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，您将需要安装更多软件来完成课程。书中的安装说明存在的问题是它们很快就会过时。为了解决这个问题，我有一个网页，您需要访问该网页，其中包含所有适用于您的操作系统的安装说明，并附有视频展示安装过程。这些说明会在事物发生变化时进行更新，并且网页包含您书中所需的任何勘误。
 - en: 'To view these instructions, visit the following link:'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 要查看这些说明，请访问以下链接：
 - en: • [https://learncodethehardway.com/setup/python/](https://learncodethehardway.com/setup/python/)
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: • [https://learncodethehardway.com/setup/python/](https://learncodethehardway.com/setup/python/)
 - en: 'If you’re not able to visit this link for some reason, then here’s what you’ll
     have to install:'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果由于某种原因无法访问此链接，则以下是您需要安装的内容：
 - en: 1\. [Anaconda](https://www.anaconda.com/) to get your Python.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. [Anaconda](https://www.anaconda.com/) 以获取您的Python。
 - en: 2\. [Jupyter](https://jupyter.org/) to write and run some code.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. [Jupyter](https://jupyter.org/) 用于编写和运行一些代码。
 - en: 3\. [Geany](https://geany.org) for editing text later.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. [Geany](https://geany.org) 用于以后编辑文本。
 - en: 4\. On Windows use the full install of [Cmder](https://cmder.app) as your shell.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 在Windows上使用完整安装的[Cmder](https://cmder.app)作为您的shell。
 - en: 5\. On macOS you have Terminal, and Linux has whatever you want.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 在macOS上您有终端，Linux上有您想要的任何东西。
 - en: Testing Your Setup
+  id: totrans-28
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 测试您的设置
 - en: 'Once you have everything installed, go through these steps to confirm that
     everything is working:'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 安装完所有内容后，请按照以下步骤确认一切正常：
 - en: '1\. Start your Terminal and type this command exactly, spaces and all: `mkdir
     lpthw`.'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 启动您的终端并精确输入以下命令，包括空格：`mkdir lpthw`。
 - en: 2\. Once that works, you have a directory `lpthw` where you can place your work.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 一旦安装成功，您将拥有一个名为`lpthw`的目录，您可以在其中放置您的工作。
 - en: 3\. Go into that directory with the command `cd lpthw`. This command “moves”
     your Terminal into that directory so your work is saved there.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 使用命令`cd lpthw`进入该目录。此命令将您的终端“移动”到该目录，以便您的工作保存在那里。
 - en: 4\. A “directory” is also called a “folder” on Windows and macOS. You can make
     the connection between the “directory” in your Terminal and the “folder” you normally
     see by typing `start.` on Windows or `open.` on macOS. This opens the current
     directory into a graphical folder window you’re used to normally seeing. If you’re
     ever lost, type that.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. “目录”在Windows和macOS上也称为“文件夹”。您可以通过在Windows上键入`start.`或在macOS上键入`open.`来在终端中的“目录”和您通常看到的“文件夹”之间建立联系。这将打开当前目录到您通常看到的图形文件夹窗口。如果您迷失了，请键入该命令。
 - en: 5\. The `start` command (`open` on macOS) works like double-clicking that thing
     with your mouse. If you are in the Terminal and want to “open” something, just
     use this command. Let’s say there’s a text file named `test.txt` and you want
     to open it in your editor. Type `start test.txt` on Windows or `open test.txt`
     on macOS.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. `start`命令（macOS上为`open`）的作用类似于用鼠标双击那个东西。如果您在终端中想要“打开”某个东西，只需使用此命令。假设有一个名为`test.txt`的文本文件，您想在编辑器中打开它。在Windows上键入`start
+    test.txt`，在macOS上键入`open test.txt`。
 - en: 6\. Now that you can open your Terminal and open things while in your Terminal,
     you’ll want to start your editor. This is Geany if you’ve been following instructions.
     Start it and create a file named `test.txt` and then save it in the `lpthw` directory
     you made. If you can’t find it, remember you can open it from the Terminal with
     `start` (`open` on macOS) and then use that folder window to find it.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 现在您可以打开终端并在终端中打开文件，您将需要启动您的编辑器。如果您一直在按照说明操作，这个编辑器就是Geany。启动它并创建一个名为`test.txt`的文件，然后将其保存在您创建的`lpthw`目录中。如果找不到它，请记住您可以在终端中使用`start`（macOS上为`open`）打开它，然后使用该文件夹窗口找到它。
 - en: 7\. Once you’ve saved the file in the `lpthw` directory, you should be able
     to type `ls test.txt` in your Terminal to see that it’s there. If you get an error,
     then either you’re not in the `lpthw` directory and need to type `cd ~/lpthw`
     *or* you saved it in the wrong place. Try again until you can do this.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 7\. 一旦你把文件保存在`lpthw`目录中，你应该能够在终端中输入`ls test.txt`来查看它是否存在。如果出现错误，那么要么你不在`lpthw`目录中，需要输入`cd
+    ~/lpthw` *或者* 你把它保存在了错误的地方。请重试直到你能够做到这一点。
 - en: 8\. Finally, in the Terminal, type `jupyter-lab` to start Jupyter and make sure
     it works. It should open your web browser, and then you’ll see the Jupyter app
     inside your browser. It’s kind of like a little website on your personal computer.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 8\. 最后，在终端中输入`jupyter-lab`来启动Jupyter并确保它正常工作。它应该会打开你的网页浏览器，然后你会在浏览器中看到Jupyter应用程序。这有点像你个人电脑上的一个小网站。
 - en: Think of these tasks as a kind of puzzle to solve. If you get stuck, you should
     watch the video for your OS where I show you how to do everything. I think the
     best way to learn this is to first attempt it yourself; then when you get stuck,
     watch the video to see how I did it.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 把这些任务看作是一种需要解决的谜题。如果遇到困难，你应该观看我展示如何完成所有操作的适用于你的操作系统的视频。我认为学习这个最好的方法是首先自己尝试；然后当遇到困难时，观看视频看我是如何做的。
 - en: Learning the Command Line
+  id: totrans-39
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习命令行
 - en: You don’t need to do this right now, but if you’re struggling with the previous
     tasks, you might need to go through the [Command Line](https://learncodethehardway.com/command-line-crash-course/)
     Crash Course to learn the basics of the Terminal (also called the “command line”).
     You won’t need these skills for a while, but the command line is a very good introduction
     to controlling your computer with words. It will also help you with many other
     tasks in programming later, so learning it now can only help.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在不需要立即做这个，但如果你在之前的任务中遇到困难，你可能需要通过[命令行](https://learncodethehardway.com/command-line-crash-course/)快速入门课程来学习终端（也称为“命令行”）的基础知识。你暂时不需要这些技能，但命令行是一个非常好的用文字控制计算机的入门，它也会帮助你以后在编程中完成许多其他任务，所以现在学习它只会有好处。
 - en: Next Steps
+  id: totrans-41
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 下一步
 - en: Once you have everything working, you can continue with the rest of the course.
     If you ever run into trouble, you can email me at [help@learncodethehardway.com](mailto:help@learncodethehardway.com),
     and I’ll help you. When you email me for help, take the time to describe your
     problem in as much detail as possible, and include screenshots.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你把所有东西都搞定了，你就可以继续进行课程的其余部分。如果你遇到问题，可以发邮件给我，邮箱是[help@learncodethehardway.com](mailto:help@learncodethehardway.com)，我会帮助你。当你给我发邮件求助时，请花时间尽可能详细地描述你的问题，并包含截图。

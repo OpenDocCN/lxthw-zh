@@ -1,66 +1,99 @@
 - en: Exercise 12. An Easier Way to Prompt
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习12. 更简单的提示方式
 - en: 'When you typed `input()`, you were typing the `(` and `)` characters, which
     are `parenthesis` characters. For `input` you can also put in a prompt to show
     to a person so they know what to type. Put a string that you want for the prompt
     inside the `()` so that it looks like this:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你输入`input()`时，你实际上输入了`(`和`)`字符，这些是`括号`字符。对于`input`，你也可以输入一个提示，让人知道该输入什么。在`()`内放入你想要的提示字符串，看起来像这样：
 - en: '[PRE0]'
+  id: totrans-2
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: This prompts the user with “Name?” and puts the result into the variable `y`.
     This is how you ask someone a question and get the answer.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 这提示用户输入“姓名？”，并将结果放入变量`y`中。这就是你向某人提问并得到答案的方式。
 - en: This means we can completely rewrite our previous exercise using just `input`
     to do all the prompting.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 这意味着我们可以完全重写我们之前的练习，只需使用`input`来进行所有提示。
 - en: 'Listing 12.1: ex12.py'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表12.1: ex12.py'
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: What You Should See
+  id: totrans-7
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: '[PRE2]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Study Drills
+  id: totrans-9
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. In your Jupyter cell right-click on any `print` and select `Show Contextual
     Help`. This will give you quick documentation for `print`.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 在你的Jupyter单元格中右键点击任何`print`，然后选择`显示上下文帮助`。这将为`print`提供快速文档。
 - en: 2\. If you do this and the panel says “Click on a function to see documentation.”
     then you need to run the code with `SHIFT-ENTER` and then click on the `print`
     function again.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 如果你这样做，面板上会显示“点击函数查看文档。”，那么你需要用`SHIFT-ENTER`运行代码，然后再次点击`print`函数。
 - en: 3\. Next, go to [Google](https://google.com) and search for `python print site:python.org`
     to get official documentation for the Python `print` function.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 接下来，去[Google](https://google.com)搜索`python print site:python.org`以获取Python
+    `print`函数的官方文档。
 - en: Common Student Questions
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why does the Contextual Help disappear?** I’m not sure, but I suspect it
     can’t figure out what function you want documentation for while you’re editing
     the code. Run the code and then suddenly it’ll work. You can also click on any
     other functions in any other cell you work on.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么上下文帮助会消失？** 我不确定，但我怀疑它无法在你编辑代码时找到你想要文档的函数。运行代码，然后突然它就会起作用。你也可以点击你工作的任何其他单元格中的任何其他函数。'
 - en: '**Where does this documentation come from?** These are documentation comments
     added to the code itself, which is why it might be different from the online documentation.
     Get in the habit of studying both when you can.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '**这些文档是从哪里来的？** 这些是添加到代码本身的文档注释，这就是为什么它可能与在线文档不同的原因。养成在可能的情况下同时学习两者的习惯。'

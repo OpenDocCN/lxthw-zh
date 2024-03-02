@@ -1,74 +1,109 @@
 - en: Exercise 6. Strings and Text
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习6. 字符串和文本
 - en: While you have been writing strings, you still do not know what they do. In
     this exercise we create a bunch of variables with complex strings so you can see
     what they are for. First an explanation of strings.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 虽然你一直在写字符串，但你仍然不知道它们是做什么的。在这个练习中，我们创建了一堆带有复杂字符串的变量，这样你就可以看到它们的用途。首先解释一下字符串。
 - en: A string is usually a bit of text you want to display to someone or “export”
     out of the program you are writing. Python knows you want something to be a string
     when you put either `"` (double-quotes) or `'` (single-quotes) around the text.
     You saw this many times with your use of `print` when you put the text you want
     to go inside the string inside `"` or `'` after the `print` to print the string.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个字符串通常是你想要向某人显示或从你正在编写的程序“导出”的一小段文本。当你在文本周围放置`"`（双引号）或`'`（单引号）时，Python知道你想要的是一个字符串。当你在`print`中放置你想要放入字符串中的文本时，你会看到这种情况发生了很多次，放在`print`后面的`"`或`'`中打印字符串。
 - en: 'Strings can contain any number of variables that are in your Python script.
     Remember that a variable is any line of code where you set a name `=` (equal)
     to a value. In the code for this exercise, `types_of_people = 10` creates a variable
     named `types_of_people` and sets it `=` (equal) to `10`. You can put that in any
     string with `{types_of_people}`. You also see that I have to use a special type
     of string to “format”; it’s called an “f-string” and looks like this:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 字符串可以包含在你的Python脚本中的任意数量的变量。记住，变量是你设置一个名字`=`（等于）一个值的任何代码行。在这个练习的代码中，`types_of_people
+    = 10`创建了一个名为`types_of_people`的变量，并将其设置为`=`（等于）`10`。你可以将它放在任何带有`{types_of_people}`的字符串中。你还会看到我必须使用一种特殊类型的字符串来“格式化”；它被称为“f-string”，看起来像这样：
 - en: '[PRE0]'
+  id: totrans-4
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Python *also* has another kind of formatting using the `.format()` syntax, which
     you see on line 17\. You’ll see me use that sometimes when I want to apply a format
     to an already created string, such as in a loop. We’ll cover that more later.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: Python *还*有另一种使用`.format()`语法的格式化方式，你可以在第17行看到。有时候当我想对已经创建的字符串应用格式时，你会看到我使用它。我们稍后会更详细地讨论这个。
 - en: We will now type in a whole bunch of strings, variables, and formats, and print
     them. You will also practice using short abbreviated variable names. Programmers
     love saving time at your expense by using annoyingly short and cryptic variable
     names, so let’s get you started reading and writing them early on.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在我们将输入一大堆字符串、变量和格式，并打印它们。你还将练习使用简短的缩写变量名。程序员喜欢通过使用令人讨厌的短小和神秘的变量名来节省时间，所以让我们从早期开始阅读和编写它们。
 - en: 'Listing 6.1: ex6.py'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 清单6.1：ex6.py
 - en: '[PRE1]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: What You Should See
+  id: totrans-9
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: '[PRE2]'
+  id: totrans-10
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Study Drills
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习扩展
 - en: 1\. Go through this program and write a comment above each line explaining it.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 浏览这个程序，并在每行上面写一个注释，解释它。
 - en: 2\. Find all the places where a string is put inside a string.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 找出所有将字符串放在另一个字符串中的地方。
 - en: 3\. Are you sure there are only four places? How do you know? Maybe I like lying.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 你确定只有四个地方吗？你怎么知道？也许我喜欢说谎。
 - en: 4\. Explain why adding the two strings `w` and `e` with `+` makes a longer string.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 解释为什么使用`+`将两个字符串`w`和`e`相加会得到一个更长的字符串。
 - en: Break It
+  id: totrans-16
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 破解它
 - en: You are now at a point where you can try to break your code to see what happens.
     Think of this as a game to devise the most clever way to break the code. You can
     also find the simplest way to break it. Once you break the code, you then need
@@ -77,18 +112,26 @@
     break something. Then you try to find their error and fix it. Have fun with this,
     and remember that if you wrote this code once, you can do it again. If you take
     your damage too far, you can always type it in again for extra practice.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在你已经到了一个可以尝试破坏你的代码以查看结果的阶段。把这看作是一个游戏，想出最聪明的方法来破坏代码。你也可以找到最简单的方法来破坏它。一旦你破坏了代码，你就需要修复它。如果你有一个朋友，那么你们两个可以尝试破坏对方的代码并修复它。把你的代码给你的朋友，保存在一个名为`ex6.py`的文件中，这样他们就可以破坏一些东西。然后你尝试找到他们的错误并修复它。玩得开心，并记住，如果你写过这段代码一次，你可以再次做到。如果你把损坏搞得太严重，你总是可以再次输入以进行额外练习。
 - en: Common Student Questions
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why do you put** `''` **(single-quotes) around some strings and not others?**
     Mostly it’s because of style, but I’ll use a single-quote inside a string that
     has double-quotes. Look at lines 6 and 15 to see how I’m doing that.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么**你会在一些字符串周围加上`''`（单引号），而在另一些字符串周围不加呢？大多数情况下是出于风格考虑，但我会在双引号内部使用单引号。看看第6行和第15行，看看我是如何做到这一点的。'
 - en: '**If you thought the joke was funny, could you write** `hilarious = True`**?**
     Yes, and you’ll learn more about these boolean values later.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**如果你觉得这个笑话很有趣，你能写下** `hilarious = True`**吗？** 是的，你以后会更多地了解这些布尔值。'

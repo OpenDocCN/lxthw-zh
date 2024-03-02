@@ -1,30 +1,46 @@
 - en: Exercise 16. Reading and Writing Files
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习16. 读写文件
 - en: 'If you did the Study Drills from the previous exercise, you should have seen
     all sorts of commands (methods/functions) you can give to files. Here’s the list
     of commands I want you to remember:'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你做了上一个练习的学习练习，你应该看到各种可以给文件的命令（方法/函数）。这是我希望你记住的命令列表：
 - en: • `close` – Closes the file. Like `File->Save..` in a text editor or word processor.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: • `close` – 关闭文件。就像文本编辑器或文字处理器中的`文件->保存..`一样。
 - en: • `read` – Reads the contents of the file. You can assign the result to a variable.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: • `read` – 读取文件的内容。你可以将结果赋值给一个变量。
 - en: • `readline` – Reads just one line of a text file.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: • `readline` – 读取文本文件的一行。
 - en: • `truncate` – Empties the file. Watch out if you care about the file.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: • `truncate` – 清空文件。如果你关心文件的话要小心。
 - en: • `write('stuff')` – Writes “stuff” to the file.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: • `write('stuff')` – 将“stuff”写入文件。
 - en: • `seek(0)` – Move the read/write location to the beginning of the file.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: • `seek(0)` – 将读/写位置移动到文件的开头。
 - en: One way to remember what each of these does is to think of a vinyl record, cassette
     tape, VHS tape, DVD, or CD player. In the early days of computers data was stored
     on each of these kinds of media, so many of the file operations still resemble
@@ -33,92 +49,135 @@
     and storage media that blur the lines between random access memory and disk drives,
     but we still use the older idea of a linear tape with a read/write head that must
     be moved.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 记住每个命令的一种方法是想象一下黑胶唱片、磁带、VHS磁带、DVD或CD播放器。在计算机的早期，数据存储在这些媒体上，所以许多文件操作仍然类似于一个线性存储系统。磁带和DVD驱动器需要“寻找”到一个特定的位置，然后你可以在那个位置读取或写入。今天我们有操作系统和存储介质模糊了随机存取内存和磁盘驱动器之间的界限，但我们仍然使用一个必须移动的线性磁带的读/写头的旧概念。
 - en: For now, these are the important commands you need to know. Some of them take
     parameters, but we do not really care about that. You only need to remember that
     `write` takes a parameter of a string you want to write to the file.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 目前，这些是你需要知道的重要命令。其中一些需要参数，但我们并不真的关心。你只需要记住`write`需要一个你想写入文件的字符串参数。
 - en: 'Let’s use some of this to make a simple little text editor:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们利用其中的一些内容制作一个简单的文本编辑器：
 - en: 'Listing 16.1: ex16.py'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '列表16.1: ex16.py'
 - en: '[PRE0]'
+  id: totrans-12
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: That’s a large file, probably the largest you have typed in. So go slow, do
     your checks, *run it frequently*, and take it slowly. One trick is to get bits
     of it running at a time. Get lines 1–2 running, then two more, then a few more,
     until it’s all done and running.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 那是一个很大的文件，可能是你输入的最大的文件。所以慢慢来，检查一下，*经常运行*，慢慢来。一个技巧是一次运行一部分。先运行1-2行，然后再运行两行，再运行几行，直到全部完成并运行。
 - en: What You Should See
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: 'There are actually two things you will see. First the output of your new script:'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 实际上你会看到两件事。首先是你新脚本的输出：
 - en: '[PRE1]'
+  id: totrans-16
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Now, open up the file you made (in my case `test.txt`) using the left panel
     of Jupyter and check it out. Neat, right?
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在，打开你创建的文件（在我的案例中是`test.txt`），使用Jupyter的左侧面板查看一下。整洁，对吧？
 - en: Study Drills
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. If you do not understand this, go back through and use the comment trick
     to get it squared away in your mind. One simple English comment above each line
     will help you understand or at least let you know what you need to research more.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 如果你不理解这个，回过头来，使用注释技巧来弄清楚。在每一行上加一个简单的英文注释将帮助你理解，或者至少让你知道你需要更多地研究。
 - en: 2\. Write a `.py` script similar to the last [Exercise 14](ch14.xhtml#ch14)
     that uses `read` ([Exercise 15](ch15.xhtml#ch15)) and `argv` ([Exercise 13](ch13.xhtml#ch13))
     to read the file you just created. Be sure you run this in Terminal/PowerShell
     instead of Jupyter.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 编写一个类似于上一个[练习14](ch14.xhtml#ch14)的`.py`脚本，使用`read`（[练习15](ch15.xhtml#ch15)）和`argv`（[练习13](ch13.xhtml#ch13)）来读取你刚刚创建的文件。确保你在终端/PowerShell中运行而不是在Jupyter中。
 - en: 3\. There’s too much repetition in this file. Use strings, formats, and escapes
     to print out `line1`, `line2`, and `line3` with just one `target.write()` command
     instead of six.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 这个文件中有太多的重复。使用字符串、格式和转义来用一个`target.write()`命令打印出`line1`、`line2`和`line3`，而不是六个命令。
 - en: '4\. Find out why we had to pass a `''w''` as an extra parameter to `open`.
     Hint: `open` tries to be safe by making you explicitly say you want to write a
     file.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 找出为什么我们需要将`'w'`作为`open`的额外参数传递。提示：`open`试图通过让你明确表示你要写入一个文件来保持安全。
 - en: 5\. If you open the file with `'w'` mode, then do you really need the `target.truncate()`?
     Read the documentation for Python’s `open` function and see if that’s true.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 如果以**'w'**模式打开文件，那么你真的需要**target.truncate()**吗？阅读Python的**open**函数的文档，看看这是否属实。
 - en: Common Student Questions
+  id: totrans-24
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Is the** `truncate()` **necessary with the** `''w''` **parameter?** See Study
     Drill 5.'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '**在使用** **''w''** **参数时，** `truncate()` **是必需的吗？** 参见学习任务 5。'
 - en: '**What does** `''w''` **mean?** It’s really just a string with a character
     in it for the kind of mode for the file. If you use `''w''`, then you’re saying
     “open this file in ‘write’ mode,” which is the reason for the `''w''` character.
     There’s also `''r''` for “read,” `''a''` for append, and modifiers on these.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '**''w''** **代表什么？** 实际上，它只是一个包含文件模式字符的字符串。如果使用**''w''**，那么你是在说“以‘写’模式打开此文件”，这就是**''w''**
+    字符的原因。还有**''r''**代表“读取”，**''a''**代表追加，以及这些的修饰符。'
 - en: '**What modifiers to the file modes can I use?** The most important one to know
     for now is the `+` modifier, so you can do `''w+''`, `''r+''`, and `''a+''`. This
     will open the file in both read and write mode and, depending on the character
     use, position the file in different ways.'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我可以使用哪些文件模式的修饰符？** 现在最重要的是要知道**+**修饰符，这样你就可以使用**''w+''**，**''r+''**和**''a+''**。这将以读取和写入模式打开文件，并根据使用的字符，以不同的方式定位文件。'
 - en: '**Does just doing** `open(filename)` **open it in** `''r''` **(read) mode?**
     Yes, that’s the default for the `open()` function.'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: '**只需执行** **open(filename)** **就会以** **''r''** **（读取）模式打开文件吗？** 是的，这是**open()**函数的默认设置。'

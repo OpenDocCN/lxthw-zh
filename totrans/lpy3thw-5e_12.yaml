@@ -1,111 +1,162 @@
 - en: Exercise 10. Escape Codes in Strings
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 第10题. 字符串中的转义代码
 - en: In [Exercise 9](ch09.xhtml#ch09) I threw you some new stuff just to keep you
     on your toes. I showed you two ways to make a string that goes across multiple
     lines. In the first way, I put the characters `\n` (backslash `n`) between the
     names of the months. These two characters put a `new line character` into the
     string at that point.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 在[第9题](ch09.xhtml#ch09)中，我给你一些新东西，只是为了让你保持警惕。我向你展示了两种跨越多行的字符串的方法。在第一种方法中，我在月份名称之间放置了字符`\n`（反斜杠`n`）。这两个字符在该点将一个`换行字符`放入字符串中。
 - en: This `\` (backslash) character encodes difficult-to-type characters into a string.
     There are various “escape sequences” available for different characters you might
     want to use. We’ll try a few of these sequences so you can see what I mean.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个`\`（反斜杠）字符将难以输入的字符编码到字符串中。有各种不同的“转义序列”可用于你可能想要使用的不同字符。我们将尝试一些这些序列，这样你就能明白我的意思。
 - en: An important escape sequence is to escape a single-quote `'` or double-quote
     `"`. Imagine you have a string that uses double-quotes and you want to put a double-quote
     inside the string. If you write `"I "understand" joe."` then Python will get confused
     because it will think the `"` around `"understand"` actually *ends* the string.
     You need a way to tell Python that the `"` inside the string isn’t a *real* double-quote.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个重要的转义序列是转义单引号`'`或双引号`"`。想象一下，你有一个使用双引号的字符串，而你想在字符串中放一个双引号。如果你写`"我 "理解" 乔。"`，那么
+    Python 会感到困惑，因为它会认为`"`在`"理解"`周围实际上*结束*了字符串。你需要一种方法告诉 Python，字符串中的`"`不是*真正的*双引号。
 - en: 'To solve this problem you *escape* double-quotes and single-quotes so Python
     knows to include them in the string. Here’s an example:'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 要解决这个问题，你需要*转义*双引号和单引号，这样 Python 才知道将它们包含在字符串中。这里有一个例子：
 - en: '[PRE0]'
+  id: totrans-5
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: The second way to solve this problem is to use triple-quotes, which is just
     `"""` and works like a string, but you also can put as many lines of text as you
     want until you type `"""` again. We’ll also play with these.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 解决这个问题的第二种方法是使用三引号，即`"""`，它的工作方式类似于字符串，但你也可以放置任意行的文本，直到再次键入`"""`。我们也会玩一下这些。
 - en: 'Listing 10.1: ex10.py'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: '代码清单 10.1: ex10.py'
 - en: '[PRE1]'
+  id: totrans-8
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: What You Should See
+  id: totrans-9
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到的内容
 - en: Look for the tab characters that you made. In this exercise the spacing is important
     to get right.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 寻找你制作的制表符。在这个练习中，正确的间距很重要。
 - en: '[PRE2]'
+  id: totrans-11
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Escape Sequences
+  id: totrans-12
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 转义序列
 - en: This is all of the escape sequences Python supports. You may not use many of
     these, but memorize their format and what they do anyway. Try them out in some
     strings to see if you can make them work.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是 Python 支持的所有转义序列。你可能不会使用其中许多，但无论如何要记住它们的格式和功能。尝试在一些字符串中使用它们，看看能否让它们起作用。
 - en: '![Images](graphics/t0033-01.jpg)'
+  id: totrans-14
   prefs: []
   type: TYPE_IMG
+  zh: '![图片](graphics/t0033-01.jpg)'
 - en: Study Drills
+  id: totrans-15
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Memorize all the escape sequences by putting them on flash cards.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 通过将它们放在闪存卡上来记忆所有的转义序列。
 - en: 2\. Use `'''` (triple-single-quote) instead. Can you see why you might use that
     instead of `"""`?
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 使用`'''`（三个单引号）代替。你能看出为什么你可能会使用它而不是`"""`吗？
 - en: 3\. Combine escape sequences and format strings to create a more complex format.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 结合转义序列和格式字符串创建更复杂的格式。
 - en: Common Student Questions
+  id: totrans-19
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**I still haven’t completely figured out the last exercise. Should I continue?**
     Yes, keep going. Instead of stopping, take notes listing things you don’t understand
     for each exercise. Periodically go through your notes and see if you can figure
     these things out after you’ve completed more exercises. Sometimes, though, you
     may need to go back a few exercises and do them again.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我还没有完全弄清楚最后一个练习。我应该继续吗？** 是的，继续。不要停下来，记下你对每个练习不理解的事情。定期查看你的笔记，看看在完成更多练习后是否能弄清楚这些事情。有时候，你可能需要回头做几个练习。'
 - en: '**What makes** // **special compared to the other ones?** It’s simply the way
     you would write out one backslash (`\`) character. Think about why you would need
     this.'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: '**是什么让** // **与其他的不同？** 这只是你会写出一个反斜杠（`\`）字符的方式。想想为什么你会需要这个。'
 - en: '**When I write** `//` **or** `/n` **it doesn’t work**. That’s because you are
     using a forward-slash `/` and not a backslash `\`. They are different characters
     that do very different things.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '**当我写** `//` **或** `/n` **时它不起作用**。那是因为你使用的是正斜杠`/`而不是反斜杠`\`。它们是不同的字符，做着非常不同的事情。'
 - en: '**I don’t get Study Drill 3\. What do you mean by “combine” escape sequences
     and formats?** One concept I need you to understand is that each of these exercises
     can be combined to solve problems. Take what you know about format strings and
     write some new code that uses format strings *and* the escape sequences from this
     exercise.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我不明白练习3。你说的“结合”转义序列和格式是什么意思？** 我需要你理解的一个概念是，这些练习可以结合起来解决问题。利用你对格式化字符串的了解，编写一些新代码，使用格式化字符串*和*这个练习中的转义序列。'
 - en: '**What’s better,** `''''''` **or** `"""`**?** It’s entirely based on style.
     Go with the `''''''` (triple-single-quote) style for now, but be ready to use
     either depending on what feels best or what everyone else is doing.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '**哪个更好，** `''''''` **还是** `"""`**？** 这完全取决于风格。现在选择`''''''`（三个单引号）风格，但要准备根据感觉或其他人的做法选择其中之一。'

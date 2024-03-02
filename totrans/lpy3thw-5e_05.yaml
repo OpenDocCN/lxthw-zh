@@ -1,103 +1,155 @@
 - en: Exercise 3. Numbers and Math
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习 3. 数字和数学
 - en: 'Every programming language has some kind of way of doing numbers and math.
     Do not worry: programmers frequently lie about being math geniuses when they really
     aren’t. If they were math geniuses, they would be doing math, not writing buggy
     web frameworks so they can drive race cars.'
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 每种编程语言都有一种处理数字和数学的方式。不要担心：程序员经常谎称自己是数学天才，当他们实际上并不是。如果他们是数学天才，他们会做数学，而不是编写有bug的网络框架，以便他们可以开赛车。
 - en: 'This exercise has lots of math symbols. Let’s name them right away so you know
     what they are called. As you type this one in, say the name. When saying them
     feels boring, you can stop saying them. Here are the names:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习涉及很多数学符号。让我们立即给它们命名，这样你就知道它们叫什么。当你输入时，说出名称。当说起它们感到无聊时，你可以停止说。这里是名称：
 - en: • `+` plus
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: • `+` 加号
 - en: • `-` minus
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: • `-` 减号
 - en: • `/` slash
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: • `/` 斜杠
 - en: • `*` asterisk
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: • `*` 星号
 - en: • `%` percent
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: • `%` 百分号
 - en: • `<` less-than
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: • `<` 小于
 - en: • `>` greater-than
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: • `>` 大于
 - en: • `<=` less-than-equal
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: • `<=` 小于等于
 - en: • `>=` greater-than-equal
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: • `>=` 大于等于
 - en: Notice how the operations are missing? After you type in the code for this exercise,
     go back and figure out what each of these does and complete the table. For example,
     `+` does addition.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意运算符缺失了吗？在输入这个练习的代码后，回头去弄清楚每个运算符的作用，并完成表格。例如，`+`表示加法。
 - en: 'Listing 3.1: ex3.py'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表 3.1：ex3.py
 - en: '[PRE0]'
+  id: totrans-14
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: Make sure you type this exactly before you run it. Compare each line of your
     file to my file.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 在运行之前确保你准确地输入了这个。将你的文件的每一行与我的文件进行比较。
 - en: What You Should See
+  id: totrans-16
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: '[PRE1]'
+  id: totrans-17
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: Study Drills
+  id: totrans-18
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: 1\. Above each line, use the `#` to write a comment to yourself explaining what
     the line does.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 在每一行上面，使用`#`写一个注释给自己解释这行代码的作用。
 - en: 2\. You can type most math directly into a Jupyter cell and get results. Try
     using it to do some basic calculations like `1+2` and hit `SHIFT-ENTER`.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 你可以直接在Jupyter单元格中输入大多数数学运算并获得结果。尝试使用它进行一些基本计算，比如`1+2`，然后按下`SHIFT-ENTER`。
 - en: 3\. Find something you need to calculate and write a new `.py` file that does
     it.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 找到需要计算的内容，并编写一个新的`.py`文件来完成。
 - en: 4\. Rewrite this exercise to use floating point numbers so it’s more accurate.
     20.0 is floating point.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 重写这个练习，使用浮点数使其更准确。`20.0` 是浮点数。
 - en: Common Student Questions
+  id: totrans-23
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Why is the** `%` **character a “modulus” and not a “percent”?** Mostly that’s
     just how the designers chose to use that symbol. In normal writing you are correct
     to read it as a “percent.” In programming this calculation is typically done with
     simple division and the `/` operator. The `%` modulus is a different operation
     that just happens to use the `%` symbol.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么** `%` **字符是“模数”而不是“百分比”？** 主要是设计者选择使用这个符号的方式。在正常的写作中，你正确地将其读作“百分比”。在编程中，这个计算通常使用简单的除法和`/`运算符来完成。`%`模数是一个不同的操作，只是碰巧使用了`%`符号。'
 - en: '**How does** `%` **work?** Another way to say it is, “X divided by Y with J
     remaining.” For example, “100 divided by 16 with 4 remaining.” The result of `%`
     is the J part, or the remaining part.'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`%`是如何工作的？** 另一种说法是，“X除以Y，余数为J。” 例如，“100除以16，余数为4。” `%`的结果是J部分，或者剩余部分。'
 - en: '**What is the order of operations?** In the United States we use an acronym
     called PEMDAS which stands for Parentheses Exponents Multiplication Division Addition
     Subtraction. That’s the order Python follows as well. The mistake people make
@@ -105,5 +157,8 @@
     then D, then A, then S.” The actual order is you do the multiplication *and* division
     (M&D) in one step, from left to right, and *then* you do the addition and subtraction
     in one step from left to right. So, you could rewrite `PEMDAS` as `PE(M&D)(A&S)`.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '**运算的顺序是什么？** 在美国，我们使用一个叫做PEMDAS的缩写，代表括号 指数 乘法 除法 加法 减法。这也是Python遵循的顺序。人们在处理`PEMDAS`时常犯的错误是认为这是一个严格的顺序，就像“先做P，然后E，然后M，然后D，然后A，然后S。”
+    实际的顺序是你先进行乘法 *和* 除法（M&D）一步完成，从左到右，然后进行加法和减法一步完成，从左到右。因此，你可以将`PEMDAS`重写为`PE(M&D)(A&S)`。'

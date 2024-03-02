@@ -1,146 +1,210 @@
 - en: Exercise 15. Reading Files
+  id: totrans-0
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 练习15. 读取文件
 - en: You know how to get input from a user with `input` or `argv`. Now you will learn
     about reading from a file. You may have to play with this exercise the most to
     understand what’s going on, so do the exercise carefully and remember your checks.
     Working with files is an easy way to *erase your work* if you are not careful.
+  id: totrans-1
   prefs: []
   type: TYPE_NORMAL
+  zh: 你知道如何使用`input`或`argv`从用户那里获取输入。现在你将学习如何从文件中读取。你可能需要仔细研究这个练习，以理解发生了什么，所以仔细做练习并记住你的检查。如果不小心处理文件，这是一种*擦除你的工作*的简单方法。
 - en: 'This exercise involves writing two files. One is the usual `ex15.py` file that
     you will run, but the *other* is named `ex15_sample.txt`. This second file isn’t
     a script but a plain-text file we’ll be reading in our script. Here are the contents
     of that file:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个练习涉及编写两个文件。一个是你将运行的通常的`ex15.py`文件，但*另一个*名为`ex15_sample.txt`。这第二个文件不是一个脚本，而是一个我们将在我们的脚本中读取的纯文本文件。以下是该文件的内容：
 - en: '[PRE0]'
+  id: totrans-3
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: What we want to do is “open” that file in our script and print it out. However,
     we do not want to just “hard-code” the name `ex15_sample.txt` into our script.
     “Hard-coding” means putting some bit of information that should come from the
     user as a string directly in our source code. That’s bad because we want it to
     load other files later. The solution is to use `argv` or `input` to ask the user
     what file to open instead of “hard-coding” the file’s name.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们想要在我们的脚本中“打开”那个文件并将其打印出来。然而，我们不想将名为`ex15_sample.txt`的文件名直接“硬编码”到我们的脚本中。所谓“硬编码”是指将应该来自用户的一些信息作为字符串直接放在我们的源代码中。这是不好的，因为我们希望以后加载其他文件。解决方案是使用`argv`或`input`询问用户要打开哪个文件，而不是将文件名“硬编码”到脚本中。
 - en: 'Listing 15.1: ex15.py'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 列表15.1：ex15.py
 - en: '[PRE1]'
+  id: totrans-6
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE1]'
 - en: A few fancy things are going on in this file, so let’s break it down really
     quickly.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个文件中有一些花哨的东西，所以让我们快速地分解一下。
 - en: 'Lines 1–3 uses `argv` to get a filename. Next we have line 5, where we use
     a new command: `open`. Right now, run `pydoc open` and read the instructions.
     Notice how, like your own scripts and `input`, it takes a parameter and returns
     a value you can set to your own variable. You just opened a file.'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 第1-3行使用`argv`获取文件名。接下来是第5行，我们使用一个新命令：`open`。现在运行`pydoc open`并阅读说明。注意，就像你自己的脚本和`input`一样，它接受一个参数并返回一个可以设置为你自己变量的值。你刚刚打开了一个文件。
 - en: Line 7 prints a little message, but on line 8 we have something very new and
     exciting. We call a function on `txt` named `read`. What you get back from `open`
     is a `file`, and it also has commands you can give it. You give a file a command
     by using the `.` (dot or period), the name of the command, and parameters, just
     like with `open` and `input`. The difference is that `txt.read()` says, “Hey `txt`!
     Do your read command with no parameters!”
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 第7行打印了一条小消息，但在第8行，我们有一些非常新颖和令人兴奋的东西。我们在`txt`上调用了一个名为`read`的函数。你从`open`得到的是一个`file`，它也有你可以给它的命令。你可以使用`.`（点）命令一个文件，命令的名称和参数，就像`open`和`input`一样。不同之处在于`txt.read()`表示，“嘿`txt`！执行你的读取命令，不带参数！”
 - en: The remainder of the file is more of the same, but we’ll leave the analysis
     to you in the *Study Drills* section.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 文件的其余部分基本相同，但我们将在*学习练习*部分留给你来分析。
 - en: What You Should See
+  id: totrans-11
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 你应该看到什么
 - en: Warning!
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 警告！
 - en: Pay attention! I said pay attention! You have been running scripts with just
     the name of the script, but now that you are using `argv` you have to add arguments.
     Look at the very first line of the following example, and you will see I do `python
     ex15.py ex15_sample.txt` to run it. See the extra argument `ex15_sample.txt` after
     the `ex15.py` script name. If you do not type that, you will get an error, so
     pay attention!
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意！我说了要注意！你之前只是用脚本的名称运行脚本，但现在你正在使用`argv`，你必须添加参数。看看以下示例的第一行，你会看到我执行`python ex15.py
+    ex15_sample.txt`来运行它。在`ex15.py`脚本名称后面看到额外的参数`ex15_sample.txt`。如果你不输入，你会得到一个错误，所以要注意！
 - en: I made a file called `ex15_sample.txt` and ran my script.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 我创建了一个名为`ex15_sample.txt`的文件并运行了我的脚本。
 - en: '[PRE2]'
+  id: totrans-15
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE2]'
 - en: Study Drills
+  id: totrans-16
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 学习练习
 - en: This is a big jump, so be sure you do these Study Drills as best you can before
     moving on.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一个很大的飞跃，所以在继续之前，请确保你尽力完成这些学习练习。
 - en: 1\. Above each line, write out in English what that line does.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 1\. 在每一行上面，用英语写出那行代码的作用。
 - en: 2\. If you are not sure, ask someone for help or search online. Many times searching
     for “python3 THING” will find answers to what that THING does in Python. Try searching
     for “python3 open.”
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 2\. 如果你不确定，向别人寻求帮助或在网上搜索。很多时候搜索“python3 THING”会找到关于Python中那个THING做什么的答案。尝试搜索“python3
+    open”。
 - en: 3\. I used the word “commands” here, but commands are also called “functions”
     and “methods.” You will learn about functions and methods later in the book.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 3\. 我在这里使用了“命令”这个词，但命令也被称为“函数”和“方法”。你将在本书后面学习有关函数和方法的知识。
 - en: 4\. Get rid of the lines 10–15 where you use `input` and run the script again.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 4\. 删除使用`input`并再次运行脚本的10-15行。
 - en: 5\. Use only `input` and try the script that way. Why is one way of getting
     the filename better than another?
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 5\. 只使用`input`，尝试以这种方式运行脚本。为什么有一种获取文件名的方式比另一种更好？
 - en: 6\. Start `python3` to start the `python3` shell, and use `open` from the prompt
     just like in this program. Notice how you can open files and run `read` on them
     from within `python3`?
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 6\. 启动`python3`以启动`python3` shell，并从提示符中像在这个程序中一样使用`open`。注意你如何可以在`python3`中打开文件并运行`read`？
 - en: 7\. Have your script also call `close()` on the `txt` and `txt_again` variables.
     It’s important to close files when you are done with them.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 7\. 让你的脚本也在`txt`和`txt_again`变量上调用`close()`。在完成文件操作后关闭文件是很重要的。
 - en: Common Student Questions
+  id: totrans-25
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 常见学生问题
 - en: '**Does** `txt = open(filename)` **return the contents of the file?** No, it
     doesn’t. It actually makes something called a “file object.” You can think of
     a file like an old tape drive that you saw on mainframe computers in the 1950s
     or even like a DVD player from today. You can move around inside them and then
     “read” them, but the DVD player is not the DVD the same way the file object is
     not the file’s contents.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`txt = open(filename)`是否返回文件的内容？** 不，它不会。它实际上创建了一个叫做“文件对象”的东西。你可以把文件想象成50年代大型计算机上看到的旧磁带驱动器，甚至像今天的DVD播放器。你可以在其中移动，然后“读取”它们，但DVD播放器不是DVD，就像文件对象不是文件内容一样。'
 - en: '**I can’t type code into Terminal/PowerShell like you say in Study Drill 7**.
     First thing, from the command line just type `python3` and press Enter. Now you
     are in `python3` as we’ve done a few other times. Then you can type in code and
     Python will run it in little pieces. Play with that. To get out of it type `quit()`
     and hit Enter.'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我无法像你在第7个学习任务中说的那样在终端/PowerShell中输入代码**。首先，从命令行中只需输入`python3`并按Enter。现在你在`python3`中，就像我们之前做过几次一样。然后你可以输入代码，Python会逐段运行它。尝试一下。要退出，请输入`quit()`并按Enter。'
 - en: '**Why is there no error when we open the file twice?** Python will not restrict
     you from opening a file more than once, and sometimes this is necessary.'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: '**为什么我们打开文件两次时没有错误？** Python不会限制你多次打开文件，有时这是必要的。'
 - en: '**What does** `from sys import argv` **mean?** For now just understand that
     `sys` is a package, and this phrase just says to get the `argv` feature from that
     package. You’ll learn more about this later.'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: '**`from sys import argv`是什么意思？** 现在只需理解`sys`是一个包，这个短语只是说从那个包中获取`argv`功能。你以后会学到更多。'
 - en: '**I put the name of the file in as** `script, ex15_sample.txt = argv`, **but
     it doesn’t work**. No, that’s not how you do it. Make the code exactly like mine,
     and then run it from the command line the exact same way I do. You don’t put the
     names of files in; you let Python put the name in.'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我将文件名放在** `script, ex15_sample.txt = argv` **中，但它不起作用**。不，这不是你应该做的。确保代码与我的完全一样，然后像我一样从命令行运行它。你不需要放文件名进去；让Python放进去。'
