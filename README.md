@@ -30,10 +30,8 @@
         lxthw-zh：ApacheCN 的 Github 仓库名称
 -->
 
-# 笨办法学代码中文系列教程
+# 笨办法学 X 中文系列教程
 
-> 原文：[LearnCodeTheHardWay](https://learncodethehardway.org/)
-> 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
 > 阶段：机翻（1）
