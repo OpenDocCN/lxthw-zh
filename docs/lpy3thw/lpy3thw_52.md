@@ -4,13 +4,21 @@
 
 在之前的游戏中，你通过设置特定的字符串来控制用户的输入。比如，只有用户输入“run”，而且得是精确的“run”，游戏才能正常运行。他们要是输入了类似的短语，比如“run fast”，程序都会报错。但我们需要的是一个能让用户通过多种方式来输入的设备，同时我们可以把用户输入的内容转换成计算机能理解的语言。比如，我们可以让下面这些短语同样生效：
 
-• open door • open the door • go THROUGH the door • punch bear • Punch The Bear in the FACE
+
++    open door 
++    open the door 
++    go THROUGH the door 
++    punch bear 
++    Punch The Bear in the FACE
 
 我们应该允许用户在游戏中输入一些自然语言，并且要让游戏能读懂这些语言的含义。要做到这一点，我们需要写一个专门的模块。这个模块会有几个类一起工作来处理用户输入，这些输入会被转换成你的游戏可以可靠处理的东西。
 
 一个简化版本的英文语言会包含以下要素：
 
-• 用空格隔开的单词。 • 由单词构成的句子。 • 组织句子并形成含义的语法。
+
++    用空格隔开的单词。 
++    由单词构成的句子。 
++    组织句子并形成含义的语法。
 
 这意味着最先解决的问题应该是如何从用户那里获得单词，并判断这些单词是什么类型。
 
@@ -18,7 +26,12 @@
 
 我们需要为这个游戏创建一列可以被接受的单词，我们把它称为“词汇表”（lexicon）：
 
-• 方向词: north, south, east, west, down, up, left, right, back • 动词: go, stop, kill, eat • 停用词（stop word）: the, in, of, from, at, it • 名词: door, bear, princess, cabinet • 数词: any string of 0 through 9 characters（0-9 字符的任何字符串）
+
++    方向词: north, south, east, west, down, up, left, right, back 
++    动词: go, stop, kill, eat 
++    停用词（stop word）: the, in, of, from, at, it 
++    名词: door, bear, princess, cabinet 
++    数词: any string of 0 through 9 characters（0-9 字符的任何字符串）
 
 名词方面有一个小问题，因为每个房间都可以有几组不同的名词。所以我们先选一小组词，随后再进行改进。
 

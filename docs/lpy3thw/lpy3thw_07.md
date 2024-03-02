@@ -6,7 +6,16 @@
 
 这个练习包含了很多数学符号。让我们看看它们的名字，在你输入的时候，试着说出名字，直到你烂熟于心为止。以下是这些符号的名字：
 
-• `+` plus，加号 • `-` minus，减号 • `/` slash，斜杠 • `*` asterisk，星号 • `%` percent，百分号 • `<` less-than，小于号 • `>` greater-than，大于号 • `<=` less-than-equal，小于等于号 • `>=` greater-than-equal，大于等于号
+
++    `+` plus，加号 
++    `-` minus，减号 
++    `/` slash，斜杠 
++    `*` asterisk，星号 
++    `%` percent，百分号 
++    `<` less-than，小于号 
++    `>` greater-than，大于号 
++    `<=` less-than-equal，小于等于号 
++    `>=` greater-than-equal，大于等于号
 
 有没有注意到以上只是些符号，没有运算操作呢？写完下面的练习代码后，再回到上面的列表，弄明白每个符号的作用。例如 `+` 是用来做加法运算的。
 

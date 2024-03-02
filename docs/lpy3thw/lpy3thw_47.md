@@ -50,35 +50,50 @@
 
 我现在有足够的信息来提取其中的名词，并分析他们的类层级结构。首先，我会做一个所有名词的列表：
 
-• Alien（外星人）
 
-• Player（玩家）
++    Alien（外星人）
 
-• Ship（飞船）
 
-• Maze（迷宫）
++    Player（玩家）
 
-• Room（房间）
 
-• Scene（场景）
++    Ship（飞船）
 
-• Gothon（哥特人）
 
-• Escape Pod（逃生舱）
++    Maze（迷宫）
 
-• Planet（行星）
 
-• Map（地图）
++    Room（房间）
 
-• Engine（引擎）
 
-• Death（死亡）
++    Scene（场景）
 
-• Central Corridor（中央走廊）
 
-• Laser Weapon Armory（激光武器军械库）
++    Gothon（哥特人）
 
-• The Bridge（桥）
+
++    Escape Pod（逃生舱）
+
+
++    Planet（行星）
+
+
++    Map（地图）
+
+
++    Engine（引擎）
+
+
++    Death（死亡）
+
+
++    Central Corridor（中央走廊）
+
+
++    Laser Weapon Armory（激光武器军械库）
+
+
++    The Bridge（桥）
 
 我可能还会浏览一遍所有的动词，看它们适不适合作为函数名，但是我会先暂时跳过这一步。
 
