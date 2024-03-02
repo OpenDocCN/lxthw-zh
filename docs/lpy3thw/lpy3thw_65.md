@@ -1,0 +1,52 @@
+# 附录练习 5 切换目录 (cd)
+
+> 原文：[`www.bookstack.cn/read/LearnPython3TheHardWay/spilt.6.spilt.60.learn-py3.md`](https://www.bookstack.cn/read/LearnPython3TheHardWay/spilt.6.spilt.60.learn-py3.md)
+
+在这个练习中，你将学习如何使用 `cd` 命令从一个目录切换到另一个目录。
+
+### 55.6.1 跟我做
+
+在这部分练习中我会再给你一次指导说明：
+
+*   不用输入 `$` （Unix 系统）或者 `>` （Windows 系统）。
+*   你输入 `$` 或者 `>` 后面的内容，然后回车。比如如果我写的是 `$ cd`，你就只用输入 `cd` 然后回车就行。
+*   回车之后你会在 `$` 或者 `>` 之后看到你的输出结果。
+*   每次练习之前要先用 `pwd` 和 `cd ~` 回到 home，回到你最开始的地方。
+
+#### Linux/macOS
+
+练习 5 会话
+
+```py
+1.  `$ cd temp`2.  `$ pwd`3.  `~/temp`4.  `$ cd stuff`5.  `$ pwd`6.  `~/temp/stuff`7.  `$ cd things`8.  `$ pwd`9.  `~/temp/stuff/things`10.  `$ cd orange/`11.  `$ pwd`12.  `~/temp/stuff/things/orange`13.  `$ cd apple/`14.  `$ pwd`15.  `~/temp/stuff/things/orange/apple`16.  `$ cd pear/`17.  `$ pwd`18.  `~/temp/stuff/things/orange/apple/pear`19.  `$ cd grape/`20.  `$ pwd`21.  `~/temp/stuff/things/orange/apple/pear/grape`22.  `$ cd ..`23.  `$ cd ..`24.  `$ pwd`25.  `~/temp/stuff/things/orange/apple`26.  `$ cd ..`27.  `$ cd ..`28.  `$ pwd`29.  `~/temp/stuff/things`30.  `$ cd ../../..`31.  `$ pwd`32.  `~/`33.  `$ cd temp/stuff/things/orange/apple/pear/grape`34.  `$ pwd`35.  `~/temp/stuff/things/orange/apple/pear/grape`36.  `$ cd ../../../../../../../`37.  `$ pwd`38.  `~/`39.  `$`
+```
+
+#### Windows
+
+练习 5 Windows 会话
+
+```py
+1.  `> cd temp`2.  `> pwd`4.  ``Path``5.  ``----``6.  ``C:\Users\zed\temp``9.  ````> cd stuff```py`10.  ```> pwd```py12.  ````Path```py`13.  ```----```py14.  ```C:\Users\zed\temp\stuff```py17.  ````> cd things```py`18.  ```> pwd```py20.  ````Path```py`21.  ```----```py22.  ```C:\Users\zed\temp\stuff\things```py25.  ````> cd orange```py`26.  ```> pwd```py28.  ````Path```py`29.  ```----```py30.  ```C:\Users\zed\temp\stuff\things\orange```py33.  ````> cd apple```py`34.  ```> pwd```py36.  ````Path```py`37.  ```----```py38.  ```C:\Users\zed\temp\stuff\things\orange\apple```py41.  ````> cd pear```py`42.  ```> pwd```py44.  ````Path```py`45.  ```----```py46.  ```C:\Users\zed\temp\stuff\things\orange\apple\pear```py48.  ````> cd grape```py`49.  ```> pwd```py51.  ````Path```py`52.  ```----```py53.  ```C:\Users\zed\temp\stuff\things\orange\apple\pear\grape```py56.  ````> cd ..```py`57.  ```> cd ..```py58.  ```> cd ..```py59.  ```> pwd```py61.  ````Path```py`62.  ```----```py63.  ```C:\Users\zed\temp\stuff\things\orange```py66.  ````> cd ../..```py`67.  ```> pwd```py69.  ````Path```py`70.  ```----```py71.  ```C:\Users\zed\temp\stuff```py74.  ````> cd ..```py`75.  ```> cd ..```py76.  ```> cd temp/stuff/things/orange/apple/pear/grape```py77.  ```> cd ../../../../../../../```py78.  ```> pwd```py80.  ````Path```py`81.  ```----```py82.  ```C:\Users\zed```py85.  ````>```py`
+```
+
+ ``### 55.6.2 你学到的
+
+你已经在上一个练习中创建了以上这些目录，你刚才只是用 `cd` 命令在这些目录之间来回移动，同时在练习中我还用了 `pwd` 命令来看自己当前所处的位置，所以别把 `pwd` 输出的内容当作命令输入进去。例如，在第三行，你看到 `~/temp`，但那只是 `pwd` 命令的输出结果，不要把它作为你要输入的内容。
+
+你还应该看到我如何使用 `..` 命令来沿着路径向上。
+
+### 55.6.3 附加练习
+
+在一个拥有图形用户界面（graphical user interface，GUI） 的电脑上学习命令行界面（command line interface，CLI） 的一个非常重要的事情就是要明白它们是如何一起工作的。我最早开始使用计算机的时候还没有 GUI，我们在 DOS 界面上进行所有的操作。后来，当计算机变成强大的图形界面时，我很容易就能把一些 CLI 的目录和 GUI 上面的目录和 GUI 的窗口和文件夹对应上。
+
+然而如今大多数人对 CLI、路径和目录毫无概念。事实上，也很难教会他们。唯一可能的办法就是持续地去用 CLI，直到有一天你用起 CLI 来会跟 GUI 一样自然流畅。
+
+这就需要你花时间去寻找 GUI 下文件查看器里的目录，然后在 CLI 下切换到这些目录。以下是你接下来要做的：
+
+*   用一个命令切换到 `apple` 目录下。
+*   用一个命令切换回 `temp` 目录，但不是续着上一步来做。
+*   试试如何用一个命令切换到你的“home 目录”。
+*   切换到你的 Document 目录下，然后用 GUI 下的文件查看器找到它。（MacOS 下是 Finder，Windows 下是文件资源管理器，即“我的电脑”或“计算机”）
+*   切换到你的 Downloads 目录，然后用你的文件浏览器找到它。
+*   用你的文件浏览器找到其他目录，然后在 CLI 下切换到该目录。
+*   还记得你给目录名加过引号吗？你也可以在命令中加入引号，比如，如果你有一个目录是 `I Have Fun`，然后你可以输入：`cd "I Have Fun"` 。``
