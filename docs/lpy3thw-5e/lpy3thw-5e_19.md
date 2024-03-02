@@ -5,8 +5,8 @@
 列表 17.1：ex17.py
 
 ```py
- 1   **from** sys **import** argv
- 2   **from** os.path **import** exists
+ 1   from sys import argv
+ 2   from os.path import exists
  3
  4   from_file = "test.txt"
  5   to_file = "new_test.txt"
@@ -14,22 +14,22 @@
  7   print(f"Copying from {from_file} to {to_file}")
  8
  9   # we could do these two on one line, how?
-10   in_file = **open(**from_file)
-11   indata = in_file.read**()**
+10   in_file = open(from_file)
+11   indata = in_file.read()
 12
 13   print(f"The input file is {len*(*indata*)*} bytes long")
 14
 15   print(f"Does the output file exist? {exists*(*to_file*)*}")
 16   print("Ready, hit RETURN to continue, CTRL-C to abort.")
-17   **input()**
+17   input()
 18
-19   out_file = **open(**to_file, 'w')
-20   out_file.write**(**indata)
+19   out_file = open(to_file, 'w')
+20   out_file.write(indata)
 21
 22   print("Alright, all done.")
 23
-24   out_file.close**()**
-25   in_file.close**()**
+24   out_file.close()
+25   in_file.close()
 ```
 
 你应该立即注意到我们`import`了另一个方便的命令叫做`exists`。如果文件存在，它会返回`True`，基于它的名称作为字符串参数。如果不存在，则返回`False`。我们将在本书的后半部分使用这个函数来做很多事情，但现在你应该看看如何导入它。

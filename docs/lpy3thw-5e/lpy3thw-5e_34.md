@@ -24,23 +24,23 @@
  3   trucks = 15
  4
  5
- 6   **if** cars > people:
+ 6   if cars > people:
  7       print("We should take the cars.")
- 8   **elif** cars < people:
+ 8   elif cars < people:
  9       print("We should not take the cars.")
-10   **else**:
+10   else:
 11       print("We can't decide.")
 12
-13   **if** trucks > cars:
+13   if trucks > cars:
 14       print("That's too many trucks.")
-15   **elif** trucks < cars:
+15   elif trucks < cars:
 16       print("Maybe we could take the trucks.")
-17   **else**:
+17   else:
 18       print("We still can't decide.")
 19
-20   **if** people > trucks:
+20   if people > trucks:
 21       print("Alright, let's just take the trucks.")
-22   **else**:
+22   else:
 23       print("Fine, let's stay home then.")
 ```
 

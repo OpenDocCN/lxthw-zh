@@ -28,28 +28,28 @@
  3   change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
  4
  5   # this first kind of for-loop goes through a list
- 6   **for** number **in** the_count:
+ 6   for number in the_count:
  7       print(f"This is count {number}")
  8
  9   # same as above
-10   **for** fruit **in** fruits:
+10   for fruit in fruits:
 11       print(f"A fruit of type: {fruit}")
 12
 13   # also we can go through mixed lists too
-14   **for** i **in** change:
+14   for i in change:
 15       print(f"I got {i}")
 16
 17   # we can also build lists, first start with an empty one
 18   elements = []
 19
 20   # then use the range function to do 0 to 5 counts
-21   **for** i **in range**(0, 6):
+21   for i in range(0, 6):
 22       print(f"Adding {i} to the list.")
 23       # append is a function that lists understand
-24       elements.append**(**i)
+24       elements.append(i)
 25
 26   # now we can print them out too
-27   **for** i **in** elements:
+27   for i in elements:
 28       print(f"Element was: {i}")
 ```
 

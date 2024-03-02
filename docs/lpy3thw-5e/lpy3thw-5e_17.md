@@ -15,21 +15,21 @@
 列表 15.1：ex15.py
 
 ```py
- 1   **from** sys **import** argv
+ 1   from sys import argv
  2
  3   script, filename = argv
  4
- 5   txt = **open(**filename)
+ 5   txt = open(filename)
  6
  7   print(f"Here's your file {filename}:")
  8   print(txt.read())
  9
 10   print("Type the filename again:")
-11   file_again = **input(**"> ")
+11   file_again = input("> ")
 12
-13   txt_again = **open(**file_again)
+13   txt_again = open(file_again)
 14
-15   print(txt_again.read**())**
+15   print(txt_again.read())
 ```
 
 这个文件中有一些花哨的东西，所以让我们快速地分解一下。

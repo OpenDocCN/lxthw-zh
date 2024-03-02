@@ -23,7 +23,7 @@
 列表 13.1: ex13.py
 
 ```py
-1   **from** sys **import** argv
+1   from sys import argv
 2   # read the What You Should See section for how to run this
 3   script, first, second, third = argv
 4

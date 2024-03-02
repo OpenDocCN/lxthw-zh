@@ -10,40 +10,40 @@
  1   print("""You enter a dark room with two doors.
  2   Do you go through door #1 or door #2?""")
  3
- 4   door = **input(**"> ")
+ 4   door = input("> ")
  5
- 6   **if** door == "1":
+ 6   if door == "1":
  7       print("There's a giant bear here eating a cheese cake.")
  8       print("What do you do?")
  9       print("1\. Take the cake.")
 10       print("2\. Scream at the bear.")
 11
-12       bear = **input(**"> ")
+12       bear = input("> ")
 13
-14       **if** bear == "1":
+14       if bear == "1":
 15           print("The bear eats your face off. Good job!")
-16       **elif** bear == "2":
+16       elif bear == "2":
 17           print("The bear eats your legs off. Good job!")
-18       **else**:
+18       else:
 19           print(f"Well, doing {bear} is probably better.")
 20       print("Bear runs away.")
 21
-22   **elif** door == "2":
+22   elif door == "2":
 23       print("You stare into the endless abyss at Cthulhu's retina.")
 24       print("1\. Blueberries.")
 25       print("2\. Yellow jacket clothespins.")
 26       print("3\. Understanding revolvers yelling melodies.")
 27
-28       insanity = **input(**"> ")
+28       insanity = input("> ")
 29
-30       **if** insanity == "1" **or** insanity == "2":
+30       if insanity == "1" or insanity == "2":
 31           print("Your body survives powered by a mind of jello.")
 32           print("Good job!")
-33       **else**:
+33       else:
 34           print("The insanity rots your eyes into a pool of muck.")
 35           print("Good job!")
 36
-37   **else**:
+37   else:
 38       print("You stumble around and fall on a knife and die. Good job!")
 ```
 

@@ -34,7 +34,7 @@ Python *还*有另一种使用`.format()`语法的格式化方式，你可以在
 14   hilarious = False
 15   joke_evaluation = "Isn't that joke so funny?! {}"
 16
-17   print(joke_evaluation.**format**(hilarious))
+17   print(joke_evaluation.format(hilarious))
 18
 19   w = "This is the left side of..."
 20   e = "a string with a right side."

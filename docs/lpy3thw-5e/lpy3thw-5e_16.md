@@ -5,7 +5,7 @@
 列表 14.1: ex14.py
 
 ```py
- 1   **from** sys **import** argv
+ 1   from sys import argv
  2
  3   script, user_name = argv
  4   prompt = '> '
@@ -13,13 +13,13 @@
  6   print(f"Hi {user_name}, I'm the {script} script.")
  7   print("I'd like to ask you a few questions.")
  8   print(f"Do you like me {user_name}?")
- 9   likes = **input**(prompt)
+ 9   likes = input(prompt)
 10
 11   print(f"Where do you live {user_name}?")
-12   lives = **input(**prompt)
+12   lives = input(prompt)
 13
 14   print("What kind of computer do you have?")
-15   computer = **input(**prompt)
+15   computer = input(prompt)
 16
 17   print(f"""
 18   Alright, so you said {likes} about liking me.

@@ -3,7 +3,7 @@
 当你输入`input()`时，你实际上输入了`(`和`)`字符，这些是`括号`字符。对于`input`，你也可以输入一个提示，让人知道该输入什么。在`()`内放入你想要的提示字符串，看起来像这样：
 
 ```py
-y = **input**("Name? ")
+y = input("Name? ")
 ```
 
 这提示用户输入“姓名？”，并将结果放入变量`y`中。这就是你向某人提问并得到答案的方式。
@@ -13,9 +13,9 @@ y = **input**("Name? ")
 列表 12.1: ex12.py
 
 ```py
-1   age = **input(**"How old are you? ")
-2   height = **input(**"How tall are you? ")
-3   weight = **input(**"How much do you weigh? ")
+1   age = input("How old are you? ")
+2   height = input("How tall are you? ")
+3   weight = input("How much do you weigh? ")
 4
 5   print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 ```

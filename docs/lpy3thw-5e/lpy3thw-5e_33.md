@@ -10,29 +10,29 @@
  3   dogs = 15
  4
  5
- 6   **if** people < cats:
+ 6   if people < cats:
  7       print("Too many cats! The world is doomed!")
  8
- 9   **if** people > cats:
+ 9   if people > cats:
 10       print("Not many cats! The world is saved!")
 11
-12   **if** people < dogs:
+12   if people < dogs:
 13       print("The world is drooled on!")
 14
-15   **if** people > dogs:
+15   if people > dogs:
 16       print("The world is dry!")
 17
 18
 19   dogs += 5
 20
-21   **if** people >= dogs:
+21   if people >= dogs:
 22       print("People are greater than or equal to dogs.")
 23
-24   **if** people <= dogs:
+24   if people <= dogs:
 25       print("People are less than or equal to dogs.")
 26
 27
-28   **if** people == dogs:
+28   if people == dogs:
 29       print("People are dogs.")
 ```
 

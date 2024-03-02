@@ -6,7 +6,7 @@
 
 ```py
  1   print("Mary had a little lamb.")
- 2   print("Its fleece was white as {}.".**format(**'snow'**))**
+ 2   print("Its fleece was white as {}.".format('snow'))
  3   print("And everywhere that Mary went.")
  4   print("." * 10) # what'd that do?
  5

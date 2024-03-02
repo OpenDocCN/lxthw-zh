@@ -26,9 +26,9 @@
  1   i = 0
  2   numbers = []
  3
- 4   **while** i < 6:
+ 4   while i < 6:
  5       print(f"At the top i is {i}")
- 6       numbers.append**(**i)
+ 6       numbers.append(i)
  7
  8       i = i + 1
  9       print("Numbers now: ", numbers)
@@ -37,7 +37,7 @@
 12
 13   print("The numbers: ")
 14
-15   **for** num **in** numbers:
+15   for num in numbers:
 16       print(num)
 ```
 

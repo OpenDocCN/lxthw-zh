@@ -15,8 +15,8 @@
 列表 18.1: ex18_demo.py
 
 ```py
-1   **def** do_nothing**()**:
-2       **pass**
+1   def do_nothing():
+2       pass
 ```
 
 这创建了函数，但`pass`关键字告诉 Python 这个函数是空的。要使函数执行某些操作，你需要在`def`行下添加函数的代码，但要缩进四个空格：
@@ -24,7 +24,7 @@
 列表 18.2: ex18_demo.py
 
 ```py
-1   **def** do_something**()**:
+1   def do_something():
 2       print("I did something!")
 ```
 
@@ -33,11 +33,11 @@
 列表 18.3: ex18_demo.py
 
 ```py
-1   **def** do_something**()**:
+1   def do_something():
 2       print("I did something!")
 3
 4   # now we can call it by its name
-5   do_something**()**
+5   do_something()
 ```
 
 当底部的`do_something()`运行时，Python 执行以下操作：
@@ -59,10 +59,10 @@
 列表 18.4: ex18_demo.py
 
 ```py
-1   **def** do_more_things**(**a, b):
+1   def do_more_things(a, b):
 2       print("A IS", a, "B IS", b)
 3
-4   do_more_things**(**"hello", 1)
+4   do_more_things("hello", 1)
 ```
 
 在这种情况下，我有两个参数（也称为“参数”）传递给`do_more_things`函数：`a`和`b`。当我使用`do_more_things("hello", 1)`调用这个函数时，Python *临时*赋值`a="hello"`和`b=1`，然后调用函数。这意味着，在函数内部`a`和`b`将具有这些值，并且当函数退出时它们将消失。这有点像这样：
@@ -70,7 +70,7 @@
 列表 18.5: ex18_demo.py
 
 ```py
-1   **def** do_more_things**(**a, b):
+1   def do_more_things(a, b):
 2       a = "hello"
 3       b = 1
 4       print("A IS", a, "B IS", b)
@@ -86,27 +86,27 @@
 
 ```py
 1   # this one is like your scripts with argv
-2   **def** print_two**(***args):
+2   def print_two(*args):
 3       arg1, arg2 = args
 4       print(f"arg1: {arg1}, arg2: {arg2}")
 5
 6   # ok, that *args is actually pointless, we can just do this
-7   **def** print_two_again**(**arg1, arg2):
+7   def print_two_again(arg1, arg2):
 8       print(f"arg1: {arg1}, arg2: {arg2}")
 9
 10   # this just takes one argument
-11   **def** print_one**(**arg1):
+11   def print_one(arg1):
 12       print(f"arg1: {arg1}")
 13
 14   # this one takes no arguments
-15   **def** print_none**()**:
+15   def print_none():
 16       print("I got nothin'.")
 17
 18
-19   print_two**(**"Zed","Shaw")
-20   print_two_again**(**"Zed","Shaw")
-21   print_one**(**"First!")
-22   print_none**()**
+19   print_two("Zed","Shaw")
+20   print_two_again("Zed","Shaw")
+21   print_one("First!")
+22   print_none()
 ```
 
 让我们分解第一个函数`print_two`，这与你从制作脚本中已经了解的内容最相似：

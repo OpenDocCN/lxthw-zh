@@ -18,7 +18,7 @@
 列表 26.2: ex26_code.py
 
 ```py
-1   **import** ex26
+1   import ex26
 ```
 
 这将把`ex26.py`的内容带入你的 Jupyter lab 中，这样你就可以像这样访问它们：
@@ -39,9 +39,9 @@
 列表 26.4: ex26_code.py
 
 ```py
-1   **from** pprint **import** pprint
+1   from pprint import pprint
 2
-3   pprint**(**ex26.**__dict__)**
+3   pprint(ex26.__dict__)
 ```
 
 `pprint`函数是一个“漂亮打印机”，将以更好的格式打印`__dict__`。
@@ -98,7 +98,7 @@
 列表 26.7: ex26_code.py
 
 ```py
-1   **from** pprint **import** pprint
+1   from pprint import pprint
 2   print(pprint. doc )
 ```
 
@@ -107,7 +107,7 @@
 列表 26.8: ex26_code.py
 
 ```py
-1   **help(**pprint)
+1   help(pprint)
 ```
 
 尝试用你能找到的所有其他 dunder 进行这些实验。你很可能不会直接使用它们，但了解 Python 内部工作原理是很有好处的。
