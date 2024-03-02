@@ -39,7 +39,13 @@
 练习 4 会话
 
 ```py
-1.  `$ python3.6 ex4.py`2.  `There are 100 cars available.`3.  `There are only 30 drivers available.`4.  `There will be 70 empty cars today.`5.  `We can transport 120.0 people today.`6.  `We have 90 to carpool today.`7.  `We need to put about 3.0  in each car.`
+$ python3.6 ex4.py
+There are 100 cars available.
+There are only 30 drivers available.
+There will be 70 empty cars today.
+We can transport 120.0 people today.
+We have 90 to carpool today.
+We need to put about 3.0  in each car.
 ```
 
 ## 附加练习
@@ -47,7 +53,10 @@
 当我第一次写这个程序的时候我出了一个小错误，Python 是这样告诉我的：
 
 ```py
-1.  `Traceback  ( most recent call last  ):`2.  `File  "ex4.py"  , line 8  ,  in  <module>`3.  `average_passengers_per_car = car_pool_capacity / passenger`4.  `NameError  : name ' car_pool_capacity '  is  not  defined`
+Traceback  ( most recent call last  ):
+File  "ex4.py"  , line 8  ,  in  <module>
+average_passengers_per_car = car_pool_capacity / passenger
+NameError  : name ' car_pool_capacity '  is  not  defined
 ```
 
 用你自己的话解释这段错误信息，要用行号并解释清楚为什么。

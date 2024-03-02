@@ -59,7 +59,10 @@ ex30.py
 练习 30 会话
 
 ```py
-1.  `$ python3.6 ex30.py`2.  `We should take the cars.`3.  `Maybe we could take the trucks.`4.  `Alright,  let's just take the trucks.`
+$ python3.6 ex30.py
+We should take the cars.
+Maybe we could take the trucks.
+Alright,  let's just take the trucks.
 ```
 
 ## 附加练习

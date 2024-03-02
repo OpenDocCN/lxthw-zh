@@ -43,7 +43,8 @@ ex29.py
 练习 29 会话
 
 ```py
-1.  `$ python3.6 ex29.py`2.  `Too many cats!  The world is doomed!` 3.  `The world is dry!`4.  `People are greater than or equal to dogs.`5.  `People are less than or equal to dogs.`6.  `People are dogs.`
+$ python3.6 ex29.py
+2.  `Too many cats!  The world is doomed!` 3.  `The world is dry!`4.  `People are greater than or equal to dogs.`5.  `People are less than or equal to dogs.`6.  `People are dogs.`
 ```
 
 ## 附加练习

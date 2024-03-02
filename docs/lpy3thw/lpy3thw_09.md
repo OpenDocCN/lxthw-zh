@@ -36,7 +36,13 @@ ex5.py
 练习 5 会话
 
 ```py
-1.  `$ python3.6 ex5.py`2.  `Let's talk about Zed A. Shaw. He's 74 inches tall.`3.  `He's 180 pounds heavy.`4.  `Actually that's not too heavy.`5.  `He's got Blue eyes and Brown hair.`6.  `His teeth are usually White depending on the coffee.`7.  `If I add 35, 74, and 180 I get 289.`
+$ python3.6 ex5.py
+Let's talk about Zed A. Shaw. He's 74 inches tall.
+He's 180 pounds heavy.
+Actually that's not too heavy.
+He's got Blue eyes and Brown hair.
+His teeth are usually White depending on the coffee.
+If I add 35, 74, and 180 I get 289.
 ```
 
 ## 附加练习

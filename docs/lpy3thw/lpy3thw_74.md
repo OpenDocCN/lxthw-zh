@@ -11,7 +11,21 @@
 练习 14 会话
 
 ```py
-1.  `$ cd temp`2.  `$ ls`3.  `uncool.txt iamcool.txt neat.txt something thefourthfile.txt`4.  `$ rm uncool.txt`5.  `$ ls`6.  `iamcool.txt neat.txt something thefourthfile.txt`7.  `$ rm iamcool.txt neat.txt thefourthfile.txt`8.  `$ ls something`9.  `$ cp -r something newplace`10.  `$`11.  `$ rm something/awesome.txt`12.  `$ rmdir something`13.  `$ rm -rf newplace`14.  `$ ls`15.  `$`
+$ cd temp
+$ ls
+uncool.txt iamcool.txt neat.txt something thefourthfile.txt
+$ rm uncool.txt
+$ ls
+iamcool.txt neat.txt something thefourthfile.txt
+$ rm iamcool.txt neat.txt thefourthfile.txt
+$ ls something
+$ cp -r something newplace
+$
+$ rm something/awesome.txt
+$ rmdir something
+$ rm -rf newplace
+$ ls
+$
 ```
 
 #### Windows
@@ -19,7 +33,9 @@
 练习 14 Windows 会话
 
 ```py
-1.  `> cd temp`2.  `> ls`5.  ```Directory: C:\Users\zed\temp```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/22/2011  4:52 PM      newplace```py11.  ```d----  12/22/2011  4:52 PM      something```py12.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py13.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py14.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py15.  ```-a---  12/22/2011  4:49 PM 0 uncool.txt```py18.  ````> rm uncool.txt```py`19.  ```> ls```py21.  ````Directory: C:\Users\zed\temp```py`24.  ````Mode  LastWriteTime  Length  Name```py`25.  ```----  -------------  ------  ----```py26.  ```d----  12/22/2011  4:52 PM      newplace```py27.  ```d----  12/22/2011  4:52 PM      something```py28.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py29.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py30.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py33.  ````> rm iamcool.txt```py`34.  ```> rm neat.txt```py35.  ```> rm thefourthfile.txt```py36.  ```> ls```py39.  ````Directory: C:\Users\zed\temp```py`42.  ````Mode  LastWriteTime  Length  Name```py`43.  ```----  -------------  ------  ----```py44.  ```d----  12/22/2011  4:52 PM      newplace```py45.  ```d----  12/22/2011  4:52 PM      something```py48.  ````> cp -r something newplace```py`49.  ```> rm something/awesome.txt```py50.  ```> rmdir something```py51.  ```> rm -r newplace```py52.  ```> ls```py55.  ````>```py`
+> cd temp
+> ls
+5.  ```Directory: C:\Users\zed\temp```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/22/2011  4:52 PM      newplace```py11.  ```d----  12/22/2011  4:52 PM      something```py12.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py13.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py14.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py15.  ```-a---  12/22/2011  4:49 PM 0 uncool.txt```py18.  ````> rm uncool.txt```py`19.  ```> ls```py21.  ````Directory: C:\Users\zed\temp```py`24.  ````Mode  LastWriteTime  Length  Name```py`25.  ```----  -------------  ------  ----```py26.  ```d----  12/22/2011  4:52 PM      newplace```py27.  ```d----  12/22/2011  4:52 PM      something```py28.  ```-a---  12/22/2011  4:49 PM 0 iamcool.txt```py29.  ```-a---  12/22/2011  4:49 PM 0 neat.txt```py30.  ```-a---  12/22/2011  4:49 PM 0 thefourthfile.txt```py33.  ````> rm iamcool.txt```py`34.  ```> rm neat.txt```py35.  ```> rm thefourthfile.txt```py36.  ```> ls```py39.  ````Directory: C:\Users\zed\temp```py`42.  ````Mode  LastWriteTime  Length  Name```py`43.  ```----  -------------  ------  ----```py44.  ```d----  12/22/2011  4:52 PM      newplace```py45.  ```d----  12/22/2011  4:52 PM      something```py48.  ````> cp -r something newplace```py`49.  ```> rm something/awesome.txt```py50.  ```> rmdir something```py51.  ```> rm -r newplace```py52.  ```> ls```py55.  ````>```py`
 ```
 
  ``### 55.15.2 你学到的

@@ -35,7 +35,11 @@ ex7.py
 练习 7 会话
 
 ```py
-1.  `$ python3.6 ex7.py`2.  `Mary had a little lamb.`3.  `Its fleece was white as snow.`4.  `And everywhere that Mary went.`6.  ``..........``7.  ``Cheese  Burger``
+$ python3.6 ex7.py
+Mary had a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+6.  ``..........``7.  ``Cheese  Burger``
 ```
 
  `## 附加练习

@@ -61,7 +61,12 @@ sentence =  [ first_word , second_word , third_word ]
 练习 48 Python 会话
 
 ```py
-1.  `Python  3.6.0  (default,  Feb  2  2017,  12:48:29)`2.  `[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more information.`3.  `>>>  int("hell")`4.  `Traceback  (most recent call last):`5.  `File  "<stdin>", line 1,  in  <module>`6.  `ValueError: invalid literal for  int()  with  base  10:  'hell'`
+Python  3.6.0  (default,  Feb  2  2017,  12:48:29)
+[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more information.
+>>>  int("hell")
+Traceback  (most recent call last):
+File  "<stdin>", line 1,  in  <module>
+ValueError: invalid literal for  int()  with  base  10:  'hell'
 ```
 
 这个 `ValueError` 就是 `int()` 函数抛出来的一个异常，因为你放进 `int()` 里面的不是一个数字。这个 `int()` 函数本来应该给你返回一个值，告诉你它遇到了一个错误。但是，因为它只能返回整数，所以它很难直接告诉你。它不能返回 -1，因为这是一个数字。所以，与其绞尽脑汁地思考遇到错误的时候应该返回什么，`int()` 函数直接抛出了一个 `ValueError` 异常让你来处理。

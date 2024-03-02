@@ -53,7 +53,11 @@ ex25.py
 在这个练习中我们要在 python3.6 翻译器（interpreter）里与 `ex25.py` 文件交互，之前我们在做计算的时候也交互过。你在终端里这样运行 python3.6（Windows 下直接输入 `python`）：
 
 ```py
-1.  `$ python3.6`2.  `Python  3.6.0rc2  (v3.6.0rc2:800a67f7806d,  Dec  16  2016,  14:12:21)`3.  `[GCC 4.2.1  (Apple  Inc. build 5666)  (dot 3)] on darwin`4.  `Type  "help "  ,  "copyright"  ,  "credits"  or  "license"  for more info`5.  `>>>`
+$ python3.6
+Python  3.6.0rc2  (v3.6.0rc2:800a67f7806d,  Dec  16  2016,  14:12:21)
+[GCC 4.2.1  (Apple  Inc. build 5666)  (dot 3)] on darwin
+Type  "help "  ,  "copyright"  ,  "credits"  or  "license"  for more info
+>>>
 ```
 
 你的输出结果应该和我的一样，你可以在提示符（即 `>` ）后面输入 Python 代码，它会直接运行。我希望你用这种方式输入这个练习的每一行代码，然后看看会如何：
@@ -82,7 +86,38 @@ ex25.py
 以下是交互模式下输入的结果： 练习 25 Python 会话
 
 ```py
-1.  `Python  3.6.0  (default,  Feb  2  2017,  12:48:29)`2.  `[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi`3.  `Type  "help",  "copyright",  "credits"  or  "license"  for more informa`4.  `>>>  import ex25`5.  `>>> sentence =  "All good things come to those who wait."`6.  `>>> words = ex25.break_words(sentence)`7.  `>>> words`8.  `['All',  'good',  'things',  'come',  'to',  'those',  'who',  'wait.']`9.  `>>> sorted_words = ex25.sort_words(words)`10.  `>>> sorted_words`11.  `['All',  'come',  'good',  'things',  'those',  'to',  'wait.',  'who']`12.  `>>> ex25.print_first_word(words)`13.  `All`14.  `>>> ex25.print_last_word(words)`15.  `wait.`16.  `>>> words`17.  `['good',  'things',  'come',  'to',  'those',  'who']`18.  `>>> ex25.print_first_word(sorted_words)`19.  `All`20.  `>>> ex25.print_last_word(sorted_words)`21.  `who`22.  `>>> sorted_words`23.  `['come',  'good',  'things',  'those',  'to',  'wait.']`24.  `>>> sorted_words = ex25.sort_sentence(sentence)`25.  `>>> sorted_words`26.  `['All',  'come',  'good',  'things',  'those',  'to',  'wait.',  'who']`27.  `>>> ex25.print_first_and_last(sentence)`28.  `All`29.  `wait.`30.  `>>> ex25.print_first_and_last_sorted(sentence)`31.  `All`32.  `who`
+Python  3.6.0  (default,  Feb  2  2017,  12:48:29)
+[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi
+Type  "help",  "copyright",  "credits"  or  "license"  for more informa
+>>>  import ex25
+>>> sentence =  "All good things come to those who wait."
+>>> words = ex25.break_words(sentence)
+>>> words
+['All',  'good',  'things',  'come',  'to',  'those',  'who',  'wait.']
+>>> sorted_words = ex25.sort_words(words)
+>>> sorted_words
+['All',  'come',  'good',  'things',  'those',  'to',  'wait.',  'who']
+>>> ex25.print_first_word(words)
+All
+>>> ex25.print_last_word(words)
+wait.
+>>> words
+['good',  'things',  'come',  'to',  'those',  'who']
+>>> ex25.print_first_word(sorted_words)
+All
+>>> ex25.print_last_word(sorted_words)
+who
+>>> sorted_words
+['come',  'good',  'things',  'those',  'to',  'wait.']
+>>> sorted_words = ex25.sort_sentence(sentence)
+>>> sorted_words
+['All',  'come',  'good',  'things',  'those',  'to',  'wait.',  'who']
+>>> ex25.print_first_and_last(sentence)
+All
+wait.
+>>> ex25.print_first_and_last_sorted(sentence)
+All
+who
 ```
 
 当你过完每一行，保证你能找到在 `ex25.py` 中运行的函数，并且理解了每个函数是如何运行的。如果你得到了不同的结果或者出现错误，你得把代码改正过来，然后退出 `python3.6` ，重新进入。

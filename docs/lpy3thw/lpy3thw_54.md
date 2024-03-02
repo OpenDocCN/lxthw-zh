@@ -13,7 +13,10 @@
 用 pip 安装 flask:
 
 ```py
-1.  `$ sudo pip install flask`2.  `[ sudo ] password for zedshaw:  Downloading/unpacking flask`3.  `Running setup.py egg_info for  package flask`5.  ``Installing collected packages : flask Running setup.py install for flask``7.  ```Successfully installed flask Cleaning up...```py
+$ sudo pip install flask
+[ sudo ] password for zedshaw:  Downloading/unpacking flask
+Running setup.py egg_info for  package flask
+5.  ``Installing collected packages : flask Running setup.py install for flask``7.  ```Successfully installed flask Cleaning up...```py
 ```
 
  ``这是 Linux 和 macOS 电脑上的操作，如果是 windows，把 `sudo` 去掉，直接输入 `pip install flask` 即可。如果不行的话，回到练习 46，确保你把之前的步骤都做好了。
@@ -23,7 +26,12 @@
 现在你要创建一个非常简单的“Hello World”网页应用，并且会用 flask 来创建项目目录。首先，创建你的项目目录：
 
 ```py
-1.  `$ cd projects`2.  `$ mkdir gothonweb`3.  `$ cd gothonweb`4.  `$ mkdir bin gothonweb tests docs templates`5.  `$ touch gothonweb/__init__.py`6.  `$ touch tests/__init__.py`
+$ cd projects
+$ mkdir gothonweb
+$ cd gothonweb
+$ mkdir bin gothonweb tests docs templates
+$ touch gothonweb/__init__.py
+$ touch tests/__init__.py
 ```
 
 **ai 酱注：** 这里是 Linux/macOS 的命令，Windows 要换成 `new-item` 来创建新文件，具体可以参考练习 46。
@@ -47,13 +55,17 @@ ex50.py
 然后像这样运行这个应用：
 
 ```py
-1.  `(lpthw) $ python3.6 app.py`2.  `*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
+(lpthw) $ python3.6 app.py
+*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
 最后，用你的浏览器打开 [`localhost:5000/`](http://localhost:5000/) 这个网址，你就可以看到两样东西。第一个是在你的浏览器中，你会看到 Hello, World!, 第二个是在你的终端，你会看到新的输出内容：
 
 ```py
-1.  `(lpthw) $ python3.6 app.py`2.  `*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) 127.0.0.1 –– [22/Feb/2017 14:28:50] ” GET / HTTP/1.1” 200–`3.  `127.0.0.1  ––  [22/Feb/2017  14:28:50]  ” GET /favicon.ico HTTP/1.1”  404–`4.  `127.0.0.1  ––  [22/Feb/2017  14:28:50]  ” GET /favicon.ico HTTP/1.1”  404–`
+(lpthw) $ python3.6 app.py
+*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) 127.0.0.1 –– [22/Feb/2017 14:28:50] ” GET / HTTP/1.1” 200–
+127.0.0.1  ––  [22/Feb/2017  14:28:50]  ” GET /favicon.ico HTTP/1.1”  404–
+127.0.0.1  ––  [22/Feb/2017  14:28:50]  ” GET /favicon.ico HTTP/1.1”  404–
 ```
 
 这些是 flask 为你打印的日志消息，这样你就能看到服务器在正常工作，以及浏览器在屏幕后面都做了什么。这些日志信息可以帮助你调试代码，告诉你哪里出错了。比如，它会说，你的浏览器尝试获取了 `/favicon.ico` ，但是这个文件不存在，所以它返回了 `404 Not Found` 状态码。
@@ -95,7 +107,12 @@ ex50.py
 这样可以正常运行，不过你也可以在“调试模式”（debugger mode）下运行 Flask。你会得到一个更好的错误页面，以及更多的有用信息。不过，调试模式的问题是它在互联网上运行不够安全，因此，你必须像这样打开它：
 
 ```py
-1.  `(lpthw) $ export FLASK_DEBUG=1`2.  `(lpthw) $ python3.6 app.py`3.  `*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`4.  `*  Restarting  with stat`5.  `*  Debugger  is active!`6.  `*  Debugger pin code:  222—752—342`
+(lpthw) $ export FLASK_DEBUG=1
+(lpthw) $ python3.6 app.py
+*  Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+*  Restarting  with stat
+*  Debugger  is active!
+*  Debugger pin code:  222—752—342
 ```
 
 **ai 酱注：** 上面第一行是 linux/macOS 下的命令，windows 系统输入 `set FLASK_DEBUG=1`。（可是我运行之后页面跟原来的一样，并没有多出什么信息来（摊手））

@@ -15,7 +15,9 @@
 练习 2 会话
 
 ```py
-1.  `$ pwd`2.  `/Users/zedshaw`3.  `$`
+$ pwd
+/Users/zedshaw
+$
 ```
 
 #### Windows

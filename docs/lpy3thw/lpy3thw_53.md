@@ -7,7 +7,15 @@
 Exercise 49 Python 会话
 
 ```py
-1.  `Python  3.6.0  (default,  Feb  2  2017,  12:48:29)`2.  `[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more information.`3.  `>>>  from ex48 import lexicon`4.  `>>> lexicon.scan("go north")`5.  `[('verb',  'go'),  ('direction',  'north')]`6.  `>>> lexicon.scan("kill the princess")`7.  `[('verb',  'kill'),  ('stop',  'the'),  ('noun',  'princess')]`8.  `>>> lexicon.scan("eat the bear")`9.  `[('verb',  'eat'),  ('stop',  'the'),  ('noun',  'bear')]`
+Python  3.6.0  (default,  Feb  2  2017,  12:48:29)
+[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more information.
+>>>  from ex48 import lexicon
+>>> lexicon.scan("go north")
+[('verb',  'go'),  ('direction',  'north')]
+>>> lexicon.scan("kill the princess")
+[('verb',  'kill'),  ('stop',  'the'),  ('noun',  'princess')]
+>>> lexicon.scan("eat the bear")
+[('verb',  'eat'),  ('stop',  'the'),  ('noun',  'bear')]
 ```
 
 以上对更长的句子也管用，比如：`lexicon.scan("open the door and smack the bear in the nose")`。
@@ -191,7 +199,24 @@ parser.py
 练习 49a Python 会话
 
 ```py
-1.  `Python  3.6.0  (default,  Feb  2  2017,  12:48:29)`2.  `[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more informa`3.  `>>>  from ex48.parser import  *`4.  `>>> x = parse_sentence([('verb',  'run'),  ('direction',  'north')])`5.  `>>> x.subject`6.  `'player'`7.  `>>> x.verb`8.  `'run'`9.  `>>> x.object`10.  `'north'`11.  `>>> x = parse_sentence([('noun',  'bear'),  ('verb',  'eat'),  ('stop',  'the'),`12.  `...  ('noun',  'honey')])`13.  `>>> x.subject`14.  `'bear'`15.  `>>> x.verb`16.  `'eat'`17.  `>>> x.object`18.  `'honey'`
+Python  3.6.0  (default,  Feb  2  2017,  12:48:29)
+[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang-700.1.81)] on darwi Type  "help",  "copyright",  "credits"  or  "license"  for more informa
+>>>  from ex48.parser import  *
+>>> x = parse_sentence([('verb',  'run'),  ('direction',  'north')])
+>>> x.subject
+'player'
+>>> x.verb
+'run'
+>>> x.object
+'north'
+>>> x = parse_sentence([('noun',  'bear'),  ('verb',  'eat'),  ('stop',  'the'),
+...  ('noun',  'honey')])
+>>> x.subject
+'bear'
+>>> x.verb
+'eat'
+>>> x.object
+'honey'
 ```
 
 **ai 酱注：** 这里要先切换到 skeleton 目录，在运行 python，因为引入模块那里是从 ex48.parser 导入的，说明不能在 ex48 这个目录下运行。

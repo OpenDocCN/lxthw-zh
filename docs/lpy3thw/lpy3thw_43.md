@@ -9,7 +9,14 @@
 练习 39 Python 会话
 
 ```py
-1.  `>>> things =  ['a',  'b',  'c',  'd']`2.  `>>>  print(things[1])`3.  `b`4.  `>>> things[1]  =  'z'`5.  `>>>  print(things[1])`6.  `z`7.  `>>> things`8.  `['a',  'z',  'c',  'd']`
+>>> things =  ['a',  'b',  'c',  'd']
+>>>  print(things[1])
+b
+>>> things[1]  =  'z'
+>>>  print(things[1])
+z
+>>> things
+['a',  'z',  'c',  'd']
 ```
 
 你可以用数字来索引列表，找到列表里面有些什么。到现在你应该能够理解这一点。但是你还要确保自己明白，你只能用数字来取出列表中的元素。
@@ -19,7 +26,16 @@
 练习 39 Python 会话
 
 ```py
-1.  `>>> stuff =  {'name':  'Zed',  'age':  39,  'height':  6  *  12  +  2}`2.  `>>>  print(stuff['name'])`3.  `Zed`4.  `>>>  print(stuff['age'])`5.  `39`6.  `>>>  print(stuff['height'])`7.  `74`8.  `>>> stuff['city']  =  "SF"`9.  `>>>  print(stuff['city'])`10.  `SF`
+>>> stuff =  {'name':  'Zed',  'age':  39,  'height':  6  *  12  +  2}
+>>>  print(stuff['name'])
+Zed
+>>>  print(stuff['age'])
+39
+>>>  print(stuff['height'])
+74
+>>> stuff['city']  =  "SF"
+>>>  print(stuff['city'])
+SF
 ```
 
 你会看到我们用了字符串（而不是数字）来从 stuff 字典中取出了我们想要的东西。我们也可以用字符串来给字典添加新的东西。而且，也可以不用字符串，我们可以这样做：
@@ -27,7 +43,12 @@
 练习 39 Python 会话
 
 ```py
-1.  `>>> stuff[1]  =  "Wow"`2.  `>>> stuff[2]  =  "Neato"`3.  `>>>  print(stuff[1])`4.  `Wow`5.  `>>>  print(stuff[2])`6.  `Neato`
+>>> stuff[1]  =  "Wow"
+>>> stuff[2]  =  "Neato"
+>>>  print(stuff[1])
+Wow
+>>>  print(stuff[2])
+Neato
 ```
 
 在这一段代码中我用了数字，所以你看，我在打印字典的时候既可以用数字也可以用字符串来作为键。我可以用任何东西。好吧，大多数东西，不过你现在就假装能够用任何东西吧。
@@ -37,7 +58,11 @@
 练习 39 Python 会话
 
 ```py
-1.  `>>>  del stuff['city']`2.  `>>>  del stuff[1]`3.  `>>>  del stuff[2]`4.  `>>> stuff`5.  `{'name':  'Zed',  'age':  39,  'height':  74}`
+>>>  del stuff['city']
+>>>  del stuff[1]
+>>>  del stuff[2]
+>>> stuff
+{'name':  'Zed',  'age':  39,  'height':  74}
 ```
 
 ## 一个字典示例

@@ -56,7 +56,10 @@ ex24.py
 练习 24 会话
 
 ```py
-1.  `$ python3.6 ex24.py`2.  `Let's practice everything.`3.  `You'd need to know 'bout escapes with \ that do:`5.  ``newlines and   tabs.``6.  ``--------------``8.  ```The lovely world```py9.  ```with logic so firmly planted cannot discern```py10.  ```the needs of love```py11.  ```nor comprehend passion from intuition```py12.  ```and requires an explanation```py14.  ````where there is none.```py`15.  ```--------------```py16.  ```This should be five: 5```py17.  ```With a starting point of: 10000```py18.  ```We'd have 5000000 beans,  5000.0 jars,  and  50.0 crates.```py19.  ```We can also do that this way:```py20.  ```We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.```py
+$ python3.6 ex24.py
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+5.  ``newlines and   tabs.``6.  ``--------------``8.  ```The lovely world```py9.  ```with logic so firmly planted cannot discern```py10.  ```the needs of love```py11.  ```nor comprehend passion from intuition```py12.  ```and requires an explanation```py14.  ````where there is none.```py`15.  ```--------------```py16.  ```This should be five: 5```py17.  ```With a starting point of: 10000```py18.  ```We'd have 5000000 beans,  5000.0 jars,  and  50.0 crates.```py19.  ```We can also do that this way:```py20.  ```We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.```py
 ```
 
  ``## 附加练习

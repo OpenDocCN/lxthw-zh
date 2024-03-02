@@ -45,7 +45,17 @@ ex3.py
 练习 3 会话
 
 ```py
-1.  `$ python3.6 ex3.py`2.  `I will now count my chickens:  Hens  30.0`3.  `Roosters  97`4.  `Now I will count the eggs:  6.75`5.  `Is it true that 3  +  2  <  5  -  7?  False`6.  `What  is  3  +  2?  5`7.  `What  is  5  -  7?  -2`8.  `Oh, that's why it's False.  How about some more.`9.  `Is it greater?  True`10.  `Is it greater or equal?  True`12.  ``Is it less or equal?  False``
+$ python3.6 ex3.py
+I will now count my chickens:  Hens  30.0
+Roosters  97
+Now I will count the eggs:  6.75
+Is it true that 3  +  2  <  5  -  7?  False
+What  is  3  +  2?  5
+What  is  5  -  7?  -2
+Oh, that's why it's False.  How about some more.
+Is it greater?  True
+Is it greater or equal?  True
+12.  ``Is it less or equal?  False``
 ```
 
  `## 课后练习

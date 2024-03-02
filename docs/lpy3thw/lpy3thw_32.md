@@ -7,7 +7,26 @@
 在这个练习中，你将试着在 Python 中运用你在上个练习中所记忆的逻辑表。给以下每一个逻辑问题写下你认为的答案，要么是 True，要么是 False。等你把答案写下来，再在终端里运行 Python，输入每个逻辑问题，来确认你的答案是否正确。
 
 ```py
-1.  `1.  True  and  True`2.  `2.  False  and  True`3.  `3.  1  ==  1  and  2  ==  1`4.  `4.  "test"  ==  "test"`5.  `5.  1  ==  1  or  2  !=  1`6.  `6.  True  and  1  ==  1`7.  `7.  False  and  0  !=  0`8.  `8.  True  or  1  ==  1`9.  `9.  "test"  ==  "testing"`10.  `10.  1  !=  0  and  2  ==  1`11.  `11.  "test"  !=  "testing"`12.  `12.  "test"  ==  1`13.  `13.  not  (True  and  False)`14.  `14.  not  (1  ==  1  and  0  !=  1)`15.  `15.  not  (10  ==  1  or  1000  ==  1000)`16.  `16.  not  (1  !=  10  or  3  ==  4)`17.  `17.  not  ("testing"  ==  "testing"  and  "Zed"  ==  "Cool Guy")`18.  `18.  1  ==  1  and  (not  ("testing"  ==  1  or  1  ==  0))`19.  `19.  "chunky"  ==  "bacon"  and  (not  (3  ==  4  or  3  ==  3))`20.  `20.  3  ==  3  and  (not  ("testing"  ==  "testing"  or  "Python"  ==  "Fun"))`
+1.  True  and  True
+2.  False  and  True
+3.  1  ==  1  and  2  ==  1
+4.  "test"  ==  "test"
+5.  1  ==  1  or  2  !=  1
+6.  True  and  1  ==  1
+7.  False  and  0  !=  0
+8.  True  or  1  ==  1
+9.  "test"  ==  "testing"
+10.  1  !=  0  and  2  ==  1
+11.  "test"  !=  "testing"
+12.  "test"  ==  1
+13.  not  (True  and  False)
+14.  not  (1  ==  1  and  0  !=  1)
+15.  not  (10  ==  1  or  1000  ==  1000)
+16.  not  (1  !=  10  or  3  ==  4)
+17.  not  ("testing"  ==  "testing"  and  "Zed"  ==  "Cool Guy")
+18.  1  ==  1  and  (not  ("testing"  ==  1  or  1  ==  0))
+19.  "chunky"  ==  "bacon"  and  (not  (3  ==  4  or  3  ==  3))
+20.  3  ==  3  and  (not  ("testing"  ==  "testing"  or  "Python"  ==  "Fun"))
 ```
 
 我还会教你一个小诀窍来帮你弄明白更复杂的问题。
@@ -55,7 +74,14 @@
 在你尝试给出所有答案后，这是你可能会在 Python 运行后看到的会话结果：
 
 ```py
-1.  `$ python3.6`2.  `Python  2.5.1  (r251:54863,  Feb  6  2009,  19:02:12)`3.  `[GCC 4.0.1  (  Apple  Inc  . build 5465)] on darwin`4.  `Type  "help"  ,  "copyright"  ,  "credits"  or  "license"  for more information`5.  `>>>  True  and  True`6.  `True`7.  `>>>  1  ==  1  and  2  ==  2`8.  `True`
+$ python3.6
+Python  2.5.1  (r251:54863,  Feb  6  2009,  19:02:12)
+[GCC 4.0.1  (  Apple  Inc  . build 5465)] on darwin
+Type  "help"  ,  "copyright"  ,  "credits"  or  "license"  for more information
+>>>  True  and  True
+True
+>>>  1  ==  1  and  2  ==  2
+True
 ```
 
 ## 附加练习

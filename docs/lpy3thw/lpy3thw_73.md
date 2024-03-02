@@ -11,7 +11,12 @@
 练习 13 会话
 
 ```py
-1.  `$ less test2.txt [displays file here]`2.  `$ cat test2.txt I am a fun guy.`3.  `Don't you know why? Because I make poems, that make babies cry.`4.  `$ cat test.txt`5.  `Hi there this is cool.`6.  `$`
+$ less test2.txt [displays file here]
+$ cat test2.txt I am a fun guy.
+Don't you know why? Because I make poems, that make babies cry.
+$ cat test.txt
+Hi there this is cool.
+$
 ```
 
 #### Windows
@@ -19,7 +24,8 @@
 练习 13 Windows 会话
 
 ```py
-1.  `> more test2.txt [displays file here]`3.  ``> cat test2.txt I am a fun guy.``4.  ``Don't you know why? Because I make poems, that make babies cry.``5.  ``> cat test.txt``6.  ``Hi there this is cool.``7.  ``>``
+> more test2.txt [displays file here]
+3.  ``> cat test2.txt I am a fun guy.``4.  ``Don't you know why? Because I make poems, that make babies cry.``5.  ``> cat test.txt``6.  ``Hi there this is cool.``7.  ``>``
 ```
 
  `### 55.14.2 你学到的

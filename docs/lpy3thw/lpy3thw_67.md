@@ -11,7 +11,28 @@
 练习 7 会话
 
 ```py
-1.  `$ cd temp`2.  `$ ls stuff`3.  `$ cd stuff/things/orange/apple/pear/grape/`4.  `$ cd ..`5.  `$ rmdir grape`6.  `$ cd ..`7.  `$ rmdir pear`8.  `$ cd ..`9.  `$ ls apple`10.  `$ rmdir apple`11.  `$ cd ..`12.  `$ ls orange`13.  `$ rmdir orange`14.  `$ cd ..`15.  `$ ls things`16.  `$ rmdir things`17.  `$ cd ..`18.  `$ ls stuff`19.  `$ rmdir stuff`20.  `$ pwd`21.  `~/temp`22.  `$`
+$ cd temp
+$ ls stuff
+$ cd stuff/things/orange/apple/pear/grape/
+$ cd ..
+$ rmdir grape
+$ cd ..
+$ rmdir pear
+$ cd ..
+$ ls apple
+$ rmdir apple
+$ cd ..
+$ ls orange
+$ rmdir orange
+$ cd ..
+$ ls things
+$ rmdir things
+$ cd ..
+$ ls stuff
+$ rmdir stuff
+$ pwd
+~/temp
+$
 ```
 
 | 警告！ |
@@ -23,7 +44,9 @@
 练习 7 Windows 会话
 
 ```py
-1.  `> cd temp`2.  `> ls`5.  ```Directory: C:\Users\zed\temp```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/17/2011  9:03 AM      stuff```py13.  ````> cd stuff/things/orange/apple/pear/grape/```py`14.  ```> cd ..```py15.  ```> rmdir grape```py16.  ```> cd ..```py18.  ````> rmdir pear```py`19.  ```> cd ..```py20.  ```> rmdir apple```py21.  ```> cd ..```py22.  ```> rmdir orange```py23.  ```> cd ..```py24.  ```> ls```py27.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:14 AM      things```py35.  ````> rmdir things```py`36.  ```> cd ..```py37.  ```> ls```py40.  ````Directory: C:\Users\zed\temp```py`43.  ````Mode  LastWriteTime  Length  Name```py`44.  ```----  -------------  ------  ----```py45.  ```d----  12/17/2011  9:14 AM      stuff```py48.  ````> rmdir stuff```py`49.  ```> pwd```py51.  ````Path```py`52.  ```----```py53.  ```C:\Users\zed\temp```py56.  ````> cd ..```py`57.  ```>```py
+> cd temp
+> ls
+5.  ```Directory: C:\Users\zed\temp```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/17/2011  9:03 AM      stuff```py13.  ````> cd stuff/things/orange/apple/pear/grape/```py`14.  ```> cd ..```py15.  ```> rmdir grape```py16.  ```> cd ..```py18.  ````> rmdir pear```py`19.  ```> cd ..```py20.  ```> rmdir apple```py21.  ```> cd ..```py22.  ```> rmdir orange```py23.  ```> cd ..```py24.  ```> ls```py27.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:14 AM      things```py35.  ````> rmdir things```py`36.  ```> cd ..```py37.  ```> ls```py40.  ````Directory: C:\Users\zed\temp```py`43.  ````Mode  LastWriteTime  Length  Name```py`44.  ```----  -------------  ------  ----```py45.  ```d----  12/17/2011  9:14 AM      stuff```py48.  ````> rmdir stuff```py`49.  ```> pwd```py51.  ````Path```py`52.  ```----```py53.  ```C:\Users\zed\temp```py56.  ````> cd ..```py`57.  ```>```py
 ```
 
  ``### 55.8.2 你学到的

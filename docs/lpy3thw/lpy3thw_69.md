@@ -11,7 +11,10 @@
 练习 9 会话
 
 ```py
-1.  `$ cd temp`2.  `$ touch iamcool.txt`3.  `$ ls iamcool.txt`4.  `$`
+$ cd temp
+$ touch iamcool.txt
+$ ls iamcool.txt
+$
 ```
 
 #### Windows
@@ -19,7 +22,10 @@
 练习 9 Windows 会话
 
 ```py
-1.  `> cd temp`2.  `>  New-Item iamcool.txt -type file`3.  `> ls`6.  ```Directory: C:\Users\zed\temp```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  -----```py11.  ```a---  12/17/2011  9:03 AM      iamcool.txt```py14.  ````>```py`
+> cd temp
+>  New-Item iamcool.txt -type file
+> ls
+6.  ```Directory: C:\Users\zed\temp```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  -----```py11.  ```a---  12/17/2011  9:03 AM      iamcool.txt```py14.  ````>```py`
 ```
 
  ``### 55.10.2 你学到的

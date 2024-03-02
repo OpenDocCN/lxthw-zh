@@ -39,7 +39,16 @@ ex14.py
 练习 14 会话
 
 ```py
-1.  `$ python3.6 ex14.py zed`2.  `Hi zed, I'm the ex14.py script.`3.  `I'd like to ask you a few questions.`4.  `Do you like me zed?`5.  `>  Yes`6.  `Where  do you live zed?`7.  `>  San  Francisco`8.  `What kind of computer do you have?`9.  `>  Tandy  1000`11.  ``Alright, so you said Yes about liking me.``12.  ``You live in  San  Francisco.  Not sure where that is.``13.  ``And you have a Tandy  1000 computer.  Nice.``
+$ python3.6 ex14.py zed
+Hi zed, I'm the ex14.py script.
+I'd like to ask you a few questions.
+Do you like me zed?
+>  Yes
+Where  do you live zed?
+>  San  Francisco
+What kind of computer do you have?
+>  Tandy  1000
+11.  ``Alright, so you said Yes about liking me.``12.  ``You live in  San  Francisco.  Not sure where that is.``13.  ``And you have a Tandy  1000 computer.  Nice.``
 ```
 
  `## 附加练习

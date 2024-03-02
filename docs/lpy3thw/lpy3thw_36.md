@@ -9,7 +9,8 @@
 在你能够用一个 for-loop 之前，你需要一种方法来把这些循环的结果储存在某处。最好的办法就是用列表。列表顾名思义就是一个按顺序从头到尾组成的某种东西的容器。它并不复杂：你只需要学习一个新的语法。首先，你可以这样创建列表：
 
 ```py
-1.  `hairs =  ['brown',  'blond',  'red']`2.  `eyes =  ['brown',  'blue',  'green'] weights =  [1,  2,  3,  4]`
+hairs =  ['brown',  'blond',  'red']
+eyes =  ['brown',  'blue',  'green'] weights =  [1,  2,  3,  4]
 ```
 
 以左方括号（ [ ）开始打开列表，然后把你想要的条目用逗号隔开放进去，有点类似于函数的参数。最后，用右方括号（ ] ）来表明列表的结束。Python 会选取这个列表以及它的所有内容并把它们分配到变量里。
@@ -59,7 +60,24 @@ ex32.py
 练习 32 会话
 
 ```py
-1.  `$ python3.6 ex32.py`2.  `This  is count 1`3.  `This  is count 2`4.  `This  is count 3`5.  `This  is count 4`6.  `This  is count 5`7.  `A fruit of type: apples`8.  `A fruit of type: oranges`9.  `A fruit of type: pears`10.  `A fruit of type: apricots`11.  `I got 1`12.  `I got pennies`13.  `I got 2`14.  `I got dimes`15.  `I got 3`16.  `I got quarters`17.  `Adding  0 to the list.`18.  `Adding  1 to the list.` 19.  `Adding  2 to the list.`20.  `Adding  3 to the list.` 21.  `Adding  4 to the list.`22.  `Adding  5 to the list.` 23.  `Element was:  0`24.  `Element was:  1`25.  `Element was:  2`26.  `Element was:  3`27.  `Element was:  4`28.  `Element was:  5`
+$ python3.6 ex32.py
+This  is count 1
+This  is count 2
+This  is count 3
+This  is count 4
+This  is count 5
+A fruit of type: apples
+A fruit of type: oranges
+A fruit of type: pears
+A fruit of type: apricots
+I got 1
+I got pennies
+I got 2
+I got dimes
+I got 3
+I got quarters
+Adding  0 to the list.
+18.  `Adding  1 to the list.` 19.  `Adding  2 to the list.`20.  `Adding  3 to the list.` 21.  `Adding  4 to the list.`22.  `Adding  5 to the list.` 23.  `Element was:  0`24.  `Element was:  1`25.  `Element was:  2`26.  `Element was:  3`27.  `Element was:  4`28.  `Element was:  5`
 ```
 
 ## 附加练习

@@ -26,7 +26,13 @@ ex8.py
 练习 8 会话
 
 ```py
-1.  `$ python3.6 ex8.py`2.  `1  2  3  4`3.  `one two three four`4.  `True  False  False  True`5.  `{}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}`6.  `Try your Own text here`7.  `Maybe a poem` 8.  `Or a song about fear`
+$ python3.6 ex8.py
+1  2  3  4
+one two three four
+True  False  False  True
+{}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}  {}
+Try your Own text here
+7.  `Maybe a poem` 8.  `Or a song about fear`
 ```
 
 在这个练习中我用了一个“函数”（function）来把 `formatter` 变量变成其他字符串。当你看到我写 `formatter.format(…)` 时，我就是在告诉 Python 做如下的事情：

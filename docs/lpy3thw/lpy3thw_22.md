@@ -61,7 +61,11 @@ ex18.py
 练习 18 会话
 
 ```py
-1.  `$ python3.6 ex18.py`2.  `arg1:  Zed, arg2:  Shaw`3.  `arg1:  Zed, arg2:  Shaw`4.  `arg1:  First!`5.  `I got nothin'.`
+$ python3.6 ex18.py
+arg1:  Zed, arg2:  Shaw
+arg1:  Zed, arg2:  Shaw
+arg1:  First!
+I got nothin'.
 ```
 
 现在你已经看到了函数是如何工作的。注意你使用函数的方式就像你使用 exists、open 等其他一些“命令”一样。其实我一直在跟你卖关子，因为在 python 里面，这些“命令”就是“函数”（学习癌注：哈哈哈哈哈老肖太坏了）。这意味着你可以创建你自己的命令然后在你的脚本中使用。

@@ -49,7 +49,9 @@ ex20.py
 练习 20 会话
 
 ```py
-1.  `$ python3.6 ex20.py test.txt`2.  `First  let's print the whole file:`4.  ``This is line 1``5.  ``This is line 2``6.  ``This is line 3``8.  ```Now let's rewind, kind of like a tape.```py 9.  ```Let's print three lines:```py10.  ```1   This is line 1```py12.  ````2   This is line 2```py`14.  ````3   This is line 3```py`
+$ python3.6 ex20.py test.txt
+First  let's print the whole file:
+4.  ``This is line 1``5.  ``This is line 2``6.  ``This is line 3``8.  ```Now let's rewind, kind of like a tape.```py 9.  ```Let's print three lines:```py10.  ```1   This is line 1```py12.  ````2   This is line 2```py`14.  ````3   This is line 3```py`
 ```
 
  ``## 附加练习

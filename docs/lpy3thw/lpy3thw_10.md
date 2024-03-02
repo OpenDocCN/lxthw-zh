@@ -9,7 +9,8 @@
 字符串可以包含你的 Python 脚本中任意数量的变量。记住，变量就是让名字 = 一个值的那行代码。在本练习的代码中，`types_of_people = 10` 创建了一个名称为 `types_of_people`，值为 10 的变量。你可以用 `{types_of_people}` 的形式把这个变量放到任意字符串中。你还会看到我用了格式字符串（f-string），就像这样：
 
 ```py
-1.  `f"some stuff here { avariable }"`2.  `f"some other stuff { anothervar }"`
+f"some stuff here { avariable }"
+f"some other stuff { anothervar }"
 ```
 
 Python 还有其他种类的格式，就像你在第 17 行看到的 `.format()` 语法。你还会看到当我想对一个已经创建的字符串应用一种格式的时候，我就会这样用，比如在一个循环里，我们会在后面的内容中涉及到。
@@ -48,7 +49,13 @@ ex6.py
 练习 6 会话
 
 ```py
-1.  `$ python3.6 ex6.py`2.  `There are 10 types of people.`3.  `Those who know binary and those who don't.`4.  `I said: There are 10 types of people.`5.  `I also said: 'Those who know binary and those who don't.'`6.  `Isn't that joke so funny?! False`7.  `This is the left side of...a string with a right side.`
+$ python3.6 ex6.py
+There are 10 types of people.
+Those who know binary and those who don't.
+I said: There are 10 types of people.
+I also said: 'Those who know binary and those who don't.'
+Isn't that joke so funny?! False
+This is the left side of...a string with a right side.
 ```
 
 ## 附加练习

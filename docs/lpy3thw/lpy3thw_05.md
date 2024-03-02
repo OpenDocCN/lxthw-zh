@@ -54,7 +54,11 @@ python3.6 ex1.py
 如果你出错了你可能会看到这个：
 
 ```py
-1.  `$ python3.6 python/ex1.py`2.  `File  "python/ex1.py"  , line 3`3.  `print  (" I like typing this.`4.  `^`5.  `SyntaxError : EOL while scanning string literal`
+$ python3.6 python/ex1.py
+File  "python/ex1.py"  , line 3
+print  (" I like typing this.
+^
+SyntaxError : EOL while scanning string literal
 ```
 
 能读懂这些错误信息很重要，因为你接下来可能会出现很多这种错误，我也是。让我们一行一行来看。

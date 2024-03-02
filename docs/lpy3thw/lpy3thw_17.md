@@ -42,7 +42,11 @@ ex13.py
 练习 13 会话
 
 ```py
-1.  `$ python3.6 ex13.py first 2nd  3rd`2.  `The script is called: ex13.py`3.  `Your first variable is: first`4.  `Your second variable is:  2nd`5.  `Your third variable is:  3rd`
+$ python3.6 ex13.py first 2nd  3rd
+The script is called: ex13.py
+Your first variable is: first
+Your second variable is:  2nd
+Your third variable is:  3rd
 ```
 
 当你做一些不同参数的运行时，你会看到：

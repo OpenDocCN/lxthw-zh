@@ -51,7 +51,9 @@ ex44a.py
 Exercise 44a 会话
 
 ```py
-1.  `$ python3.6 ex44a.py`2.  `PARENT implicit()`3.  `PARENT implicit()`
+$ python3.6 ex44a.py
+PARENT implicit()
+PARENT implicit()
 ```
 
 注意，即使我在第 16 行调用了 `son.implicit()`，并且 Child 里面也没有定义一个隐式函数，它仍然可以正常运行，它调用了在 Parent 中定义的那个函数。这表明如果将函数放在基类中(比如 Parent），然后所有子类（比如 Child）会自动获得这些特性。对于需要写很多重复代码的类来说非常方便。
@@ -85,7 +87,9 @@ ex44b.py
 Exercise 44b 会话
 
 ```py
-1.  `$ python3.6 ex44b.py`2.  `PARENT override()`3.  `CHILD override()`
+$ python3.6 ex44b.py
+PARENT override()
+CHILD override()
 ```
 
 如你所见，当第 14 行运行时，它运行了 Parent.override 函数，因为那个变量（dad）是一个 Parent。但是当第 15 行运行时，它打印了 Child.override 信息。因为 son 是 Child 的一个实例，Child 通过定义它自己的版本来重写了那个函数。
@@ -137,7 +141,8 @@ ex44c.py
 Exercise 44c 会话
 
 ```py
-1.  `$ python3.6 ex44c.py`3.  ``PARENT altered()``4.  ``CHILD, BEFORE PARENT altered()``5.  ``PARENT altered()``6.  ``CHILD, AFTER PARENT altered()``
+$ python3.6 ex44c.py
+3.  ``PARENT altered()``4.  ``CHILD, BEFORE PARENT altered()``5.  ``PARENT altered()``6.  ``CHILD, AFTER PARENT altered()``
 ```
 
  `### 44.1.4 三者结合
@@ -186,7 +191,15 @@ ex44d.py
 Exercise 44d 会话
 
 ```py
-1.  `$ python3.6 ex44d.py`2.  `PARENT implicit()`3.  `PARENT implicit()`4.  `PARENT override()`5.  `CHILD override()`6.  `PARENT altered()`7.  `CHILD, BEFORE PARENT altered()`8.  `PARENT altered()`9.  `CHILD, AFTER PARENT altered()`
+$ python3.6 ex44d.py
+PARENT implicit()
+PARENT implicit()
+PARENT override()
+CHILD override()
+PARENT altered()
+CHILD, BEFORE PARENT altered()
+PARENT altered()
+CHILD, AFTER PARENT altered()
 ```
 
 ### 用 super() 的理由
@@ -264,7 +277,12 @@ ex44e.py
 Exercise 44e 会话
 
 ```py
-1.  `$ python3.6 ex44e.py`2.  `OTHER implicit()`3.  `CHILD override()`4.  `CHILD, BEFORE OTHER altered()`5.  `OTHER altered()`6.  `CHILD, AFTER OTHER altered()`
+$ python3.6 ex44e.py
+OTHER implicit()
+CHILD override()
+CHILD, BEFORE OTHER altered()
+OTHER altered()
+CHILD, AFTER OTHER altered()
 ```
 
 可以看到，Child 和 Other 中的大多数代码都是相同的，可以完成相同的事情。唯一的区别是我必须定义一个 `Child.implicit` 函数来完成这个动作。然后我可以问自己是否需要这个 Other 作为一个类，我是否可以将它放入一个名为 `Other.py` 的模块中？

@@ -147,7 +147,17 @@ ex40c.py
 我现在有三种从获取数据的方式：
 
 ```py
-1.  `1  # dict style`2.  `2 mystuff['apples']`3.  `3`4.  `4  # module style`5.  `5 mystuff.apples()`6.  `6  print(mystuff.tangerine)`7.  `7`8.  `8  # class style`9.  `9 thing =  MyStuff()`10.  `10 thing.apples()`11.  `11  print(thing.tangerine)`
+1  # dict style
+2 mystuff['apples']
+3
+4  # module style
+5 mystuff.apples()
+6  print(mystuff.tangerine)
+7
+8  # class style
+9 thing =  MyStuff()
+10 thing.apples()
+11  print(thing.tangerine)
 ```
 
 ### 40.1.4 第一个类的例子
@@ -183,7 +193,12 @@ ex40.py
 练习 40 会话
 
 ```py
-1.  `$ python3.6 ex40.py`2.  `Happy birthday to you`3.  `I don't want to get sued`4.  `So I'll stop right there`5.  `They rally around tha family`6.  `With pockets full of shells`
+$ python3.6 ex40.py
+Happy birthday to you
+I don't want to get sued
+So I'll stop right there
+They rally around tha family
+With pockets full of shells
 ```
 
 ## 附加练习

@@ -11,7 +11,8 @@
 要解决这个问题，你得转义双引号和单引号，让 python 知道得把它们包含在字符串里。例如：
 
 ```py
-1.  `"I am 6'2\" tall."  # escape double—quote inside string`2.  `'I am 6\'2" tall.'  # escape single—quote inside string`
+"I am 6'2\" tall."  # escape double—quote inside string
+'I am 6\'2" tall.'  # escape single—quote inside string
 ```
 
 第二种方法是用三个双引号，即 `"""` ，这样就能像字符串一样运行，而且你可以多输入几行，最后再以 `"""` 结尾即可。我们来做个练习。
@@ -41,7 +42,12 @@ ex10.py
 找一找你输入的 `tab` 符号（即 `\t` ），在这个练习中空格很重要，别弄错了。
 
 ```py
-1.  `$ python ex10 . py`2.  `I'm tabbed in.`3.  `I'm split`4.  `on a line.`5.  `I'm \ a \ cat .`7.  ``I'll do a list:``8.  ``*  Cat food``9.  ``*  Fishies``10.  ``*  Catnip``11.  ``*  Grass``
+$ python ex10 . py
+I'm tabbed in.
+I'm split
+on a line.
+I'm \ a \ cat .
+7.  ``I'll do a list:``8.  ``*  Cat food``9.  ``*  Fishies``10.  ``*  Catnip``11.  ``*  Grass``
 ```
 
  `## 转义字符

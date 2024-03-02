@@ -13,7 +13,9 @@
 练习 4 会话
 
 ```py
-1.  `$ pwd`2.  `$ cd ~`4.  ``$ mkdir temp``5.  ``$ mkdir temp/stuff``6.  ``$ mkdir temp/stuff/things``7.  ``$ mkdir -p temp/stuff/things/orange/apple/pear/grape``8.  ``$``
+$ pwd
+$ cd ~
+4.  ``$ mkdir temp``5.  ``$ mkdir temp/stuff``6.  ``$ mkdir temp/stuff/things``7.  ``$ mkdir -p temp/stuff/things/orange/apple/pear/grape``8.  ``$``
 ```
 
  `#### Windows
@@ -21,7 +23,10 @@
 练习 4 Windows 会话
 
 ```py
-1.  `> pwd`2.  `> cd ~`3.  `> mkdir temp`6.  ```Directory: C:\Users\zed```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  ----```py11.  ```d----  12/17/2011  9:02 AM      temp```py14.  ````> mkdir temp/stuff```py`17.  ````Directory: C:\Users\zed\temp```py`20.  ````Mode  LastWriteTime  Length  Name```py`21.  ```----  -------------  ------  ----```py22.  ```d----  12/17/2011  9:02 AM      stuff```py25.  ````> mkdir temp/stuff/things```py`28.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:03 AM      things```py35.  ````> mkdir temp/stuff/things/orange/apple/pear/grape```py`39.  ````Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear```py`42.  ````Mode  LastWriteTime  Length  Name```py`43.  ```----  -------------  ------  ----```py44.  ```d----  12/17/2011  9:03 AM      grape```py47.  ````>```py`
+> pwd
+> cd ~
+> mkdir temp
+6.  ```Directory: C:\Users\zed```py9.  ````Mode  LastWriteTime  Length  Name```py`10.  ```----  -------------  ------  ----```py11.  ```d----  12/17/2011  9:02 AM      temp```py14.  ````> mkdir temp/stuff```py`17.  ````Directory: C:\Users\zed\temp```py`20.  ````Mode  LastWriteTime  Length  Name```py`21.  ```----  -------------  ------  ----```py22.  ```d----  12/17/2011  9:02 AM      stuff```py25.  ````> mkdir temp/stuff/things```py`28.  ````Directory: C:\Users\zed\temp\stuff```py`30.  ````Mode  LastWriteTime  Length  Name```py`31.  ```----  -------------  ------  ----```py32.  ```d----  12/17/2011  9:03 AM      things```py35.  ````> mkdir temp/stuff/things/orange/apple/pear/grape```py`39.  ````Directory: C:\Users\zed\temp\stuff\things\orange\apple\pear```py`42.  ````Mode  LastWriteTime  Length  Name```py`43.  ```----  -------------  ------  ----```py44.  ```d----  12/17/2011  9:03 AM      grape```py47.  ````>```py`
 ```
 
  ```pypwd` 和 `cd ~` 命令我只列这一次，但是记住，做每个练习之前你都要做这个操作。

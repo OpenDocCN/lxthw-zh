@@ -17,7 +17,8 @@
 练习 12 会话
 
 ```py
-1.  `$ less test.txt [displays file here]`2.  `$`
+$ less test.txt [displays file here]
+$
 ```
 
 就是这些，输入 `q` 即可退出 `less` 浏览模式。
@@ -27,7 +28,8 @@
 练习 12 Windows 会话
 
 ```py
-1.  `> more test.txt [displays file here]`2.  `>`
+> more test.txt [displays file here]
+>
 ```
 
 | 警告！ |

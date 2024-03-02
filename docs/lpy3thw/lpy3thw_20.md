@@ -62,7 +62,17 @@ ex16.py
 练习 16 会话
 
 ```py
-1.  `$ python3.6 ex16.py test.txt We're going to erase test.txt.`2.  `If you don't want that, hit CTRL-C (^C).  If you do want that, hit RETURN.`3.  `?`4.  `Opening the file...`5.  `Truncating the file.  Goodbye!`6.  `Now I'm going to ask you for three lines.`7.  `line 1: Mary had a little lamb`8.  `line 2: Its fleece was white as snow`9.  `line 3: It was also tasty`10.  `I'm going to write these to the file.`11.  `And  finally, we close it.`
+$ python3.6 ex16.py test.txt We're going to erase test.txt.
+If you don't want that, hit CTRL-C (^C).  If you do want that, hit RETURN.
+?
+Opening the file...
+Truncating the file.  Goodbye!
+Now I'm going to ask you for three lines.
+line 1: Mary had a little lamb
+line 2: Its fleece was white as snow
+line 3: It was also tasty
+I'm going to write these to the file.
+And  finally, we close it.
 ```
 
 现在，用编辑器打开你创建的文件（比如我的是 test.txt），检查一下是不是对的。

@@ -54,7 +54,8 @@ ex21.py
 练习 21 会话
 
 ```py
-1.  `$ python3.6 ex21.py`2.  `Let's do some math with just functions!` 3.  `ADDING 30 + 5`4.  `SUBTRACTING 78 - 4`5.  `MULTIPLYING 90 * 2`6.  `DIVIDING 100 / 2`7.  `Age: 35, Height: 74, Weight: 180, IQ: 50.0`8.  `Here is a puzzle.`9.  `DIVIDING 50.0 / 2`10.  `MULTIPLYING 180 * 25.0`11.  `SUBTRACTING 74 - 4500.0`12.  `ADDING 35 + -4426.0`13.  `That becomes:   -4391.0`14.  `Can you do it by hand?`
+$ python3.6 ex21.py
+2.  `Let's do some math with just functions!` 3.  `ADDING 30 + 5`4.  `SUBTRACTING 78 - 4`5.  `MULTIPLYING 90 * 2`6.  `DIVIDING 100 / 2`7.  `Age: 35, Height: 74, Weight: 180, IQ: 50.0`8.  `Here is a puzzle.`9.  `DIVIDING 50.0 / 2`10.  `MULTIPLYING 180 * 25.0`11.  `SUBTRACTING 74 - 4500.0`12.  `ADDING 35 + -4426.0`13.  `That becomes:   -4391.0`14.  `Can you do it by hand?`
 ```
 
 ## 附加练习

@@ -28,7 +28,17 @@ ex9.py
 练习 9 会话
 
 ```py
-1.  `$ python3.6 ex9.py`2.  `Here are the days:  Mon  Tue  Wed  Thu  Fri  Sat  Sun`3.  `Here are the months:  Jan`4.  `Feb`5.  `Mar`6.  `Apr`7.  `May`8.  `Jun`9.  `Jul`10.  `Aug`12.  ``There's something going on here.``13.  ``With the three double-quotes.``14.  ``We'll be able to type as much as we like.``15.  ``Even  4 lines if we want,  or  5,  or  6.``
+$ python3.6 ex9.py
+Here are the days:  Mon  Tue  Wed  Thu  Fri  Sat  Sun
+Here are the months:  Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+12.  ``There's something going on here.``13.  ``With the three double-quotes.``14.  ``We'll be able to type as much as we like.``15.  ``Even  4 lines if we want,  or  5,  or  6.``
 ```
 
  `## 附加练习

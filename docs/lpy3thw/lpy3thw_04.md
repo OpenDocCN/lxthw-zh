@@ -32,7 +32,17 @@
 这是我在自己苹果电脑 Terminal 终端操作完的会话。你的可能会稍有不同，但大体应该是差不多的。
 
 ```py
-1.  `$ python3.6`2.  `Python  3.6.0  (default,  Feb  2  2017,  12:48:29)`3.  `[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang -700.1.81)] on darwin`4.  `Type  "help",  "copyright",  "credits"  or  "license"  for more information`5.  `>>>`6.  `~ $ mkdir lpthw`7.  `~ $ cd lpthw`8.  `lpthw $ ls`9.  `# ...   Use your text editor here to edit test.txt....`10.  `lpthw $ ls`11.  `test.txt lpthw $`
+$ python3.6
+Python  3.6.0  (default,  Feb  2  2017,  12:48:29)
+[GCC 4.2.1  Compatible  Apple LLVM 7.0.2  (clang -700.1.81)] on darwin
+Type  "help",  "copyright",  "credits"  or  "license"  for more information
+>>>
+~ $ mkdir lpthw
+~ $ cd lpthw
+lpthw $ ls
+# ...   Use your text editor here to edit test.txt....
+lpthw $ ls
+test.txt lpthw $
 ```
 
 ## Windows
@@ -55,7 +65,16 @@
 ### 1.2.1 Windows: 你应该看到
 
 ```py
-1.  `> python`2.  `>>> quit()`3.  `> mkdir lpthw`4.  `> cd lpthw`5.  `...  Here you would use your text editor to make test.txt in lpthw`6.  `>`7.  `> dir`8.  `Volume  in drive C is`9.  `Volume  Serial  Number  is  085C—7E02`11.  ``Directory of C:\Documents and  Settings\you\lpthw``13.  ```04.05.2010  23:32  <DIR>  .```py14.  ```04.05.2010  23:32  <DIR>  ..```py 15.  ```04.05.201  0  23:32  6 test.txt```py16.  ```1  File(s)  6 bytes```py17.  ```2  Dir(s)  14  804  623  360 bytes free```py19.  ````>```py`
+> python
+>>> quit()
+> mkdir lpthw
+> cd lpthw
+...  Here you would use your text editor to make test.txt in lpthw
+>
+> dir
+Volume  in drive C is
+Volume  Serial  Number  is  085C—7E02
+11.  ``Directory of C:\Documents and  Settings\you\lpthw``13.  ```04.05.2010  23:32  <DIR>  .```py14.  ```04.05.2010  23:32  <DIR>  ..```py 15.  ```04.05.201  0  23:32  6 test.txt```py16.  ```1  File(s)  6 bytes```py17.  ```2  Dir(s)  14  804  623  360 bytes free```py19.  ````>```py`
 ```
 
  ``如果你的显示跟我的略有不同也是正确的，但是大体上应该是一样的。
@@ -82,7 +101,13 @@ Linux 系统五花八门，软件安装方式也各不相同。我假设如果�
 ### 0.3.1 Linux: 你应该看到
 
 ```py
-1.  `$ python`2.  `>>> quit()`3.  `$ mkdir lpthw`4.  `$ cd lpthw`5.  `# ...    Use your text editor here to edit test.txt ...`6.  `$ ls test.txt`7.  `$`
+$ python
+>>> quit()
+$ mkdir lpthw
+$ cd lpthw
+# ...    Use your text editor here to edit test.txt ...
+$ ls test.txt
+$
 ```
 
 如果你的显示跟我的略有不同也是正确的，但是大体上应该是一样的。

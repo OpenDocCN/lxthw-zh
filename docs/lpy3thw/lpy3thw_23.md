@@ -46,7 +46,13 @@ ex19.py
 练习 19 会话
 
 ```py
-1.  `$ python3.6 ex19.py`2.  `We can just give the function numbers directly:`3.  `You have 20 cheeses!`4.  `You have 30 boxes of crackers!`5.  `Man that's enough for a party!`6.  `Get a blanket.`8.  ``OR, we can use variables from our script:``9.  ``You have 10 cheeses!``10.  ``You have 50 boxes of crackers!``11.  ``Man that's enough for a party!``12.  ``Get a blanket.``14.  ```We can even do math inside too:```py15.  ```You have 30 cheeses!```py16.  ```You have 11 boxes of crackers!```py17.  ```Man that's enough for a party!```py18.  ```Get a blanket.```py20.  ````And we can combine the two, variables and math:```py`21.  ```You have 110 cheeses!```py22.  ```You have 1050 boxes of crackers!```py23.  ```Man that's enough for a party!```py24.  ```Get a blanket.```py
+$ python3.6 ex19.py
+We can just give the function numbers directly:
+You have 20 cheeses!
+You have 30 boxes of crackers!
+Man that's enough for a party!
+Get a blanket.
+8.  ``OR, we can use variables from our script:``9.  ``You have 10 cheeses!``10.  ``You have 50 boxes of crackers!``11.  ``Man that's enough for a party!``12.  ``Get a blanket.``14.  ```We can even do math inside too:```py15.  ```You have 30 cheeses!```py16.  ```You have 11 boxes of crackers!```py17.  ```Man that's enough for a party!```py18.  ```Get a blanket.```py20.  ````And we can combine the two, variables and math:```py`21.  ```You have 110 cheeses!```py22.  ```You have 1050 boxes of crackers!```py23.  ```Man that's enough for a party!```py24.  ```Get a blanket.```py
 ```
 
  ``## 附加练习

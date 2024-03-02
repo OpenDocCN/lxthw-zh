@@ -21,7 +21,16 @@
 大部分时候你不需要知道这些细节，不过如果你看到如下的 Python 错误信息，上面的细节就对你有用了：
 
 ```py
-1.  `$ python3.6`2.  `>>>  class  Thing(object):`3.  `...  def test(message):`4.  `...  print(message)`5.  `...`6.  `>>> a =  Thing()`7.  `>>> a.test("hello")`8.  `Traceback  (most recent call last):  File  "<stdin>", line 1  ,  in  <module>`9.  `TypeError  : test() takes exactly 1 argument (2 given)`10.  `>>>`
+$ python3.6
+>>>  class  Thing(object):
+...  def test(message):
+...  print(message)
+...
+>>> a =  Thing()
+>>> a.test("hello")
+Traceback  (most recent call last):  File  "<stdin>", line 1  ,  in  <module>
+TypeError  : test() takes exactly 1 argument (2 given)
+>>>
 ```
 
 这些是什么呢？这是我在 Python 命令行下展示给你的一点魔法。你还没有见过 `class`，不过后面很快就要碰到了。现在你看到 Python 说 `test()takes exactly 1 argument (2 given)` (`test()` 只可以接受 1 个参数，实际上给了 2 个)。它意味着 python 把 `a.test("hello")` 改成了 `test(a, "hello")`，而有人在某个地方弄错了，没有为 a 添加这个参数。
@@ -58,7 +67,15 @@ ex38.py
 ## 你会看到
 
 ```py
-1.  `Wait there are not  10 things in that list.  Let's fix that. Adding:  Boy`2.  `There are 7 items now. Adding:  Girl`3.  `There are 8 items now. Adding:  Banana`4.  `There are 9 items now. Adding:  Corn`5.  `There are 10 items now.`6.  `There we go:    ['Apples', 'Oranges', 'Crows', 'Telephone', 'Light' 'Sugar', 'Boy', 'Girl', 'Banana', 'Corn']`7.  `Let's do some things with stuff.  Oranges`8.  `Corn  Corn`9.  `Apples  Oranges  Crows  Telephone  Light  Sugar  Boy  Girl  Banana  Telephone#Light`
+Wait there are not  10 things in that list.  Let's fix that. Adding:  Boy
+There are 7 items now. Adding:  Girl
+There are 8 items now. Adding:  Banana
+There are 9 items now. Adding:  Corn
+There are 10 items now.
+There we go:    ['Apples', 'Oranges', 'Crows', 'Telephone', 'Light' 'Sugar', 'Boy', 'Girl', 'Banana', 'Corn']
+Let's do some things with stuff.  Oranges
+Corn  Corn
+Apples  Oranges  Crows  Telephone  Light  Sugar  Boy  Girl  Banana  Telephone#Light
 ```
 
 ## 列表能做什么

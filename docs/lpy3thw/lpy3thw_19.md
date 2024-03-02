@@ -7,7 +7,9 @@
 在这个练习中你要写两个文件。一个是通常你要运行的 `ex15.py` ，一个是叫做 `ex15_sample.txt` 的文本文件。以下是文本文件中要输入的内容：
 
 ```py
-1.  `This  is stuff I typed into a file.`2.  `It  is really cool stuff.`3.  `Lots  and lots of fun to have in here.`
+This  is stuff I typed into a file.
+It  is really cool stuff.
+Lots  and lots of fun to have in here.
 ```
 
 我们要做的就是在我们的脚本中打开这个文件并把它打印出来。然而，我们不想只是简单粗暴（hard coding）地把 `ex15_sample.txt` 这个文件名输入进去，hard coding 的意思是把一些应该从用户那里获取的信息直接放到源代码里。这样不好，因为我们随后会需要它载入别的文件。解决方法是用 `argv` 或者 `input` 来问用户应该打开哪个文件，而不是 hard coding 文件名。

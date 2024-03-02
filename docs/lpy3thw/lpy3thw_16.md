@@ -25,7 +25,11 @@ ex12.py
 练习 12 会话
 
 ```py
-1.  `$ python3.6 ex12.py`2.  `How old are you?  38`3.  `How tall are you?  6'2"`4.  `How much do you weigh? 180lbs`5.  `So, you're 38 old,  6'2" tall and 180lbs heavy.`
+$ python3.6 ex12.py
+How old are you?  38
+How tall are you?  6'2"
+How much do you weigh? 180lbs
+So, you're 38 old,  6'2" tall and 180lbs heavy.
 ```
 
 ## 附加练习

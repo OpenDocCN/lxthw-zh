@@ -260,7 +260,10 @@ app_tests.py
 最后，用 `nosetests` 运行这个测试程序，来测试你的 web 应用：
 
 ```py
-1.  `$ nosetests`2.  `.`3.  `---------------`4.  `Ran  1 test in  0.059s OK`
+$ nosetests
+.
+---------------
+Ran  1 test in  0.059s OK
 ```
 
 我在这儿其实是把整个应用都从 `app.py` 模块中引入进来了，然后手动运行它。flask 框架有一个非常简单用来处理请求的 API，它看起来像这样：

@@ -93,7 +93,19 @@ ex35.py
 练习 35 会话
 
 ```py
-1.  `$ python3.6 ex35.py`2.  `You are in a dark room.`3.  `There  is a door to your right and left.  Which one do you take?`4.  `> left`5.  `There  is a bear here.`6.  `The bear has a bunch of honey.`7.  `The fat bear is  in front of another door.  How are you going to move the bear?`8.  `> taunt bear`9.  `The bear has moved from the door.  You can go through it now.`10.  `> open door`11.  `This room is full of gold.  How much do you take?`12.  `>  1000`13.  `You greedy bastard!  Good job!`
+$ python3.6 ex35.py
+You are in a dark room.
+There  is a door to your right and left.  Which one do you take?
+> left
+There  is a bear here.
+The bear has a bunch of honey.
+The fat bear is  in front of another door.  How are you going to move the bear?
+> taunt bear
+The bear has moved from the door.  You can go through it now.
+> open door
+This room is full of gold.  How much do you take?
+>  1000
+You greedy bastard!  Good job!
 ```
 
 ## 附加练习

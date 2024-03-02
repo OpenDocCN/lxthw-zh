@@ -11,7 +11,16 @@
 练习 8 会话
 
 ```py
-1.  `$ cd temp`2.  `$ mkdir i/like/icecream`3.  `$ pushd i/like/icecream`4.  `~/temp/i/like/icecream ~/temp`5.  `$ popd`6.  `~/temp`7.  `$ pwd`8.  `~/temp`9.  `$ pushd i/like`11.  ``~/temp/i/like ~/temp``12.  ``$ pwd``13.  ``~/temp/i/like``14.  ``$ pushd icecream``15.  ``~/temp/i/like/icecream ~/temp/i/like ~/temp``16.  ``$ pwd``17.  ``~/temp/i/like/icecream``18.  ``$ popd``19.  ``~/temp/i/like ~/temp``20.  ``$ pwd``21.  ``~/temp/i/like``22.  ``$ popd``23.  ``~/temp``24.  ``$ pushd i/like/icecream``25.  ``~/temp/i/like/icecream ~/temp``26.  ``$ pushd``27.  ``~/temp ~/temp/i/like/icecream``28.  ``$ pwd``29.  ``~/temp``30.  ``$ pushd``31.  ``~/temp/i/like/icecream ~/temp``32.  ``$ pwd``33.  ``~/temp/i/like/icecream``34.  ``$``
+$ cd temp
+$ mkdir i/like/icecream
+$ pushd i/like/icecream
+~/temp/i/like/icecream ~/temp
+$ popd
+~/temp
+$ pwd
+~/temp
+$ pushd i/like
+11.  ``~/temp/i/like ~/temp``12.  ``$ pwd``13.  ``~/temp/i/like``14.  ``$ pushd icecream``15.  ``~/temp/i/like/icecream ~/temp/i/like ~/temp``16.  ``$ pwd``17.  ``~/temp/i/like/icecream``18.  ``$ popd``19.  ``~/temp/i/like ~/temp``20.  ``$ pwd``21.  ``~/temp/i/like``22.  ``$ popd``23.  ``~/temp``24.  ``$ pushd i/like/icecream``25.  ``~/temp/i/like/icecream ~/temp``26.  ``$ pushd``27.  ``~/temp ~/temp/i/like/icecream``28.  ``$ pwd``29.  ``~/temp``30.  ``$ pushd``31.  ``~/temp/i/like/icecream ~/temp``32.  ``$ pwd``33.  ``~/temp/i/like/icecream``34.  ``$``
 ```
 
  `#### Windows
@@ -19,7 +28,9 @@
 练习 8 Windows 会话
 
 ```py
-1.  `> cd temp`2.  `> mkdir i/like/icecream`5.  ```Directory: C:\Users\zed\temp\i\like```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/20/2011  11:05 AM     icecream```py13.  ````> pushd i/like/icecream```py`14.  ```> popd```py15.  ```> pwd```py17.  ````Path```py`18.  ```----```py19.  ```C:\Users\zed\temp```py22.  ````> pushd i/like```py`23.  ```> pwd```py25.  ````Path```py`26.  ```----```py27.  ```C:\Users\zed\temp\i\like```py30.  ````> pushd icecream```py`31.  ```> pwd```py33.  ````Path```py`34.  ```----```py35.  ```C:\Users\zed\temp\i\like\icecream```py38.  ````> popd```py`39.  ```> pwd```py41.  ````Path```py`42.  ```----```py43.  ```C:\Users\zed\temp\i\like```py46.  ````> popd```py`47.  ```>```py
+> cd temp
+> mkdir i/like/icecream
+5.  ```Directory: C:\Users\zed\temp\i\like```py8.  ````Mode  LastWriteTime  Length  Name```py`9.  ```----  -------------  ------  ----```py10.  ```d----  12/20/2011  11:05 AM     icecream```py13.  ````> pushd i/like/icecream```py`14.  ```> popd```py15.  ```> pwd```py17.  ````Path```py`18.  ```----```py19.  ```C:\Users\zed\temp```py22.  ````> pushd i/like```py`23.  ```> pwd```py25.  ````Path```py`26.  ```----```py27.  ```C:\Users\zed\temp\i\like```py30.  ````> pushd icecream```py`31.  ```> pwd```py33.  ````Path```py`34.  ```----```py35.  ```C:\Users\zed\temp\i\like\icecream```py38.  ````> popd```py`39.  ```> pwd```py41.  ````Path```py`42.  ```----```py43.  ```C:\Users\zed\temp\i\like```py46.  ````> popd```py`47.  ```>```py
 ```
 
  ``| 警告！ |

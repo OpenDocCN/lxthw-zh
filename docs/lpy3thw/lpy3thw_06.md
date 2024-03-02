@@ -24,7 +24,8 @@ ex2.py
 练习 2 会话
 
 ```py
-1.  `$ python3.6 ex2.py`2.  `I could have code like this.  This will run.`
+$ python3.6 ex2.py
+I could have code like this.  This will run.
 ```
 
 再说一次，我之后可能不会将所有的截图都贴出来，你得明白第一个 `$` 和最后一个 `$` 之间的内容才是你应该关注的。
