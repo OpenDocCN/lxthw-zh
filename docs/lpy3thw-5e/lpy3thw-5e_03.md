@@ -11,13 +11,13 @@
 列表 1.1: ex1.py
 
 ```py
-1   **print(**"Hello World!"**)**
-2   **print(**"Hello Again"**)**
-3   **print(**"I like typing this."**)**
-4   **print(**"This is fun."**)**
-5   **print(**'Yay! Printing.'**)**
-6   **print(**"I'd much rather you 'not'."**)**
-7   **print(**'I "said" do not touch this.'**)**
+1   print("Hello World!")
+2   print("Hello Again")
+3   print("I like typing this.")
+4   print("This is fun.")
+5   print('Yay! Printing.')
+6   print("I'd much rather you 'not'.")
+7   print('I "said" do not touch this.')
 ```
 
 你的 Jupyter 单元格应该看起来像这样：

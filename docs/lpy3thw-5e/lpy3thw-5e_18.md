@@ -25,34 +25,34 @@
 ```py
  1   filename = "test.txt"
  2
- 3   **print(**f"We're going to erase {filename}."**)**
- 4   **print(**"If you don't want that, hit CTRL-C *(*^C*)*."**)**
- 5   **print(**"If you do want that, hit RETURN."**)**
+ 3   print(f"We're going to erase {filename}.")
+ 4   print("If you don't want that, hit CTRL-C *(*^C*)*.")
+ 5   print("If you do want that, hit RETURN.")
  6
- 7   **input(**"?"**)**
+ 7   **input(**"?")
  8
- 9   **print(**"Opening the file..."**)**
-10   target = **open(**filename, 'w'**)**
+ 9   print("Opening the file...")
+10   target = **open(**filename, 'w')
 11
-12   **print(**"Truncating the file. Goodbye!"**)**
+12   print("Truncating the file. Goodbye!")
 13   target.truncate**()**
 14
-15   **print(**"Now I'm going to ask you for three lines."**)**
+15   print("Now I'm going to ask you for three lines.")
 16
-17   line1 = **input(**"line 1: "**)**
-18   line2 = **input(**"line 2: "**)**
-19   line3 = **input(**"line 3: "**)**
+17   line1 = **input(**"line 1: ")
+18   line2 = **input(**"line 2: ")
+19   line3 = **input(**"line 3: ")
 20
-21   **print(**"I'm going to write these to the file."**)**
+21   print("I'm going to write these to the file.")
 22
-23   target.write**(**line1**)**
-24   target.write**(**"\n"**)**
-25   target.write**(**line2**)**
-26   target.write**(**"\n"**)**
-27   target.write**(**line3**)**
-28   target.write**(**"\n"**)**
+23   target.write**(**line1)
+24   target.write**(**"\n")
+25   target.write**(**line2)
+26   target.write**(**"\n")
+27   target.write**(**line3)
+28   target.write**(**"\n")
 29
-30   **print(**"And finally, we close it."**)**
+30   print("And finally, we close it.")
 31   target.close**()**
 ```
 

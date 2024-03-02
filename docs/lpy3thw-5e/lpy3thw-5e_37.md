@@ -27,18 +27,18 @@
  2   numbers = []
  3
  4   **while** i < 6:
- 5       **print(**f"At the top i is {i}"**)**
- 6       numbers.append**(**i**)**
+ 5       print(f"At the top i is {i}")
+ 6       numbers.append**(**i)
  7
  8       i = i + 1
- 9       **print(**"Numbers now: ", numbers**)**
-10       **print(**f"At the bottom i is {i}"**)**
+ 9       print("Numbers now: ", numbers)
+10       print(f"At the bottom i is {i}")
 11
 12
-13   **print(**"The numbers: "**)**
+13   print("The numbers: ")
 14
 15   **for** num **in** numbers:
-16       **print(**num**)**
+16       print(num)
 ```
 
 ### 你应该看到的结果

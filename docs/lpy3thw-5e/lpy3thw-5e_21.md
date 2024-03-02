@@ -25,7 +25,7 @@
 
 ```py
 1   **def** do_something**()**:
-2       **print(**"I did something!"**)**
+2       print("I did something!")
 ```
 
 这实际上将代码`print("I did something!")`分配给名称`do_something`，这样你以后可以再次在代码中使用它，类似于其他变量。使用你定义的函数是如何“运行”它或“调用”它的：
@@ -34,7 +34,7 @@
 
 ```py
 1   **def** do_something**()**:
-2       **print(**"I did something!"**)**
+2       print("I did something!")
 3
 4   # now we can call it by its name
 5   do_something**()**
@@ -59,10 +59,10 @@
 列表 18.4: ex18_demo.py
 
 ```py
-1   **def** do_more_things**(**a, b**)**:
-2       **print(**"A IS", a, "B IS", b**)**
+1   **def** do_more_things**(**a, b):
+2       print("A IS", a, "B IS", b)
 3
-4   do_more_things**(**"hello", 1**)**
+4   do_more_things**(**"hello", 1)
 ```
 
 在这种情况下，我有两个参数（也称为“参数”）传递给`do_more_things`函数：`a`和`b`。当我使用`do_more_things("hello", 1)`调用这个函数时，Python *临时*赋值`a="hello"`和`b=1`，然后调用函数。这意味着，在函数内部`a`和`b`将具有这些值，并且当函数退出时它们将消失。这有点像这样：
@@ -70,10 +70,10 @@
 列表 18.5: ex18_demo.py
 
 ```py
-1   **def** do_more_things**(**a, b**)**:
+1   **def** do_more_things**(**a, b):
 2       a = "hello"
 3       b = 1
-4       **print(**"A IS", a, "B IS", b**)**
+4       print("A IS", a, "B IS", b)
 ```
 
 请记住这并不完全准确，因为如果你用不同的参数调用`do_more_things`，`a`和`b`会不同。这只是一个例子，*一次*你用`do_more_things ("hello", 1)`调用它。
@@ -86,26 +86,26 @@
 
 ```py
 1   # this one is like your scripts with argv
-2   **def** print_two**(***args**)**:
+2   **def** print_two**(***args):
 3       arg1, arg2 = args
-4       **print(**f"arg1: {arg1}, arg2: {arg2}"**)**
+4       print(f"arg1: {arg1}, arg2: {arg2}")
 5
 6   # ok, that *args is actually pointless, we can just do this
-7   **def** print_two_again**(**arg1, arg2**)**:
-8       **print(**f"arg1: {arg1}, arg2: {arg2}"**)**
+7   **def** print_two_again**(**arg1, arg2):
+8       print(f"arg1: {arg1}, arg2: {arg2}")
 9
 10   # this just takes one argument
-11   **def** print_one**(**arg1**)**:
-12       **print(**f"arg1: {arg1}"**)**
+11   **def** print_one**(**arg1):
+12       print(f"arg1: {arg1}")
 13
 14   # this one takes no arguments
 15   **def** print_none**()**:
-16       **print(**"I got nothin'."**)**
+16       print("I got nothin'.")
 17
 18
-19   print_two**(**"Zed","Shaw"**)**
-20   print_two_again**(**"Zed","Shaw"**)**
-21   print_one**(**"First!"**)**
+19   print_two**(**"Zed","Shaw")
+20   print_two_again**(**"Zed","Shaw")
+21   print_one**(**"First!")
 22   print_none**()**
 ```
 

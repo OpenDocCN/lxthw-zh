@@ -25,21 +25,21 @@ Python *还*有另一种使用`.format()`语法的格式化方式，你可以在
  5   do_not = "don't"
  6   y = f"Those who know {binary} and those who {do_not}."
  7
- 8   **print(**x**)**
- 9   **print(**y**)**
+ 8   print(x)
+ 9   print(y)
 10
-11   **print(**f"I said: {x}"**)**
-12   **print(**f"I also said: '{y}'"**)**
+11   print(f"I said: {x}")
+12   print(f"I also said: '{y}'")
 13
 14   hilarious = False
 15   joke_evaluation = "Isn't that joke so funny?! {}"
 16
-17   **print(**joke_evaluation.**format**(hilarious)**)**
+17   print(joke_evaluation.**format**(hilarious))
 18
 19   w = "This is the left side of..."
 20   e = "a string with a right side."
 21
-22   **print(**w + e**)**
+22   print(w + e)
 ```
 
 ### 你应该看到的内容

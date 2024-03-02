@@ -13,11 +13,11 @@ y = **input**("Name? ")
 列表 12.1: ex12.py
 
 ```py
-1   age = **input(**"How old are you? "**)**
-2   height = **input(**"How tall are you? "**)**
-3   weight = **input(**"How much do you weigh? "**)**
+1   age = **input(**"How old are you? ")
+2   height = **input(**"How tall are you? ")
+3   weight = **input(**"How much do you weigh? ")
 4
-5   **print(**f"So, you're {age} old, {height} tall and {weight} heavy."**)**
+5   print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 ```
 
 ### 你应该看到什么

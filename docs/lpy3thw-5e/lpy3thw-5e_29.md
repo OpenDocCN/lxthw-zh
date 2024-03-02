@@ -26,8 +26,8 @@
 列表 26.3: ex26_code.py
 
 ```py
-1   **print(**"name", ex26.name**)**
-2   **print(**"height", ex26.height**)**
+1   print("name", ex26.name)
+2   print("height", ex26.height)
 ```
 
 尽可能多地尝试玩这个。尝试添加新变量并再次导入以查看其工作原理。
@@ -53,8 +53,8 @@
 列表 26.5: ex26_code.py
 
 ```py
-1   **print(**"height is", ex26.height**)**
-2   **print(**"height is also", ex26\. dict ['height']**)**
+1   print("height is", ex26.height)
+2   print("height is also", ex26\. dict ['height'])
 ```
 
 对于这两种语法，你会得到相同的输出，但`.`模块语法肯定更容易。
@@ -66,13 +66,13 @@
 列表 26.6: ex26_code.py
 
 ```py
-1   **print(**f"I am currently {ex26.height} inches tall."**)**
+1   print(f"I am currently {ex26.height} inches tall.")
 2
 3   ex26\. dict ['height'] = 1000
-4   **print(**f"I am now {ex26.height} inches tall."**)**
+4   print(f"I am now {ex26.height} inches tall.")
 5
 6   ex26.height = 12
-7   **print(**f"Oops, now I'm {ex26\. dict ['height']} inches tall."**)**
+7   print(f"Oops, now I'm {ex26\. dict ['height']} inches tall.")
 ```
 
 正如你所看到的，当你改变`ex26.__dict__['height']`时，变量`ex26.height`也会改变，这证明了模块确实是`__dict__`。
@@ -99,7 +99,7 @@
 
 ```py
 1   **from** pprint **import** pprint
-2   **print(**pprint. doc **)**
+2   print(pprint. doc )
 ```
 
 这将为你提供与`pprint`函数相关联的一点文档。你可以使用`help`函数访问相同的信息：
@@ -107,7 +107,7 @@
 列表 26.8: ex26_code.py
 
 ```py
-1   **help(**pprint**)**
+1   **help(**pprint)
 ```
 
 尝试用你能找到的所有其他 dunder 进行这些实验。你很可能不会直接使用它们，但了解 Python 内部工作原理是很有好处的。

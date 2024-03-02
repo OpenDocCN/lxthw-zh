@@ -8,12 +8,12 @@
 1   # A comment, this is so you can read your program later.
 2   # Anything after the # is ignored by python.
 3
-4   **print(**"I could have code like this."**)** # and the comment after is ignored
+4   print("I could have code like this.") # and the comment after is ignored
 5
 6   # You can also use a comment to "disable" or comment out code:
 7   # print*(*"This won't run."*)*
 8
-9   **print(**"This will run."**)**
+9   print("This will run.")
 ```
 
 从现在开始，我会这样写代码。你需要明白并不是所有东西都必须字面意思。如果我的 Jupyter 看起来与你的有些不同，或者我在使用文本编辑器，结果都是一样的。更多关注文本输出，少关注视觉显示，比如字体和颜色。

@@ -29,10 +29,10 @@
  9   \t* Catnip\n\t* Grass
 10   """
 11
-12   **print(**tabby_cat**)**
-13   **print(**persian_cat**)**
-14   **print(**backslash_cat**)**
-15   **print(**fat_cat**)**
+12   print(tabby_cat)
+13   print(persian_cat)
+14   print(backslash_cat)
+15   print(fat_cat)
 ```
 
 ### 你应该看到的内容

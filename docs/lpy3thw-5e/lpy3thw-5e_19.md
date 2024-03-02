@@ -11,22 +11,22 @@
  4   from_file = "test.txt"
  5   to_file = "new_test.txt"
  6
- 7   **print(**f"Copying from {from_file} to {to_file}"**)**
+ 7   print(f"Copying from {from_file} to {to_file}")
  8
  9   # we could do these two on one line, how?
-10   in_file = **open(**from_file**)**
+10   in_file = **open(**from_file)
 11   indata = in_file.read**()**
 12
-13   **print(**f"The input file is {len*(*indata*)*} bytes long"**)**
+13   print(f"The input file is {len*(*indata*)*} bytes long")
 14
-15   **print(**f"Does the output file exist? {exists*(*to_file*)*}"**)**
-16   **print(**"Ready, hit RETURN to continue, CTRL-C to abort."**)**
+15   print(f"Does the output file exist? {exists*(*to_file*)*}")
+16   print("Ready, hit RETURN to continue, CTRL-C to abort.")
 17   **input()**
 18
-19   out_file = **open(**to_file, 'w'**)**
-20   out_file.write**(**indata**)**
+19   out_file = **open(**to_file, 'w')
+20   out_file.write**(**indata)
 21
-22   **print(**"Alright, all done."**)**
+22   print("Alright, all done.")
 23
 24   out_file.close**()**
 25   in_file.close**()**
