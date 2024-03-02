@@ -91,7 +91,7 @@ Windows 10 的安装会比 Linux 或者 macOS 简单一些，但是前提是你�
 这两行命令创建了一个 `.venvs` 文件夹来存储不同的虚拟环境，然后还创建了你的第一个虚拟环境 `lpthw`。一个虚拟环境（virtualenv）是一个用来运行软件的虚构的地方，这样你就有了针对每个项目包的不同版本。设置好 `virtualenv` 之后你需要激活它：
 
 ```py
-1.  `>  .\.venvs\lpthw\Scripts\activate`
+>  .\.venvs\lpthw\Scripts\activate
 ```
 
 这个命令会让 PowerShell 运行 activate 脚本，这个脚本会为你当前的 shell 配置 lpthw 虚拟环境。每次你想用你在这本书里的软件，你都要运行这个命令。你会看到 PowerShell 中的下一行命令提示符前面已经有了一个 `(lpthw)`，这表明了你正在使用的虚拟环境。最后，你只需要安装 nose 来运行随后的测试：
@@ -133,25 +133,25 @@ Windows 10 的安装会比 Linux 或者 macOS 简单一些，但是前提是你�
 setup.py
 
 ```py
-1.  1.  `1  try:`
-    2.  `2  from setuptools import setup`
-    3.  `3  except  ImportError:`
-    4.  `4  from distutils.core import setup`
-    5.  `5`
-    6.  `6 config =  {`
-    7.  `7  'description':  'My Project',`
-    8.  `8  'author':  'My Name',`
-    9.  `9  'url':  'URL to get it at.',`
-    10.  `10  'download_url':  'Where to download it.',`
-    11.  `11  'author_email':  'My email.',`
-    12.  `12  'version':  '0.1',`
-    13.  `13  'install_requires':  ['nose'],`
-    14.  `14  'packages':  ['NAME'],`
-    15.  `15  'scripts':  [],`
-    16.  `16  'name':  'projectname'`
-    17.  `17  }`
-    18.  `18`
-    19.  `19 setup(**config)`
+1  try:
+2  from setuptools import setup
+3  except  ImportError:
+4  from distutils.core import setup
+5
+6 config =  {
+7  'description':  'My Project',
+8  'author':  'My Name',
+9  'url':  'URL to get it at.',
+10  'download_url':  'Where to download it.',
+11  'author_email':  'My email.',
+12  'version':  '0.1',
+13  'install_requires':  ['nose'],
+14  'packages':  ['NAME'],
+15  'scripts':  [],
+16  'name':  'projectname'
+17  }
+18
+19 setup(**config)
 ```
 
 编辑这个文件，在其中填上你的联系信息，并且保证当你复制该文件的时候它能正常运行。
@@ -161,17 +161,17 @@ setup.py
 NAME_tests.py
 
 ```py
-1.  1.  `1  from nose.tools import  *`
-    2.  `2  import NAME`
-    3.  `3`
-    4.  `4  def setup():`
-    5.  `5  print("SETUP!")`
-    6.  `6`
-    7.  `7  def teardown():`
-    8.  `8  print("TEAR DOWN!")`
-    9.  `9`
-    10.  `10  def test_basic():`
-    11.  `11  print("I RAN!")`
+1  from nose.tools import  *
+2  import NAME
+3
+4  def setup():
+5  print("SETUP!")
+6
+7  def teardown():
+8  print("TEAR DOWN!")
+9
+10  def test_basic():
+11  print("I RAN!")
 ```
 
 ### 46.3.1 最终目录结构

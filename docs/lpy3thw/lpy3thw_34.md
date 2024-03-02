@@ -29,29 +29,29 @@ if 语句在代码中创建了一个“分支”（branch），有点类似于�
 ex30.py
 
 ```py
-1.  1.  `1 people =  30`
-    2.  `2 cars =  40`
-    3.  `3 trucks =  15`
-    4.  `4`
-    5.  `5`
-    6.  `6  if cars > people:`
-    7.  `7  print("We should take the cars.")`
-    8.  `8  elif cars < people:`
-    9.  `9  print("We should not take the cars.")`
-    10.  `10  else:`
-    11.  `11  print("We can't decide.")`
-    12.  `12`
-    13.  `13  if trucks > cars:`
-    14.  `14  print("That's too many trucks.")`
-    15.  `15  elif trucks < cars:`
-    16.  `16  print("Maybe we could take the trucks.")`
-    17.  `17  else:`
-    18.  `18  print("We still can't decide.")`
-    19.  `19`
-    20.  `20  if people > trucks:`
-    21.  `21  print("Alright, let's just take the trucks.")`
-    22.  `22  else:`
-    23.  `23  print("Fine, let's stay home then.")`
+1 people =  30
+2 cars =  40
+3 trucks =  15
+4
+5
+6  if cars > people:
+7  print("We should take the cars.")
+8  elif cars < people:
+9  print("We should not take the cars.")
+10  else:
+11  print("We can't decide.")
+12
+13  if trucks > cars:
+14  print("That's too many trucks.")
+15  elif trucks < cars:
+16  print("Maybe we could take the trucks.")
+17  else:
+18  print("We still can't decide.")
+19
+20  if people > trucks:
+21  print("Alright, let's just take the trucks.")
+22  else:
+23  print("Fine, let's stay home then.")
 ```
 
 ## 你会看到

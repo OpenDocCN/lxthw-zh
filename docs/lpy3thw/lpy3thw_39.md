@@ -7,83 +7,83 @@
 ex35.py
 
 ```py
-1.  1.  `1  from sys import  exit`
-    2.  `2`
-    3.  `3  def gold_room():`
-    4.  `4  print("This room is full of gold. How much do you take?")`
-    5.  `5`
-    6.  `6 choice = input("> ")`
-    7.  `7  if  "0"  in choice or  "1"  in choice:`
-    8.  `8 how_much =  int(choice)`
-    9.  `9  else:`
-    10.  `10 dead("Man, learn to type a number.")`
-    11.  `11`
-    12.  `12  if how_much <  50:`
-    13.  `13  print("Nice, you're not greedy, you win!")`
-    14.  `14  exit(0)`
-    15.  `15  else:`
-    16.  `16 dead("You greedy bastard!")`
-    17.  `17`
-    18.  `18`
-    19.  `19  def bear_room():`
-    20.  `20  print("There is a bear here.")`
-    21.  `21  print("The bear has a bunch of honey.")`
-    22.  `22  print("The fat bear is in front of another door.")`
-    23.  `23  print("How are you going to move the bear?")`
-    24.  `24 bear_moved =  False`
-    25.  `25`
-    26.  `26  while  True:`
-    27.  `27 choice = input("> ")`
-    28.  `28`
-    29.  `29  if choice ==  "take honey":`
-    30.  `30 dead("The bear looks at you then slaps your face")`
-    31.  `31  elif choice ==  "taunt bear"  and  not bear_moved:`
-    32.  `32  print("The bear has moved from the door.")`
-    33.  `33  print("You can go through it now.")`
-    34.  `34 bear_moved =  True`
-    35.  `35  elif choice ==  "taunt bear"  and bear_moved:`
-    36.  `36 dead("The bear gets pissed off and chews your leg.")`
-    37.  `37  elif choice ==  "open door"  and bear_moved:`
-    38.  `38 gold_room()`
-    39.  `39  else:`
-    40.  `40  print("I got no idea what that means.")`
-    41.  `41`
-    42.  `42`
-    43.  `43  def cthulhu_room():`
-    44.  `44  print("Here you see the great evil Cthulhu.")`
-    45.  `45  print("He, it, whatever stares at you and you go insane.")`
-    46.  `46  print("Do you flee for your life or eat your head?")`
-    47.  `47`
-    48.  `48 choice = input("> ")`
-    49.  `49`
-    50.  `50  if  "flee"  in choice:`
-    51.  `51 start()`
-    52.  `52  elif  "head"  in choice:`
-    53.  `53 dead("Well that was tasty!")`
-    54.  `54  else:`
-    55.  `55 cthulhu_room()`
-    56.  `56`
-    57.  `57`
-    58.  `58  def dead(why):`
-    59.  `59  print(why,  "Good job!")`
-    60.  `60  exit(0)`
-    61.  `61`
-    62.  `62  def start():`
-    63.  `63  print("You are in a dark room.")`
-    64.  `64  print("There is a door to your right and left.")`
-    65.  `65  print("Which one do you take?")`
-    66.  `66`
-    67.  `67 choice = input("> ")`
-    68.  `68`
-    69.  `69  if choice ==  "left":`
-    70.  `70 bear_room()`
-    71.  `71  elif choice ==  "right":`
-    72.  `72 cthulhu_room()`
-    73.  `73  else:`
-    74.  `74 dead("You stumble around the room until you starve.")`
-    75.  `75`
-    76.  `76`
-    77.  `77 start()`
+1  from sys import  exit
+2
+3  def gold_room():
+4  print("This room is full of gold. How much do you take?")
+5
+6 choice = input("> ")
+7  if  "0"  in choice or  "1"  in choice:
+8 how_much =  int(choice)
+9  else:
+10 dead("Man, learn to type a number.")
+11
+12  if how_much <  50:
+13  print("Nice, you're not greedy, you win!")
+14  exit(0)
+15  else:
+16 dead("You greedy bastard!")
+17
+18
+19  def bear_room():
+20  print("There is a bear here.")
+21  print("The bear has a bunch of honey.")
+22  print("The fat bear is in front of another door.")
+23  print("How are you going to move the bear?")
+24 bear_moved =  False
+25
+26  while  True:
+27 choice = input("> ")
+28
+29  if choice ==  "take honey":
+30 dead("The bear looks at you then slaps your face")
+31  elif choice ==  "taunt bear"  and  not bear_moved:
+32  print("The bear has moved from the door.")
+33  print("You can go through it now.")
+34 bear_moved =  True
+35  elif choice ==  "taunt bear"  and bear_moved:
+36 dead("The bear gets pissed off and chews your leg.")
+37  elif choice ==  "open door"  and bear_moved:
+38 gold_room()
+39  else:
+40  print("I got no idea what that means.")
+41
+42
+43  def cthulhu_room():
+44  print("Here you see the great evil Cthulhu.")
+45  print("He, it, whatever stares at you and you go insane.")
+46  print("Do you flee for your life or eat your head?")
+47
+48 choice = input("> ")
+49
+50  if  "flee"  in choice:
+51 start()
+52  elif  "head"  in choice:
+53 dead("Well that was tasty!")
+54  else:
+55 cthulhu_room()
+56
+57
+58  def dead(why):
+59  print(why,  "Good job!")
+60  exit(0)
+61
+62  def start():
+63  print("You are in a dark room.")
+64  print("There is a door to your right and left.")
+65  print("Which one do you take?")
+66
+67 choice = input("> ")
+68
+69  if choice ==  "left":
+70 bear_room()
+71  elif choice ==  "right":
+72 cthulhu_room()
+73  else:
+74 dead("You stumble around the room until you starve.")
+75
+76
+77 start()
 ```
 
 ## 你会看到

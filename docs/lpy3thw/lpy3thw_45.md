@@ -81,89 +81,89 @@
 ex41.py
 
 ```py
-1.  1.  `1  import random`
-    2.  `2  from urllib.request import urlopen`
-    3.  `3  import sys`
-    4.  `4`
-    5.  `5 WORD_URL =  "http://learncodethehardway.org/words.txt"`
-    6.  `6 WORDS =  []`
-    7.  `7`
-    8.  `8 PHRASES =  {`
-    9.  `9  "class %%%(%%%):":`
-    10.  `10  "Make a class named %%% that is-a %%%.",`
-    11.  `11  "class %%%(object):\n\tdef __init__(self, ***)"  :`
-    12.  `12  "class %%% has-a __init__ that takes self and *** params.",`
-    13.  `13  "class %%%(object):\n\tdef ***(self, @@@)":`
-    14.  `14  "class %%% has-a function *** that takes self and @@@ params.",`
-    15.  `15  "*** = %%%()":`
-    16.  `16  "Set *** to an instance of class %%%.",`
-    17.  `17  "***.***(@@@)":`
-    18.  `18  "From *** get the *** function, call it with params self @@@.",`
-    19.  `19  "***.*** = '***'":`
-    20.  `20  "From *** get the *** attribute and set it to '***'."`
-    21.  `21  }`
-    22.  `22`
-    23.  `23  # do they want to drill phrases first`
-    24.  `24  if len(sys.argv)  ==  2  and sys.argv[1]  ==  "english":`
-    25.  `25 PHRASE_FIRST =  True`
-    26.  `26  else:`
-    27.  `27 PHRASE_FIRST =  False`
-    28.  `28`
-    29.  `29  # load up the words from the website`
-    30.  `30  for word in urlopen(WORD_URL).readlines():`
-    31.  `31 WORDS.append(str(word.strip(), encoding="utf-8"))`
-    32.  `32`
-    33.  `33`
-    34.  `34  def convert(snippet, phrase):`
-    35.  `35 class_names =  [w.capitalize()  for w in`
-    36.  `36 random.sample(WORDS, snippet.count("%%%"))]`
-    37.  `37 other_names = random.sample(WORDS, snippet.count("***"))`
-    38.  `38 results =  []`
-    39.  `39 param_names =  []`
-    40.  `40`
-    41.  `41  for i in range(0, snippet.count("@@@")):`
-    42.  `42 param_count = random.randint(1,3)`
-    43.  `43 param_names.append(', '.join(`
-    44.  `44 random.sample(WORDS, param_count)))`
-    45.  `45`
-    46.  `46  for sentence in snippet, phrase:`
-    47.  `47 result = sentence[:]`
-    48.  `48`
-    49.  `49  # fake class names`
-    50.  `50  for word in class_names:`
-    51.  `51 result = result.replace("%%%", word,  1)`
-    52.  `52`
-    53.  `53  # fake other names`
-    54.  `54  for word in other_names:`
-    55.  `55 result = result.replace("***", word,  1)`
-    56.  `56`
-    57.  `57  # fake parameter lists`
-    58.  `58  for word in param_names:`
-    59.  `59 result = result.replace("@@@", word,  1)`
-    60.  `60`
-    61.  `61 results.append(result)`
-    62.  `62`
-    63.  `63  return results`
-    64.  `64`
-    65.  `65`
-    66.  `66  # keep going until they hit CTRL-D`
-    67.  `67  try:`
-    68.  `68  while  True:`
-    69.  `69 snippets = list(PHRASES.keys())`
-    70.  `70 random.shuffle(snippets)`
-    71.  `71`
-    72.  `72  for snippet in snippets:`
-    73.  `73 phrase = PHRASES[snippet]`
-    74.  `74 question, answer = convert(snippet, phrase)`
-    75.  `75  if PHRASE_FIRST:`
-    76.  `76 question, answer = answer, question`
-    77.  `77`
-    78.  `78  print(question)`
-    79.  `79`
-    80.  `80 input("> ")`
-    81.  `81  print(f"ANSWER: {answer}\n\n")`
-    82.  `82  except  EOFError:`
-    83.  `83  print("\nBye")`
+1  import random
+2  from urllib.request import urlopen
+3  import sys
+4
+5 WORD_URL =  "http://learncodethehardway.org/words.txt"
+6 WORDS =  []
+7
+8 PHRASES =  {
+9  "class %%%(%%%):":
+10  "Make a class named %%% that is-a %%%.",
+11  "class %%%(object):\n\tdef __init__(self, ***)"  :
+12  "class %%% has-a __init__ that takes self and *** params.",
+13  "class %%%(object):\n\tdef ***(self, @@@)":
+14  "class %%% has-a function *** that takes self and @@@ params.",
+15  "*** = %%%()":
+16  "Set *** to an instance of class %%%.",
+17  "***.***(@@@)":
+18  "From *** get the *** function, call it with params self @@@.",
+19  "***.*** = '***'":
+20  "From *** get the *** attribute and set it to '***'."
+21  }
+22
+23  # do they want to drill phrases first
+24  if len(sys.argv)  ==  2  and sys.argv[1]  ==  "english":
+25 PHRASE_FIRST =  True
+26  else:
+27 PHRASE_FIRST =  False
+28
+29  # load up the words from the website
+30  for word in urlopen(WORD_URL).readlines():
+31 WORDS.append(str(word.strip(), encoding="utf-8"))
+32
+33
+34  def convert(snippet, phrase):
+35 class_names =  [w.capitalize()  for w in
+36 random.sample(WORDS, snippet.count("%%%"))]
+37 other_names = random.sample(WORDS, snippet.count("***"))
+38 results =  []
+39 param_names =  []
+40
+41  for i in range(0, snippet.count("@@@")):
+42 param_count = random.randint(1,3)
+43 param_names.append(', '.join(
+44 random.sample(WORDS, param_count)))
+45
+46  for sentence in snippet, phrase:
+47 result = sentence[:]
+48
+49  # fake class names
+50  for word in class_names:
+51 result = result.replace("%%%", word,  1)
+52
+53  # fake other names
+54  for word in other_names:
+55 result = result.replace("***", word,  1)
+56
+57  # fake parameter lists
+58  for word in param_names:
+59 result = result.replace("@@@", word,  1)
+60
+61 results.append(result)
+62
+63  return results
+64
+65
+66  # keep going until they hit CTRL-D
+67  try:
+68  while  True:
+69 snippets = list(PHRASES.keys())
+70 random.shuffle(snippets)
+71
+72  for snippet in snippets:
+73 phrase = PHRASES[snippet]
+74 question, answer = convert(snippet, phrase)
+75  if PHRASE_FIRST:
+76 question, answer = answer, question
+77
+78  print(question)
+79
+80 input("> ")
+81  print(f"ANSWER: {answer}\n\n")
+82  except  EOFError:
+83  print("\nBye")
 ```
 
 运行这个脚本，试着用“面向对象的短语”来把它翻译成自然语言，你应该能看到短语字典有两种形式，你只用输入正确的那个就行。
@@ -173,7 +173,7 @@ ex41.py
 接下来你应该选择用“english”选项来运行这段代码，然后用相反的方式来练习：
 
 ```py
-1.  `$ python oop_test.py english`
+$ python oop_test.py english
 ```
 
 记住，这些短语在用一些废话，学习阅读这些代码的一部分原因就是试着不再去给这些变量和类的名字赋予这么多意义。通常当人们看到像“cork”（软木塞）这样的词时，会对它的含义感到很困惑。在上述例子中，“cork”只是一个随机选取的类的名字。别给它赋予太多含义，而是试着用我教你的方式来对待它。

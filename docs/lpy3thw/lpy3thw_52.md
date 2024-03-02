@@ -27,8 +27,8 @@
 有了词汇表之后，我们就需要找一种方法来拆解句子，这样我们才能知道它们是什么。在这个例子中，我们已经定义了句子由“被空格分隔的单词”所组成。所以，我们只需要这样做：
 
 ```py
-1.  1.  `stuff = input('> ')`
-    2.  `words = stuff.split()`
+stuff = input('> ')
+words = stuff.split()
 ```
 
 这就是我们现在为止要搞定的所有东西，不过这些也能管用好长一段时间。
@@ -38,10 +38,10 @@
 知道了如何把一个句子分解成单词之后，我们只需要遍历这一列单词，并搞清楚它们是什么类型即可。要做到这一点我们需要用到一个非常有用的小 Python 结构：元组（tuple）。元组是一个你不能修改的列表。把数据放进两个 `()` 中，并像列表一样用逗号隔开，就能创建一个元组：
 
 ```py
-1.  1.  `first_word =  (  'verb '  ,  'go '  )`
-    2.  `second_word =  (  ' direction '  ,  ' north '  )`
-    3.  `third_word =  (  ' direct ion '  ,  ' west '  )`
-    4.  `sentence =  [ first_word , second_word , third_word ]`
+first_word =  (  'verb '  ,  'go '  )
+second_word =  (  ' direction '  ,  ' north '  )
+third_word =  (  ' direct ion '  ,  ' west '  )
+sentence =  [ first_word , second_word , third_word ]
 ```
 
 这样就创建了一对 (类型, 单词) ，你可以看着单词来进行操作。
@@ -71,11 +71,11 @@
 ex48_convert.py
 
 ```py
-1.  1.  `1  def convert_number(s):`
-    2.  `2  try:`
-    3.  `3  return  int(s)`
-    4.  `4  except  ValueError:`
-    5.  `5  return  None`
+1  def convert_number(s):
+2  try:
+3  return  int(s)
+4  except  ValueError:
+5  return  None
 ```
 
 你把你想要 “try” 的代码放在 `try` 区域，然后把出现错误后要运行的代码放在 `except` 区域。在这个例子中，我们想要尝试对某个数字调用 `int()` 函数，如果出错了，我们“捕获”（catch）这个错误，然后返回 `None`。
@@ -114,53 +114,53 @@ ex48_convert.py
 lexicon_tests.py
 
 ```py
-1.  1.  `1  from nose.tools import  *`
-    2.  `2  from ex48 import lexicon`
-    3.  `3`
-    4.  `4`
-    5.  `5  def test_directions():`
-    6.  `6 assert_equal(lexicon.scan("north"),  [('direction',  'north')])`
-    7.  `7 result = lexicon.scan("north south east")`
-    8.  `8 assert_equal(result,  [('direction',  'north'),`
-    9.  `9  ('direction',  'south'),`
-    10.  `10  ('direction',  'east')])`
-    11.  `11`
-    12.  `12  def test_verbs():`
-    13.  `13 assert_equal(lexicon.scan("go"),  [('verb',  'go')])`
-    14.  `14 result = lexicon.scan("go kill eat")`
-    15.  `15 assert_equal(result,  [('verb',  'go'),`
-    16.  `16  ('verb',  'kill'),`
-    17.  `17  ('verb',  'eat')])`
-    18.  `18`
-    19.  `19`
-    20.  `20  def test_stops():`
-    21.  `21 assert_equal(lexicon.scan("the"),  [('stop',  'the')])`
-    22.  `22 result = lexicon.scan("the in of")`
-    23.  `23 assert_equal(result,  [('stop',  'the'),`
-    24.  `24  ('stop',  'in'),`
-    25.  `25  ('stop',  'of')])`
-    26.  `26`
-    27.  `27`
-    28.  `28  def test_nouns():`
-    29.  `29 assert_equal(lexicon.scan("bear"),  [('noun',  'bear')])`
-    30.  `30 result = lexicon.scan("bear princess")`
-    31.  `31 assert_equal(result,  [('noun',  'bear'),`
-    32.  `32  ('noun',  'princess')])`
-    33.  `33`
-    34.  `34  def test_numbers():`
-    35.  `35 assert_equal(lexicon.scan("1234"),  [('number',  1234)])`
-    36.  `36 result = lexicon.scan("3 91234")`
-    37.  `37 assert_equal(result,  [('number',  3),`
-    38.  `38  ('number',  91234)])`
-    39.  `39`
-    40.  `40`
-    41.  `41  def test_errors():`
-    42.  `42 assert_equal(lexicon.scan("ASDFADFASDF"),`
-    43.  `43  [('error',  'ASDFADFASDF')])`
-    44.  `44 result = lexicon.scan("bear IAS princess")`
-    45.  `45 assert_equal(result,  [('noun',  'bear'),`
-    46.  `46  ('error',  'IAS'),`
-    47.  `47  ('noun',  'princess')])`
+1  from nose.tools import  *
+2  from ex48 import lexicon
+3
+4
+5  def test_directions():
+6 assert_equal(lexicon.scan("north"),  [('direction',  'north')])
+7 result = lexicon.scan("north south east")
+8 assert_equal(result,  [('direction',  'north'),
+9  ('direction',  'south'),
+10  ('direction',  'east')])
+11
+12  def test_verbs():
+13 assert_equal(lexicon.scan("go"),  [('verb',  'go')])
+14 result = lexicon.scan("go kill eat")
+15 assert_equal(result,  [('verb',  'go'),
+16  ('verb',  'kill'),
+17  ('verb',  'eat')])
+18
+19
+20  def test_stops():
+21 assert_equal(lexicon.scan("the"),  [('stop',  'the')])
+22 result = lexicon.scan("the in of")
+23 assert_equal(result,  [('stop',  'the'),
+24  ('stop',  'in'),
+25  ('stop',  'of')])
+26
+27
+28  def test_nouns():
+29 assert_equal(lexicon.scan("bear"),  [('noun',  'bear')])
+30 result = lexicon.scan("bear princess")
+31 assert_equal(result,  [('noun',  'bear'),
+32  ('noun',  'princess')])
+33
+34  def test_numbers():
+35 assert_equal(lexicon.scan("1234"),  [('number',  1234)])
+36 result = lexicon.scan("3 91234")
+37 assert_equal(result,  [('number',  3),
+38  ('number',  91234)])
+39
+40
+41  def test_errors():
+42 assert_equal(lexicon.scan("ASDFADFASDF"),
+43  [('error',  'ASDFADFASDF')])
+44 result = lexicon.scan("bear IAS princess")
+45 assert_equal(result,  [('noun',  'bear'),
+46  ('error',  'IAS'),
+47  ('noun',  'princess')])
 ```
 
 你可能想用这个项目骨架来创建一个新项目，就像练习 47 中一样。那么你需要创建这个测试用例，以及它所用的 lexicon.py 文件。看看这个测试用例的最上面，它是如何引入模块以及作何用途的。

@@ -21,22 +21,22 @@
 ex33.py
 
 ```py
-1.  1.  `1 i =  0`
-    2.  `2 numbers =  []`
-    3.  `3`
-    4.  `4  while i <  6:`
-    5.  `5  print(f"At the top i is {i}")`
-    6.  `6 numbers.append(i)`
-    7.  `7`
-    8.  `8 i = i +  1`
-    9.  `9  print("Numbers now: ", numbers)`
-    10.  `10  print(f"At the bottom i is {i}")`
-    11.  `11`
-    12.  `12`
-    13.  `13  print("The numbers: ")`
-    14.  `14`
-    15.  `15  for num in numbers:`
-    16.  `16  print(num)`
+1 i =  0
+2 numbers =  []
+3
+4  while i <  6:
+5  print(f"At the top i is {i}")
+6 numbers.append(i)
+7
+8 i = i +  1
+9  print("Numbers now: ", numbers)
+10  print(f"At the bottom i is {i}")
+11
+12
+13  print("The numbers: ")
+14
+15  for num in numbers:
+16  print(num)
 ```
 
 ## 你会看到

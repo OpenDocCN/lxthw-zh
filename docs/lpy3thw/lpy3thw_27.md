@@ -24,29 +24,29 @@
 ex23.py
 
 ```py
-1.  1.  `1  import sys`
-    2.  `2 script, encoding, error = sys.argv`
-    3.  `3`
-    4.  `4`
-    5.  `5  def main(language_file, encoding, errors):`
-    6.  `6 line = language_file.readline()`
-    7.  `7`
-    8.  `8  if line:`
-    9.  `9 print_line(line, encoding, errors)`
-    10.  `10  return main(language_file, encoding, errors)`
-    11.  `11`
-    12.  `12`
-    13.  `13  def print_line(line, encoding, errors):`
-    14.  `14 next_lang = line.strip()`
-    15.  `15 raw_bytes = next_lang.encode(encoding, errors=errors)`
-    16.  `16 cooked_string = raw_bytes.decode(encoding, errors=errors)`
-    17.  `17`
-    18.  `18  print(raw_bytes,  "<===>", cooked_string)`
-    19.  `19`
-    20.  `20`
+1  import sys
+2 script, encoding, error = sys.argv
+3
+4
+5  def main(language_file, encoding, errors):
+6 line = language_file.readline()
+7
+8  if line:
+9 print_line(line, encoding, errors)
+10  return main(language_file, encoding, errors)
+11
+12
+13  def print_line(line, encoding, errors):
+14 next_lang = line.strip()
+15 raw_bytes = next_lang.encode(encoding, errors=errors)
+16 cooked_string = raw_bytes.decode(encoding, errors=errors)
+17
+18  print(raw_bytes,  "<===>", cooked_string)
+19
+20
     21.  `21 languages = open("languages.txt", encoding="utf-8")` 
-    22.  `22`
-    23.  `23 main(languages, encoding, error)`
+22
+23 main(languages, encoding, error)
 ```
 
 你肯定很好奇这个文件是用来干嘛的，可以运行它看看，以下是运行结果（注意运行时需要输入包括文件名在内的三个参数）：
@@ -116,29 +116,29 @@ ex23.py
 ex23.py
 
 ```py
-1.  1.  `1  import sys`
-    2.  `2 script, encoding, error = sys.argv`
-    3.  `3`
-    4.  `4`
-    5.  `5  def main(language_file, encoding, errors):`
-    6.  `6 line = language_file.readline()`
-    7.  `7`
-    8.  `8  if line:`
-    9.  `9 print_line(line, encoding, errors)`
-    10.  `10  return main(language_file, encoding, errors)`
-    11.  `11`
-    12.  `12`
-    13.  `13  def print_line(line, encoding, errors):`
-    14.  `14 next_lang = line.strip()`
-    15.  `15 raw_bytes = next_lang.encode(encoding, errors=errors)`
-    16.  `16 cooked_string = raw_bytes.decode(encoding, errors=errors)`
-    17.  `17`
-    18.  `18  print(raw_bytes,  "<===>", cooked_string)`
-    19.  `19`
-    20.  `20`
+1  import sys
+2 script, encoding, error = sys.argv
+3
+4
+5  def main(language_file, encoding, errors):
+6 line = language_file.readline()
+7
+8  if line:
+9 print_line(line, encoding, errors)
+10  return main(language_file, encoding, errors)
+11
+12
+13  def print_line(line, encoding, errors):
+14 next_lang = line.strip()
+15 raw_bytes = next_lang.encode(encoding, errors=errors)
+16 cooked_string = raw_bytes.decode(encoding, errors=errors)
+17
+18  print(raw_bytes,  "<===>", cooked_string)
+19
+20
     21.  `21 languages = open("languages.txt", encoding="utf-8")` 
-    22.  `22`
-    23.  `23 main(languages, encoding, error)`
+22
+23 main(languages, encoding, error)
 ```
 
 **第 1-2 行：** 以通常的命令行参数开始，这个你已经学过了。

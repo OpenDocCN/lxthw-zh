@@ -13,13 +13,13 @@
 ex1.py
 
 ```py
-1.  1.  `1  print("Hello World!")`
-    2.  `2  print("Hello Again")`
-    3.  `3  print("I like typing this.")`
-    4.  `4  print("This is fun.")`
-    5.  `5  print('Yay! Printing.')`
-    6.  `6  print("I'd much rather you 'not'.")`
-    7.  `7  print('I "said" do not touch this.')`
+1  print("Hello World!")
+2  print("Hello Again")
+3  print("I like typing this.")
+4  print("This is fun.")
+5  print('Yay! Printing.')
+6  print("I'd much rather you 'not'.")
+7  print('I "said" do not touch this.')
 ```
 
 你的 Atom 文本编辑器应该看起来像这样：
@@ -34,7 +34,7 @@ ex1.py
 *   我输出的结果跟我在练习 1 的 `ex1.py` 中让你们输入的内容是一模一样的，而不是大致相同。所以每一个字符你都要严格按照我的要求来输入，当然颜色无所谓。在终端这样输入就可以运行你的 Python 文件：
 
 ```py
-1.  `python3.6 ex1.py`
+python3.6 ex1.py
 ```
 
 如果你都做对了，你就会看到和我一样的结果，如果没有，你肯定是哪里出错了。不，相信我，不是电脑的问题。

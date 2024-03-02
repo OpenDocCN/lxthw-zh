@@ -13,28 +13,28 @@
 ex18.py
 
 ```py
-1.  1.  `1  # this one is like your scripts with argv`
-    2.  `2  def print_two(*args):`
-    3.  `3 arg1, arg2 = args`
-    4.  `4  print(f"arg1: {arg1}, arg2: {arg2}")`
-    5.  `5`
-    6.  `6  # ok, that *args is actually pointless, we can just do this`
-    7.  `7  def print_two_again(arg1, arg2):`
-    8.  `8  print(f"arg1: {arg1}, arg2: {arg2}")`
-    9.  `9`
-    10.  `10  # this just takes one argument`
-    11.  `11  def print_one(arg1):`
-    12.  `12  print(f"arg1: {arg1}")`
-    13.  `13`
-    14.  `14  # this one takes no arguments`
-    15.  `15  def print_none():`
-    16.  `16  print("I got nothin'.")`
-    17.  `17`
-    18.  `18`
-    19.  `19 print_two("Zed","Shaw")`
-    20.  `20 print_two_again("Zed","Shaw")`
-    21.  `21 print_one("First!")`
-    22.  `22 print_none()`
+1  # this one is like your scripts with argv
+2  def print_two(*args):
+3 arg1, arg2 = args
+4  print(f"arg1: {arg1}, arg2: {arg2}")
+5
+6  # ok, that *args is actually pointless, we can just do this
+7  def print_two_again(arg1, arg2):
+8  print(f"arg1: {arg1}, arg2: {arg2}")
+9
+10  # this just takes one argument
+11  def print_one(arg1):
+12  print(f"arg1: {arg1}")
+13
+14  # this one takes no arguments
+15  def print_none():
+16  print("I got nothin'.")
+17
+18
+19 print_two("Zed","Shaw")
+20 print_two_again("Zed","Shaw")
+21 print_one("First!")
+22 print_none()
 ```
 
 让我们把第一个函数拆解一下，`print_two` 这是你从创建脚本中已经学到的最熟悉的东西：

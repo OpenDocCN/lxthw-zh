@@ -49,25 +49,25 @@
 form_test.py
 
 ```py
-1.  1.  `1  from flask import  Flask`
-    2.  `2  from flask import render_template`
-    3.  `3  from flask import request`
-    4.  `4`
-    5.  `5 app =  Flask(__name__)`
-    6.  `6`
-    7.  `7  @app.route("/hello")`
-    8.  `8  def index():`
-    9.  `9 name = request.args.get('name',  'Nobody')`
-    10.  `10`
-    11.  `11  if name:`
-    12.  `12 greeting = f"Hello, {name}"`
-    13.  `13  else:`
-    14.  `14 greeting =  "Hello World"`
-    15.  `15`
-    16.  `16  return render_template("index.html", greeting=greeting)`
-    17.  `17`
-    18.  `18  if __name__ ==  "__main__":`
-    19.  `19 app.run()`
+1  from flask import  Flask
+2  from flask import render_template
+3  from flask import request
+4
+5 app =  Flask(__name__)
+6
+7  @app.route("/hello")
+8  def index():
+9 name = request.args.get('name',  'Nobody')
+10
+11  if name:
+12 greeting = f"Hello, {name}"
+13  else:
+14 greeting =  "Hello World"
+15
+16  return render_template("index.html", greeting=greeting)
+17
+18  if __name__ ==  "__main__":
+19 app.run()
 ```
 
 重启 flask（按 CTRL + C，然后再次运行）确保它再次加载，然后用浏览器访问 [`localhost:5000/hello`](http://localhost:5000/hello)，应该会显示 “I just wanted to say Hello, Nobody.” 接着，把浏览器中的 URL 改为 [`localhost:5000/hello?name=Frank`](http://localhost:5000/hello?name=Frank)，你会看到 “Hello, Frank.” 最后，把 `name=Frank` 这里改成你的名字，它就会对你说 Hello。
@@ -79,8 +79,8 @@ form_test.py
 *   其他的内容和以前是一样的，我们就不再分析了。URL 中还可以包含多个参数。将本例的两个变量改成这样：[`localhost:5000/hello?name=Frank&greet=Hola`](http://localhost:5000/hello?name=Frank&greet=Hola)。然后修改代码，让它像这样获取 `name` 和 `greet`：
 
 ```py
-1.  1.  `greet = request.args.get(  ' greet '  ,  ' Hello '  )`
-    2.  `greeting = f"{greet}, {name}"`
+greet = request.args.get(  ' greet '  ,  ' Hello '  )
+greeting = f"{greet}, {name}"
 ```
 
 你还应该试着不在 URL 上给出 greet 和 name 参数，只让浏览器访问 [`localhost:5000/hello`](http://localhost:5000/hello)，然后你会看到，`name` 会默认为 “Nobody”，`greet` 会默认为 “Hello”。
@@ -92,7 +92,7 @@ form_test.py
 让我们来快速创建一个，从中你可以看出它的工作原理。你需要创建一个新的 HTML 文件 templates/hello_form.html：
 
 ```py
-1.  1.  `hello_form.html`
+hello_form.html
 
     3.  ``<html>``
     4.  ``<head>``
@@ -119,27 +119,27 @@ form_test.py
 app.py
 
 ```py
-1.  1.  `1  from flask import  Flask`
-    2.  `2  from flask import render_template`
-    3.  `3  from flask import request`
-    4.  `4`
-    5.  `5 app =  Flask(__name__)`
-    6.  `6`
-    7.  `7  @app.route("/hello", methods=['POST',  'GET'])`
-    8.  `8  def index():`
-    9.  `9 greeting =  "Hello World"`
-    10.  `10`
-    11.  `11  if request.method ==  "POST":`
-    12.  `12 name = request.form['name']`
-    13.  `13 greet = request.form['greet']`
-    14.  `14 greeting = f"{greet}, {name}"`
-    15.  `15  return render_template("index.html", greeting=greeting)`
-    16.  `16  else:`
-    17.  `17  return render_template("hello_form.html")`
-    18.  `18`
-    19.  `19`
-    20.  `20  if __name__ ==  "__main__":`
-    21.  `21 app.run()`
+1  from flask import  Flask
+2  from flask import render_template
+3  from flask import request
+4
+5 app =  Flask(__name__)
+6
+7  @app.route("/hello", methods=['POST',  'GET'])
+8  def index():
+9 greeting =  "Hello World"
+10
+11  if request.method ==  "POST":
+12 name = request.form['name']
+13 greet = request.form['greet']
+14 greeting = f"{greet}, {name}"
+15  return render_template("index.html", greeting=greeting)
+16  else:
+17  return render_template("hello_form.html")
+18
+19
+20  if __name__ ==  "__main__":
+21 app.run()
 ```
 
 改完之后，再次重启 web 应用，像之前一样刷新浏览器。
@@ -171,7 +171,7 @@ app.py
 index_laid_out.html
 
 ```py
-1.  1.  `{%  extends  "layout.html"  %}`
+{%  extends  "layout.html"  %}
 
     3.  ``{% block content %}``
     4.  ``{%  if greeting %}``
@@ -189,7 +189,7 @@ index_laid_out.html
 hello_form_laid_out.html
 
 ```py
-1.  1.  `{%  extends  "layout.html"  %}`
+{%  extends  "layout.html"  %}
 
     3.  ``{% block content %}``
 
@@ -213,11 +213,11 @@ hello_form_laid_out.html
 layout.html
 
 ```py
-1.  1.  `<html>`
-    2.  `<head>`
-    3.  `<title>Gothons From Planet Percal #25</title>`
-    4.  `</head>`
-    5.  `<body>`
+<html>
+<head>
+<title>Gothons From Planet Percal #25</title>
+</head>
+<body>
 
     7.  ``{% block content %}``
 
@@ -237,24 +237,24 @@ layout.html
 app_tests.py
 
 ```py
-1.  1.  `1  from nose.tools import  *`
-    2.  `2  from app import app`
-    3.  `3`
-    4.  `4 app.config['TESTING']  =  True`
-    5.  `5 web = app.test_client()`
-    6.  `6`
-    7.  `7  def test_index():`
-    8.  `8 rv = web.get('/', follow_redirects=True)`
-    9.  `9 assert_equal(rv.status_code,  404)`
-    10.  `10`
-    11.  `11 rv = web.get('/hello', follow_redirects=True)`
-    12.  `12 assert_equal(rv.status_code,  200)`
-    13.  `13 assert_in(b"Fill Out This Form", rv.data)`
-    14.  `14`
-    15.  `15 data =  {'name':  'Zed',  'greet':  'Hola'}`
-    16.  `16 rv = web.post('/hello', follow_redirects=True, data=data)`
-    17.  `17 assert_in(b"Zed", rv.data)`
-    18.  `18 assert_in(b"Hola", rv.data)`
+1  from nose.tools import  *
+2  from app import app
+3
+4 app.config['TESTING']  =  True
+5 web = app.test_client()
+6
+7  def test_index():
+8 rv = web.get('/', follow_redirects=True)
+9 assert_equal(rv.status_code,  404)
+10
+11 rv = web.get('/hello', follow_redirects=True)
+12 assert_equal(rv.status_code,  200)
+13 assert_in(b"Fill Out This Form", rv.data)
+14
+15 data =  {'name':  'Zed',  'greet':  'Hola'}
+16 rv = web.post('/hello', follow_redirects=True, data=data)
+17 assert_in(b"Zed", rv.data)
+18 assert_in(b"Hola", rv.data)
 ```
 
 最后，用 `nosetests` 运行这个测试程序，来测试你的 web 应用：
@@ -266,8 +266,8 @@ app_tests.py
 我在这儿其实是把整个应用都从 `app.py` 模块中引入进来了，然后手动运行它。flask 框架有一个非常简单用来处理请求的 API，它看起来像这样：
 
 ```py
-1.  1.  `data =  {'name':  'Zed',  'greet':  'Hola'}`
-    2.  `rv = web.post('/hello', follow_redirects=True, data=data)`
+data =  {'name':  'Zed',  'greet':  'Hola'}
+rv = web.post('/hello', follow_redirects=True, data=data)
 ```
 
 这意味着你可以用 `post()` 方法发送一个 POST 请求，然后把表单数据作为字典传给它。其他都和测试 `web.get()` 请求一模一样。

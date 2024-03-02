@@ -7,27 +7,27 @@
 ex14.py
 
 ```py
-1.  1.  `1  from sys import argv`
-    2.  `2`
-    3.  `3 script, user_name = argv`
-    4.  `4 prompt =  '> '`
-    5.  `5`
-    6.  `6  print(f"Hi {user_name}, I'm the {script} script.")`
-    7.  `7  print("I'd like to ask you a few questions.")`
-    8.  `8  print(f"Do you like me {user_name}?")`
-    9.  `9 likes = input(prompt)`
-    10.  `10`
-    11.  `11  print(f"Where do you live {user_name}?")`
-    12.  `12 lives = input(prompt)`
-    13.  `13`
-    14.  `14  print("What kind of computer do you have?")`
-    15.  `15 computer = input(prompt)`
-    16.  `16`
-    17.  `17  print(f"""`
-    18.  `18  Alright, so you said {likes} about liking me.`
-    19.  `19  You live in {lives}. Not sure where that is.`
-    20.  `20  And you have a {computer} computer. Nice.`
-    21.  `21  """)`
+1  from sys import argv
+2
+3 script, user_name = argv
+4 prompt =  '> '
+5
+6  print(f"Hi {user_name}, I'm the {script} script.")
+7  print("I'd like to ask you a few questions.")
+8  print(f"Do you like me {user_name}?")
+9 likes = input(prompt)
+10
+11  print(f"Where do you live {user_name}?")
+12 lives = input(prompt)
+13
+14  print("What kind of computer do you have?")
+15 computer = input(prompt)
+16
+17  print(f"""
+18  Alright, so you said {likes} about liking me.
+19  You live in {lives}. Not sure where that is.
+20  And you have a {computer} computer. Nice.
+21  """)
 ```
 
 我们把用户提示符设置成变量 `prompt` ，然后把它赋给 `input` 而不是一遍遍地输入它们。现在如果我们想把提示符变成别的东西，只要修改一个地方，然后重新运行脚本即可，非常方便。

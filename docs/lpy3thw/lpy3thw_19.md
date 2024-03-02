@@ -15,21 +15,21 @@
 ex15.py
 
 ```py
-1.  1.  `1  from sys import argv`
-    2.  `2`
-    3.  `3 script, filename = argv`
-    4.  `4`
-    5.  `5 txt = open(filename)`
-    6.  `6`
-    7.  `7  print(f"Here's your file {filename}:")`
-    8.  `8  print(txt.read())`
-    9.  `9`
-    10.  `10  print("Type the filename again:")`
-    11.  `11 file_again = input("> ")`
-    12.  `12`
-    13.  `13 txt_again = open(file_again)`
-    14.  `14`
-    15.  `15  print(txt_again.read())`
+1  from sys import argv
+2
+3 script, filename = argv
+4
+5 txt = open(filename)
+6
+7  print(f"Here's your file {filename}:")
+8  print(txt.read())
+9
+10  print("Type the filename again:")
+11 file_again = input("> ")
+12
+13 txt_again = open(file_again)
+14
+15  print(txt_again.read())
 ```
 
 这个文件里发生了一些奇妙的事情，让我们快速分解来看一下：

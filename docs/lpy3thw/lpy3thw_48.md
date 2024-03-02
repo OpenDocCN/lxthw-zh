@@ -31,19 +31,19 @@
 ex44a.py
 
 ```py
-1.  1.  `1  class  Parent(object):`
-    2.  `2`
-    3.  `3  def  implicit(self):`
-    4.  `4  print("PARENT implicit()")`
-    5.  `5`
-    6.  `6  class  Child(Parent):`
-    7.  `7  pass`
-    8.  `8`
-    9.  `9 dad =  Parent()`
-    10.  `10 son =  Child()`
-    11.  `11`
-    12.  `12 dad.implicit()`
-    13.  `13 son.implicit()`
+1  class  Parent(object):
+2
+3  def  implicit(self):
+4  print("PARENT implicit()")
+5
+6  class  Child(Parent):
+7  pass
+8
+9 dad =  Parent()
+10 son =  Child()
+11
+12 dad.implicit()
+13 son.implicit()
 ```
 
 在子类 Child 下面使用 pass 是告诉 Python 你需要一个空块的方式。这样就创建了一个名为 Child 的类，但是并没有什么新的内容需要定义。相反，它将继承父类的所有行为。当你运行这个代码，你会得到:
@@ -63,21 +63,21 @@ Exercise 44a 会话
 ex44b.py
 
 ```py
-1.  1.  `1  class  Parent(object):`
-    2.  `2`
-    3.  `3  def  override(self):`
-    4.  `4  print("PARENT override()")`
-    5.  `5`
-    6.  `6  class  Child(Parent):`
-    7.  `7`
-    8.  `8  def  override(self):`
-    9.  `9  print("CHILD override()")`
-    10.  `10`
-    11.  `11 dad =  Parent()`
-    12.  `12 son =  Child()`
-    13.  `13`
-    14.  `14 dad.override()`
-    15.  `15 son.override()`
+1  class  Parent(object):
+2
+3  def  override(self):
+4  print("PARENT override()")
+5
+6  class  Child(Parent):
+7
+8  def  override(self):
+9  print("CHILD override()")
+10
+11 dad =  Parent()
+12 son =  Child()
+13
+14 dad.override()
+15 son.override()
 ```
 
 在这个例子中，两个类都有一个名为 override 的函数，让我们看看当你运行它的时候会发生什么：
@@ -101,23 +101,23 @@ Exercise 44b 会话
 ex44c.py
 
 ```py
-1.  1.  `1  class  Parent(object):`
-    2.  `2`
-    3.  `3  def altered(self):`
-    4.  `4  print("PARENT altered()")`
-    5.  `5`
-    6.  `6  class  Child(Parent):`
-    7.  `7`
-    8.  `8  def altered(self):`
-    9.  `9  print("CHILD, BEFORE PARENT altered()")`
-    10.  `10  super(Child,  self).altered()`
-    11.  `11  print("CHILD, AFTER PARENT altered()")`
-    12.  `12`
-    13.  `13 dad =  Parent()`
-    14.  `14 son =  Child()`
-    15.  `15`
-    16.  `16 dad.altered()`
-    17.  `17 son.altered()`
+1  class  Parent(object):
+2
+3  def altered(self):
+4  print("PARENT altered()")
+5
+6  class  Child(Parent):
+7
+8  def altered(self):
+9  print("CHILD, BEFORE PARENT altered()")
+10  super(Child,  self).altered()
+11  print("CHILD, AFTER PARENT altered()")
+12
+13 dad =  Parent()
+14 son =  Child()
+15
+16 dad.altered()
+17 son.altered()
 ```
 
 这里比较重要的是 9-11 行，在 Child 中，当调用 `son.altered()` 时，我其实做了以下事情:
@@ -147,38 +147,38 @@ Exercise 44c 会话
 ex44d.py
 
 ```py
-1.  1.  `1  class  Parent(object):`
-    2.  `2`
-    3.  `3  def  override(self):`
-    4.  `4  print("PARENT override()")`
-    5.  `5`
-    6.  `6  def  implicit(self):`
-    7.  `7  print("PARENT implicit()")`
-    8.  `8`
-    9.  `9  def altered(self):`
-    10.  `10  print("PARENT altered()")`
-    11.  `11`
-    12.  `12  class  Child(Parent):`
-    13.  `13`
-    14.  `14  def  override(self):`
-    15.  `15  print("CHILD override()")`
-    16.  `16`
-    17.  `17  def altered(self):`
-    18.  `18  print("CHILD, BEFORE PARENT altered()")`
-    19.  `19  super(Child,  self).altered()`
-    20.  `20  print("CHILD, AFTER PARENT altered()")`
-    21.  `21`
-    22.  `22 dad =  Parent()`
-    23.  `23 son =  Child()`
-    24.  `24`
-    25.  `25 dad.implicit()`
-    26.  `26 son.implicit()`
-    27.  `27`
-    28.  `28 dad.override()`
-    29.  `29 son.override()`
-    30.  `30`
-    31.  `31 dad.altered()`
-    32.  `32 son.altered()`
+1  class  Parent(object):
+2
+3  def  override(self):
+4  print("PARENT override()")
+5
+6  def  implicit(self):
+7  print("PARENT implicit()")
+8
+9  def altered(self):
+10  print("PARENT altered()")
+11
+12  class  Child(Parent):
+13
+14  def  override(self):
+15  print("CHILD override()")
+16
+17  def altered(self):
+18  print("CHILD, BEFORE PARENT altered()")
+19  super(Child,  self).altered()
+20  print("CHILD, AFTER PARENT altered()")
+21
+22 dad =  Parent()
+23 son =  Child()
+24
+25 dad.implicit()
+26 son.implicit()
+27
+28 dad.override()
+29 son.override()
+30
+31 dad.altered()
+32 son.altered()
 ```
 
 过一遍这段代码的每一行，然后给每一行加上注释，说明它的作用，以及它是否进行了重写, 然后运行它，看是否与你的预期相符：
@@ -194,8 +194,8 @@ Exercise 44d 会话
 这似乎是常识，但是我们遇到了多重继承的麻烦。多重继承是指你定义了一个继承自一个或多个类的类，就像这样:
 
 ```py
-1.  1.  `class  SuperFun  (Child,  BadStuff):`
-    2.  `pass`
+class  SuperFun  (Child,  BadStuff):
+pass
 ```
 
 这就像是在说“创建一个名为 SuperFun 的类，它同时继承自 Child 类和 BadStuff 类。”
@@ -209,7 +209,7 @@ Exercise 44d 会话
 `super()` 最常用的用法其实是在基类中使用 `**init**` 函数。这通常是你在一个子类中唯一需要做一些操作，然后在父类中完成初始化的地方。下面是一个在用在子类上的简单例子:
 
 ```py
-1.  1.  `class  Child  (Parent):`
+class  Child  (Parent):
 
     3.  ``def __init__(self, stuff):``
     4.  ``self.stuff = stuff``
@@ -225,38 +225,38 @@ Exercise 44d 会话
 ex44e.py
 
 ```py
-1.  1.  `1  class  Other(object):`
-    2.  `2`
-    3.  `3  def  override(self):`
-    4.  `4  print("OTHER override()")`
-    5.  `5`
-    6.  `6  def  implicit(self):`
-    7.  `7  print("OTHER implicit()")`
-    8.  `8`
-    9.  `9  def altered(self):`
-    10.  `10  print("OTHER altered()")`
-    11.  `11`
-    12.  `12  class  Child(object):`
-    13.  `13`
-    14.  `14  def __init__(self):`
-    15.  `15  self.other =  Other()`
-    16.  `16`
-    17.  `17  def  implicit(self):`
-    18.  `18  self.other.implicit()`
-    19.  `19`
-    20.  `20  def  override(self):`
-    21.  `21  print("CHILD override()")`
-    22.  `22`
-    23.  `23  def altered(self):`
-    24.  `24  print("CHILD, BEFORE OTHER altered()")`
-    25.  `25  self.other.altered()`
-    26.  `26  print("CHILD, AFTER OTHER altered()")`
-    27.  `27`
-    28.  `28 son =  Child()`
-    29.  `29`
-    30.  `30 son.implicit()`
-    31.  `31 son.override()`
-    32.  `32 son.altered()`
+1  class  Other(object):
+2
+3  def  override(self):
+4  print("OTHER override()")
+5
+6  def  implicit(self):
+7  print("OTHER implicit()")
+8
+9  def altered(self):
+10  print("OTHER altered()")
+11
+12  class  Child(object):
+13
+14  def __init__(self):
+15  self.other =  Other()
+16
+17  def  implicit(self):
+18  self.other.implicit()
+19
+20  def  override(self):
+21  print("CHILD override()")
+22
+23  def altered(self):
+24  print("CHILD, BEFORE OTHER altered()")
+25  self.other.altered()
+26  print("CHILD, AFTER OTHER altered()")
+27
+28 son =  Child()
+29
+30 son.implicit()
+31 son.override()
+32 son.altered()
 ```
 
 在这段代码中，我没有使用 Parent 这个名字，因为不存在父子 is-a 关系，而是一个 has-a 关系，其中 Child 有一个（has-a） Other 来完成它的工作。当我运行这段代码，会得到以下输出：

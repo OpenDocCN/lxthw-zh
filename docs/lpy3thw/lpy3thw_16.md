@@ -5,7 +5,7 @@
 当你输入 `()` 的时候，一定要确保输入完整，它们是成对出现的。对于 `input` 来说，你还可以给用户放一个提示，让他知道该输入什么。你可以把提示的字符串放在 `()` 里面，就像这样：
 
 ```py
-1.  `y = input("Name?")`
+y = input("Name?")
 ```
 
 这个提示告诉用户输入“名字”，然后把结果放到变量 y 里面。通过这种方式你就可以问用户问题然后得到他输入的答案。
@@ -15,11 +15,11 @@
 ex12.py
 
 ```py
-1.  1.  `1 age = input("How old are you? ")`
-    2.  `2 height = input("How tall are you? ")`
-    3.  `3 weight = input("How much do you weigh? ")`
-    4.  `4`
-    5.  `5  print(f"So, you're {age} old, {height} tall and {weight} heavy.")`
+1 age = input("How old are you? ")
+2 height = input("How tall are you? ")
+3 weight = input("How much do you weigh? ")
+4
+5  print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 ```
 
 练习 12 会话

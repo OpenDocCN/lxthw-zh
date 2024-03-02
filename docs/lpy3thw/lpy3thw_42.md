@@ -31,28 +31,28 @@
 ex38.py
 
 ```py
-1.  1.  `1 ten_things =  "Apples Oranges Crows Telephone Light Sugar"`
-    2.  `2`
-    3.  `3  print("Wait there are not 10 things in that list. Let's fix it.")`
-    4.  `4`
-    5.  `5 stuff = ten_things.split(' ')`
-    6.  `6 more_stuff =  ["Day",  "Night",  "Song",  "Frisbee",  "Corn",  "Banana",  "Girl",  "Boy"]`
-    7.  `7`
-    8.  `8  while len(stuff)  !=  10:`
-    9.  `9 next_one = more_stuff.pop()`
-    10.  `10  print("Adding: ", next_one)`
-    11.  `11 stuff.append(next_one)`
-    12.  `12  print(f"There are {len(stuff)} items now.")`
-    13.  `13`
-    14.  `14  print("There we go: ", stuff)`
-    15.  `15`
-    16.  `16  print("Let's do some things with stuff.")`
-    17.  `17`
-    18.  `18  print(stuff[1])`
-    19.  `19  print(stuff[-1])  # whoa! fancy`
-    20.  `20  print(stuff.pop())`
-    21.  `21  print(' '.join(stuff))  # what? cool!`
-    22.  `22  print('#'.join(stuff[3:5]))  # super stellar!`
+1 ten_things =  "Apples Oranges Crows Telephone Light Sugar"
+2
+3  print("Wait there are not 10 things in that list. Let's fix it.")
+4
+5 stuff = ten_things.split(' ')
+6 more_stuff =  ["Day",  "Night",  "Song",  "Frisbee",  "Corn",  "Banana",  "Girl",  "Boy"]
+7
+8  while len(stuff)  !=  10:
+9 next_one = more_stuff.pop()
+10  print("Adding: ", next_one)
+11 stuff.append(next_one)
+12  print(f"There are {len(stuff)} items now.")
+13
+14  print("There we go: ", stuff)
+15
+16  print("Let's do some things with stuff.")
+17
+18  print(stuff[1])
+19  print(stuff[-1])  # whoa! fancy
+20  print(stuff.pop())
+21  print(' '.join(stuff))  # what? cool!
+22  print('#'.join(stuff[3:5]))  # super stellar!
 ```
 
 ## 你会看到

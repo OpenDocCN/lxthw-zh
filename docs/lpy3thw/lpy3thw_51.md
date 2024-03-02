@@ -35,18 +35,18 @@
 game.py
 
 ```py
-1.  1.  `1  class  Room(object):`
-    2.  `2`
-    3.  `3  def __init__(self, name, description):`
-    4.  `4  self.name = name`
-    5.  `5  self.description = description`
-    6.  `6  self.paths =  {}`
-    7.  `7`
-    8.  `8  def go(self, direction):`
-    9.  `9  return  self.paths.get(direction,  None)`
-    10.  `10`
-    11.  `11  def add_paths(self, paths):`
-    12.  `12  self.paths.update(paths)`
+1  class  Room(object):
+2
+3  def __init__(self, name, description):
+4  self.name = name
+5  self.description = description
+6  self.paths =  {}
+7
+8  def go(self, direction):
+9  return  self.paths.get(direction,  None)
+10
+11  def add_paths(self, paths):
+12  self.paths.update(paths)
 ```
 
 一旦你有了这个文件，把单元测试骨架改成这样：
@@ -54,38 +54,38 @@ game.py
 ex47_tests.py
 
 ```py
-1.  1.  `1  from nose.tools import  *`
-    2.  `2  from ex47.game import  Room`
-    3.  `3`
-    4.  `4`
-    5.  `5  def test_room():`
-    6.  `6 gold =  Room("GoldRoom",`
-    7.  `7  """This room has gold in it you can grab. There's a`
-    8.  `8                   door to the north.""")`
-    9.  `9 assert_equal(gold.name,  "GoldRoom")`
-    10.  `10 assert_equal(gold.paths,  {})`
-    11.  `11`
-    12.  `12  def test_room_paths():`
-    13.  `13 center =  Room("Center",  "Test room in the center.")`
-    14.  `14 north =  Room("North",  "Test room in the north.")`
-    15.  `15 south =  Room("South",  "Test room in the south.")`
-    16.  `16`
-    17.  `17 center.add_paths({'north': north,  'south': south})`
-    18.  `18 assert_equal(center.go('north'), north)`
-    19.  `19 assert_equal(center.go('south'), south)`
-    20.  `20`
-    21.  `21  def test_map():`
-    22.  `22 start =  Room("Start",  "You can go west and down a hole."`
-    23.  `23 west =  Room("Trees",  "There are trees here, you can go east.")`
-    24.  `24 down =  Room("Dungeon",  "It's dark down here, you can go up.")`
-    25.  `25`
-    26.  `26 start.add_paths({'west': west,  'down': down})`
-    27.  `27 west.add_paths({'east': start})`
-    28.  `28 down.add_paths({'up': start})`
-    29.  `29`
-    30.  `30 assert_equal(start.go('west'), west)`
-    31.  `31 assert_equal(start.go('west').go('east'), start)`
-    32.  `32 assert_equal(start.go('down').go('up'), start)`
+1  from nose.tools import  *
+2  from ex47.game import  Room
+3
+4
+5  def test_room():
+6 gold =  Room("GoldRoom",
+7  """This room has gold in it you can grab. There's a
+8                   door to the north.""")
+9 assert_equal(gold.name,  "GoldRoom")
+10 assert_equal(gold.paths,  {})
+11
+12  def test_room_paths():
+13 center =  Room("Center",  "Test room in the center.")
+14 north =  Room("North",  "Test room in the north.")
+15 south =  Room("South",  "Test room in the south.")
+16
+17 center.add_paths({'north': north,  'south': south})
+18 assert_equal(center.go('north'), north)
+19 assert_equal(center.go('south'), south)
+20
+21  def test_map():
+22 start =  Room("Start",  "You can go west and down a hole."
+23 west =  Room("Trees",  "There are trees here, you can go east.")
+24 down =  Room("Dungeon",  "It's dark down here, you can go up.")
+25
+26 start.add_paths({'west': west,  'down': down})
+27 west.add_paths({'east': start})
+28 down.add_paths({'up': start})
+29
+30 assert_equal(start.go('west'), west)
+31 assert_equal(start.go('west').go('east'), start)
+32 assert_equal(start.go('down').go('up'), start)
 ```
 
 这个文件引入了你在 ex47.game 模块中的 Room 类，这样你就能在这上面进行测试。然后是一系列以 `test_` 开头的函数来进行的测试。在每一个测试用例中都有一小段代码，它们会创建一个或多个房间，然后去确认房间的功能和你期望的是否一样。它先测试了基本的房间功能，然后测试了路径，最后测试了整个地图。
@@ -131,13 +131,13 @@ Exercise 47 会话
 **我为什么没办法引入 ex47.game ？** 确认你创建了 `ex47/**init**.py` 文件，回到练习 46 看看如何创建。如果问题不是出在这儿，那么你可以这样做： macOS/Linux 系统：
 
 ```py
-1.  `export PYTHONPATH=.`
+export PYTHONPATH=.
 ```
 
 Windows 系统：
 
 ```py
-1.  `$env :PYTHONPATH =  "$env :PYTHONPATH ; . "`
+$env :PYTHONPATH =  "$env :PYTHONPATH ; . "
 ```
 
 最后，确保你是用 `nosetests` 来进行测试，而不是在用 Python。

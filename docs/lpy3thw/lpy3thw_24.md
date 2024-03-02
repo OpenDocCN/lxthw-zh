@@ -7,39 +7,39 @@
 ex20.py
 
 ```py
-1.  1.  `1  from sys import argv`
-    2.  `2`
-    3.  `3 script, input_file = argv`
-    4.  `4`
-    5.  `5  def print_all(f):`
-    6.  `6  print(f.read())`
-    7.  `7`
-    8.  `8  def rewind(f):`
-    9.  `9 f.seek(0)`
-    10.  `10`
-    11.  `11  def print_a_line(line_count, f):`
-    12.  `12  print(line_count, f.readline())`
-    13.  `13`
-    14.  `14 current_file = open(input_file)`
-    15.  `15`
-    16.  `16  print("First let's print the whole file:\n")`
-    17.  `17`
-    18.  `18 print_all(current_file)`
-    19.  `19`
-    20.  `20  print("Now let's rewind, kind of like a tape.")`
-    21.  `21`
-    22.  `22 rewind(current_file)`
-    23.  `23`
-    24.  `24  print("Let's print three lines:")`
-    25.  `25`
-    26.  `26 current_line =  1`
-    27.  `27 print_a_line(current_line, current_file)`
-    28.  `28`
-    29.  `29 current_line = current_line +  1`
-    30.  `30 print_a_line(current_line, current_file)`
-    31.  `31`
-    32.  `32 current_line = current_line +  1`
-    33.  `33 print_a_line(current_line, current_file)`
+1  from sys import argv
+2
+3 script, input_file = argv
+4
+5  def print_all(f):
+6  print(f.read())
+7
+8  def rewind(f):
+9 f.seek(0)
+10
+11  def print_a_line(line_count, f):
+12  print(line_count, f.readline())
+13
+14 current_file = open(input_file)
+15
+16  print("First let's print the whole file:\n")
+17
+18 print_all(current_file)
+19
+20  print("Now let's rewind, kind of like a tape.")
+21
+22 rewind(current_file)
+23
+24  print("Let's print three lines:")
+25
+26 current_line =  1
+27 print_a_line(current_line, current_file)
+28
+29 current_line = current_line +  1
+30 print_a_line(current_line, current_file)
+31
+32 current_line = current_line +  1
+33 print_a_line(current_line, current_file)
 ```
 
 着重注意我们是如何在每次运行 print_a_line 的时候把当前行的数字传递出去的。

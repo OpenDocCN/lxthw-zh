@@ -33,15 +33,15 @@
 ex50.py
 
 ```py
-1.  1.  `1  from flask import  Flask`
-    2.  `2 app =  Flask(__name__)`
-    3.  `3`
-    4.  `4  @app.route('/')`
-    5.  `5  def hello_world():`
-    6.  `6  return  'Hello, World!'`
-    7.  `7`
-    8.  `8  if __name__ ==  "__main__":`
-    9.  `9 app.run()`
+1  from flask import  Flask
+2 app =  Flask(__name__)
+3
+4  @app.route('/')
+5  def hello_world():
+6  return  'Hello, World!'
+7
+8  if __name__ ==  "__main__":
+9 app.run()
 ```
 
 然后像这样运行这个应用：
@@ -115,11 +115,11 @@ ex50.py
 index.html
 
 ```py
-1.  1.  `<html>`
-    2.  `<head>`
-    3.  `<title>Gothons Of Planet Percal #25</title>`
-    4.  `</head>`
-    5.  `<body>`
+<html>
+<head>
+<title>Gothons Of Planet Percal #25</title>
+</head>
+<body>
 
     7.  ``{% if greeting %}``
     8.  ``I just wanted to say``
@@ -139,18 +139,18 @@ index.html
 app.py
 
 ```py
-1.  1.  `1  from flask import  Flask`
-    2.  `2  from flask import render_template`
-    3.  `3`
-    4.  `4 app =  Flask(__name__)`
-    5.  `5`
-    6.  `6  @app.route("/")`
-    7.  `7  def index():`
-    8.  `8 greeting =  "Hello World"`
-    9.  `9  return render_template("index.html", greeting=greeting)`
-    10.  `10`
-    11.  `11  if __name__ ==  "__main__":`
-    12.  `12 app.run()`
+1  from flask import  Flask
+2  from flask import render_template
+3
+4 app =  Flask(__name__)
+5
+6  @app.route("/")
+7  def index():
+8 greeting =  "Hello World"
+9  return render_template("index.html", greeting=greeting)
+10
+11  if __name__ ==  "__main__":
+12 app.run()
 ```
 
 注意一下新的 `render` 变量。以及我如何改变 `index.GET` 的最后一行，使得它能返回 `render.index()`, 并传入你的 `greeting` 变量。

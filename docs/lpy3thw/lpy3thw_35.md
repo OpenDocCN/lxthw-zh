@@ -9,44 +9,44 @@
 ex31.py
 
 ```py
-1.  1.  `1  print("""You enter a dark room with two doors.`
-    2.  `2   Do you go through door #1 or door #2?""")`
-    3.  `3`
-    4.  `4 door = input("> ")`
-    5.  `5`
-    6.  `6  if door ==  "1":`
-    7.  `7  print("There's a giant bear here eating a cheese cake.")`
-    8.  `8  print("What do you do?")`
-    9.  `9  print("1\. Take the cake.")`
+1  print("""You enter a dark room with two doors.
+2   Do you go through door #1 or door #2?""")
+3
+4 door = input("> ")
+5
+6  if door ==  "1":
+7  print("There's a giant bear here eating a cheese cake.")
+8  print("What do you do?")
+9  print("1\. Take the cake.")
     10.  `10  print("2\. Scream at the bear.")` 
-    11.  `11`
-    12.  `12 bear = input("> ")`
-    13.  `13`
-    14.  `14  if bear ==  "1":`
-    15.  `15  print("The bear eats your face off. Good job!")`
-    16.  `16  elif bear ==  "2":`
-    17.  `17  print("The bear eats your legs off. Good job!")`
-    18.  `18  else:`
-    19.  `19  print(f"Well, doing {bear} is probably better.")`
-    20.  `20  print("Bear runs away.")`
-    21.  `21`
-    22.  `22  elif door ==  "2":`
-    23.  `23  print("You stare into the endless abyss at Cthulhu's retina.")`
-    24.  `24  print("1\. Blueberries.")`
-    25.  `25  print("2\. Yellow jacket clothespins.")`
-    26.  `26  print("3\. Understanding revolvers yelling melodies.")`
-    27.  `27`
-    28.  `28 insanity = input("> ")`
-    29.  `29`
-    30.  `30  if insanity ==  "1"  or insanity ==  "2":`
-    31.  `31  print("Your body survives powered by a mind of jello.")`
-    32.  `32  print("Good job!")`
-    33.  `33  else:`
-    34.  `34  print("The insanity rots your eyes into a pool of muck.")`
-    35.  `35  print("Good job!")`
-    36.  `36`
-    37.  `37  else:`
-    38.  `38  print("You stumble around and fall on a knife and die. Good job!")`
+11
+12 bear = input("> ")
+13
+14  if bear ==  "1":
+15  print("The bear eats your face off. Good job!")
+16  elif bear ==  "2":
+17  print("The bear eats your legs off. Good job!")
+18  else:
+19  print(f"Well, doing {bear} is probably better.")
+20  print("Bear runs away.")
+21
+22  elif door ==  "2":
+23  print("You stare into the endless abyss at Cthulhu's retina.")
+24  print("1\. Blueberries.")
+25  print("2\. Yellow jacket clothespins.")
+26  print("3\. Understanding revolvers yelling melodies.")
+27
+28 insanity = input("> ")
+29
+30  if insanity ==  "1"  or insanity ==  "2":
+31  print("Your body survives powered by a mind of jello.")
+32  print("Good job!")
+33  else:
+34  print("The insanity rots your eyes into a pool of muck.")
+35  print("Good job!")
+36
+37  else:
+38  print("You stumble around and fall on a knife and die. Good job!")
 ```
 
 这里很关键的一点是你现在在 if 语句里面又放了一个 if 语句。这在创建“嵌套”（nested）决定的时候非常有用，每一个分支指向另一个选择。

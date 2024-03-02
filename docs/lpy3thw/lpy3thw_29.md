@@ -9,41 +9,41 @@
 ex25.py
 
 ```py
-1.  1.  `1  def break_words(stuff):`
-    2.  `2  """This function will break up words for us."""`
-    3.  `3 words = stuff.split(' ')`
-    4.  `4  return words`
-    5.  `5`
-    6.  `6  def sort_words(words):`
-    7.  `7  """Sorts the words."""`
-    8.  `8  return sorted(words)`
-    9.  `9`
-    10.  `10  def print_first_word(words):`
-    11.  `11  """Prints the first word after popping it off."""`
-    12.  `12 word = words.pop(0)`
-    13.  `13  print(word)`
-    14.  `14`
-    15.  `15  def print_last_word(words):`
-    16.  `16  """Prints the last word after popping it off."""`
-    17.  `17 word = words.pop(-1)`
-    18.  `18  print(word)`
-    19.  `19`
-    20.  `20  def sort_sentence(sentence):`
-    21.  `21  """Takes in a full sentence and returns the sorted words`
-    22.  `22      words = break_words(sentence)`
-    23.  `23      return sort_words(words)`
-    24.  `24`
-    25.  `25  def print_first_and_last(sentence):`
-    26.  `26      """Prints the first and  last words of the sentence."""`
-    27.  `27      words = break_words(sentence)`
-    28.  `28      print_first_word(words)`
-    29.  `29      print_last_word(words)`
-    30.  `30`
-    31.  `31  def print_first_and_last_sorted(sentence):`
-    32.  `32      """Sorts the words then prints the first and  last one.""`
-    33.  `33 words = sort_sentence(sentence)`
-    34.  `34 print_first_word(words)`
-    35.  `35 print_last_word(words)`
+1  def break_words(stuff):
+2  """This function will break up words for us."""
+3 words = stuff.split(' ')
+4  return words
+5
+6  def sort_words(words):
+7  """Sorts the words."""
+8  return sorted(words)
+9
+10  def print_first_word(words):
+11  """Prints the first word after popping it off."""
+12 word = words.pop(0)
+13  print(word)
+14
+15  def print_last_word(words):
+16  """Prints the last word after popping it off."""
+17 word = words.pop(-1)
+18  print(word)
+19
+20  def sort_sentence(sentence):
+21  """Takes in a full sentence and returns the sorted words
+22      words = break_words(sentence)
+23      return sort_words(words)
+24
+25  def print_first_and_last(sentence):
+26      """Prints the first and  last words of the sentence."""
+27      words = break_words(sentence)
+28      print_first_word(words)
+29      print_last_word(words)
+30
+31  def print_first_and_last_sorted(sentence):
+32      """Sorts the words then prints the first and  last one.""
+33 words = sort_sentence(sentence)
+34 print_first_word(words)
+35 print_last_word(words)
 ```
 
 首先，用 `python3.6 ex25.py` 来运行这个脚本，找出你出错的地方，并把它们改正过来。然后对照“你会看到”部分看看运行结果是否一样。
@@ -61,22 +61,22 @@ ex25.py
 练习 25 会话
 
 ```py
-1.  1.  `1  import ex25`
-    2.  `2 sentence =  "All good things come to those who wait."`
-    3.  `3 words = ex25.break_words(sentence)`
-    4.  `4 words`
-    5.  `5 sorted_words = ex25.sort_words(words)`
-    6.  `6 sorted_words`
-    7.  `7 ex25.print_first_word(words)`
-    8.  `8 ex25.print_last_word(words)`
-    9.  `9 words`
-    10.  `10 ex25.print_first_word(sorted_words)`
-    11.  `11 ex25.print_last_word(sorted_words)`
-    12.  `12 sorted_words`
-    13.  `13 sorted_words = ex25.sort_sentence(sentence)`
-    14.  `14 sorted_words`
-    15.  `15 ex25.print_first_and_last(sentence)`
-    16.  `16 ex25.print_first_and_last_sorted(sentence)`
+1  import ex25
+2 sentence =  "All good things come to those who wait."
+3 words = ex25.break_words(sentence)
+4 words
+5 sorted_words = ex25.sort_words(words)
+6 sorted_words
+7 ex25.print_first_word(words)
+8 ex25.print_last_word(words)
+9 words
+10 ex25.print_first_word(sorted_words)
+11 ex25.print_last_word(sorted_words)
+12 sorted_words
+13 sorted_words = ex25.sort_sentence(sentence)
+14 sorted_words
+15 ex25.print_first_and_last(sentence)
+16 ex25.print_first_and_last_sorted(sentence)
 ```
 
 以下是交互模式下输入的结果： 练习 25 Python 会话

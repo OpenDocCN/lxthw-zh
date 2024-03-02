@@ -9,14 +9,14 @@
 ex13.py
 
 ```py
-1.  1.  `1  from sys import argv`
-    2.  `2  # read the WYSS section for how to run this`
-    3.  `3 script, first, second, third = argv`
-    4.  `4`
-    5.  `5  print("The script is called:", script)`
-    6.  `6  print("Your first variable is:", first)`
-    7.  `7  print("Your second variable is:", second)`
-    8.  `8  print("Your third variable is:", third)`
+1  from sys import argv
+2  # read the WYSS section for how to run this
+3 script, first, second, third = argv
+4
+5  print("The script is called:", script)
+6  print("Your first variable is:", first)
+7  print("Your second variable is:", second)
+8  print("Your third variable is:", third)
 ```
 
 第一行我们进行了 “import”（导入），这能让你把 Python 功能库中的功能（features）添加到你的脚本中。Python 会问你你想用什么，而不是一次把所有的功能都给你。它会让你的程序很小，但是它同时也可以为其它阅读你代码的程序员提供参考。

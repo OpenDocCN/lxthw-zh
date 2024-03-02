@@ -7,48 +7,48 @@
 ex24.py
 
 ```py
-1.  1.  `1  print("Let's practice everything.")`
-    2.  `2  print('You\'d need to know \'bout escapes with \\ that do:')`
-    3.  `3  print('\n newlines and \t tabs.')`
-    4.  `4`
-    5.  `5 poem =  """`
-    6.  `6   \tThe lovely world`
-    7.  `7   with logic so firmly planted`
-    8.  `8   cannot discern \n the needs of love`
-    9.  `9   nor comprehend passion from intuition`
-    10.  `10  and requires an explanation`
-    11.  `11  \n\t\twhere there is none.`
-    12.  `12  """`
-    13.  `13`
-    14.  `14  print("--------------")`
-    15.  `15  print(poem)`
-    16.  `16  print("--------------")`
-    17.  `17`
-    18.  `18`
-    19.  `19 five =  10  -  2  +  3  -  6`
+1  print("Let's practice everything.")
+2  print('You\'d need to know \'bout escapes with \\ that do:')
+3  print('\n newlines and \t tabs.')
+4
+5 poem =  """
+6   \tThe lovely world
+7   with logic so firmly planted
+8   cannot discern \n the needs of love
+9   nor comprehend passion from intuition
+10  and requires an explanation
+11  \n\t\twhere there is none.
+12  """
+13
+14  print("--------------")
+15  print(poem)
+16  print("--------------")
+17
+18
+19 five =  10  -  2  +  3  -  6
     20.  `20  print(f"This should be five: {five}")` 
-    21.  `21`
-    22.  `22  def secret_formula(started):`
-    23.  `23 jelly_beans = started *  500`
-    24.  `24 jars = jelly_beans /  1000`
-    25.  `25 crates = jars /  100`
-    26.  `26  return jelly_beans, jars, crates`
-    27.  `27`
-    28.  `28`
-    29.  `29 start_point =  10000`
-    30.  `30 beans, jars, crates = secret_formula(start_point)`
-    31.  `31`
-    32.  `32  # remember that this is another way to format a string`
-    33.  `33  print("With a starting point of: {}".format(start_point))`
-    34.  `34  # it's just like with an f"" string`
-    35.  `35  print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")`
-    36.  `36`
-    37.  `37 start_point = start_point /  10`
-    38.  `38`
-    39.  `39  print("We can also do that this way:")`
-    40.  `40 formula = secret_formula(start_point)`
-    41.  `41  # this is an easy way to apply a list to a format string`
-    42.  `42  print("We'd have {} beans, {} jars, and {} crates.".format(*formula))`
+21
+22  def secret_formula(started):
+23 jelly_beans = started *  500
+24 jars = jelly_beans /  1000
+25 crates = jars /  100
+26  return jelly_beans, jars, crates
+27
+28
+29 start_point =  10000
+30 beans, jars, crates = secret_formula(start_point)
+31
+32  # remember that this is another way to format a string
+33  print("With a starting point of: {}".format(start_point))
+34  # it's just like with an f"" string
+35  print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
+36
+37 start_point = start_point /  10
+38
+39  print("We can also do that this way:")
+40 formula = secret_formula(start_point)
+41  # this is an easy way to apply a list to a format string
+42  print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 ```
 
 ## 你会看到

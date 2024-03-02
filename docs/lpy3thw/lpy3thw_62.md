@@ -23,7 +23,7 @@
 练习 2 Windows 会话
 
 ##  ```py
-1.  `PS C:\Users\zed> pwd Path`
+PS C:\Users\zed> pwd Path
 ``` 
 
 `C:\Users\zed`

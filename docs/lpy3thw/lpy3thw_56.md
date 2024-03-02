@@ -27,141 +27,141 @@
 planisphere.py
 
 ```py
-1.  1.  `1  class  Room(object):`
-    2.  `2`
-    3.  `3  def __init__(self, name, description):`
-    4.  `4  self.name = name`
-    5.  `5  self.description = description`
-    6.  `6  self.paths =  {}`
-    7.  `7`
-    8.  `8  def go(self, direction):`
-    9.  `9  return  self.paths.get(direction,  None)`
-    10.  `10`
-    11.  `11  def add_paths(self, paths):`
-    12.  `12  self.paths.update(paths)`
-    13.  `13`
-    14.  `14`
-    15.  `15 central_corridor =  Room("Central Corridor",`
-    16.  `16  """`
-    17.  `17  The Gothons of Planet Percal #25 have invaded your ship and destroyed`
-    18.  `18  your entire crew. You are the last surviving member and your last`
-    19.  `19  mission is to get the neutron destruct bomb from the Weapons Armory, put`
-    20.  `20  it in the bridge, and blow the ship up after getting into an escape pod.`
-    21.  `21`
-    22.  `22  You're running down the central corridor to the Weapons Armory when a`
-    23.  `23  Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown`
-    24.  `24  costume flowing around his hate filled body. He's blocking the door to`
-    25.  `25  the Armory and about to pull a weapon to blast you.`
-    26.  `26  """)`
-    27.  `27`
-    28.  `28`
-    29.  `29 laser_weapon_armory =  Room("Laser Weapon Armory",`
-    30.  `30  """`
-    31.  `31  Lucky for you they made you learn Gothon insults in the academy. You`
-    32.  `32  tell the one Gothon joke you know: Lbhe zbgure vf fb sng, jura fur fvgf`
-    33.  `33  nebhaq gur ubhfr, fur fvgf nebhaq gur ubhfr. The Gothon stops, tries`
-    34.  `34  not to laugh, then busts out laughing and can't move. While he's`
-    35.  `35  laughing you run up and shoot him square in the head putting him down,`
-    36.  `36  then jump through the Weapon Armory door.`
-    37.  `37`
-    38.  `38  You do a dive roll into the Weapon Armory, crouch and scan the room for`
-    39.  `39  more Gothons that might be hiding. It's dead quiet, too quiet. You`
-    40.  `40  stand up and run to the far side of the room and find the neutron bomb`
-    41.  `41  in its container. There's a keypad lock on the box and you need the`
-    42.  `42  code to get the bomb out. If you get the code wrong 10 times then the`
-    43.  `43  lock closes forever and you can't get the bomb. The code is 3 digits.`
-    44.  `44  """)`
-    45.  `45`
-    46.  `46`
-    47.  `47 the_bridge =  Room("The Bridge",`
-    48.  `48  """`
-    49.  `49  The container clicks open and the seal breaks, letting gas out. You`
-    50.  `50  grab the neutron bomb and run as fast as you can to the bridge where you`
-    51.  `51  must place it in the right spot.`
-    52.  `52`
-    53.  `53  You burst onto the Bridge with the netron destruct bomb under your arm`
-    54.  `54  and surprise 5 Gothons who are trying to take control of the ship. Each`
-    55.  `55  of them has an even uglier clown costume than the last. They haven't`
-    56.  `56  pulled their weapons out yet, as they see the active bomb under your arm`
-    57.  `57  and don't want to set it off.`
-    58.  `58  """)`
-    59.  `59`
-    60.  `60`
-    61.  `61 escape_pod =  Room("Escape Pod",`
-    62.  `62  """`
-    63.  `63  You point your blaster at the bomb under your arm and the Gothons put`
-    64.  `64  their hands up and start to sweat. You inch backward to the door, open`
-    65.  `65  it, and then carefully place the bomb on the floor, pointing your`
-    66.  `66  blaster at it. You then jump back through the door, punch the close`
-    67.  `67  button and blast the lock so the Gothons can't get out. Now that the`
-    68.  `68  bomb is placed you run to the escape pod to get off this tin can.`
-    69.  `69`
-    70.  `70  You rush through the ship desperately trying to make it to the escape`
-    71.  `71  pod before the whole ship explodes. It seems like hardly any Gothons`
-    72.  `72  are on the ship, so your run is clear of interference. You get to the`
-    73.  `73  chamber with the escape pods, and now need to pick one to take. Some of`
-    74.  `74  them could be damaged but you don't have time to look. There's 5 pods,`
-    75.  `75  which one do you take?`
-    76.  `76  """)`
-    77.  `77`
-    78.  `78`
-    79.  `79 the_end_winner =  Room("The End",`
-    80.  `80  """`
-    81.  `81  You jump into pod 2 and hit the eject button. The pod easily slides out`
-    82.  `82  into space heading to the planet below. As it flies to the planet, you`
-    83.  `83  look back and see your ship implode then explode like a bright star,`
-    84.  `84  taking out the Gothon ship at the same time. You won!`
-    85.  `85  """)`
-    86.  `86`
-    87.  `87`
-    88.  `88 the_end_loser =  Room("The End",`
-    89.  `89  """`
-    90.  `90  You jump into a random pod and hit the eject button. The pod escapes`
-    91.  `91  out into the void of space, then implodes as the hull ruptures, crushing`
-    92.  `92  your body into jam jelly.`
-    93.  `93  """`
-    94.  `94  )`
-    95.  `95`
-    96.  `96 escape_pod.add_paths({`
-    97.  `97  '2': the_end_winner,`
-    98.  `98  '*': the_end_loser`
-    99.  `99  })`
-    100.  `100`
-    101.  `101 generic_death =  Room("death",  "You died.")`
-    102.  `102`
-    103.  `103 the_bridge.add_paths({`
-    104.  `104  'throw the bomb': generic_death,`
-    105.  `105  'slowly place the bomb': escape_pod`
-    106.  `106  })`
-    107.  `107`
-    108.  `108 laser_weapon_armory.add_paths({`
-    109.  `109  '0132': the_bridge,`
-    110.  `110  '*': generic_death`
-    111.  `111  })`
-    112.  `112`
-    113.  `113 central_corridor.add_paths({`
-    114.  `114  'shoot!': generic_death,`
-    115.  `115  'dodge!': generic_death,`
-    116.  `116  'tell a joke': laser_weapon_armory`
-    117.  `117  })`
-    118.  `118`
-    119.  `119 START =  'central_corridor'`
-    120.  `120`
-    121.  `121  def load_room(name):`
-    122.  `122  """`
-    123.  `123     There is a potential security problem here.`
-    124.  `124     Who gets to set name? Can that expose a variable?`
-    125.  `125     """`
-    126.  `126  return globals().get(name)`
-    127.  `127`
-    128.  `128  def name_room(room):`
-    129.  `129  """`
-    130.  `130     Same possible security problem. Can you trust room?`
-    131.  `131     What's a better solution than this globals lookup?`
-    132.  `132     """`
-    133.  `133  for key, value in globals().items():`
-    134.  `134  if value == room:`
-    135.  `135  return key`
+1  class  Room(object):
+2
+3  def __init__(self, name, description):
+4  self.name = name
+5  self.description = description
+6  self.paths =  {}
+7
+8  def go(self, direction):
+9  return  self.paths.get(direction,  None)
+10
+11  def add_paths(self, paths):
+12  self.paths.update(paths)
+13
+14
+15 central_corridor =  Room("Central Corridor",
+16  """
+17  The Gothons of Planet Percal #25 have invaded your ship and destroyed
+18  your entire crew. You are the last surviving member and your last
+19  mission is to get the neutron destruct bomb from the Weapons Armory, put
+20  it in the bridge, and blow the ship up after getting into an escape pod.
+21
+22  You're running down the central corridor to the Weapons Armory when a
+23  Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown
+24  costume flowing around his hate filled body. He's blocking the door to
+25  the Armory and about to pull a weapon to blast you.
+26  """)
+27
+28
+29 laser_weapon_armory =  Room("Laser Weapon Armory",
+30  """
+31  Lucky for you they made you learn Gothon insults in the academy. You
+32  tell the one Gothon joke you know: Lbhe zbgure vf fb sng, jura fur fvgf
+33  nebhaq gur ubhfr, fur fvgf nebhaq gur ubhfr. The Gothon stops, tries
+34  not to laugh, then busts out laughing and can't move. While he's
+35  laughing you run up and shoot him square in the head putting him down,
+36  then jump through the Weapon Armory door.
+37
+38  You do a dive roll into the Weapon Armory, crouch and scan the room for
+39  more Gothons that might be hiding. It's dead quiet, too quiet. You
+40  stand up and run to the far side of the room and find the neutron bomb
+41  in its container. There's a keypad lock on the box and you need the
+42  code to get the bomb out. If you get the code wrong 10 times then the
+43  lock closes forever and you can't get the bomb. The code is 3 digits.
+44  """)
+45
+46
+47 the_bridge =  Room("The Bridge",
+48  """
+49  The container clicks open and the seal breaks, letting gas out. You
+50  grab the neutron bomb and run as fast as you can to the bridge where you
+51  must place it in the right spot.
+52
+53  You burst onto the Bridge with the netron destruct bomb under your arm
+54  and surprise 5 Gothons who are trying to take control of the ship. Each
+55  of them has an even uglier clown costume than the last. They haven't
+56  pulled their weapons out yet, as they see the active bomb under your arm
+57  and don't want to set it off.
+58  """)
+59
+60
+61 escape_pod =  Room("Escape Pod",
+62  """
+63  You point your blaster at the bomb under your arm and the Gothons put
+64  their hands up and start to sweat. You inch backward to the door, open
+65  it, and then carefully place the bomb on the floor, pointing your
+66  blaster at it. You then jump back through the door, punch the close
+67  button and blast the lock so the Gothons can't get out. Now that the
+68  bomb is placed you run to the escape pod to get off this tin can.
+69
+70  You rush through the ship desperately trying to make it to the escape
+71  pod before the whole ship explodes. It seems like hardly any Gothons
+72  are on the ship, so your run is clear of interference. You get to the
+73  chamber with the escape pods, and now need to pick one to take. Some of
+74  them could be damaged but you don't have time to look. There's 5 pods,
+75  which one do you take?
+76  """)
+77
+78
+79 the_end_winner =  Room("The End",
+80  """
+81  You jump into pod 2 and hit the eject button. The pod easily slides out
+82  into space heading to the planet below. As it flies to the planet, you
+83  look back and see your ship implode then explode like a bright star,
+84  taking out the Gothon ship at the same time. You won!
+85  """)
+86
+87
+88 the_end_loser =  Room("The End",
+89  """
+90  You jump into a random pod and hit the eject button. The pod escapes
+91  out into the void of space, then implodes as the hull ruptures, crushing
+92  your body into jam jelly.
+93  """
+94  )
+95
+96 escape_pod.add_paths({
+97  '2': the_end_winner,
+98  '*': the_end_loser
+99  })
+100
+101 generic_death =  Room("death",  "You died.")
+102
+103 the_bridge.add_paths({
+104  'throw the bomb': generic_death,
+105  'slowly place the bomb': escape_pod
+106  })
+107
+108 laser_weapon_armory.add_paths({
+109  '0132': the_bridge,
+110  '*': generic_death
+111  })
+112
+113 central_corridor.add_paths({
+114  'shoot!': generic_death,
+115  'dodge!': generic_death,
+116  'tell a joke': laser_weapon_armory
+117  })
+118
+119 START =  'central_corridor'
+120
+121  def load_room(name):
+122  """
+123     There is a potential security problem here.
+124     Who gets to set name? Can that expose a variable?
+125     """
+126  return globals().get(name)
+127
+128  def name_room(room):
+129  """
+130     Same possible security problem. Can you trust room?
+131     What's a better solution than this globals lookup?
+132     """
+133  for key, value in globals().items():
+134  if value == room:
+135  return key
 ```
 
 你会发现我们的 Room 类和地图有一些问题：
@@ -179,45 +179,45 @@ planisphere.py
 planisphere_tests.py
 
 ```py
-1.  1.  `1  from nose.tools import  *`
-    2.  `2  from gothonweb.planisphere import  *`
-    3.  `3`
-    4.  `4  def test_room():`
-    5.  `5 gold =  Room("GoldRoom",`
-    6.  `6  """This room has gold in it you can grab. There's a`
-    7.  `7       door to the north.""")`
-    8.  `8 assert_equal(gold.name,  "GoldRoom")`
-    9.  `9 assert_equal(gold.paths,  {})`
-    10.  `10`
-    11.  `11  def test_room_paths():`
-    12.  `12 center =  Room("Center",  "Test room in the center.")`
-    13.  `13 north =  Room("North",  "Test room in the north.")`
-    14.  `14 south =  Room("South",  "Test room in the south.")`
-    15.  `15`
-    16.  `16 center.add_paths({'north': north,  'south': south})`
-    17.  `17 assert_equal(center.go('north'), north)`
-    18.  `18 assert_equal(center.go('south'), south)`
-    19.  `19`
-    20.  `20  def test_map():`
-    21.  `21 start =  Room("Start",  "You can go west and down a hole."`
-    22.  `22 west =  Room("Trees",  "There are trees here, you can go east.")`
-    23.  `23 down =  Room("Dungeon",  "It's dark down here, you can go up.")`
-    24.  `24`
-    25.  `25 start.add_paths({'west': west,  'down': down})`
-    26.  `26 west.add_paths({'east': start})`
-    27.  `27 down.add_paths({'up': start})`
-    28.  `28`
-    29.  `29 assert_equal(start.go('west'), west)`
-    30.  `30 assert_equal(start.go('west').go('east'), start)`
-    31.  `31 assert_equal(start.go('down').go('up'), start)`
-    32.  `32`
-    33.  `33  def test_gothon_game_map():`
-    34.  `34 start_room = load_room(START)`
-    35.  `35 assert_equal(start_room.go('shoot!'), generic_death)`
-    36.  `36 assert_equal(start_room.go('dodge!'), generic_death)`
-    37.  `37`
-    38.  `38 room = start_room.go('tell a joke')`
-    39.  `39 assert_equal(room, laser_weapon_armory)`
+1  from nose.tools import  *
+2  from gothonweb.planisphere import  *
+3
+4  def test_room():
+5 gold =  Room("GoldRoom",
+6  """This room has gold in it you can grab. There's a
+7       door to the north.""")
+8 assert_equal(gold.name,  "GoldRoom")
+9 assert_equal(gold.paths,  {})
+10
+11  def test_room_paths():
+12 center =  Room("Center",  "Test room in the center.")
+13 north =  Room("North",  "Test room in the north.")
+14 south =  Room("South",  "Test room in the south.")
+15
+16 center.add_paths({'north': north,  'south': south})
+17 assert_equal(center.go('north'), north)
+18 assert_equal(center.go('south'), south)
+19
+20  def test_map():
+21 start =  Room("Start",  "You can go west and down a hole."
+22 west =  Room("Trees",  "There are trees here, you can go east.")
+23 down =  Room("Dungeon",  "It's dark down here, you can go up.")
+24
+25 start.add_paths({'west': west,  'down': down})
+26 west.add_paths({'east': start})
+27 down.add_paths({'up': start})
+28
+29 assert_equal(start.go('west'), west)
+30 assert_equal(start.go('west').go('east'), start)
+31 assert_equal(start.go('down').go('up'), start)
+32
+33  def test_gothon_game_map():
+34 start_room = load_room(START)
+35 assert_equal(start_room.go('shoot!'), generic_death)
+36 assert_equal(start_room.go('dodge!'), generic_death)
+37
+38 room = start_room.go('tell a joke')
+39 assert_equal(room, laser_weapon_armory)
 ```
 
 你在这部分练习中的任务是完成这个地图，并且让自动测试可以完整地检查过整个地图。这包括将所有的 `generic_death` 对象修正为游戏中实际的失败结尾。让你的代码成功运行起来，并让你的测试越全面越好。后面我们会对地图做一些修改，到时候这些测试将保证修改后的代码还可以正常工作。
@@ -241,49 +241,49 @@ planisphere_tests.py
 app.py
 
 ```py
-1.  1.  `1  from flask import  Flask, session, redirect, url_for, escape, request`
-    2.  `2  from flask import render_template`
-    3.  `3  from gothonweb import planisphere`
-    4.  `4`
-    5.  `5 app =  Flask(__name__)`
-    6.  `6`
-    7.  `7  @app.route("/")`
-    8.  `8  def index():`
-    9.  `9  # this is used to "setup" the session with starting value`
-    10.  `10 session['room_name']  = planisphere.START`
-    11.  `11  return redirect(url_for("game"))`
-    12.  `12`
-    13.  `13  @app.route("/game", methods=['GET',  'POST'])`
-    14.  `14  def game():`
-    15.  `15 room_name = session.get('room_name')`
-    16.  `16`
-    17.  `17  if request.method ==  "GET":`
-    18.  `18  if room_name:`
-    19.  `19 room = planisphere.load_room(room_name)`
-    20.  `20  return render_template("show_room.html", room=room)`
-    21.  `21  else:`
-    22.  `22  # why is there here? do you need it?'`
-    23.  `23  return render_template("you_died.html")`
-    24.  `24  else:`
-    25.  `25 action = request.form.get('action')`
-    26.  `26`
-    27.  `27  if room_name and action:`
-    28.  `28 room = planisphere.load_room(room_name)`
-    29.  `29 next_room = room.go(action)`
-    30.  `30`
-    31.  `31  if  not next_room:`
-    32.  `32 session['room_name']  = planisphere.name_room`
-    33.  `33  else:`
-    34.  `34 session['room_name']  = planisphere.name_room`
-    35.  `35`
-    36.  `36  return redirect(url_for("game"))`
-    37.  `37`
-    38.  `38`
-    39.  `39  # YOU SHOULD CHANGE THIS IF YOU PUT ON THE INTERNET`
-    40.  `40 app.secret_key =  'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'`
-    41.  `41`
-    42.  `42  if __name__ ==  "__main__":`
-    43.  `43 app.run()`
+1  from flask import  Flask, session, redirect, url_for, escape, request
+2  from flask import render_template
+3  from gothonweb import planisphere
+4
+5 app =  Flask(__name__)
+6
+7  @app.route("/")
+8  def index():
+9  # this is used to "setup" the session with starting value
+10 session['room_name']  = planisphere.START
+11  return redirect(url_for("game"))
+12
+13  @app.route("/game", methods=['GET',  'POST'])
+14  def game():
+15 room_name = session.get('room_name')
+16
+17  if request.method ==  "GET":
+18  if room_name:
+19 room = planisphere.load_room(room_name)
+20  return render_template("show_room.html", room=room)
+21  else:
+22  # why is there here? do you need it?'
+23  return render_template("you_died.html")
+24  else:
+25 action = request.form.get('action')
+26
+27  if room_name and action:
+28 room = planisphere.load_room(room_name)
+29 next_room = room.go(action)
+30
+31  if  not next_room:
+32 session['room_name']  = planisphere.name_room
+33  else:
+34 session['room_name']  = planisphere.name_room
+35
+36  return redirect(url_for("game"))
+37
+38
+39  # YOU SHOULD CHANGE THIS IF YOU PUT ON THE INTERNET
+40 app.secret_key =  'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+41
+42  if __name__ ==  "__main__":
+43 app.run()
 ```
 
 这个脚本中有更多的新东西，但神奇的是，这个小文件是一个完全基于 web 的游戏引擎。在运行 `app.py` 之前，需要更改 PYTHONPATH 环境变量。不知道那是什么？我知道这有点枯燥，但你必须学习这是什么来运行基本的 Python 程序，没办法，用 Python 的人就喜欢这样。
@@ -291,13 +291,13 @@ app.py
 在你的终端输入：
 
 ```py
-1.  `export PYTHONPATH=$PYTHONPATH:.`
+export PYTHONPATH=$PYTHONPATH:.
 ```
 
 在 Windows 的 PowerShell 中输入：
 
 ```py
-1.  `$env:PYTHONPATH =  "$env:PYTHONPATH;."`
+$env:PYTHONPATH =  "$env:PYTHONPATH;."
 ```
 
 你只要针对每一个命令行会话界面输入一次就可以了，不过如果你运行 Python 代码时看到了 import error，或者你输入错误，那就需要再去执行一下上面的命令。
@@ -307,7 +307,7 @@ app.py
 show_room.html
 
 ```py
-1.  1.  `{%  extends  "layout.html"  %}`
+{%  extends  "layout.html"  %}
 
     3.  ``{% block content %}``
 
@@ -335,7 +335,7 @@ show_room.html
 you_died.html
 
 ```py
-1.  1.  `<h1>You Died!</h1>`
+<h1>You Died!</h1>
 
     3.  ``<p>Looks like you bit the dust.</p>``
     4.  ``<p><a  href="/">Play Again</a></p>``

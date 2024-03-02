@@ -7,30 +7,30 @@
 ex17.py
 
 ```py
-1.  1.  `1  from sys import argv`
-    2.  `2  from os.path import exists`
-    3.  `3`
-    4.  `4 script, from_file, to_file = argv`
-    5.  `5`
-    6.  `6  print(f"Copying from {from_file} to {to_file}")`
-    7.  `7`
-    8.  `8  # we could do these two on one line, how?`
-    9.  `9 in_file = open(from_file)`
-    10.  `10 indata = in_file.read()`
-    11.  `11`
-    12.  `12  print(f"The input file is {len(indata)} bytes long")`
-    13.  `13`
-    14.  `14  print(f"Does the output file exist? {exists(to_file)}")`
-    15.  `15  print("Ready, hit RETURN to continue, CTRL-C to abort.")`
-    16.  `16 input()`
-    17.  `17`
-    18.  `18 out_file = open(to_file,  'w')`
-    19.  `19 out_file.write(indata)`
-    20.  `20`
-    21.  `21  print("Alright, all done.")`
-    22.  `22`
-    23.  `23 out_file.close()`
-    24.  `24 in_file.close()`
+1  from sys import argv
+2  from os.path import exists
+3
+4 script, from_file, to_file = argv
+5
+6  print(f"Copying from {from_file} to {to_file}")
+7
+8  # we could do these two on one line, how?
+9 in_file = open(from_file)
+10 indata = in_file.read()
+11
+12  print(f"The input file is {len(indata)} bytes long")
+13
+14  print(f"Does the output file exist? {exists(to_file)}")
+15  print("Ready, hit RETURN to continue, CTRL-C to abort.")
+16 input()
+17
+18 out_file = open(to_file,  'w')
+19 out_file.write(indata)
+20
+21  print("Alright, all done.")
+22
+23 out_file.close()
+24 in_file.close()
 ```
 
 你应该会很快注意到我们输出了另一个常用命令 `exists`。它会基于一个字符串里面的变量文件名来判断，如果一个文件存在，它就会返回 `True`，不存在就会返回 `False`。我们会在这本书的下半部分经常使用这个函数，现在你只用知道你是如何输出它的。

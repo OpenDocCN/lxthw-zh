@@ -15,8 +15,8 @@ Python 是一门“面向对象的编程语言”（Object Oriented Programming�
 ex40a.py
 
 ```py
-1.  1.  `1 mystuff =  {'apple':  "I AM APPLES!"}`
-    2.  `2  print(mystuff['apple'])`
+1 mystuff =  {'apple':  "I AM APPLES!"}
+2  print(mystuff['apple'])
 ```
 
 记住这种 "get X from Y" 的方式。现在想想模块。你已经用过一些了，应该知道它们是：
@@ -28,8 +28,8 @@ ex40a.py
 mystuff.py
 
 ```py
-1.  1.  `1  def apple():`
-    2.  `2  print("I AM APPLES!")`
+1  def apple():
+2  print("I AM APPLES!")
 ```
 
 **ai 酱注：**新建一个 mystuff.py 文件来输入。
@@ -39,8 +39,8 @@ mystuff.py
 ex40b.py
 
 ```py
-1.  1.  `1  import mystuff`
-    2.  `2 mystuff.apple()`
+1  import mystuff
+2 mystuff.apple()
 ```
 
 **ai 酱注：**新建一个 ex40b.py 文件来输入。
@@ -50,11 +50,11 @@ ex40b.py
 mystuff.py
 
 ```py
-1.  1.  `1  def apple():`
-    2.  `2  print("I AM APPLES!")`
-    3.  `3`
-    4.  `4  # this is just a variable`
-    5.  `5 tangerine =  "Living reflection of a dream"`
+1  def apple():
+2  print("I AM APPLES!")
+3
+4  # this is just a variable
+5 tangerine =  "Living reflection of a dream"
 ```
 
 **ai 酱注：**继续在 mystuff.py 文件中输入第 4-5 行。
@@ -64,10 +64,10 @@ mystuff.py
 ex40b.py
 
 ```py
-1.  1.  `1  import mystuff`
-    2.  `2`
-    3.  `3 mystuff.apple()`
-    4.  `4  print(mystuff.tangerine)`
+1  import mystuff
+2
+3 mystuff.apple()
+4  print(mystuff.tangerine)
 ```
 
 **ai 酱注：**继续在 ex40b.py 文件中输入第 4 行。
@@ -75,9 +75,9 @@ ex40b.py
 说回字典，你应该已经意识到了上述模块的使用与字典非常类似，但是语法有些不一样，让我们对比一下：
 
 ```py
-1.  1.  `1 mystuff['apple']  # get apple from dict`
-    2.  `2 mystuff.apple()  # get apple from the module`
-    3.  `3 mystuff.tangerine # same thing, it's just a variable`
+1 mystuff['apple']  # get apple from dict
+2 mystuff.apple()  # get apple from the module
+3 mystuff.tangerine # same thing, it's just a variable
 ```
 
 这表明 Python 中有一个非常通用的模式：
@@ -94,13 +94,13 @@ ex40b.py
 ex40c.py
 
 ```py
-1.  1.  `1  class  MyStuff(object):`
-    2.  `2`
-    3.  `3  def __init__ (self):`
-    4.  `4  self.tangerine =  "And now a thousand years between"`
-    5.  `5`
-    6.  `6  def apple(self):`
-    7.  `7  print("I AM CLASSY APPLES!")`
+1  class  MyStuff(object):
+2
+3  def __init__ (self):
+4  self.tangerine =  "And now a thousand years between"
+5
+6  def apple(self):
+7  print("I AM CLASSY APPLES!")
 ```
 
 **ai 酱注：**新建一个 ex40c.py 文件来输入。
@@ -120,9 +120,9 @@ ex40c.py
 ex40c.py
 
 ```py
-1.  1.  `1 thing =  MyStuff()`
-    2.  `2 thing.apple()`
-    3.  `3  print(thing.tangerine)`
+1 thing =  MyStuff()
+2 thing.apple()
+3  print(thing.tangerine)
 ```
 
 **ai 酱注：**继续在 ex40c.py 文件中输入。
@@ -157,25 +157,25 @@ ex40c.py
 ex40.py
 
 ```py
-1.  1.  `1  class  Song(object):`
-    2.  `2`
-    3.  `3  def __init__(self, lyrics):`
-    4.  `4  self.lyrics = lyrics`
-    5.  `5`
-    6.  `6  def sing_me_a_song(self):`
-    7.  `7  for line in  self.lyrics:`
-    8.  `8  print(line)`
-    9.  `9`
-    10.  `10 happy_bday =  Song(["Happy birthday to you",`
-    11.  `11  "I don't want to get sued",`
-    12.  `12  "So I'll stop right there"])`
-    13.  `13`
-    14.  `14 bulls_on_parade =  Song(["They rally around tha family",`
-    15.  `15  "With pockets full of shells"])`
-    16.  `16`
-    17.  `17 happy_bday.sing_me_a_song()`
-    18.  `18`
-    19.  `19 bulls_on_parade.sing_me_a_song()`
+1  class  Song(object):
+2
+3  def __init__(self, lyrics):
+4  self.lyrics = lyrics
+5
+6  def sing_me_a_song(self):
+7  for line in  self.lyrics:
+8  print(line)
+9
+10 happy_bday =  Song(["Happy birthday to you",
+11  "I don't want to get sued",
+12  "So I'll stop right there"])
+13
+14 bulls_on_parade =  Song(["They rally around tha family",
+15  "With pockets full of shells"])
+16
+17 happy_bday.sing_me_a_song()
+18
+19 bulls_on_parade.sing_me_a_song()
 ```
 
 ## 你会看到

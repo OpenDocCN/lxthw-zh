@@ -7,14 +7,14 @@
 ex2.py
 
 ```py
-1.  1.  `1  # A comment, this is so you can read your program later.`
+1  # A comment, this is so you can read your program later.
     2.  `2  # Anything after the # is ignored by python.` 
-    3.  `3`
-    4.  `4  print("I could have code like this.")  # and the comment after 5`
-    5.  `6  # You can also use a comment to "disable" or comment out code`
+3
+4  print("I could have code like this.")  # and the comment after 5
+6  # You can also use a comment to "disable" or comment out code
     6.  `7  # print("This won't run.")` 
-    7.  `8`
-    8.  `9  print("This will run.")`
+8
+9  print("This will run.")
 ```
 
 从现在开始，我都会这样写代码。你得明白不是所有的东西都得在字面上保持一致，你的屏幕和程序可能看起来跟我的不一样，但是只要你在编辑器里输入的文本一样就行。事实上，我用任何文本编辑器都可以输出同样的结果。
