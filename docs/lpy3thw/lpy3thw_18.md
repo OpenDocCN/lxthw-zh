@@ -51,7 +51,7 @@ What kind of computer do you have?
 11.  ``Alright, so you said Yes about liking me.``12.  ``You live in  San  Francisco.  Not sure where that is.``13.  ``And you have a Tandy  1000 computer.  Nice.``
 ```
 
- `## 附加练习
+## 附加练习
 
 *   查查看 Zork 和 Adventure 游戏是什么，找来玩玩。
 *   把 `prompt` 变量改成别的东西。

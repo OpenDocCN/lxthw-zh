@@ -133,21 +133,21 @@ ex50.py
 index.html
 
 ```py
-<html>
-<head>
-<title>Gothons Of Planet Percal #25</title>
-</head>
-<body>
+1. <html>
+2. <head>
+3. <title>Gothons Of Planet Percal #25</title>
+4. </head>
+5. <body>
 
-    7.  ``{% if greeting %}``
-    8.  ``I just wanted to say``
-    9.  ``<em  style="color: green; font-size:  2em;">{{ greeting }}</em>``
-    10.  ``{% else %}``
-    11.  ``<em>Hello</em>, world!``
-    12.  ``{% endif %}``
+7.  {% if greeting %}
+8.  I just wanted to say
+9.  <em  style="color: green; font-size:  2em;">{{ greeting }}</em>
+10.  {% else %}
+11.  <em>Hello</em>, world!
+12.  {% endif %}
 
-    14.  ```</body>```py
-    15.  ```</html>```py
+14.  </body>
+15.  </html>
 ```
 
 如果你知道 HTML 是什么，那这些代码你应该看起来很熟悉。如果不知道的话，搜一下 HTML，试着亲手写一些网页，这样你就能知道它是如何运行的。这个 HTML 文件只是一个模板，这意味着 flask 会将你给传给它的变量放进模板中的这些“洞”（holes）里。每个 `$greeting` 所在的地方都代表一个变量，你可以传给这个模板来改变它的内容。

@@ -28,7 +28,7 @@ $
 3.  ``> cat test2.txt I am a fun guy.``4.  ``Don't you know why? Because I make poems, that make babies cry.``5.  ``> cat test.txt``6.  ``Hi there this is cool.``7.  ``>``
 ```
 
- `### 55.14.2 你学到的
+### 55.14.2 你学到的
 
 你已经学习了第一个命令，这个命令只是为了让你检查一下那个文件确实在。然后你把这个文件 `cat` 到屏幕，`cat` 命令是把整个文件内容全部呈现到屏幕上，没有翻页或者停止。
 

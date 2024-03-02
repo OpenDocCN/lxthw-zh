@@ -8,11 +8,11 @@ ex2.py
 
 ```py
 1  # A comment, this is so you can read your program later.
-    2.  `2  # Anything after the # is ignored by python.` 
+2  # Anything after the # is ignored by python.
 3
 4  print("I could have code like this.")  # and the comment after 5
 6  # You can also use a comment to "disable" or comment out code
-    6.  `7  # print("This won't run.")` 
+7  # print("This won't run.")
 8
 9  print("This will run.")
 ```

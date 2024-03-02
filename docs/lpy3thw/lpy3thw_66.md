@@ -36,7 +36,7 @@ $ ls stuff
 22.  ``$``
 ```
 
- `#### Windows
+#### Windows
 
 练习 6 Windows 会话
 

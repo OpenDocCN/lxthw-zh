@@ -266,9 +266,9 @@ ex43.py
 6  "Such a luser.",
 7  "I have a small puppy that's better at this.",
 8  "You're worse than your Dad's jokes."
-    9.  `9` 
-    10.  `10  ]` 
-    11.  `11` 
+9 
+10  ] 
+11 
 12  def enter(self):
 13  print(Death.quips[randint(0, len(self.quips)-1)])
 14  exit(1)
@@ -529,7 +529,7 @@ Like a world class boxer you dodge, weave, slip and slide right as the Gothon's 
 You're worse than your Dad's jokes.
 ```
 
- ``## 附加练习
+## 附加练习
 
 *   改变它！也许你不喜欢这个游戏，因为太暴力了，也可能你对科幻不感兴趣。先让游戏运行起来，然后把它变成你喜欢的样子。这是你的电脑，你可以让它做你想做的。
 

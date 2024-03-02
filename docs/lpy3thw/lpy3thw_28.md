@@ -26,7 +26,7 @@ ex24.py
 17
 18
 19 five =  10  -  2  +  3  -  6
-    20.  `20  print(f"This should be five: {five}")` 
+20  print(f"This should be five: {five}")
 21
 22  def secret_formula(started):
 23 jelly_beans = started *  500

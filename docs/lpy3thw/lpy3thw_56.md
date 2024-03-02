@@ -307,41 +307,41 @@ $env:PYTHONPATH =  "$env:PYTHONPATH;."
 show_room.html
 
 ```py
-{%  extends  "layout.html"  %}
+1. {%  extends  "layout.html"  %}
 
-    3.  ``{% block content %}``
+3.  {% block content %}
 
-    5.  ```<h1>  {{ room.name }}  </h1>```py
+5.  <h1>  {{ room.name }}  </h1>
 
-    7.  ````<pre>```py`
-    8.  ```{{ room.description }}```py
-    9.  ```</pre>```py
+7.  <pre>
+8.  {{ room.description }}
+9.  </pre>
 
-    11.  ````{%  if room.name in  ["death",  "The End"]  %}```py`
-    12.  ```<p><a href="/">Play  Again?</a></p>```py
-    13.  ```{%  else  %}```py
-    14.  ```<p>```py
-    15.  ```<form action="/game" method="POST">```py
-    16.  ```-  <input type="text" name="action">  <input type="SUBMIT">```py
-    17.  ```</form>```py
-    18.  ```</p>```py
-    19.  ```{% endif %}```py
+11.  {%  if room.name in  ["death",  "The End"]  %}
+12.  <p><a href="/">Play  Again?</a></p>
+13.  {%  else  %}
+14.  <p>
+15.  <form action="/game" method="POST">
+16.  -  <input type="text" name="action">  <input type="SUBMIT">
+17.  </form>
+18.  </p>
+19.  {% endif %}
 
-    21.  ````{% endblock %}```py`
+21.  {% endblock %}
 ```
 
- ``这是在游戏中显示房间的模板。接下来你需要一个模板来告诉用户他们已经死了，以防他们意外地去到地图的结尾，也就是 templates/you_die .html：
+这是在游戏中显示房间的模板。接下来你需要一个模板来告诉用户他们已经死了，以防他们意外地去到地图的结尾，也就是 templates/you_die .html：
 
 you_died.html
 
 ```py
-<h1>You Died!</h1>
+1.  <h1>You Died!</h1>
 
-    3.  ``<p>Looks like you bit the dust.</p>``
-    4.  ``<p><a  href="/">Play Again</a></p>``
+3.  <p>Looks like you bit the dust.</p>
+4.  <p><a  href="/">Play Again</a></p>
 ```
 
- `这些都弄好了之后，你可以这样做：
+这些都弄好了之后，你可以这样做：
 
 *   让 `tests/app_tests.py` 再次运行来测试这个游戏。因为有会话，所以你只需要在游戏里点几下就行。不过，你应该能做一些基本操作。
 *   运行 `python3.6 app.py` 脚本来玩一下这个游戏。你需要和往常一样刷新和修正你的游戏，慢慢修改游戏的 HTML 文件和引擎，直到你实现游戏需要的所有功能为止。

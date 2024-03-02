@@ -23,7 +23,7 @@ $ pushd i/like
 11.  ``~/temp/i/like ~/temp``12.  ``$ pwd``13.  ``~/temp/i/like``14.  ``$ pushd icecream``15.  ``~/temp/i/like/icecream ~/temp/i/like ~/temp``16.  ``$ pwd``17.  ``~/temp/i/like/icecream``18.  ``$ popd``19.  ``~/temp/i/like ~/temp``20.  ``$ pwd``21.  ``~/temp/i/like``22.  ``$ popd``23.  ``~/temp``24.  ``$ pushd i/like/icecream``25.  ``~/temp/i/like/icecream ~/temp``26.  ``$ pushd``27.  ``~/temp ~/temp/i/like/icecream``28.  ``$ pwd``29.  ``~/temp``30.  ``$ pushd``31.  ``~/temp/i/like/icecream ~/temp``32.  ``$ pwd``33.  ``~/temp/i/like/icecream``34.  ``$``
 ```
 
- `#### Windows
+#### Windows
 
 练习 8 Windows 会话
 

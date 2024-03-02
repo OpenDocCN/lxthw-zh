@@ -18,7 +18,7 @@
 5 cars_not_driven = cars - drivers
 6 cars_driven = drivers
 7 carpool_capacity = cars_driven * space_in_a_car
-    8.  `8 average_passengers_per_car = passengers / cars_driven` 
+8 average_passengers_per_car = passengers / cars_driven 
 9
 10
 11  print("There are", cars,  "cars available.")

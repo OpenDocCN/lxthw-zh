@@ -19,7 +19,7 @@ ex29.py
 10  print("Not many cats! The world is saved!")
 11
 12  if people < dogs:
-    13.  `13  print("The world is drooled on!")` 
+13  print("The world is drooled on!")
 14
 15  if people > dogs:
 16  print("The world is dry!")

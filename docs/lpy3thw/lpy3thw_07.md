@@ -58,7 +58,7 @@ Is it greater or equal?  True
 12.  ``Is it less or equal?  False``
 ```
 
- `## 课后练习
+## 课后练习
 
 *   在每一行上面，用 `#` 写一句注释，向自己解释这行代码的作用。
 *   还记得你在练习 0 中是如何启动 Python 3.6 的吗？再次启动它，把 Python 当成一个计算器来做一些数学运算。

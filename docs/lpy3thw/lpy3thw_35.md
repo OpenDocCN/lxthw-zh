@@ -18,7 +18,7 @@ ex31.py
 7  print("There's a giant bear here eating a cheese cake.")
 8  print("What do you do?")
 9  print("1\. Take the cake.")
-    10.  `10  print("2\. Scream at the bear.")` 
+10  print("2\. Scream at the bear.") 
 11
 12 bear = input("> ")
 13

@@ -41,7 +41,7 @@ Aug
 12.  ``There's something going on here.``13.  ``With the three double-quotes.``14.  ``We'll be able to type as much as we like.``15.  ``Even  4 lines if we want,  or  5,  or  6.``
 ```
 
- `## 附加练习
+## 附加练习
 
 *   检查你的代码，把错误记下来，以避免再犯。
 *   你有打乱你的代码然后重新修复吗？

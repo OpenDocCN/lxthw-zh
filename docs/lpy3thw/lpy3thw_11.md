@@ -42,7 +42,7 @@ And everywhere that Mary went.
 6.  ``..........``7.  ``Cheese  Burger``
 ```
 
- `## 附加练习
+## 附加练习
 
 接下来的附加练习基本也跟前面一样：
 

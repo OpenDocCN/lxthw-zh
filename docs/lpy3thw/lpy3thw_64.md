@@ -18,7 +18,7 @@ $ cd ~
 4.  ``$ mkdir temp``5.  ``$ mkdir temp/stuff``6.  ``$ mkdir temp/stuff/things``7.  ``$ mkdir -p temp/stuff/things/orange/apple/pear/grape``8.  ``$``
 ```
 
- `#### Windows
+#### Windows
 
 练习 4 Windows 会话
 
@@ -48,7 +48,7 @@ d----  12/17/2011  9:03 AM      grape
 >
 ```
 
- ```pypwd` 和 `cd ~` 命令我只列这一次，但是记住，做每个练习之前你都要做这个操作。
+`pypwd` 和 `cd ~` 命令我只列这一次，但是记住，做每个练习之前你都要做这个操作。
 
 ### 55.5.2 你学到的
 

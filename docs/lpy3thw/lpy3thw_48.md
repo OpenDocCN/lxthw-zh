@@ -145,7 +145,7 @@ $ python3.6 ex44c.py
 3.  ``PARENT altered()``4.  ``CHILD, BEFORE PARENT altered()``5.  ``PARENT altered()``6.  ``CHILD, AFTER PARENT altered()``
 ```
 
- `### 44.1.4 三者结合
+### 44.1.4 三者结合
 
 为了解释以上所有情况，我有一个最终版本，用一个文件来说明继承的每种交互情况：
 
@@ -222,14 +222,14 @@ pass
 `super()` 最常用的用法其实是在基类中使用 `**init**` 函数。这通常是你在一个子类中唯一需要做一些操作，然后在父类中完成初始化的地方。下面是一个在用在子类上的简单例子:
 
 ```py
-class  Child  (Parent):
+1.  class  Child  (Parent):
 
-    3.  ``def __init__(self, stuff):``
-    4.  ``self.stuff = stuff``
-    5.  ``super(Child,  self).__init__(  )``
+3.  def __init__(self, stuff):
+4.  self.stuff = stuff
+5.  super(Child,  self).__init__(  )
 ```
 
- `这和上面例子中的 `Child.altered` 很像，除了我在用 `Parent.**init**` 给 Parent 做初始化之前在 `**init**` 里面设置了一些参数。
+这和上面例子中的 `Child.altered` 很像，除了我在用 `Parent.**init**` 给 Parent 做初始化之前在 `**init**` 里面设置了一些参数。
 
 ### 组合
 

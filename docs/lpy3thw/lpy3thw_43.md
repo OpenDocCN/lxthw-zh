@@ -147,7 +147,7 @@ $ python3.6 ex39.py
 
 `NY State has: New York`
 
- `## OR State has: Portland
+## OR State has: Portland
 
 Michigan's abbreviation is: MI
 

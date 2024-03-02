@@ -92,29 +92,29 @@ greeting = f"{greet}, {name}"
 让我们来快速创建一个，从中你可以看出它的工作原理。你需要创建一个新的 HTML 文件 templates/hello_form.html：
 
 ```py
-hello_form.html
+1. hello_form.html
 
-    3.  ``<html>``
-    4.  ``<head>``
-    5.  ``<title>Sample  Web  Form</title>``
-    6.  ``</head>``
-    7.  ``<body>``
+3.  <html>
+4.  <head>
+5.  <title>Sample  Web  Form</title>
+6.  </head>
+7.  <body>
 
-    9.  ```<h1>Fill  Out  This  Form</h1>```py
+9.  <h1>Fill  Out  This  Form</h1>
 
-    11.  ````<form action="/hello" method="POST">```py`
-    12.  ```A Greeting:  <input type="text" name="greet">```py
-    13.  ```<br/>```py
-    14.  ```Your  Name:  <input type="text" name="name">```py
-    15.  ```<br/>```py
-    16.  ```<input type="submit">```py
-    17.  ```</form>```py
+11.  <form action="/hello" method="POST">
+12.  A Greeting:  <input type="text" name="greet">
+13.  <br/>
+14.  Your  Name:  <input type="text" name="name">
+15.  <br/>
+16.  <input type="submit">
+17.  </form>
 
-    19.  ````</body>```py`
-    20.  ```</html>```py
+19.  </body>
+20.  </html>
 ```
 
- ``然后你需要把 app.py 改成这样：
+然后你需要把 app.py 改成这样：
 
 app.py
 
@@ -171,62 +171,62 @@ app.py
 index_laid_out.html
 
 ```py
-{%  extends  "layout.html"  %}
+1. {%  extends  "layout.html"  %}
 
-    3.  ``{% block content %}``
-    4.  ``{%  if greeting %}``
-    5.  ``I just wanted to say``
-    6.  ``<em style="color: green; font-size: 2em;">{{ greeting }}</em>.``
-    7.  ``{%  else  %}``
-    8.  ``<em>Hello</em>, world!``
-    9.  ``{% endif %}``
+3.  {% block content %}
+4.  {%  if greeting %}
+5.  I just wanted to say
+6.  <em style="color: green; font-size: 2em;">{{ greeting }}</em>.
+7.  {%  else  %}
+8.  <em>Hello</em>, world!
+9.  {% endif %}
 
-    11.  ```{% endblock %}```py
+11.  {% endblock %}
 ```
 
- ``然后将 `templates/hello_form.html` 修改为这样：
+然后将 `templates/hello_form.html` 修改为这样：
 
 hello_form_laid_out.html
 
 ```py
-{%  extends  "layout.html"  %}
+1.  {%  extends  "layout.html"  %}
 
-    3.  ``{% block content %}``
+3.  {% block content %}
 
-    5.  ```<h1>Fill  Out  This  Form</h1>```py
+5.  <h1>Fill  Out  This  Form</h1>
 
-    7.  ````<form action="/hello" method="POST">```py`
-    8.  ```A Greeting:  <input type="text" name="greet">```py
-    9.  ```<br/>```py
-    10.  ```Your  Name:  <input type="text" name="name">```py
-    11.  ```<br/>```py
-    12.  ```<input type="submit">```py
-    13.  ```</form>```py
+7.  <form action="/hello" method="POST">
+8.  A Greeting:  <input type="text" name="greet">
+9.  <br/>
+10.  Your  Name:  <input type="text" name="name">
+11.  <br/>
+12.  <input type="submit">
+13.  </form>
 
-    15.  ````{% endblock %}```py`
+15.  {% endblock %}
 ```
 
- ``我们所做的就是把每一个页面顶部和底部反复用到的“boilerplate”（样板）代码去掉。这些被去掉的代码会被放到一个单独的 `templates/layout.html` 文件中，之后，这些反复用到的代码就由 layout.html 来提供了。
+我们所做的就是把每一个页面顶部和底部反复用到的“boilerplate”（样板）代码去掉。这些被去掉的代码会被放到一个单独的 `templates/layout.html` 文件中，之后，这些反复用到的代码就由 layout.html 来提供了。
 
 修改好之后，创建一个 `templates/layout.html` 文件，内容如下：
 
 layout.html
 
 ```py
-<html>
-<head>
-<title>Gothons From Planet Percal #25</title>
-</head>
-<body>
+1. <html>
+2. <head>
+3. <title>Gothons From Planet Percal #25</title>
+4. </head>
+5. <body>
 
-    7.  ``{% block content %}``
+7.  {% block content %}
 
-    9.  ```{% endblock %}```py
-    10.  ```</body>```py
-    11.  ```</html>```py
+9.  {% endblock %}
+10.  </body>
+11.  </html>
 ```
 
- ``这个文件和普通的模板文件类似，不过它会收到其它模板传递的内容，并将它们“包裹”起来。任何写在这里的内容都无需写在别的模板中了。你的其他 HTML 模板会被插入到 `{% block content %}` 中。Flask 知道要把 `layout.html` 文件用作布局，因为你在模板的顶部放了 `{% extends "layout.html" %}`。
+这个文件和普通的模板文件类似，不过它会收到其它模板传递的内容，并将它们“包裹”起来。任何写在这里的内容都无需写在别的模板中了。你的其他 HTML 模板会被插入到 `{% block content %}` 中。Flask 知道要把 `layout.html` 文件用作布局，因为你在模板的顶部放了 `{% extends "layout.html" %}`。
 
 ## 为表单撰写自动测试代码
 

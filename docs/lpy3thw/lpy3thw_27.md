@@ -44,7 +44,7 @@ ex23.py
 18  print(raw_bytes,  "<===>", cooked_string)
 19
 20
-    21.  `21 languages = open("languages.txt", encoding="utf-8")` 
+21 languages = open("languages.txt", encoding="utf-8") 
 22
 23 main(languages, encoding, error)
 ```
@@ -142,7 +142,7 @@ ex23.py
 18  print(raw_bytes,  "<===>", cooked_string)
 19
 20
-    21.  `21 languages = open("languages.txt", encoding="utf-8")` 
+21 languages = open("languages.txt", encoding="utf-8")
 22
 23 main(languages, encoding, error)
 ```
